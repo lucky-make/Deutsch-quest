@@ -1,0 +1,122 @@
+{
+  "episode": {
+    "id": "b2e6",
+    "arcId": "B2",
+    "cefrLevel": "B2",
+    "title": "Die B2-Prüfung",
+    "titleEn": "The B2 exam",
+    "blurb": "Das Ende der zweiten Staffel: Anmelden, lernen, zittern, bestehen. Der telc B2 ist kein Plot-Twist — er ist der Beweis.",
+    "order": 18,
+    "sceneIds": ["b2e6s1", "b2e6s2", "b2e6s3"]
+  },
+  "cast": [
+    { "id": "mei", "name": "Mei", "role": "Lernpartnerin, Freundin" },
+    { "id": "luise", "name": "Luise", "role": "Café-Besitzerin" },
+    { "id": "pruefer", "name": "Herr Lindner", "role": "Prüfungsleiter" },
+    { "id": "frau-bruegge", "name": "Frau Brügge", "role": "Vermieterin, Freundin" },
+    { "id": "tobias", "name": "Tobias", "role": "Freund" }
+  ],
+  "items": [
+    { "id": "die-volkshochschule", "type": "word", "german": "die Volkshochschule", "meaning": "the adult education centre", "image": "amt", "audio": "tts", "introducedInScene": "b2e6s1", "tags": ["exam", "learning", "admin"], "cefrLevel": "B2", "note": "die, Plural: die Volkshochschulen — kurz: die VHS; dort gibt es Kurse und Prüfungen" },
+    { "id": "sich-anmelden-zur-pruefung", "type": "sentence", "german": "Ich möchte mich zur Prüfung anmelden.", "meaning": "I'd like to register for the exam.", "image": "formular", "audio": "tts", "introducedInScene": "b2e6s1", "tags": ["exam", "admin", "politeness"], "cefrLevel": "B2", "note": "sich anmelden zu + Dativ" },
+    { "id": "der-probetest", "type": "word", "german": "der Probetest", "meaning": "the mock test / practice test", "image": "prüfen", "audio": "tts", "introducedInScene": "b2e6s1", "tags": ["exam", "learning"], "cefrLevel": "B2", "note": "der, Plural: die Probetests" },
+    { "id": "die-anspannung", "type": "word", "german": "die Anspannung", "meaning": "the tension / stress", "image": "thermos", "audio": "tts", "introducedInScene": "b2e6s1", "tags": ["exam", "feelings"], "cefrLevel": "B2", "note": "die ( Singular ) — Gegenteil: die Entspannung" },
+    { "id": "das-ziel-erreichen", "type": "chunk", "german": "Ich will mein Ziel erreichen.", "meaning": "I want to reach my goal.", "image": "ziel", "audio": "tts", "introducedInScene": "b2e6s1", "tags": ["exam", "planning"], "cefrLevel": "B2", "note": "erreichen — Ziele, Orte, Menschen (telefonisch)" },
+    { "id": "wie-lange-lernst-du-schon", "type": "sentence", "german": "Wie lange lernst du schon Deutsch?", "meaning": "How long have you been learning German?", "image": "gespräch", "audio": "tts", "introducedInScene": "b2e6s1", "tags": ["exam", "learning", "questions"], "cefrLevel": "B2", "note": "schon + Präsens — typisch deutsche Frage, ehrlich beantworten" },
+    { "id": "die-hausaufgabe", "type": "word", "german": "die Hausaufgabe", "meaning": "the homework", "image": "lebenslauf", "audio": "tts", "introducedInScene": "b2e6s2", "tags": ["exam", "learning"], "cefrLevel": "B2", "note": "die, Plural: die Hausaufgaben" },
+    { "id": "die-stellungnahme", "type": "word", "german": "die Stellungnahme", "meaning": "the (formal) statement of opinion", "image": "meinung", "audio": "tts", "introducedInScene": "b2e6s2", "tags": ["exam", "writing", "opinion"], "cefrLevel": "B2", "note": "die, Plural: die Stellungnahmen — Kernstück des B2-Schriftausdrucks" },
+    { "id": "meiner-meinung-nach-je", "type": "grammar_pattern", "german": "Je mehr man übt, ___ fühlt man sich.", "meaning": "The more you practice, the ___ (more confident) you feel.", "audio": "tts", "introducedInScene": "b2e6s2", "tags": ["exam", "grammar", "opinion"], "cefrLevel": "B2", "cloze": "desto sicherer", "alt": "desto sicherer fühlt man sich", "speak": "Je mehr man übt, desto sicherer fühlt man sich.", "note": "je … desto — die Doppelvergleichs-Maschine" },
+    { "id": "auf-den-punkt-kommen", "type": "chunk", "german": "Kommen wir auf den Punkt.", "meaning": "Let's get to the point.", "image": "gespräch", "audio": "tts", "introducedInScene": "b2e6s2", "tags": ["exam", "speaking", "opinion"], "cefrLevel": "B2", "note": "Gold wert in jeder Diskussion und Prüfung" },
+    { "id": "hoerverstehen", "type": "word", "german": "das Hörverstehen", "meaning": "the listening comprehension (exam part)", "image": "laut", "audio": "tts", "introducedInScene": "b2e6s2", "tags": ["exam"], "cefrLevel": "B2", "note": "das ( Singular ) — Lesen, Hören, Schreiben, Sprechen: die vier Prüfungsteile" },
+    { "id": "sich-austauschen", "type": "chunk", "german": "Wir tauschen uns aus.", "meaning": "We'll compare notes / discuss.", "image": "gespräch", "audio": "tts", "introducedInScene": "b2e6s2", "tags": ["exam", "learning", "friends"], "cefrLevel": "B2", "note": "sich austauschen — reflexiv, sehr B2" },
+    { "id": "der-pruefungsteil", "type": "word", "german": "der Prüfungsteil", "meaning": "the exam section", "image": "prüfen", "audio": "tts", "introducedInScene": "b2e6s3", "tags": ["exam"], "cefrLevel": "B2", "note": "der, Plural: die Prüfungsteile" },
+    { "id": "ich-habe-bestanden", "type": "grammar_pattern", "german": "Ich habe die Prüfung ___!", "meaning": "I ___ (passed) the exam!", "audio": "tts", "introducedInScene": "b2e6s3", "tags": ["exam", "grammar", "celebration"], "cefrLevel": "B2", "cloze": "bestanden", "speak": "Ich habe die Prüfung bestanden!", "note": "bestehen — Perfekt mit haben" },
+    { "id": "die-erleichterung", "type": "word", "german": "die Erleichterung", "meaning": "the relief", "image": "ruhe", "audio": "tts", "introducedInScene": "b2e6s3", "tags": ["exam", "feelings"], "cefrLevel": "B2", "note": "die ( Singular ) — ein Gefühl wie ausatmen" },
+    { "id": "uebertrieben-gut", "type": "chunk", "german": "Das war übertrieben gut.", "meaning": "That was exceptionally good.", "audio": "tts", "introducedInScene": "b2e6s3", "tags": ["opinion", "smalltalk"], "cefrLevel": "B2", "note": "übertrieben = exaggerated — hier als Kompliment" },
+    { "id": "ein-stueck-heimat", "type": "sentence", "german": "Leipzig ist ein zweites Zuhause geworden.", "meaning": "Leipzig has become a second home.", "image": "heimat", "audio": "tts", "introducedInScene": "b2e6s3", "tags": ["reflection", "feelings"], "cefrLevel": "B2", "note": "werden + Partizip — Zustandsveränderung, sehr deutsch" }
+  ],
+  "scenes": [
+    {
+      "id": "b2e6s1",
+      "episodeId": "b2e6",
+      "title": "Anmeldung & Probetest",
+      "titleEn": "Registration & mock test",
+      "place": "Volkshochschule, Raum 204",
+      "bg": "amt",
+      "contextTags": ["exam", "learning", "admin"],
+      "requiredItems": ["die-vorbereitung", "die-chance"],
+      "introducedItems": ["die-volkshochschule", "sich-anmelden-zur-pruefung", "der-probetest", "die-anspannung", "das-ziel-erreichen", "wie-lange-lernst-du-schon"],
+      "beats": [
+        { "type": "narration", "text": "Volkshochschule Leipzig, Flur mit Kursplänen hinter Glas. Bei der Anmeldung liegt ein Zettel: „telc Deutsch B2 — nächste Prüfung in sechs Wochen.“ Mei schiebt dich fast durch die Tür." },
+        { "type": "line", "speaker": "mei", "text": "Wir melden uns beide an. Wenn du bestehst, zahle ich den Kuchen. Wenn ICH bestehe, zahlst du. Fair?", "translation": "We're both registering. If you pass, I'll pay for the cake. If I pass, you pay. Fair?" },
+        { "type": "meet", "itemIds": ["die-volkshochschule", "sich-anmelden-zur-pruefung", "das-ziel-erreichen"] },
+        { "type": "narration", "text": "Der Probetest liegt vor euch. 90 Minuten Lesen, dann Hören. Nach 40 Minuten hat Mei den Stift durchgebissen." },
+        { "type": "meet", "itemIds": ["der-probetest", "die-anspannung", "wie-lange-lernst-du-schon"] },
+        { "type": "check", "count": 2, "mode": "mixed" },
+        { "type": "choice", "prompt": "Mei, entnervt: „Und, wie lange lernst du schon Deutsch?“", "options": [
+          { "label": "Zwei Jahre. Aber jeden Tag. Jeden!", "line": "Zwei Jahre — aber jeden Tag ein bisschen. Wirklich jeden." },
+          { "label": "Bis mein Ziel erreicht ist. Punkt.", "line": "Bis ich mein Ziel erreiche. Mehr sage ich nicht." }
+        ] },
+        { "type": "line", "speaker": "mei", "text": "„Jeden Tag“ … okay, das ist keine Antwort, das ist ein Lebensstil. Gut. Sechs Wochen. Wir schaffen das.", "translation": "'Every day' … okay, that's not an answer, that's a lifestyle. Fine. Six weeks. We've got this." },
+        { "type": "check", "count": 2, "mode": "mixed" },
+        { "type": "check", "count": 2, "mode": "listen" }
+      ]
+    },
+    {
+      "id": "b2e6s2",
+      "episodeId": "b2e6",
+      "title": "Sechs Wochen",
+      "titleEn": "Six weeks",
+      "place": "Café Luise nach Feierabend, Lerngruppe",
+      "bg": "cafe",
+      "contextTags": ["exam", "learning", "friends"],
+      "requiredItems": ["der-probetest", "die-meinung"],
+      "introducedItems": ["die-hausaufgabe", "die-stellungnahme", "meiner-meinung-nach-je", "auf-den-punkt-kommen", "hoerverstehen", "sich-austauschen"],
+      "beats": [
+        { "type": "narration", "text": "Sechs Wochen sind ein guter Zeitraum für Gewohnheiten: Dienstags und donnerstags, nach Feierabend, Café Luise, Ecktisch. Luise nennt es „euer Büro“, sie bringt Kaffee und hört heimlich zu." },
+        { "type": "meet", "itemIds": ["die-hausaufgabe", "hoerverstehen", "sich-austauschen"] },
+        { "type": "line", "speaker": "mei", "text": "Hausaufgabe, Runde zwei: Stellungnahme. „Sollen Handys in Schulen verboten werden?“ …Schreib. Zehn Minuten. Ich timer.", "translation": "Homework, round two: formal opinion statement. 'Should phones be banned in schools?' …Write. Ten minutes. I'm timing." },
+        { "type": "meet", "itemIds": ["die-stellungnahme", "auf-den-punkt-kommen", "meiner-meinung-nach-je"] },
+        { "type": "check", "count": 2, "mode": "mixed" },
+        { "type": "choice", "prompt": "Mei liest deinen Text. Schweigen. …Dann:", "options": [
+          { "label": "Schlimm, oder?", "line": "Schlimm, oder? …Sag ehrlich." },
+          { "label": "Das war gut, oder? …Oder wenigstens okay?", "line": "Das war gut, oder? …Oder zumindest okay?" }
+        ] },
+        { "type": "line", "speaker": "mei", "text": "Das war … richtig gut. Struktur, Beispiele, am Ende kommst du auf den Punkt. …Wir tauschen uns morgen aus, dann schreibst du Nummer drei. Je mehr man übt, desto sicherer fühlt man sich.", "translation": "That was … really good. Structure, examples, and at the end you get to the point. …We'll compare notes tomorrow, then you'll write number three. The more you practice, the more confident you feel." },
+        { "type": "check", "count": 2, "mode": "mixed" },
+        { "type": "check", "count": 2, "mode": "listen" },
+        { "type": "narration", "text": "Wochen später: Dein Hörverstehen-Score wandert von 60 auf 85 Prozent. Die Anspannung bleibt — aber sie zieht sich aus den Schultern in die Finger." }
+      ]
+    },
+    {
+      "id": "b2e6s3",
+      "episodeId": "b2e6",
+      "title": "Prüfungstag & das Ergebnis",
+      "titleEn": "Exam day & the result",
+      "place": "Volkshochschule, dann Bärbelstraße",
+      "bg": "amt",
+      "contextTags": ["exam", "celebration", "friends"],
+      "requiredItems": ["die-anspannung", "die-stellungnahme"],
+      "introducedItems": ["der-pruefungsteil", "ich-habe-bestanden", "die-erleichterung", "uebertrieben-gut", "ein-stueck-heimat"],
+      "beats": [
+        { "type": "narration", "text": "Prüfungstag. Lesen, Hören, Schreiben vormittags — vier Prüfungsteile, eine Anspannung, null Frühstück. Sprechen nachmittags: Mei und du, zufällig zusammen. Sie zwinkert." },
+        { "type": "meet", "itemIds": ["der-pruefungsteil", "uebertrieben-gut"] },
+        { "type": "line", "speaker": "pruefer", "text": "Ihr habt zwei Minuten Vorbereitungszeit für eure Stellungnahme. …Zeit. Bitte beginnen Sie, Frau Li.", "translation": "You have two minutes of preparation time for your statement. …Time. Please begin, Ms Li." },
+        { "type": "check", "count": 2, "mode": "mixed" },
+        { "type": "narration", "text": "Ihr diskutiert vier Minuten über Digitalisierung und Rücksicht. Du kommst zweimal sauber auf den Punkt. Als es vorbei ist, sagt der Prüfer: „Danke, das war alles.“ — Was auch immer das heißt." },
+        { "type": "check", "count": 2, "mode": "listen" },
+        { "type": "narration", "text": "Vier Wochen später. Ein Brief. Du öffnest ihn erst im Treppenhaus, weil die Hände zittern. „bestanden“ steht da, mit Punktzahl, Datum und Stempel. Du rutschst die Treppe runter und rufst gleichzeitig an: Luise, Mei, Mama." },
+        { "type": "meet", "itemIds": ["ich-habe-bestanden", "die-erleichterung", "ein-stueck-heimat"] },
+        { "type": "line", "speaker": "frau-bruegge", "text": "Bestanden?! …Sam. BESTANDEN! …Ich hab 'nen Kuchen. Nein, ich BACK einen Kuchen. Heute. Sofort.", "translation": "You passed?! …Sam. YOU PASSED! …I have a cake. No, I'm BAKING a cake. Today. Right now." },
+        { "type": "check", "count": 2, "mode": "mixed" },
+        { "type": "choice", "prompt": "Tobias: „Und jetzt? Zertifikat, Anbau, was kommt als Nächstes?“", "options": [
+          { "label": "Erst Kuchen. Dann sehen wir weiter.", "line": "Erst Kuchen. Dann sehen wir weiter. Leipzig ist ein zweites Zuhause geworden." },
+          { "label": "Nächstes Ziel: C1. Aber heute feiern wir!", "line": "Nächstes Ziel: C1. …Aber heute abend feiern wir!" }
+        ] },
+        { "type": "line", "speaker": "tobias", "text": "C1?! …Du bist wahnsinnig. Und genau deshalb passt du hier. …Auf dich, Sam. Und auf alle, die jeden Tag ein bisschen lernen.", "translation": "C1?! …You're insane. And that's exactly why you fit in here. …To you, Sam. And to everyone who learns a little bit every day." },
+        { "type": "check", "count": 2, "mode": "recall" },
+        { "type": "narration", "text": "Abends hängt das Zertifikat an der Wand zwischen zwei Schlüsseln und einem Foto vom Hof. Zwei Jahre. Zwei Staffeln. Ein B2 — und die Stadt, die sich angewöhnt hat, dich zu verstehen. Weiter geht's. Jeden Tag ein bisschen." }
+      ]
+    }
+  ]
+}

@@ -58,7 +58,8 @@ export function renderMap(root: HTMLElement, app: App): void {
   for (const level of ['A1', 'A2', 'B1', 'B2'] as const) {
     const eps = registry.episodes.filter((e) => e.cefrLevel === level)
     if (!eps.length) continue
-    wrap.append(h('div', { class: 'arc' }, h('h2', {}, `Level ${level}`), h('span', { class: 'sub' }, ARC_TITLES[level] ?? '')))
+    const itemCount = registry.items.filter((i) => i.cefrLevel === level).length
+    wrap.append(h('div', { class: 'arc' }, h('h2', {}, `Level ${level}`), h('span', { class: 'sub' }, `${ARC_TITLES[level] ?? ''} · ${eps.length} Folgen · ${itemCount} Inhalte`)))
     const grid = h('div', { class: 'episodes' })
     for (const ep of eps) {
       const scenes = registry.scenesByEpisode.get(ep.id) ?? []

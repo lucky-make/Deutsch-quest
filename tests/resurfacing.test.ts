@@ -64,6 +64,20 @@ describe('named resurfacing chain: „Ich hätte gern …“', () => {
   })
 })
 
+describe('third chain: „die Rechnung“ (A1 café bill → B2 construction invoice)', () => {
+  it('resurfaces in the construction-delay scene via the shared money tag', () => {
+    const item = registry.itemById.get('die-rechnung')!
+    const target = registry.sceneById.get('b2e5s2')!
+    expect(item.introducedInScene).toBe('a1e3s2')
+    expect(target.requiredItems).not.toContain('die-rechnung')
+    const chains = resurfacingChains(registry)
+    const hit = chains.find((c) => c.itemId === 'die-rechnung' && c.toSceneIds.includes('b2e5s2'))
+    expect(hit).toBeDefined()
+    expect(hit!.named).toBe(true)
+    expect(hit!.sharedTags).toContain('money')
+  })
+})
+
 describe('second chain: „der Schlüssel“', () => {
   it('surfaces at the flat handover in B1 via scheduling, not via requiredItems', () => {
     const item = registry.itemById.get('der-schluessel')!

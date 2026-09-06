@@ -1,0 +1,557 @@
+{
+  "episode": {
+    "id": "b1e6",
+    "arcId": "B1",
+    "cefrLevel": "B1",
+    "title": "Der Verein",
+    "titleEn": "The club",
+    "blurb": "Jonas' Fußballverein braucht Leute. Du sagst zu — und lernst gewinnen, verlieren und das Wort Unentschieden auf Herz und Nieren.",
+    "order": 14,
+    "sceneIds": [
+      "b1e6s1",
+      "b1e6s2",
+      "b1e6s3"
+    ]
+  },
+  "cast": [
+    {
+      "id": "jonas",
+      "name": "Jonas",
+      "role": "Handwerker, Vereinsspieler"
+    },
+    {
+      "id": "trainer",
+      "name": "Ines",
+      "role": "Trainerin"
+    },
+    {
+      "id": "tobias",
+      "name": "Tobias",
+      "role": "Freund, Fan"
+    }
+  ],
+  "items": [
+    {
+      "id": "der-verein",
+      "type": "word",
+      "german": "der Verein",
+      "meaning": "the club / association",
+      "image": "team",
+      "audio": "tts",
+      "introducedInScene": "b1e6s1",
+      "tags": [
+        "sport",
+        "friends",
+        "hobby"
+      ],
+      "cefrLevel": "B1",
+      "note": "der, Plural: die Vereine — deutsches Sozialleben läuft über Vereine"
+    },
+    {
+      "id": "das-spiel",
+      "type": "word",
+      "german": "das Spiel",
+      "meaning": "the game / match",
+      "image": "ball",
+      "audio": "tts",
+      "introducedInScene": "b1e6s1",
+      "tags": [
+        "sport"
+      ],
+      "cefrLevel": "B1",
+      "note": "das, Plural: die Spiele"
+    },
+    {
+      "id": "die-mannschaft",
+      "type": "word",
+      "german": "die Mannschaft",
+      "meaning": "the team",
+      "image": "team",
+      "audio": "tts",
+      "introducedInScene": "b1e6s1",
+      "tags": [
+        "sport",
+        "team"
+      ],
+      "cefrLevel": "B1",
+      "note": "die, Plural: die Mannschaften"
+    },
+    {
+      "id": "mitspielen",
+      "type": "chunk",
+      "german": "Ich würde gern mitspielen.",
+      "meaning": "I'd like to play along.",
+      "image": "ball",
+      "audio": "tts",
+      "introducedInScene": "b1e6s1",
+      "tags": [
+        "sport",
+        "wishes"
+      ],
+      "cefrLevel": "B1",
+      "note": "mitspielen = mit + spielen; „würde gern“ = höflicher Wunsch"
+    },
+    {
+      "id": "hast-du-bock",
+      "type": "grammar_pattern",
+      "german": "Hast du Bock, ___?",
+      "meaning": "Are you up for ___-ing? (colloquial invitation)",
+      "audio": "tts",
+      "introducedInScene": "b1e6s1",
+      "tags": [
+        "sport",
+        "invitation",
+        "friends"
+      ],
+      "cefrLevel": "B1",
+      "cloze": "mitzumachen",
+      "alt": [
+        "mitzuspielen",
+        "mitzukommen"
+      ],
+      "speak": "Hast du Bock, mitzumachen?",
+      "note": "Bock haben = ugs. Lust haben — unter Freunden völlig normal"
+    },
+    {
+      "id": "das-training",
+      "type": "word",
+      "german": "das Training",
+      "meaning": "the practice / training session",
+      "image": "ziel",
+      "audio": "tts",
+      "introducedInScene": "b1e6s1",
+      "tags": [
+        "sport",
+        "time"
+      ],
+      "cefrLevel": "B1",
+      "note": "das, Plural: die Trainings — auch Verb: trainieren"
+    },
+    {
+      "id": "der-spieler",
+      "type": "word",
+      "german": "der Spieler",
+      "meaning": "the player (m)",
+      "image": "kunde",
+      "audio": "tts",
+      "introducedInScene": "b1e6s2",
+      "tags": [
+        "sport",
+        "people"
+      ],
+      "cefrLevel": "B1",
+      "note": "der, Plural: die Spieler; weiblich: die Spielerin"
+    },
+    {
+      "id": "das-tor",
+      "type": "word",
+      "german": "das Tor",
+      "meaning": "the goal",
+      "image": "ziel",
+      "audio": "tts",
+      "introducedInScene": "b1e6s2",
+      "tags": [
+        "sport"
+      ],
+      "cefrLevel": "B1",
+      "note": "das, Plural: die Tore — auch: das große Tor (gate)"
+    },
+    {
+      "id": "gewinnen",
+      "type": "sentence",
+      "german": "Wir haben 2:1 gewonnen.",
+      "meaning": "We won 2:1.",
+      "image": "ball",
+      "audio": "tts",
+      "introducedInScene": "b1e6s2",
+      "tags": [
+        "sport"
+      ],
+      "cefrLevel": "B1",
+      "note": "gesprochen: „zwei zu eins“"
+    },
+    {
+      "id": "verlieren",
+      "type": "chunk",
+      "german": "Verlieren gehört dazu.",
+      "meaning": "Losing is part of it.",
+      "image": "ball",
+      "audio": "tts",
+      "introducedInScene": "b1e6s2",
+      "tags": [
+        "sport",
+        "opinion"
+      ],
+      "cefrLevel": "B1"
+    },
+    {
+      "id": "das-unentschieden",
+      "type": "word",
+      "german": "das Unentschieden",
+      "meaning": "the draw / tie",
+      "image": "ball",
+      "audio": "tts",
+      "introducedInScene": "b1e6s2",
+      "tags": [
+        "sport"
+      ],
+      "cefrLevel": "B1",
+      "note": "das, Plural: die Unentschieden — „1:1, Unentschieden“"
+    },
+    {
+      "id": "der-einsatz",
+      "type": "word",
+      "german": "der Einsatz",
+      "meaning": "the commitment / effort",
+      "image": "ziel",
+      "audio": "tts",
+      "introducedInScene": "b1e6s2",
+      "tags": [
+        "sport",
+        "work"
+      ],
+      "cefrLevel": "B1",
+      "note": "der, Plural: die Einsätze — „voller Einsatz\""
+    },
+    {
+      "id": "anfeuern",
+      "type": "sentence",
+      "german": "Die Fans haben uns angefeuert.",
+      "meaning": "The fans cheered us on.",
+      "image": "laut",
+      "audio": "tts",
+      "introducedInScene": "b1e6s3",
+      "tags": [
+        "sport",
+        "friends"
+      ],
+      "cefrLevel": "B1",
+      "note": "anfeuern = an + feuern, trennbar"
+    },
+    {
+      "id": "der-fanblock",
+      "type": "word",
+      "german": "der Fanblock",
+      "meaning": "the supporters' section",
+      "image": "fest",
+      "audio": "tts",
+      "introducedInScene": "b1e6s3",
+      "tags": [
+        "sport",
+        "friends"
+      ],
+      "cefrLevel": "B1"
+    },
+    {
+      "id": "sich-steigern",
+      "type": "chunk",
+      "german": "Wir können uns steigern.",
+      "meaning": "We can improve.",
+      "image": "idee",
+      "audio": "tts",
+      "introducedInScene": "b1e6s3",
+      "tags": [
+        "sport",
+        "opinion"
+      ],
+      "cefrLevel": "B1",
+      "note": "sich steigern — höflichste Art zu sagen: das war mittelprächtig"
+    },
+    {
+      "id": "der-fairplay",
+      "type": "word",
+      "german": "der Fairplay",
+      "meaning": "fair play",
+      "image": "ruhe",
+      "audio": "tts",
+      "introducedInScene": "b1e6s3",
+      "tags": [
+        "sport"
+      ],
+      "cefrLevel": "B1"
+    },
+    {
+      "id": "feiern",
+      "type": "sentence",
+      "german": "Wir feiern heute bis Mitternacht!",
+      "meaning": "We're celebrating until midnight tonight!",
+      "image": "fest",
+      "audio": "tts",
+      "introducedInScene": "b1e6s3",
+      "tags": [
+        "sport",
+        "friends"
+      ],
+      "cefrLevel": "B1"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "b1e6s1",
+      "episodeId": "b1e6",
+      "title": "Jonas' Angebot",
+      "titleEn": "Jonas's offer",
+      "place": "Werkstatt, Hinterhof",
+      "bg": "werkstatt",
+      "contextTags": [
+        "sport",
+        "friends",
+        "hobby"
+      ],
+      "requiredItems": [
+        "das-fahrrad"
+      ],
+      "introducedItems": [
+        "der-verein",
+        "das-spiel",
+        "die-mannschaft",
+        "mitspielen",
+        "hast-du-bock",
+        "das-training"
+      ],
+      "beats": [
+        {
+          "type": "line",
+          "speaker": "jonas",
+          "text": "Sam, mein Verein sucht Spieler. Wir sind genau elf — aber eins davon bin ich, und ich bin alt und langsam. …Hast du Bock, mitzumachen?",
+          "translation": "Sam, my club needs players. We're exactly eleven — but one of them is me, and I'm old and slow. …Are you up for joining?"
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-verein",
+            "hast-du-bock",
+            "die-mannschaft"
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "das-spiel",
+            "mitspielen",
+            "das-training"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Jonas wartet, Schraubenschlüssel in der Hand.",
+          "options": [
+            {
+              "label": "Ich würde gern mitspielen. Wann ist Training?",
+              "line": "Ich würde gern mitspielen! Wann ist Training?"
+            },
+            {
+              "label": "Ehrlich? Ich bin schlecht. …Aber ich bin dabei.",
+              "line": "Ehrlich? Ich bin nicht gut. …Aber ich bin dabei."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "jonas",
+          "text": "Dienstag und Donnerstag, Sportplatz Lindenau. Schlecht ist kein Problem — Einsatz ist alles. …Und die Trinkflasche bring ich mit.",
+          "translation": "Tuesdays and Thursdays, Lindenau pitch. Being bad is no problem — effort is everything. …And I'll bring the water bottle."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        }
+      ]
+    },
+    {
+      "id": "b1e6s2",
+      "episodeId": "b1e6",
+      "title": "Erstes Training",
+      "titleEn": "First practice",
+      "place": "Sportplatz Lindenau, 19:00",
+      "bg": "park",
+      "contextTags": [
+        "sport",
+        "team",
+        "hobby"
+      ],
+      "requiredItems": [
+        "der-verein",
+        "das-training"
+      ],
+      "introducedItems": [
+        "der-spieler",
+        "das-tor",
+        "gewinnen",
+        "verlieren",
+        "das-unentschieden",
+        "der-einsatz"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Flutlicht, feiner Rasengeruch, ein Trainerpfeiffen, das alles gleichzeitig beendet und beginnt. Elf Menschen, die einander die Hand geben: Jonas, ein Bäcker, zwei Studenten, ein Polizist …"
+        },
+        {
+          "type": "line",
+          "speaker": "trainer",
+          "text": "Du bist der Neue? Gut. Wir heißen dich willkommen. Voller Einsatz, fair spielen, und: Wir reden miteinander, nicht gegeneinander.",
+          "translation": "You're the new one? Good. We welcome you. Full effort, play fair, and: we talk with each other, not against each other."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-spieler",
+            "das-tor",
+            "der-einsatz"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "line",
+          "speaker": "trainer",
+          "text": "Samstag spielen wir gegen Lindenau Süd. Letztes Mal: 0:0, Unentschieden. Dieses Mal wollen wir gewinnen — aber wenn wir verlieren, dann gemeinsam.",
+          "translation": "Saturday we play Lindenau South. Last time: 0:0, a draw. This time we want to win — but if we lose, then together."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "gewinnen",
+            "verlieren",
+            "das-unentschieden"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Sie gibt dir die Pfeife… nein, nur einen Ball.",
+          "options": [
+            {
+              "label": "Ich gebe vollen Einsatz. Versprochen!",
+              "line": "Ich gebe vollen Einsatz. Versprochen!"
+            },
+            {
+              "label": "Und wenn ich ein Tor schieße, bin ich Held?",
+              "line": "Und wenn ich ein Tor schieße — bin ich dann Held?"
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "trainer",
+          "text": "Dann bist du heldenhaft müde. …Lauf los!",
+          "translation": "Then you'll be heroically tired. …Now run!"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        }
+      ]
+    },
+    {
+      "id": "b1e6s3",
+      "episodeId": "b1e6",
+      "title": "2:1",
+      "titleEn": "2:1",
+      "place": "Sportplatz Lindenau, Spieltag",
+      "bg": "park",
+      "contextTags": [
+        "sport",
+        "friends",
+        "celebration"
+      ],
+      "requiredItems": [
+        "das-spiel",
+        "gewinnen"
+      ],
+      "introducedItems": [
+        "anfeuern",
+        "der-fanblock",
+        "sich-steigern",
+        "der-fairplay",
+        "feiern"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Samstag, 15:00. Neben dem Platz: ein Handycam-Fanblock aus Tobias, Mei, Luise und einem Hund. Du stehst im Feld, Knie leicht zitternd, Herz zu 100 % dabei."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-fanblock",
+            "anfeuern",
+            "feiern"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "SAM! SAM! DREH DICH! …JAAA! 2:1!!! ICH WAR JEDERZEIT RUHIG, ICH SCHWÖRE!",
+          "translation": "SAM! SAM! TURN AROUND! …YESSS! 2:1!!! I WAS COMPLETELY CALM THE WHOLE TIME, I SWEAR!"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "line",
+          "speaker": "trainer",
+          "text": "Gut gespielt, alle! …Sam: Zweites Tor. Du weißt schon, dass das Zählte? Ich sage das nur, weil dein Deutsch jetzt gut genug für Trophäen-Reden ist.",
+          "translation": "Well played, everyone! …Sam: second goal. You do realize that counted? I'm only saying that because your German is now good enough for trophy speeches."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "sich-steigern",
+            "der-fairplay"
+          ]
+        },
+        {
+          "type": "choice",
+          "prompt": "Die Manschaft wartet auf dein Interview.",
+          "options": [
+            {
+              "label": "Wir haben gekämpft — und wir können uns noch steigern!",
+              "line": "Wir haben gekämpft — und wir können uns sicher noch steigern!"
+            },
+            {
+              "label": "Fairplay hat gewonnen. …Und ich. Hauptsächlich ich.",
+              "line": "Heute hat Fairplay gewonnen. …Und ich. Hauptsächlich ich."
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "narration",
+          "text": "Abends am Vereinsheim: Bratwurst, Limo, ein Pokal aus Plastik, der für immer auf deinem Regal stehen wird. Du hast ein Tor geschossen. Auf Deutsch hast du es erzählt — dreimal, jedes Mal besser."
+        }
+      ]
+    }
+  ]
+}

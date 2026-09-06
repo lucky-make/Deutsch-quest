@@ -21,14 +21,14 @@ describe('UI smoke', () => {
     document.body.append(root)
   })
 
-  it('renders the story map with all 16 episodes', () => {
+  it('renders the story map with all episodes', () => {
     renderMap(root, app)
     const text = root.textContent ?? ''
     expect(text).toContain('Ein Jahr in Leipzig')
     for (const ep of registry.episodes) {
       expect(text, ep.id).toContain(ep.title)
     }
-    expect(root.querySelectorAll('.epcard')).toHaveLength(16)
+    expect(root.querySelectorAll('.epcard')).toHaveLength(registry.episodes.length)
   })
 
   it('renders scene 1 end-to-end: narration, dialogue, meet cards', () => {

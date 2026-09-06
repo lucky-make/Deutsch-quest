@@ -1,0 +1,119 @@
+{
+  "episode": {
+    "id": "b2e5",
+    "arcId": "B2",
+    "cefrLevel": "B2",
+    "title": "Der Anbau",
+    "titleEn": "The extension",
+    "blurb": "Nach dem Fest wird gebaut. Lieferungen, Kostenvoranschläge, Verspätungen — und dein erster Passiv-Satz im Baustellenalltag.",
+    "order": 17,
+    "sceneIds": ["b2e5s1", "b2e5s2", "b2e5s3"]
+  },
+  "cast": [
+    { "id": "luise", "name": "Luise", "role": "Café-Besitzerin" },
+    { "id": "jonas", "name": "Jonas", "role": "Handwerker, Lieferant" },
+    { "id": "mei", "name": "Mei", "role": "Kollegin" },
+    { "id": "architekt", "name": "Herr Baumann", "role": "Architekt" }
+  ],
+  "items": [
+    { "id": "die-baustelle", "type": "word", "german": "die Baustelle", "meaning": "the construction site", "image": "werkzeug", "audio": "tts", "introducedInScene": "b2e5s1", "tags": ["construction", "work"], "cefrLevel": "B2", "note": "die, Plural: die Baustellen" },
+    { "id": "der-anbau-wird-gebaut", "type": "grammar_pattern", "german": "Der Anbau wird ___ .", "meaning": "The extension is being ___ (built).", "audio": "tts", "introducedInScene": "b2e5s1", "tags": ["construction", "grammar"], "cefrLevel": "B2", "cloze": "gebaut", "speak": "Der Anbau wird gebaut.", "note": "Passiv Präsens: wird + Partizip II — wer es tut, ist egal oder unbekannt" },
+    { "id": "der-lieferant", "type": "word", "german": "der Lieferant", "meaning": "the supplier", "image": "lieferung", "audio": "tts", "introducedInScene": "b2e5s1", "tags": ["construction", "work"], "cefrLevel": "B2", "note": "der, Plural: die Lieferanten; liefern = to deliver" },
+    { "id": "die-lieferung", "type": "word", "german": "die Lieferung", "meaning": "the delivery", "image": "lieferung", "audio": "tts", "introducedInScene": "b2e5s1", "tags": ["construction", "work", "time"], "cefrLevel": "B2", "note": "die, Plural: die Lieferungen" },
+    { "id": "der-kostenvoranschlag", "type": "word", "german": "der Kostenvoranschlag", "meaning": "the cost estimate / quote", "image": "beleg", "audio": "tts", "introducedInScene": "b2e5s1", "tags": ["construction", "money", "paperwork"], "cefrLevel": "B2", "note": "der, Plural: die Kostenvoranschläge — immer schriftlich, immer vergleichen" },
+    { "id": "das-material", "type": "word", "german": "das Material", "meaning": "the material(s)", "image": "koffer", "audio": "tts", "introducedInScene": "b2e5s1", "tags": ["construction"], "cefrLevel": "B2", "note": "das, Plural: die Materialien" },
+    { "id": "sich-verzoegern", "type": "chunk", "german": "Die Lieferung verzögert sich.", "meaning": "The delivery is being delayed.", "image": "urehr", "audio": "tts", "introducedInScene": "b2e5s2", "tags": ["construction", "time", "problem"], "cefrLevel": "B2", "note": "sich verzögern — geschieht „von selbst“, sehr typisch deutsch" },
+    { "id": "vereinbaren", "type": "sentence", "german": "Wir müssen einen neuen Termin vereinbaren.", "meaning": "We need to arrange a new date.", "image": "kalender", "audio": "tts", "introducedInScene": "b2e5s2", "tags": ["construction", "planning"], "cefrLevel": "B2", "note": "vereinbaren — der Termin-Maschine im Geschäftsdeutsch" },
+    { "id": "zuverlaessig", "type": "word", "german": "zuverlässig", "meaning": "reliable", "image": "prüfen", "audio": "tts", "introducedInScene": "b2e5s2", "tags": ["construction", "opinion", "work"], "cefrLevel": "B2", "note": "Adjektiv — eines der höchsten deutschen Komplimente" },
+    { "id": "die-materialien-wurden-geliefert", "type": "grammar_pattern", "german": "Die Materialien wurden gestern ___.", "meaning": "The materials were ___ (delivered) yesterday.", "audio": "tts", "introducedInScene": "b2e5s2", "tags": ["construction", "grammar"], "cefrLevel": "B2", "cloze": "geliefert", "speak": "Die Materialien wurden gestern geliefert.", "note": "Passiv Präteritum: wurden + Partizip II" },
+    { "id": "im-rueckstand", "type": "chunk", "german": "Wir sind im Rückstand.", "meaning": "We're behind schedule.", "image": "urehr", "audio": "tts", "introducedInScene": "b2e5s2", "tags": ["construction", "planning", "problem"], "cefrLevel": "B2" },
+    { "id": "die-loesung", "type": "word", "german": "die Lösung", "meaning": "the solution", "image": "idee", "audio": "tts", "introducedInScene": "b2e5s2", "tags": ["construction", "planning"], "cefrLevel": "B2", "note": "die, Plural: die Lösungen" },
+    { "id": "der-fortschritt", "type": "word", "german": "der Fortschritt", "meaning": "the progress", "image": "ziel", "audio": "tts", "introducedInScene": "b2e5s3", "tags": ["construction", "planning"], "cefrLevel": "B2", "note": "der ( Singular ) — „Fortschritte machen“" },
+    { "id": "das-protokoll-wird-geschrieben", "type": "grammar_pattern", "german": "Das Protokoll wird von Sam ___.", "meaning": "The minutes are being ___ (written) by Sam.", "audio": "tts", "introducedInScene": "b2e5s3", "tags": ["construction", "grammar", "work"], "cefrLevel": "B2", "cloze": "geschrieben", "speak": "Das Protokoll wird von Sam geschrieben.", "note": "Passiv mit Agentur: von + Dativ" },
+    { "id": "abnehmen", "type": "chunk", "german": "Wir nehmen die Arbeit ab.", "meaning": "We accept the work (inspection).", "image": "prüfen", "audio": "tts", "introducedInScene": "b2e5s3", "tags": ["construction", "work"], "cefrLevel": "B2", "note": "abnehmen = ab + nehmen — hier: formal abnehmen" },
+    { "id": "rohbau-steht", "type": "chunk", "german": "Rohbau steht!", "meaning": "Shell construction is up!", "image": "haus", "audio": "tts", "introducedInScene": "b2e5s3", "tags": ["construction"], "cefrLevel": "B2" },
+    { "id": "zuverlaessigkeit-zaehlt", "type": "sentence", "german": "Am Ende zählt Zuverlässigkeit.", "meaning": "In the end, reliability is what counts.", "image": "ziel", "audio": "tts", "introducedInScene": "b2e5s3", "tags": ["construction", "opinion", "work"], "cefrLevel": "B2" },
+    { "id": "stolz-auf-uns", "type": "chunk", "german": "Wir können stolz auf uns sein.", "meaning": "We can be proud of ourselves.", "audio": "tts", "introducedInScene": "b2e5s3", "tags": ["opinion", "feelings"], "cefrLevel": "B2", "note": "stolz sein auf + Akkusativ" }
+  ],
+  "scenes": [
+    {
+      "id": "b2e5s1",
+      "episodeId": "b2e5",
+      "title": "Baubeginn",
+      "titleEn": "Construction begins",
+      "place": "Hinterhof des Cafés, Montag 7:00",
+      "bg": "werkstatt",
+      "contextTags": ["construction", "work", "money"],
+      "requiredItems": ["die-verantwortung", "das-budget"],
+      "introducedItems": ["die-baustelle", "der-anbau-wird-gebaut", "der-lieferant", "die-lieferung", "der-kostenvoranschlag", "das-material"],
+      "beats": [
+        { "type": "narration", "text": "Zwei Wochen nach dem Fest. Der Hinterhof ist abgesteckt: Schnüre, Pflöcke, ein Bauzaun, der nach nichts riecht außer nach Anfang. Herr Baumann entrollt Pläne wie eine Landkarte." },
+        { "type": "meet", "itemIds": ["die-baustelle", "das-material", "der-lieferant"] },
+        { "type": "line", "speaker": "architekt", "text": "So. Der Anbau wird gebaut — dreißig Quadratmeter, Glas nach Süden, Holzfassade. Ihre Aufgabe, Frau... Herr Projektmanagement: Lieferungen und Kosten im Blick behalten.", "translation": "Right. The extension is being built — thirty square metres, glass facing south, timber facade. Your job, Mr Project Management: keep an eye on deliveries and costs." },
+        { "type": "meet", "itemIds": ["der-anbau-wird-gebaut", "die-lieferung", "der-kostenvoranschlag"] },
+        { "type": "check", "count": 2, "mode": "mixed" },
+        { "type": "choice", "prompt": "Herr Baumann reicht dir die Unterlagen.", "options": [
+          { "label": "Ich vergleiche jeden Kostenvoranschlag schriftlich.", "line": "Ich vergleiche jeden Kostenvoranschlag — schriftlich, bitte." },
+          { "label": "Lieferung eins kommt wann, von welchem Lieferanten?", "line": "Die erste Lieferung — wann, und von welchem Lieferanten?" }
+        ] },
+        { "type": "line", "speaker": "architekt", "text": "Donnerstag, Holzfassade, Lieferant Wagner. …Sie fragen wie ein Auditor. Das gefällt mir. Das gefällt der Bank noch mehr.", "translation": "Thursday, timber facade, supplier Wagner. …You ask like an auditor. I like that. The bank will like it even more." },
+        { "type": "check", "count": 2, "mode": "mixed" },
+        { "type": "check", "count": 2, "mode": "recall" }
+      ]
+    },
+    {
+      "id": "b2e5s2",
+      "episodeId": "b2e5",
+      "title": "Lieferverzug",
+      "titleEn": "Delivery delay",
+      "place": "Baustelle, Donnerstag, kein LKW",
+      "bg": "werkstatt",
+      "contextTags": ["construction", "money", "conflict"],
+      "requiredItems": ["die-lieferung", "hier-stimmt-etwas-nicht"],
+      "introducedItems": ["sich-verzoegern", "vereinbaren", "zuverlaessig", "die-materialien-wurden-geliefert", "im-rueckstand", "die-loesung"],
+      "beats": [
+        { "type": "narration", "text": "Donnerstag, 11:00. Kein LKW. 11:30 — kein LKW. Jonas steht mit Kaffee neben dir und diskutiert die Lage wie ein Wetterforscher." },
+        { "type": "line", "speaker": "jonas", "text": "Wagner ist normalerweise zuverlässig. …Aber die Lieferung verzögert sich. Ohne Ankündigung. Das ist nicht deren Stil.", "translation": "Wagner is normally reliable. …But the delivery is delayed. Without notice. That's not like them." },
+        { "type": "meet", "itemIds": ["zuverlaessig", "sich-verzoegern", "im-rueckstand"] },
+        { "type": "line", "speaker": "jonas", "text": "Ohne Holzfassade sind wir im Rückstand. Zwei Tage, vielleicht drei. …Und du bist der Projektleiter, Chef. Was sagen wir Luise?", "translation": "Without the timber facade we're behind schedule. Two days, maybe three. …And you're the project lead, boss. What do we tell Luise?" },
+        { "type": "meet", "itemIds": ["vereinbaren", "die-materialien-wurden-geliefert", "die-loesung"] },
+        { "type": "check", "count": 2, "mode": "mixed" },
+        { "type": "choice", "prompt": "Dein Telefonat mit dem Lieferanten.", "options": [
+          { "label": "Die Fassade sollte gestern geliefert werden. Wir brauchen einen neuen Termin.", "line": "Die Fassade sollte gestern geliefert werden. Wir müssen sofort einen neuen Liefertermin vereinbaren." },
+          { "label": "Hier stimmt etwas nicht — und ich brauche eine Lösung heute.", "line": "Hier stimmt etwas nicht. Ich brauche heute noch eine Lösung." }
+        ] },
+        { "type": "line", "speaker": "jonas", "text": "Stark verhandelt. …Die Lieferung kommt Montagmorgen, ohne Extrakosten, und die Materialien wurden längst im Lager geprüft. Wir holen sie selbst ab. Genial.", "translation": "Well negotiated. …The delivery comes Monday morning, no extra cost, and the materials were already checked at the warehouse. We'll pick them up ourselves. Brilliant." },
+        { "type": "check", "count": 2, "mode": "mixed" },
+        { "type": "check", "count": 2, "mode": "listen" },
+        { "type": "narration", "text": "Montag, 7:15. Der LKW rückwärts in den Hof. Du schreibst es ins Protokoll, mit Datum und Uhrzeit, wie ein Mensch, der sowas einfach kann." }
+      ]
+    },
+    {
+      "id": "b2e5s3",
+      "episodeId": "b2e5",
+      "title": "Rohbau steht",
+      "titleEn": "Shell is up",
+      "place": "Hinterhof, drei Wochen später",
+      "bg": "buero",
+      "contextTags": ["construction", "planning", "celebration"],
+      "requiredItems": ["die-baustelle", "das-budget"],
+      "introducedItems": ["der-fortschritt", "das-protokoll-wird-geschrieben", "abnehmen", "rohbau-steht", "zuverlaessigkeit-zaehlt", "stolz-auf-uns"],
+      "beats": [
+        { "type": "narration", "text": "Drei Wochen später: Wände, Fenster, Dach. Glasfront nach Süden, genau wie im Plan. Der Hinterhof sieht aus wie die Zeichnung, die Herr Baumann vor Wochen entrollt hat." },
+        { "type": "line", "speaker": "architekt", "text": "Rohbau steht! Ich nehme die Arbeit heute offiziell ab — und ich sage es selten: Alles sauber. Alles termingerecht.", "translation": "Shell is up! I'm officially accepting the work today — and I rarely say this: everything's clean. Everything on schedule." },
+        { "type": "meet", "itemIds": ["rohbau-steht", "abnehmen", "der-fortschritt"] },
+        { "type": "line", "speaker": "luise", "text": "Protokoll, letzter Stand? …Danke. Weißt du, was ich gelernt habe? Am Ende zählt Zuverlässigkeit. Und die kommt nicht vom Architekten.", "translation": "Minutes, latest status? …Thanks. You know what I've learned? In the end reliability is what counts. And that doesn't come from the architect." },
+        { "type": "meet", "itemIds": ["das-protokoll-wird-geschrieben", "zuverlaessigkeit-zaehlt", "stolz-auf-uns"] },
+        { "type": "check", "count": 2, "mode": "mixed" },
+        { "type": "choice", "prompt": "Mei und Jonas schauen dich an.", "options": [
+          { "label": "Wir können stolz auf uns sein.", "line": "Wir können wirklich stolz auf uns sein." },
+          { "label": "Nächstes Projekt: Dachterrasse. Ich hab schon Pläne.", "line": "Nächstes Projekt: Dachterrasse. Ich habe schon Pläne." }
+        ] },
+        { "type": "line", "speaker": "mei", "text": "Erst Kaffee im Neubau, dann Dachterräume. …Und Sam: Das Protokoll wird übrigens immer noch von dir geschrieben. Gewohnheitssache.", "translation": "First coffee in the new build, then roof terraces. …And Sam: the minutes are still being written by you, by the way. Force of habit." },
+        { "type": "check", "count": 2, "mode": "mixed" },
+        { "type": "check", "count": 2, "mode": "recall" },
+        { "type": "narration", "text": "Abends stehen alle im Rohbau, Kaffeetassen auf Fensterbänken ohne Fenster. Es riecht nach Holz und Zukunft. Fortschritt riecht, stellt sich heraus, genau so." }
+      ]
+    }
+  ]
+}

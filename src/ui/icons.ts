@@ -211,6 +211,58 @@ export const ICONS: Record<string, string> = {
     <path d="M4 9h16v11H4z" fill="none" stroke="currentColor" stroke-width="1.8"/>
     <path d="M6 9V6h12v3M12 12v5M9.5 14.5h5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
     <circle cx="12" cy="6.5" r="1.2" fill="${PALETTE.gold}"/>`),
+  laden: S(`
+    <path d="M4 9h16l-2-4H6L4 9z" fill="${PALETTE.teal}" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    <path d="M5 9v11h14V9" fill="none" stroke="currentColor" stroke-width="1.8"/>
+    <rect x="9" y="12" width="6" height="8" fill="none" stroke="currentColor" stroke-width="1.8"/>
+    <rect x="15.5" y="12" width="2.5" height="3" fill="${PALETTE.gold}"/>`),
+  jacke: S(`
+    <path d="M9 3l3 2 3-2 4 4-2.5 3V21h-9V10L5 7l4-4z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    <path d="M12 5v16" stroke="currentColor" stroke-width="1.8"/>
+    <path d="M9.5 13h5" stroke="${PALETTE.teal}" stroke-width="1.8" stroke-linecap="round"/>`),
+  schuhe: S(`
+    <path d="M3 16v-6h4l2 3c3 0 8 1 11 3v2H3z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    <path d="M3 18.5h17" stroke="${PALETTE.accent}" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M10 13.5l1-1M12.5 14.5l1-1" stroke="${PALETTE.teal}" stroke-width="1.6" stroke-linecap="round"/>`),
+  regenschirm: S(`
+    <path d="M3 12a9 9 0 0118 0H3z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    <path d="M12 3v2M12 12v6a2 2 0 004 0" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M7.5 12c0-4 1.6-7 4.5-9M16.5 12c0-4-1.6-7-4.5-9" stroke="${PALETTE.accent}" stroke-width="1.4" fill="none"/>`),
+  wetter: S(`
+    <path d="M7 15a4 4 0 01.5-8 5 5 0 019.5 1.5A3.5 3.5 0 0117 15H7z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    <path d="M8 18l-1 2.5M12 18l-1 2.5M16 18l-1 2.5" stroke="${PALETTE.sky}" stroke-width="1.8" stroke-linecap="round"/>`),
+  wecker: S(`
+    <circle cx="12" cy="13" r="7.5" fill="none" stroke="currentColor" stroke-width="1.8"/>
+    <path d="M12 9v4l2.8 2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M5 5L3.5 7M19 5l1.5 2" stroke="${PALETTE.accent}" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M9.5 21h5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>`),
+  paket: S(`
+    <path d="M3 8l9-4.5L21 8v8l-9 4.5L3 16V8z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    <path d="M3 8l9 4.5L21 8M12 12.5V20.5" stroke="currentColor" stroke-width="1.8"/>
+    <path d="M7.5 5.8l9 4.4" stroke="${PALETTE.teal}" stroke-width="1.6"/>`),
+  bank: S(`
+    <path d="M3 9l9-5 9 5v1H3V9z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    <path d="M5 10v7M9.5 10v7M14.5 10v7M19 10v7M3 17h18M2.5 20h19" stroke="currentColor" stroke-width="1.8"/>
+    <circle cx="12" cy="7" r="1" fill="${PALETTE.gold}"/>`),
+  ball: S(`
+    <circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.8"/>
+    <path d="M12 7l4.8 3.5-1.8 5.6H9l-1.8-5.6L12 7z" fill="${PALETTE.teal}" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
+    <path d="M12 3.5V7M20.4 9.8l-3.6.7M17.6 19l-2.6-2.9M6.4 19L9 16.1M3.6 9.8l3.6.7" stroke="currentColor" stroke-width="1.4"/>`),
+  schloss: S(`
+    <path d="M4 21V10l3-2V5h2v2h2V5h2v2h2V5h2v3l3 2v11" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M4 21h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    <rect x="10" y="15" width="4" height="6" fill="${PALETTE.gold}"/>
+    <path d="M7 12h2M15 12h2" stroke="${PALETTE.sky}" stroke-width="1.6" stroke-linecap="round"/>`),
+  lieferung: S(`
+    <path d="M2 7h11v9H2zM13 10h5l3 3v3h-8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    <circle cx="7" cy="17.5" r="1.8" fill="none" stroke="currentColor" stroke-width="1.8"/>
+    <circle cx="17" cy="17.5" r="1.8" fill="none" stroke="currentColor" stroke-width="1.8"/>
+    <path d="M4.5 10.5h4" stroke="${PALETTE.accent}" stroke-width="1.6" stroke-linecap="round"/>`),
+  zertifikat: S(`
+    <rect x="4" y="4" width="16" height="13" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/>
+    <path d="M7.5 8.5h9M7.5 11.5h6" stroke="${PALETTE.teal}" stroke-width="1.6" stroke-linecap="round"/>
+    <circle cx="16.5" cy="16" r="3" fill="${PALETTE.gold}" stroke="currentColor" stroke-width="1.4"/>
+    <path d="M15 18.5l-1 3.5 2.5-1.5 2.5 1.5-1-3.5" fill="none" stroke="currentColor" stroke-width="1.4"/>`),
   praxis: S(`
     <path d="M12 20s-7-4.5-7-9.5A4.3 4.3 0 0112 8a4.3 4.3 0 017 2.5c0 5-7 9.5-7 9.5z" fill="none" stroke="currentColor" stroke-width="1.8"/>
     <path d="M9 11h6M12 8v6" stroke="${PALETTE.accent}" stroke-width="1.8" stroke-linecap="round"/>`),

@@ -20,6 +20,9 @@ export const NAMED_CHAINS: { itemId: string; toSceneId: string }[] = [
   // "der Schlüssel" from the very first meeting with Frau Brügge, due again at
   // the flat hand-over in B1.
   { itemId: 'der-schluessel', toSceneId: 'b1e4s2' },
+  // "die Rechnung" from the café in A1, due again when a construction quote
+  // goes wrong in B2 — learned as "bill at the café", retrieved as "invoice".
+  { itemId: 'die-rechnung', toSceneId: 'b2e5s2' },
 ]
 
 function shared(a: string[], b: string[]): string[] {

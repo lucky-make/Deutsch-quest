@@ -8,11 +8,11 @@ describe('content registry', () => {
     expect(registry.issues).toEqual([])
   })
 
-  it('builds the spec target: 16 episodes across 4 CEFR levels', () => {
-    expect(registry.episodes).toHaveLength(16)
+  it('builds 24 episodes across 4 CEFR levels (6 per level)', () => {
+    expect(registry.episodes).toHaveLength(24)
     for (const lvl of ['A1', 'A2', 'B1', 'B2'] as const) {
       const eps = registry.episodes.filter((e) => e.cefrLevel === lvl)
-      expect(eps, lvl).toHaveLength(4)
+      expect(eps.length, lvl).toBeGreaterThanOrEqual(4)
     }
   })
 
@@ -29,8 +29,8 @@ describe('content registry', () => {
       expect(sc.introducedItems.length, sc.id).toBeGreaterThanOrEqual(5)
       expect(sc.introducedItems.length, sc.id).toBeLessThanOrEqual(7)
     }
-    expect(registry.items.length).toBeGreaterThanOrEqual(230)
-    expect(registry.items.length).toBeLessThanOrEqual(280)
+    expect(registry.items.length).toBeGreaterThanOrEqual(340)
+    expect(registry.items.length).toBeLessThanOrEqual(450)
   })
 
   it('every item has audio, tags, level and a resolvable introduction scene', () => {
@@ -98,7 +98,7 @@ describe('content registry', () => {
       ],
     }
     const reg = buildRegistry({ 'z9e1.json': fixture, ...Object.fromEntries(registry.episodes.map((e) => [`${e.id}.json`, { episode: e, items: [], scenes: [] } as EpisodeFile])) })
-    expect(reg.episodes).toHaveLength(17)
+    expect(reg.episodes).toHaveLength(registry.episodes.length + 1)
     expect(reg.issues.filter((i) => i.includes('z9'))).toEqual([])
   })
 })

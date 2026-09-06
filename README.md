@@ -39,12 +39,14 @@ All scheduling lives in `src/engine/` and follows six non-negotiable invariants
    reveal; the scene continues whatever happens, and the lapsed item re-enters
    the session queue.
 
-**Named resurfacing chain (checkable, not just a capability claim):**
-„Ich hätte gern …" is learned at the bakery in A1 E2 and is provably retrievable
-at the neighbourhood festival in B2 E4 — a 20+-scene gap, different context
-tags, and deliberately *not* in that scene's `requiredItems`. Retrieval happens
-because the item is due and shares tags, not because the script demands it.
-Pinned by `tests/resurfacing.test.ts`; visible in-app under *Menü → Resurfacing-Ketten*.
+**Named resurfacing chains (checkable, not just capability claims):**
+1. „Ich hätte gern …" — bakery A1 E2 → neighbourhood festival B2 E4.
+2. „der Schlüssel" — first meeting with Frau Brügge A1 E1 → flat hand-over B1 E4.
+3. „die Rechnung" — café bill A1 E3 → disputed construction quote B2 E5.
+All three: 15+ scene gaps, different context tags, deliberately *not* in the
+target scene's `requiredItems`. Retrieval happens because the item is due and
+shares tags, not because the script demands it. Pinned by
+`tests/resurfacing.test.ts`; visible in-app under *Menü → Resurfacing-Ketten*.
 
 ## Audio — how it works
 
@@ -74,8 +76,13 @@ Pinned by `tests/resurfacing.test.ts`; visible in-app under *Menü → Resurfaci
 
 ## Content
 
-- **16 episodes** (4 per level × A1/A2/B1/B2), 2–3 scenes each, **41 scenes**
-- **238 KnowledgeItems** (5–7 new per scene), all hand-authored contemporary German
+- **24 episodes** (6 per level × A1/A2/B1/B2), 2–3 scenes each, **65 scenes**
+- **377 KnowledgeItems** (5–7 new per scene), all hand-authored contemporary German
+- Systematic grammar woven into the story as first-class items: relative
+  clauses, Konjunktiv II, passive (Präsens + Präteritum), je…desto, separable
+  verbs, cloze production
+- Season finale: Sam registers for and **passes the real telc/Goethe-style B2
+  exam** — the story's arc literally aims at the level you're aiming at
 - Content lives entirely in JSON under `src/content/episodes/*.json`.
   The registry (`src/engine/registry.ts`) picks up every file via glob —
   **adding episode 17 requires zero engine code changes** (pinned by test).
@@ -105,9 +112,26 @@ npm run build        # produces ./dist with relative paths (works in a subdirect
 Publish `dist/` (e.g. via GitHub Actions or `gh-pages`). The app assumes a
 subdirectory like `username.github.io/deutschpath/` — all paths are relative.
 
-## What this is not (honest scope)
+## Will this alone get you to B2? (honest answer)
 
-This is a real foundation, not the full product: 41 scenes cover a continuous
-story but only a slice of A1–B2 German. There is no speech recognition, no
-spaced long-form reading, one TTS voice, and content density per CEFR level is
-intentionally thin. See the final report for exact numbers.
+No app alone does that. 377 items is a real, coherent course spine — enough for
+a strong A1→A2 with active production and the habit loop that matters most —
+but genuine B2 needs roughly **3,500–4,500 word families**, hundreds of
+ grammatical patterns, and hundreds of hours of listening/reading/speaking.
+
+What DeutschPath gives you toward that goal:
+- a *daily habit engine* (the hard part) with globally scheduled, interleaved
+  retrieval that scales to thousands of items without lesson-locked decks
+- a complete, coherent story from arrival to a passed B2 exam, so the path is
+  visible and narratively motivated
+- production practice (typing German, cloze, reconstruction) from scene one
+
+What it doesn't give you yet, and what it would honestly take:
+- **volume**: the item pool needs 5–10× more content (more scenes, third scenes
+  for the shorter episodes, reading passages). The engine needs zero changes for
+  this — it's content authoring, and the JSON format + validation tests make it
+  safe to add.
+- **your input**: real B2 requires native-rate listening and speaking partners.
+  Use the app as the scheduling spine; pair it with podcasts, media and people.
+
+See `docs/path-to-b2.md` for the concrete gap analysis.
