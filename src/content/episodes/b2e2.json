@@ -1,0 +1,378 @@
+{
+  "episode": {
+    "id": "b2e2",
+    "arcId": "B2",
+    "cefrLevel": "B2",
+    "title": "Bei Dr. Kern",
+    "titleEn": "At Dr. Kern's",
+    "blurb": "Die Schulter macht nicht mehr mit. Diagnose, Krankschreibung, Dienstrplan — Gesundheitsdeutsch auf B2-Niveau.",
+    "order": 14,
+    "sceneIds": [
+      "b2e2s1",
+      "b2e2s2"
+    ]
+  },
+  "cast": [
+    {
+      "id": "dr-kern",
+      "name": "Dr. Kern",
+      "role": "Hausärztin"
+    },
+    {
+      "id": "luise",
+      "name": "Luise",
+      "role": "Café-Besitzerin"
+    },
+    {
+      "id": "mei",
+      "name": "Mei",
+      "role": "Kollegin"
+    }
+  ],
+  "items": [
+    {
+      "id": "die-beschwerden",
+      "type": "word",
+      "german": "die Beschwerden",
+      "meaning": "the (medical) complaints",
+      "image": "stethoskop",
+      "audio": "tts",
+      "introducedInScene": "b2e2s1",
+      "tags": [
+        "health",
+        "doctor"
+      ],
+      "cefrLevel": "B2",
+      "note": "Pluralwort — im medizinischen Sinn: Symptome"
+    },
+    {
+      "id": "die-diagnose",
+      "type": "word",
+      "german": "die Diagnose",
+      "meaning": "the diagnosis",
+      "image": "stethoskop",
+      "audio": "tts",
+      "introducedInScene": "b2e2s1",
+      "tags": [
+        "health",
+        "doctor"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Diagnosen"
+    },
+    {
+      "id": "das-ergebnis",
+      "type": "word",
+      "german": "das Ergebnis",
+      "meaning": "the result",
+      "image": "prüfen",
+      "audio": "tts",
+      "introducedInScene": "b2e2s1",
+      "tags": [
+        "health",
+        "doctor"
+      ],
+      "cefrLevel": "B2",
+      "note": "das, Plural: die Ergebnisse"
+    },
+    {
+      "id": "die-belastung",
+      "type": "word",
+      "german": "die Belastung",
+      "meaning": "the strain / load",
+      "image": "koffer",
+      "audio": "tts",
+      "introducedInScene": "b2e2s1",
+      "tags": [
+        "health",
+        "work"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Belastungen"
+    },
+    {
+      "id": "verschreiben",
+      "type": "sentence",
+      "german": "Ich verschreibe Ihnen Physiotherapie.",
+      "meaning": "I'll prescribe physiotherapy for you.",
+      "audio": "tts",
+      "introducedInScene": "b2e2s1",
+      "tags": [
+        "health",
+        "doctor"
+      ],
+      "cefrLevel": "B2"
+    },
+    {
+      "id": "schonen-sie",
+      "type": "chunk",
+      "german": "Schonen Sie die Schulter.",
+      "meaning": "Take it easy on the shoulder.",
+      "audio": "tts",
+      "introducedInScene": "b2e2s1",
+      "tags": [
+        "health",
+        "doctor"
+      ],
+      "cefrLevel": "B2"
+    },
+    {
+      "id": "die-krankschreibung",
+      "type": "word",
+      "german": "die Krankschreibung",
+      "meaning": "the official sick leave",
+      "image": "brief",
+      "audio": "tts",
+      "introducedInScene": "b2e2s2",
+      "tags": [
+        "health",
+        "work",
+        "sick-leave"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Krankschreibungen"
+    },
+    {
+      "id": "vertreten",
+      "type": "sentence",
+      "german": "Kann dich jemand vertreten?",
+      "meaning": "Can anyone cover for you?",
+      "audio": "tts",
+      "introducedInScene": "b2e2s2",
+      "tags": [
+        "work",
+        "sick-leave"
+      ],
+      "cefrLevel": "B2",
+      "note": "vertreten — hier: die Schicht übernehmen"
+    },
+    {
+      "id": "der-dienstplan",
+      "type": "word",
+      "german": "der Dienstplan",
+      "meaning": "the shift schedule / rota",
+      "image": "kalender",
+      "audio": "tts",
+      "introducedInScene": "b2e2s2",
+      "tags": [
+        "work",
+        "sick-leave"
+      ],
+      "cefrLevel": "B2",
+      "note": "der, Plural: die Dienstpläne"
+    },
+    {
+      "id": "bald-wieder-fit",
+      "type": "chunk",
+      "german": "Ich hoffe, du bist bald wieder fit.",
+      "meaning": "I hope you're back on your feet soon.",
+      "audio": "tts",
+      "introducedInScene": "b2e2s2",
+      "tags": [
+        "health",
+        "politeness"
+      ],
+      "cefrLevel": "B2"
+    },
+    {
+      "id": "sich-schonen",
+      "type": "chunk",
+      "german": "Ich muss mich schonen.",
+      "meaning": "I have to take it easy.",
+      "audio": "tts",
+      "introducedInScene": "b2e2s2",
+      "tags": [
+        "health"
+      ],
+      "cefrLevel": "B2",
+      "note": "sich schonen — reflexiv"
+    },
+    {
+      "id": "die-pause",
+      "type": "word",
+      "german": "die Pause",
+      "meaning": "the break",
+      "image": "urehr",
+      "audio": "tts",
+      "introducedInScene": "b2e2s2",
+      "tags": [
+        "work",
+        "health"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Pausen — in Deutschland ein Grundrecht"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "b2e2s1",
+      "episodeId": "b2e2",
+      "title": "Klare Worte",
+      "titleEn": "Clear words",
+      "place": "Hausarztpraxis Dr. Kern",
+      "bg": "klinik",
+      "contextTags": [
+        "health",
+        "doctor",
+        "diagnosis"
+      ],
+      "requiredItems": [
+        "die-praxis",
+        "der-termin"
+      ],
+      "introducedItems": [
+        "die-beschwerden",
+        "die-diagnose",
+        "das-ergebnis",
+        "die-belastung",
+        "verschreiben",
+        "schonen-sie"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Baustellenwochen, Kaffeekisten, ein falscher Hebelgriff. Die Schulter meldet sich jetzt bei jedem Tassenheben. Dr. Kern misst, drückt, hört zu."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-beschwerden",
+            "die-belastung",
+            "schonen-sie"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "dr-kern",
+          "text": "Also — Ihre Beschwerden passen zu einer Reizung der Sehne. Zu viel Belastung, zu wenig Pausen. Kein Weltuntergang, versprochen.",
+          "translation": "Well — your complaints fit an irritation of the tendon. Too much strain, too few breaks. Nothing serious."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-diagnose",
+            "das-ergebnis",
+            "verschreiben"
+          ]
+        },
+        {
+          "type": "choice",
+          "prompt": "Sie legt den Stift bereit.",
+          "options": [
+            {
+              "label": "Und für die Arbeit? Ich hebe dort viel.",
+              "line": "Und für die Arbeit? Ich hebe dort täglich Kisten."
+            },
+            {
+              "label": "Soll ich die Schulter komplett schonen?",
+              "line": "Soll ich die Schulter komplett schonen?"
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "dr-kern",
+          "text": "Ich verschreibe Ihnen Physiotherapie, sechs Termine. Und eine Woche Krankschreibung für die schweren Sachen. Das Ergebnis kontrollieren wir in zwei Wochen.",
+          "translation": "I'll prescribe physiotherapy, six sessions. And a week of sick leave for the heavy lifting. We'll check the result in two weeks."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        }
+      ]
+    },
+    {
+      "id": "b2e2s2",
+      "episodeId": "b2e2",
+      "title": "Die Krankschreibung",
+      "titleEn": "The sick leave",
+      "place": "Wohnung, Telefonat mit der Theke",
+      "bg": "wohnung",
+      "contextTags": [
+        "health",
+        "work",
+        "sick-leave"
+      ],
+      "requiredItems": [
+        "krank",
+        "die-verantwortung"
+      ],
+      "introducedItems": [
+        "die-krankschreibung",
+        "vertreten",
+        "der-dienstplan",
+        "bald-wieder-fit",
+        "sich-schonen",
+        "die-pause"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Du liegst mit einer Wärmflasche auf der Schulter und einer Aufgabe: Luise informieren, ohne Drama. Dr. Kerns Zettel liegt neben dem Handy."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-krankschreibung",
+            "der-dienstplan",
+            "die-pause"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "luise",
+          "text": "Eine Woche?! …Nein, Moment: gut, dass du's sagst. Wer vertreibt… wer vertritt dich im Dienstplan? Mei?",
+          "translation": "A week?! …No, wait: good that you're telling me. Who covers you on the rota? Mei?"
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "vertreten",
+            "sich-schonen",
+            "bald-wieder-fit"
+          ]
+        },
+        {
+          "type": "choice",
+          "prompt": "Luise wartet.",
+          "options": [
+            {
+              "label": "Mei kann mich vertreten, ich kläre das.",
+              "line": "Mei kann mich vertreten, ich kläre das mit ihr."
+            },
+            {
+              "label": "Ich schicke dir die Krankschreibung als Foto.",
+              "line": "Ich schicke dir gleich ein Foto von der Krankschreibung."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "mei",
+          "text": "Alles gut, Chef-Träger. Ich übernehme deinen Samstag. Und jetzt: sich schonen, verstanden? Ich hoffe, du bist bald wieder fit!",
+          "translation": "All good, boss-lifter. I'll take your Saturday. And now: take it easy, understood? I hope you're back on your feet soon!"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "narration",
+          "text": "Eine Woche Pause. Der Dienstplan läuft ohne dich, die Welt dreht sich weiter — und das ist, stellt sich heraus, der ganze Sinn der Sache."
+        }
+      ]
+    }
+  ]
+}

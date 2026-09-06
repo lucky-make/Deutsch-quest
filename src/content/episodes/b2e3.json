@@ -1,0 +1,81 @@
+{
+  "episode": {
+    "id": "b2e3",
+    "arcId": "B2",
+    "cefrLevel": "B2",
+    "title": "Nebenkosten & Recht",
+    "titleEn": "Utilities & the law",
+    "blurb": "Eine Abrechnung, die nicht stimmt. Fristen, Widerspruch, Mieterverein — du lernst, für dich zu sprechen.",
+    "order": 15,
+    "sceneIds": ["b2e3s1", "b2e3s2"]
+  },
+  "cast": [
+    { "id": "frau-otten", "name": "Frau Otten", "role": "Mieterverein, Beratung" },
+    { "id": "tobias", "name": "Tobias", "role": "Freund" }
+  ],
+  "items": [
+    { "id": "die-abrechnung", "type": "word", "german": "die Abrechnung", "meaning": "the (utility) statement / settlement", "image": "beleg", "audio": "tts", "introducedInScene": "b2e3s1", "tags": ["bills", "home", "paperwork"], "cefrLevel": "B2", "note": "die, Plural: die Abrechnungen — jährlich gefürchtet" },
+    { "id": "der-betrag", "type": "word", "german": "der Betrag", "meaning": "the amount", "image": "münzen", "audio": "tts", "introducedInScene": "b2e3s1", "tags": ["bills", "money"], "cefrLevel": "B2", "note": "der, Plural: die Beträge" },
+    { "id": "der-beleg", "type": "word", "german": "der Beleg", "meaning": "the receipt / supporting document", "image": "beleg", "audio": "tts", "introducedInScene": "b2e3s1", "tags": ["bills", "paperwork"], "cefrLevel": "B2", "note": "der, Plural: die Belege" },
+    { "id": "ich-pruefe-jede-zahl", "type": "chunk", "german": "Ich prüfe jede Zahl.", "meaning": "I check every number.", "audio": "tts", "introducedInScene": "b2e3s1", "tags": ["bills", "paperwork"], "cefrLevel": "B2" },
+    { "id": "hier-stimmt-etwas-nicht", "type": "sentence", "german": "Hier stimmt etwas nicht.", "meaning": "Something is wrong here.", "audio": "tts", "introducedInScene": "b2e3s1", "tags": ["bills", "law", "conflict"], "cefrLevel": "B2" },
+    { "id": "die-heizung", "type": "word", "german": "die Heizung", "meaning": "the heating", "image": "thermos", "audio": "tts", "introducedInScene": "b2e3s1", "tags": ["bills", "home"], "cefrLevel": "B2", "note": "die, Plural: die Heizungen" },
+    { "id": "der-mieterverein", "type": "word", "german": "der Mieterverein", "meaning": "the tenants' association", "image": "team", "audio": "tts", "introducedInScene": "b2e3s2", "tags": ["law", "home", "paperwork"], "cefrLevel": "B2" },
+    { "id": "die-frist", "type": "word", "german": "die Frist", "meaning": "the deadline", "image": "frist", "audio": "tts", "introducedInScene": "b2e3s2", "tags": ["law", "paperwork", "time"], "cefrLevel": "B2", "note": "die, Plural: die Fristen — „fristgerecht widersprechen\"" },
+    { "id": "das-schreiben", "type": "word", "german": "das Schreiben", "meaning": "the (official) letter", "image": "brief", "audio": "tts", "introducedInScene": "b2e3s2", "tags": ["law", "paperwork"], "cefrLevel": "B2", "note": "das, Plural: die Schreiben" },
+    { "id": "widersprechen", "type": "grammar_pattern", "german": "Wir widersprechen ___.", "meaning": "We object to ___.", "audio": "tts", "introducedInScene": "b2e3s2", "tags": ["law", "conflict"], "cefrLevel": "B2", "cloze": "der Forderung", "alt": "der Forderung teilweise", "speak": "Wir widersprechen der Forderung.", "note": "widersprechen + Dativ" },
+    { "id": "der-anspruch", "type": "word", "german": "der Anspruch", "meaning": "the claim / entitlement", "image": "kaution", "audio": "tts", "introducedInScene": "b2e3s2", "tags": ["law", "paperwork"], "cefrLevel": "B2", "note": "der, Plural: die Ansprüche" },
+    { "id": "die-beratung", "type": "word", "german": "die Beratung", "meaning": "the advice / consultation", "image": "gespräch", "audio": "tts", "introducedInScene": "b2e3s2", "tags": ["law", "learning"], "cefrLevel": "B2" }
+  ],
+  "scenes": [
+    {
+      "id": "b2e3s1",
+      "episodeId": "b2e3",
+      "title": "Die Abrechnung",
+      "titleEn": "The statement",
+      "place": "Küchentisch, Karl-Heine-Straße",
+      "bg": "wohnung",
+      "contextTags": ["bills", "home", "paperwork"],
+      "requiredItems": ["die-nebenkosten"],
+      "introducedItems": ["die-abrechnung", "der-betrag", "der-beleg", "ich-pruefe-jede-zahl", "hier-stimmt-etwas-nicht", "die-heizung"],
+      "beats": [
+        { "type": "narration", "text": "Ein dicker Brief von der Hausverwaltung. Tobias kommt mit Lineal, du mit Kaffee. Auf dem Küchentisch entsteht ein Feldlager aus Zetteln." },
+        { "type": "meet", "itemIds": ["die-abrechnung", "der-betrag", "die-heizung"] },
+        { "type": "line", "speaker": "tobias", "text": "Nachzahlung, vierhundertzwölf Euro. …Hm. Vorjahr war die Heizung bei der Hälfte. Hast du geheizt wie ein Russe im Winter? …Nein. Also:", "translation": "Back payment, four hundred twelve euros. …Hm. Last year the heating was half that. Did you heat like there's no tomorrow? …No. So:" },
+        { "type": "meet", "itemIds": ["der-beleg", "ich-pruefe-jede-zahl", "hier-stimmt-etwas-nicht"] },
+        { "type": "choice", "prompt": "Zwei Stunden später: vierzehn Zahlen, ein Verdacht.", "options": [
+          { "label": "Hier stimmt etwas nicht. Der Betrag ist doppelt.", "line": "Hier stimmt etwas nicht — dieser Betrag steht zweimal drin." },
+          { "label": "Ich prüfe jede Zahl. Wo sind die Belege?", "line": "Ich prüfe jede Zahl. Und: Wo sind die Belege zur Heizung?" }
+        ] },
+        { "type": "line", "speaker": "tobias", "text": "Genau das. Kein Beleg, falsche Summe. …Weißt du, was jetzt kommt? Mieterverein. Ich fahr dich hin, die haben Sprechstunde dienstags.", "translation": "Exactly that. No receipt, wrong amount. …You know what comes now? Tenants' association. I'll take you there, they have consultation hours on Tuesdays." },
+        { "type": "check", "count": 2, "mode": "mixed" },
+        { "type": "check", "count": 2, "mode": "recall" }
+      ]
+    },
+    {
+      "id": "b2e3s2",
+      "episodeId": "b2e3",
+      "title": "Beim Mieterverein",
+      "titleEn": "At the tenants' association",
+      "place": "Mieterverein Leipzig, Sprechstunde",
+      "bg": "amt",
+      "contextTags": ["law", "home", "paperwork"],
+      "requiredItems": ["hier-stimmt-etwas-nicht", "die-abrechnung"],
+      "introducedItems": ["der-mieterverein", "die-frist", "das-schreiben", "widersprechen", "der-anspruch", "die-beratung"],
+      "beats": [
+        { "type": "narration", "text": "Ein Büro mit Aktenschrank und einem Schild: „Mitgliedern Beratungsstunde\". Frau Otten liest deine Abrechnung wie einen Krimi und kennt das Ende." },
+        { "type": "meet", "itemIds": ["der-mieterverein", "die-beratung", "der-anspruch"] },
+        { "type": "line", "speaker": "frau-otten", "text": "Die Heizkosten sind falsch verteilt — ohne Belege dürfen sie gar nicht so abrechnen. Ihr habt Anspruch auf eine korrigierte Abrechnung. Punkt.", "translation": "The heating costs are allocated wrongly — without receipts they're not even allowed to bill like that. You're entitled to a corrected statement. Full stop." },
+        { "type": "meet", "itemIds": ["die-frist", "das-schreiben", "widersprechen"] },
+        { "type": "choice", "prompt": "Sie schiebt dir ein Formular.", "options": [
+          { "label": "Wir widersprechen der Forderung.", "line": "Wir widersprechen der Forderung — formell und fristgerecht." },
+          { "label": "Was ist die Frist für den Widerspruch?", "line": "Was genau ist die Frist für den Widerspruch?" }
+        ] },
+        { "type": "line", "speaker": "frau-otten", "text": "Zwölf Monate, Sie haben Zeit. Aber: nicht warten. Das Schreiben geht raus, ich kopiere es für die Akte. …Und Samuel? Gut gemacht, dass Sie jede Zahl geprüft haben.", "translation": "Twelve months, you have time. But: don't wait. The letter goes out, I'll copy it for the file. …And Sam? Well done checking every number." },
+        { "type": "check", "count": 2, "mode": "mixed" },
+        { "type": "check", "count": 2, "mode": "listen" },
+        { "type": "narration", "text": "Acht Wochen später: korrigierte Abrechnung, dreihundertsechzig Euro zurück. Du rahmst nicht den Scheck, aber fast. Sich auf Deutsch durchsetzen — es geht. Du hast es gerade bewiesen." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,560 @@
+{
+  "episode": {
+    "id": "b2e4",
+    "arcId": "B2",
+    "cefrLevel": "B2",
+    "title": "Das Nachbarschaftsfest",
+    "titleEn": "The neighbourhood festival",
+    "blurb": "Ein Jahr nach deiner Ankunft: Aufbau, Bratwurst, eine Rede. Was du gelernt hast, kommt zurück — alles gleichzeitig.",
+    "order": 16,
+    "sceneIds": [
+      "b2e4s1",
+      "b2e4s2",
+      "b2e4s3"
+    ]
+  },
+  "cast": [
+    {
+      "id": "deniz",
+      "name": "Deniz",
+      "role": "Nachbar, Festorganisator"
+    },
+    {
+      "id": "alle",
+      "name": "Alle",
+      "role": "der Hof"
+    },
+    {
+      "id": "frau-bruegge",
+      "name": "Frau Brügge",
+      "role": "Vermieterin, Ehrengast"
+    },
+    {
+      "id": "tobias",
+      "name": "Tobias",
+      "role": "Freund"
+    },
+    {
+      "id": "mei",
+      "name": "Mei",
+      "role": "Freundin, Kollegin"
+    },
+    {
+      "id": "luise",
+      "name": "Luise",
+      "role": "Café-Besitzerin"
+    },
+    {
+      "id": "jonas",
+      "name": "Jonas",
+      "role": "Handwerker, Freund"
+    }
+  ],
+  "items": [
+    {
+      "id": "das-fest",
+      "type": "word",
+      "german": "das Fest",
+      "meaning": "the festival / celebration",
+      "image": "fest",
+      "audio": "tts",
+      "introducedInScene": "b2e4s1",
+      "tags": [
+        "festival",
+        "celebration",
+        "neighbors"
+      ],
+      "cefrLevel": "B2",
+      "note": "das, Plural: die Feste"
+    },
+    {
+      "id": "der-stand",
+      "type": "word",
+      "german": "der Stand",
+      "meaning": "the stall / booth",
+      "image": "stand",
+      "audio": "tts",
+      "introducedInScene": "b2e4s1",
+      "tags": [
+        "festival",
+        "neighbors"
+      ],
+      "cefrLevel": "B2",
+      "note": "der, Plural: die Stände"
+    },
+    {
+      "id": "wir-bauen-auf",
+      "type": "chunk",
+      "german": "Wir bauen den Stand um acht auf.",
+      "meaning": "We'll set up the stall at eight.",
+      "audio": "tts",
+      "introducedInScene": "b2e4s1",
+      "tags": [
+        "festival",
+        "planning"
+      ],
+      "cefrLevel": "B2",
+      "note": "aufbauen = auf + bauen, trennbar"
+    },
+    {
+      "id": "die-nachbarschaft",
+      "type": "word",
+      "german": "die Nachbarschaft",
+      "meaning": "the neighbourhood",
+      "image": "heimat",
+      "audio": "tts",
+      "introducedInScene": "b2e4s1",
+      "tags": [
+        "festival",
+        "neighbors",
+        "friends"
+      ],
+      "cefrLevel": "B2",
+      "note": "die ( Singular )"
+    },
+    {
+      "id": "das-getraenk",
+      "type": "word",
+      "german": "das Getränk",
+      "meaning": "the drink / beverage",
+      "image": "getränk",
+      "audio": "tts",
+      "introducedInScene": "b2e4s1",
+      "tags": [
+        "festival",
+        "food"
+      ],
+      "cefrLevel": "B2",
+      "note": "das, Plural: die Getränke"
+    },
+    {
+      "id": "bis-spaeter",
+      "type": "chunk",
+      "german": "Bis später!",
+      "meaning": "See you later!",
+      "audio": "tts",
+      "introducedInScene": "b2e4s1",
+      "tags": [
+        "smalltalk",
+        "festival"
+      ],
+      "cefrLevel": "B2"
+    },
+    {
+      "id": "die-bratwurst",
+      "type": "word",
+      "german": "die Bratwurst",
+      "meaning": "the bratwurst / grilled sausage",
+      "image": "bratwurst",
+      "audio": "tts",
+      "introducedInScene": "b2e4s2",
+      "tags": [
+        "festival",
+        "food"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Bratwürste — thüringisch oder coburger, niemals neutral"
+    },
+    {
+      "id": "die-limonade",
+      "type": "word",
+      "german": "die Limonade",
+      "meaning": "the lemonade / soft drink",
+      "image": "getränk",
+      "audio": "tts",
+      "introducedInScene": "b2e4s2",
+      "tags": [
+        "festival",
+        "food"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Limonaden — Hausgemachte ist Pflicht"
+    },
+    {
+      "id": "platz-im-schatten",
+      "type": "sentence",
+      "german": "Gibt es einen Platz im Schatten?",
+      "meaning": "Is there a seat in the shade?",
+      "audio": "tts",
+      "introducedInScene": "b2e4s2",
+      "tags": [
+        "festival",
+        "politeness",
+        "questions"
+      ],
+      "cefrLevel": "B2"
+    },
+    {
+      "id": "die-sonne",
+      "type": "word",
+      "german": "die Sonne",
+      "meaning": "the sun",
+      "image": "sonnenuntergang",
+      "audio": "tts",
+      "introducedInScene": "b2e4s2",
+      "tags": [
+        "festival",
+        "smalltalk"
+      ],
+      "cefrLevel": "B2"
+    },
+    {
+      "id": "zum-wohl",
+      "type": "chunk",
+      "german": "Zum Wohl!",
+      "meaning": "Cheers! / To your health!",
+      "audio": "tts",
+      "introducedInScene": "b2e4s2",
+      "tags": [
+        "festival",
+        "politeness"
+      ],
+      "cefrLevel": "B2",
+      "note": "Mit Blickkontakt. Immer mit Blickkontakt."
+    },
+    {
+      "id": "die-rede",
+      "type": "word",
+      "german": "die Rede",
+      "meaning": "the speech",
+      "image": "mic",
+      "audio": "tts",
+      "introducedInScene": "b2e4s3",
+      "tags": [
+        "festival",
+        "reflection"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Reden — „eine Rede halten\""
+    },
+    {
+      "id": "stolz",
+      "type": "word",
+      "german": "stolz",
+      "meaning": "proud",
+      "image": "heimat",
+      "audio": "tts",
+      "introducedInScene": "b2e4s3",
+      "tags": [
+        "reflection",
+        "opinion"
+      ],
+      "cefrLevel": "B2",
+      "note": "Adjektiv — „stolz auf jemanden\""
+    },
+    {
+      "id": "die-heimat",
+      "type": "word",
+      "german": "die Heimat",
+      "meaning": "the home / homeland",
+      "image": "heimat",
+      "audio": "tts",
+      "introducedInScene": "b2e4s3",
+      "tags": [
+        "reflection"
+      ],
+      "cefrLevel": "B2",
+      "note": "die ( Singular ) — großes deutsches Wort, viele Bedeutungen"
+    },
+    {
+      "id": "wir-haben-gemeinsam",
+      "type": "chunk",
+      "german": "Wir haben gemeinsam etwas gebaut.",
+      "meaning": "We built something together.",
+      "audio": "tts",
+      "introducedInScene": "b2e4s3",
+      "tags": [
+        "reflection",
+        "neighbors"
+      ],
+      "cefrLevel": "B2"
+    },
+    {
+      "id": "auf-uns",
+      "type": "chunk",
+      "german": "Auf uns!",
+      "meaning": "To us! (toast)",
+      "audio": "tts",
+      "introducedInScene": "b2e4s3",
+      "tags": [
+        "festival",
+        "celebration"
+      ],
+      "cefrLevel": "B2"
+    },
+    {
+      "id": "danke-dass-ihr",
+      "type": "sentence",
+      "german": "Danke, dass ihr mich so aufgenommen habt.",
+      "meaning": "Thank you for taking me in like this.",
+      "audio": "tts",
+      "introducedInScene": "b2e4s3",
+      "tags": [
+        "reflection",
+        "politeness",
+        "friends"
+      ],
+      "cefrLevel": "B2"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "b2e4s1",
+      "episodeId": "b2e4",
+      "title": "Aufbau",
+      "titleEn": "Setting up",
+      "place": "Innenhof der Bärbelstraße, 8:00 Uhr",
+      "bg": "park",
+      "contextTags": [
+        "festival",
+        "neighbors",
+        "celebration"
+      ],
+      "requiredItems": [],
+      "introducedItems": [
+        "das-fest",
+        "der-stand",
+        "wir-bauen-auf",
+        "die-nachbarschaft",
+        "das-getraenk",
+        "bis-spaeter"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Ein Jahr ist es her, seit du mit einem Koffer durch die Bahnhofshalle liefst. Heute hängt ein Banner zwischen den Bäumen: „Nachbarschaftsfest Bärbelstraße — alle sind eingeladen\". Alle heißt: auch du, offiziell."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "das-fest",
+            "der-stand",
+            "wir-bauen-auf"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "deniz",
+          "text": "Morgen, Sam! Wir bauen den Stand um acht auf — Kaffee gibt's ab acht Uhr fünf.",
+          "translation": "Morning, Sam! We'll set up the stall at eight — coffee from eight fifteen."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-nachbarschaft",
+            "das-getraenk",
+            "bis-spaeter"
+          ]
+        },
+        {
+          "type": "choice",
+          "prompt": "Deniz reicht dir eine Kiste Limonadenflaschen.",
+          "options": [
+            {
+              "label": "Wir bauen zusammen auf — wo hin mit den Getränken?",
+              "line": "Wir bauen zusammen auf — wo soll ich die Getränke hintun?"
+            },
+            {
+              "label": "Bis später! Ich hol noch Frau Brügge ab.",
+              "line": "Bis später! Ich hole noch Frau Brügge ab."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "deniz",
+          "text": "Getränke an den Stand, Kuchen zu Frau Brügge. …Und Sam: Um vier hält jemand eine Rede. Ich hab an dich gedacht. Überraschung!",
+          "translation": "Drinks to the stall, cake to Frau Brügge. …And Sam: at four somebody's giving a speech. I thought of you. Surprise!"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "narration",
+          "text": "Wimpel, Tische, ein Kaffeeautomat von 1974. Um zwölf riecht der Hof nach Fest. Du hast fünf Stunden, um eine Rede zu schreiben. Deutsch genug für diesen Hof: hast du immer."
+        }
+      ]
+    },
+    {
+      "id": "b2e4s2",
+      "episodeId": "b2e4",
+      "title": "An der Theke",
+      "titleEn": "At the stall",
+      "place": "Feststand, Wurstseite",
+      "bg": "fest",
+      "contextTags": [
+        "festival",
+        "food",
+        "request"
+      ],
+      "requiredItems": [
+        "das-fest"
+      ],
+      "introducedItems": [
+        "die-bratwurst",
+        "die-limonade",
+        "platz-im-schatten",
+        "die-sonne",
+        "zum-wohl"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Mittags. Der Hof ist voll, die Sonne knallt auf den Asphalt, dein Stand hat Schatten und Eine Schlange. Mei hilft am Grill, Luise hat Kuchen gebracht, Tobias organisiert alles, was gar nicht organisiert werden muss."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-bratwurst",
+            "die-limonade",
+            "die-sonne"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "frau-bruegge",
+          "text": "Ich hätte gern eine Bratwurst, ohne Senf — nein, mit Senf. Nein. …Du entscheidest, Sam.",
+          "translation": "I'd like a bratwurst, no mustard — no, with mustard. No. …You decide, Sam."
+        },
+        {
+          "type": "choice",
+          "prompt": "Die Schlange wird länger. Nimm die Bestellung.",
+          "options": [
+            {
+              "label": "Eine Bratwurst mit Senf, eine Limonade dazu.",
+              "line": "Eine Bratwurst mit Senf — und eine Limonade dazu."
+            },
+            {
+              "label": "Gibt es noch einen Platz im Schatten für Sie?",
+              "line": "Und: Gibt es noch einen Platz im Schatten für Sie, Frau Brügge?"
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "deniz",
+          "text": "Stark! Zwei Bratwürste über, dann mach Pause. …Zum Wohl, ihr zwei — auf den Stand!",
+          "translation": "Nice! Two bratwursts left, then take a break. …Cheers, you two — to the stall!"
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "platz-im-schatten",
+            "zum-wohl"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "narration",
+          "text": "Ihr stoßt mit Limonade an, die Sonne rutscht Richtung Kirchturm. Irgendwo im Hof fängt jemand an, Gitarre zu spielen, die falschen Akkorde der richtigen Liebe."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        }
+      ]
+    },
+    {
+      "id": "b2e4s3",
+      "episodeId": "b2e4",
+      "title": "Sams Rede",
+      "titleEn": "Sam's speech",
+      "place": "Innenhof, kleine Bühne aus Paletten",
+      "bg": "fest",
+      "contextTags": [
+        "reflection",
+        "festival",
+        "friends"
+      ],
+      "requiredItems": [
+        "das-fest"
+      ],
+      "introducedItems": [
+        "die-rede",
+        "stolz",
+        "die-heimat",
+        "wir-haben-gemeinsam",
+        "auf-uns",
+        "danke-dass-ihr"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Vier Uhr. Deniz klopft aufs Mikrofon. Der Hof wird leise, nur der Grill zischt noch. Ein Zettel in deiner Hand, komplett leer. Du brauchst ihn nicht."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-rede",
+            "die-heimat",
+            "stolz"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "deniz",
+          "text": "Leute — Sam hält die Rede. Ein Jahr Bärbelstraße. …Läuft und läuft: Sam, der Hof gehört dir.",
+          "translation": "Folks — Sam's giving the speech. One year of Bärbelstraße. …Drumroll: Sam, the yard is yours."
+        },
+        {
+          "type": "choice",
+          "prompt": "Deine Rede. Der erste Satz gehört dir.",
+          "options": [
+            {
+              "label": "Vor einem Jahr bin ich hier angekommen — mit einem Koffer und ohne Wörter.",
+              "line": "Vor einem Jahr bin ich hier angekommen — mit einem Koffer und ohne Wörter."
+            },
+            {
+              "label": "Ich hätte gern drei Minuten von Ihrer Zeit.",
+              "line": "Ich hätte gern drei Minuten von Ihrer Zeit — keine Sorge, keine Rechnung."
+            }
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "wir-haben-gemeinsam",
+            "danke-dass-ihr",
+            "auf-uns"
+          ]
+        },
+        {
+          "type": "narration",
+          "text": "Du erzählst von Gleis sieben und Frau Brügges Schlüssel, von Brötchen, Lärm nachts und Kompromissen, von einer Abrechnung, die du besiegt hast. Von der Heimat, die man nicht verliert, sondern erweitert. Am Ende sagst du: „Danke, dass ihr mich so aufgenommen habt. Wir haben gemeinsam etwas gebaut — und ich bin stolz, dass ich dabei sein darf. Auf uns!\""
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "line",
+          "speaker": "alle",
+          "text": "Auf uns! …AUF UNS!",
+          "translation": "To us! …TO US!"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "narration",
+          "text": "Gläser klingen, Tobias stößt zu hart an, Mei lacht, Frau Brügge wischt sich schnell ein Auge — „Staub vom Grill“. Die Gitarre findet irgendwann den richtigen Akkord. Ein Jahr. Zwei Schlüssel. Ein Hof voller Sprache, die jetzt auch deine ist."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,349 @@
+{
+  "episode": {
+    "id": "a2e4",
+    "arcId": "A2",
+    "cefrLevel": "A2",
+    "title": "Das Fahrrad",
+    "titleEn": "The bicycle",
+    "blurb": "Platter Reifen an der Pleiße. Tobias ruft jemanden namens Jonas — und du lernst reparieren zu lassen.",
+    "order": 8,
+    "sceneIds": [
+      "a2e4s1",
+      "a2e4s2"
+    ]
+  },
+  "cast": [
+    {
+      "id": "jonas",
+      "name": "Jonas",
+      "role": "Handwerker, Tobias' Freund"
+    },
+    {
+      "id": "tobias",
+      "name": "Tobias",
+      "role": "Nachbar, Student"
+    }
+  ],
+  "items": [
+    {
+      "id": "das-fahrrad",
+      "type": "word",
+      "german": "das Fahrrad",
+      "meaning": "the bicycle",
+      "image": "bike",
+      "audio": "tts",
+      "introducedInScene": "a2e4s1",
+      "tags": [
+        "bike",
+        "transport"
+      ],
+      "cefrLevel": "A2",
+      "note": "das, Plural: die Fahrräder — in Leipzig Pflichtausstattung"
+    },
+    {
+      "id": "der-reifen",
+      "type": "word",
+      "german": "der Reifen",
+      "meaning": "the tire / tyre",
+      "image": "reifen",
+      "audio": "tts",
+      "introducedInScene": "a2e4s1",
+      "tags": [
+        "bike",
+        "repair"
+      ],
+      "cefrLevel": "A2",
+      "note": "der, Plural: die Reifen"
+    },
+    {
+      "id": "kaputt",
+      "type": "word",
+      "german": "kaputt",
+      "meaning": "broken",
+      "image": "reifen",
+      "audio": "tts",
+      "introducedInScene": "a2e4s1",
+      "tags": [
+        "repair",
+        "problem"
+      ],
+      "cefrLevel": "A2",
+      "note": "Adjektiv — passt auf fast alles"
+    },
+    {
+      "id": "die-werkstatt",
+      "type": "word",
+      "german": "die Werkstatt",
+      "meaning": "the workshop",
+      "image": "werkzeug",
+      "audio": "tts",
+      "introducedInScene": "a2e4s1",
+      "tags": [
+        "repair",
+        "city"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Werkstätten"
+    },
+    {
+      "id": "mein-fahrrad-ist-kaputt",
+      "type": "sentence",
+      "german": "Mein Fahrrad ist kaputt.",
+      "meaning": "My bicycle is broken.",
+      "audio": "tts",
+      "introducedInScene": "a2e4s1",
+      "tags": [
+        "bike",
+        "repair",
+        "problem"
+      ],
+      "cefrLevel": "A2"
+    },
+    {
+      "id": "koennen-sie-mir-helfen",
+      "type": "sentence",
+      "german": "Können Sie mir helfen?",
+      "meaning": "Can you help me? (formal)",
+      "audio": "tts",
+      "introducedInScene": "a2e4s1",
+      "tags": [
+        "politeness",
+        "questions"
+      ],
+      "cefrLevel": "A2",
+      "note": "unter Freunden: „Kannst du mir helfen?\""
+    },
+    {
+      "id": "das-werkzeug",
+      "type": "word",
+      "german": "das Werkzeug",
+      "meaning": "the tools",
+      "image": "werkzeug",
+      "audio": "tts",
+      "introducedInScene": "a2e4s2",
+      "tags": [
+        "repair",
+        "objects"
+      ],
+      "cefrLevel": "A2",
+      "note": "das ( Sammelbegriff )"
+    },
+    {
+      "id": "reparieren",
+      "type": "chunk",
+      "german": "Ich repariere das.",
+      "meaning": "I'll repair that.",
+      "audio": "tts",
+      "introducedInScene": "a2e4s2",
+      "tags": [
+        "repair"
+      ],
+      "cefrLevel": "A2"
+    },
+    {
+      "id": "ist-es-fertig",
+      "type": "chunk",
+      "german": "Ist es fertig?",
+      "meaning": "Is it done?",
+      "audio": "tts",
+      "introducedInScene": "a2e4s2",
+      "tags": [
+        "repair",
+        "questions"
+      ],
+      "cefrLevel": "A2"
+    },
+    {
+      "id": "zum-glueck",
+      "type": "chunk",
+      "german": "Zum Glück!",
+      "meaning": "Luckily! / Thank goodness!",
+      "audio": "tts",
+      "introducedInScene": "a2e4s2",
+      "tags": [
+        "smalltalk"
+      ],
+      "cefrLevel": "A2"
+    },
+    {
+      "id": "danke-fuer-deine-hilfe",
+      "type": "sentence",
+      "german": "Danke für deine Hilfe!",
+      "meaning": "Thanks for your help!",
+      "audio": "tts",
+      "introducedInScene": "a2e4s2",
+      "tags": [
+        "politeness",
+        "friends"
+      ],
+      "cefrLevel": "A2"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "a2e4s1",
+      "episodeId": "a2e4",
+      "title": "Platter Reifen",
+      "titleEn": "Flat tire",
+      "place": "Elsterflutbecken, Radweg",
+      "bg": "park",
+      "contextTags": [
+        "bike",
+        "transport",
+        "problem"
+      ],
+      "requiredItems": [],
+      "introducedItems": [
+        "das-fahrrad",
+        "der-reifen",
+        "kaputt",
+        "die-werkstatt",
+        "mein-fahrrad-ist-kaputt",
+        "koennen-sie-mir-helfen"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Freier Tag, Fahrt an der Elster entlang. Dann: ein Geräusch wie ein genervtes Publikum. Der Hinterreifen liegt flach wie ein Pfannkuchen."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "das-fahrrad",
+            "der-reifen",
+            "kaputt"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Sam? Was machst du denn hier am Radweg rum? …Oh. Der Reifen ist ja komplett kaputt.",
+          "translation": "Sam? What are you doing hanging around the bike path? …Oh. The tire is completely flat."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-werkstatt",
+            "mein-fahrrad-ist-kaputt",
+            "koennen-sie-mir-helfen"
+          ]
+        },
+        {
+          "type": "choice",
+          "prompt": "Tobias schaut unbeschwert.",
+          "options": [
+            {
+              "label": "Mein Fahrrad ist kaputt. Hilfe!",
+              "line": "Mein Fahrrad ist kaputt. Hilfe!"
+            },
+            {
+              "label": "Ich schiebe es zur Werkstatt. …Irgendwohin.",
+              "line": "Ich schiebe es zur Werkstatt. …Irgendwohin."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Warte — ich ruf Jonas an. Der ist Handwerker und hat eine Werkstatt im Hinterhof. Kommt gleich!",
+          "translation": "Wait — I'll call Jonas. He's a craftsman with a workshop in the back yard. He's coming!"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        }
+      ]
+    },
+    {
+      "id": "a2e4s2",
+      "episodeId": "a2e4",
+      "title": "Jonas repariert",
+      "titleEn": "Jonas repairs",
+      "place": "Jonas' Werkstatt, Hinterhof",
+      "bg": "werkstatt",
+      "contextTags": [
+        "bike",
+        "repair",
+        "friends"
+      ],
+      "requiredItems": [
+        "kaputt",
+        "das-fahrrad"
+      ],
+      "introducedItems": [
+        "das-werkzeug",
+        "reparieren",
+        "ist-es-fertig",
+        "zum-glueck",
+        "danke-fuer-deine-hilfe"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Ein Hinterhof voller Fahrradteile, ein Mann mit Schraubenschlüssel in der Gesäßtasche und Kaffee in der Hand."
+        },
+        {
+          "type": "line",
+          "speaker": "jonas",
+          "text": "Moin! So, mal gucken … Platten, klar. Fünfzehn Minuten, ich repariere das. Kaffee?",
+          "translation": "Hi! Well, let's see … flat tire, clear. Fifteen minutes, I'll repair it. Coffee?"
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "das-werkzeug",
+            "reparieren",
+            "ist-es-fertig"
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "zum-glueck",
+            "danke-fuer-deine-hilfe"
+          ]
+        },
+        {
+          "type": "choice",
+          "prompt": "Jonas zieht die Rechnung heraus.",
+          "options": [
+            {
+              "label": "Ist es fertig? Und — was kostet es?",
+              "line": "Ist es fertig? Und — was kostet es?"
+            },
+            {
+              "label": "Danke für deine Hilfe! …Wirklich.",
+              "line": "Danke für deine Hilfe! …Wirklich."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "jonas",
+          "text": "Zehn Euro auf die Rechnung, „Service freundlich“. Zum Glück war nur der Schlauch hin.",
+          "translation": "Ten euros on the invoice, 'friendly service'. Luckily only the tube was gone."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "narration",
+          "text": "Das Fahrrad rollt wieder. Leipzig hat ganz viele Risse — und ganz viele Leute, die sie just in der Mittagspause zusammennageln."
+        }
+      ]
+    }
+  ]
+}

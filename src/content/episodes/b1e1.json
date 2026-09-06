@@ -1,0 +1,113 @@
+{
+  "episode": {
+    "id": "b1e1",
+    "arcId": "B1",
+    "cefrLevel": "B1",
+    "title": "Lärm und Nachbarn",
+    "titleEn": "Noise and neighbours",
+    "blurb": "Bässe um zwei Uhr nachts. Zum ersten Mal musst du in Deutschland einen Konflikt ansprechen — und lösen.",
+    "order": 9,
+    "sceneIds": ["b1e1s1", "b1e1s2", "b1e1s3"]
+  },
+  "cast": [
+    { "id": "tobias", "name": "Tobias", "role": "Nachbar, Student" },
+    { "id": "frau-bruegge", "name": "Frau Brügge", "role": "Vermieterin" }
+  ],
+  "items": [
+    { "id": "der-laerm", "type": "word", "german": "der Lärm", "meaning": "the noise (annoying kind)", "image": "laut", "audio": "tts", "introducedInScene": "b1e1s1", "tags": ["neighbors", "conflict"], "cefrLevel": "B1", "note": "der ( Singular ) — Lärm nervt, Geräusche sind neutral" },
+    { "id": "laut", "type": "word", "german": "laut", "meaning": "loud", "image": "laut", "audio": "tts", "introducedInScene": "b1e1s1", "tags": ["neighbors", "conflict"], "cefrLevel": "B1", "note": "Adjektiv — gesteigert: lauter, am lautesten" },
+    { "id": "die-party", "type": "word", "german": "die Party", "meaning": "the party", "image": "fest", "audio": "tts", "introducedInScene": "b1e1s1", "tags": ["neighbors", "conflict"], "cefrLevel": "B1", "note": "die, Plural: die Partys — deutsche Schreibung!" },
+    { "id": "es-ist-zwei-uhr", "type": "sentence", "german": "Es ist zwei Uhr nachts.", "meaning": "It's two o'clock at night.", "audio": "tts", "introducedInScene": "b1e1s1", "tags": ["conflict", "time"], "cefrLevel": "B1" },
+    { "id": "koennen-wir-darueber-reden", "type": "sentence", "german": "Können wir kurz darüber reden?", "meaning": "Can we talk about this briefly?", "audio": "tts", "introducedInScene": "b1e1s1", "tags": ["conflict", "politeness"], "cefrLevel": "B1", "note": "Der seriöseste Konfliktöffner im Deutschen" },
+    { "id": "die-ruecksicht", "type": "word", "german": "die Rücksicht", "meaning": "the consideration (for others)", "image": "ruhe", "audio": "tts", "introducedInScene": "b1e1s1", "tags": ["neighbors", "conflict"], "cefrLevel": "B1", "note": "die (meist Singular) — „Rücksicht nehmen\"" },
+    { "id": "die-ruhe", "type": "word", "german": "die Ruhe", "meaning": "the quiet / peace", "image": "ruhe", "audio": "tts", "introducedInScene": "b1e1s2", "tags": ["neighbors", "conflict"], "cefrLevel": "B1", "note": "die ( Singular ) — „Ruhe, bitte!\"" },
+    { "id": "der-kompromiss", "type": "word", "german": "der Kompromiss", "meaning": "the compromise", "image": "gespräch", "audio": "tts", "introducedInScene": "b1e1s2", "tags": ["conflict", "neighbors"], "cefrLevel": "B1", "note": "der, Plural: die Kompromisse" },
+    { "id": "einverstanden", "type": "chunk", "german": "Ich bin einverstanden.", "meaning": "I agree.", "audio": "tts", "introducedInScene": "b1e1s2", "tags": ["conflict", "opinion"], "cefrLevel": "B1" },
+    { "id": "es-tut-mir-leid", "type": "chunk", "german": "Es tut mir leid.", "meaning": "I'm sorry.", "audio": "tts", "introducedInScene": "b1e1s2", "tags": ["conflict", "politeness"], "cefrLevel": "B1", "note": "echt gemeint im Deutschen ein Verhältniswort: leid tun" },
+    { "id": "die-uhrzeit", "type": "word", "german": "die Uhrzeit", "meaning": "the time (of day)", "image": "urehr", "audio": "tts", "introducedInScene": "b1e1s2", "tags": ["conflict", "time"], "cefrLevel": "B1", "note": "die, Plural: die Uhrzeiten" },
+    { "id": "ab-jetzt", "type": "chunk", "german": "Ab jetzt!", "meaning": "From now on!", "audio": "tts", "introducedInScene": "b1e1s2", "tags": ["conflict", "smalltalk"], "cefrLevel": "B1" },
+    { "id": "das-grillfest", "type": "word", "german": "das Grillfest", "meaning": "the barbecue party", "image": "grill", "audio": "tts", "introducedInScene": "b1e1s3", "tags": ["neighbors", "friends", "food"], "cefrLevel": "B1", "note": "das, Plural: die Grillfeste" },
+    { "id": "der-grill", "type": "word", "german": "der Grill", "meaning": "the grill / barbecue", "image": "grill", "audio": "tts", "introducedInScene": "b1e1s3", "tags": ["friends", "food"], "cefrLevel": "B1" },
+    { "id": "bist-du-dabei", "type": "sentence", "german": "Bist du dabei?", "meaning": "Are you in?", "audio": "tts", "introducedInScene": "b1e1s3", "tags": ["friends", "invitation"], "cefrLevel": "B1" },
+    { "id": "das-wochenende", "type": "word", "german": "das Wochenende", "meaning": "the weekend", "image": "kalender", "audio": "tts", "introducedInScene": "b1e1s3", "tags": ["friends", "time"], "cefrLevel": "B1", "note": "das, Plural: die Wochenenden" },
+    { "id": "wir-kochen-zusammen", "type": "chunk", "german": "Wir kochen zusammen.", "meaning": "We'll cook together.", "audio": "tts", "introducedInScene": "b1e1s3", "tags": ["friends", "food"], "cefrLevel": "B1" },
+    { "id": "die-einladung", "type": "word", "german": "die Einladung", "meaning": "the invitation", "image": "geschenk", "audio": "tts", "introducedInScene": "b1e1s3", "tags": ["friends", "neighbors"], "cefrLevel": "B1", "note": "die, Plural: die Einladungen" }
+  ],
+  "scenes": [
+    {
+      "id": "b1e1s1",
+      "episodeId": "b1e1",
+      "title": "Musik nachts",
+      "titleEn": "Music at night",
+      "place": "Wohnung, 2:04 Uhr",
+      "bg": "wohnung",
+      "contextTags": ["neighbors", "conflict", "home"],
+      "requiredItems": [],
+      "introducedItems": ["der-laerm", "laut", "die-party", "es-ist-zwei-uhr", "koennen-wir-darueber-reden", "die-ruecksicht"],
+      "beats": [
+        { "type": "narration", "text": "Zwei Uhr nachts. Die Wand pulsiert. Eine Etage über dir findet offenbar eine Party statt, und du bist ausnahmsweise nicht eingeladen. Früher hättest du wütend gegoogelt: ‚Germany noise law english'." },
+        { "type": "meet", "itemIds": ["der-laerm", "laut", "die-party"] },
+        { "type": "narration", "text": "Heute gehst du einfach eine Treppe hoch. Worte, die du hast." },
+        { "type": "meet", "itemIds": ["es-ist-zwei-uhr", "koennen-wir-darueber-reden", "die-ruecksicht"] },
+        { "type": "check", "count": 2, "mode": "mixed" },
+        { "type": "line", "speaker": "tobias", "text": "Sam?! …Oh. Oh nein. Es ist zwei Uhr nachts, oder? Komm rein, sorry — wir machen's aus.", "translation": "Sam?! …Oh. Oh no. It's two a.m., right? Come in, sorry — we'll turn it off." },
+        { "type": "choice", "prompt": "Tobias sieht ehrlich beschämt aus. Wie sprichst du es an?", "options": [
+          { "label": "Können wir kurz darüber reden? Es ist ein bisschen laut.", "line": "Tobias — können wir kurz darüber reden? Es ist ein bisschen laut." },
+          { "label": "Es ist okay! Nur … der Lärm. Ich muss früh raus.", "line": "Es ist okay! Nur … der Lärm. Ich muss früh raus." }
+        ] },
+        { "type": "line", "speaker": "tobias", "text": "Nein, du hast völlig recht. Rücksicht — wir hatten einfach keine dran gedacht. Das war das letzte Mal so.", "translation": "No, you're completely right. Consideration — we just weren't thinking. That was the last time like this." },
+        { "type": "check", "count": 2, "mode": "recall" },
+        { "type": "narration", "text": "Der Bass verstummt. Irgendwo singt jemand sehr leise weiter. Du gehst die Treppe runter und fühlst dich seltsam erwachsen." }
+      ]
+    },
+    {
+      "id": "b1e1s2",
+      "episodeId": "b1e1",
+      "title": "Das klare Wort",
+      "titleEn": "The clear word",
+      "place": "Treppenhaus, nächster Morgen",
+      "bg": "treppenhaus",
+      "contextTags": ["conflict", "apology", "neighbors"],
+      "requiredItems": ["der-laerm", "koennen-wir-darueber-reden"],
+      "introducedItems": ["die-ruhe", "der-kompromiss", "einverstanden", "es-tut-mir-leid", "die-uhrzeit", "ab-jetzt"],
+      "beats": [
+        { "type": "narration", "text": "Nächster Morgen. Tobias wartet auf dem Treppenabsatz mit zwei Brötchentüten und einem Gesicht wie ein Hund, der eine Socke gefressen hat." },
+        { "type": "meet", "itemIds": ["die-ruhe", "die-uhrzeit", "es-tut-mir-leid"] },
+        { "type": "line", "speaker": "tobias", "text": "Es tut mir leid. Nochmal. Die Uhrzeit war wirklich … jenseits von allem.", "translation": "I'm sorry. Again. The time really was … beyond everything." },
+        { "type": "meet", "itemIds": ["der-kompromiss", "einverstanden", "ab-jetzt"] },
+        { "type": "choice", "prompt": "Er macht einen Vorschlag: Party ja, Lärm nein.", "options": [
+          { "label": "Ich bin einverstanden. Ab jetzt: Nachts Ruhe.", "line": "Ich bin einverstanden. Ab jetzt: nachts Ruhe." },
+          { "label": "Kompromiss: Feiern ja — aber mit Kopfhörern.", "line": "Kompromiss: Feiern ja — aber mit Kopfhörern." }
+        ] },
+        { "type": "line", "speaker": "tobias", "text": "Abgemacht. Ruhe ab elf, versprochen. …Und dafür gibt's Brötchen. Friedensbrötchen.", "translation": "Deal. Quiet from eleven, promised. …And for that: rolls. Peace rolls." },
+        { "type": "check", "count": 2, "mode": "mixed" },
+        { "type": "check", "count": 2, "mode": "recall" },
+        { "type": "narration", "text": "Ihr steht zwischen drittem und zweitem Stock und esst Brötchen. Konflikt gelöst, deutscher Stil: klar benannt, sauber beendet, dann Essen." }
+      ]
+    },
+    {
+      "id": "b1e1s3",
+      "episodeId": "b1e1",
+      "title": "Grillen als Frieden",
+      "titleEn": "Barbecue as peace",
+      "place": "Clara-Zetkin-Park",
+      "bg": "park",
+      "contextTags": ["neighbors", "friends", "food"],
+      "requiredItems": ["es-tut-mir-leid"],
+      "introducedItems": ["das-grillfest", "der-grill", "bist-du-dabei", "das-wochenende", "wir-kochen-zusammen", "die-einladung"],
+      "beats": [
+        { "type": "line", "speaker": "tobias", "text": "Also: Unser Grillfest ist eine offizielle Einladung. Dieses Wochenende, Clara-Park. Bist du dabei?", "translation": "So: our barbecue is an official invitation. This weekend, Clara Park. Are you in?" },
+        { "type": "meet", "itemIds": ["die-einladung", "das-wochenende", "bist-du-dabei"] },
+        { "type": "meet", "itemIds": ["das-grillfest", "der-grill", "wir-kochen-zusammen"] },
+        { "type": "choice", "prompt": "Der Grill qualmt schon von weitem.", "options": [
+          { "label": "Ich bin dabei! Wir kochen zusammen.", "line": "Ich bin dabei! Wir kochen zusammen." },
+          { "label": "Dabei! Aber ich bring Salat mit, nicht Fleisch.", "line": "Dabei! Aber ich bring Salat mit, kein Fleisch." }
+        ] },
+        { "type": "line", "speaker": "tobias", "text": "Salat ist auch Fleisch, wenn man richtig grillt. …Scherz! Bring den Salat, der war letztes Mal super.", "translation": "Salad is also meat if you grill it right. …Joke! Bring the salad, it was great last time." },
+        { "type": "check", "count": 2, "mode": "mixed" },
+        { "type": "check", "count": 2, "mode": "recall" },
+        { "type": "narration", "text": "Sonnenuntergang im Park, Rauch, Lachen, ein riesiger Koffer aus Konfliktpotenzial, abgebaut zu Freundschaft. So funktioniert Nachbarschaft." }
+      ]
+    }
+  ]
+}

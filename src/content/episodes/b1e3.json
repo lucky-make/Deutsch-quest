@@ -1,0 +1,112 @@
+{
+  "episode": {
+    "id": "b1e3",
+    "arcId": "B1",
+    "cefrLevel": "B1",
+    "title": "Arbeit und Zukunft",
+    "titleEn": "Work and future",
+    "blurb": "Luise macht ein Angebot, ein kleiner Betrieb stellt ein — und du führst dein erstes deutsches Vorstellungsgespräch.",
+    "order": 11,
+    "sceneIds": ["b1e3s1", "b1e3s2", "b1e3s3"]
+  },
+  "cast": [
+    { "id": "luise", "name": "Luise", "role": "Café-Besitzerin" },
+    { "id": "personal", "name": "Frau Liebig", "role": "Geschäftsführung, Café Kontor" }
+  ],
+  "items": [
+    { "id": "die-zukunft", "type": "word", "german": "die Zukunft", "meaning": "the future", "image": "zukunft", "audio": "tts", "introducedInScene": "b1e3s1", "tags": ["career", "planning"], "cefrLevel": "B1", "note": "die ( Singular ) — „in Zukunft“" },
+    { "id": "die-teilzeit", "type": "word", "german": "die Teilzeit", "meaning": "part-time (work)", "image": "urehr", "audio": "tts", "introducedInScene": "b1e3s1", "tags": ["work", "career"], "cefrLevel": "B1", "note": "die ( Singular ) — Gegenteil: die Vollzeit" },
+    { "id": "der-kurs", "type": "word", "german": "der Kurs", "meaning": "the course", "image": "lebenslauf", "audio": "tts", "introducedInScene": "b1e3s1", "tags": ["career", "learning"], "cefrLevel": "B1", "note": "der, Plural: die Kurse — z. B. ein B2-Kurs" },
+    { "id": "verbessern", "type": "grammar_pattern", "german": "Ich möchte mein Deutsch ___.", "meaning": "I want to ___ my German.", "audio": "tts", "introducedInScene": "b1e3s1", "tags": ["career", "learning"], "cefrLevel": "B1", "cloze": "verbessern", "speak": "Ich möchte mein Deutsch verbessern.", "note": "möchte + Infinitiv am Satzende" },
+    { "id": "die-chance", "type": "word", "german": "die Chance", "meaning": "the chance / opportunity", "image": "ziel", "audio": "tts", "introducedInScene": "b1e3s1", "tags": ["career", "planning"], "cefrLevel": "B1", "note": "die, Plural: die Chancen" },
+    { "id": "die-firma", "type": "word", "german": "die Firma", "meaning": "the company", "image": "firma", "audio": "tts", "introducedInScene": "b1e3s2", "tags": ["work", "career"], "cefrLevel": "B1", "note": "die, Plural: die Firmen" },
+    { "id": "die-ausbildung", "type": "word", "german": "die Ausbildung", "meaning": "the (vocational) training", "image": "stelle", "audio": "tts", "introducedInScene": "b1e3s2", "tags": ["work", "career"], "cefrLevel": "B1", "note": "die, Plural: die Ausbildungen — sehr deutsches Konzept" },
+    { "id": "die-staerke", "type": "word", "german": "die Stärke", "meaning": "the strength", "image": "ziel", "audio": "tts", "introducedInScene": "b1e3s2", "tags": ["work", "interview"], "cefrLevel": "B1", "note": "die, Plural: die Stärken — Gegenteil: die Schwäche" },
+    { "id": "darf-ich-mich-vorstellen", "type": "sentence", "german": "Darf ich mich kurz vorstellen?", "meaning": "May I briefly introduce myself?", "audio": "tts", "introducedInScene": "b1e3s2", "tags": ["interview", "politeness"], "cefrLevel": "B1" },
+    { "id": "die-frage", "type": "word", "german": "die Frage", "meaning": "the question", "image": "gespräch", "audio": "tts", "introducedInScene": "b1e3s2", "tags": ["interview", "questions"], "cefrLevel": "B1", "note": "die, Plural: die Fragen — „Haben Sie Fragen?“ — Ja, haben Sie!" },
+    { "id": "die-vorbereitung", "type": "word", "german": "die Vorbereitung", "meaning": "the preparation", "image": "idee", "audio": "tts", "introducedInScene": "b1e3s2", "tags": ["interview", "learning"], "cefrLevel": "B1", "note": "die, Plural: die Vorbereitungen" },
+    { "id": "die-zusage", "type": "word", "german": "die Zusage", "meaning": "the acceptance / yes", "image": "prüfen", "audio": "tts", "introducedInScene": "b1e3s3", "tags": ["work", "career"], "cefrLevel": "B1", "note": "die, Plural: die Zusagen — Gegenteil: die Absage" },
+    { "id": "anfangen", "type": "chunk", "german": "Wann kannst du anfangen?", "meaning": "When can you start?", "audio": "tts", "introducedInScene": "b1e3s3", "tags": ["work", "questions"], "cefrLevel": "B1", "note": "anfangen = an + fangen, trennbar" },
+    { "id": "das-gehalt", "type": "word", "german": "das Gehalt", "meaning": "the salary", "image": "münzen", "audio": "tts", "introducedInScene": "b1e3s3", "tags": ["work", "money"], "cefrLevel": "B1", "note": "das, Plural: die Gehälter — monatlich, bei Angestellten" },
+    { "id": "die-ueberstunde", "type": "word", "german": "die Überstunde", "meaning": "the overtime hour", "image": "urehr", "audio": "tts", "introducedInScene": "b1e3s3", "tags": ["work", "time"], "cefrLevel": "B1", "note": "die, Plural: die Überstunden" },
+    { "id": "der-kollege", "type": "word", "german": "der Kollege", "meaning": "the colleague (m)", "image": "team", "audio": "tts", "introducedInScene": "b1e3s3", "tags": ["work", "people"], "cefrLevel": "B1", "note": "der, Plural: die Kollegen; weiblich: die Kollegin" },
+    { "id": "wir-freuen-uns-auf-dich", "type": "chunk", "german": "Wir freuen uns auf dich!", "meaning": "We're looking forward to having you!", "audio": "tts", "introducedInScene": "b1e3s3", "tags": ["work", "friends"], "cefrLevel": "B1" }
+  ],
+  "scenes": [
+    {
+      "id": "b1e3s1",
+      "episodeId": "b1e3",
+      "title": "Luise und die Zukunft",
+      "titleEn": "Luise and the future",
+      "place": "Café Luise, nach Feierabend",
+      "bg": "cafe",
+      "contextTags": ["work", "career", "planning"],
+      "requiredItems": ["der-vertrag", "die-stelle"],
+      "introducedItems": ["die-zukunft", "die-teilzeit", "der-kurs", "verbessern", "die-chance"],
+      "beats": [
+        { "type": "line", "speaker": "luise", "text": "Setz dich. …Sam, ehrlich: Du bist gut. Aber ich kann dir hier keine Zukunft bieten, nur Kaffee. Mein Tipp: eine größere Stelle, Teilzeit — und parallel ein Deutschkurs.", "translation": "Sit down. …Sam, honestly: you're good. But I can't offer you a future here, only coffee. My tip: a bigger job, part-time — and a German course in parallel." },
+        { "type": "meet", "itemIds": ["die-zukunft", "die-teilzeit", "die-chance"] },
+        { "type": "meet", "itemIds": ["der-kurs", "verbessern"] },
+        { "type": "choice", "prompt": "Luise klappt ihren Laptop auf.", "options": [
+          { "label": "Ich möchte mein Deutsch verbessern. Und dann mehr.", "line": "Ich möchte mein Deutsch verbessern. Und dann mehr Verantwortung." },
+          { "label": "Ein Kurs klingt gut. Aber ich bleibe dir treu!", "line": "Ein Kurs klingt gut. Aber ich bleibe dir treu!" }
+        ] },
+        { "type": "line", "speaker": "luise", "text": "Treu schmeckt nach nichts. Ich schreib dir eine Adresse auf: Café Kontor, die suchen fürs Frühjahr. Probieren schadet nie.", "translation": "Loyalty doesn't taste like anything. I'll write down an address for you: Café Kontor, they're hiring for spring. Trying never hurts." },
+        { "type": "check", "count": 2, "mode": "mixed" },
+        { "type": "check", "count": 2, "mode": "recall" },
+        { "type": "narration", "text": "Du gehst mit einer Adresse und einem Plan. Auf dem Heimweg wiederholst du leise: „Ich möchte mein Deutsch verbessern.“ Klingt gut. Klingt nach dir." }
+      ]
+    },
+    {
+      "id": "b1e3s2",
+      "episodeId": "b1e3",
+      "title": "Das Vorstellungsgespräch",
+      "titleEn": "The job interview",
+      "place": "Café Kontor, Besprechungsecke",
+      "bg": "buero",
+      "contextTags": ["work", "career", "interview"],
+      "requiredItems": ["die-erfahrung", "verbessern"],
+      "introducedItems": ["die-firma", "die-ausbildung", "die-staerke", "darf-ich-mich-vorstellen", "die-frage", "die-vorbereitung"],
+      "beats": [
+        { "type": "narration", "text": "Café Kontor: größer, lauter, professioneller. Deine Vorbereitung: ein Notizzettel mit drei Wörtern. Einer davon ist „Erfahrung“." },
+        { "type": "meet", "itemIds": ["die-firma", "die-vorbereitung", "darf-ich-mich-vorstellen"] },
+        { "type": "line", "speaker": "personal", "text": "Frau Liebig, Geschäftsführung. Schön, dass Sie da sind. — Erzählen Sie, wer sind Sie?", "translation": "Frau Liebig, management. Nice that you're here. — Tell me: who are you?" },
+        { "type": "meet", "itemIds": ["die-ausbildung", "die-staerke", "die-frage"] },
+        { "type": "choice", "prompt": "Der klassische Moment.", "options": [
+          { "label": "Darf ich mich kurz vorstellen?", "line": "Darf ich mich kurz vorstellen?" },
+          { "label": "Ja, gern: Ich heiße Sam und lerne schnell.", "line": "Ja, gern: Ich heiße Sam, ich lerne schnell und mag volle Räume." }
+        ] },
+        { "type": "line", "speaker": "personal", "text": "Bitte. …Interessant. Und was ist Ihre Stärke? …„Ich lerne schnell“ — gut, das prüfen wir praktisch. Ein Probewochenende, beide Seiten.", "translation": "Please. …Interesting. And what's your strength? …'I learn fast' — good, we'll test that in practice. A trial weekend, both sides." },
+        { "type": "check", "count": 2, "mode": "mixed" },
+        { "type": "line", "speaker": "personal", "text": "Eine Frage noch, von mir: Haben Sie Fragen an uns?", "translation": "One more question, from me: Do you have questions for us?" },
+        { "type": "check", "count": 2, "mode": "recall" },
+        { "type": "narration", "text": "Du hast eine. Zwei sogar. Frau Liebig nickt bei beiden — und notiert etwas. Vorbereitung wirkt, das sieht man ihr an." }
+      ]
+    },
+    {
+      "id": "b1e3s3",
+      "episodeId": "b1e3",
+      "title": "Die Zusage",
+      "titleEn": "The offer",
+      "place": "Café Kontor, Telefonat",
+      "bg": "buero",
+      "contextTags": ["work", "career", "money"],
+      "requiredItems": ["die-chance", "die-firma"],
+      "introducedItems": ["die-zusage", "anfangen", "das-gehalt", "die-ueberstunde", "der-kollege", "wir-freuen-uns-auf-dich"],
+      "beats": [
+        { "type": "narration", "text": "Drei Tage später vibriert dein Handy während der Schicht. Unbekannte Nummer. Du gehst raus, vor die Tür, in den Regen. Wenn schon." },
+        { "type": "line", "speaker": "personal", "text": "Frau Liebig hier. Kurz: Wir haben entschieden — Sie bekommen die Zusage. Zwanzig Stunden Teilzeit, das Gehalt liegt bei … und eine Frage:", "translation": "Frau Liebig here. Briefly: we've decided — you get the offer. Twenty hours part-time, the salary is … and one question:" },
+        { "type": "meet", "itemIds": ["die-zusage", "das-gehalt", "anfangen"] },
+        { "type": "meet", "itemIds": ["die-ueberstunde", "der-kollege", "wir-freuen-uns-auf-dich"] },
+        { "type": "choice", "prompt": "Sie fragt: „Wann können Sie anfangen?“", "options": [
+          { "label": "Ab dem Ersten. Ich freue mich!", "line": "Ab dem Ersten. Ich freue mich sehr!" },
+          { "label": "Können wir Überstunden klar regeln?", "line": "Können wir Überstunden von Anfang an klar regeln?" }
+        ] },
+        { "type": "line", "speaker": "personal", "text": "Klare Worte, das gefällt mir. Dann bis zum Ersten — und: Wir freuen uns auf dich!", "translation": "Clear words, I like that. Then see you on the first — and: we're looking forward to having you!" },
+        { "type": "check", "count": 2, "mode": "mixed" },
+        { "type": "check", "count": 2, "mode": "recall" },
+        { "type": "narration", "text": "Im Regen stehst du da und grinast. Dann rufst du Luise an, weil man solche Nachrichten der Person erzählt, die die Adresse aufgeschrieben hat." }
+      ]
+    }
+  ]
+}

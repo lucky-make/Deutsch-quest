@@ -1,0 +1,25 @@
+{
+  "name": "deutschpath",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "DeutschPath — offline-first narrative German learning (A1–B2). The story is the course.",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc --noEmit && vite build && node scripts/generate-sw.mjs",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "audio:setup": "python3 -m venv .audio-venv && .audio-venv/bin/pip install -U pip piper-tts lameenc",
+    "audio": ".audio-venv/bin/python scripts/build-audio.py"
+  },
+  "dependencies": {
+    "ts-fsrs": "^5.2.1"
+  },
+  "devDependencies": {
+    "jsdom": "^30.0.1",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.0",
+    "vitest": "^3.2.4"
+  }
+}

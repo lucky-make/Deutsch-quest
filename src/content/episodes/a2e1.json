@@ -1,0 +1,113 @@
+{
+  "episode": {
+    "id": "a2e1",
+    "arcId": "A2",
+    "cefrLevel": "A2",
+    "title": "Beim Bürgeramt",
+    "titleEn": "At the citizens' office",
+    "blurb": "Nummer ziehen, Formular, Stempel. Deutschlands Lieblingssport: Verwaltung — heute mit dir als Spieler.",
+    "order": 5,
+    "sceneIds": ["a2e1s1", "a2e1s2", "a2e1s3"]
+  },
+  "cast": [
+    { "id": "herr-bauer", "name": "Herr Bauer", "role": "Sachbearbeiter" },
+    { "id": "durchsage-amt", "name": "Durchsage", "role": "Nummernanzeige" }
+  ],
+  "items": [
+    { "id": "das-buergeramt", "type": "word", "german": "das Bürgeramt", "meaning": "the citizens' office", "image": "amt", "audio": "tts", "introducedInScene": "a2e1s1", "tags": ["admin", "paperwork"], "cefrLevel": "A2", "note": "das, Plural: die Bürgerämter — dort wohnst du jetzt mittwochs" },
+    { "id": "der-pass", "type": "word", "german": "der Pass", "meaning": "the passport", "image": "pass", "audio": "tts", "introducedInScene": "a2e1s1", "tags": ["admin", "paperwork"], "cefrLevel": "A2", "note": "der, Plural: die Pässe" },
+    { "id": "das-formular", "type": "word", "german": "das Formular", "meaning": "the form", "image": "formular", "audio": "tts", "introducedInScene": "a2e1s1", "tags": ["admin", "paperwork"], "cefrLevel": "A2", "note": "das, Plural: die Formulare" },
+    { "id": "die-anmeldung", "type": "word", "german": "die Anmeldung", "meaning": "the registration (of your address)", "image": "formular", "audio": "tts", "introducedInScene": "a2e1s1", "tags": ["admin", "paperwork"], "cefrLevel": "A2", "note": "die — innerhalb von 14 Tagen Pflicht. Willkommen." },
+    { "id": "ich-habe-einen-termin", "type": "sentence", "german": "Ich habe einen Termin um zehn.", "meaning": "I have an appointment at ten.", "audio": "tts", "introducedInScene": "a2e1s1", "tags": ["admin", "paperwork"], "cefrLevel": "A2", "parentId": "der-termin" },
+    { "id": "der-schalter", "type": "word", "german": "der Schalter", "meaning": "the counter / service window", "image": "amt", "audio": "tts", "introducedInScene": "a2e1s1", "tags": ["admin", "city"], "cefrLevel": "A2", "note": "der, Plural: die Schalter" },
+    { "id": "die-adresse", "type": "word", "german": "die Adresse", "meaning": "the address", "image": "brief", "audio": "tts", "introducedInScene": "a2e1s2", "tags": ["admin", "paperwork"], "cefrLevel": "A2" },
+    { "id": "das-datum", "type": "word", "german": "das Datum", "meaning": "the date", "image": "kalender", "audio": "tts", "introducedInScene": "a2e1s2", "tags": ["admin", "paperwork"], "cefrLevel": "A2", "note": "das, Plural: die Daten" },
+    { "id": "unterschreiben", "type": "chunk", "german": "Hier unterschreiben, bitte.", "meaning": "Please sign here.", "audio": "tts", "introducedInScene": "a2e1s2", "tags": ["admin", "paperwork", "request"], "cefrLevel": "A2", "note": "unterschreiben = unterschreiben. Du wirst diesen Satz lieben." },
+    { "id": "der-beruf", "type": "word", "german": "der Beruf", "meaning": "the profession / occupation", "image": "stelle", "audio": "tts", "introducedInScene": "a2e1s2", "tags": ["admin", "work"], "cefrLevel": "A2", "note": "der, Plural: die Berufe" },
+    { "id": "wo-wohnen-sie", "type": "sentence", "german": "Wo wohnen Sie?", "meaning": "Where do you live? (formal)", "audio": "tts", "introducedInScene": "a2e1s2", "tags": ["admin", "questions"], "cefrLevel": "A2", "note": "Sie-Form — im Amt immer." },
+    { "id": "der-stempel", "type": "word", "german": "der Stempel", "meaning": "the stamp", "image": "unterschrift", "audio": "tts", "introducedInScene": "a2e1s2", "tags": ["admin", "paperwork"], "cefrLevel": "A2", "note": "der, Plural: die Stempel — klingt wie Erfüllung" },
+    { "id": "die-bestaetigung", "type": "word", "german": "die Bestätigung", "meaning": "the confirmation", "image": "formular", "audio": "tts", "introducedInScene": "a2e1s3", "tags": ["admin", "paperwork"], "cefrLevel": "A2", "note": "die, Plural: die Bestätigungen" },
+    { "id": "der-brief", "type": "word", "german": "der Brief", "meaning": "the letter", "image": "brief", "audio": "tts", "introducedInScene": "a2e1s3", "tags": ["admin", "paperwork"], "cefrLevel": "A2", "note": "der, Plural: die Briefe" },
+    { "id": "die-post", "type": "word", "german": "die Post", "meaning": "the mail / post office", "image": "brief", "audio": "tts", "introducedInScene": "a2e1s3", "tags": ["admin", "city"], "cefrLevel": "A2" },
+    { "id": "abholen", "type": "chunk", "german": "Ich hole den Brief ab.", "meaning": "I'll pick up the letter.", "audio": "tts", "introducedInScene": "a2e1s3", "tags": ["admin", "paperwork"], "cefrLevel": "A2", "note": "abholen = ab + holen, trennbar" },
+    { "id": "in-zwei-wochen", "type": "chunk", "german": "In zwei Wochen.", "meaning": "In two weeks.", "audio": "tts", "introducedInScene": "a2e1s3", "tags": ["admin", "time"], "cefrLevel": "A2" },
+    { "id": "alles-klar", "type": "chunk", "german": "Alles klar!", "meaning": "All clear! / Got it!", "audio": "tts", "introducedInScene": "a2e1s3", "tags": ["smalltalk", "politeness"], "cefrLevel": "A2" }
+  ],
+  "scenes": [
+    {
+      "id": "a2e1s1",
+      "episodeId": "a2e1",
+      "title": "Nummer 34",
+      "titleEn": "Number 34",
+      "place": "Bürgeramt, Wartebereich",
+      "bg": "amt",
+      "contextTags": ["admin", "paperwork", "phone"],
+      "requiredItems": ["der-termin"],
+      "introducedItems": ["das-buergeramt", "der-pass", "das-formular", "die-anmeldung", "ich-habe-einen-termin", "der-schalter"],
+      "beats": [
+        { "type": "narration", "text": "Kunststoffstühle in Reihen, eine Zahlenanzeige, der Geruch von Kaffee aus einem Automaten. Du bist früh da. Das ist richtig so." },
+        { "type": "meet", "itemIds": ["das-buergeramt", "der-pass", "das-formular"] },
+        { "type": "line", "speaker": "durchsage-amt", "text": "Nummer dreiunddreißig, bitte an Schalter vier.", "translation": "Number thirty-three, please go to counter four." },
+        { "type": "meet", "itemIds": ["die-anmeldung", "ich-habe-einen-termin", "der-schalter"] },
+        { "type": "line", "speaker": "herr-bauer", "text": "Guten Morgen. So, Sie sind also die Nummer vierunddreißig. Anmeldung? Dann her mit dem Pass.", "translation": "Good morning. So you're number thirty-four. Registration? Then hand over the passport." },
+        { "type": "check", "count": 2, "mode": "mixed" },
+        { "type": "choice", "prompt": "Herr Bauer tippt. Dein Pass wandert über den Schalter.", "options": [
+          { "label": "Ich habe einen Termin um zehn.", "line": "Ich habe einen Termin um zehn." },
+          { "label": "Ist das das richtige Formular?", "line": "Ist das das richtige Formular?" }
+        ] },
+        { "type": "line", "speaker": "herr-bauer", "text": "Termin hin oder her — Hauptsache, Sie sind da. Das Formular füllen wir gemeinsam aus.", "translation": "Appointment or not — main thing is you're here. We'll fill out the form together." },
+        { "type": "check", "count": 2, "mode": "recall" }
+      ]
+    },
+    {
+      "id": "a2e1s2",
+      "episodeId": "a2e1",
+      "title": "Herr Bauer fragt",
+      "titleEn": "Herr Bauer asks",
+      "place": "Bürgeramt, Schalter 4",
+      "bg": "amt",
+      "contextTags": ["admin", "paperwork", "identity"],
+      "requiredItems": ["die-wohnung"],
+      "introducedItems": ["die-adresse", "das-datum", "unterschreiben", "der-beruf", "wo-wohnen-sie", "der-stempel"],
+      "beats": [
+        { "type": "line", "speaker": "herr-bauer", "text": "So. Wo wohnen Sie?", "translation": "Right. Where do you live?" },
+        { "type": "meet", "itemIds": ["wo-wohnen-sie", "die-adresse", "das-datum"] },
+        { "type": "choice", "prompt": "Antworte.", "options": [
+          { "label": "In der Bärbelstraße 12.", "line": "In der Bärbelstraße 12, zweite Etage." },
+          { "label": "Meine Adresse ist neu. Ich schreib sie auf.", "line": "Meine Adresse ist neu. Ich schreibe sie auf." }
+        ] },
+        { "type": "line", "speaker": "herr-bauer", "text": "Bärbelstraße 12 … gut. Und Ihr Beruf? …„Noch unklar“? Ich schreibe: „Suchend“. Da sind Sie in Leipzig in guter Gesellschaft.", "translation": "Bärbelstraße 12 … good. And your profession? …'Still unclear'? I'll write: 'searching'. You're in good company in Leipzig." },
+        { "type": "meet", "itemIds": ["der-beruf", "unterschreiben", "der-stempel"] },
+        { "type": "check", "count": 2, "mode": "mixed" },
+        { "type": "narration", "text": "Er dreht das Formular zu dir und zeigt mit dem Finger. Eine Zeile, ein Kasten, dein Name." },
+        { "type": "line", "speaker": "herr-bauer", "text": "Hier unterschreiben, bitte. …Und jetzt das Wichtigste:", "translation": "Please sign here. …And now the most important part:" },
+        { "type": "check", "count": 2, "mode": "listen" },
+        { "type": "narration", "text": "Der Stempel kracht auf das Papier wie ein Gongschlag. Es ist vollbracht." }
+      ]
+    },
+    {
+      "id": "a2e1s3",
+      "episodeId": "a2e1",
+      "title": "Die Bestätigung",
+      "titleEn": "The confirmation",
+      "place": "Bürgeramt, Ausgang & Straße",
+      "bg": "strasse",
+      "contextTags": ["admin", "paperwork"],
+      "requiredItems": ["das-formular"],
+      "introducedItems": ["die-bestaetigung", "der-brief", "die-post", "abholen", "in-zwei-wochen", "alles-klar"],
+      "beats": [
+        { "type": "line", "speaker": "herr-bauer", "text": "Die Bestätigung kommt per Post in zwei Wochen. Sie brauchen sie fürs Bankkonto, für den Vertrag, für alles.", "translation": "The confirmation comes by post in two weeks. You'll need it for the bank account, the contract, everything." },
+        { "type": "meet", "itemIds": ["die-bestaetigung", "der-brief", "die-post"] },
+        { "type": "meet", "itemIds": ["abholen", "in-zwei-wochen", "alles-klar"] },
+        { "type": "choice", "prompt": "Letzte Frage von Herrn Bauer.", "options": [
+          { "label": "Alles klar. Danke schön!", "line": "Alles klar. Danke schön!" },
+          { "label": "Und wenn der Brief nicht kommt?", "line": "Und wenn der Brief nicht kommt?" }
+        ] },
+        { "type": "line", "speaker": "herr-bauer", "text": "Dann rufen Sie an. …Oder Sie kommen wieder. — Nächste Person, bitte!", "translation": "Then call. …Or come back again. — Next person, please!" },
+        { "type": "check", "count": 2, "mode": "mixed" },
+        { "type": "narration", "text": "Draußen: Sonne über dem Ring. Du bist offiziell ein Mensch mit Adresse. Zwei Wochen später liegt der Brief tatsächlich im Briefkasten — du holst ihn ab wie einen Schatz." },
+        { "type": "check", "count": 2, "mode": "recall" }
+      ]
+    }
+  ]
+}
