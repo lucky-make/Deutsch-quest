@@ -45,6 +45,8 @@ export type SceneBeat =
   | { type: 'meet'; itemIds: string[] }
   | { type: 'check'; count: number; mode: CheckMode }
   | { type: 'choice'; prompt?: string; options: { label: string; line?: string; translation?: string }[] }
+  /** a longer German passage the player reads in-scene (letter, ad, article …) */
+  | { type: 'reading'; title: string; text: string; translation?: string; itemIds?: string[] }
 
 export interface StoryScene {
   id: string

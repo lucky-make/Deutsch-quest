@@ -135,6 +135,14 @@ button { font: inherit; cursor: pointer; }
 .choices .opt:hover { border-color: var(--accent); }
 .choices .opt small { display: block; color: var(--muted); font-family: var(--font-ui); font-size: 12.5px; }
 
+/* ——— reading ——— */
+.reading { border: 1.5px solid var(--sky); background: var(--card); border-radius: var(--rad); padding: 14px 16px; box-shadow: var(--shadow); }
+.reading .tag { font-size: 11px; letter-spacing: 1.2px; text-transform: uppercase; color: var(--sky); font-weight: 700; margin-bottom: 4px; }
+.reading h4 { margin: 2px 0 10px; font-family: var(--font-de); font-size: 18px; }
+.reading .prose { font-family: var(--font-de); font-size: 16.5px; line-height: 1.7; white-space: pre-line; }
+.reading .gloss { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+.reading .chip2 { background: var(--paper); border: 1.5px solid var(--line); border-radius: 8px; padding: 2px 8px; font-size: 12.5px; display: inline-flex; gap: 5px; align-items: center; font-family: var(--font-de); }
+
 /* ——— reveal / scene end ——— */
 .reveal { border: 1.5px solid var(--sky); background: var(--card); border-radius: var(--rad); padding: 13px 15px; box-shadow: var(--shadow); }
 .reveal .narr { color: var(--muted); font-style: italic; font-size: 13.5px; }

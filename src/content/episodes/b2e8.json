@@ -1,0 +1,598 @@
+{
+  "episode": {
+    "id": "b2e8",
+    "arcId": "B2",
+    "cefrLevel": "B2",
+    "title": "Die Kolumne",
+    "titleEn": "The column",
+    "blurb": "Eine Redaktion ruft an: „Schreiben Sie über Ankommen.“ Nominalstil, Redaktionsschluss, Leserbriefe — du schreibst dich in die Stadt.",
+    "order": 20,
+    "sceneIds": [
+      "b2e8s1",
+      "b2e8s2",
+      "b2e8s3"
+    ]
+  },
+  "cast": [
+    {
+      "id": "strassburg",
+      "name": "Frau Straßburg",
+      "role": "Redakteurin, Leipziger Rundschau"
+    },
+    {
+      "id": "mei",
+      "name": "Mei",
+      "role": "Lektorin wider Willen"
+    },
+    {
+      "id": "deniz",
+      "name": "Deniz",
+      "role": "Nachbar"
+    }
+  ],
+  "items": [
+    {
+      "id": "die-kolumne",
+      "type": "word",
+      "german": "die Kolumne",
+      "meaning": "the column (newspaper)",
+      "image": "brief",
+      "audio": "tts",
+      "introducedInScene": "b2e8s1",
+      "tags": [
+        "media",
+        "writing"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Kolumnen — regelmäßiger Text mit eigener Stimme"
+    },
+    {
+      "id": "die-redaktion",
+      "type": "word",
+      "german": "die Redaktion",
+      "meaning": "the editorial office / editors",
+      "image": "firma",
+      "audio": "tts",
+      "introducedInScene": "b2e8s1",
+      "tags": [
+        "media",
+        "work"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Redaktionen"
+    },
+    {
+      "id": "die-anfrage",
+      "type": "word",
+      "german": "die Anfrage",
+      "meaning": "the inquiry / request",
+      "image": "brief",
+      "audio": "tts",
+      "introducedInScene": "b2e8s1",
+      "tags": [
+        "media",
+        "work"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Anfragen"
+    },
+    {
+      "id": "veroeffentlichen",
+      "type": "chunk",
+      "german": "Der Text wird veröffentlicht.",
+      "meaning": "The text will be published.",
+      "image": "brief",
+      "audio": "tts",
+      "introducedInScene": "b2e8s1",
+      "tags": [
+        "media",
+        "writing"
+      ],
+      "cefrLevel": "B2",
+      "note": "veröffentlichen + Passiv — dein zweites Passiv-Abenteuer"
+    },
+    {
+      "id": "woechentlich",
+      "type": "word",
+      "german": "wöchentlich",
+      "meaning": "weekly",
+      "image": "kalender",
+      "audio": "tts",
+      "introducedInScene": "b2e8s1",
+      "tags": [
+        "media",
+        "time"
+      ],
+      "cefrLevel": "B2"
+    },
+    {
+      "id": "der-leser",
+      "type": "word",
+      "german": "der Leser",
+      "meaning": "the reader (m)",
+      "image": "person",
+      "audio": "tts",
+      "introducedInScene": "b2e8s1",
+      "tags": [
+        "media",
+        "people"
+      ],
+      "cefrLevel": "B2",
+      "note": "der, Plural: die Leser; weiblich: die Leserin"
+    },
+    {
+      "id": "das-manuskript",
+      "type": "word",
+      "german": "das Manuskript",
+      "meaning": "the manuscript",
+      "image": "lebenslauf",
+      "audio": "tts",
+      "introducedInScene": "b2e8s2",
+      "tags": [
+        "writing",
+        "media"
+      ],
+      "cefrLevel": "B2",
+      "note": "das, Plural: die Manuskripte"
+    },
+    {
+      "id": "kuerzen",
+      "type": "chunk",
+      "german": "Wir müssen den Text kürzen.",
+      "meaning": "We have to shorten the text.",
+      "image": "formular",
+      "audio": "tts",
+      "introducedInScene": "b2e8s2",
+      "tags": [
+        "writing"
+      ],
+      "cefrLevel": "B2",
+      "note": "kürzen — der editText-Sport: weglassen, weglassen, weglassen"
+    },
+    {
+      "id": "die-rueckmeldung",
+      "type": "word",
+      "german": "die Rückmeldung",
+      "meaning": "the feedback",
+      "image": "gespräch",
+      "audio": "tts",
+      "introducedInScene": "b2e8s2",
+      "tags": [
+        "writing",
+        "work"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Rückmeldungen — Bitte um Rückmeldung bis …"
+    },
+    {
+      "id": "der-redaktionsschluss",
+      "type": "word",
+      "german": "der Redaktionsschluss",
+      "meaning": "the editorial deadline",
+      "image": "frist",
+      "audio": "tts",
+      "introducedInScene": "b2e8s2",
+      "tags": [
+        "media",
+        "time"
+      ],
+      "cefrLevel": "B2",
+      "note": "der, Plural: die Redaktionsschlüsse — heiliger als jede Frist"
+    },
+    {
+      "id": "praezise",
+      "type": "word",
+      "german": "präzise",
+      "meaning": "precise",
+      "image": "prüfen",
+      "audio": "tts",
+      "introducedInScene": "b2e8s2",
+      "tags": [
+        "opinion",
+        "writing"
+      ],
+      "cefrLevel": "B2"
+    },
+    {
+      "id": "die-rubrik",
+      "type": "word",
+      "german": "die Rubrik",
+      "meaning": "the (paper's) section / rubric",
+      "image": "konzept",
+      "audio": "tts",
+      "introducedInScene": "b2e8s2",
+      "tags": [
+        "media"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Rubriken"
+    },
+    {
+      "id": "nach-pruefung-der",
+      "type": "grammar_pattern",
+      "german": "Nach ___ der Unterlagen melden wir uns.",
+      "meaning": "After reviewing the documents, we'll get back to you.",
+      "image": "formular",
+      "audio": "tts",
+      "introducedInScene": "b2e8s2",
+      "tags": [
+        "grammar",
+        "writing"
+      ],
+      "cefrLevel": "B2",
+      "cloze": "Prüfung",
+      "alt": [
+        "Durchsicht"
+      ],
+      "speak": "Nach Prüfung der Unterlagen melden wir uns.",
+      "note": "Nominalstil: Verb → Nomen (prüfen → die Prüfung) — typisch amtlich/geschäftlich"
+    },
+    {
+      "id": "die-veroeffentlichung",
+      "type": "word",
+      "german": "die Veröffentlichung",
+      "meaning": "the publication",
+      "image": "brief",
+      "audio": "tts",
+      "introducedInScene": "b2e8s3",
+      "tags": [
+        "media",
+        "writing"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Veröffentlichungen"
+    },
+    {
+      "id": "die-resonanz",
+      "type": "word",
+      "german": "die Resonanz",
+      "meaning": "the response / resonance",
+      "image": "laut",
+      "audio": "tts",
+      "introducedInScene": "b2e8s3",
+      "tags": [
+        "media",
+        "feelings"
+      ],
+      "cefrLevel": "B2",
+      "note": "die ( Singular ) — große Resonanz = viele Antworten"
+    },
+    {
+      "id": "beruehrend",
+      "type": "word",
+      "german": "berührend",
+      "meaning": "moving / touching",
+      "image": "person",
+      "audio": "tts",
+      "introducedInScene": "b2e8s3",
+      "tags": [
+        "opinion",
+        "feelings"
+      ],
+      "cefrLevel": "B2",
+      "note": "Partizip I als Adjektiv: etwas berührt → ein berührender Text"
+    },
+    {
+      "id": "die-spalte",
+      "type": "word",
+      "german": "die Spalte",
+      "meaning": "the column (print) / column of a table",
+      "image": "konzept",
+      "audio": "tts",
+      "introducedInScene": "b2e8s3",
+      "tags": [
+        "media"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Spalten"
+    },
+    {
+      "id": "die-resonanz-uebertraf",
+      "type": "grammar_pattern",
+      "german": "Die Resonanz ___ alles Erwartete.",
+      "meaning": "The response exceeded everything expected.",
+      "image": "laut",
+      "audio": "tts",
+      "introducedInScene": "b2e8s3",
+      "tags": [
+        "grammar",
+        "writing"
+      ],
+      "cefrLevel": "B2",
+      "cloze": "übertraf",
+      "alt": [
+        "uebertraf"
+      ],
+      "speak": "Die Resonanz übertraf alles Erwartete.",
+      "note": "Präteritum fürs Erzählen: übertraf — Zeitungssprache liebt es"
+    },
+    {
+      "id": "es-hat-sich-ausgezahlt",
+      "type": "chunk",
+      "german": "Es hat sich ausgezahlt.",
+      "meaning": "It paid off.",
+      "image": "geld",
+      "audio": "tts",
+      "introducedInScene": "b2e8s3",
+      "tags": [
+        "opinion",
+        "reflection"
+      ],
+      "cefrLevel": "B2",
+      "note": "sich auszahlen — am Ende zählt der Lohn, auch der unbezahlte"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "b2e8s1",
+      "episodeId": "b2e8",
+      "title": "Die Redaktion ruft",
+      "titleEn": "The paper calls",
+      "place": "Café Kontor, Feierabend-Telefonat",
+      "bg": "cafe",
+      "contextTags": [
+        "media",
+        "work",
+        "writing"
+      ],
+      "requiredItems": [
+        "die-nachbarschaft",
+        "die-rede"
+      ],
+      "introducedItems": [
+        "die-kolumne",
+        "die-redaktion",
+        "die-anfrage",
+        "veroeffentlichen",
+        "woechentlich",
+        "der-leser"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Das Handy klingelt während du Milchschaum aufschäumst. Leipziger Rundschau. Eine Redakteurin mit der Stimme von jemandem, der hundert Absagen pro Tag verschickt — heute klingt sie anders."
+        },
+        {
+          "type": "line",
+          "speaker": "strassburg",
+          "text": "Frau Straßburg, Leipziger Rundschau. Wir suchen eine Stimme für unsere neue Rubrik „Angekommen“ — Geschichten von Leuten, die neu hier sind. Jemand hat mir von Ihrer Rede auf dem Hoffest erzählt. …Wöchentlich, fünfhundert Wörter. Interesse?",
+          "translation": "Ms Straßburg, Leipziger Rundschau. We're looking for a voice for our new column 'Arrived' — stories from people who are new here. Someone told me about your speech at the courtyard festival. …Weekly, five hundred words. Interested?"
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-kolumne",
+            "die-redaktion",
+            "die-anfrage"
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "veroeffentlichen",
+            "woechentlich",
+            "der-leser"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Fünfhundert Wörter. Wöchentlich. Deine Geschichte.",
+          "options": [
+            {
+              "label": "Ja. Ich schreibe — und wenn's nur ein Entwurf wird.",
+              "line": "Ja, ich schreibe. Und wenn der erste Entwurf schrecklich wird, wird der zweite eben gut."
+            },
+            {
+              "label": "Darf ich eine Woche Bedenkzeit…? …Nein. Ja. Sofort.",
+              "line": "Darf ich eine Woche Bedenkzeit haben? …Nein, lassen Sie das. Ja. Ich bin dabei."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "strassburg",
+          "text": "Ausgezeichnet. Erster Redaktionsschluss: Freitag, zwölf Uhr. …Und Herr — Sam: Schreiben Sie so, wie Sie auf dem Hof gesprochen haben. Nicht wie ein Formular.",
+          "translation": "Excellent. First deadline: Friday, noon. …And Sam: write the way you spoke in that courtyard. Not like a form."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        }
+      ]
+    },
+    {
+      "id": "b2e8s2",
+      "episodeId": "b2e8",
+      "title": "Fünfhundert Wörter",
+      "titleEn": "Five hundred words",
+      "place": "Wohnung, Küche, Donnerstag nach Mitternacht",
+      "bg": "wohnung",
+      "contextTags": [
+        "writing",
+        "media",
+        "friends"
+      ],
+      "requiredItems": [
+        "die-kolumne",
+        "die-meinung"
+      ],
+      "introducedItems": [
+        "das-manuskript",
+        "kuerzen",
+        "die-rueckmeldung",
+        "der-redaktionsschluss",
+        "praezise",
+        "die-rubrik"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Entwurf eins: achthundertvierzig Wörter, drei Metaphern zu viele, eine Banane, die aus der Heimat stammt und Leipzigerin werden will. Mei liest und lacht an den richtigen Stellen."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "das-manuskript",
+            "die-rubrik",
+            "praezise"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "mei",
+          "text": "Es ist gut. Zu lang, aber gut. …Kürzen heißt nicht weniger sagen — es heißt, das Wesentliche lauter sagen. Und: Formulierungen wie „nach Prüfung der Unterlagen“ lassen wir zu Hause. Das ist Amtsdeutsch, das hier ist Leben.",
+          "translation": "It's good. Too long, but good. …Cutting doesn't mean saying less — it means saying what matters louder. And: phrases like 'after reviewing the documents' stay at home. That's officialese, this is life."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "kuerzen",
+            "die-rueckmeldung",
+            "der-redaktionsschluss"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Der Anfang. Was steht zuerst?",
+          "options": [
+            {
+              "label": "„Ich kam mit einem Koffer an — und ohne Wörter.“",
+              "line": "„Ich kam mit einem Koffer an — und ohne Wörter.“ Danach die Banane."
+            },
+            {
+              "label": "„Nach Prüfung meiner ersten Leipziger Woche war mein Fazit: Gleis 7 existiert nicht.“",
+              "line": "„Nach Prüfung meiner ersten Leipziger Woche war mein Fazit: Gleis 7 existiert nicht.“ …Okay, das ist tatsächlich lustig."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "mei",
+          "text": "Beides! Der Koffer, dann der Amtswitz als Kontrast. …Und jetzt: Redaktionsschluss ist freitags zwölf. Es ist Donnerstag, drei Uhr nachts. Wir haben neun Stunden und Kaffee.",
+          "translation": "Both! The suitcase, then the officialese joke as contrast. …And now: deadline is Friday noon. It's Thursday, 3 a.m. We have nine hours and coffee."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "reading",
+          "title": "E-Mail der Redaktion (Rückmeldung)",
+          "text": "Hallo Herr Jones,\n\nnach Prüfung Ihres Manuskripts sind wir begeistert.\nIhre Kolumne läuft ab Sonntag in der Rubrik „Angekommen“.\nKleine Bitte: die Banane behalten, die Metapher\n„wie ein nasser Bahnhof“ streichen.\n\nRückmeldung erbeten bis Freitag, 10 Uhr.\nRedaktionsschluss bleibt 12 Uhr.\n\nHerzlich, Straßburg",
+          "translation": "Hi Mr Jones,\n\nafter reviewing your manuscript we're thrilled.\nYour column runs from Sunday in the 'Arrived' section.\nOne small request: keep the banana, cut the metaphor\n'like a wet train station'.\n\nPlease respond by Friday, 10 a.m.\nDeadline stays 12 noon.\n\nWarmly, Straßburg",
+          "itemIds": [
+            "das-manuskript",
+            "die-rueckmeldung",
+            "der-redaktionsschluss"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2e8s3",
+      "episodeId": "b2e8",
+      "title": "Sonntag, Seite 3",
+      "titleEn": "Sunday, page three",
+      "place": "Bäckerei Wenzel, Sonntagmorgen",
+      "bg": "cafe",
+      "contextTags": [
+        "media",
+        "celebration",
+        "friends"
+      ],
+      "requiredItems": [
+        "die-kolumne",
+        "die-vermieterin"
+      ],
+      "introducedItems": [
+        "die-veroeffentlichung",
+        "die-resonanz",
+        "beruehrend",
+        "die-spalte",
+        "die-resonanz-uebertraf",
+        "es-hat-sich-ausgezahlt"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Sonntag, halb acht. In der Bäckerei Wenzel liegt die Zeitung, in der Zeitung liegt Seite drei, auf Seite drei liegt deine Spalte. Neben einem Bild vom Rathaus. Dein Name. Gedruckt. Auf Deutsch."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-veroeffentlichung",
+            "die-spalte",
+            "die-resonanz"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "strassburg",
+          "text": "Guten Morgen. Ich rufe wegen der Resonanz. …Herr Jones, die Resonanz übertraf alles Erwartete. Vierzig Leserbriefe bis Montagfrüh — für eine erste Kolumne sind das Zahlen, die wir sonst nur bei Vereinsauflösungen haben.",
+          "translation": "Good morning. I'm calling about the response. …Mr Jones, the response exceeded all expectations. Forty letters to the editor by Monday morning — for a first column, those are numbers we usually only get for club dissolutions."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-resonanz-uebertraf",
+            "beruehrend",
+            "es-hat-sich-ausgezahlt"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "reading",
+          "title": "Leserbrief (einer von vierzig)",
+          "text": "Sehr geehrter Herr Jones,\n\nIhre Kolumne hat mich berührt. Ich bin 1968 hier\nangkommen — mit zwei Koffern und ohne Gleiswissen.\nSie haben beschrieben, was ich nie gefunden habe:\ndie Wörter dafür.\n\nWeiter so. Und kommen Sie zum Kaffeekränzchen,\ndienstag, Vereinsheim. Wir haben auch Bananen.\n\nMit freundlichen Grüßen\nRuth B., 84, Plagwitz",
+          "translation": "Dear Mr Jones,\n\nyour column moved me. I arrived here in 1968 —\nwith two suitcases and no platform knowledge.\nYou described what I never managed to find:\nthe words for it.\n\nKeep going. And come to our coffee get-together,\nTuesday, clubhouse. We have bananas too.\n\nKind regards,\nRuth B., 84, Plagwitz",
+          "itemIds": [
+            "beruehrend",
+            "die-veroeffentlichung",
+            "die-resonanz"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "line",
+          "speaker": "deniz",
+          "text": "Sam! Seite drei! Im Laden kaufen jetzt alle die Zeitung, die vorher nur das Wetter gelesen haben. …Frau Brügge hat ihre Ausgabe laminiert. LAMINIERT, Sam.",
+          "translation": "Sam! Page three! Now everyone in the building buys the paper who before only read the weather. …Frau Brügge laminated her copy. LAMINATED, Sam."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "narration",
+          "text": "Du bestellst ein Brötchen, und Frau Wenzel legt still eine Zeitung dazu. Es hat sich ausgezahlt: die Silben von Milo, die Panflöten-Hotline, die Nächte mit Mei. Alles steht jetzt gedruckt zwischen zwei Schlagzeilen — und es ist noch der Anfang."
+        }
+      ]
+    }
+  ]
+}

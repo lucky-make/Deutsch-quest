@@ -7,24 +7,269 @@
     "titleEn": "Neighbours and friends",
     "blurb": "Eine Einladung in Füllfeder. Du gehst zum ersten Mal zu Besuch — und jemand fragt, wie es dir gefällt.",
     "order": 4,
-    "sceneIds": ["a1e4s1", "a1e4s2"]
+    "sceneIds": [
+      "a1e4s1",
+      "a1e4s2",
+      "a1e4s3"
+    ]
   },
   "cast": [
-    { "id": "frau-bruegge", "name": "Frau Brügge", "role": "Vermieterin" },
-    { "id": "tobias", "name": "Tobias", "role": "Nachbar, Student" }
+    {
+      "id": "frau-bruegge",
+      "name": "Frau Brügge",
+      "role": "Vermieterin"
+    },
+    {
+      "id": "tobias",
+      "name": "Tobias",
+      "role": "Nachbar, Student"
+    }
   ],
   "items": [
-    { "id": "das-geschenk", "type": "word", "german": "das Geschenk", "meaning": "the present / gift", "image": "geschenk", "audio": "tts", "introducedInScene": "a1e4s1", "tags": ["friends", "objects"], "cefrLevel": "A1", "note": "das, Plural: die Geschenke" },
-    { "id": "die-blumen", "type": "word", "german": "die Blumen", "meaning": "the flowers", "image": "blumen", "audio": "tts", "introducedInScene": "a1e4s1", "tags": ["friends", "objects"], "cefrLevel": "A1", "note": "Pluralwort — „ein Blume“ existiert nicht, es heißt: eine Blume ( Singular: die Blume )" },
-    { "id": "die-treppe", "type": "word", "german": "die Treppe", "meaning": "the stairs", "image": "treppenhaus", "audio": "tts", "introducedInScene": "a1e4s1", "tags": ["home", "city"], "cefrLevel": "A1", "note": "die, Plural: die Treppen" },
-    { "id": "danke-fuer-die-einladung", "type": "sentence", "german": "Danke für die Einladung!", "meaning": "Thanks for the invitation!", "audio": "tts", "introducedInScene": "a1e4s1", "tags": ["politeness", "friends"], "cefrLevel": "A1" },
-    { "id": "ich-freue-mich", "type": "chunk", "german": "Ich freue mich!", "meaning": "I'm looking forward to it! / I'm happy!", "audio": "tts", "introducedInScene": "a1e4s1", "tags": ["friends", "smalltalk"], "cefrLevel": "A1", "note": "sich freuen — eines der wichtigsten deutschen Gefühlsverben" },
-    { "id": "das-abendessen", "type": "word", "german": "das Abendessen", "meaning": "the dinner / evening meal", "image": "suppe", "audio": "tts", "introducedInScene": "a1e4s2", "tags": ["food", "friends"], "cefrLevel": "A1", "note": "das, Plural: die Abendessen" },
-    { "id": "die-suppe", "type": "word", "german": "die Suppe", "meaning": "the soup", "image": "suppe", "audio": "tts", "introducedInScene": "a1e4s2", "tags": ["food"], "cefrLevel": "A1", "note": "die, Plural: die Suppen" },
-    { "id": "der-salat", "type": "word", "german": "der Salat", "meaning": "the salad", "image": "salat", "audio": "tts", "introducedInScene": "a1e4s2", "tags": ["food"], "cefrLevel": "A1", "note": "der, Plural: die Salate" },
-    { "id": "schmeckt-dir", "type": "sentence", "german": "Schmeckt dir der Salat?", "meaning": "Do you like the salad?", "audio": "tts", "introducedInScene": "a1e4s2", "tags": ["food", "smalltalk"], "cefrLevel": "A1", "note": "schmecken + Dativ: „Schmeckt dir …?\"" },
-    { "id": "noch-etwas", "type": "chunk", "german": "Noch etwas?", "meaning": "Some more? Anything else?", "audio": "tts", "introducedInScene": "a1e4s2", "tags": ["food", "politeness"], "cefrLevel": "A1" },
-    { "id": "es-war-sehr-lecker", "type": "sentence", "german": "Es war sehr lecker!", "meaning": "It was very tasty!", "audio": "tts", "introducedInScene": "a1e4s2", "tags": ["food", "politeness"], "cefrLevel": "A1" }
+    {
+      "id": "das-geschenk",
+      "type": "word",
+      "german": "das Geschenk",
+      "meaning": "the present / gift",
+      "image": "geschenk",
+      "audio": "tts",
+      "introducedInScene": "a1e4s1",
+      "tags": [
+        "friends",
+        "objects"
+      ],
+      "cefrLevel": "A1",
+      "note": "das, Plural: die Geschenke"
+    },
+    {
+      "id": "die-blumen",
+      "type": "word",
+      "german": "die Blumen",
+      "meaning": "the flowers",
+      "image": "blumen",
+      "audio": "tts",
+      "introducedInScene": "a1e4s1",
+      "tags": [
+        "friends",
+        "objects"
+      ],
+      "cefrLevel": "A1",
+      "note": "Pluralwort — „ein Blume“ existiert nicht, es heißt: eine Blume ( Singular: die Blume )"
+    },
+    {
+      "id": "die-treppe",
+      "type": "word",
+      "german": "die Treppe",
+      "meaning": "the stairs",
+      "image": "treppenhaus",
+      "audio": "tts",
+      "introducedInScene": "a1e4s1",
+      "tags": [
+        "home",
+        "city"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Treppen"
+    },
+    {
+      "id": "danke-fuer-die-einladung",
+      "type": "sentence",
+      "german": "Danke für die Einladung!",
+      "meaning": "Thanks for the invitation!",
+      "audio": "tts",
+      "introducedInScene": "a1e4s1",
+      "tags": [
+        "politeness",
+        "friends"
+      ],
+      "cefrLevel": "A1"
+    },
+    {
+      "id": "ich-freue-mich",
+      "type": "chunk",
+      "german": "Ich freue mich!",
+      "meaning": "I'm looking forward to it! / I'm happy!",
+      "audio": "tts",
+      "introducedInScene": "a1e4s1",
+      "tags": [
+        "friends",
+        "smalltalk"
+      ],
+      "cefrLevel": "A1",
+      "note": "sich freuen — eines der wichtigsten deutschen Gefühlsverben"
+    },
+    {
+      "id": "das-abendessen",
+      "type": "word",
+      "german": "das Abendessen",
+      "meaning": "the dinner / evening meal",
+      "image": "suppe",
+      "audio": "tts",
+      "introducedInScene": "a1e4s2",
+      "tags": [
+        "food",
+        "friends"
+      ],
+      "cefrLevel": "A1",
+      "note": "das, Plural: die Abendessen"
+    },
+    {
+      "id": "die-suppe",
+      "type": "word",
+      "german": "die Suppe",
+      "meaning": "the soup",
+      "image": "suppe",
+      "audio": "tts",
+      "introducedInScene": "a1e4s2",
+      "tags": [
+        "food"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Suppen"
+    },
+    {
+      "id": "der-salat",
+      "type": "word",
+      "german": "der Salat",
+      "meaning": "the salad",
+      "image": "salat",
+      "audio": "tts",
+      "introducedInScene": "a1e4s2",
+      "tags": [
+        "food"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Salate"
+    },
+    {
+      "id": "schmeckt-dir",
+      "type": "sentence",
+      "german": "Schmeckt dir der Salat?",
+      "meaning": "Do you like the salad?",
+      "audio": "tts",
+      "introducedInScene": "a1e4s2",
+      "tags": [
+        "food",
+        "smalltalk"
+      ],
+      "cefrLevel": "A1",
+      "note": "schmecken + Dativ: „Schmeckt dir …?\""
+    },
+    {
+      "id": "noch-etwas",
+      "type": "chunk",
+      "german": "Noch etwas?",
+      "meaning": "Some more? Anything else?",
+      "audio": "tts",
+      "introducedInScene": "a1e4s2",
+      "tags": [
+        "food",
+        "politeness"
+      ],
+      "cefrLevel": "A1"
+    },
+    {
+      "id": "es-war-sehr-lecker",
+      "type": "sentence",
+      "german": "Es war sehr lecker!",
+      "meaning": "It was very tasty!",
+      "audio": "tts",
+      "introducedInScene": "a1e4s2",
+      "tags": [
+        "food",
+        "politeness"
+      ],
+      "cefrLevel": "A1"
+    },
+    {
+      "id": "der-zettel",
+      "type": "word",
+      "german": "der Zettel",
+      "meaning": "the (paper) note / slip",
+      "image": "brief",
+      "audio": "tts",
+      "introducedInScene": "a1e4s3",
+      "tags": [
+        "neighbors",
+        "politeness"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Zettel — klein, wichtig, überall"
+    },
+    {
+      "id": "die-kanne",
+      "type": "word",
+      "german": "die Kanne",
+      "meaning": "the pot / jug",
+      "image": "kaffee",
+      "audio": "tts",
+      "introducedInScene": "a1e4s3",
+      "tags": [
+        "kitchen",
+        "food"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Kannen — eine Kanne Kaffee"
+    },
+    {
+      "id": "das-stueck",
+      "type": "word",
+      "german": "das Stück",
+      "meaning": "the piece",
+      "image": "kuchen",
+      "audio": "tts",
+      "introducedInScene": "a1e4s3",
+      "tags": [
+        "food"
+      ],
+      "cefrLevel": "A1",
+      "note": "das, Plural: die Stücke — ein Stück Kuchen, bitte"
+    },
+    {
+      "id": "der-gast",
+      "type": "word",
+      "german": "der Gast",
+      "meaning": "the guest",
+      "image": "person",
+      "audio": "tts",
+      "introducedInScene": "a1e4s3",
+      "tags": [
+        "people",
+        "neighbors"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Gäste — heute bist du Gast"
+    },
+    {
+      "id": "selbstgemacht",
+      "type": "word",
+      "german": "selbstgemacht",
+      "meaning": "homemade / self-made",
+      "image": "geschenk",
+      "audio": "tts",
+      "introducedInScene": "a1e4s3",
+      "tags": [
+        "food",
+        "home"
+      ],
+      "cefrLevel": "A1",
+      "note": "selbst + gemacht — das höchste Küchenlob"
+    },
+    {
+      "id": "gern-geschehen",
+      "type": "chunk",
+      "german": "Gern geschehen!",
+      "meaning": "You're very welcome!",
+      "image": "gespräch",
+      "audio": "tts",
+      "introducedInScene": "a1e4s3",
+      "tags": [
+        "politeness"
+      ],
+      "cefrLevel": "A1",
+      "speak": "Gern geschehen!",
+      "note": "Antwort auf „Danke“ — herzlicher als „bitte schön“"
+    }
   ],
   "scenes": [
     {
@@ -34,22 +279,78 @@
       "titleEn": "The invitation",
       "place": "Haustür & Blumenladen",
       "bg": "strasse",
-      "contextTags": ["neighbors", "friends"],
+      "contextTags": [
+        "neighbors",
+        "friends"
+      ],
       "requiredItems": [],
-      "introducedItems": ["das-geschenk", "die-blumen", "die-treppe", "danke-fuer-die-einladung", "ich-freue-mich"],
+      "introducedItems": [
+        "das-geschenk",
+        "die-blumen",
+        "die-treppe",
+        "danke-fuer-die-einladung",
+        "ich-freue-mich"
+      ],
       "beats": [
-        { "type": "narration", "text": "Ein Zettel an der Haustür, in sauberer Füllfeder: „Nachbarschaftskaffee — Samstag, 16 Uhr. Frau Brügge lädt ein.“" },
-        { "type": "meet", "itemIds": ["das-geschenk", "die-blumen", "die-treppe"] },
-        { "type": "line", "speaker": "frau-bruegge", "text": "Ah, Sam! Gut, dass ich dich erwische. Samstag, vier Uhr, einfach hochkommen. Du musst nichts mitbringen!", "translation": "Ah, Sam! Good I caught you. Saturday, four o'clock, just come up. You don't need to bring anything!" },
-        { "type": "meet", "itemIds": ["danke-fuer-die-einladung", "ich-freue-mich"] },
-        { "type": "choice", "prompt": "Sie wartet auf eine Antwort.", "options": [
-          { "label": "Danke für die Einladung! Ich freue mich.", "line": "Danke für die Einladung! Ich freue mich." },
-          { "label": "Ich bring Blumen mit. …Darf ich?", "line": "Ich bring Blumen mit. …Darf ich?" }
-        ] },
-        { "type": "line", "speaker": "frau-bruegge", "text": "Blumen? Na gut, wenn's sein muss. …Aber herzlicher wär's, wenn einfach du kommst.", "translation": "Flowers? Fine, if you must. …But it would be warmer if just you came." },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "narration", "text": "Samstagnachmittag. Du stehst mit einer Tüte Tulpen vor der Tür und klingelst zum ersten Mal bei jemandem in dieser Stadt. Vier Treppen." },
-        { "type": "check", "count": 2, "mode": "recall" }
+        {
+          "type": "narration",
+          "text": "Ein Zettel an der Haustür, in sauberer Füllfeder: „Nachbarschaftskaffee — Samstag, 16 Uhr. Frau Brügge lädt ein.“"
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "das-geschenk",
+            "die-blumen",
+            "die-treppe"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "frau-bruegge",
+          "text": "Ah, Sam! Gut, dass ich dich erwische. Samstag, vier Uhr, einfach hochkommen. Du musst nichts mitbringen!",
+          "translation": "Ah, Sam! Good I caught you. Saturday, four o'clock, just come up. You don't need to bring anything!"
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "danke-fuer-die-einladung",
+            "ich-freue-mich"
+          ]
+        },
+        {
+          "type": "choice",
+          "prompt": "Sie wartet auf eine Antwort.",
+          "options": [
+            {
+              "label": "Danke für die Einladung! Ich freue mich.",
+              "line": "Danke für die Einladung! Ich freue mich."
+            },
+            {
+              "label": "Ich bring Blumen mit. …Darf ich?",
+              "line": "Ich bring Blumen mit. …Darf ich?"
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "frau-bruegge",
+          "text": "Blumen? Na gut, wenn's sein muss. …Aber herzlicher wär's, wenn einfach du kommst.",
+          "translation": "Flowers? Fine, if you must. …But it would be warmer if just you came."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "narration",
+          "text": "Samstagnachmittag. Du stehst mit einer Tüte Tulpen vor der Tür und klingelst zum ersten Mal bei jemandem in dieser Stadt. Vier Treppen."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        }
       ]
     },
     {
@@ -59,23 +360,180 @@
       "titleEn": "At dinner",
       "place": "Frau Brügges Küche, 4. OG",
       "bg": "wohnung",
-      "contextTags": ["friends", "food", "home"],
+      "contextTags": [
+        "friends",
+        "food",
+        "home"
+      ],
       "requiredItems": [],
-      "introducedItems": ["das-abendessen", "die-suppe", "der-salat", "schmeckt-dir", "noch-etwas", "es-war-sehr-lecker"],
+      "introducedItems": [
+        "das-abendessen",
+        "die-suppe",
+        "der-salat",
+        "schmeckt-dir",
+        "noch-etwas",
+        "es-war-sehr-lecker"
+      ],
       "beats": [
-        { "type": "narration", "text": "Frau Brügges Küche: Blümchen auf der Decke, ein dampfender Topf — und Tobias ist auch da. „Ich helf nur beim Decken.“" },
-        { "type": "meet", "itemIds": ["das-abendessen", "die-suppe", "der-salat"] },
-        { "type": "line", "speaker": "frau-bruegge", "text": "Also — Guten Appetit! Die Suppe ist nach Omas Rezept. Tobias, sag jetzt nicht wieder, sie sei zu gesund.", "translation": "Well — enjoy your meal! The soup is my grandma's recipe. Tobias, don't say again that it's too healthy." },
-        { "type": "meet", "itemIds": ["schmeckt-dir", "noch-etwas", "es-war-sehr-lecker"] },
-        { "type": "choice", "prompt": "Frau Brügge beobachtet deinen Löffel.", "options": [
-          { "label": "Es war sehr lecker!", "line": "Es war sehr lecker!" },
-          { "label": "Noch etwas Suppe, bitte!", "line": "Noch etwas Suppe, bitte!" }
-        ] },
-        { "type": "line", "speaker": "tobias", "text": "Sag ich doch: Sie kocht besser als mein Studifutter. …Frau Brügge, nächstes Mal grillen wir!", "translation": "Told you: she cooks better than my student food. …Frau Brügge, next time we'll barbecue!" },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "line", "speaker": "frau-bruegge", "text": "So. Und jetzt Kaffee. Und du, Sam: Wie gefällt dir Leipzig bis hierher?", "translation": "Right. And now coffee. And you, Sam: How do you like Leipzig so far?" },
-        { "type": "check", "count": 2, "mode": "recall" },
-        { "type": "narration", "text": "Du sagst „schön“ und meinst es. Der Kaffee duftet, draußen wird es dunkel über den Dächern der Bärbelstraße." }
+        {
+          "type": "narration",
+          "text": "Frau Brügges Küche: Blümchen auf der Decke, ein dampfender Topf — und Tobias ist auch da. „Ich helf nur beim Decken.“"
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "das-abendessen",
+            "die-suppe",
+            "der-salat"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "frau-bruegge",
+          "text": "Also — Guten Appetit! Die Suppe ist nach Omas Rezept. Tobias, sag jetzt nicht wieder, sie sei zu gesund.",
+          "translation": "Well — enjoy your meal! The soup is my grandma's recipe. Tobias, don't say again that it's too healthy."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "schmeckt-dir",
+            "noch-etwas",
+            "es-war-sehr-lecker"
+          ]
+        },
+        {
+          "type": "choice",
+          "prompt": "Frau Brügge beobachtet deinen Löffel.",
+          "options": [
+            {
+              "label": "Es war sehr lecker!",
+              "line": "Es war sehr lecker!"
+            },
+            {
+              "label": "Noch etwas Suppe, bitte!",
+              "line": "Noch etwas Suppe, bitte!"
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Sag ich doch: Sie kocht besser als mein Studifutter. …Frau Brügge, nächstes Mal grillen wir!",
+          "translation": "Told you: she cooks better than my student food. …Frau Brügge, next time we'll barbecue!"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "line",
+          "speaker": "frau-bruegge",
+          "text": "So. Und jetzt Kaffee. Und du, Sam: Wie gefällt dir Leipzig bis hierher?",
+          "translation": "Right. And now coffee. And you, Sam: How do you like Leipzig so far?"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "narration",
+          "text": "Du sagst „schön“ und meinst es. Der Kaffee duftet, draußen wird es dunkel über den Dächern der Bärbelstraße."
+        }
+      ]
+    },
+    {
+      "id": "a1e4s3",
+      "episodeId": "a1e4",
+      "title": "Der Gegenbesuch",
+      "titleEn": "The return invitation",
+      "place": "Sams Küche, Samstag 16 Uhr",
+      "bg": "wohnung",
+      "contextTags": [
+        "neighbors",
+        "food",
+        "home"
+      ],
+      "requiredItems": [
+        "danke-fuer-die-einladung",
+        "der-kaffee"
+      ],
+      "introducedItems": [
+        "der-zettel",
+        "die-kanne",
+        "das-stueck",
+        "der-gast",
+        "selbstgemacht",
+        "gern-geschehen"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Eine Woche später: An deiner Tür hängt ein Antwortzettel in Füllfeder — „Zu Sam: Samstag, vier Uhr? Kaffee ist heiß, Kuchen backe ich selbst. Wenn er gelingt.“ Er ist gelungen. Fast."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-zettel",
+            "die-kanne",
+            "das-stueck"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "frau-bruegge",
+          "text": "Du hast eingeladen! Der Zettel an der Tür — sehr charmant. …Mhm, die Kanne dampft noch, und der Kuchen: selbstgemacht? Dann bin ich heute Gast, nicht Vermieterin. Das ist ein Unterschied, Sam. Ein schöner.",
+          "translation": "You invited us! And the note is in block capitals — very wise. …Mm. The cake: homemade? Then today I'm a guest, not a landlady. That's a difference, Sam. A nice one."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-gast",
+            "selbstgemacht",
+            "gern-geschehen"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Tobias steht schon mit der Gabel am Kuchen. „Darf ich?“",
+          "options": [
+            {
+              "label": "Ja, nimm dir ein Stück. …Es war das letzte, oder?",
+              "line": "Ja, nimm dir ein Stück. …Das war das letzte, oder? …Tobias. TOBIAS."
+            },
+            {
+              "label": "Klar! Ich backe am Sonntag wieder.",
+              "line": "Klar! Ich backe am Sonntag wieder. Dann mit doppelt so viel Kuchen."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Der Kuchen ist besser als mein Studifutter. Und der Kaffee ist echt heiß, nicht „Wohnheim heiß“. …Sam, du bist offiziell Leipziger. Nächstes Mal bringe ich Blumen mit.",
+          "translation": "The cake is better than my student cafeteria food. And the coffee is properly hot, not 'dorm hot'. …Sam, you're officially a Leipziger now. Next time I'll bring flowers."
+        },
+        {
+          "type": "line",
+          "speaker": "frau-bruegge",
+          "text": "Du hast eingeladen! Der Zettel an der Tür — sehr charmant. …Mhm, die Kanne dampft noch, und der Kuchen: selbstgemacht? Dann bin ich heute Gast, nicht Vermieterin. Das ist ein Unterschied, Sam. Ein schöner.",
+          "translation": "And? How do you like Leipzig now, after five weeks? …See. More words, more of an answer. German helps. And cake helps too."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "narration",
+          "text": "Auf deinem Tisch stehen drei Tassen. Deine Wohnung klingt nach Besuch, nicht nach Ankunft. Auf die Frage „Wie gefällt dir Leipzig?“ hast du diesmal ganze Sätze verwendet — und warst froh über jede Silbe."
+        }
       ]
     }
   ]

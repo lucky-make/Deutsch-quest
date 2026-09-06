@@ -135,6 +135,8 @@ def collect_german_strings() -> dict[str, None]:
                 btype = beat.get("type")
                 if btype == "line":
                     texts[beat["text"]] = None
+                elif btype == "reading":
+                    texts[beat["text"]] = None
                 elif btype == "choice":
                     for opt in beat.get("options", []):
                         if opt.get("line"):

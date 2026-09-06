@@ -1,0 +1,120 @@
+{
+  "episode": {
+    "id": "b2e7",
+    "arcId": "B2",
+    "cefrLevel": "B2",
+    "title": "Die Gehaltsverhandlung",
+    "titleEn": "The salary negotiation",
+    "blurb": "Jahresgespräch bei Café Kontor. Du hast Zahlen, ein Anbauprojekt und ein Zertifikat. Jetzt fehlt nur noch: das Wort Gehalt, laut und ruhig ausgesprochen.",
+    "order": 19,
+    "sceneIds": ["b2e7s1", "b2e7s2", "b2e7s3"]
+  },
+  "cast": [
+    { "id": "personal", "name": "Frau Liebig", "role": "Geschäftsführung, Café Kontor" },
+    { "id": "luise", "name": "Luise", "role": "Freundin, Beraterin" },
+    { "id": "mei", "name": "Mei", "role": "Freundin" }
+  ],
+  "items": [
+    { "id": "das-jahresgespraech", "type": "word", "german": "das Jahresgespräch", "meaning": "the annual (review) meeting", "image": "kalender", "audio": "tts", "introducedInScene": "b2e7s1", "tags": ["work", "meeting"], "cefrLevel": "B2", "note": "das, Plural: die Jahresgespräche — Gehaltsthema inklusive" },
+    { "id": "die-leistung", "type": "word", "german": "die Leistung", "meaning": "the performance / achievement", "image": "ziel", "audio": "tts", "introducedInScene": "b2e7s1", "tags": ["work"], "cefrLevel": "B2", "note": "die, Plural: die Leistungen — ein sehr deutsches Wort" },
+    { "id": "begruenden", "type": "chunk", "german": "Können Sie das begründen?", "meaning": "Can you justify / back that up?", "image": "meinung", "audio": "tts", "introducedInScene": "b2e7s1", "tags": ["work", "meeting"], "cefrLevel": "B2", "note": "begründen — mit Argumenten, nicht mit Gefühlen" },
+    { "id": "der-marktwert", "type": "word", "german": "der Marktwert", "meaning": "the market value", "image": "budget", "audio": "tts", "introducedInScene": "b2e7s1", "tags": ["work", "money"], "cefrLevel": "B2", "note": "der (meist Singular) — auch für Fußballspieler und dich" },
+    { "id": "konkret", "type": "word", "german": "konkret", "meaning": "concrete / specific", "image": "prüfen", "audio": "tts", "introducedInScene": "b2e7s1", "tags": ["work", "opinion"], "cefrLevel": "B2", "note": "„Können Sie konkret werden?“ — Prüfungs- und Verhandlungswort" },
+    { "id": "die-argumentation", "type": "word", "german": "die Argumentation", "meaning": "the line of argument", "image": "gespräch", "audio": "tts", "introducedInScene": "b2e7s1", "tags": ["work", "meeting", "opinion"], "cefrLevel": "B2", "note": "die, Plural: die Argumentationen — Aufbau zählt" },
+    { "id": "meiner-meinung-nach-rechtfertigt", "type": "grammar_pattern", "german": "Meiner Meinung nach ___ meine Leistung dieses Gehalt.", "meaning": "In my opinion, my performance justifies this salary.", "image": "meinung", "audio": "tts", "introducedInScene": "b2e7s1", "tags": ["work", "grammar", "opinion"], "cefrLevel": "B2", "cloze": "rechtfertigt", "speak": "Meiner Meinung nach rechtfertigt meine Leistung dieses Gehalt.", "note": "meiner Meinung nach + Verb an Position 2" },
+    { "id": "die-gehaltserhoehung", "type": "word", "german": "die Gehaltserhöhung", "meaning": "the (salary) raise", "image": "münzen", "audio": "tts", "introducedInScene": "b2e7s2", "tags": ["work", "money"], "cefrLevel": "B2", "note": "die, Plural: die Gehaltserhöhungen" },
+    { "id": "der-tarifvertrag", "type": "word", "german": "der Tarifvertrag", "meaning": "the collective (wage) agreement", "image": "vertrag", "audio": "tts", "introducedInScene": "b2e7s2", "tags": ["work", "money", "paperwork"], "cefrLevel": "B2", "note": "der, Plural: die Tarifverträge — Referenzpunkt jeder Verhandlung" },
+    { "id": "die-gegenleistung", "type": "word", "german": "die Gegenleistung", "meaning": "the consideration / something in return", "image": "geschenk", "audio": "tts", "introducedInScene": "b2e7s2", "tags": ["work", "money"], "cefrLevel": "B2", "note": "die, Plural: die Gegenleistungen — Verhandeln heißt tauschen" },
+    { "id": "die-probezeit", "type": "word", "german": "die Probezeit", "meaning": "the probation period", "image": "urehr", "audio": "tts", "introducedInScene": "b2e7s2", "tags": ["work", "time"], "cefrLevel": "B2", "note": "die, Plural: die Probezeiten — nach der Probezeit wird verhandelt" },
+    { "id": "schriftlich", "type": "word", "german": "schriftlich", "meaning": "in writing / written", "image": "unterschrift", "audio": "tts", "introducedInScene": "b2e7s2", "tags": ["work", "paperwork"], "cefrLevel": "B2", "note": "„Schriftlich, bitte.“ — das wichtigste Wort der Verhandlung" },
+    { "id": "festhalten", "type": "chunk", "german": "Das halten wir schriftlich fest.", "meaning": "We'll put that in writing.", "image": "formular", "audio": "tts", "introducedInScene": "b2e7s2", "tags": ["work", "paperwork"], "cefrLevel": "B2" },
+    { "id": "der-bericht", "type": "word", "german": "der Bericht", "meaning": "the report", "image": "brief", "audio": "tts", "introducedInScene": "b2e7s3", "tags": ["work", "paperwork"], "cefrLevel": "B2", "note": "der, Plural: die Berichte" },
+    { "id": "laut-dem-bericht", "type": "chunk", "german": "Laut dem Bericht.", "meaning": "According to the report.", "image": "brief", "audio": "tts", "introducedInScene": "b2e7s3", "tags": ["work", "opinion"], "cefrLevel": "B2", "note": "laut + Dativ (genauer: Genitiv — „laut des Berichts“, amtlich)" },
+    { "id": "die-anpassung", "type": "word", "german": "die Anpassung", "meaning": "the adjustment", "image": "budget", "audio": "tts", "introducedInScene": "b2e7s3", "tags": ["work", "money"], "cefrLevel": "B2", "note": "die, Plural: die Anpassungen — Gehaltsanpassung = raise, bureauspeak" },
+    { "id": "unterzeichnen", "type": "chunk", "german": "Ich unterzeichne den Vertrag.", "meaning": "I'm signing the contract.", "image": "unterschrift", "audio": "tts", "introducedInScene": "b2e7s3", "tags": ["work", "paperwork"], "cefrLevel": "B2", "note": "unterzeichnen — formeller als unterschreiben" },
+    { "id": "die-einigung", "type": "word", "german": "die Einigung", "meaning": "the agreement / settlement", "image": "gespräch", "audio": "tts", "introducedInScene": "b2e7s3", "tags": ["work", "meeting"], "cefrLevel": "B2", "note": "die, Plural: die Einigungen — sich einigen = to agree" },
+    { "id": "sie-sagte-sei", "type": "grammar_pattern", "german": "Sie sagte, die Anpassung ___ fair.", "meaning": "She said the adjustment was fair. (reported speech)", "image": "gespräch", "audio": "tts", "introducedInScene": "b2e7s3", "tags": ["work", "grammar"], "cefrLevel": "B2", "cloze": "sei", "speak": "Sie sagte, die Anpassung sei fair.", "note": "Konjunktiv I / indirekte Rede: sei, habe, könne — Distanz zum Gesagten" }
+  ],
+  "scenes": [
+    {
+      "id": "b2e7s1",
+      "episodeId": "b2e7",
+      "title": "Das Jahresgespräch",
+      "titleEn": "The annual review",
+      "place": "Café Kontor, Besprechungsecke",
+      "bg": "buero",
+      "contextTags": ["work", "money", "meeting"],
+      "requiredItems": ["das-gehalt", "die-stelle"],
+      "introducedItems": ["das-jahresgespraech", "die-leistung", "begruenden", "der-marktwert", "konkret", "die-argumentation"],
+      "beats": [
+        { "type": "narration", "text": "Café Kontor, dienstags, vor Öffnung. Frau Liebig hat zwei Kaffees gestellt und einen Terminbogen. Titel: „Jahresgespräch“. Dein Stichzettel hat drei Wörter: Leistung. Zahlen. Konkret." },
+        { "type": "meet", "itemIds": ["das-jahresgespraech", "die-leistung", "konkret"] },
+        { "type": "line", "speaker": "personal", "text": "Sam. Ihr erstes Jahr. Sie haben den Anbau geleitet, das Zertifikat gemacht, und meine Stammgäste fragen nach Ihnen, nicht nach mir. …Was möchten Sie besprechen?", "translation": "Sam. Your first year. You led the extension, got the certificate, and my regulars ask for you, not for me. …What would you like to discuss?" },
+        { "type": "meet", "itemIds": ["begruenden", "der-marktwert", "die-argumentation"] },
+        { "type": "check", "count": 2, "mode": "mixed" },
+        { "type": "choice", "prompt": "Jetzt. Der Satz. Ruhig atmen.", "options": [
+          { "label": "Meiner Meinung nach rechtfertigt meine Leistung dieses Gehalt nicht mehr.", "line": "Meiner Meinung nach rechtfertigt meine Leistung das aktuelle Gehalt nicht mehr." },
+          { "label": "Ich möchte konkret über Gehalt sprechen.", "line": "Ich möchte konkret über mein Gehalt sprechen — mit Zahlen und Begründung." }
+        ] },
+        { "type": "line", "speaker": "personal", "text": "Gut. Dann konkret: Können Sie das begründen? …Und bitte mit Argumentation, nicht mit Bauchgefühl. Bauchgefühl hat Wochenende.", "translation": "Good. Then concretely: can you justify that? …And with argumentation, please, not gut feeling. Gut feeling has weekends off." },
+        { "type": "check", "count": 2, "mode": "listen" },
+        { "type": "reading", "title": "Dein Stichzettel (handgeschrieben)", "text": "VERHANDLUNG — REIHENFOLGE\n\n1. Leistung: Anbau (pünktlich, im Budget),\n   Frühschichten, B2-Zertifikat.\n2. Marktwert: vergleichbare Stellen 14–15 €/h.\n3. Wunsch: 14,50 €/h, ab nächstem Monat.\n4. Gegenleistung anbieten: Wochenende leiten.\n5. Schriftlich festhalten. IMMER.\n\n(Nicht sagen: „vielleicht“, „Sorry“, „nur“.)", "translation": "NEGOTIATION — ORDER OF PLAY\n\n1. Performance: extension (on time, on budget),\n   early shifts, B2 certificate.\n2. Market value: comparable positions €14–15/h.\n3. Ask: €14.50/h, from next month.\n4. Offer consideration in return: run weekends.\n5. Put it in writing. ALWAYS.\n\n(Don't say: 'maybe', 'sorry', 'just'.)", "itemIds": ["die-leistung", "der-marktwert", "die-argumentation"] }
+      ]
+    },
+    {
+      "id": "b2e7s2",
+      "episodeId": "b2e7",
+      "title": "Zahlen nennen",
+      "titleEn": "Naming numbers",
+      "place": "Café Kontor, weiter",
+      "bg": "buero",
+      "contextTags": ["work", "money", "meeting"],
+      "requiredItems": ["das-jahresgespraech", "das-budget"],
+      "introducedItems": ["die-gehaltserhoehung", "der-tarifvertrag", "die-gegenleistung", "die-probezeit", "schriftlich", "festhalten"],
+      "beats": [
+        { "type": "narration", "text": "Frau Liebig kippt ihren Kaffee um, rettet ihn, und sagt dann den Satz, der alles entscheidet: „Nennen Sie eine Zahl.“" },
+        { "type": "meet", "itemIds": ["die-gehaltserhoehung", "der-tarifvertrag", "die-gegenleistung"] },
+        { "type": "line", "speaker": "personal", "text": "Tarifvertrag gilt bei uns nicht — wir sind klein. Also: Meine Orientierung ist der Markt, nicht das Bauchgefühl. …Sie sagen was, ich sage was, dann trinken wir Kaffee.", "translation": "Collective agreements don't apply here — we're small. So: my reference is the market, not gut feeling. …You say a number, I say a number, then we drink coffee." },
+        { "type": "check", "count": 2, "mode": "mixed" },
+        { "type": "choice", "prompt": "Deine Zahl.", "options": [
+          { "label": "Vierzehn fünfzig — und ich übernehme die Wochenendleitung.", "line": "Vierzehn fünfzig die Stunde — und als Gegenleistung übernehme ich die Wochenendleitung." },
+          { "label": "Zwölf. …Nein, warten. Vierzehn fünfzig.", "line": "Zwölf. …Nein, warten Sie. Vierzehn fünfzig. Das war kein Verhandlungsstart, das war ein Atemzug." }
+        ] },
+        { "type": "line", "speaker": "personal", "text": "Vierzehn. Und die Wochenendleitung gehört dazu — Probezeit dafür: drei Monate. Dann dreizehn achtzig, danach vierzehn fünfzig. …Oder?", "translation": "Fourteen. And the weekend management comes with it — probation for that: three months. Then €13.80, then €14.50. …Or?" },
+        { "type": "meet", "itemIds": ["die-probezeit", "schriftlich", "festhalten"] },
+        { "type": "check", "count": 2, "mode": "mixed" },
+        { "type": "line", "speaker": "personal", "text": "Sie schweigen so professionell, dass ich fast mehr biete. …Also gut: vierzehn fünfzig ab Januar, Wochenendleitung sofort, alles schriftlich. Damit wären wir einig — wäre, wenn Sie jetzt nichts sagen.", "translation": "You're staying silent so professionally I almost offer more. …Fine: €14.50 from January, weekend management immediately, all in writing. That would make us agreed — if you didn't say anything now." },
+        { "type": "check", "count": 2, "mode": "listen" },
+        { "type": "reading", "title": "E-Mail von Frau Liebig (gleicher Abend)", "text": "Betreff: Anpassung Arbeitsvertrag\n\nHallo Sam,\n\nwie besprochen: Stundenlohn 14,50 € ab 01.01.,\nWochenendleitung ab sofort, Probezeit 3 Monate.\nDen geänderten Vertrag hängt diese Mail an —\nbitte drucken, unterschreiben, vorbeibringen.\n\nDanke für das gute Jahr. Das war keine Floskel.\n\nFrau Liebig", "translation": "Re: Employment contract adjustment\n\nHi Sam,\n\nas discussed: hourly wage €14.50 from Jan 1,\nweekend management effective immediately, 3-month probation.\nThe amended contract is attached —\nplease print, sign, drop by.\n\nThanks for a good year. That was not a formality.\n\nMs Liebig", "itemIds": ["die-gehaltserhoehung", "schriftlich", "die-probezeit"] }
+      ]
+    },
+    {
+      "id": "b2e7s3",
+      "episodeId": "b2e7",
+      "title": "Die Einigung",
+      "titleEn": "The agreement",
+      "place": "Café Kontor, Theke, unterschrieben",
+      "bg": "cafe",
+      "contextTags": ["work", "money", "friends"],
+      "requiredItems": ["das-jahresgespraech"],
+      "introducedItems": ["der-bericht", "laut-dem-bericht", "die-anpassung", "unterzeichnen", "die-einigung", "sie-sagte-sei"],
+      "beats": [
+        { "type": "narration", "text": "Der geänderte Vertrag liegt auf der Theke. Mei liest über deine Schulter und macht Geräusche wie eine Kaffeemaschine vor Aufregung." },
+        { "type": "meet", "itemIds": ["die-anpassung", "unterzeichnen", "die-einigung"] },
+        { "type": "line", "speaker": "mei", "text": "„…wird die Gehaltsanpassung wirksam zum ersten Januar.“ …Sam. Du hast verhandelt. Auf Deutsch. Mit Zahlen und allem. Was hat Frau Liebig gesagt, EXAKT?", "translation": "'…the salary adjustment takes effect on the first of January.' …Sam. You negotiated. In German. With numbers and everything. What did Ms Liebig say, EXACTLY?" },
+        { "type": "choice", "prompt": "Indirekte Rede, live. Was hast du Mei berichtet?", "options": [
+          { "label": "Sie sagte, die Anpassung sei fair — und meinte es.", "line": "Sie sagte, die Anpassung sei fair. Und ich glaube, sie meinte es." },
+          { "label": "Sie meinte, der Bericht sei gut ausgefallen.", "line": "Sie meinte, mein Jahresbericht sei gut ausgefallen. …Der war von ihr selbst." }
+        ] },
+        { "type": "meet", "itemIds": ["sie-sagte-sei", "der-bericht", "laut-dem-bericht"] },
+        { "type": "check", "count": 2, "mode": "mixed" },
+        { "type": "line", "speaker": "mei", "text": "„Sie sagte, die Anpassung sei fair.“ …Hörst du dich an? Konjunktiv I, mitten im Café. Du redest jetzt wie ein Gesetzestext mit Milchschaum.", "translation": "'She said the adjustment was fair.' …Do you hear yourself? Subjunctive, in the middle of a café. You now talk like a legal text with milk foam." },
+        { "type": "check", "count": 2, "mode": "mixed" },
+        { "type": "check", "count": 2, "mode": "recall" },
+        { "type": "narration", "text": "Du unterschreibst mit deinem besten Kugelschreiber. Luise, die zufällig Kaffee trinkt, nickt langsam und stolz. Laut dem Bericht — ihrem eigenen — war ihr Tipp: „größere Stelle, Teilzeit, Kurs.“ Er war gut. Aber dein Mut war besser." },
+        { "type": "reading", "title": "Kurzmeldung (Betriebs-Mitteilungsbrett)", "text": "MITTEILUNG\n\nNach einvernehmlicher Einigung übernimmt Sam\nab sofort die Wochenendleitung des Café Kontor.\n\nLaut dem aktuellen Bericht der Geschäftsführung\nist die Gehaltsanpassung zum 01.01. wirksam.\n\nWir gratulieren — und bitten um weiteres Verständnis,\nwenn am Samstag wieder alle Kaffee gleichzeitig wollen.", "translation": "NOTICE\n\nBy mutual agreement, Sam takes over weekend\nmanagement of Café Kontor effective immediately.\n\nAccording to the current report of the management,\nthe salary adjustment is effective from Jan 1.\n\nCongratulations — and please keep being understanding\nwhen everyone wants coffee at the same time on Saturdays.", "itemIds": ["die-einigung", "die-anpassung", "laut-dem-bericht"] },
+        { "type": "narration", "text": "Ein Jahr nach deiner ersten Schicht: mehr Euro, mehr Verantwortung, derselbe Kaffee. Der Unterschied sitzt nicht im Gehalt. Er sitzt in dem Satz, den du laut gesagt hast." }
+      ]
+    }
+  ]
+}

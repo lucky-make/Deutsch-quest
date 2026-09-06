@@ -8,8 +8,8 @@ describe('content registry', () => {
     expect(registry.issues).toEqual([])
   })
 
-  it('builds 24 episodes across 4 CEFR levels (6 per level)', () => {
-    expect(registry.episodes).toHaveLength(24)
+  it('builds 30 episodes across 4 CEFR levels', () => {
+    expect(registry.episodes).toHaveLength(30)
     for (const lvl of ['A1', 'A2', 'B1', 'B2'] as const) {
       const eps = registry.episodes.filter((e) => e.cefrLevel === lvl)
       expect(eps.length, lvl).toBeGreaterThanOrEqual(4)
@@ -24,13 +24,13 @@ describe('content registry', () => {
     }
   })
 
-  it('has 5–7 new items per scene and lands in the 230–280 item range', () => {
+  it('has 5–7 new items per scene and lands in the 460–560 item range', () => {
     for (const sc of registry.scenes) {
       expect(sc.introducedItems.length, sc.id).toBeGreaterThanOrEqual(5)
       expect(sc.introducedItems.length, sc.id).toBeLessThanOrEqual(7)
     }
-    expect(registry.items.length).toBeGreaterThanOrEqual(340)
-    expect(registry.items.length).toBeLessThanOrEqual(450)
+    expect(registry.items.length).toBeGreaterThanOrEqual(460)
+    expect(registry.items.length).toBeLessThanOrEqual(560)
   })
 
   it('every item has audio, tags, level and a resolvable introduction scene', () => {

@@ -1,0 +1,579 @@
+{
+  "episode": {
+    "id": "a1e7",
+    "arcId": "A1",
+    "cefrLevel": "A1",
+    "title": "Der Supermarkt",
+    "titleEn": "The supermarket",
+    "blurb": "Pfund oder Kilo? Pfand ja oder nein? Du lernst einkaufen wie ein Mensch mit Einkaufsliste — und bekommst dein Pfand zurück.",
+    "order": 7,
+    "sceneIds": [
+      "a1e7s1",
+      "a1e7s2",
+      "a1e7s3"
+    ]
+  },
+  "cast": [
+    {
+      "id": "kassiererin",
+      "name": "Frau Bergmann",
+      "role": "Kassiererin"
+    },
+    {
+      "id": "tobias",
+      "name": "Tobias",
+      "role": "Nachbar, Freund"
+    }
+  ],
+  "items": [
+    {
+      "id": "der-supermarkt",
+      "type": "word",
+      "german": "der Supermarkt",
+      "meaning": "the supermarket",
+      "image": "laden",
+      "audio": "tts",
+      "introducedInScene": "a1e7s1",
+      "tags": [
+        "shopping",
+        "food",
+        "city"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Supermärkte"
+    },
+    {
+      "id": "die-stofftasche",
+      "type": "word",
+      "german": "die Stofftasche",
+      "meaning": "the (cloth) tote bag",
+      "image": "tüte",
+      "audio": "tts",
+      "introducedInScene": "a1e7s1",
+      "tags": [
+        "shopping",
+        "objects"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Stofftaschen — in Deutschland pflichtbewusst dabei"
+    },
+    {
+      "id": "das-kilo",
+      "type": "word",
+      "german": "das Kilo",
+      "meaning": "the kilo",
+      "image": "gemuese",
+      "audio": "tts",
+      "introducedInScene": "a1e7s1",
+      "tags": [
+        "shopping",
+        "food"
+      ],
+      "cefrLevel": "A1",
+      "note": "das, Plural: die Kilos — kurz für das Kilogramm"
+    },
+    {
+      "id": "das-pfund",
+      "type": "word",
+      "german": "das Pfund",
+      "meaning": "the pound (500 g — still used for food!)",
+      "image": "gemuese",
+      "audio": "tts",
+      "introducedInScene": "a1e7s1",
+      "tags": [
+        "shopping",
+        "food"
+      ],
+      "cefrLevel": "A1",
+      "note": "das, Plural: die Pfunde — „ein Pfund Butter“ sagt man immer noch"
+    },
+    {
+      "id": "die-pfandflasche",
+      "type": "word",
+      "german": "die Pfandflasche",
+      "meaning": "the deposit bottle",
+      "image": "getränk",
+      "audio": "tts",
+      "introducedInScene": "a1e7s1",
+      "tags": [
+        "shopping",
+        "money",
+        "objects"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Pfandflaschen — Pfand = deposit. 8 bis 25 Cent!"
+    },
+    {
+      "id": "das-obst",
+      "type": "word",
+      "german": "das Obst",
+      "meaning": "the fruit",
+      "image": "apfel",
+      "audio": "tts",
+      "introducedInScene": "a1e7s1",
+      "tags": [
+        "food",
+        "shopping"
+      ],
+      "cefrLevel": "A1",
+      "note": "das ( Sammelbegriff ) — Gemüse weißt du schon"
+    },
+    {
+      "id": "die-kassiererin",
+      "type": "word",
+      "german": "die Kassiererin",
+      "meaning": "the cashier (f)",
+      "image": "kasse",
+      "audio": "tts",
+      "introducedInScene": "a1e7s2",
+      "tags": [
+        "shopping",
+        "people"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Kassiererinnen; männlich: der Kassierer"
+    },
+    {
+      "id": "bar-oder-mit-karte",
+      "type": "chunk",
+      "german": "Bar oder mit Karte?",
+      "meaning": "Cash or by card?",
+      "image": "geld",
+      "audio": "tts",
+      "introducedInScene": "a1e7s2",
+      "tags": [
+        "shopping",
+        "money",
+        "questions"
+      ],
+      "cefrLevel": "A1",
+      "note": "Die Standardfrage an jeder Kasse"
+    },
+    {
+      "id": "die-quittung",
+      "type": "word",
+      "german": "die Quittung",
+      "meaning": "the receipt",
+      "image": "beleg",
+      "audio": "tts",
+      "introducedInScene": "a1e7s2",
+      "tags": [
+        "shopping",
+        "money",
+        "paperwork"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Quittungen — „Quittung, bitte?“"
+    },
+    {
+      "id": "das-wechselgeld",
+      "type": "word",
+      "german": "das Wechselgeld",
+      "meaning": "the (small) change",
+      "image": "münzen",
+      "audio": "tts",
+      "introducedInScene": "a1e7s2",
+      "tags": [
+        "money",
+        "shopping"
+      ],
+      "cefrLevel": "A1",
+      "note": "das ( Singular ) — Geld zurück beim Bezahlen"
+    },
+    {
+      "id": "das-macht-zusammen",
+      "type": "grammar_pattern",
+      "german": "Das macht zusammen ___, bitte.",
+      "meaning": "That comes to ___ altogether, please.",
+      "image": "kasse",
+      "audio": "tts",
+      "introducedInScene": "a1e7s2",
+      "tags": [
+        "shopping",
+        "money"
+      ],
+      "cefrLevel": "A1",
+      "cloze": "zwölf Euro achtzig",
+      "alt": [
+        "12,80"
+      ],
+      "speak": "Das macht zusammen zwölf Euro achtzig, bitte.",
+      "note": "Die Kasse spricht: Preis + „bitte“"
+    },
+    {
+      "id": "die-süßigkeiten",
+      "type": "word",
+      "german": "die Süßigkeiten",
+      "meaning": "the sweets / candy",
+      "image": "kuchen",
+      "audio": "tts",
+      "introducedInScene": "a1e7s2",
+      "tags": [
+        "food",
+        "shopping"
+      ],
+      "cefrLevel": "A1",
+      "note": "Pluralwort — Kassenzone-Klassiker"
+    },
+    {
+      "id": "der-pfandautomat",
+      "type": "word",
+      "german": "der Pfandautomat",
+      "meaning": "the deposit-bottle machine",
+      "image": "kasse",
+      "audio": "tts",
+      "introducedInScene": "a1e7s3",
+      "tags": [
+        "shopping",
+        "money"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Pfandautomaten — Deutschlands zufriedenstellendste Maschine"
+    },
+    {
+      "id": "die-flasche",
+      "type": "word",
+      "german": "die Flasche",
+      "meaning": "the bottle",
+      "image": "getränk",
+      "audio": "tts",
+      "introducedInScene": "a1e7s3",
+      "tags": [
+        "objects",
+        "shopping"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Flaschen"
+    },
+    {
+      "id": "zurückgeben",
+      "type": "chunk",
+      "german": "Ich gebe die Flaschen zurück.",
+      "meaning": "I'm returning the bottles.",
+      "image": "getränk",
+      "audio": "tts",
+      "introducedInScene": "a1e7s3",
+      "tags": [
+        "shopping"
+      ],
+      "cefrLevel": "A1",
+      "note": "zurückgeben = zurück + geben, trennbar"
+    },
+    {
+      "id": "das-guthaben",
+      "type": "word",
+      "german": "das Guthaben",
+      "meaning": "the credit / balance (from returns)",
+      "image": "geld",
+      "audio": "tts",
+      "introducedInScene": "a1e7s3",
+      "tags": [
+        "money",
+        "shopping"
+      ],
+      "cefrLevel": "A1",
+      "note": "das, Plural: die Guthaben — Bon aus dem Automaten an der Kasse einlösen"
+    },
+    {
+      "id": "die-ersparnis",
+      "type": "word",
+      "german": "die Ersparnis",
+      "meaning": "the saving(s)",
+      "image": "münzen",
+      "audio": "tts",
+      "introducedInScene": "a1e7s3",
+      "tags": [
+        "money"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Ersparnisse — sparen = to save"
+    },
+    {
+      "id": "das-abendbrot",
+      "type": "word",
+      "german": "das Abendbrot",
+      "meaning": "the supper (bread-based evening meal)",
+      "image": "brot",
+      "audio": "tts",
+      "introducedInScene": "a1e7s3",
+      "tags": [
+        "food",
+        "routine"
+      ],
+      "cefrLevel": "A1",
+      "note": "das, Plural: die Abendbrote — kulturell, nicht nur kulinarisch"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "a1e7s1",
+      "episodeId": "a1e7",
+      "title": "Einkaufsliste",
+      "titleEn": "Shopping list",
+      "place": "Supermarkt an der Jahnallee",
+      "bg": "laden",
+      "contextTags": [
+        "shopping",
+        "food",
+        "money"
+      ],
+      "requiredItems": [
+        "das-brot",
+        "der-apfel"
+      ],
+      "introducedItems": [
+        "der-supermarkt",
+        "die-stofftasche",
+        "das-kilo",
+        "das-pfund",
+        "die-pfandflasche",
+        "das-obst"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Donnerstagabend. Deine Einkaufsliste: Brot, Butter, Obst, Kartoffeln, und genau nichts davon findest du, wo du es erwartest. Supermärkte sind Labyrinthe mit Absicht."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-supermarkt",
+            "die-stofftasche",
+            "das-obst"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Nimm die Stofftasche mit. Tüten kosten hier Geld — und die Deutschen reden dich über die Stofftasche glücklich.",
+          "translation": "Bring the tote bag. Bags cost money here — and Germans will talk to you about tote bags happily."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "das-kilo",
+            "das-pfund",
+            "die-pfandflasche"
+          ]
+        },
+        {
+          "type": "reading",
+          "title": "Angebot der Woche",
+          "text": "ANGEBOT DER WOCHE\nÄpfel elstar — 1 KILO nur 2,29 €\nButter (250 g) — 1,79 €\nKartoffeln festkochend — 2 Pfund 1,49 €\nMineralwasser mit Pfand 0,25 €",
+          "translation": "Deal of the week\nElstar apples — 1 kilo only €2.29\nButter (250 g) — €1.79\nFirm-boiling potatoes — 2 pounds €1.49\nMineral water with deposit €0.25",
+          "itemIds": [
+            "das-kilo",
+            "das-pfund",
+            "die-pfandflasche"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Eine ältere Dame fragt dich, was ein Pfund wiegt. Du weißt es jetzt.",
+          "options": [
+            {
+              "label": "Ein Pfund sind fünfhundert Gramm.",
+              "line": "Ein Pfund sind fünfhundert Gramm!"
+            },
+            {
+              "label": "Keine Ahnung. Aber ich kann ein Kilo.",
+              "line": "Keine Ahnung. Aber ein Kilo kann ich."
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        }
+      ]
+    },
+    {
+      "id": "a1e7s2",
+      "episodeId": "a1e7",
+      "title": "An der Kasse",
+      "titleEn": "At the checkout",
+      "place": "Kasse 3",
+      "bg": "laden",
+      "contextTags": [
+        "shopping",
+        "money",
+        "service"
+      ],
+      "requiredItems": [
+        "die-stofftasche"
+      ],
+      "introducedItems": [
+        "die-kassiererin",
+        "bar-oder-mit-karte",
+        "die-quittung",
+        "das-wechselgeld",
+        "das-macht-zusammen",
+        "die-süßigkeiten"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Die Schlange läuft. Dir läuft sie auch — das Laufband wartet nicht auf Lob. Du räumst wie im Videospiel, die Stofftasche breit daneben."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-kassiererin",
+            "bar-oder-mit-karte",
+            "die-süßigkeiten"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "kassiererin",
+          "text": "Papierkram hinten lassen? …So. Das macht zusammen zwölf Euro achtzig, bitte.",
+          "translation": "Receipt in the trolley? …Right. That comes to twelve euros eighty, please."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "das-macht-zusammen",
+            "die-quittung",
+            "das-wechselgeld"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "line",
+          "speaker": "kassiererin",
+          "text": "Bar oder mit Karte? …Mit Karte, danke. Quittung? — Quittung immer, sagt mein Buchhalterherz.",
+          "translation": "Cash or card? …By card, thanks. Receipt? — Always a receipt, says my accountant heart."
+        },
+        {
+          "type": "choice",
+          "prompt": "Du zahlst mit zwanzig Euro.",
+          "options": [
+            {
+              "label": "Stimmt so!",
+              "line": "Stimmt so! Behalten Sie das Wechselgeld."
+            },
+            {
+              "label": "Quittung, bitte!",
+              "line": "Quittung, bitte! …Und dann stimmt es so."
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "narration",
+          "text": "Beep. Bon. Stofftasche voll. Du hast die Kasse überlebt, ohne das Wort „ähh“ mehr als sechsmal zu benutzen."
+        }
+      ]
+    },
+    {
+      "id": "a1e7s3",
+      "episodeId": "a1e7",
+      "title": "Pfandzeit",
+      "titleEn": "Deposit time",
+      "place": "Pfandautomat, hinter dem Eingang",
+      "bg": "laden",
+      "contextTags": [
+        "shopping",
+        "money"
+      ],
+      "requiredItems": [
+        "die-pfandflasche",
+        "das-wasser"
+      ],
+      "introducedItems": [
+        "der-pfandautomat",
+        "zurückgeben",
+        "das-guthaben",
+        "die-ersparnis",
+        "das-abendbrot",
+        "die-flasche"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Unter einer Treppe steht Deutschlands ehrlichster Automat. Du hast sechs leere Flaschen im Korb — gesammelt wie Trophäen."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-pfandautomat",
+            "zurückgeben",
+            "die-flasche"
+          ]
+        },
+        {
+          "type": "reading",
+          "title": "Am Automaten",
+          "text": "Pfandautomat\nGlas mit Pfand: 0,08 €\nMehrwegflasche: 0,15 €\nEinwegflasche/Dose: 0,25 €\nBitte Flaschen einzeln einsetzen.\nBon an der Kasse einlösen.",
+          "translation": "Deposit machine\nGlass with deposit: €0.08\nRefillable bottle: €0.15\nOne-way bottle/can: €0.25\nPlease insert bottles one at a time.\nRedeem the voucher at the checkout.",
+          "itemIds": [
+            "der-pfandautomat",
+            "die-pfandflasche",
+            "das-guthaben"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Der Automat spuckt einen Bon aus: 1,13 €. Was ist das?",
+          "options": [
+            {
+              "label": "Mein Guthaben — einlösen an der Kasse!",
+              "line": "Mein Guthaben! Das löse ich gleich an der Kasse ein."
+            },
+            {
+              "label": "Eine Rechnung. …Für die Flaschen?",
+              "line": "Eine Rechnung? …Für die Flaschen? Sie haben doch gearbeitet."
+            }
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "das-guthaben",
+            "die-ersparnis",
+            "das-abendbrot"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Und? Wie fühlt sich dein erstes Pfand an? …So. Willkommen im Club. Damit kaufen wir Abendbrot. Essen, das man verdient hat.",
+          "translation": "So? How does your first deposit feel? …Right. Welcome to the club. That buys us supper. Food you've earned."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "narration",
+          "text": "Brötchen, Käse, die Äpfel aus dem Angebot. Abendbrot auf dem Küchentisch, Ersparnis im Kopf. Deutschland hat Systeme. Manche davon liebt man."
+        }
+      ]
+    }
+  ]
+}

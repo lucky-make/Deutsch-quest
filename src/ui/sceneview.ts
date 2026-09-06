@@ -291,6 +291,53 @@ export function openScene(root: HTMLElement, app: App, sceneId: string): void {
     return card
   }
 
+  function renderReadingBeat(beat: Extract<SceneBeat, { type: 'reading' }>): HTMLElement {
+    const cont = h('div', { class: 'beat' })
+    const card = h('div', { class: 'reading' },
+      h('div', { class: 'tag' }, 'Lektüre'),
+      h('h4', {}, beat.title),
+      h('div', { class: 'prose' }, beat.text),
+    )
+    if (beat.itemIds?.length) {
+      const gloss = h('div', { class: 'gloss' })
+      for (const id of beat.itemIds) {
+        const it = registry.itemById.get(id)
+        if (!it) continue
+        gloss.append(h('span', { class: 'chip2' },
+          it.image && icon(it.image) ? h('span', { html: icon(it.image, 13) }) : null,
+          it.german,
+          h('button', {
+            class: 'saybtn',
+            style: 'padding:1px 5px;border:none;background:transparent',
+            onclick: (e: Event) => {
+              const btn = e.currentTarget as HTMLElement
+              btn.classList.add('speaking')
+              app.audio.speak(it.speak ?? it.german, () => btn.classList.remove('speaking'), (m) => { btn.classList.remove('speaking'); toast(m) })
+            },
+          }, '🔊'),
+        ))
+      }
+      card.append(gloss)
+    }
+    card.append(
+      h('div', { class: 'tools' },
+        h('button', {
+          class: 'saybtn',
+          onclick: (e: Event) => {
+            const btn = e.currentTarget as HTMLElement
+            btn.classList.add('speaking')
+            app.audio.speak(beat.text, () => btn.classList.remove('speaking'), (m) => { btn.classList.remove('speaking'); toast(m) })
+          },
+        }, '🔊 Vorlesen'),
+        h('button', { class: 'tbtn', onclick: (e: Event) => toggleTranslation(e, beat.translation) }, 'Übersetzung'),
+      ),
+    )
+    cont.append(card, h('div', { class: 'acts', style: 'display:flex;margin-top:10px' },
+      h('button', { class: 'btn secondary', style: 'flex:1', onclick: next }, 'Weiter lesen →'),
+    ))
+    return cont
+  }
+
   function renderChoiceBeat(beat: Extract<SceneBeat, { type: 'choice' }>): HTMLElement {
     const cont = h('div', { class: 'beat' })
     if (beat.prompt) cont.append(h('div', { class: 'narration' }, beat.prompt))
@@ -338,6 +385,7 @@ export function openScene(root: HTMLElement, app: App, sceneId: string): void {
       case 'meet': el = renderMeetBeat(beat); break
       case 'check': el = renderCheckBeat(beat); break
       case 'choice': el = renderChoiceBeat(beat); break
+      case 'reading': el = renderReadingBeat(beat); break
     }
     if (el) beatsEl.append(el)
     if (beat.type === 'narration' || beat.type === 'line') {

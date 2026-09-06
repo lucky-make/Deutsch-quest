@@ -7,24 +7,281 @@
     "titleEn": "Mei and the concert",
     "blurb": "Eine neue Kollegin mit Congolese-Playlist. Karten, Konzert, erste echte Meinungen auf Deutsch.",
     "order": 10,
-    "sceneIds": ["b1e2s1", "b1e2s2"]
+    "sceneIds": [
+      "b1e2s1",
+      "b1e2s2",
+      "b1e2s3"
+    ]
   },
   "cast": [
-    { "id": "mei", "name": "Mei", "role": "Kollegin im Café" },
-    { "id": "luise", "name": "Luise", "role": "Café-Besitzerin" }
+    {
+      "id": "mei",
+      "name": "Mei",
+      "role": "Kollegin im Café"
+    },
+    {
+      "id": "luise",
+      "name": "Luise",
+      "role": "Café-Besitzerin"
+    }
   ],
   "items": [
-    { "id": "das-konzert", "type": "word", "german": "das Konzert", "meaning": "the concert", "image": "konzert", "audio": "tts", "introducedInScene": "b1e2s1", "tags": ["music", "friends"], "cefrLevel": "B1", "note": "das, Plural: die Konzerte" },
-    { "id": "die-band", "type": "word", "german": "die Band", "meaning": "the band", "image": "band", "audio": "tts", "introducedInScene": "b1e2s1", "tags": ["music", "friends"], "cefrLevel": "B1", "note": "die, Plural: die Bands" },
-    { "id": "hast-du-lust", "type": "grammar_pattern", "german": "Hast du Lust, ___?", "meaning": "Do you feel like ___-ing?", "audio": "tts", "introducedInScene": "b1e2s1", "tags": ["invitation", "friends", "questions"], "cefrLevel": "B1", "cloze": "mitzukommen", "alt": ["mitzugehen", "ins Kino zu gehen"], "speak": "Hast du Lust, mitzukommen?", "note": "Lust haben, … zu + Infinitiv — die Einladungsmaschine" },
-    { "id": "der-eintritt", "type": "word", "german": "der Eintritt", "meaning": "the admission / entry fee", "image": "kasse", "audio": "tts", "introducedInScene": "b1e2s1", "tags": ["music", "money"], "cefrLevel": "B1", "note": "der ( Singular ) — „kostenloser Eintritt\"" },
-    { "id": "ich-freue-mich-darauf", "type": "sentence", "german": "Ich freue mich darauf!", "meaning": "I'm looking forward to it!", "audio": "tts", "introducedInScene": "b1e2s1", "tags": ["friends", "invitation"], "cefrLevel": "B1", "note": "sich freuen auf + Akkusativ — Zukunft" },
-    { "id": "die-meinung", "type": "word", "german": "die Meinung", "meaning": "the opinion", "image": "meinung", "audio": "tts", "introducedInScene": "b1e2s2", "tags": ["opinion", "friends"], "cefrLevel": "B1", "note": "die, Plural: die Meinungen — „Meiner Meinung nach …\"" },
-    { "id": "das-lied", "type": "word", "german": "das Lied", "meaning": "the song", "image": "konzert", "audio": "tts", "introducedInScene": "b1e2s2", "tags": ["music", "opinion"], "cefrLevel": "B1", "note": "das, Plural: die Lieder" },
-    { "id": "wie-fandest-du", "type": "sentence", "german": "Wie fandest du das Konzert?", "meaning": "How did you find the concert?", "audio": "tts", "introducedInScene": "b1e2s2", "tags": ["music", "opinion", "questions"], "cefrLevel": "B1", "note": "Vergangenheit von finden: fandest (du)" },
-    { "id": "das-lied-war-stark", "type": "chunk", "german": "Das Lied war stark!", "meaning": "The song was awesome!", "audio": "tts", "introducedInScene": "b1e2s2", "tags": ["music", "opinion"], "cefrLevel": "B1", "note": "stark = ugs. „großartig\"" },
-    { "id": "der-saenger", "type": "word", "german": "der Sänger", "meaning": "the singer (m)", "image": "mic", "audio": "tts", "introducedInScene": "b1e2s2", "tags": ["music"], "cefrLevel": "B1", "note": "der, Plural: die Sänger; weiblich: die Sängerin" },
-    { "id": "ehrlich-gesagt", "type": "chunk", "german": "Ehrlich gesagt …", "meaning": "Honestly speaking …", "audio": "tts", "introducedInScene": "b1e2s2", "tags": ["opinion", "smalltalk"], "cefrLevel": "B1", "note": "Der Einstieg für jede ehrliche Meinung" }
+    {
+      "id": "das-konzert",
+      "type": "word",
+      "german": "das Konzert",
+      "meaning": "the concert",
+      "image": "konzert",
+      "audio": "tts",
+      "introducedInScene": "b1e2s1",
+      "tags": [
+        "music",
+        "friends"
+      ],
+      "cefrLevel": "B1",
+      "note": "das, Plural: die Konzerte"
+    },
+    {
+      "id": "die-band",
+      "type": "word",
+      "german": "die Band",
+      "meaning": "the band",
+      "image": "band",
+      "audio": "tts",
+      "introducedInScene": "b1e2s1",
+      "tags": [
+        "music",
+        "friends"
+      ],
+      "cefrLevel": "B1",
+      "note": "die, Plural: die Bands"
+    },
+    {
+      "id": "hast-du-lust",
+      "type": "grammar_pattern",
+      "german": "Hast du Lust, ___?",
+      "meaning": "Do you feel like ___-ing?",
+      "audio": "tts",
+      "introducedInScene": "b1e2s1",
+      "tags": [
+        "invitation",
+        "friends",
+        "questions"
+      ],
+      "cefrLevel": "B1",
+      "cloze": "mitzukommen",
+      "alt": [
+        "mitzugehen",
+        "ins Kino zu gehen"
+      ],
+      "speak": "Hast du Lust, mitzukommen?",
+      "note": "Lust haben, … zu + Infinitiv — die Einladungsmaschine"
+    },
+    {
+      "id": "der-eintritt",
+      "type": "word",
+      "german": "der Eintritt",
+      "meaning": "the admission / entry fee",
+      "image": "kasse",
+      "audio": "tts",
+      "introducedInScene": "b1e2s1",
+      "tags": [
+        "music",
+        "money"
+      ],
+      "cefrLevel": "B1",
+      "note": "der ( Singular ) — „kostenloser Eintritt\""
+    },
+    {
+      "id": "ich-freue-mich-darauf",
+      "type": "sentence",
+      "german": "Ich freue mich darauf!",
+      "meaning": "I'm looking forward to it!",
+      "audio": "tts",
+      "introducedInScene": "b1e2s1",
+      "tags": [
+        "friends",
+        "invitation"
+      ],
+      "cefrLevel": "B1",
+      "note": "sich freuen auf + Akkusativ — Zukunft"
+    },
+    {
+      "id": "die-meinung",
+      "type": "word",
+      "german": "die Meinung",
+      "meaning": "the opinion",
+      "image": "meinung",
+      "audio": "tts",
+      "introducedInScene": "b1e2s2",
+      "tags": [
+        "opinion",
+        "friends"
+      ],
+      "cefrLevel": "B1",
+      "note": "die, Plural: die Meinungen — „Meiner Meinung nach …\""
+    },
+    {
+      "id": "das-lied",
+      "type": "word",
+      "german": "das Lied",
+      "meaning": "the song",
+      "image": "konzert",
+      "audio": "tts",
+      "introducedInScene": "b1e2s2",
+      "tags": [
+        "music",
+        "opinion"
+      ],
+      "cefrLevel": "B1",
+      "note": "das, Plural: die Lieder"
+    },
+    {
+      "id": "wie-fandest-du",
+      "type": "sentence",
+      "german": "Wie fandest du das Konzert?",
+      "meaning": "How did you find the concert?",
+      "audio": "tts",
+      "introducedInScene": "b1e2s2",
+      "tags": [
+        "music",
+        "opinion",
+        "questions"
+      ],
+      "cefrLevel": "B1",
+      "note": "Vergangenheit von finden: fandest (du)"
+    },
+    {
+      "id": "das-lied-war-stark",
+      "type": "chunk",
+      "german": "Das Lied war stark!",
+      "meaning": "The song was awesome!",
+      "audio": "tts",
+      "introducedInScene": "b1e2s2",
+      "tags": [
+        "music",
+        "opinion"
+      ],
+      "cefrLevel": "B1",
+      "note": "stark = ugs. „großartig\""
+    },
+    {
+      "id": "der-saenger",
+      "type": "word",
+      "german": "der Sänger",
+      "meaning": "the singer (m)",
+      "image": "mic",
+      "audio": "tts",
+      "introducedInScene": "b1e2s2",
+      "tags": [
+        "music"
+      ],
+      "cefrLevel": "B1",
+      "note": "der, Plural: die Sänger; weiblich: die Sängerin"
+    },
+    {
+      "id": "ehrlich-gesagt",
+      "type": "chunk",
+      "german": "Ehrlich gesagt …",
+      "meaning": "Honestly speaking …",
+      "audio": "tts",
+      "introducedInScene": "b1e2s2",
+      "tags": [
+        "opinion",
+        "smalltalk"
+      ],
+      "cefrLevel": "B1",
+      "note": "Der Einstieg für jede ehrliche Meinung"
+    },
+    {
+      "id": "die-playlist",
+      "type": "word",
+      "german": "die Playlist",
+      "meaning": "the playlist",
+      "image": "konzert",
+      "audio": "tts",
+      "introducedInScene": "b1e2s3",
+      "tags": [
+        "music",
+        "friends"
+      ],
+      "cefrLevel": "B1",
+      "note": "die, Plural: die Playlists — Mei hat 36 Lieder für dich"
+    },
+    {
+      "id": "der-kopfhoerer",
+      "type": "word",
+      "german": "der Kopfhörer",
+      "meaning": "the headphones",
+      "image": "laut",
+      "audio": "tts",
+      "introducedInScene": "b1e2s3",
+      "tags": [
+        "music",
+        "technology"
+      ],
+      "cefrLevel": "B1",
+      "note": "der, Plural: die Kopfhörer — meistens Plural im Alltag"
+    },
+    {
+      "id": "die-stimme",
+      "type": "word",
+      "german": "die Stimme",
+      "meaning": "the voice",
+      "image": "mic",
+      "audio": "tts",
+      "introducedInScene": "b1e2s3",
+      "tags": [
+        "music",
+        "people"
+      ],
+      "cefrLevel": "B1",
+      "note": "die, Plural: die Stimmen — eine große Stimme"
+    },
+    {
+      "id": "der-rhythmus",
+      "type": "word",
+      "german": "der Rhythmus",
+      "meaning": "the rhythm",
+      "image": "band",
+      "audio": "tts",
+      "introducedInScene": "b1e2s3",
+      "tags": [
+        "music"
+      ],
+      "cefrLevel": "B1",
+      "note": "der, Plural: die Rhythmen — im Rhythmus bleiben"
+    },
+    {
+      "id": "der-text",
+      "type": "word",
+      "german": "der Text",
+      "meaning": "the lyrics / the text",
+      "image": "konzept",
+      "audio": "tts",
+      "introducedInScene": "b1e2s3",
+      "tags": [
+        "music",
+        "writing"
+      ],
+      "cefrLevel": "B1",
+      "note": "der, Plural: die Texte — beim Lied: der Songtext"
+    },
+    {
+      "id": "die-erinnerung",
+      "type": "word",
+      "german": "die Erinnerung",
+      "meaning": "the memory",
+      "image": "heimat",
+      "audio": "tts",
+      "introducedInScene": "b1e2s3",
+      "tags": [
+        "feelings",
+        "music"
+      ],
+      "cefrLevel": "B1",
+      "note": "die, Plural: die Erinnerungen — sich erinnern AN + Akkusativ"
+    }
   ],
   "scenes": [
     {
@@ -34,22 +291,79 @@
       "titleEn": "Two tickets",
       "place": "Café Luise, Theke",
       "bg": "cafe",
-      "contextTags": ["music", "friends", "invitation"],
+      "contextTags": [
+        "music",
+        "friends",
+        "invitation"
+      ],
       "requiredItems": [],
-      "introducedItems": ["das-konzert", "die-band", "hast-du-lust", "der-eintritt", "ich-freue-mich-darauf"],
+      "introducedItems": [
+        "das-konzert",
+        "die-band",
+        "hast-du-lust",
+        "der-eintritt",
+        "ich-freue-mich-darauf"
+      ],
       "beats": [
-        { "type": "narration", "text": "Luise hat Verstärkung eingestellt: Mei, zweiundzwanzig, malt hinter der Theke auf die Milchkanne und kennt jede Band zwischen Halle und Chemnitz." },
-        { "type": "line", "speaker": "mei", "text": "Sam, hör mal — am Freitag spielt „Taucherglocke“ im Werk 2. Die Band ist unglaublich gut. Ich hab schon zwei Karten, aber Cara ist krank.", "translation": "Sam, listen — on Friday 'Taucherglocke' is playing at Werk 2. The band is incredibly good. I already have two tickets, but Cara is sick." },
-        { "type": "meet", "itemIds": ["das-konzert", "die-band", "der-eintritt"] },
-        { "type": "meet", "itemIds": ["hast-du-lust", "ich-freue-mich-darauf"] },
-        { "type": "choice", "prompt": "Mei wedelt mit den Karten.", "options": [
-          { "label": "Hast du Lust, mich mitzunehmen?", "line": "Hast du Lust, mich mitzunehmen? …Ich bin dabei!" },
-          { "label": "Ja! Ich freue mich darauf.", "line": "Ja! Ich freue mich darauf." }
-        ] },
-        { "type": "line", "speaker": "mei", "text": "Abgemacht! Eintritt hast du damit auch. Ich hol dich um sieben ab — wir fahren mit den Rädern.", "translation": "Deal! Admission's covered too. I'll pick you up at seven — we'll go by bike." },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "check", "count": 2, "mode": "recall" },
-        { "type": "narration", "text": "Luise summt von der Kaffeemaschine aus. Du hast jetzt für Freitag etwas, worauf du dich freust. Das ist, leise gesagt, ein Lebensgefühl." }
+        {
+          "type": "narration",
+          "text": "Luise hat Verstärkung eingestellt: Mei, zweiundzwanzig, malt hinter der Theke auf die Milchkanne und kennt jede Band zwischen Halle und Chemnitz."
+        },
+        {
+          "type": "line",
+          "speaker": "mei",
+          "text": "Sam, hör mal — am Freitag spielt „Taucherglocke“ im Werk 2. Die Band ist unglaublich gut. Ich hab schon zwei Karten, aber Cara ist krank.",
+          "translation": "Sam, listen — on Friday 'Taucherglocke' is playing at Werk 2. The band is incredibly good. I already have two tickets, but Cara is sick."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "das-konzert",
+            "die-band",
+            "der-eintritt"
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "hast-du-lust",
+            "ich-freue-mich-darauf"
+          ]
+        },
+        {
+          "type": "choice",
+          "prompt": "Mei wedelt mit den Karten.",
+          "options": [
+            {
+              "label": "Hast du Lust, mich mitzunehmen?",
+              "line": "Hast du Lust, mich mitzunehmen? …Ich bin dabei!"
+            },
+            {
+              "label": "Ja! Ich freue mich darauf.",
+              "line": "Ja! Ich freue mich darauf."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "mei",
+          "text": "Abgemacht! Eintritt hast du damit auch. Ich hol dich um sieben ab — wir fahren mit den Rädern.",
+          "translation": "Deal! Admission's covered too. I'll pick you up at seven — we'll go by bike."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "narration",
+          "text": "Luise summt von der Kaffeemaschine aus. Du hast jetzt für Freitag etwas, worauf du dich freust. Das ist, leise gesagt, ein Lebensgefühl."
+        }
       ]
     },
     {
@@ -59,22 +373,177 @@
       "titleEn": "After the concert",
       "place": "Werk 2, Innenhof, nach der Zugabe",
       "bg": "buehne",
-      "contextTags": ["music", "opinion", "friends"],
-      "requiredItems": ["das-konzert", "die-band"],
-      "introducedItems": ["die-meinung", "das-lied", "wie-fandest-du", "das-lied-war-stark", "der-saenger", "ehrlich-gesagt"],
+      "contextTags": [
+        "music",
+        "opinion",
+        "friends"
+      ],
+      "requiredItems": [
+        "das-konzert",
+        "die-band"
+      ],
+      "introducedItems": [
+        "die-meinung",
+        "das-lied",
+        "wie-fandest-du",
+        "das-lied-war-stark",
+        "der-saenger",
+        "ehrlich-gesagt"
+      ],
       "beats": [
-        { "type": "narration", "text": "Ohrenkino. Der Innenhof summt noch nach. Mei hält zwei Limonaden, ihre Haare noch im Takt." },
-        { "type": "line", "speaker": "mei", "text": "Also raus damit: Wie fandest du das Konzert?", "translation": "Come on, out with it: how did you find the concert?" },
-        { "type": "meet", "itemIds": ["wie-fandest-du", "die-meinung", "ehrlich-gesagt"] },
-        { "type": "meet", "itemIds": ["das-lied", "das-lied-war-stark", "der-saenger"] },
-        { "type": "choice", "prompt": "Eine echte Meinungsfrage. Eine echte Meinung.", "options": [
-          { "label": "Ehrlich gesagt: Das letzte Lied war stark!", "line": "Ehrlich gesagt: das letzte Lied war stark! Der Rest war … gut." },
-          { "label": "Super! Aber der Sänger war etwas leise.", "line": "Super! Aber der Sänger war etwas leise, oder?" }
-        ] },
-        { "type": "line", "speaker": "mei", "text": "Siehst du? Genau darüber reden wir noch den ganzen Weg. Meiner Meinung nach war die Zugabe das Beste — aber Argumente, Sam, ich will Argumente!", "translation": "See? That's exactly what we'll discuss the whole way. In my opinion the encore was the best — but arguments, Sam, I want arguments!" },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "check", "count": 2, "mode": "listen" },
-        { "type": "narration", "text": "Ihr radelt durch die Nacht und streitet glücklich. Auf Deutsch streiten macht genauso viel Spaß wie auf jeder anderen Sprache. Mehr, sogar." }
+        {
+          "type": "narration",
+          "text": "Ohrenkino. Der Innenhof summt noch nach. Mei hält zwei Limonaden, ihre Haare noch im Takt."
+        },
+        {
+          "type": "line",
+          "speaker": "mei",
+          "text": "Also raus damit: Wie fandest du das Konzert?",
+          "translation": "Come on, out with it: how did you find the concert?"
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "wie-fandest-du",
+            "die-meinung",
+            "ehrlich-gesagt"
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "das-lied",
+            "das-lied-war-stark",
+            "der-saenger"
+          ]
+        },
+        {
+          "type": "choice",
+          "prompt": "Eine echte Meinungsfrage. Eine echte Meinung.",
+          "options": [
+            {
+              "label": "Ehrlich gesagt: Das letzte Lied war stark!",
+              "line": "Ehrlich gesagt: das letzte Lied war stark! Der Rest war … gut."
+            },
+            {
+              "label": "Super! Aber der Sänger war etwas leise.",
+              "line": "Super! Aber der Sänger war etwas leise, oder?"
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "mei",
+          "text": "Siehst du? Genau darüber reden wir noch den ganzen Weg. Meiner Meinung nach war die Zugabe das Beste — aber Argumente, Sam, ich will Argumente!",
+          "translation": "See? That's exactly what we'll discuss the whole way. In my opinion the encore was the best — but arguments, Sam, I want arguments!"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "narration",
+          "text": "Ihr radelt durch die Nacht und streitet glücklich. Auf Deutsch streiten macht genauso viel Spaß wie auf jeder anderen Sprache. Mehr, sogar."
+        }
+      ]
+    },
+    {
+      "id": "b1e2s3",
+      "episodeId": "b1e2",
+      "title": "Die Playlist",
+      "titleEn": "The playlist",
+      "place": "Café Luise, Feierabend",
+      "bg": "cafe",
+      "contextTags": [
+        "music",
+        "friends",
+        "learning"
+      ],
+      "requiredItems": [
+        "das-lied",
+        "die-meinung"
+      ],
+      "introducedItems": [
+        "die-playlist",
+        "der-kopfhoerer",
+        "die-stimme",
+        "der-rhythmus",
+        "der-text",
+        "die-erinnerung"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Feierabend im Café Luise. Die Stühle stehen schon auf den Tischen — bis auf zwei. Mei schiebt dir ihre Kopfhörer über die Theke, Kabel und allem: „Deine Hausaufgabe.“"
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-playlist",
+            "der-kopfhoerer",
+            "die-stimme"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "mei",
+          "text": "Meine Playlist. Sechsunddreißig Lieder, Kinshasa bis Leipzig, Papa bis Rammstein. Hör mal rein — diese Stimme! Und der Rhythmus? Den findest du in keinem Lehrbuch. Das ist mein Versprechen.",
+          "translation": "My playlist. Thirty-six songs, Kinshasa to Leipzig, dad to Rammstein. Listen to it — that voice! And the rhythm? You won't find that in any textbook. That's my promise."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-rhythmus",
+            "der-text",
+            "die-erinnerung"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Mei: „Und? Was sagst du — ehrlich?“",
+          "options": [
+            {
+              "label": "Ehrlich gesagt: Der Text ist zu schnell. Aber die Stimme ist … groß.",
+              "line": "Ehrlich gesagt: Der Text ist zu schnell für mich. Aber die Stimme ist … groß. Riesig."
+            },
+            {
+              "label": "Ich verstehe nicht alles. Aber ich will das Lied verstehen.",
+              "line": "Ich verstehe nicht alles. Aber ich will das Lied verstehen. Das zählt doch, oder?"
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "mei",
+          "text": "Das zählt mehr als du denkst. Musik war mein erstes Deutsch — Rammstein, bitte jetzt nicht lachen. Ich hab die Texte falsch gesungen, falsch UND laut. Und wurde nicht ausgelacht. …Naja. Fast nie.",
+          "translation": "That counts more than you think. Music was my first German — Rammstein, please don't laugh now. I sang the lyrics wrong, wrong AND loud. And I wasn't laughed at. …Well. Almost never."
+        },
+        {
+          "type": "line",
+          "speaker": "mei",
+          "text": "Die Erinnerung an meine ersten Wochen hier? Ein Wörterbuch, ein Kaffee und Lied Nummer zwölf. Ich hab's zehnmal gehört, bis jeder Satz saß. …Dein Lied ist auch dabei. Du musst es nur finden.",
+          "translation": "The memory of my first weeks here? A dictionary, a coffee and song number twelve. I listened to it ten times until every sentence stuck. …Your song is on there too. You just have to find it."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "narration",
+          "text": "Du gibst ihr einen Kaffee aus, sie gibt dir die Playlist mit — auf einen Zettel geschrieben, mit Titeln und kleinen Kommentaren. Auf dem Heimweg hörst du Lied sieben und verstehst die Hälfte. Genug, um im Refrain mitzusingen. Laut. Es ist Freitagabend, und niemand beschwert sich."
+        }
       ]
     }
   ]

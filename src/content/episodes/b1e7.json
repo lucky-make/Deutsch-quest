@@ -1,0 +1,618 @@
+{
+  "episode": {
+    "id": "b1e7",
+    "arcId": "B1",
+    "cefrLevel": "B1",
+    "title": "Der Aufenthaltstitel",
+    "titleEn": "The residence permit",
+    "blurb": "Ein Brief vom Amt: dein Aufenthaltstitel läuft ab. Unterlagen, Voraussetzungen, Verben mit Präpositionen — und ein Bescheid, der alles ändert.",
+    "order": 15,
+    "sceneIds": [
+      "b1e7s1",
+      "b1e7s2",
+      "b1e7s3"
+    ]
+  },
+  "cast": [
+    {
+      "id": "wolter",
+      "name": "Frau Wolter",
+      "role": "Sachbearbeiterin, Ausländerbehörde"
+    },
+    {
+      "id": "tobias",
+      "name": "Tobias",
+      "role": "Freund"
+    },
+    {
+      "id": "luise",
+      "name": "Luise",
+      "role": "Arbeitgeberin"
+    }
+  ],
+  "items": [
+    {
+      "id": "der-aufenthaltstitel",
+      "type": "word",
+      "german": "der Aufenthaltstitel",
+      "meaning": "the residence permit",
+      "image": "pass",
+      "audio": "tts",
+      "introducedInScene": "b1e7s1",
+      "tags": [
+        "admin",
+        "paperwork",
+        "identity"
+      ],
+      "cefrLevel": "B1",
+      "note": "der, Plural: die Aufenthaltstitel — dein wichtigstes Dokument"
+    },
+    {
+      "id": "verlaengern",
+      "type": "chunk",
+      "german": "Ich muss meinen Aufenthaltstitel verlängern.",
+      "meaning": "I have to renew my residence permit.",
+      "image": "kalender",
+      "audio": "tts",
+      "introducedInScene": "b1e7s1",
+      "tags": [
+        "admin",
+        "paperwork"
+      ],
+      "cefrLevel": "B1",
+      "note": "verlängern — Termine, Pässe, Verträge"
+    },
+    {
+      "id": "die-gueltigkeit",
+      "type": "word",
+      "german": "die Gültigkeit",
+      "meaning": "the validity",
+      "image": "urehr",
+      "audio": "tts",
+      "introducedInScene": "b1e7s1",
+      "tags": [
+        "admin",
+        "paperwork"
+      ],
+      "cefrLevel": "B1",
+      "note": "die ( Singular ) — gültig bis …"
+    },
+    {
+      "id": "die-voraussetzung",
+      "type": "word",
+      "german": "die Voraussetzung",
+      "meaning": "the requirement / precondition",
+      "image": "ziel",
+      "audio": "tts",
+      "introducedInScene": "b1e7s1",
+      "tags": [
+        "admin",
+        "paperwork"
+      ],
+      "cefrLevel": "B1",
+      "note": "die, Plural: die Voraussetzungen — Voraussetzung FÜR etwas"
+    },
+    {
+      "id": "der-nachweis",
+      "type": "word",
+      "german": "der Nachweis",
+      "meaning": "the proof / documented evidence",
+      "image": "formular",
+      "audio": "tts",
+      "introducedInScene": "b1e7s1",
+      "tags": [
+        "admin",
+        "paperwork"
+      ],
+      "cefrLevel": "B1",
+      "note": "der, Plural: die Nachweise — Deutschland liebt Nachweise"
+    },
+    {
+      "id": "fristgerecht",
+      "type": "chunk",
+      "german": "Fristgerecht einreichen!",
+      "meaning": "Submit before the deadline!",
+      "image": "frist",
+      "audio": "tts",
+      "introducedInScene": "b1e7s1",
+      "tags": [
+        "admin",
+        "paperwork"
+      ],
+      "cefrLevel": "B1",
+      "note": "fristgerecht = innerhalb der Frist — Behördendeutsch, gut zu verstehen"
+    },
+    {
+      "id": "die-unterlage",
+      "type": "word",
+      "german": "die Unterlage",
+      "meaning": "the document (usually plural)",
+      "image": "formular",
+      "audio": "tts",
+      "introducedInScene": "b1e7s2",
+      "tags": [
+        "admin",
+        "paperwork"
+      ],
+      "cefrLevel": "B1",
+      "note": "fast immer Plural: die Unterlagen"
+    },
+    {
+      "id": "vollstaendig",
+      "type": "word",
+      "german": "vollständig",
+      "meaning": "complete",
+      "image": "prüfen",
+      "audio": "tts",
+      "introducedInScene": "b1e7s2",
+      "tags": [
+        "admin"
+      ],
+      "cefrLevel": "B1",
+      "note": "„Sind alle Unterlagen vollständig?“ — die Frage aller Fragen"
+    },
+    {
+      "id": "bearbeiten",
+      "type": "chunk",
+      "german": "Der Antrag wird bearbeitet.",
+      "meaning": "The application is being processed.",
+      "image": "amt",
+      "audio": "tts",
+      "introducedInScene": "b1e7s2",
+      "tags": [
+        "admin"
+      ],
+      "cefrLevel": "B1",
+      "note": "bearbeiten — hier auch dein erster Passiv-Verwandter im Amtsdeutsch"
+    },
+    {
+      "id": "die-krankenversicherung-b1",
+      "type": "word",
+      "german": "die Krankenversicherung",
+      "meaning": "the health insurance",
+      "image": "praxis",
+      "audio": "tts",
+      "introducedInScene": "b1e7s2",
+      "tags": [
+        "admin",
+        "health",
+        "insurance"
+      ],
+      "cefrLevel": "B1",
+      "note": "die — Pflicht in Deutschland, Nachweis nötig"
+    },
+    {
+      "id": "der-arbeitsvertrag",
+      "type": "word",
+      "german": "der Arbeitsvertrag",
+      "meaning": "the employment contract",
+      "image": "vertrag",
+      "audio": "tts",
+      "introducedInScene": "b1e7s2",
+      "tags": [
+        "work",
+        "paperwork"
+      ],
+      "cefrLevel": "B1",
+      "note": "der, Plural: die Arbeitsverträge — unterschrieben und doppelt"
+    },
+    {
+      "id": "das-einkommen",
+      "type": "word",
+      "german": "das Einkommen",
+      "meaning": "the income",
+      "image": "münzen",
+      "audio": "tts",
+      "introducedInScene": "b1e7s2",
+      "tags": [
+        "money",
+        "admin"
+      ],
+      "cefrLevel": "B1",
+      "note": "das, Plural: die Einkommen — Nachweis: Gehaltsabrechnungen"
+    },
+    {
+      "id": "ich-bewerbe-mich-um",
+      "type": "grammar_pattern",
+      "german": "Ich bewerbe mich ___ die Verlängerung.",
+      "meaning": "I'm applying for the renewal.",
+      "image": "formular",
+      "audio": "tts",
+      "introducedInScene": "b1e7s2",
+      "tags": [
+        "admin",
+        "grammar"
+      ],
+      "cefrLevel": "B1",
+      "cloze": "um",
+      "speak": "Ich bewerbe mich um die Verlängerung.",
+      "note": "sich bewerben UM eine Sache, UM einen Platz; sich bewerben ALS (Beruf)"
+    },
+    {
+      "id": "der-bescheid",
+      "type": "word",
+      "german": "der Bescheid",
+      "meaning": "the official (decision) notice",
+      "image": "brief",
+      "audio": "tts",
+      "introducedInScene": "b1e7s3",
+      "tags": [
+        "admin",
+        "paperwork"
+      ],
+      "cefrLevel": "B1",
+      "note": "der, Plural: die Bescheide — Bescheid bekommen = get notice. Kernwort des Amtsdeutschen"
+    },
+    {
+      "id": "die-verlaengerung",
+      "type": "word",
+      "german": "die Verlängerung",
+      "meaning": "the extension / renewal",
+      "image": "kalender",
+      "audio": "tts",
+      "introducedInScene": "b1e7s3",
+      "tags": [
+        "admin",
+        "paperwork"
+      ],
+      "cefrLevel": "B1",
+      "note": "die, Plural: die Verlängerungen"
+    },
+    {
+      "id": "gueltig",
+      "type": "word",
+      "german": "gültig",
+      "meaning": "valid",
+      "image": "prüfen",
+      "audio": "tts",
+      "introducedInScene": "b1e7s3",
+      "tags": [
+        "admin"
+      ],
+      "cefrLevel": "B1",
+      "note": "„gültig bis 2028“ — das schönste Datum des Jahres"
+    },
+    {
+      "id": "dankbar",
+      "type": "word",
+      "german": "dankbar",
+      "meaning": "thankful / grateful",
+      "image": "person",
+      "audio": "tts",
+      "introducedInScene": "b1e7s3",
+      "tags": [
+        "feelings"
+      ],
+      "cefrLevel": "B1",
+      "note": "dankbar SEIN für + Akkusativ"
+    },
+    {
+      "id": "der-zeitraum",
+      "type": "word",
+      "german": "der Zeitraum",
+      "meaning": "the period (of time)",
+      "image": "urehr",
+      "audio": "tts",
+      "introducedInScene": "b1e7s3",
+      "tags": [
+        "time",
+        "admin"
+      ],
+      "cefrLevel": "B1",
+      "note": "der, Plural: die Zeiträume"
+    },
+    {
+      "id": "ich-freue-mich-ueber",
+      "type": "grammar_pattern",
+      "german": "Ich freue mich ___ den Bescheid.",
+      "meaning": "I'm happy about the notice.",
+      "image": "geschenk",
+      "audio": "tts",
+      "introducedInScene": "b1e7s3",
+      "tags": [
+        "grammar",
+        "feelings"
+      ],
+      "cefrLevel": "B1",
+      "cloze": "über",
+      "alt": [
+        "ueber"
+      ],
+      "speak": "Ich freue mich über den Bescheid.",
+      "note": "sich freuen ÜBER + Akk (jetzt) / AUF + Akk (Zukunft)"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "b1e7s1",
+      "episodeId": "b1e7",
+      "title": "Der Brief vom Amt",
+      "titleEn": "The letter from the office",
+      "place": "Briefkasten, dann Küchentisch",
+      "bg": "wohnung",
+      "contextTags": [
+        "admin",
+        "paperwork",
+        "identity"
+      ],
+      "requiredItems": [
+        "der-pass",
+        "die-anmeldung"
+      ],
+      "introducedItems": [
+        "der-aufenthaltstitel",
+        "verlaengern",
+        "die-gueltigkeit",
+        "die-voraussetzung",
+        "der-nachweis",
+        "fristgerecht"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Ein Umschlag mit Wappen. Dein Herz kennt zwei Modi: normal und Behördenbrief. „Ihr aktueller Aufenthaltstitel endet in drei Monaten. Verlängerung nur fristgerecht.«"
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-aufenthaltstitel",
+            "verlaengern",
+            "die-gueltigkeit"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Drei Monate Frist. Das ist beim Amt quasi eine Ewigkeit. …Aber nur, wenn du JETZT anfängst. Voraussetzungen stehen im Brief, oder?",
+          "translation": "Three months' deadline. That's practically an eternity at the office. …But only if you start NOW. The requirements are in the letter, right?"
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-voraussetzung",
+            "der-nachweis",
+            "fristgerecht"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Tobias: „Und? Was brauchen die?“",
+          "options": [
+            {
+              "label": "Nachweise: Arbeit, Einkommen, Wohnung. Die üblichen.",
+              "line": "Nachweise — Arbeit, Einkommen, Wohnung. Die üblichen Verdächtigen."
+            },
+            {
+              "label": "Ich muss fristgerecht einreichen. Also: sofort.",
+              "line": "Ich muss fristgerecht einreichen. Also: sofort anfangen."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Dann machen wir einen Plan. Ordner, Unterlagen, Termine. Ich bring Kaffee, du bringst Disziplin.",
+          "translation": "Then we'll make a plan. Folder, documents, appointments. I'll bring coffee, you bring discipline."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "reading",
+          "title": "Amtlicher Brief (Auszug)",
+          "text": "Landeshauptstadt Leipzig\nAusländerbehörde\n\nBetreff: Verlängerung Ihres Aufenthaltstitels\n\nSehr geehrter Herr Jones,\ndie Gültigkeit Ihres Aufenthaltstitels endet am 30.11.2026.\nEine Verlängerung muss fristgerecht beantragt werden.\nVoraussetzungen: Nachweis über Einkommen, Krankenversicherung\nund Wohnraum. Es gelten die allgemeinen Bestimmungen.\n\nMit freundlichen Grüßen\nIm Auftrag\n(Wolter)",
+          "translation": "City of Leipzig\nImmigration Office\n\nRe: Renewal of your residence permit\n\nDear Mr Jones,\nthe validity of your residence permit ends on 30 Nov 2026.\nA renewal must be applied for before the deadline.\nRequirements: proof of income, health insurance and housing.\nThe general provisions apply.",
+          "itemIds": [
+            "der-aufenthaltstitel",
+            "die-gueltigkeit",
+            "die-voraussetzung"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1e7s2",
+      "episodeId": "b1e7",
+      "title": "Der Ordner",
+      "titleEn": "The folder",
+      "place": "Ausländerbehörde, Schalter 7",
+      "bg": "amt",
+      "contextTags": [
+        "admin",
+        "paperwork",
+        "work"
+      ],
+      "requiredItems": [
+        "das-gehalt"
+      ],
+      "introducedItems": [
+        "die-unterlage",
+        "vollstaendig",
+        "bearbeiten",
+        "die-krankenversicherung-b1",
+        "der-arbeitsvertrag",
+        "das-einkommen",
+        "ich-bewerbe-mich-um"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Dein Ordner ist ein Meisterwerk: Register, Locher, Kopien in dreifach. Tobias nennt ihn „den Sachbearbeiter-Killer“. Frau Wolter nennt ihn, nach vier Sekunden, „sehr gut“."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-unterlage",
+            "vollstaendig",
+            "bearbeiten"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "wolter",
+          "text": "Unterlagen, bitte. …Arbeitsvertrag: vollständig. Gehaltsabrechnungen, drei Monate: vollständig. Krankenversicherung: hier. …Sie haben das Einkommen nachgewiesen wie ein Steuerberater.",
+          "translation": "Documents, please. …Employment contract: complete. Payslips, three months: complete. Health insurance: here. …You've documented your income like a tax accountant."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-arbeitsvertrag",
+            "das-einkommen",
+            "die-krankenversicherung-b1"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "line",
+          "speaker": "wolter",
+          "text": "Ein Formular noch. Hier bewerben Sie sich um die Verlängerung — Feld 4, 7 und 12. …Und: Der Antrag wird bearbeitet. Vier bis sechs Wochen.",
+          "translation": "One more form. Here you apply for the renewal — fields 4, 7 and 12. …And: the application will be processed. Four to six weeks."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "ich-bewerbe-mich-um"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Frau Wolter: „Noch Fragen?“",
+          "options": [
+            {
+              "label": "Wie lange dauert die Bearbeitung genau?",
+              "line": "Wie lange dauert die Bearbeitung genau? …Vier bis sechs Wochen, habe ich verstanden."
+            },
+            {
+              "label": "Brauchen Sie noch weitere Nachweise?",
+              "line": "Brauchen Sie noch weitere Nachweise? Ich liefere gern nach."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "wolter",
+          "text": "Nein. Ihre Unterlagen sind vollständig. Das schreiben ich selten. …Sie hören von mir. Schriftlich.",
+          "translation": "No. Your documents are complete. That's something I rarely write. …You'll hear from me. In writing."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        }
+      ]
+    },
+    {
+      "id": "b1e7s3",
+      "episodeId": "b1e7",
+      "title": "Der Bescheid",
+      "titleEn": "The notice",
+      "place": "Wohnung, Treppenhaus, wieder",
+      "bg": "treppenhaus",
+      "contextTags": [
+        "admin",
+        "feelings",
+        "identity"
+      ],
+      "requiredItems": [
+        "die-vermieterin"
+      ],
+      "introducedItems": [
+        "der-bescheid",
+        "die-verlaengerung",
+        "gueltig",
+        "dankbar",
+        "der-zeitraum",
+        "ich-freue-mich-ueber"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Fünf Wochen später. Ein Umschlag mit Wappen. Dein Herz wählt Modus drei: kaputt vor Aufregung. Tobias ist zum Auspacken da, vorgeblich wegen Kaffee."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-bescheid",
+            "die-verlaengerung",
+            "gueltig"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Auf, auf! …„Hiermit wird der Aufenthaltstitel für den Zeitraum von zwei Jahren verlängert. Gültig bis November 2028.“ …SAM. ZWEI JAHRE.",
+          "translation": "Open it! …'The residence permit is hereby extended for a period of two years. Valid until November 2028.' …SAM. TWO YEARS."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-zeitraum",
+            "dankbar",
+            "ich-freue-mich-ueber"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Tobias: „Und, wie fühlt es sich an?“",
+          "options": [
+            {
+              "label": "Ich bin so dankbar. Und froh.",
+              "line": "Ich bin so dankbar. Und froh. Und ein bisschen müde vom Glück."
+            },
+            {
+              "label": "Ich freue mich über den Bescheid. Sehr sogar.",
+              "line": "Ich freue mich über den Bescheid. Sehr sogar."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Zwei Jahre. Weißt du, was man in zwei Jahren alles machen kann? …Alles. Sagt die Erfahrung. Meine.",
+          "translation": "Two years. Do you know what you can do in two years? …Everything. Says experience. Mine."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "reading",
+          "title": "Der Bescheid (Auszug)",
+          "text": "Landeshauptstadt Leipzig — Ausländerbehörde\n\nBescheid\nHiermit wird Ihr Aufenthaltstitel für den Zeitraum\nvom 01.12.2026 bis 30.11.2028 verlängert.\nDer Aufenthaltstitel ist gültig bis zum 30.11.2028.\nGegen diesen Bescheid kann innerhalb eines Monats\nWiderspruch eingelegt werden.\nIm Übrigen: Viel Erfolg und alles Gute in Leipzig.",
+          "translation": "City of Leipzig — Immigration Office\n\nNotice\nYour residence permit is hereby extended for the period\nfrom 1 Dec 2026 to 30 Nov 2028.\nThe permit is valid until 30 Nov 2028.\nThis notice may be appealed within one month.\nOtherwise: much success and all the best in Leipzig.",
+          "itemIds": [
+            "der-bescheid",
+            "gueltig",
+            "der-zeitraum"
+          ]
+        },
+        {
+          "type": "narration",
+          "text": "Du pinnst den Bescheid neben das Zertifikat. Zwei Papiere, ein Leben. Draußen radelt jemand mit einem Plastiksack vorbei, und du fühlst dich, zum ersten Mal, komplett legal angekommen."
+        }
+      ]
+    }
+  ]
+}

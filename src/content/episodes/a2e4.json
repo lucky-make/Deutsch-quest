@@ -9,7 +9,8 @@
     "order": 8,
     "sceneIds": [
       "a2e4s1",
-      "a2e4s2"
+      "a2e4s2",
+      "a2e4s3"
     ]
   },
   "cast": [
@@ -177,6 +178,95 @@
         "friends"
       ],
       "cefrLevel": "A2"
+    },
+    {
+      "id": "der-steg",
+      "type": "word",
+      "german": "der Steg",
+      "meaning": "the (wooden) jetty / boardwalk",
+      "image": "wasser",
+      "audio": "tts",
+      "introducedInScene": "a2e4s3",
+      "tags": [
+        "leisure",
+        "friends"
+      ],
+      "cefrLevel": "A2",
+      "note": "der, Plural: die Stege — am See, über dem Moor"
+    },
+    {
+      "id": "die-fahrt",
+      "type": "word",
+      "german": "die Fahrt",
+      "meaning": "the ride / journey",
+      "image": "tram",
+      "audio": "tts",
+      "introducedInScene": "a2e4s3",
+      "tags": [
+        "transport",
+        "leisure"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Fahrten — gute Fahrt!"
+    },
+    {
+      "id": "der-see",
+      "type": "word",
+      "german": "der See",
+      "meaning": "the lake",
+      "image": "wasser",
+      "audio": "tts",
+      "introducedInScene": "a2e4s3",
+      "tags": [
+        "nature",
+        "leisure"
+      ],
+      "cefrLevel": "A2",
+      "note": "der, Plural: die Seen — Leipzig hat viele: Cospudener See, Auensee"
+    },
+    {
+      "id": "die-luft",
+      "type": "word",
+      "german": "die Luft",
+      "meaning": "the air",
+      "image": "wetter",
+      "audio": "tts",
+      "introducedInScene": "a2e4s3",
+      "tags": [
+        "nature"
+      ],
+      "cefrLevel": "A2",
+      "note": "die ( Singular ) — Luft in den Reifen; an der frischen Luft"
+    },
+    {
+      "id": "sich-ausruhen",
+      "type": "chunk",
+      "german": "Ich ruhe mich ein bisschen aus.",
+      "meaning": "I'm resting a bit.",
+      "image": "ruhe",
+      "audio": "tts",
+      "introducedInScene": "a2e4s3",
+      "tags": [
+        "health",
+        "leisure"
+      ],
+      "cefrLevel": "A2",
+      "speak": "Ich ruhe mich ein bisschen aus.",
+      "note": "sich ausruhen — reflexiv, wie sich freuen"
+    },
+    {
+      "id": "froh",
+      "type": "word",
+      "german": "froh",
+      "meaning": "glad",
+      "image": "sonnenuntergang",
+      "audio": "tts",
+      "introducedInScene": "a2e4s3",
+      "tags": [
+        "feelings"
+      ],
+      "cefrLevel": "A2",
+      "note": "froh sein über + Akkusativ — etwas stärker als glücklich? Nein: anders. Einfach froh."
     }
   ],
   "scenes": [
@@ -342,6 +432,99 @@
         {
           "type": "narration",
           "text": "Das Fahrrad rollt wieder. Leipzig hat ganz viele Risse — und ganz viele Leute, die sie just in der Mittagspause zusammennageln."
+        }
+      ]
+    },
+    {
+      "id": "a2e4s3",
+      "episodeId": "a2e4",
+      "title": "Der Ausflug zum See",
+      "titleEn": "The trip to the lake",
+      "place": "Radweg Elsterflutbecken → Cospudener See",
+      "bg": "park",
+      "contextTags": [
+        "bike",
+        "friends",
+        "leisure"
+      ],
+      "requiredItems": [
+        "das-fahrrad",
+        "reparieren"
+      ],
+      "introducedItems": [
+        "der-steg",
+        "die-fahrt",
+        "der-see",
+        "die-luft",
+        "sich-ausruhen",
+        "froh"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Eine Woche später: Das Fahrrad läuft wie neu, Jonas hat Luft in die Reifen gepumpt und Tobias hat einen Plan. Der Plan heißt: See."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-steg",
+            "die-fahrt",
+            "der-see"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "jonas",
+          "text": "Kurze Fahrt zum Cospudener See. Zwanzig Minuten, der Wind kommt von hinten, und am Steg gibt's Wasser, Sonne und Leute, die nichts reparieren wollen. Meine Lieblingsmenschen.",
+          "translation": "Short ride to Cospuden Lake. Twenty minutes, the wind comes from behind, and at the jetty there's water, sun, and people who don't want anything repaired. My favourite people."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-luft",
+            "sich-ausruhen",
+            "froh"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Am Steg fragt Tobias: „Und? Besser als die Straßenbahn?“",
+          "options": [
+            {
+              "label": "Die Fahrt war schön. Und der See ist besser als Gleis 7.",
+              "line": "Die Fahrt war schön. Und der See ist definitiv besser als Gleis 7. …Aber was ist nicht?"
+            },
+            {
+              "label": "Ich bin einfach froh, dass nichts platt ist.",
+              "line": "Ich bin einfach froh, dass nichts platt ist. Das ist mein Urlaubsgefühl: funktionierende Reifen."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "jonas",
+          "text": "Kurze Fahrt zum Cospudener See. Zwanzig Minuten, der Wind kommt von hinten, und am Steg gibt's Wasser, Sonne und Leute, die nichts reparieren wollen. Meine Lieblingsmenschen.",
+          "translation": "Short ride to Cospuden Lake. Twenty minutes, the wind comes from behind, and at the jetty there's water, sun, and people who don't want anything repaired. My favourite people."
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Und jetzt: ausruhen. Ihr wisst, das ist mein Talent. Ich ruhe mich aus wie andere Sport treiben.",
+          "translation": "And now: resting. You know that's my talent. I relax the way other people do sports."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "narration",
+          "text": "Ihr sitzt am Steg, die Räder liegen im Gras, irgendwo spielt jemand Gitarre. Vor vier Wochen bist du an Gleis 7 gestanden und hast nichts verstanden. Heute verstehst du sogar Jonas' Werkstatt-Witze. Meistens. Die Luft riecht nach Wasser und Sommer — und du bist einfach froh."
         }
       ]
     }

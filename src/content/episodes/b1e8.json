@@ -1,0 +1,117 @@
+{
+  "episode": {
+    "id": "b1e8",
+    "arcId": "B1",
+    "cefrLevel": "B1",
+    "title": "Das Ehrenamt",
+    "titleEn": "Volunteering",
+    "blurb": "Ein Plakat an der Bushaltestelle: „Hilf einem Kind beim Lesen.“ Du hast jetzt Zeit, Deutsch und eine einzige freie Thursday-Abend-Lücke.",
+    "order": 16,
+    "sceneIds": ["b1e8s1", "b1e8s2", "b1e8s3"]
+  },
+  "cast": [
+    { "id": "berger", "name": "Frau Berger", "role": "Koordinatorin, Jugendclub Lindenau" },
+    { "id": "milo", "name": "Milo", "role": "Schüler, 10 Jahre" },
+    { "id": "tobias", "name": "Tobias", "role": "Freund" }
+  ],
+  "items": [
+    { "id": "das-ehrenamt", "type": "word", "german": "das Ehrenamt", "meaning": "volunteering (unpaid civic work)", "image": "team", "audio": "tts", "introducedInScene": "b1e8s1", "tags": ["community", "hobby", "friends"], "cefrLevel": "B1", "note": "das, Plural: die Ehrenämter — Ehrenamt ist die Hälfte des deutschen Soziallebens" },
+    { "id": "die-nachhilfe", "type": "word", "german": "die Nachhilfe", "meaning": "the tutoring (extra lessons)", "image": "lebenslauf", "audio": "tts", "introducedInScene": "b1e8s1", "tags": ["learning", "community"], "cefrLevel": "B1", "note": "die ( Singular ) — Nachhilfe geben = to tutor" },
+    { "id": "sich-engagieren", "type": "chunk", "german": "Ich engagiere mich im Verein.", "meaning": "I'm involved with the club.", "image": "team", "audio": "tts", "introducedInScene": "b1e8s1", "tags": ["community"], "cefrLevel": "B1", "note": "sich engagieren FÜR etwas — eines der schönsten deutschen Verben" },
+    { "id": "die-freizeit", "type": "word", "german": "die Freizeit", "meaning": "the free time", "image": "urehr", "audio": "tts", "introducedInScene": "b1e8s1", "tags": ["time", "hobby"], "cefrLevel": "B1", "note": "die ( Singular ) — Freizeitgestaltung ist ein echtes deutsches Wort" },
+    { "id": "sinnvoll", "type": "word", "german": "sinnvoll", "meaning": "meaningful / sensible", "image": "idee", "audio": "tts", "introducedInScene": "b1e8s1", "tags": ["opinion"], "cefrLevel": "B1", "note": "Adjektiv — „Das ist sinnvoll“ = hohes deutsches Lob" },
+    { "id": "der-jugendclub", "type": "word", "german": "der Jugendclub", "meaning": "the youth club", "image": "fest", "audio": "tts", "introducedInScene": "b1e8s1", "tags": ["community", "friends"], "cefrLevel": "B1", "note": "der, Plural: die Jugendclubs" },
+    { "id": "der-schueler", "type": "word", "german": "der Schüler", "meaning": "the pupil / student (school)", "image": "person", "audio": "tts", "introducedInScene": "b1e8s2", "tags": ["learning", "people"], "cefrLevel": "B1", "note": "der, Plural: die Schüler; weiblich: die Schülerin" },
+    { "id": "erklaeren", "type": "chunk", "german": "Kannst du mir das erklären?", "meaning": "Can you explain that to me?", "image": "gespräch", "audio": "tts", "introducedInScene": "b1e8s2", "tags": ["learning", "questions"], "cefrLevel": "B1", "note": "erklären + Dativ + Akkusativ" },
+    { "id": "die-geduld", "type": "word", "german": "die Geduld", "meaning": "the patience", "image": "ruhe", "audio": "tts", "introducedInScene": "b1e8s2", "tags": ["feelings"], "cefrLevel": "B1", "note": "die ( Singular ) — „Geduld haben“; geduldig = patient" },
+    { "id": "vermitteln", "type": "chunk", "german": "Ich möchte Wissen vermitteln.", "meaning": "I want to pass on knowledge.", "image": "idee", "audio": "tts", "introducedInScene": "b1e8s2", "tags": ["learning", "community"], "cefrLevel": "B1", "note": "vermitteln — Wissen, Werte, auch: Gefühle" },
+    { "id": "der-erfolg", "type": "word", "german": "der Erfolg", "meaning": "the success", "image": "ziel", "audio": "tts", "introducedInScene": "b1e8s2", "tags": ["opinion", "feelings"], "cefrLevel": "B1", "note": "der, Plural: die Erfolge — erfolgreich = successful" },
+    { "id": "konzentriert", "type": "word", "german": "konzentriert", "meaning": "concentrated / focused", "image": "prüfen", "audio": "tts", "introducedInScene": "b1e8s2", "tags": ["learning"], "cefrLevel": "B1" },
+    { "id": "das-sommerfest", "type": "word", "german": "das Sommerfest", "meaning": "the summer party", "image": "fest", "audio": "tts", "introducedInScene": "b1e8s3", "tags": ["community", "celebration"], "cefrLevel": "B1", "note": "das, Plural: die Sommerfeste" },
+    { "id": "das-miteinander", "type": "word", "german": "das Miteinander", "meaning": "togetherness / dealing with each other", "image": "team", "audio": "tts", "introducedInScene": "b1e8s3", "tags": ["community", "opinion"], "cefrLevel": "B1", "note": "das ( Singular ) — Miteinander statt Gegeneinander" },
+    { "id": "der-dank", "type": "word", "german": "der Dank", "meaning": "the thanks / gratitude", "image": "geschenk", "audio": "tts", "introducedInScene": "b1e8s3", "tags": ["politeness", "feelings"], "cefrLevel": "B1", "note": "der ( Singular ) — „Vielen Dank“, „Als Dank…“" },
+    { "id": "wertvoll", "type": "word", "german": "wertvoll", "meaning": "valuable", "image": "geld", "audio": "tts", "introducedInScene": "b1e8s3", "tags": ["opinion"], "cefrLevel": "B1" },
+    { "id": "die-verstaendigung", "type": "word", "german": "die Verständigung", "meaning": "the (mutual) understanding", "image": "gespräch", "audio": "tts", "introducedInScene": "b1e8s3", "tags": ["community", "language"], "cefrLevel": "B1", "note": "die ( Singular ) — Verständigung ist das Ziel jeder Sprache" },
+    { "id": "vorher-hatte-ich-nie", "type": "grammar_pattern", "german": "Vorher ___ ich nie in einem Verein mitgearbeitet.", "meaning": "Before that, I had never worked with a club.", "image": "kalender", "audio": "tts", "introducedInScene": "b1e8s3", "tags": ["grammar", "community"], "cefrLevel": "B1", "cloze": "hatte", "speak": "Vorher hatte ich nie in einem Verein mitgearbeitet.", "note": "Plusquamperfekt: hatte + Partizip — die Vorvergangenheit für Erzählungen" }
+  ],
+  "scenes": [
+    {
+      "id": "b1e8s1",
+      "episodeId": "b1e8",
+      "title": "Das Plakat",
+      "titleEn": "The poster",
+      "place": "Bushaltestelle Lindenau",
+      "bg": "strasse",
+      "contextTags": ["community", "hobby", "city"],
+      "requiredItems": ["der-verein"],
+      "introducedItems": ["das-ehrenamt", "die-nachhilfe", "sich-engagieren", "die-freizeit", "sinnvoll", "der-jugendclub"],
+      "beats": [
+        { "type": "narration", "text": "An der Bushaltestelle, zwischen Pizza-Flyer und Konzertplakat, hängt ein Zettel in Kinderschrift: „Ich kann nicht gut lesen. Kannst du mir helfen? — Milo, 10.“ Darunter: Jugendclub Lindenau, donnerstags 16 Uhr." },
+        { "type": "meet", "itemIds": ["das-ehrenamt", "die-nachhilfe", "der-jugendclub"] },
+        { "type": "line", "speaker": "tobias", "text": "Ah, du hast Fango gefangen. Ehrenamt. …Ich war da mal, aufs Mal lauern die besten Sachen. Donnerstags, zwei Stunden. Deine Freizeit wäre das — aber deine GUTE Zeit.", "translation": "Ah, you've been hooked. Volunteering. …I did that once — the best things lurk on posters like this. Thursdays, two hours. It'd be your free time — but your GOOD time." },
+        { "type": "meet", "itemIds": ["die-freizeit", "sich-engagieren", "sinnvoll"] },
+        { "type": "check", "count": 2, "mode": "mixed" },
+        { "type": "choice", "prompt": "Die Bushaltestelle wartet. Milo auch.", "options": [
+          { "label": "Ich ruf da an. Das ist sinnvoll.", "line": "Ich ruf da an. Das ist sinnvoll — für mich und für Milo." },
+          { "label": "Donnerstags? Ich sehe nach meinem Kalender.", "line": "Donnerstags? …Ich sehe nach meinem Kalender. …Er sagt ja." }
+        ] },
+        { "type": "check", "count": 2, "mode": "recall" },
+        { "type": "reading", "title": "Das Plakat (ganz)", "text": "JUGENDCLUB LINDENAU — EHRENAMT GESUCHT\n\nWir suchen Menschen mit Zeit und Geduld.\nNachhilfe für Kinder (Lesen, Schreiben, Mathe).\nDonnerstags 16–18 Uhr, Vereinsraum Bärbelstraße.\n\n»Ich kann nicht gut lesen. Kannst du mir helfen?«\n— Milo, 10\n\nInteresse? Sprich uns an oder komm einfach vorbei.\nEhrenamt heißt: freiwillig, aber nicht egal.", "translation": "LINDENAU YOUTH CLUB — VOLUNTEERS WANTED\n\nWe're looking for people with time and patience.\nTutoring for children (reading, writing, maths).\nThursdays 4–6 pm, club room Bärbelstraße.\n\n'I can't read well. Can you help me?'\n— Milo, 10\n\nInterested? Talk to us or just come by.\nVolunteering means: voluntary, but not indifferent.", "itemIds": ["das-ehrenamt", "die-nachhilfe", "der-jugendclub"] }
+      ]
+    },
+    {
+      "id": "b1e8s2",
+      "episodeId": "b1e8",
+      "title": "Milo",
+      "titleEn": "Milo",
+      "place": "Jugendclub, Donnerstag 16:00",
+      "bg": "buero",
+      "contextTags": ["community", "learning"],
+      "requiredItems": ["das-ehrenamt", "die-nachhilfe"],
+      "introducedItems": ["der-schueler", "erklaeren", "die-geduld", "vermitteln", "der-erfolg", "konzentriert"],
+      "beats": [
+        { "type": "narration", "text": "Vereinsraum: gefleckte Teppiche, ein Bücherregal, ein Luftballon aus einem vergangenen Geburtstag. Milo sitzt mit einem Buch, das ihn unverblümt hasst." },
+        { "type": "line", "speaker": "berger", "text": "Du musst der Neue sein. Ich bin Frau Berger. …Und da drüben: Milo. Er ist zehnte Klasse, er ist schlau — und die Buchstaben ordnen sich einfach nicht wie er will. Geduld ist Ihre Superkraft heute.", "translation": "You must be the new one. I'm Ms Berger. …And over there: Milo. He's smart — and the letters just won't order themselves the way he wants. Patience is your superpower today." },
+        { "type": "meet", "itemIds": ["der-schueler", "die-geduld", "konzentriert"] },
+        { "type": "line", "speaker": "milo", "text": "Du bist also mein Nachhilfe-Mensch. …Kannst du mir das erklären? Das hier — „th“ im Englischen und „ch“ im Deutschen — das ist alles Quatsch.", "translation": "So you're my tutoring person. …Can you explain that to me? This — 'th' in English and 'ch' in German — it's all nonsense." },
+        { "type": "meet", "itemIds": ["erklaeren", "vermitteln", "der-erfolg"] },
+        { "type": "check", "count": 2, "mode": "mixed" },
+        { "type": "choice", "prompt": "Milo starrt auf das Wort „konzentriert“.", "options": [
+          { "label": "Sag es laut vor — Silbe für Silbe. Dann bin ich dran.", "line": "Sag es laut vor, Silbe für Silbe. Dann lese ich es — und dann liest DU es." },
+          { "label": "Das Wort ist Quatsch. Du hast recht. Aber lesen wir's trotzdem.", "line": "Das Wort ist Quatsch. Du hast recht. …Aber lesen wir es trotzdem." }
+        ] },
+        { "type": "line", "speaker": "milo", "text": "Kon-zent-riert. …KON-zent-RIERT! …Habe ich das gerade GELESEN?!", "translation": "Con-cen-trat-ed. …I just READ that?!" },
+        { "type": "check", "count": 2, "mode": "mixed" },
+        { "type": "check", "count": 2, "mode": "listen" },
+        { "type": "reading", "title": "Milos Notizzettel (konzentriert gefaltet)", "text": "konzentriert = kon-zent-riert (3 Teile)\nGeduld = wenn Sam nicht genervt ist\nErfolg = wenn es klick macht\n\nNächstes Mal: das Wort „vermutlich“\n(das klingt wie Vermutung, und Vermutungen sind oft falsch)", "translation": "konzentriert = con-cen-trat-ed (3 parts)\nGeduld (patience) = when Sam isn't annoyed\nErfolg (success) = when it clicks\n\nNext time: the word 'vermutlich'\n(it sounds like Vermutung/assumption, and assumptions are often wrong)", "itemIds": ["konzentriert", "die-geduld", "der-erfolg"] }
+      ]
+    },
+    {
+      "id": "b1e8s3",
+      "episodeId": "b1e8",
+      "title": "Sommerfest des Vereins",
+      "titleEn": "The club's summer party",
+      "place": "Hof hinter dem Vereinsraum",
+      "bg": "fest",
+      "contextTags": ["community", "celebration", "friends"],
+      "requiredItems": ["das-spiel", "das-grillfest"],
+      "introducedItems": ["das-sommerfest", "das-miteinander", "der-dank", "wertvoll", "die-verstaendigung", "vorher-hatte-ich-nie"],
+      "beats": [
+        { "type": "narration", "text": "Drei Monate später. Der Hof des Jugendclubs: Girlanden, Waffelgeruch, ein Hund mit Namensschild („Kartoffel“). Milo liest das Waffelmenu laut vor — fehlerfrei und mit Betonung." },
+        { "type": "meet", "itemIds": ["das-sommerfest", "das-miteinander", "die-verstaendigung"] },
+        { "type": "line", "speaker": "berger", "text": "Kurz, alle! Milo hat dieses Jahr vom „kann nicht“ zum „hört mal zu“ gelesen. …Und unser neuer Ehrenamtler hier? Der hat Geduld, Humor und einen seltsam deutschen Akzent bei manchen Wörtern. Aber der passt.", "translation": "Quick, everyone! This year Milo went from 'can't' to 'listen up' with his reading. …And our new volunteer here? He's got patience, humour, and a strangely German accent with some words. But he fits." },
+        { "type": "meet", "itemIds": ["der-dank", "wertvoll", "vorher-hatte-ich-nie"] },
+        { "type": "check", "count": 2, "mode": "mixed" },
+        { "type": "choice", "prompt": "Milo gibt dir eine Waffel. Ganz.", "options": [
+          { "label": "Vorher hatte ich nie in einem Verein mitgearbeitet. Jetzt weiß ich warum nicht — sonst hätte ich's früher gemacht.", "line": "Vorher hatte ich nie in einem Verein mitgearbeitet. Jetzt weiß ich, was ich verpasst habe." },
+          { "label": "Der Dank ist deine Waffel. Wertvollster Dank des Jahres.", "line": "Der Dank ist diese Waffel. Der wertvollste Dank des Jahres." }
+        ] },
+        { "type": "line", "speaker": "milo", "text": "Sam? …Wenn du mal wieder Deutsch lernen willst: Ich erklär's dir. Ich bin jetzt nämlich gut in Buchstaben.", "translation": "Sam? …If you ever want to learn German again: I'll explain it to you. I'm good with letters now, you see." },
+        { "type": "check", "count": 2, "mode": "mixed" },
+        { "type": "check", "count": 2, "mode": "listen" },
+        { "type": "reading", "title": "Newsletter des Jugendclubs (Auszug)", "text": "Lindenau liest — Sommerrückblick\n\nUnser Leseprogramm: 14 Kinder, 9 Ehrenamtliche,\nunzählige Buchstaben. Besonderer Dank an Sam,\nder jeden Donnerstag mit Waffeln und Geduld da war.\n\n»Verständigung beginnt mit jemandem, der zuhört.«\n\nNächstes Jahr wieder — das Miteinander macht den Verein.", "translation": "Lindenau reads — summer review\n\nOur reading programme: 14 children, 9 volunteers,\ncountless letters. Special thanks to Sam,\nwho was there every Thursday with waffles and patience.\n\n'Understanding begins with someone who listens.'\n\nAgain next year — the togetherness is what makes the club.", "itemIds": ["die-verstaendigung", "das-miteinander", "der-dank"] },
+        { "type": "narration", "text": "Abendsonne über dem Hof. Du hast zwei Sprachen, einen Verein, einen Schüler, der jetzt laut liest — und das Gefühl, dass Leipzig langsam anfängt, dich zurückzuholen." }
+      ]
+    }
+  ]
+}

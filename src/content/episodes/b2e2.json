@@ -9,7 +9,8 @@
     "order": 14,
     "sceneIds": [
       "b2e2s1",
-      "b2e2s2"
+      "b2e2s2",
+      "b2e2s3"
     ]
   },
   "cast": [
@@ -201,6 +202,95 @@
       ],
       "cefrLevel": "B2",
       "note": "die, Plural: die Pausen — in Deutschland ein Grundrecht"
+    },
+    {
+      "id": "die-physiotherapie",
+      "type": "word",
+      "german": "die Physiotherapie",
+      "meaning": "the physiotherapy",
+      "image": "stethoskop",
+      "audio": "tts",
+      "introducedInScene": "b2e2s3",
+      "tags": [
+        "health"
+      ],
+      "cefrLevel": "B2",
+      "note": "die ( Singular ) — verschrieben von Dr. Kern, sechs Termine"
+    },
+    {
+      "id": "die-uebung",
+      "type": "word",
+      "german": "die Übung",
+      "meaning": "the exercise",
+      "image": "ball",
+      "audio": "tts",
+      "introducedInScene": "b2e2s3",
+      "tags": [
+        "health",
+        "learning"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Übungen — täglich, nicht nur wenn's sich anhört"
+    },
+    {
+      "id": "die-beweglichkeit",
+      "type": "word",
+      "german": "die Beweglichkeit",
+      "meaning": "the mobility / flexibility",
+      "image": "ball",
+      "audio": "tts",
+      "introducedInScene": "b2e2s3",
+      "tags": [
+        "health"
+      ],
+      "cefrLevel": "B2",
+      "note": "die ( Singular ) — Berichtswort: „deutliche Verbesserung der Beweglichkeit“"
+    },
+    {
+      "id": "die-verbesserung",
+      "type": "word",
+      "german": "die Verbesserung",
+      "meaning": "the improvement",
+      "image": "zukunft",
+      "audio": "tts",
+      "introducedInScene": "b2e2s3",
+      "tags": [
+        "health",
+        "work"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Verbesserungen — deutliche Verbesserung, sagt der Bericht"
+    },
+    {
+      "id": "belastbar",
+      "type": "word",
+      "german": "belastbar",
+      "meaning": "resilient / able to bear strain",
+      "image": "werkzeug",
+      "audio": "tts",
+      "introducedInScene": "b2e2s3",
+      "tags": [
+        "health",
+        "work",
+        "opinion"
+      ],
+      "cefrLevel": "B2",
+      "note": "Adjektiv — belastbar sein; liebt Bewerbungen und Atteste"
+    },
+    {
+      "id": "der-folgetermin",
+      "type": "word",
+      "german": "der Folgetermin",
+      "meaning": "the follow-up appointment",
+      "image": "kalender",
+      "audio": "tts",
+      "introducedInScene": "b2e2s3",
+      "tags": [
+        "health",
+        "time"
+      ],
+      "cefrLevel": "B2",
+      "note": "der, Plural: die Folgetermine — in vier Wochen, sagt Dr. Kern"
     }
   ],
   "scenes": [
@@ -371,6 +461,104 @@
         {
           "type": "narration",
           "text": "Eine Woche Pause. Der Dienstplan läuft ohne dich, die Welt dreht sich weiter — und das ist, stellt sich heraus, der ganze Sinn der Sache."
+        }
+      ]
+    },
+    {
+      "id": "b2e2s3",
+      "episodeId": "b2e2",
+      "title": "Der Folgetermin",
+      "titleEn": "The follow-up",
+      "place": "Hausarztpraxis Dr. Kern, zwei Wochen später",
+      "bg": "klinik",
+      "contextTags": [
+        "health",
+        "work",
+        "recovery"
+      ],
+      "requiredItems": [
+        "die-krankschreibung",
+        "die-diagnose"
+      ],
+      "introducedItems": [
+        "die-physiotherapie",
+        "die-uebung",
+        "die-beweglichkeit",
+        "die-verbesserung",
+        "belastbar",
+        "der-folgetermin"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Zwei Wochen Krankschreibung, sechs Physio-Termine, fünf Übungen täglich — plus eine, die du vergessen hast, bis Frau Brügge dich beim Heben der Milchkisten erwischte. Heute: Folgetermin. Deine Schulter meldet sich, statt zu protestieren. Das ist neu."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-folgetermin",
+            "die-physiotherapie",
+            "die-uebung"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "dr-kern",
+          "text": "Zeig mal. Heben … drehen … halten. …Das ist eine deutliche Verbesserung. Die Beweglichkeit ist fast vollständig zurück. Und die Übungen — machen Sie die wirklich? Seien Sie ehrlich. Patientenantworten sind meistens Poesie.",
+          "translation": "Show me. Lift … rotate … hold. …That's a clear improvement. Mobility is almost fully back. And the exercises — do you actually do them? Be honest. Patient answers are mostly poetry."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-beweglichkeit",
+            "die-verbesserung",
+            "belastbar"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Dr. Kern: „Und die Arbeit? Wann zurück?“",
+          "options": [
+            {
+              "label": "Ich arbeite wieder — aber ich trage nicht mehr alles allein.",
+              "line": "Ich arbeite wieder — aber ich trage nicht mehr alles allein. Kaffeekisten sind jetzt Teamarbeit."
+            },
+            {
+              "label": "Samstag leite ich wieder. Der Dienstplan und ich sind wieder Freunde.",
+              "line": "Samstag leite ich wieder. Der Dienstplan und ich haben uns versöhnt."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "dr-kern",
+          "text": "Sehr gut. Nichts gegen Enthusiasmus — aber Schultern sind keine Kaffeekisten-Regale. …Wieder in vier Wochen, dann zur Kontrolle. Und: langsam steigern. Belastbar heißt nicht unzerstörbar. Das gilt für Schultern und für Menschen.",
+          "translation": "Very good. Nothing against enthusiasm — but shoulders are not coffee-crate shelves. …Again in four weeks, for a check-up. And: increase slowly. Resilient doesn't mean indestructible. That goes for shoulders and for people."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "reading",
+          "title": "Physiotherapeutischer Verlaufsbericht (Auszug)",
+          "text": "Verlaufsbericht nach 6 Sitzungen\n\nBeweglichkeit: deutliche Verbesserung,\nAbduktion 140°, schmerzfrei.\nKraft: im Seitenvergleich annähernd ausgeglichen.\n\nEmpfehlung: Übungsprogramm täglich fortsetzen,\nBelastung langsam steigern. Tätigkeiten bis 10 kg\nsind tolerabel. Kontrolle durch die Hausärztin\nim Folgetermin in 4 Wochen.\n\nPatient wirkt motiviert. (Vermerk)",
+          "translation": "Progress report after 6 sessions\n\nMobility: clear improvement, abduction 140°, pain-free.\nStrength: nearly balanced in side-to-side comparison.\n\nRecommendation: continue the exercise programme daily,\nincrease strain slowly. Activities up to 10 kg\nare tolerable. Check-up with the GP at the\nfollow-up appointment in 4 weeks.\n\nPatient appears motivated. (note)",
+          "itemIds": [
+            "die-beweglichkeit",
+            "die-verbesserung",
+            "der-folgetermin"
+          ]
+        },
+        {
+          "type": "narration",
+          "text": "Du pinnst den Bericht an die Pinnwand — zwischen Zertifikat und Bescheid, auf den Platz, der Zukunft heißt. Mei schreibt: „Willkommen zurück, Chef-Träger. Leicht-Version.“"
         }
       ]
     }

@@ -1,0 +1,599 @@
+{
+  "episode": {
+    "id": "a2e7",
+    "arcId": "A2",
+    "cefrLevel": "A2",
+    "title": "Die Versicherung",
+    "titleEn": "The insurance",
+    "blurb": "Ein Wasserrohr im Treppenhaus, ein gestohlenes Fahrrad, ein Telefonat mit Geduldsprobe. Deutschland schützt alles — schriftlich.",
+    "order": 11,
+    "sceneIds": [
+      "a2e7s1",
+      "a2e7s2",
+      "a2e7s3"
+    ]
+  },
+  "cast": [
+    {
+      "id": "frau-bruegge",
+      "name": "Frau Brügge",
+      "role": "Vermieterin"
+    },
+    {
+      "id": "klemm",
+      "name": "Frau Klemm",
+      "role": "Versicherungs hotline"
+    },
+    {
+      "id": "polizist",
+      "name": "Kommissar Renn",
+      "role": "Polizei"
+    },
+    {
+      "id": "tobias",
+      "name": "Tobias",
+      "role": "Freund"
+    }
+  ],
+  "items": [
+    {
+      "id": "die-versicherung",
+      "type": "word",
+      "german": "die Versicherung",
+      "meaning": "the insurance",
+      "image": "kaution",
+      "audio": "tts",
+      "introducedInScene": "a2e7s1",
+      "tags": [
+        "insurance",
+        "admin",
+        "money"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Versicherungen — in Deutschland gerne mehrere"
+    },
+    {
+      "id": "die-haftpflichtversicherung",
+      "type": "word",
+      "german": "die Haftpflichtversicherung",
+      "meaning": "the liability insurance",
+      "image": "vertrag",
+      "audio": "tts",
+      "introducedInScene": "a2e7s1",
+      "tags": [
+        "insurance",
+        "admin"
+      ],
+      "cefrLevel": "A2",
+      "note": "die — die wichtigste: zahlt, wenn du anderen Schaden machst"
+    },
+    {
+      "id": "der-schaden",
+      "type": "word",
+      "german": "der Schaden",
+      "meaning": "the damage",
+      "image": "werkzeug",
+      "audio": "tts",
+      "introducedInScene": "a2e7s1",
+      "tags": [
+        "insurance",
+        "problem"
+      ],
+      "cefrLevel": "A2",
+      "note": "der, Plural: die Schäden — „Schaden haben“ ist hier wörtlich"
+    },
+    {
+      "id": "monatlich",
+      "type": "word",
+      "german": "monatlich",
+      "meaning": "monthly",
+      "image": "kalender",
+      "audio": "tts",
+      "introducedInScene": "a2e7s1",
+      "tags": [
+        "money",
+        "time"
+      ],
+      "cefrLevel": "A2",
+      "note": "täglich – wöchentlich – monatlich – jährlich"
+    },
+    {
+      "id": "der-beitrag",
+      "type": "word",
+      "german": "der Beitrag",
+      "meaning": "the premium / contribution",
+      "image": "münzen",
+      "audio": "tts",
+      "introducedInScene": "a2e7s1",
+      "tags": [
+        "insurance",
+        "money"
+      ],
+      "cefrLevel": "A2",
+      "note": "der, Plural: die Beiträge — monatlich, automatisch"
+    },
+    {
+      "id": "die-police",
+      "type": "word",
+      "german": "die Police",
+      "meaning": "the (insurance) policy",
+      "image": "formular",
+      "audio": "tts",
+      "introducedInScene": "a2e7s1",
+      "tags": [
+        "insurance",
+        "paperwork"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Policen — nicht die Polizei!"
+    },
+    {
+      "id": "melden",
+      "type": "chunk",
+      "german": "Ich möchte einen Schaden melden.",
+      "meaning": "I'd like to report a claim.",
+      "image": "telefon",
+      "audio": "tts",
+      "introducedInScene": "a2e7s2",
+      "tags": [
+        "insurance",
+        "request"
+      ],
+      "cefrLevel": "A2",
+      "note": "Der Satz, der jede Hotline startet"
+    },
+    {
+      "id": "telefonisch",
+      "type": "word",
+      "german": "telefonisch",
+      "meaning": "by phone / over the phone",
+      "image": "telefon",
+      "audio": "tts",
+      "introducedInScene": "a2e7s2",
+      "tags": [
+        "phone"
+      ],
+      "cefrLevel": "A2"
+    },
+    {
+      "id": "die-vorgangsnummer",
+      "type": "word",
+      "german": "die Vorgangsnummer",
+      "meaning": "the reference / case number",
+      "image": "formular",
+      "audio": "tts",
+      "introducedInScene": "a2e7s2",
+      "tags": [
+        "insurance",
+        "paperwork"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Vorgangsnummern — immer aufschreiben"
+    },
+    {
+      "id": "zustaendig",
+      "type": "word",
+      "german": "zuständig",
+      "meaning": "responsible (for)",
+      "image": "prüfen",
+      "audio": "tts",
+      "introducedInScene": "a2e7s2",
+      "tags": [
+        "admin"
+      ],
+      "cefrLevel": "A2",
+      "note": "„Ich bin nicht zuständig“ — der deutsche Nationsport"
+    },
+    {
+      "id": "die-liegt-auf",
+      "type": "grammar_pattern",
+      "german": "Der Beleg liegt ___ dem Schreibtisch.",
+      "meaning": "The receipt is lying on the desk.",
+      "image": "beleg",
+      "audio": "tts",
+      "introducedInScene": "a2e7s2",
+      "tags": [
+        "grammar",
+        "paperwork"
+      ],
+      "cefrLevel": "A2",
+      "cloze": "auf",
+      "speak": "Der Beleg liegt auf dem Schreibtisch.",
+      "note": "Wo? → Dativ (auf DEM Tisch). Wohin? → Akkusativ (auf DEN Tisch)"
+    },
+    {
+      "id": "der-selbstbehalt",
+      "type": "word",
+      "german": "der Selbstbehalt",
+      "meaning": "the deductible",
+      "image": "münzen",
+      "audio": "tts",
+      "introducedInScene": "a2e7s2",
+      "tags": [
+        "insurance",
+        "money"
+      ],
+      "cefrLevel": "A2",
+      "note": "der, Plural: die Selbstbehalte — dein Anteil am Schaden"
+    },
+    {
+      "id": "der-diebstahl",
+      "type": "word",
+      "german": "der Diebstahl",
+      "meaning": "the theft",
+      "image": "reifen",
+      "audio": "tts",
+      "introducedInScene": "a2e7s3",
+      "tags": [
+        "crime",
+        "insurance"
+      ],
+      "cefrLevel": "A2",
+      "note": "der ( Singular ) — stehlen / gestohlen / der Dieb"
+    },
+    {
+      "id": "gestohlen",
+      "type": "word",
+      "german": "gestohlen",
+      "meaning": "stolen",
+      "image": "schlüssel",
+      "audio": "tts",
+      "introducedInScene": "a2e7s3",
+      "tags": [
+        "crime"
+      ],
+      "cefrLevel": "A2"
+    },
+    {
+      "id": "die-anzeige",
+      "type": "word",
+      "german": "die Anzeige",
+      "meaning": "the (police) report — also: the advert",
+      "image": "brief",
+      "audio": "tts",
+      "introducedInScene": "a2e7s3",
+      "tags": [
+        "crime",
+        "admin"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Anzeigen — „Anzeige erstatten“ = file a report"
+    },
+    {
+      "id": "die-kette",
+      "type": "word",
+      "german": "die Kette",
+      "meaning": "the chain (bike lock)",
+      "image": "reifen",
+      "audio": "tts",
+      "introducedInScene": "a2e7s3",
+      "tags": [
+        "bike",
+        "objects"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Ketten — Fahrraddiebstahl ist Volkssport, Kette ist Pflicht"
+    },
+    {
+      "id": "abschließen",
+      "type": "chunk",
+      "german": "Ich schließe das Fahrrad immer ab.",
+      "meaning": "I always lock the bike.",
+      "image": "schlüssel",
+      "audio": "tts",
+      "introducedInScene": "a2e7s3",
+      "tags": [
+        "bike"
+      ],
+      "cefrLevel": "A2",
+      "note": "abschließen = to lock — auch: einen Vertrag abschließen"
+    },
+    {
+      "id": "die-entschaedigung",
+      "type": "word",
+      "german": "die Entschädigung",
+      "meaning": "the compensation",
+      "image": "geld",
+      "audio": "tts",
+      "introducedInScene": "a2e7s3",
+      "tags": [
+        "insurance",
+        "money"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Entschädigungen"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "a2e7s1",
+      "episodeId": "a2e7",
+      "title": "Rohrbruch",
+      "titleEn": "Burst pipe",
+      "place": "Treppenhaus & Wohnung",
+      "bg": "treppenhaus",
+      "contextTags": [
+        "insurance",
+        "home",
+        "problem"
+      ],
+      "requiredItems": [
+        "das-formular"
+      ],
+      "introducedItems": [
+        "die-versicherung",
+        "die-haftpflichtversicherung",
+        "der-schaden",
+        "monatlich",
+        "der-beitrag",
+        "die-police"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Sonntagmorgen, ein Geräusch wie ein verärgerter Wasserfall im Treppenhaus. Ein Rohr im dritten Stock hat aufgegeben. Frau Brügge steht mit Handtüchern und Tapfbarkeit im Flur."
+        },
+        {
+          "type": "line",
+          "speaker": "frau-bruegge",
+          "text": "Bleib ruhig, das Wasser zahlt nicht mit. …Aber weißt du, was jetzt interessant wird? Versicherungen. Hast du eine Haftpflichtversicherung?",
+          "translation": "Stay calm, the water isn't paying up. …But you know what gets interesting now? Insurance. Do you have liability insurance?"
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-versicherung",
+            "die-haftpflichtversicherung",
+            "der-schaden"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "frau-bruegge",
+          "text": "Haftpflicht zahlt, wenn DU anderen Schaden machst. Deine Sachen schützt die Hausratversicherung — die ist hier meine. Dein Beitrag: ein paar Euro, monatlich.",
+          "translation": "Liability pays when YOU damage others. Your own things are covered by household insurance — that one's mine. Your premium: a few euros, monthly."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "monatlich",
+            "der-beitrag",
+            "die-police"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Frau Brügge: „Hast du deine Police irgendwo?“",
+          "options": [
+            {
+              "label": "Ich suche sie und rufe dann an.",
+              "line": "Ich suche sie und rufe dann sofort an."
+            },
+            {
+              "label": "Versicherung? …Ich hab… ich melde mich.",
+              "line": "Versicherung? …Ich habe … ich melde mich gleich."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "frau-bruegge",
+          "text": "Gut. Und falls du keine hast: Jetzt ist der beste Moment, danach. …Deutschland-Regel.",
+          "translation": "Good. And if you don't have one: now is the best moment, afterwards. …Germany rule."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "reading",
+          "title": "E-Mail: Ihre Versicherungspolice",
+          "text": "Sehr geehrte Damen und Herren,\nIhre Haftpflichtversicherung (Police Nr. 4471-KJ)\nBeitrag: 4,90 € monatlich\nDeckung: Personen- und Sachschäden bis 5 Mio. €\nSchäden bitte sofort melden — telefonisch oder in der App.\nIhre AllRisk Versicherung",
+          "translation": "Dear Sir or Madam,\nYour liability insurance (policy no. 4471-KJ)\nPremium: €4.90 monthly\nCover: personal and property damage up to €5m\nPlease report claims immediately — by phone or in the app.\nYour AllRisk Insurance",
+          "itemIds": [
+            "die-police",
+            "der-beitrag",
+            "monatlich"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2e7s2",
+      "episodeId": "a2e7",
+      "title": "Die Hotline",
+      "titleEn": "The hotline",
+      "place": "Wohnung, Warteschleife",
+      "bg": "wohnung",
+      "contextTags": [
+        "insurance",
+        "phone",
+        "paperwork"
+      ],
+      "requiredItems": [
+        "die-versicherung",
+        "die-kasse"
+      ],
+      "introducedItems": [
+        "melden",
+        "telefonisch",
+        "die-vorgangsnummer",
+        "zustaendig",
+        "die-liegt-auf",
+        "der-selbstbehalt"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Warteschleifenmusik, Version „Panflöte im Aufzug“. Nach elf Minuten: eine menschliche Stimme. Du hast Belege, Geduld und eine erste Theorie über deutsche Panflöten."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "melden",
+            "telefonisch",
+            "die-vorgangsnummer"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "klemm",
+          "text": "Versicherung AllRisk, Frau Klemm. Was kann ich für Sie tun? …Ah, Sie möchten einen Schaden melden. Gut. Haben Sie Ihre Police bereit?",
+          "translation": "AllRisk Insurance, Ms Klemm. What can I do for you? …Ah, you'd like to report a claim. Good. Do you have your policy ready?"
+        },
+        {
+          "type": "choice",
+          "prompt": "Wo ist der Beleg hin? Du hast ihn gestern auf den Schreibtisch gelegt.",
+          "options": [
+            {
+              "label": "Der Beleg liegt auf dem Schreibtisch.",
+              "line": "Moment — der Beleg liegt auf dem Schreibtisch."
+            },
+            {
+              "label": "Der Beleg liegt in dem Schreibtisch?? Nein — auf dem!",
+              "line": "Der Beleg liegt in dem Schreibtisch?? Nein — AUF dem Schreibtisch!"
+            }
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-liegt-auf",
+            "zustaendig",
+            "der-selbstbehalt"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "klemm",
+          "text": "Danke. Der Schaden ist gedeckt, ein kleiner Selbstbehalt von fünfzig Euro bleibt bei Ihnen. Ich schicke die Vorgangsnummer per E-Mail. …Sie sind sehr vorbereitet, das hört man nicht oft.",
+          "translation": "Thank you. The claim is covered, a small deductible of fifty euros stays with you. I'll send the reference number by email. …You're very well prepared, one doesn't hear that often."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "reading",
+          "title": "SMS von der Versicherung",
+          "text": "AllRisk: Vorgangsnummer 2026-K-88123.\nSchaden gemeldet: 14:32 Uhr.\nBearbeitung in 5–7 Werktagen.\nRückfragen: telefonisch Mo–Fr 8–18 Uhr.",
+          "translation": "AllRisk: reference number 2026-K-88123.\nClaim reported: 2:32 pm.\nProcessing in 5–7 working days.\nQuestions: by phone Mon–Fri 8am–6pm.",
+          "itemIds": [
+            "die-vorgangsnummer",
+            "telefonisch"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2e7s3",
+      "episodeId": "a2e7",
+      "title": "Gestohlen!",
+      "titleEn": "Stolen!",
+      "place": "Polizeiwache Mitte",
+      "bg": "amt",
+      "contextTags": [
+        "insurance",
+        "bike",
+        "problem"
+      ],
+      "requiredItems": [
+        "das-fahrrad",
+        "der-schaden"
+      ],
+      "introducedItems": [
+        "der-diebstahl",
+        "gestohlen",
+        "die-anzeige",
+        "die-kette",
+        "abschließen",
+        "die-entschaedigung"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Zwei Wochen später. Dein Fahrrad war vor dem Café angeschlossen — mit der guten Kette, ehrlich. Jetzt ist da nur noch ein abgeschnittenes Stück Kette. Tobias' Blick sagt alles."
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Abgeschnitten. …Das war professionell. Komm, wir machen Anzeige. Und dann Versicherung — du hast doch jetzt eine.",
+          "translation": "Cut. …That was professional. Come on, we'll file a report. And then insurance — you have one now after all."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-diebstahl",
+            "gestohlen",
+            "die-anzeige"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "polizist",
+          "text": "Fahrraddiebstahl. Klasse zwei der Volksbeliebtheit. …Wann und wo? — Gut. Hier: Anzeigeerstätting, unterschreiben. Sie bekommen eine Kopie für die Versicherung.",
+          "translation": "Bicycle theft. Second most popular national pastime. …When and where? — Good. Here: crime report, sign. You'll get a copy for the insurance."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-kette",
+            "abschließen",
+            "die-entschaedigung"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Der Kommissar: „War das Rad gut gesichert?“",
+          "options": [
+            {
+              "label": "Ich schließe es immer ab. Mit Kette.",
+              "line": "Ich schließe es immer ab — mit einer richtigen Kette."
+            },
+            {
+              "label": "Es war… angeschlossen. Technisch gesehen.",
+              "line": "Es war … angeschlossen. Technisch gesehen. Mit einem Seil."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "polizist",
+          "text": "Dann stehen Ihre Chancen gut. Die Versicherung prüft, ob es eine Entschädigung gibt. …Und kaufen Sie sich eine neue Kette. Und ein neues Rad. Leipzig braucht Sie auf zwei Rädern.",
+          "translation": "Then your chances are good. The insurance will check whether there's compensation. …And buy yourself a new chain. And a new bike. Leipzig needs you on two wheels."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "narration",
+          "text": "Zehn Tage später: Entschädigung genehmigt, abzüglich Selbstbehalt. Neues Fahrrad, neue Kette, altes Misstrauen — diesmal mit Papieren."
+        }
+      ]
+    }
+  ]
+}
