@@ -75,6 +75,55 @@
   .eprow .st{width:26px; text-align:center}
   .story{font-size:16px; line-height:1.65; background:#10151d; border-left:4px solid var(--gold); border-radius:0 10px 10px 0; padding:14px 16px; margin:12px 0;}
   .lvlchip{background:#24304a; color:#bcd6ff; border-radius:8px; padding:1px 8px; font-size:12px; font-weight:700;}
+  button:disabled{opacity:.5;cursor:not-allowed;transform:none}
+  button:focus-visible, summary:focus-visible, input:focus-visible, textarea:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+  .session-progress{margin-bottom:12px}
+  .exercise-meta{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:10px}
+  .instructions{margin:14px 0 18px;padding:14px 0;border-top:1px solid #2a3342;border-bottom:1px solid #2a3342}
+  .instructions p{margin:0 0 8px}
+  .instruction-en,.instruction-de{font-size:16px;font-weight:600;line-height:1.55}
+  .instruction-de.secondary{color:var(--mut);font-size:14px;font-weight:400}
+  .instruction-hint{color:#bcd6ff}
+  .command-bridge{margin:10px 0;color:var(--mut)}
+  .command-bridge b{color:#bcd6ff;font-weight:600}
+  .english-help{margin-top:12px}
+  .english-help summary{width:fit-content;max-width:100%;padding:10px 12px;border:1px solid #334564;border-radius:10px;background:#1c293c;color:#c7dfff;font-size:14px;cursor:pointer}
+  .english-help[open] summary{border-color:var(--blue)}
+  .help-copy{background:#101925;border-radius:10px;padding:14px;margin-top:8px;font-size:14px;line-height:1.6}
+  .help-copy p:last-child{margin-bottom:0}
+  .reference{margin:12px 0;font-size:14px}
+  .reference summary{cursor:pointer;color:#bcd6ff;padding:6px 0}
+  .reference>div{padding:8px 0;line-height:1.6}
+  .answer-field{margin:16px 0 12px}
+  .answer-field label{display:block;margin-bottom:6px}
+  textarea{display:block;font:inherit;width:100%;min-height:112px;resize:vertical;padding:13px;border-radius:12px;border:1px solid #2c3648;background:#0b0e13;color:var(--ink)}
+  .error-message{color:#ffa9a5;margin-top:6px}
+  .task-cue{color:var(--ink);font-size:20px;margin-bottom:12px}
+  .production-situation{border-left:3px solid var(--blue);background:#111d2b;border-radius:0 10px 10px 0;padding:14px 16px;margin:12px 0}
+  .production-situation p{font-size:18px;line-height:1.6;margin:6px 0 0}
+  .cue-toggle{padding:8px 10px;min-height:40px;color:#bcd6ff}
+  .production-goals{margin:18px 0 12px;padding:12px;border:1px solid #334564;border-radius:12px}
+  .production-goals legend{font-size:14px;padding:0 6px;color:#bcd6ff}
+  .production-goals label{display:flex;gap:10px;align-items:flex-start;padding:8px 0;font-size:14px;cursor:pointer}
+  .production-goals input{flex:0 0 auto;width:20px;height:20px;margin:1px 0;accent-color:var(--gold)}
+  .model-answer,.user-response{overflow-wrap:anywhere}
+  .scaffold-panel h2{margin-top:6px}
+  .scaffold-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin:14px 0}
+  .scaffold-step{padding:12px 10px;border:1px solid #2a3342;border-radius:10px;color:var(--mut);background:#111720}
+  .scaffold-step b{display:block;margin-bottom:5px;color:var(--ink)}
+  .scaffold-step.active{border-color:var(--gold);background:#282518;color:#e4dbba}
+  .scaffold-step.active b{color:var(--gold)}
+  .button-note{display:block;font-size:12px;color:var(--mut);margin-top:4px;font-weight:400}
+  .command-glossary{margin:18px 0}
+  .command-glossary>div{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;border-bottom:1px solid #2a3342;padding:11px 0}
+  .command-glossary dt{font-weight:650;min-width:145px}
+  .command-glossary dd{flex:1;min-width:115px;margin:0;color:var(--mut)}
+  @media(max-width:520px){
+    .scaffold-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+    .exercise-meta{align-items:flex-start}
+    .production-situation{padding:12px}
+    .command-glossary dt{min-width:120px}
+  }
 </style>
 </head>
 <body>
@@ -462,21 +511,268 @@ const DECK = [
  {id:"b2e5",ep:12, kind:"error", de:"Angesichts von der Krise wurde schnell entschieden.", errType:"Preposition",
    fix:"Angesichts der Krise wurde schnell entschieden.", why:"'angesichts' takes the genitive directly — no 'von'."}
 ];
-const MAP={}; DECK.forEach(c=>MAP[c.id]=c);
+/* ------------------------------ FREE PRODUCTION: intent, never a word bank ------------------------------ */
+function productionCard(ep, id, promptEn, promptDe, answers, checks){
+  return {id:"prod-"+id, ep, kind:"production", de:answers[0], promptEn, promptDe, answers,
+    checks:checks.map(([en,de])=>({en,de}))};
+}
+const PRODUCTION = [
+  productionCard(1, "ticket", "You want one ticket at the station. Ask for it politely in German.",
+    "Am Bahnhof: Du möchtest eine Fahrkarte kaufen. Bitte höflich darum.",
+    ["Eine Fahrkarte, bitte.", "Ein Ticket, bitte.", "Ich möchte eine Fahrkarte, bitte.", "Ich hätte gern eine Fahrkarte.", "Ich hätte gerne eine Fahrkarte, bitte.", "Ich möchte ein Ticket, bitte."],
+    [["Ask for one ticket.", "Bitte um eine Fahrkarte."], ["Be polite.", "Formuliere höflich."]]),
+  productionCard(2, "form", "At the Bürgeramt, ask where you can find the registration form.",
+    "Im Bürgeramt: Du suchst das Formular für die Anmeldung. Frage danach.",
+    ["Wo finde ich das Formular für die Anmeldung?", "Wo ist das Formular für die Anmeldung?", "Entschuldigung, wo finde ich das Formular für die Anmeldung?"],
+    [["Ask where the form is.", "Frage nach dem Formular."], ["Specify registration.", "Nenne die Anmeldung."]]),
+  productionCard(3, "bread", "At the bakery, politely ask for one loaf of bread.",
+    "In der Bäckerei: Du möchtest ein Brot kaufen. Bitte höflich darum.",
+    ["Ein Brot, bitte.", "Ich hätte gern ein Brot.", "Ich hätte gerne ein Brot, bitte.", "Ich möchte ein Brot, bitte.", "Kann ich bitte ein Brot haben?"],
+    [["Ask for one loaf of bread.", "Bitte um ein Brot."], ["Use a polite request.", "Formuliere höflich."]]),
+  productionCard(4, "rent", "At the viewing, ask Herr Krüger how much the monthly rent is.",
+    "Bei der Besichtigung: Frage Herrn Krüger nach der monatlichen Miete.",
+    ["Wie hoch ist die monatliche Miete?", "Wie hoch ist die Miete?", "Wie viel kostet die Wohnung pro Monat?", "Was kostet die Wohnung im Monat?"],
+    [["Ask about the rent, not the purchase price.", "Frage nach der Miete, nicht nach dem Kaufpreis."], ["Form a question.", "Formuliere eine Frage."]]),
+  productionCard(5, "symptoms", "Tell Dr. Klein that your throat has been hurting for two days.",
+    "Bei Dr. Klein: Halsschmerzen, seit zwei Tagen. Beschreibe deine Beschwerden.",
+    ["Ich habe seit zwei Tagen Halsschmerzen.", "Seit zwei Tagen habe ich Halsschmerzen.", "Mein Hals tut seit zwei Tagen weh."],
+    [["Mention your sore throat.", "Nenne die Halsschmerzen."], ["Say how long it has been hurting.", "Nenne die Dauer: seit zwei Tagen."]]),
+  productionCard(5, "appointment", "Call the practice. Ask for an appointment today because you have a fever.",
+    "Du rufst in der Praxis an: Fieber, Termin noch heute. Bitte um einen Termin und begründe deinen Wunsch.",
+    ["Ich brauche heute einen Termin, weil ich Fieber habe.", "Ich hätte gern heute einen Termin, weil ich Fieber habe.", "Kann ich heute einen Termin bekommen? Ich habe Fieber."],
+    [["Request an appointment today.", "Bitte um einen Termin für heute."], ["Give your fever as the reason.", "Nenne das Fieber als Grund."]]),
+  productionCard(5, "cancel", "Tell Deniz you cannot come today because you are ill.",
+    "Du bist krank und musst Deniz für heute absagen. Erkläre warum.",
+    ["Ich kann heute nicht kommen, weil ich krank bin.", "Weil ich krank bin, kann ich heute nicht kommen.", "Ich bin krank. Deshalb kann ich heute nicht kommen."],
+    [["Say you cannot come today.", "Sage für heute ab."], ["Explain that you are ill.", "Begründe die Absage mit deiner Krankheit."]]),
+  productionCard(6, "experience", "Tell your potential employer that you have been working in logistics since 2023.",
+    "Im Vorstellungsgespräch: Logistik-Erfahrung seit 2023 bis heute. Beschreibe deine Erfahrung.",
+    ["Ich arbeite seit 2023 in der Logistik.", "Seit 2023 arbeite ich in der Logistik.", "Ich bin seit 2023 in der Logistik tätig."],
+    [["Mention work in logistics.", "Nenne die Arbeit in der Logistik."], ["Make clear it began in 2023 and continues now.", "Mache deutlich: seit 2023 bis heute."]]),
+  productionCard(6, "apply", "Tell the employer that you would like to apply for the part-time position.",
+    "Die Firma bietet eine Teilzeitstelle an. Äußere deinen Wunsch, dich zu bewerben.",
+    ["Ich möchte mich um die Teilzeitstelle bewerben.", "Ich bewerbe mich um die Teilzeitstelle.", "Ich würde mich gern um die Teilzeitstelle bewerben."],
+    [["Express your intention to apply.", "Äußere deinen Bewerbungswunsch."], ["Specify the part-time position.", "Nenne die Teilzeitstelle."]]),
+  productionCard(6, "start", "Your new boss asks when you can start. Say that you can start on Monday.",
+    "Dein neuer Chef fragt nach deinem Arbeitsbeginn. Du hast ab Montag Zeit. Antworte.",
+    ["Ich kann am Montag anfangen.", "Am Montag kann ich anfangen.", "Ich kann am Montag beginnen.", "Ich könnte am Montag anfangen."],
+    [["Say you can start work.", "Sage, dass du anfangen kannst."], ["Specify Monday.", "Nenne Montag."]]),
+  productionCard(7, "arrival", "Frau Brügge is expecting you. Tell her you will arrive tomorrow at six in the evening.",
+    "Frau Brügge erwartet dich. Deine Ankunft: morgen, 18 Uhr. Informiere sie.",
+    ["Frau Brügge, ich komme morgen um 18 Uhr an.", "Ich komme morgen um 18 Uhr an.", "Ich werde morgen um 18 Uhr ankommen.", "Morgen komme ich um achtzehn Uhr an.", "Ich komme morgen um sechs Uhr abends an.", "Frau Brügge, ich komme morgen um sechs an.", "Ich komme morgen um sechs an."],
+    [["Say you will arrive tomorrow.", "Nenne die Ankunft morgen."], ["Give the time: six in the evening.", "Nenne die Uhrzeit: 18 Uhr."]]),
+  productionCard(7, "delay", "Tell your boss that you will be twenty minutes late because the tram is not running.",
+    "Die Straßenbahn fährt nicht. Du kommst zwanzig Minuten zu spät. Informiere deinen Chef mit Begründung.",
+    ["Ich komme zwanzig Minuten zu spät, weil die Straßenbahn nicht fährt.", "Ich komme 20 Minuten zu spät, weil die Straßenbahn nicht fährt.", "Die Straßenbahn fährt nicht. Deshalb komme ich zwanzig Minuten zu spät."],
+    [["Mention a twenty-minute delay.", "Nenne zwanzig Minuten Verspätung."], ["Explain that the tram is not running.", "Erkläre, dass die Straßenbahn nicht fährt."]]),
+  productionCard(7, "platform", "At the station, ask which platform the train to Bonn leaves from.",
+    "Du möchtest nach Bonn fahren und suchst das richtige Gleis. Frage am Bahnhof nach.",
+    ["Von welchem Gleis fährt der Zug nach Bonn ab?", "Auf welchem Gleis fährt der Zug nach Bonn ab?", "Von welchem Gleis fährt der Zug nach Bonn?", "An welchem Gleis fährt der Zug nach Bonn ab?"],
+    [["Ask for the departure platform.", "Frage nach dem Abfahrtsgleis."], ["Specify the train to Bonn.", "Nenne den Zug nach Bonn."]]),
+  productionCard(8, "deadline", "Your payment is due on the 15th, but your salary arrives on the 19th. Politely ask to pay on the 20th and explain why.",
+    "Zahlungsfrist: der 15.; Gehaltseingang: der 19. Bitte höflich darum, erst am 20. zahlen zu dürfen, und begründe die Bitte.",
+    ["Könnte ich den Betrag bitte erst am 20. überweisen, weil mein Gehalt erst am 19. kommt?", "Mein Gehalt kommt erst am 19. Wäre es möglich, den Betrag am 20. zu überweisen?"],
+    [["Request payment on the 20th instead of the 15th.", "Bitte um Zahlung am 20. statt am 15."], ["Explain the salary timing.", "Begründe die Bitte mit dem Gehaltseingang am 19."], ["Use a polite request.", "Formuliere höflich."]]),
+  productionCard(8, "payment", "Write to the office: you transferred the amount yesterday and would like confirmation that it arrived.",
+    "Du hast den Betrag gestern überwiesen. Bitte das Amt schriftlich um eine Bestätigung des Zahlungseingangs.",
+    ["Ich habe den Betrag gestern überwiesen. Könnten Sie mir bitte den Zahlungseingang bestätigen?", "Gestern habe ich den Betrag überwiesen. Bitte bestätigen Sie mir den Eingang der Zahlung."],
+    [["State that the transfer was yesterday.", "Nenne die Überweisung von gestern."], ["Request confirmation of receipt.", "Bitte um eine Bestätigung des Zahlungseingangs."], ["Address the office formally.", "Verwende eine förmliche Anrede."]]),
+  productionCard(8, "letter", "You do not understand a letter. Politely ask the office to explain which amount you have to pay.",
+    "Ein Brief vom Amt ist unklar. Bitte höflich um eine Erklärung, welchen Betrag du zahlen musst.",
+    ["Könnten Sie mir bitte erklären, welchen Betrag ich zahlen muss?", "Ich verstehe den Brief nicht. Könnten Sie mir bitte erklären, wie viel ich bezahlen muss?"],
+    [["Ask for an explanation, not just a translation.", "Bitte um eine Erklärung."], ["Ask which amount you must pay.", "Frage nach dem zu zahlenden Betrag."], ["Use formal, polite language.", "Formuliere förmlich und höflich."]]),
+  productionCard(8, "standing-order", "Ask the bank how you can set up a standing order for your rent.",
+    "Du möchtest die Miete regelmäßig automatisch überweisen. Frage bei der Bank, wie du einen Dauerauftrag einrichten kannst.",
+    ["Können Sie mir erklären, wie ich einen Dauerauftrag für meine Miete einrichten kann?", "Wie kann ich einen Dauerauftrag für die Miete einrichten?"],
+    [["Ask how to set up a standing order.", "Frage nach dem Einrichten eines Dauerauftrags."], ["Specify rent payments.", "Nenne die Mietzahlungen."]]),
+  productionCard(9, "invitation", "Thank Miriam for her invitation. You work on Saturday and cannot come. Suggest meeting on Sunday instead.",
+    "Miriam lädt dich für Samstag ein. Du musst arbeiten. Bedanke dich, sage mit Begründung ab und schlage Sonntag vor.",
+    ["Danke für die Einladung! Am Samstag kann ich nicht kommen, weil ich arbeiten muss. Können wir uns stattdessen am Sonntag treffen?", "Vielen Dank für die Einladung. Leider muss ich am Samstag arbeiten. Wie wäre es mit einem Treffen am Sonntag?"],
+    [["Thank Miriam and decline Saturday.", "Bedanke dich und sage für Samstag ab."], ["Explain that you have to work.", "Nenne die Arbeit als Grund."], ["Suggest Sunday instead.", "Schlage stattdessen Sonntag vor."]]),
+  productionCard(9, "cake", "Tell Miriam you really like the cake that her grandmother baked. Use a relative clause.",
+    "Miriams Oma hat einen Kuchen gebacken, der dir sehr gut schmeckt. Sage das Miriam mit einem Relativsatz.",
+    ["Der Kuchen, den deine Oma gebacken hat, schmeckt mir sehr gut.", "Ich mag den Kuchen sehr, den deine Oma gebacken hat.", "Der Kuchen, den deine Großmutter gebacken hat, schmeckt mir sehr gut."],
+    [["Say that you like the cake.", "Sage, dass dir der Kuchen schmeckt."], ["Identify it as her grandmother's cake using a relative clause.", "Beschreibe den Kuchen ihrer Oma mit einem Relativsatz."]]),
+  productionCard(9, "guest", "Politely ask Miriam whether you may bring a friend to her party. Use an indirect question.",
+    "Du möchtest einen Freund zu Miriams Party mitbringen. Frage höflich mit einer indirekten Frage um Erlaubnis.",
+    ["Kannst du mir sagen, ob ich einen Freund zu deiner Party mitbringen darf?", "Ich wollte fragen, ob ich einen Freund zu deiner Party mitbringen darf."],
+    [["Ask permission to bring a friend.", "Bitte um Erlaubnis, einen Freund mitzubringen."], ["Use an indirect question with the verb at the end.", "Verwende eine indirekte Frage mit dem Verb am Ende."]]),
+  productionCard(9, "although", "Say that you were tired but went to the party anyway. Use obwohl or trotzdem.",
+    "Du warst müde und bist dennoch zur Party gegangen. Erzähle das mit obwohl oder trotzdem.",
+    ["Obwohl ich müde war, bin ich zur Party gegangen.", "Ich war müde. Trotzdem bin ich zur Party gegangen.", "Ich bin zur Party gegangen, obwohl ich müde war."],
+    [["Mention both tiredness and going to the party.", "Nenne die Müdigkeit und den Partybesuch."], ["Link the contrast with correct word order.", "Verbinde den Gegensatz mit passender Wortstellung."]]),
+  productionCard(10, "stolen", "Report to the police that your phone was stolen on the tram this morning.",
+    "Auf der Polizeiwache. Gestohlen: dein Handy. Ort: Straßenbahn. Zeitpunkt: heute Morgen. Erstatte Meldung.",
+    ["Mein Handy wurde heute Morgen in der Straßenbahn gestohlen.", "Mir wurde heute Morgen in der Straßenbahn das Handy gestohlen.", "Jemand hat heute Morgen in der Straßenbahn mein Handy gestohlen."],
+    [["Report a stolen phone.", "Melde den Diebstahl deines Handys."], ["Give the place and time.", "Nenne Straßenbahn und heute Morgen."]]),
+  productionCard(10, "sim", "Ask your mobile provider to block your SIM card immediately because your phone was stolen.",
+    "Dein Handy wurde gestohlen. Bitte deinen Mobilfunkanbieter, die SIM-Karte sofort zu sperren, und begründe die Bitte.",
+    ["Bitte sperren Sie meine SIM-Karte sofort, weil mein Handy gestohlen wurde.", "Mein Handy wurde gestohlen. Könnten Sie bitte sofort meine SIM-Karte sperren?"],
+    [["Request immediate SIM blocking.", "Bitte um sofortige Sperrung der SIM-Karte."], ["Explain the theft.", "Nenne den Diebstahl als Grund."], ["Use formal language with the provider.", "Sprich den Anbieter förmlich an."]]),
+  productionCard(10, "support", "Tell Deniz he can borrow your power bank until he returns from Ankara.",
+    "Deniz fliegt nach Ankara. Biete ihm deine Powerbank bis zu seiner Rückkehr an.",
+    ["Du kannst meine Powerbank behalten, bis du aus Ankara zurückkommst.", "Ich leihe dir meine Powerbank, bis du aus Ankara zurück bist.", "Du kannst meine Powerbank ausleihen, bis du aus Ankara zurückkommst."],
+    [["Offer your power bank.", "Biete deine Powerbank an."], ["Say he can keep it until he returns from Ankara.", "Nenne seine Rückkehr aus Ankara als Endzeitpunkt."]]),
+  productionCard(10, "report-copy", "Ask the police for a copy of your theft report because you need it for your insurance.",
+    "Deine Versicherung braucht einen Nachweis. Bitte die Polizei um eine Kopie der Diebstahlsanzeige und erkläre den Zweck.",
+    ["Könnte ich bitte eine Kopie der Anzeige bekommen? Ich brauche sie für meine Versicherung.", "Ich brauche eine Kopie der Diebstahlsanzeige für meine Versicherung. Könnten Sie mir bitte eine geben?"],
+    [["Request a copy of the report.", "Bitte um eine Kopie der Anzeige."], ["Explain that it is for insurance.", "Erkläre den Zweck: die Versicherung."], ["Make a polite request.", "Formuliere höflich."]]),
+  productionCard(11, "transport-opinion", "In the course debate, argue for better public transport. Give an environmental reason, but acknowledge the cost.",
+    "Im Kurs diskutiert ihr über den Nahverkehr. Begründe einen Ausbau mit einem Umweltargument, erkenne aber auch die Kosten an.",
+    ["Meiner Meinung nach sollte der öffentliche Nahverkehr ausgebaut werden, weil dadurch weniger Menschen mit dem Auto fahren. Allerdings wären die Kosten hoch.", "Ein besserer Nahverkehr könnte die Umwelt entlasten. Auch wenn der Ausbau teuer wäre, halte ich ihn für sinnvoll."],
+    [["State a position in favour of better public transport.", "Beziehe Stellung für einen besseren Nahverkehr."], ["Support it with an environmental reason.", "Begründe sie mit einem Umweltargument."], ["Acknowledge the financial drawback.", "Erkenne die finanziellen Nachteile an."]]),
+  productionCard(11, "reported", "Report the mayor's statement that the city wants to build more homes. Use Konjunktiv I to keep a journalistic distance.",
+    "Der Bürgermeister kündigt weitere Wohnungen an. Gib seine Aussage über die Bauabsicht der Stadt distanziert im Konjunktiv I wieder.",
+    ["Der Bürgermeister erklärte, die Stadt wolle mehr Wohnungen bauen.", "Der Bürgermeister sagte, die Stadt wolle mehr Wohnungen bauen.", "Laut dem Bürgermeister wolle die Stadt mehr Wohnungen bauen."],
+    [["Attribute the statement to the mayor.", "Nenne den Bürgermeister als Quelle."], ["Report the intention to build more homes.", "Gib die Absicht wieder, mehr Wohnungen zu bauen."], ["Use Konjunktiv I.", "Verwende den Konjunktiv I."]]),
+  productionCard(11, "home-office", "Give one advantage and one disadvantage of working from home, then draw a balanced conclusion.",
+    "Diskutiere das Homeoffice: Nenne einen Vorteil und einen Nachteil und ziehe ein abgewogenes Fazit.",
+    ["Einerseits spart man im Homeoffice den Arbeitsweg, andererseits fehlt der persönliche Austausch. Deshalb halte ich eine Mischung aus Büro und Homeoffice für sinnvoll.", "Im Homeoffice kann man flexibler arbeiten. Allerdings vermisst man oft die Kollegen. Eine Kombination aus beiden Arbeitsformen wäre daher ein guter Kompromiss."],
+    [["Give a specific benefit.", "Nenne einen konkreten Vorteil."], ["Give a specific drawback.", "Nenne einen konkreten Nachteil."], ["Draw a balanced conclusion, linking your ideas.", "Verknüpfe deine Gedanken zu einem abgewogenen Fazit."]]),
+  productionCard(11, "sources", "Miriam says all online articles are unreliable. Disagree politely and ask what evidence supports that generalisation.",
+    "Miriam hält alle Onlineartikel für unzuverlässig. Widersprich höflich und frage nach Belegen für diese Verallgemeinerung.",
+    ["Ich kann deine Bedenken verstehen, aber nicht alle Onlineartikel sind unzuverlässig. Auf welche Belege stützt du diese Aussage?", "Da bin ich anderer Meinung. Die Zuverlässigkeit hängt von der Quelle ab. Hast du Belege für diese Verallgemeinerung?"],
+    [["Disagree without attacking Miriam.", "Widersprich, ohne Miriam anzugreifen."], ["Question the generalisation.", "Hinterfrage die Verallgemeinerung."], ["Ask for supporting evidence.", "Bitte um Belege."]]),
+  productionCard(11, "notice", "Write a formal notice: the office is closed because the building is being renovated. Use a nominal expression for the reason.",
+    "Das Amtsgebäude wird umgebaut. Formuliere einen förmlichen Hinweis auf die Schließung und nenne den Grund im Nominalstil.",
+    ["Wegen des Umbaus bleibt das Amt geschlossen.", "Aufgrund der Renovierung bleibt das Amt geschlossen.", "Das Amt bleibt wegen der Renovierungsarbeiten geschlossen."],
+    [["Announce the closure of the office.", "Kündige die Schließung des Amts an."], ["Give the renovation as a nominal phrase.", "Nenne den Umbau mit einer Nominalgruppe."], ["Use a formal register.", "Verwende einen förmlichen Stil."]]),
+  productionCard(12, "contract", "Tell your employer you would like to extend your contract, provided that your working hours remain flexible.",
+    "Du möchtest den Vertrag verlängern, aber nur mit weiterhin flexiblen Arbeitszeiten. Formuliere deinen Wunsch und die Bedingung höflich.",
+    ["Ich würde meinen Vertrag gern verlängern, sofern meine Arbeitszeiten flexibel bleiben.", "Sofern meine Arbeitszeiten weiterhin flexibel bleiben, würde ich meinen Vertrag gerne verlängern."],
+    [["Express a wish to extend the contract.", "Äußere den Wunsch nach einer Vertragsverlängerung."], ["Make flexible hours a condition.", "Nenne flexible Arbeitszeiten als Bedingung."], ["Use a polite, professional register.", "Formuliere höflich und professionell."]]),
+  productionCard(12, "home", "Explain to Frau Schneider why Cologne feels like home, while acknowledging that you miss your family abroad.",
+    "Frau Schneider fragt, warum du bleiben möchtest. Erkläre dein Heimatgefühl in Köln und räume ein, dass dir deine Familie im Ausland fehlt.",
+    ["Obwohl ich meine Familie im Ausland vermisse, fühle ich mich in Köln zu Hause, weil ich hier gute Freunde gefunden habe.", "Meine Familie im Ausland fehlt mir zwar, aber Köln ist für mich ein Zuhause geworden. Hier habe ich Freunde und eine Arbeit, die mir gefällt."],
+    [["Explain why Cologne feels like home.", "Begründe dein Heimatgefühl in Köln."], ["Acknowledge missing your family abroad.", "Räume ein, dass deine Familie im Ausland dir fehlt."], ["Connect the two ideas coherently.", "Verbinde die Gedanken schlüssig."]]),
+  productionCard(12, "complaint", "Write a formal complaint about a course: neither the price nor the quality was convincing. Use a two-part connector.",
+    "Du bist von Preis und Qualität eines Kurses enttäuscht. Formuliere eine sachliche Beschwerde mit einem zweiteiligen Konnektor.",
+    ["Leider haben mich weder der Preis noch die Qualität des Kurses überzeugt.", "Weder der Preis noch die Qualität des Kurses konnten mich überzeugen."],
+    [["Criticise both price and quality.", "Kritisiere sowohl den Preis als auch die Qualität."], ["Use a two-part connector correctly.", "Verwende einen zweiteiligen Konnektor korrekt."], ["Remain factual and formal.", "Bleibe sachlich und förmlich."]]),
+  productionCard(12, "confidence", "Reflect on your progress: the more you practise German, the more confident you become. Use je … desto.",
+    "Blicke auf deinen Fortschritt zurück: Mehr Deutschpraxis führt zu mehr Sicherheit. Formuliere diesen Zusammenhang mit je … desto.",
+    ["Je mehr ich Deutsch übe, desto sicherer werde ich.", "Je mehr ich Deutsch spreche, desto selbstbewusster werde ich.", "Je öfter ich Deutsch übe, desto sicherer fühle ich mich."],
+    [["Link increased practice to increased confidence.", "Verbinde mehr Übung mit mehr Sicherheit."], ["Use je … desto with correct word order.", "Verwende je … desto mit korrekter Wortstellung."]]),
+  productionCard(12, "unless", "Tell Miriam you will attend the next course unless your work shifts change. Use es sei denn.",
+    "Du möchtest den nächsten Kurs besuchen. Nur geänderte Arbeitsschichten würden dich daran hindern. Erkläre Miriam deinen Plan mit es sei denn.",
+    ["Ich werde den nächsten Kurs besuchen, es sei denn, meine Arbeitsschichten ändern sich.", "Ich nehme am nächsten Kurs teil, es sei denn, meine Schichten ändern sich."],
+    [["State your plan to attend the next course.", "Nenne deinen Plan, den nächsten Kurs zu besuchen."], ["Make changing work shifts the exception.", "Nenne geänderte Arbeitsschichten als Ausnahme."], ["Use es sei denn with correct word order.", "Verwende es sei denn mit korrekter Wortstellung."]])
+];
+const PRODUCTION_QUOTA={A1:1, A2:3, B1:4, B2:5};
+
+/* Commands have their own identities in the same spaced-review scheduler. */
+const COMMANDS = [
+  ["listen", "Höre zu", "Listen", ["listen carefully"]],
+  ["repeat", "Sprich nach", "Repeat", ["repeat after me", "repeat aloud", "say it after me"]],
+  ["choose", "Wähle", "Choose", ["select", "pick"]],
+  ["match", "Ordne zu", "Match", ["match up", "assign"]],
+  ["complete", "Ergänze", "Complete", ["fill in", "complete it"]],
+  ["read", "Lies", "Read", ["read it"]],
+  ["write", "Schreibe", "Write", ["write it"]],
+  ["meaning", "Was bedeutet …?", "What does … mean?", ["what does it mean", "what does this mean"]],
+  ["true-false", "Richtig oder falsch?", "True or false?", ["right or wrong", "correct or incorrect"]],
+  ["fill", "Setze ein", "Fill in", ["insert", "fill in the blank", "fill in the blanks"]],
+  ["connect", "Verbinde", "Connect / match", ["connect", "match", "connect or match", "connect and match"]]
+].map(([id,de,en,aliases])=>({id:"cmd-"+id, ep:1, kind:"command", de, en, aliases}));
+const CARDS=DECK.concat(PRODUCTION, COMMANDS);
+
+/* Task wording is data: never derive English help from a card's answer. */
+const INSTRUCTIONS = {
+  recall:{en:"Type the German from memory.", hint:"Type in German.", de:"Schreibe die deutsche Antwort aus dem Gedächtnis.", help:"Use the meaning as a cue and type the German word or phrase yourself. You can use ae, oe, ue and ss for German special characters. Enter checks your answer.", command:"write"},
+  audio:{en:"Listen, then type what you hear in German. You can replay the audio.", hint:"Listen and type.", de:"Höre zu und schreibe auf Deutsch, was du hörst. Du kannst die Aufnahme wiederholen.", help:"Play the German audio, listen carefully and type what you hear. Replay as often as you need. The play button uses an available German voice on your device; it does not record you.", command:"listen"},
+  img:{en:"Look at the picture. Type its German name, including the article for a noun.", hint:"Name it in German.", de:"Sieh dir das Bild an. Schreibe das deutsche Wort, bei Nomen mit Artikel.", help:"Name the thing in the picture in German. Try to include the noun's article. Type your answer without a word bank, then press Enter to check.", command:"write"},
+  recallrev:{en:"Read the German and type its English meaning from memory.", hint:"Recall the meaning.", de:"Lies den deutschen Ausdruck und schreibe seine englische Bedeutung aus dem Gedächtnis.", help:"This reverse-recall exercise checks comprehension. Read the German expression and type its meaning in English, then check your answer.", command:"meaning"},
+  choice:{en:"Choose the German word or phrase that matches the meaning.", hint:"Choose the German.", de:"Wähle den passenden deutschen Ausdruck.", help:"The meaning is your cue. Select the matching German option. Only one option is the target; you can click it or use its number key.", command:"choose"},
+  choicecorrect:{en:"Choose the correct German sentence. The other options contain an error.", hint:"Choose the correct sentence.", de:"Wähle den richtigen deutschen Satz. Die anderen Antworten enthalten einen Fehler.", help:"Read each German option and select the correct one. The others contain a grammar error. Use a button or its number key; this help does not identify the correct option.", command:"choose"},
+  builder:{en:"Build the German sentence from the word tiles. One tile is extra.", hint:"Put the tiles in order.", de:"Ordne die Wortkärtchen zu einem deutschen Satz. Ein Kärtchen bleibt übrig.", help:"Choose tiles in the order they belong in the German sentence. Tap a tile in your answer to return it to the bank. One tile is extra. The separate answer-hint button reveals part of the sentence and reduces XP; opening this English help does not."},
+  teach:{en:"Explain the rule aloud in your own words, without looking at the model. You have 45 seconds.", hint:"Explain the rule aloud.", de:"Erkläre die Regel laut in eigenen Worten, ohne die Mustererklärung anzusehen. Du hast 45 Sekunden.", help:"Explain the rule aloud as if teaching a friend. Use simple language and your own examples. Mark yourself done when ready, or use Space when no control is focused. The timer pauses while this help is open. Your voice is not recorded or automatically graded."},
+  hunt:{en:"Step 1: read the German sentence and choose the type of error.", hint:"Identify the error type.", de:"Schritt 1: Lies den deutschen Satz und wähle die Fehlerart.", help:"First diagnose what kind of grammar error the sentence contains. Select an error category. In the next step you will choose a corrected German sentence.", command:"read"},
+  huntFix:{en:"Step 2: choose the corrected German sentence.", hint:"Choose the correction.", de:"Schritt 2: Wähle den korrigierten deutschen Satz.", help:"You have diagnosed the error. Now choose the German sentence that fixes it. Both the diagnosis and the correction contribute to your result.", command:"choose"},
+  teachRate:{en:"Rate what you actually explained aloud. Be honest about gaps or hesitation.", hint:"Rate your explanation.", de:"Bewerte ehrlich, wie gut du die Regel laut erklärt hast. Achte auf Lücken und Zögern.", help:"Choose the rating that matches what you actually said, not what looks familiar now. If you looked at the model, your result is capped and XP is reduced. The app has not listened to or evaluated your speech."},
+  production:{en:"Respond in your own German. Say it aloud, then type it — or compare your spoken answer yourself.", hint:"Say it in your own German.", de:"Antworte mit eigenen deutschen Worten. Sprich zuerst und tippe dann, oder vergleiche deine gesprochene Antwort selbst.", help:"Turn the situation into a German response of your own. There may be several good ways to say it. Type to check known variants, or say it aloud and choose the spoken-answer comparison. Models appear only after you submit or choose to compare. No microphone is used; spoken answers are self-assessed. Ctrl or Command plus Enter submits typed text.", command:"write"},
+  productionReview:{en:"Different wording can be valid. Compare your response with one possible answer and check each communication goal before rating yourself.", hint:"Compare meaning, then self-rate.", de:"Andere Formulierungen können richtig sein. Vergleiche deine Antwort mit einem Beispiel und prüfe jedes Kommunikationsziel, bevor du dich selbst bewertest.", help:"The offline checker only recognises a curated set of answers; an unrecognised response is not automatically wrong. Compare what you actually wrote or said with the model. Check the goals you met and the German sentence structure. This is self-assessment, not automatic grammar or pronunciation grading. If unsure, choose more practice."},
+  commandChoice:{en:"Learn a German exercise command. Choose its English meaning.", hint:"Choose the command's meaning.", de:"Lerne eine deutsche Aufgabenanweisung. Wähle ihre englische Bedeutung.", help:"This special instruction-training card teaches classroom German, not story vocabulary. Read the German command and choose its English meaning. These commands return through spaced review; later you will recall the meaning without options.", command:"meaning"},
+  commandRecall:{en:"Read the German exercise command. Type its English meaning without options.", hint:"Recall the command's meaning.", de:"Lies die deutsche Aufgabenanweisung. Schreibe ihre englische Bedeutung ohne Auswahlhilfe.", help:"You have practised this command before. Now recall what it asks you to do and type the meaning in English. This is the dedicated classroom-command trainer; ordinary German answers are not translated by this help.", command:"meaning"},
+  feedback:{en:"Compare the answer, then continue. Anything you need to practise will return.", hint:"Review, then continue.", de:"Vergleiche die Antwort und mache dann weiter. Was du noch üben musst, kommt wieder.", help:"Read the feedback after your attempt. Choose Next, or press Enter when you are not using another control. A missed card returns in this session (up to twice) and through later spaced review. English instruction help never reduces your XP."}
+};
+const SCAFFOLD = {
+  A1:{en:"English first, German alongside", de:"Englisch zuerst, Deutsch daneben"},
+  A2:{en:"A short English nudge, German directions", de:"Kurzer englischer Hinweis, deutsche Anweisung"},
+  B1:{en:"German first, English on request", de:"Deutsch zuerst, Englisch auf Wunsch"},
+  B2:{en:"German by default, optional English help", de:"Deutsch als Standard, Englisch nur auf Wunsch"}
+};
+const ERR_TYPES_DE=["Wortstellung","Artikel & Kasus","Verneinung","Trennbares Verb","Hilfsverb","Satzstruktur","Präposition","Konnektor","Indirekte Rede"];
+
+/* Teach-back prompts are instructions too; the rule/model stays hidden until review. */
+const TEACH_DE = {
+  g6:["Sie oder du?", "Erkläre laut, wann du Sie und wann du du verwendest und wie sich die Verbform ändert."],
+  eg1:["Ein deutsches Formular lesen", "Erkläre laut, welche Angaben Vorname, Nachname, Geburtsdatum und ledig/verheiratet verlangen und wie man das Datum schreibt."],
+  g7:["Nomen mit Artikel lernen", "Erkläre laut, warum man nicht nur Tisch, sondern auch den Artikel lernen sollte und was genau man sich merken muss."],
+  g4:["Verneinung: kein oder nicht?", "Erkläre laut den Unterschied zwischen kein und nicht. Gib jeweils ein Beispiel."],
+  g8:["Dreizehn oder dreißig?", "Erkläre laut, wie du dreizehn und dreißig beim Hören unterscheiden kannst."],
+  g5:["Trennbare Verben", "Erkläre laut, was mit aufstehen und einziehen in einem normalen Hauptsatz passiert."],
+  g9:["Präpositionen mit Dativ", "Erkläre laut, welche Präpositionen immer den Dativ verlangen. Gib ein Beispiel mit zu."],
+  a2g2:["Nebensätze: weil und dass", "Erkläre laut, wo das Verb nach weil und dass steht."],
+  a2g5:["Dativverben: helfen, danken, gefallen", "Erkläre laut, welchen Kasus die Verben helfen, danken und gefallen verlangen."],
+  a2g1:["Präteritum: war und hatte", "Erkläre laut, wann man war und hatte statt des Perfekts verwendet."],
+  a2g4:["Reflexive Verben", "Erkläre laut die Funktion von mich in Ich freue mich und den Unterschied zwischen sich freuen auf und sich freuen über."],
+  a2g6:["Absicht: um … zu oder damit?", "Erkläre laut den Unterschied zwischen um … zu und damit. Gib jeweils ein Beispiel."],
+  g3:["Wo oder wohin?", "Erkläre einfach, wann in den Akkusativ und wann den Dativ verlangt."],
+  eg2:["Zahlen und Geldbeträge schreiben", "Erkläre laut, wie man 1.234,56 € liest und welche Funktion das Komma hat."],
+  b1g1:["Passiv: werden + Partizip II", "Erkläre laut die Bildung des Passivs und wie man die handelnde Person nennt."],
+  b1g2:["Konjunktiv II: hätte, wäre, würde", "Erkläre laut, wie hätte, wäre und würde Höflichkeit oder hypothetische Situationen ausdrücken. Gib jeweils ein Beispiel."],
+  b1g3:["Relativsätze", "Erkläre laut die Wahl des Relativpronomens in Das Haus, das dort steht und Der Mann, dem ich helfe."],
+  b1g4:["Indirekte Fragen", "Erkläre laut, wie du Hat er Zeit? und Wo ist der Bahnhof? in indirekte Fragen umwandelst."],
+  b1g5:["Obwohl oder trotzdem?", "Erkläre laut den Unterschied zwischen obwohl und trotzdem, einschließlich der Wortstellung."],
+  eg4:["Notruf: 110 und 112", "Erkläre laut, welche Nummer für Polizei und welche für Feuerwehr und Rettungsdienst gilt und was du zuerst sagen würdest."],
+  b2g5:["Alternativen zum Passiv", "Erkläre laut drei Möglichkeiten, die Lösbarkeit eines Problems ohne echtes Passiv auszudrücken."],
+  b2g1:["Konjunktiv I: indirekte Rede", "Erkläre laut den Konjunktiv I in Er sagte, er habe … und was man bei uneindeutigen Formen macht."],
+  b2g2:["Partizipialattribute", "Erkläre laut, wie du die von den Studierenden gestellten Fragen in einen Relativsatz umwandelst."],
+  b2g3:["Nominalstil", "Erkläre laut, wie Verben zu Nomen werden und warum amtliche Briefe den Nominalstil verwenden."],
+  b2g4:["Zweiteilige Konnektoren", "Erkläre laut nicht nur … sondern auch, sowohl … als auch und weder … noch sowie die Wortstellung bei je … desto."],
+  b2g6:["Bedingungen und Ausnahmen", "Erkläre laut sofern und es sei denn sowie die Wortstellung nach jedem Konnektor."],
+  b1g6:["Genitiv: des und der", "Erkläre laut, wann man den Genitiv mit des oder der braucht und welche Präpositionen ihn verlangen."]
+};
+
+const MAP={}; CARDS.forEach(c=>MAP[c.id]=c);
 const ERR_TYPES=["Word order","Article & case","Negation","Separable verb","Helper verb","Clause structure","Preposition","Connector","Reported speech"];
 const BOX_MIN=[0,10,1440,4320,10080,30240,86400];
 const RANKS=[[0,"Neuling"],[150,"Wort-Sammler"],[400,"Satz-Baumeister"],[800,"Grammatik-Ritter"],[1500,"Konjunktiv-Kapitän"],[2500,"Goethe-Geselle"],[4000,"Umlaut-Ultralord"]];
-const XP_BASE={recall:14, recallrev:10, choice:8, choicecorrect:10, builder:12, teach:20, hunt:12, audio:14, img:14};
-const MG_NAME={recall:"Free recall", recallrev:"Reverse recall", choice:"Blitzwahl", choicecorrect:"Richtig oder falsch?", builder:"Satzbau", teach:"Professor-Modus", hunt:"Fehler-Jagd", audio:"Hör-Profi", img:"Bild-Karte"};
-const KIND_NAME={word:"Wortschatz",chunk:"Chunk",sentence:"Satz",grammar:"Grammatik",error:"Fehler-Jagd"};
+const XP_BASE={recall:14, recallrev:10, choice:8, choicecorrect:10, builder:12, teach:20, hunt:12, audio:14, img:14, production:24, command:10};
+const MG_NAME={recall:"Freier Abruf", recallrev:"Bedeutung abrufen", choice:"Blitzwahl", choicecorrect:"Richtig oder falsch?", builder:"Satzbau", teach:"Professor-Modus", hunt:"Fehler-Jagd", audio:"Hör-Profi", img:"Bild-Karte", production:"Selbst formulieren", command:"Anweisungs-Training"};
+const KIND_NAME={word:"Wortschatz",chunk:"Chunk",sentence:"Satz",grammar:"Grammatik",error:"Fehler-Jagd",production:"Freie Produktion",command:"Aufgabenanweisungen"};
 
 /* ------------------------------ STORAGE ------------------------------ */
 const store=(function(){ try{ localStorage.setItem("__dq","1"); localStorage.removeItem("__dq"); return localStorage; }
  catch(e){ const m=new Map(); return {getItem:k=>m.has(k)?m.get(k):null, setItem:(k,v)=>m.set(k,String(v)), removeItem:k=>m.delete(k)}; } })();
-const KEY="deutschquest.v2";
-let S={xp:0, sound:true, speech:true, streak:{last:"",count:0}, items:{}, prog:{ep:1, done:{}},
-       stats:{sessions:0, answers:0, correct:0, fog:0, bestCombo:0, reviews:0}};
-function load(){ try{ const raw=store.getItem(KEY); if(raw){ S=Object.assign(S,JSON.parse(raw)); S.prog=S.prog||{ep:1,done:{}}; } }catch(e){} }
+const KEY="deutschquest.v2"; // Keep the existing key: old saves upgrade in place.
+function freshState(){
+  return {xp:0, sound:true, speech:true, streak:{last:"",count:0}, items:{}, prog:{ep:1,done:{}},
+    stats:{sessions:0,answers:0,correct:0,fog:0,bestCombo:0,reviews:0,production:0,productionMatched:0,productionSelfRated:0}};
+}
+function restoreProgress(raw){
+  if(!raw || typeof raw!=="object" || Array.isArray(raw)) throw new Error("Invalid progress");
+  const state=freshState();
+  const number=(value,fallback=0)=>typeof value==="number"&&Number.isFinite(value)&&value>=0?value:fallback;
+  state.xp=number(raw.xp);
+  for(const key of ["sound","speech"]) if(typeof raw[key]==="boolean") state[key]=raw[key];
+  state.prog.ep=Math.min(EPS.length,Math.max(1,Math.floor(number(raw.prog&&raw.prog.ep,1))));
+  for(const [ep,score] of Object.entries(raw.prog&&raw.prog.done||{})){
+    if(EPS.some(e=>String(e.n)===ep)&&typeof score==="number"&&Number.isFinite(score)) state.prog.done[ep]=Math.max(0,Math.min(100,score));
+  }
+  if(raw.streak){
+    state.streak.last=typeof raw.streak.last==="string"&&/^\d{4}-\d{2}-\d{2}$/.test(raw.streak.last)?raw.streak.last:"";
+    state.streak.count=number(raw.streak.count);
+  }
+  for(const key of Object.keys(state.stats)) state.stats[key]=number(raw.stats&&raw.stats[key]);
+  for(const [id,it] of Object.entries(raw.items||{})){
+    if(!it||typeof it!=="object"||["__proto__","constructor","prototype"].includes(id)) continue;
+    state.items[id]={box:Math.min(6,Math.floor(number(it.box))),due:number(it.due),reps:number(it.reps),lapses:number(it.lapses),last:number(it.last)};
+  }
+  return state;
+}
+let S=freshState();
+function load(){ try{ const raw=store.getItem(KEY); if(raw) S=restoreProgress(JSON.parse(raw)); }catch(e){} }
 function save(){ try{ store.setItem(KEY,JSON.stringify(S)); }catch(e){} }
 load();
 
@@ -490,13 +786,90 @@ function norm(s){ return String(s).toLowerCase().replace(/\(.*?\)/g," ").replace
   .replace(/[.!?,;:]+$/,"").replace(/\s+/g," ").trim(); }
 function acceptSet(card){ const set=new Set([norm(card.de)]);
   const m=norm(card.de).match(/^(der|die|das)\s+(.+)$/); if(m) set.add(m[2]); return set; }
-function fmtDue(ts){ const d=ts-Date.now(); if(d<=0) return "due now";
+function fmtDue(ts){ const d=ts-Date.now(); if(d<=0) return ui("due now","jetzt fällig");
   const min=Math.round(d/60000); if(min<60) return "in "+min+" min";
-  const h=Math.round(min/60); if(h<24) return "in "+h+" h"; return "in "+Math.round(h/24)+" d"; }
+  const h=Math.round(min/60); if(h<24) return "in "+h+ui(" h"," Std."); return "in "+Math.round(h/24)+ui(" d"," Tagen"); }
 function rankOf(xp){ let r=RANKS[0]; for(const t of RANKS) if(xp>=t[0]) r=t; return r; }
 function nextRank(xp){ for(const t of RANKS) if(xp<t[0]) return t; return null; }
 function epOf(n){ return EPS.find(e=>e.n===n); }
 function unlocked(n){ return n<=S.prog.ep; }
+
+/* The episode being played determines scaffolding. Mixed review uses learner progress,
+   not the level of an old review card. A session's level stays stable until it ends. */
+function cefrLevel(ep){
+  if(ep==null && G && G.level) return G.level;
+  return (epOf(ep==null?S.prog.ep:ep)||EPS[0]).lvl;
+}
+function ui(en,de,level=cefrLevel()){ return level==="A1"||level==="A2"?en:de; }
+function esc(value){ return String(value).replace(/[&<>"']/g,ch=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch])); }
+function instructionData(key){
+  const data={...INSTRUCTIONS[key]};
+  if(key==="teach" && G && G.cur){
+    const card=G.cur.card, german=TEACH_DE[card.id];
+    data.en=card.teach+" "+data.en;
+    data.de=german[1]+" "+data.de;
+    data.help=card.teach+" "+data.help;
+  }
+  return data;
+}
+function englishHelpHTML(key,level=cefrLevel()){
+  const data=instructionData(key);
+  const label=level==="B1"?"💡 What does this mean?":level==="B2"?"💡 Hilfe auf Englisch":"💡 Help in English";
+  return '<details class="english-help" id="english-help" data-help-for="'+key+'"><summary lang="'+(level==="B2"?'de':'en')+'">'+label+'</summary>'+
+    '<div class="help-copy" lang="en"><p>'+esc(data.help)+'</p><p class="small mut">Instructions only — no answer revealed, no XP penalty.</p></div></details>';
+}
+function instructionHTML(key,level=cefrLevel()){
+  const data=instructionData(key);
+  let html='<section class="instructions" data-instruction="'+key+'" data-level="'+level+'" aria-label="'+ui('Exercise instructions','Aufgabenanweisung',level)+'">';
+  if(level==="A1") html+='<p id="instruction-support" class="instruction-en" lang="en">'+esc(data.en)+'</p>';
+  if(level==="A2") html+='<p id="instruction-support" class="instruction-hint small" lang="en">'+esc(data.hint)+'</p>';
+  html+='<p id="instruction-text" class="instruction-de'+(level==="A1"?' secondary':'')+'" lang="de">'+esc(data.de)+'</p>';
+  // A1 keeps the full bilingual instruction even when a command has been mastered.
+  // This little bridge teaches recurring verbs without translating exercise answers.
+  const command=COMMANDS.find(c=>c.id==="cmd-"+data.command);
+  if(level==="A1" && command && key!=="commandChoice" && key!=="commandRecall"){
+    html+='<div class="command-bridge small"><span lang="en">Classroom German:</span> <b lang="de">'+esc(command.de)+'</b> <span lang="en">= '+esc(command.en)+'</span></div>';
+  }
+  return html+englishHelpHTML(key,level)+'</section>';
+}
+function answerField(multiline=false,language="de"){
+  const label=language==="de"?ui("Your German","Deine Antwort auf Deutsch"):ui("English meaning","Englische Bedeutung");
+  const description=ui('instruction-support instruction-text','instruction-text');
+  const attrs='id="ans" lang="'+language+'" autocomplete="off" autocapitalize="off" spellcheck="false" maxlength="1200" aria-describedby="'+description+' answer-error"';
+  return '<div class="answer-field"><label for="ans" class="small mut">'+label+'</label>'+
+    (multiline?'<textarea '+attrs+' rows="3"></textarea>':'<input type="text" '+attrs+'>')+
+    '<div id="answer-error" class="small error-message" role="alert" hidden></div></div>';
+}
+function requireAnswer(){
+  const input=$("#ans"), error=$("#answer-error");
+  if(!input) return null;
+  if(!input.value.trim()){
+    if(error){ error.textContent=ui("Try an answer first. Nothing has been graded yet.","Versuche zuerst eine Antwort. Es wurde noch nichts bewertet."); error.hidden=false; }
+    input.setAttribute("aria-invalid","true"); input.focus(); return null;
+  }
+  if(error) error.hidden=true;
+  input.removeAttribute("aria-invalid");
+  return input.value.trim();
+}
+function errorTypeLabel(type){ const i=ERR_TYPES.indexOf(type); return ui(type,ERR_TYPES_DE[i]||type); }
+function commandMastery(){ return COMMANDS.filter(c=>{const it=itemOf(c.id); return it&&it.box>=3;}).length; }
+function commandAccepts(card,text){ return [card.en].concat(card.aliases).some(answer=>normProduction(answer)===normProduction(text)); }
+function normProduction(text){
+  // Ignore typography, not meaning or word order. No fuzzy substring/keyword passes.
+  return String(text).normalize("NFC").toLowerCase().replace(/ß/g,"ss").replace(/ä/g,"ae").replace(/ö/g,"oe").replace(/ü/g,"ue")
+    .replace(/[.,!?;:…„“”"'’«»()/]/g," ").replace(/\s+/g," ").trim();
+}
+function productionAccepts(card,text){ const value=normProduction(text); return !!value&&card.answers.some(a=>normProduction(a)===value); }
+function clearSessionTimers(){
+  if(!G) return;
+  clearInterval(G.timer); clearTimeout(G.pending); clearTimeout(G.audioTimer);
+  G.timer=null; G.pending=null; G.audioTimer=null;
+}
+function stopSession(){
+  clearSessionTimers();
+  if("speechSynthesis" in window) window.speechSynthesis.cancel();
+  G=null;
+}
 
 /* ------------------------------ AUDIO ------------------------------ */
 let AC=null;
@@ -534,41 +907,55 @@ function gradeCard(id,g){ const it=S.items[id]||(S.items[id]={box:0,due:0,reps:0
   it.reps++; it.last=Date.now();
   if(g<=1){ it.lapses++; it.box=0; it.due=Date.now()+45000; return true; }
   it.box=Math.min(6,it.box+1); it.due=Date.now()+BOX_MIN[it.box]*60000; return false; }
-function dueList(){ const now=Date.now(); return DECK.filter(c=>{ const it=itemOf(c.id); return it&&it.due<=now; }); }
+function dueList(){ const now=Date.now(); return CARDS.filter(c=>{ const it=itemOf(c.id); return it&&it.due<=now; }); }
 
 /* ------------------------------ SESSION BUILDER (laws 2+3 + cross-episode review) ------------------------------ */
-function reviewPool(n,excludeEp){
-  const now=Date.now();
-  let pool=DECK.filter(c=>{ const it=itemOf(c.id);
-    return it && it.due<=now && (excludeEp==null || c.ep!==excludeEp); });
+function reviewPool(n,excludeEp,excludeIds=[]){
+  const now=Date.now(), excluded=new Set(excludeIds);
+  const pool=CARDS.filter(c=>{ const it=itemOf(c.id);
+    return it && it.due<=now && !excluded.has(c.id) && (excludeEp==null || c.ep!==excludeEp); });
   pool.sort((a,b)=>{ const ia=itemOf(a.id), ib=itemOf(b.id);
-    return (ib.lapses-ia.lapses)||((now-ib.due)-(now-ia.due)); });   // lapses first, then most overdue
+    return (ib.lapses-ia.lapses)||(ia.due-ib.due); });
   return pool.slice(0,n).map(c=>c.id);
 }
 function interleaveKinds(ids){ const pool=shuffle(ids), out=[];
   while(pool.length){ let i=pool.findIndex(id=>!out.length||MAP[id].kind!==MAP[out[out.length-1]].kind);
     if(i<0)i=0; out.push(pool.splice(i,1)[0]); } return out; }
+function practiceOrder(cards){
+  const priority=c=>{ const it=itemOf(c.id);
+    if(it&&it.due<=Date.now()&&it.lapses) return 4000+Math.min(it.lapses,100);
+    if(!it) return 3000;
+    if(it.due<=Date.now()) return 2000+(6-it.box)*10;
+    return 1000+(6-it.box)*10;
+  };
+  return shuffle(cards).sort((a,b)=>priority(b)-priority(a));
+}
+function buildCommandQueue(n=6,lesson=false){
+  const pool=COMMANDS.filter(c=>{const it=itemOf(c.id); return !lesson||!it||it.box<3||it.due<=Date.now();});
+  return practiceOrder(pool).slice(0,n).map(c=>c.id);
+}
+function buildProductionQueue(){ return practiceOrder(PRODUCTION.filter(c=>unlocked(c.ep))).slice(0,8).map(c=>c.id); }
 function buildEpisodeQueue(ep){
-  const rev=reviewPool(4,ep);                                  // law: misses return in later lessons
-  const epCards=DECK.filter(c=>c.ep===ep);
-  const news=shuffle(epCards.filter(c=>!itemOf(c.id))).map(c=>c.id);
-  const seen=shuffle(epCards.filter(c=>itemOf(c.id)))
-    .sort((a,b)=>(fogOf(b.id)||9)-(fogOf(a.id)||9)).map(c=>c.id);
-  let fill=news.concat(seen);
-  const need=12-rev.length;
-  let ids=rev.concat(fill.slice(0,need));
-  if(ids.length<12){ const extra=dueList().filter(c=>ids.indexOf(c.id)<0).slice(0,12-ids.length).map(c=>c.id); ids=ids.concat(extra); }
-  return {ids:interleaveKinds(ids), nRev:rev.length};
+  const level=cefrLevel(ep);
+  // Reserve production slots before sampling regular cards: they cannot disappear
+  // due to random mini-game selection or a large review backlog.
+  const production=practiceOrder(PRODUCTION.filter(c=>c.ep===ep)).slice(0,PRODUCTION_QUOTA[level]).map(c=>c.id);
+  const commands=buildCommandQueue(level==="A1"?2:level==="A2"?1:0,true);
+  const reserved=production.concat(commands);
+  const rev=reviewPool(4,ep,reserved);
+  const fill=practiceOrder(DECK.filter(c=>c.ep===ep)).map(c=>c.id);
+  let ids=reserved.concat(rev,fill.slice(0,12-reserved.length-rev.length));
+  if(ids.length<12){ const extra=dueList().filter(c=>!ids.includes(c.id)).slice(0,12-ids.length).map(c=>c.id); ids=ids.concat(extra); }
+  return {ids:interleaveKinds(ids),nRev:rev.length,reviewIds:rev,nProduction:production.length,nCommands:commands.length};
 }
 function buildReviewQueue(){ return interleaveKinds(reviewPool(12,null)); }
-function buildProfQueue(){ const now=Date.now();
-  const pool=DECK.filter(c=>c.kind==="grammar"&&unlocked(c.ep));
-  const scored=pool.map(c=>{ const it=itemOf(c.id); let p;
-    if(!it) p=400; else if(it.due<=now) p=1000; else p=300-(fogOf(c.id)||0)*50;
-    return [c.id,p+Math.random()*40]; });
-  scored.sort((a,b)=>b[1]-a[1]); return scored.slice(0,8).map(x=>x[0]); }
+function buildProfQueue(){
+  return practiceOrder(DECK.filter(c=>c.kind==="grammar"&&unlocked(c.ep))).slice(0,8).map(c=>c.id);
+}
 function mgOptions(card){
   switch(card.kind){
+    case "production": return ["production"];
+    case "command": return ["command"];
     case "word": return (card.img?["recall","img","choice","img"]:["recall","choice","recall"]).concat(voiceOK()?["audio"]:[]);
     case "chunk": return ["recall","builder","choice"];
     case "sentence": return ["builder","recall","builder"];
@@ -580,19 +967,26 @@ function mgOptions(card){
 /* ------------------------------ GAME STATE ------------------------------ */
 let G=null;
 function startSession(ids,title,forceMG,meta){
-  G={queue:ids.slice(), i:0, combo:0, best:0, xp:0, correct:0, total:0, fogHits:0, rev:0,
-     repeats:{}, prevMG:null, forceMG:forceMG||null, title:title, meta:meta||{}, phase:"answer", cur:null, timer:null};
+  stopSession();
+  meta=meta||{};
+  G={queue:ids.slice(),i:0,combo:0,best:0,xp:0,correct:0,total:0,fogHits:0,rev:0,production:0,productionMatched:0,productionSelfRated:0,
+     repeats:{},prevMG:null,forceMG:forceMG||null,title,meta,level:cefrLevel(meta.ep==null?S.prog.ep:meta.ep),
+     phase:"answer",cur:null,timer:null,pending:null,audioTimer:null};
   nextCard();
 }
 function nextCard(){
-  if(G.timer){ clearInterval(G.timer); G.timer=null; }
+  if(!G) return;
+  clearSessionTimers();
+  if("speechSynthesis" in window) window.speechSynthesis.cancel();
   if(G.i>=G.queue.length){ endSession(); return; }
   const id=G.queue[G.i], card=MAP[id];
-  let mg=G.forceMG||(function(){ const o=mgOptions(card); let p=o.filter(x=>x!==G.prevMG); if(!p.length)p=o; return p[rnd(p.length)]; })();
+  const mg=G.forceMG||(function(){ const o=mgOptions(card); let p=o.filter(x=>x!==G.prevMG); if(!p.length)p=o; return p[rnd(p.length)]; })();
   G.prevMG=mg;
-  const fog=fogOf(id);
-  G.cur={id:id, card:card, mg:mg, fog:fog, peeked:false, hinted:false, placed:[], bank:[], opts:null, ci:-1, huntStep:0, huntTypeOK:false,
-         isRev: G.meta.ep!=null && card.ep!==G.meta.ep};
+  const fog=fogOf(id), it=itemOf(id);
+  G.cur={id,card,mg,fog,peeked:false,hinted:false,finished:false,placed:[],bank:[],opts:null,ci:-1,huntStep:0,huntTypeOK:false,
+    commandRecall:card.kind==="command"&&!!it&&it.box>=2,
+    englishCue:G.meta.englishThought!=null?G.meta.englishThought:G.level==="A1"||G.level==="A2",
+    isRev:G.meta.mode==="review"||(G.meta.reviewIds||[]).includes(id)||(G.meta.ep!=null&&card.ep!==G.meta.ep&&card.kind!=="command")};
   if(G.cur.isRev) G.rev++;
   G.phase="answer";
   present();
@@ -604,89 +998,125 @@ function topbar(){
   return '<header class="top"><span class="logo"><b>Deutsch</b><i>Quest</i></span>'+
     '<span class="chip">⭐ <b>'+S.xp+'</b> · '+r[1]+'</span>'+
     '<span class="chip">🔥 <b>'+S.streak.count+'</b></span>'+
-    '<span class="chip">📥 <b>'+dueList().length+'</b> due</span><span class="spacer"></span>'+
-    (G?'<button class="ghost" data-act="quit">✕ quit</button>':'')+'</header>';
+    '<span class="chip">📥 <b>'+dueList().length+'</b> '+ui('due','fällig')+'</span><span class="spacer"></span>'+
+    (G?'<button class="ghost" data-act="quit">✕ '+ui('quit','Beenden')+'</button>':'')+'</header>';
 }
-function fogBadge(f){ if(f==null) return '<span class="fogbadge">🌱 new card</span>';
-  if(f>=0.6&&f<1.3) return '<span class="fogbadge">🌫️ nicely foggy · ×1.5 XP</span>';
-  if(f>=1.3) return '<span class="fogbadge">⏰ overdue</span>';
-  return '<span class="fogbadge">💧 still fresh</span>'; }
+function fogBadge(f){ if(f==null) return '<span class="fogbadge">🌱 '+ui('new card','neue Karte')+'</span>';
+  if(f>=0.6&&f<1.3) return '<span class="fogbadge">🌫️ '+ui('nicely foggy','fast vergessen')+' · ×1.5 XP</span>';
+  if(f>=1.3) return '<span class="fogbadge">⏰ '+ui('overdue','überfällig')+'</span>';
+  return '<span class="fogbadge">💧 '+ui('still fresh','noch frisch')+'</span>'; }
 function progress(){ const pct=Math.round(100*G.i/Math.max(1,G.queue.length));
-  return '<div class="pbar"><div style="width:'+pct+'%"></div></div><div class="small mut">'+G.title+
-    ' · card '+(G.i+1)+'/'+G.queue.length+' · combo ×'+(1+Math.min(G.combo,10)*0.1).toFixed(1)+
-    (G.rev?' · 🔁 '+G.rev+' review':'' )+'</div>'; }
-
+  return '<div class="pbar" role="progressbar" aria-label="'+ui('Session progress','Lernfortschritt')+'" aria-valuenow="'+pct+'" aria-valuemin="0" aria-valuemax="100"><div style="width:'+pct+'%"></div></div>'+
+    '<div class="session-progress small mut">'+esc(G.title)+' · '+ui('card','Karte')+' '+(G.i+1)+'/'+G.queue.length+
+    ' · '+ui('combo','Serie')+' ×'+(1+Math.min(G.combo,10)*0.1).toFixed(1)+(G.rev?' · 🔁 '+G.rev+' '+ui('review','wiederholt'):'')+'</div>';
+}
+function optionButtons(opts,action){
+  return opts.map((o,i)=>'<button class="opt" data-act="'+action+'" data-i="'+i+'" data-key="'+(i+1)+'"><span class="k">'+(i+1)+'</span>'+esc(o)+'</button>').join('');
+}
+function productionCue(c){ return '<div class="production-situation"><div class="small mut">💭 '+ui('Your thought → German','Situation → eigene Worte')+'</div>'+
+  '<p id="production-situation" lang="'+(c.englishCue?'en':'de')+'">'+esc(c.englishCue?c.card.promptEn:c.card.promptDe)+'</p></div>'; }
+function cueButtonLabel(c){ return c.englishCue?ui('Use the German situation','Situation auf Deutsch'):ui('Use an English thought cue','Gedankenimpuls auf Englisch'); }
 function present(){
   const c=G.cur, k=c.card;
-  let body="";
+  let body='', instruction=c.mg;
   if(c.mg==="recall"||c.mg==="audio"){
-    const prompt=c.mg==="audio"
-      ? '<div class="de">🔊 Hör-Profi</div><div class="en">Listen (on-device voice), then type what you hear.</div><div class="row"><button data-act="say" class="primary">▶ play again</button></div>'
-      : '<div class="en">'+k.en+'</div><div class="small mut">Type the German from memory — no peeking. <kbd>Enter</kbd> to check.</div>';
-    body=prompt+'<div style="margin-top:12px"><input type="text" id="ans" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="auf Deutsch …"></div>'+
-         '<div style="margin-top:10px"><button class="primary" data-act="check-recall">Check</button></div>';
-    if(c.mg==="audio") setTimeout(()=>speak(k.de),150);
+    body=(c.mg==="audio"
+      ? '<div class="row"><button data-act="say" class="primary">▶ '+ui('Play German audio','Deutsch abspielen')+'</button></div>'
+      : '<div class="en task-cue" lang="en">'+esc(k.en)+'</div>')+
+      answerField()+'<button class="primary" data-act="check-recall">'+ui('Check','Prüfen')+' <kbd>↵</kbd></button>';
+    if(c.mg==="audio"){
+      const session=G;
+      G.audioTimer=setTimeout(()=>{if(G===session&&G.cur===c&&G.phase==="answer") speak(k.de);},150);
+    }
   } else if(c.mg==="img"){
-    body='<div class="imgcard">'+svg(k.img)+'</div><div class="small mut">What is this? Type the German from memory (with the article for nouns). <kbd>Enter</kbd></div>'+
-         '<div style="margin-top:12px"><input type="text" id="ans" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="auf Deutsch …"></div>'+
-         '<div style="margin-top:10px"><button class="primary" data-act="check-recall">Check</button></div>';
+    body='<div class="imgcard">'+svg(k.img)+'</div>'+answerField()+
+      '<button class="primary" data-act="check-recall">'+ui('Check','Prüfen')+' <kbd>↵</kbd></button>';
   } else if(c.mg==="recallrev"){
-    body='<div class="de">'+k.de+'</div><div class="small mut">Say/type the English meaning from memory.</div>'+
-      '<div style="margin-top:12px"><input type="text" id="ans" autocomplete="off" placeholder="in English …"></div>'+
-      '<div style="margin-top:10px"><button class="primary" data-act="check-recallrev">Check</button></div>';
+    body='<div class="de" lang="de">'+esc(k.de)+'</div>'+answerField(false,"en")+
+      '<button class="primary" data-act="check-recallrev">'+ui('Check','Prüfen')+' <kbd>↵</kbd></button>';
   } else if(c.mg==="choice"){
-    let pool=DECK.filter(x=>x.kind===k.kind&&x.id!==k.id&&x.ep===k.ep);
-    if(pool.length<3) pool=DECK.filter(x=>x.kind===k.kind&&x.id!==k.id);
-    const opts=shuffle([k.de].concat(shuffle(pool).slice(0,3).map(x=>x.de))); c.ci=opts.indexOf(k.de); c.opts=opts;
-    body='<div class="en">'+k.en+'</div><div class="small mut">Pick the German — keys <kbd>1</kbd>–<kbd>4</kbd>.</div>'+
-      opts.map((o,i)=>'<button class="opt" data-act="choice" data-i="'+i+'" data-key="'+(i+1)+'"><span class="k">'+(i+1)+'</span>'+o+'</button>').join("");
+    if(!c.opts){
+      let pool=DECK.filter(x=>x.kind===k.kind&&x.id!==k.id&&x.ep===k.ep);
+      if(pool.length<3) pool=DECK.filter(x=>x.kind===k.kind&&x.id!==k.id&&x.ep<=k.ep);
+      c.opts=shuffle([k.de].concat(shuffle(pool).slice(0,3).map(x=>x.de))); c.ci=c.opts.indexOf(k.de);
+    }
+    body='<div class="en task-cue" lang="en">'+esc(k.en)+'</div><div lang="de">'+optionButtons(c.opts,'choice')+'</div>';
   } else if(c.mg==="choicecorrect"){
-    const wrongs=shuffle(DECK.filter(x=>x.kind==="error")).slice(0,3).map(x=>x.de);
-    const right=k.ex||k.fix||k.de;
-    const opts=shuffle([right].concat(wrongs)); c.ci=opts.indexOf(right); c.opts=opts;
-    body='<div class="de" style="font-size:20px">Which sentence is correct?</div><div class="small mut">One is right, three contain a typical error. Keys <kbd>1</kbd>–<kbd>4</kbd>.</div>'+
-      opts.map((o,i)=>'<button class="opt" data-act="choice" data-i="'+i+'" data-key="'+(i+1)+'"><span class="k">'+(i+1)+'</span>'+o+'</button>').join("");
+    if(!c.opts){
+      const wrongs=shuffle(DECK.filter(x=>x.kind==="error"&&x.ep<=k.ep)).slice(0,3).map(x=>x.de);
+      const right=k.ex||k.fix||k.de;
+      c.opts=shuffle([right].concat(wrongs)); c.ci=c.opts.indexOf(right);
+    }
+    body='<div lang="de">'+optionButtons(c.opts,'choice')+'</div>';
   } else if(c.mg==="builder"){
-    const words=k.de.split(" ");
-    const donor=shuffle(DECK.filter(x=>x.kind==="sentence"&&x.id!==k.id))[0];
-    const extra=donor.de.split(" ");
-    c.bank=shuffle(words.concat([extra[rnd(extra.length)]])).map(w=>({w:w,used:false}));
-    body='<div class="en">'+k.en+'</div><div class="small mut">Build the German sentence from the tiles (one tile is a decoy).</div>'+
-      '<div class="tiles" id="placed"></div><div class="tilebank" id="bank"></div>'+
-      '<div class="row"><button class="primary" data-act="check-builder">Check</button><button data-act="hint-builder">💡 hint (−XP)</button></div>';
+    if(!c.bank.length){
+      const words=k.de.split(' ');
+      const donor=shuffle(DECK.filter(x=>x.kind==="sentence"&&x.id!==k.id))[0];
+      const extra=donor.de.split(' ');
+      c.bank=shuffle(words.concat([extra[rnd(extra.length)]])).map(w=>({w,used:false}));
+    }
+    body='<div class="en task-cue" lang="en">'+esc(k.en)+'</div><div class="tiles" id="placed" lang="de" aria-label="'+ui('Your sentence','Dein Satz')+'"></div><div class="tilebank" id="bank" lang="de"></div>'+
+      '<div class="row"><button class="primary" data-act="check-builder">'+ui('Check','Prüfen')+'</button><button data-act="hint-builder">💡 '+ui('Answer hint (−XP)','Lösungshinweis (−XP)')+'</button></div>';
   } else if(c.mg==="teach"){
-    body='<div class="tag">Professor-Modus</div><div class="de" style="font-size:20px">'+k.de+'</div>'+
-      '<div class="en" style="color:var(--ink)">'+k.teach+'</div>'+
-      '<div class="small mut">Source closed! Explain it OUT LOUD in plain language, as if teaching a friend. 45 s. <kbd>Space</kbd> = done.</div>'+
+    body='<h2 lang="de">'+esc(TEACH_DE[k.id][0])+'</h2>'+
       '<div class="timerbar"><div id="tbar"></div></div>'+
-      '<div class="row"><button class="primary" data-act="teach-stop" data-key="1">✅ I explained it</button><button data-act="teach-peek">👀 peek (half XP)</button></div>';
+      '<div class="row"><button class="primary" data-act="teach-stop" data-key="1">✅ '+ui('I explained it','Ich habe es erklärt')+'</button><button data-act="teach-peek">👀 '+ui('See model (half XP)','Muster ansehen (halbe XP)')+'</button></div>';
   } else if(c.mg==="hunt"){
-    body='<div class="tag">Fehler-Jagd</div><div class="de" style="font-size:21px">„'+k.de+'"</div>'+
-      '<div class="small mut">Step 1: diagnose — WHICH kind of error is this? (That decision is the training.)</div>'+
-      ERR_TYPES.map((t,i)=>'<button class="opt" data-act="hunt-type" data-i="'+i+'" data-key="'+(i+1)+'"><span class="k">'+(i+1)+'</span>'+t+'</button>').join("");
+    body='<div class="de" lang="de" style="font-size:21px">„'+esc(k.de)+'“</div>'+
+      ERR_TYPES.map((t,i)=>'<button class="opt" data-act="hunt-type" data-i="'+i+'" data-key="'+(i+1)+'"><span class="k">'+(i+1)+'</span><span lang="de">'+ERR_TYPES_DE[i]+'</span>'+ui(' <span class="small mut" lang="en">('+t+')</span>','')+'</button>').join('');
+  } else if(c.mg==="production"){
+    body=productionCue(c)+'<button class="ghost small cue-toggle" data-act="production-cue" aria-controls="production-situation" aria-pressed="'+c.englishCue+'">'+cueButtonLabel(c)+'</button>'+
+      answerField(true)+'<div class="row"><button class="primary" data-act="check-production">'+ui('Check my German','Mein Deutsch prüfen')+'</button>'+
+      '<button data-act="production-spoken">🗣 '+ui('I said it — compare','Gesagt — jetzt vergleichen')+'</button></div>'+
+      '<p class="small mut">'+ui('No microphone: spoken answers are self-assessed. Ctrl / ⌘ + Enter checks typed text.','Ohne Mikrofon: Gesprochene Antworten bewertest du selbst. Strg / ⌘ + Enter prüft deinen Text.')+'</p>';
+  } else if(c.mg==="command"){
+    instruction=c.commandRecall?'commandRecall':'commandChoice';
+    body='<div class="de" lang="de">'+esc(k.de)+'</div>';
+    if(c.commandRecall) body+=answerField(false,'en')+'<button class="primary" data-act="check-command">'+ui('Check meaning','Bedeutung prüfen')+' <kbd>↵</kbd></button>';
+    else {
+      if(!c.opts){
+        // Do not put synonyms such as “Match” and “Connect / match” in the same question.
+        const pool=COMMANDS.filter(other=>other.id!==k.id&&![k.en].concat(k.aliases).some(meaning=>commandAccepts(other,meaning)));
+        c.opts=shuffle([k.en].concat(shuffle(pool).slice(0,3).map(other=>other.en))); c.ci=c.opts.indexOf(k.en);
+      }
+      body+='<div lang="en">'+optionButtons(c.opts,'command-choice')+'</div>';
+    }
+    body+='<p class="small mut">'+ui('Classroom commands have their own spaced reviews. Once familiar, you recall their meaning without choices.','Aufgabenanweisungen werden mit Abstand wiederholt. Vertraute Anweisungen rufst du ohne Auswahlhilfe ab.')+'</p>';
   }
-  app.innerHTML=topbar()+progress()+'<div class="panel">'+fogBadge(c.fog)+
-    (c.isRev?'<span class="revbadge">🔁 Wiederholung · Ep. '+k.ep+'</span>':'<span class="tag" style="margin-left:6px">Ep. '+k.ep+' · '+epOf(k.ep).title+'</span>')+
-    '<div class="small mut" style="margin:6px 0">'+MG_NAME[c.mg]+' · '+KIND_NAME[k.kind]+'</div>'+body+'</div>';
-  const inp=$("#ans"); if(inp) inp.focus();
+  const source=k.kind==="command"?'<span class="tag">🧭 '+ui('Classroom German','Aufgaben verstehen')+'</span>':
+    (c.isRev?'<span class="revbadge">🔁 '+ui('Review','Wiederholung')+' · Ep. '+k.ep+'</span>':'<span class="tag">Ep. '+k.ep+' · '+esc(epOf(k.ep).title)+'</span>');
+  app.innerHTML=topbar()+progress()+'<div class="panel exercise-panel" lang="'+ui('en','de')+'" data-mg="'+c.mg+'">'+fogBadge(c.fog)+' '+source+
+    '<div class="exercise-meta"><span class="small mut" lang="de">'+MG_NAME[c.mg]+' · '+KIND_NAME[k.kind]+'</span><span class="lvlchip">'+G.level+'</span></div>'+
+    instructionHTML(instruction)+body+'</div>';
+  const inp=$("#ans"); if(inp) inp.focus({preventScroll:true});
   renderBuilder();
   if(c.mg==="teach") startTeachTimer();
 }
 function renderBuilder(){
-  if(!G||!G.cur||G.cur.mg!=="builder") return;
+  if(!G||!G.cur||G.cur.mg!=="builder"||G.phase!=="answer") return;
   const c=G.cur;
-  $("#placed").innerHTML=c.placed.length? c.placed.map(bi=>'<button data-act="untile" data-i="'+bi+'">'+c.bank[bi].w+'</button>').join("")
-    : '<span class="mut small">tap tiles below…</span>';
-  $("#bank").innerHTML=c.bank.map((t,i)=>t.used?'':'<button data-act="tile" data-i="'+i+'">'+t.w+'</button>').join("");
+  $("#placed").innerHTML=c.placed.length?c.placed.map(bi=>'<button data-act="untile" data-i="'+bi+'">'+esc(c.bank[bi].w)+'</button>').join('')
+    :'<span class="mut small">'+ui('Tap tiles below…','Tippe auf die Kärtchen …')+'</span>';
+  $("#bank").innerHTML=c.bank.map((t,i)=>t.used?'':'<button data-act="tile" data-i="'+i+'">'+esc(t.w)+'</button>').join('');
 }
-function startTeachTimer(){ let left=45; const bar=$("#tbar");
-  G.timer=setInterval(()=>{ left--; if(bar) bar.style.width=(left/45*100)+"%";
-    if(left<=0){ clearInterval(G.timer); G.timer=null; teachRate(); } },1000); }
+function startTeachTimer(){
+  const session=G, c=G.cur, bar=$("#tbar"); c.teachLeft=45;
+  G.timer=setInterval(()=>{
+    if(G!==session||G.cur!==c) return;
+    if(document.hidden||($("#english-help")&&$("#english-help").open)) return;
+    c.teachLeft--; if(bar) bar.style.width=(c.teachLeft/45*100)+'%';
+    if(c.teachLeft<=0) teachRate();
+  },1000);
+}
 
 /* ------------------------------ ANSWER HANDLING ------------------------------ */
+function englishReference(text,label){
+  return text?'<details class="reference"><summary>'+label+'</summary><div class="small mut" lang="en">'+esc(text)+'</div></details>':'';
+}
 function finish(grade,detailHTML,correctText){
-  if(G.timer){ clearInterval(G.timer); G.timer=null; }
-  const c=G.cur;
+  if(!G||G.cur.finished) return;
+  clearSessionTimers();
+  const c=G.cur; c.finished=true;
   let base=XP_BASE[c.mg]||10;
   if(c.peeked) base=Math.ceil(base/2);
   if(c.hinted) base=Math.max(4,base-4);
@@ -697,71 +1127,156 @@ function finish(grade,detailHTML,correctText){
   if(grade>=2){ G.correct++; if(fogBonus){ G.fogHits++; S.stats.fog++; } }
   G.total++; S.stats.answers++; if(grade>=2) S.stats.correct++;
   if(c.isRev) S.stats.reviews++;
+  if(c.mg==="production"){
+    G.production++; S.stats.production++;
+    if(c.productionMatched){ G.productionMatched++; S.stats.productionMatched++; }
+    else if(grade>=2){ G.productionSelfRated++; S.stats.productionSelfRated++; }
+  }
   S.xp+=xp; G.xp+=xp; S.stats.bestCombo=Math.max(S.stats.bestCombo,G.best);
   const lapsed=gradeCard(c.id,grade);
   if(lapsed&&(G.repeats[c.id]||0)<2){ G.repeats[c.id]=(G.repeats[c.id]||0)+1; G.queue.push(c.id); }
   save();
   if(grade>=3){ sfxGood(); if(G.combo>=3){ sfxCombo(G.combo); confetti(10+G.combo); } }
-  else if(grade===2){ sfxGood(); } else { sfxBad(); }
+  else if(grade===2) sfxGood(); else sfxBad();
   floatXP(xp);
   const it=itemOf(c.id);
-  const verdict=grade>=3?["good","🎯 Retrieved it — clean!"]:grade===2?["meh","👍 Got it (with a nudge)"]:["bad","🧱 Lapse — it comes back. In this session or a later episode."];
+  let verdict=grade>=3?["good",ui("🎯 Retrieved it — clean!","🎯 Sicher abgerufen!")]:grade===2?["meh",ui("👍 Got it — keep practising","👍 Geschafft — übe weiter")]:["bad",ui("🧱 More practice — this will come back.","🧱 Weiter üben — diese Karte kommt wieder.")];
+  if(c.mg==="production"&&grade>=2) verdict=c.productionMatched
+    ?["good",ui("🎯 German response recognised!","🎯 Deutsche Antwort erkannt!")]
+    :["meh",ui("👍 Self-assessed: meaning conveyed","👍 Selbsteinschätzung: Ziel erreicht")];
+  const answer=correctText||(c.mg==="teach"?c.card.ex:c.card.fix)||c.card.de;
   G.phase="feedback";
-  app.innerHTML=topbar()+progress()+'<div class="panel">'+
-    '<div class="verdict '+verdict[0]+'">'+verdict[1]+'</div>'+
+  const reference=c.mg==="command"?'<div class="en" lang="en">'+esc(c.card.en)+'</div>':
+    englishReference(c.card.en,ui('English meaning / topic','Bedeutung / Thema auf Englisch'));
+  app.innerHTML=topbar()+progress()+'<div class="panel feedback-panel" lang="'+ui('en','de')+'">'+
+    '<div class="verdict '+verdict[0]+'" role="status">'+verdict[1]+'</div>'+
+    (c.mg==="production"?'<div class="small mut">'+ui('One possible answer — not the only valid wording','Ein Antwortbeispiel — andere Formulierungen sind möglich')+'</div>':'')+
     (c.card.img?'<div class="imgcard small">'+svg(c.card.img)+'</div>':'')+
-    '<div class="de" style="font-size:22px">'+(correctText||c.card.de)+'</div>'+
-    (c.card.en?'<div class="en">'+c.card.en+'</div>':'')+
-    (detailHTML||'')+
-    (c.card.note?'<div class="small mut" style="margin-top:8px">📖 '+c.card.note+'</div>':'')+
-    (c.card.why?'<div class="small mut" style="margin-top:8px">📖 '+c.card.why+'</div>':'')+
-    '<div class="small mut" style="margin-top:10px">+'+xp+' XP'+(fogBonus?' · 🌫️ fog bonus ×1.5':'')+(c.peeked?' · 👀 peeked = half XP (review ≠ retrieval)':'')+
-    ' · next review: <b>'+fmtDue(it.due)+'</b> (box '+it.box+'/6)</div>'+
-    '<div style="margin-top:12px"><button class="primary big" data-act="next" data-key="0">Next <kbd>↵</kbd></button></div></div>';
+    '<div class="de model-answer" lang="de" style="font-size:22px">'+esc(answer)+'</div>'+reference+(detailHTML||'')+
+    englishReference(c.card.note||c.card.why,ui('Explanation in English','Erklärung auf Englisch'))+
+    '<div class="small mut" style="margin-top:10px">+'+xp+' XP'+(fogBonus?' · 🌫️ ×1.5':'')+(c.peeked?' · 👀 '+ui('model viewed: half XP','Muster angesehen: halbe XP'):'')+
+    ' · '+ui('next review','Nächste Wiederholung')+': <b>'+fmtDue(it.due)+'</b> (Box '+it.box+'/6)</div>'+
+    instructionHTML('feedback')+'<button class="primary big" data-act="next" data-key="0">'+ui('Next','Weiter')+' <kbd>↵</kbd></button></div>';
 }
-function checkTyped(val,mg){
+function typedDetail(val,language="de"){ return '<div class="small mut user-response">'+ui('Your response','Deine Antwort')+': “<span lang="'+language+'">'+esc(val)+'</span>”</div>'; }
+function checkTyped(val){
+  if(!val||!val.trim()) return;
   const ok=acceptSet(G.cur.card).has(norm(val));
-  const target=norm(G.cur.card.de);
-  finish(ok?3:0, ok?'':'<div class="small mut">You typed: “'+val+'”</div>', mg==="img"?target:target);
+  finish(ok?3:0,ok?'':typedDetail(val),G.cur.card.de);
   if(ok) confetti(6);
 }
+function checkProduction(spoken=false){
+  const c=G.cur;
+  const val=spoken?($("#ans").value.trim()):requireAnswer();
+  if(!spoken&&val==null) return;
+  c.productionAnswer=val; c.spoken=spoken;
+  c.productionMatched=!spoken&&productionAccepts(c.card,val);
+  if(c.productionMatched){
+    finish(3,typedDetail(val)+'<p class="small mut">'+ui('This matches a known valid phrasing. Other ways to express the same idea may also be valid.','Diese Antwort entspricht einer bekannten gültigen Formulierung. Andere passende Formulierungen sind ebenfalls möglich.')+'</p>',c.card.de);
+    return;
+  }
+  // Unknown text is not a failed answer. Reveal a model only after an attempt,
+  // then use clearly labelled self-assessment, as with the existing teach-back mode.
+  G.phase="production-review";
+  app.innerHTML=topbar()+progress()+'<div class="panel production-review" lang="'+ui('en','de')+'">'+
+    '<h2>'+ui(spoken?'Compare what you said':'Your wording may also work',spoken?'Vergleiche deine gesprochene Antwort':'Deine Formulierung kann ebenfalls passen')+'</h2>'+
+    instructionHTML('productionReview')+productionCue(c)+
+    (val?typedDetail(val):'<p class="small mut">'+ui('Spoken response — not recorded or automatically assessed.','Gesprochene Antwort — nicht aufgenommen oder automatisch bewertet.')+'</p>')+
+    '<h3 class="small mut">'+ui('One possible answer','Ein Antwortbeispiel')+'</h3><div class="de model-answer" lang="de" style="font-size:22px">'+esc(c.card.de)+'</div>'+
+    '<fieldset class="production-goals"><legend>'+ui('Did your own answer meet these goals?','Hat deine eigene Antwort diese Ziele erreicht?')+'</legend>'+
+    c.card.checks.map((point,i)=>'<label><input type="checkbox" class="production-goal" id="goal-'+i+'"><span>'+esc(ui(point.en,point.de))+'</span></label>').join('')+
+    '<label><input type="checkbox" class="production-goal"><span>'+ui('I also checked my German sentence structure against the example.','Ich habe auch meinen deutschen Satzbau mit dem Beispiel verglichen.')+'</span></label></fieldset>'+
+    '<p class="small mut">'+ui('The offline checker cannot judge every valid sentence. This is your self-assessment, not automatic grammar or pronunciation feedback. Self-assessed success earns practice credit, not a verified match.','Die Offline-Prüfung erkennt nicht jeden gültigen Satz. Dies ist deine Selbsteinschätzung, keine automatische Grammatik- oder Aussprachebewertung. Selbsteinschätzungen zählen als Übung, nicht als erkannter Treffer.')+'</p>'+
+    '<div class="row"><button class="primary" data-act="production-rate" data-g="2" disabled>'+ui('I conveyed all points','Ich habe alle Ziele erreicht')+'</button>'+
+    '<button data-act="production-rate" data-g="0">'+ui('I need more practice','Ich brauche mehr Übung')+'</button></div></div>';
+}
 function teachRate(){
-  if(G.timer){ clearInterval(G.timer); G.timer=null; }
+  if(!G||G.phase!=="answer") return;
+  clearSessionTimers();
   G.phase="rate";
   const c=G.cur;
-  app.innerHTML=topbar()+progress()+'<div class="panel"><div class="de" style="font-size:20px">Honest rating, please 🙏</div>'+
-    '<div class="small mut">The wall you hit while explaining IS the thing you don\'t know yet. Rate what actually happened out loud:</div>'+
-    '<button class="opt" data-act="teach-rate" data-g="3" data-key="1"><span class="k">1</span>💬 Nailed it — fluent, plain language, no gaps</button>'+
-    '<button class="opt" data-act="teach-rate" data-g="2" data-key="2"><span class="k">2</span>🧩 Got there, but with holes or hesitation</button>'+
-    '<button class="opt" data-act="teach-rate" data-g="0" data-key="3"><span class="k">3</span>🧱 Hit a wall — couldn\'t explain it</button>'+
-    (c.peeked?'<div class="small mut" style="margin-top:8px">👀 You peeked, so XP is halved and the grade is capped at 2.</div>':'')+'</div>';
+  app.innerHTML=topbar()+progress()+'<div class="panel" lang="'+ui('en','de')+'">'+instructionHTML('teachRate')+
+    (c.peeked?'<div class="story" lang="en">'+esc(c.card.note)+'</div>':'')+
+    '<button class="opt" data-act="teach-rate" data-g="3" data-key="1"><span class="k">1</span>💬 '+ui('Fluent, plain language, no gaps','Flüssig, verständlich, ohne Lücken')+'</button>'+
+    '<button class="opt" data-act="teach-rate" data-g="2" data-key="2"><span class="k">2</span>🧩 '+ui('Got there, with gaps or hesitation','Geschafft, aber mit Lücken oder Zögern')+'</button>'+
+    '<button class="opt" data-act="teach-rate" data-g="0" data-key="3"><span class="k">3</span>🧱 '+ui('Could not explain it yet','Noch nicht erklären können')+'</button>'+
+    (c.peeked?'<div class="small mut">👀 '+ui('You viewed the model: half XP, grade capped at 2.','Du hast das Muster angesehen: halbe XP, Bewertung höchstens 2.')+'</div>':'')+'</div>';
+}
+function presentHuntFix(type){
+  const c=G.cur;
+  c.huntTypeOK=type===c.card.errType; c.huntStep=1;
+  const donor=shuffle(DECK.filter(x=>x.kind==="error"&&x.id!==c.card.id&&x.ep<=c.card.ep))[0];
+  c.opts=shuffle([c.card.fix,c.card.de].concat(donor?[donor.fix]:[])); c.ci=c.opts.indexOf(c.card.fix);
+  app.innerHTML=topbar()+progress()+'<div class="panel" lang="'+ui('en','de')+'">'+fogBadge(c.fog)+
+    '<div class="tag">Fehler-Jagd · '+ui('step 2','Schritt 2')+'</div>'+instructionHTML('huntFix')+
+    '<div class="small mut">'+ui('Your diagnosis','Deine Diagnose')+': <b>'+errorTypeLabel(type)+'</b> '+(c.huntTypeOK?'✅':'❌ · '+ui('Correct category','Richtige Kategorie')+': '+errorTypeLabel(c.card.errType))+'</div>'+
+    '<div lang="de">'+optionButtons(c.opts,'hunt-fix')+'</div></div>';
 }
 
 /* ------------------------------ STORY SCREENS ------------------------------ */
+function scaffoldPanel(){
+  const level=cefrLevel();
+  return '<div class="panel scaffold-panel"><div class="small mut">🧭 '+ui('Less translation. More independence.','Weniger Übersetzung. Mehr Selbstständigkeit.')+'</div>'+
+    '<h2>'+ui('Understand the task. Own the answer.','Aufgaben verstehen. Selbst antworten.')+'</h2>'+
+    '<div class="scaffold-grid">'+Object.entries(SCAFFOLD).map(([lvl,copy])=>'<div class="scaffold-step'+(lvl===level?' active':'')+'"'+(lvl===level?' aria-current="step"':'')+'><b>'+lvl+'</b><div class="small">'+esc(ui(copy.en,copy.de))+'</div></div>').join('')+'</div>'+
+    '<p class="small mut">'+ui('Instructions follow the episode level; mixed review follows your current level. English help explains the task, never the answer, and never costs XP.','Anweisungen folgen dem Episodenniveau, gemischte Wiederholungen deinem aktuellen Niveau. Englische Hilfe erklärt nur die Aufgabe, nie die Lösung, und kostet keine XP.')+'</p>'+
+    '<div class="row"><button data-act="go" data-go="commands">🧭 '+ui('Learn German instructions','Aufgabenanweisungen üben')+'<span class="button-note">'+commandMastery()+'/11 '+ui('confident','gefestigt')+'</span></button>'+
+    '<button data-act="go" data-go="production">💬 '+ui('Produce your own German','Selbst Deutsch formulieren')+'<span class="button-note">'+ui('Thought → words, without a word bank','Gedanke → Worte, ohne Wortbank')+'</span></button></div></div>';
+}
+function screenCommands(){
+  app.innerHTML=topbar()+'<div class="panel"><div class="small mut">🧭 '+ui('Classroom German','Aufgaben verstehen')+'</div>'+
+    '<h1>'+ui('Learn the instructions, not just the answers','Lerne auch die Aufgabenanweisungen')+'</h1>'+
+    '<p>'+ui('Meet the 11 commands you will see again and again. Read them here, then practise without this list.','Diese elf Anweisungen begegnen dir immer wieder. Lies sie hier und übe dann ohne diese Liste.')+'</p>'+
+    '<p class="small mut">'+ui('A1 lessons include two command cards; A2 includes one while there is more to learn or review. First choose a meaning; from box 2, recall it without options. Box 3 or above counts as confident. Mistakes bring the support back.','A1-Lektionen enthalten zwei Anweisungskarten, A2 eine, solange etwas zu lernen oder zu wiederholen ist. Zuerst wählst du die Bedeutung, ab Box 2 rufst du sie ohne Auswahl ab. Ab Box 3 gilt sie als gefestigt. Fehler bringen die Unterstützung zurück.')+'</p>'+
+    '<div class="chip">'+commandMastery()+'/11 '+ui('confident · saved on this device','gefestigt · auf diesem Gerät gespeichert')+'</div>'+
+    '<dl class="command-glossary">'+COMMANDS.map(c=>{
+      const it=itemOf(c.id);
+      return '<div><dt lang="de">'+esc(c.de)+'</dt><dd lang="en">'+esc(c.en)+'</dd><span class="small '+(it&&it.box>=3?'due':'mut')+'">'+(it?'Box '+it.box+'/6':ui('new','neu'))+'</span></div>';
+    }).join('')+'</dl>'+
+    '<button class="primary big" data-act="play-commands">'+ui('Practise 6 commands','6 Anweisungen üben')+'</button>'+
+    '<p class="small mut">'+ui('A1 always keeps both English and German instructions. Your command progress prepares you for the shorter English hints at A2; it does not remove support early.','A1 behält immer englische und deutsche Anweisungen. Dein Fortschritt bereitet dich auf die kürzeren Hinweise in A2 vor; Unterstützung wird nicht vorzeitig entfernt.')+'</p>'+
+    '<button class="ghost" data-act="go" data-go="home">← '+ui('Back to your story','Zurück zur Geschichte')+'</button></div>';
+}
+function screenProduction(){
+  const level=cefrLevel(), beginner=level==="A1"||level==="A2";
+  const count=PRODUCTION.filter(c=>unlocked(c.ep)).length;
+  const english='<button class="'+(beginner?'primary':'')+' big" data-act="play-production" data-cue="en">💭 '+ui('English thought → German','Englischer Gedanke → Deutsch')+'</button>';
+  const german='<button class="'+(!beginner?'primary':'')+' big" data-act="play-production" data-cue="de">🇩🇪 '+ui('Situations in German','Situationen auf Deutsch')+'</button>';
+  app.innerHTML=topbar()+'<div class="panel"><div class="small mut">💬 '+ui('From recognising to producing','Vom Erkennen zum Formulieren')+'</div>'+
+    '<h1>'+ui('What would you say?','Was würdest du sagen?')+'</h1>'+
+    '<p>'+ui('A situation, an intention, and your own German. No choices, no tiles, no answer shown before you try.','Eine Situation, eine Absicht und deine eigenen deutschen Worte. Keine Auswahl, keine Kärtchen, keine Lösung vor deinem Versuch.')+'</p>'+
+    '<ul class="lawlist"><li>'+ui('Say it first, then type it to check. Or speak and compare for yourself; no microphone is used.','Sprich zuerst und tippe dann zum Prüfen. Oder sprich und vergleiche selbst; es wird kein Mikrofon verwendet.')+'</li>'+
+    '<li>'+ui('Known German variants are accepted. Other wording is not automatically wrong: compare it with a model and communication goals, then honestly self-assess.','Bekannte deutsche Varianten werden akzeptiert. Andere Formulierungen sind nicht automatisch falsch: Vergleiche sie mit einem Beispiel und den Kommunikationszielen und bewerte dich ehrlich.')+'</li>'+
+    '<li>'+ui('Normal lessons include 1 production task at A1, 3 at A2, 4 at B1 and 5 at B2. Situation cues switch from English to German at B1; you can explicitly switch the cue language without revealing an answer.','Normale Lektionen enthalten 1 Produktionsaufgabe in A1, 3 in A2, 4 in B1 und 5 in B2. Situationsimpulse wechseln ab B1 von Englisch zu Deutsch. Du kannst die Impulssprache gezielt wechseln, ohne eine Antwort aufzudecken.')+'</li></ul>'+
+    '<p class="small mut">'+count+' '+ui('situations unlocked · up to 8 per practice · missed tasks return through spaced review','Situationen freigeschaltet · bis zu 8 pro Übung · unsichere Aufgaben kommen mit Abstand wieder')+'</p>'+
+    '<div class="row">'+(beginner?english+german:german+english)+'</div>'+
+    '<button class="ghost" style="margin-top:14px" data-act="go" data-go="home">← '+ui('Back to your story','Zurück zur Geschichte')+'</button></div>';
+}
+
 function screenHome(){
-  G=null;
+  stopSession();
   const r=rankOf(S.xp), nr=nextRank(S.xp);
   const cur=epOf(S.prog.ep);
   const due=dueList().length;
   let map="";
   EPS.forEach(e=>{
     const done=S.prog.done[e.n];
-    const st=done?"✅":(e.n===S.prog.ep?"▶️":(unlocked(e.n)?"🔓":"🔒"));
+    const st=done!=null?"✅":(e.n===S.prog.ep?"▶️":(unlocked(e.n)?"🔓":"🔒"));
     map+='<div class="eprow'+(unlocked(e.n)?'':' locked')+'" '+(unlocked(e.n)?'data-act="ep-intro" data-ep="'+e.n+'"':'')+'>'+
       '<span class="st">'+st+'</span><span class="epnum" style="'+(e.n===S.prog.ep?'':'background:#242e3e;color:var(--mut)')+'">'+e.n+'</span>'+
       '<span style="flex:1"><b>'+e.title+'</b> <span class="lvlchip">'+e.lvl+'</span></span>'+
-      '<span class="small mut">'+(done?done+'%':'—')+'</span></div>';
+      '<span class="small mut">'+(done!=null?done+'%':'—')+'</span></div>';
   });
   app.innerHTML=topbar()+
   '<div class="panel"><div class="small mut">📖 Deine Geschichte · Staffel 1</div>'+
     '<h1 style="margin-top:6px"><span class="epnum">'+cur.n+'</span>Ep. '+cur.n+' — '+cur.title+' <span class="lvlchip">'+cur.lvl+'</span></h1>'+
     '<div class="story">'+cur.intro+'</div>'+
-    '<div style="margin-top:12px"><button class="primary big" data-act="ep-start" data-ep="'+cur.n+'">▶ '+(S.prog.done[cur.n]?"Replay":"Play")+' Episode '+cur.n+' (12 cards)</button></div>'+
-    '<div class="row" style="margin-top:10px"><button data-act="play-review">🔁 Wiederholung'+(due?' ('+due+' due)':'')+'</button>'+
-    '<button data-act="play-prof">🎓 Erklär-Training</button></div>'+
+    '<div style="margin-top:12px"><button class="primary big" data-act="ep-start" data-ep="'+cur.n+'">▶ '+(S.prog.done[cur.n]!=null?"Replay":"Play")+' Episode '+cur.n+' (12 cards)</button></div>'+
+    '<div class="row" style="margin-top:10px"><button data-act="play-review">🔁 '+ui("Review","Wiederholung")+(due?' ('+due+' due)':'')+'</button>'+
+    '<button data-act="play-prof">🎓 '+ui("Explain a rule","Erklär-Training")+'</button></div>'+
     '<div class="small mut" style="margin-top:10px">'+(nr?('Next rank <b>'+nr[1]+'</b> at '+nr[0]+' XP ('+(nr[0]-S.xp)+' to go). '):'')+
-    'Everything you miss returns as 🔁 review inside later episodes — that\'s the system working, not a punishment.</div></div>'+
-  '<div class="panel"><h2>Story map</h2>'+map+'</div>'+
+    PRODUCTION_QUOTA[cur.lvl]+' guaranteed free-production task(s) in this episode. Everything you miss returns as 🔁 review inside later episodes.</div></div>'+
+  scaffoldPanel()+'<div class="panel"><h2>Story map</h2>'+map+'</div>'+
   '<div class="panel"><div class="row"><button data-act="go" data-go="stats">📊 Stats</button>'+
     '<button data-act="go" data-go="method">🧠 The 5 laws</button><button data-act="go" data-go="deck">🗂 Deck</button></div>'+
     '<div class="row" style="margin-top:10px"><button data-act="toggle-sound">'+(S.sound?"🔊":"🔇")+' sound</button>'+
@@ -773,14 +1288,14 @@ function screenIntro(ep){
   app.innerHTML=topbar()+'<div class="panel">'+
     '<div class="small mut">📖 Episode '+ep+' von 12 · '+epOf(ep).lvl+'</div>'+
     '<h1><span class="epnum">'+ep+'</span>'+epOf(ep).title+'</h1>'+
-    (prev&&prev.outro?'<div class="small mut" style="margin-top:6px">Zuletzt: '+prev.outro.split(". ")[0]+'.</div>':'')+
+    (prev&&prev.outro?'<div class="small mut" style="margin-top:6px">'+ui("Previously: ","Zuletzt: ",cefrLevel(ep))+prev.outro.split(". ")[0]+'.</div>':'')+
     '<div class="story">'+epOf(ep).intro+'</div>'+
-    '<div class="small mut">12 cards: new ones from this episode + 🔁 review of what you missed earlier. Mini-games are shuffled — you pick the strategy each time.</div>'+
-    '<div style="margin-top:14px"><button class="primary big" data-act="ep-start" data-ep="'+ep+'">▶ Los geht\'s</button>'+
+    '<div class="small mut">12 cards, including '+PRODUCTION_QUOTA[cefrLevel(ep)]+' free-production task(s), new episode content and 🔁 spaced review. A1/A2 also practise common German instructions.</div>'+
+    '<div style="margin-top:14px"><button class="primary big" data-act="ep-start" data-ep="'+ep+'">▶ '+ui("Let’s begin","Los geht’s",cefrLevel(ep))+'</button>'+
     '<button class="big ghost" data-act="go" data-go="home">← back</button></div></div>';
 }
 function endSession(){
-  if(G.timer){ clearInterval(G.timer); G.timer=null; }
+  clearSessionTimers();
   S.stats.sessions++;
   const today=new Date().toISOString().slice(0,10);
   const y=new Date(Date.now()-86400000).toISOString().slice(0,10);
@@ -788,11 +1303,15 @@ function endSession(){
   const meta=G.meta, acc=G.total?Math.round(100*G.correct/G.total):0;
   let storyHTML="";
   if(meta.ep!=null){
-    const first=!S.prog.done[meta.ep];
+    const first=S.prog.done[meta.ep]==null;
     S.prog.done[meta.ep]=Math.max(S.prog.done[meta.ep]||0,acc);
     if(meta.ep===S.prog.ep&&S.prog.ep<EPS.length){ S.prog.ep=meta.ep+1; }
     storyHTML='<div class="story">'+epOf(meta.ep).outro+'</div>'+
       (meta.ep===S.prog.ep-1&&first?'<div class="small mut">🔓 Episode '+S.prog.ep+' unlocked: <b>'+epOf(S.prog.ep).title+'</b></div>':'');
+  } else if(meta.mode==="production"){
+    storyHTML='<div class="story">'+ui("You turned intentions into your own German. Known matches and self-assessed responses are tracked separately; anything uncertain is scheduled for another try.","Du hast Absichten in eigene deutsche Worte verwandelt. Erkannte Antworten und Selbsteinschätzungen werden getrennt erfasst; Unsicheres wird erneut geübt.")+'</div>';
+  } else if(meta.mode==="commands"){
+    storyHTML='<div class="story">'+commandMastery()+'/11 '+ui("commands confident. These little words unlock the instructions in the rest of the course.","Anweisungen gefestigt. Diese kleinen Wörter helfen dir, die Aufgaben im restlichen Kurs zu verstehen.")+'</div>';
   } else if(meta.mode==="review"){
     storyHTML='<div class="story">What you didn\'t get came back — across episodes, exactly as the spacing law wants. '+
       (G.total-G.correct>0?(G.total-G.correct)+' card(s) still slipped: they are already queued for the next lessons.':'Clean sweep. Respect.')+'</div>';
@@ -809,49 +1328,51 @@ function endSession(){
     '<div class="panel"><b style="font-size:24px">'+acc+'%</b><div class="small mut">retrieved ('+G.correct+'/'+G.total+')</div></div>'+
     '<div class="panel"><b style="font-size:24px">'+G.rev+'</b><div class="small mut">🔁 reviews served</div></div></div>'+
     storyHTML+
+    (G.production?'<p class="small mut">💬 '+G.production+' '+ui('production attempts','Produktionsversuche')+' · '+G.productionMatched+' '+ui('known matches','erkannte Antworten')+' · '+G.productionSelfRated+' '+ui('self-assessed successes','selbst eingeschätzte Erfolge')+'</p>':'')+
     '<div class="small mut">🌫️ '+G.fogHits+' answer(s) in the “almost forgotten” zone — that struggle is where memory grows (law 2). '+
     'Best combo ×'+(1+Math.min(G.best,10)*0.1).toFixed(1)+'.</div>'+
     '<div class="row" style="margin-top:14px">'+nextBtn+'<button class="big" data-act="go" data-go="home">🏠 Home</button></div></div>';
-  G=null;
+  stopSession();
 }
 function screenMethod(){
   app.innerHTML=topbar()+'<div class="panel"><h1>The 5 laws → game mechanics</h1>'+
   '<div class="small mut">Straight from your notes (video timestamps included):</div><ul class="lawlist">'+
-  '<li><b>1 · Retrieval, not review (6:32)</b> — Every card demands production: type it (Free recall / Bild-Karte), build it (Satzbau), teach it out loud (Professor-Modus), or diagnose it (Fehler-Jagd). Recognition-only choice pays the least XP.</li>'+
+  '<li><b>1 · Retrieval, not review (6:32)</b> — Practise retrieval by typing (Freier Abruf / Bild-Karte), assembling (Satzbau), explaining (Professor-Modus), or diagnosing (Fehler-Jagd). Free production goes further: turn a situation into your own German without a word bank. Recognition-only choice pays the least XP.</li>'+
   '<li><b>2 · Space it until you almost forget (8:00)</b> — Leitner boxes 0–6 (now → 10 min → 1 d → 3 d → 7 d → 21 d → 60 d) + fog meter: cards at 60–130 % fog queue first and pay ×1.5.</li>'+
-  '<li><b>3 · Interleaving (9:03)</b> — Episodes mix vocab, chunks, sentences, grammar and error hunts; no two cards in a row share a kind or mini-game. Fehler-Jagd makes you choose WHICH rule applies first.</li>'+
+  '<li><b>3 · Interleaving (9:03)</b> — Episodes mix vocab, chunks, sentences, grammar and error hunts; kinds and mini-games alternate whenever the queue allows. Fehler-Jagd makes you choose WHICH rule applies first.</li>'+
   '<li><b>4 · Explain with the source closed (10:20)</b> — Professor-Modus: 45 s, out loud, plain language, honest self-rating. Peeking halves XP, because peeking is review, not retrieval.</li>'+
   '<li><b>5 · Build chunks, not facts</b> — Nouns carry their article, phrase frames are whole cards, Satzbau assembles sentences; one episode even teaches why (Ep. 2).</li>'+
   '</ul><h2>The review law (your addition)</h2><ul class="lawlist">'+
   '<li>Every lapse drops to box 0 and re-enters: immediately in the same session (max 2×), then as 🔁 <b>Wiederholung</b> slots inside <i>later episodes</i> (4 slots per session, lapses first), and anytime via the 🔁 Wiederholung mode.</li></ul>'+
+  '<h2>Instruction scaffolding → independence</h2><ul class="lawlist"><li>A1: full English + German. A2: short English hint + German. B1: German with optional “What does this mean?”. B2: German by default, with English help only on request. Help explains the task, never the answer, and costs no XP.</li><li>Eleven classroom commands have their own spaced reviews. A1 practises two per lesson; A2 practises one while needed. Choices give way to recall at box 2, with confident commands counted from box 3.</li><li>Free production is guaranteed: A1 1, A2 3, B1 4, B2 5 tasks in a 12-card lesson. English thought cues fade to German situations at B1, with an explicit cue-language switch and a dedicated thought-to-German mode. Curated variants are checked offline; other wording and spoken responses use honest self-assessment, not pretend automatic grading.</li></ul>'+
   '<h2>The narrative</h2><div class="small mut">12 episodes, one year in Köln, A1 → B2, essentials-only (VHS-Lernportal style): Ankunft, Anmeldung, Supermarkt, Wohnung, Fieber, Job, Bahnsteig, Briefe, Party, Notfall, Medien, Bleibst du? Episodes unlock in order; replay anytime.</div>'+
   '<div style="margin-top:12px"><button data-act="go" data-go="home">← back</button></div></div>';
 }
 function screenDeck(){
-  let html=topbar()+'<div class="panel"><h1>Deck ('+DECK.length+' cards · 12 episodes)</h1>'+
+  let html=topbar()+'<div class="panel"><h1>Deck ('+CARDS.length+' cards · 12 episodes)</h1>'+
     '<div class="small mut">● = scheduler box (0–6). All content is everyday/essentials German.</div>';
   EPS.forEach(e=>{
     html+='<h2 style="margin-top:14px">Ep. '+e.n+' · '+e.title+' <span class="lvlchip">'+e.lvl+'</span></h2>';
-    DECK.filter(c=>c.ep===e.n).forEach(c=>{
+    CARDS.filter(c=>c.ep===e.n&&c.kind!=="command").forEach(c=>{
       const it=itemOf(c.id);
       html+='<div class="deckrow"><span class="pips">'+(it?"●".repeat(it.box)+"○".repeat(6-it.box):"○○○○○○")+'</span>'+
         (c.img?'<span style="width:22px">'+svg(c.img).replace('<svg ','<svg style="width:20px;height:20px;vertical-align:middle" ')+'</span>':'')+
-        '<span class="d">'+c.de+'</span><span class="e">'+(c.en||"")+'</span>'+
+        '<span class="d">'+c.de+'</span><span class="e">'+esc(c.en||c.promptEn||"")+'</span>'+
         '<span class="due">'+(it?fmtDue(it.due):"new")+'</span></div>';
     });
   });
-  html+='<div style="margin-top:12px"><button data-act="go" data-go="home">← back</button></div></div>';
+  html+='<p class="small mut">'+COMMANDS.length+' classroom commands have a separate glossary and reviews.</p><button data-act="go" data-go="commands">🧭 German instruction training</button><div style="margin-top:12px"><button data-act="go" data-go="home">← back</button></div></div>';
   app.innerHTML=html;
 }
 function screenStats(){
   const acc=S.stats.answers?Math.round(100*S.stats.correct/S.stats.answers):0;
-  const boxes=[0,1,2,3,4,5,6].map(b=>DECK.filter(c=>{const it=itemOf(c.id);return it&&it.box===b;}).length);
+  const boxes=[0,1,2,3,4,5,6].map(b=>CARDS.filter(c=>{const it=itemOf(c.id);return it&&it.box===b;}).length);
   const max=Math.max(1,...boxes);
   const days=[0,1,2,3,4,5,6].map(d=>{ const from=Date.now()+d*86400000-86400000, to=Date.now()+(d+1)*86400000-86400000;
     return dueList().filter(c=>{const it=itemOf(c.id); return d===0?true:(it.due>from&&it.due<=to);}).length; });
   const dmax=Math.max(1,...days);
   let eps="";
-  EPS.forEach(e=>{ const cards=DECK.filter(c=>c.ep===e.n);
+  EPS.forEach(e=>{ const cards=CARDS.filter(c=>c.ep===e.n&&c.kind!=="command");
     const known=cards.filter(c=>{const it=itemOf(c.id);return it&&it.box>=1;}).length;
     eps+='<div><span style="width:110px">Ep. '+e.n+' '+e.title.slice(0,10)+'</span><div class="b" style="width:'+(known/cards.length*160)+'px"></div><span>'+known+'/'+cards.length+'</span></div>'; });
   app.innerHTML=topbar()+'<div class="panel"><h1>Stats</h1>'+
@@ -859,6 +1380,7 @@ function screenStats(){
   '<div class="panel"><b style="font-size:22px">'+acc+'%</b><div class="small mut">lifetime accuracy</div></div>'+
   '<div class="panel"><b style="font-size:22px">'+S.stats.reviews+'</b><div class="small mut">🔁 reviews answered</div></div>'+
   '<div class="panel"><b style="font-size:22px">'+S.streak.count+'</b><div class="small mut">day streak</div></div></div>'+
+  '<h2 style="margin-top:14px">Independent German</h2><p class="small mut">💬 '+S.stats.production+' production attempts · '+S.stats.productionMatched+' known matches · '+S.stats.productionSelfRated+' self-assessed successes. Self-assessment is not automatic grammar or pronunciation grading.</p><p class="small mut">🧭 '+commandMastery()+'/11 classroom commands confident (box ≥ 3).</p>'+
   '<h2 style="margin-top:14px">Episode progress (cards in box ≥ 1)</h2><div class="bars">'+eps+'</div>'+
   '<h2 style="margin-top:14px">Scheduler boxes</h2><div class="bars">'+boxes.map((n,i)=>'<div><span style="width:70px">box '+i+'</span><div class="b" style="width:'+(n/max*180)+'px"></div><span>'+n+'</span></div>').join("")+'</div>'+
   '<h2 style="margin-top:14px">Review forecast (next 7 days)</h2><div class="bars">'+days.map((n,i)=>'<div><span style="width:70px">'+(i===0?"today":"+"+i+"d")+'</span><div class="b" style="width:'+(n/dmax*180)+'px; background:var(--blue)"></div><span>'+n+'</span></div>').join("")+'</div>'+
@@ -867,90 +1389,143 @@ function screenStats(){
   '<input type="file" id="imp" accept=".json" style="display:none"></div>';
   $("#imp").addEventListener("change",function(ev){
     const f=ev.target.files[0]; if(!f)return; const r=new FileReader();
-    r.onload=function(){ try{ S=Object.assign(S,JSON.parse(r.result)); save(); screenStats(); }catch(e){ alert("Bad file"); } };
+    r.onload=function(){ try{ S=restoreProgress(JSON.parse(r.result)); save(); screenStats(); }catch(e){ alert("Bad file"); } };
     r.readAsText(f); });
 }
 
 /* ------------------------------ ACTIONS ------------------------------ */
 let resetArmed=false;
 app.addEventListener("click",function(e){
-  const b=e.target.closest("[data-act]"); if(!b) return;
+  const b=e.target.closest("[data-act]"); if(!b||b.disabled) return;
   const act=b.dataset.act, c=G?G.cur:null;
-  if(act==="go"){ ({home:screenHome,stats:screenStats,method:screenMethod,deck:screenDeck})[b.dataset.go](); return; }
-  if(act==="quit"){ G=null; screenHome(); return; }
-  if(act==="ep-intro"){ const n=+b.dataset.ep; if(unlocked(n)) screenIntro(n); return; }
-  if(act==="ep-start"){ const n=+b.dataset.ep; const q=buildEpisodeQueue(n);
-    startSession(q.ids,"Ep. "+n+" · "+epOf(n).title,null,{ep:n}); return; }
+  if(act==="go"){
+    const screen=({home:screenHome,stats:screenStats,method:screenMethod,deck:screenDeck,commands:screenCommands,production:screenProduction})[b.dataset.go];
+    if(screen){stopSession();screen();} return;
+  }
+  if(act==="quit"){ screenHome(); return; }
+  if(act==="ep-intro"){ const n=+b.dataset.ep; if(unlocked(n)&&epOf(n)){stopSession();screenIntro(n);} return; }
+  if(act==="ep-start"){ const n=+b.dataset.ep; if(!unlocked(n)||!epOf(n)) return;
+    const q=buildEpisodeQueue(n);
+    startSession(q.ids,"Ep. "+n+" · "+epOf(n).title,null,{ep:n,reviewIds:q.reviewIds}); return;
+  }
   if(act==="play-review"){ const ids=buildReviewQueue();
-    if(!ids.length){ alert("Nothing due — your memory is fresh. Come back when the fog rolls in 🌫️"); return; }
-    startSession(ids,"🔁 Wiederholung",null,{mode:"review"}); return; }
+    if(!ids.length){ alert(ui("Nothing due — your memory is fresh. Come back when the fog rolls in 🌫️","Nichts fällig — dein Wissen ist noch frisch. Komm später wieder 🌫️")); return; }
+    startSession(ids,"🔁 Wiederholung",null,{mode:"review"}); return;
+  }
   if(act==="play-prof"){ startSession(buildProfQueue(),"🎓 Erklär-Training","teach",{mode:"prof"}); return; }
+  if(act==="play-commands"){ startSession(buildCommandQueue(),"🧭 Anweisungs-Training","command",{mode:"commands"}); return; }
+  if(act==="play-production"){ startSession(buildProductionQueue(),"💬 Selbst formulieren","production",{mode:"production",englishThought:b.dataset.cue==="en"}); return; }
   if(act==="toggle-sound"){ S.sound=!S.sound; save(); sfxClick(); screenHome(); return; }
   if(act==="toggle-speech"){ S.speech=!S.speech; save(); pickVoice(); screenHome(); return; }
-  if(act==="export"){ const blob=new Blob([JSON.stringify(S,null,1)],{type:"application/json"});
-    const a=document.createElement("a"); a.href=URL.createObjectURL(blob); a.download="deutschquest-progress.json"; a.click(); return; }
+  if(act==="export"){
+    const blob=new Blob([JSON.stringify(S,null,1)],{type:"application/json"});
+    const a=document.createElement("a"); const url=URL.createObjectURL(blob); a.href=url; a.download="deutschquest-progress.json"; a.click();
+    setTimeout(()=>URL.revokeObjectURL(url),1000); return;
+  }
   if(act==="import"){ $("#imp").click(); return; }
   if(act==="reset"){
     if(!resetArmed){ resetArmed=true; b.textContent="⚠ really? tap again";
       setTimeout(()=>{resetArmed=false; if(document.body.contains(b)) b.textContent="🗑 reset everything";},3000); return; }
-    S={xp:0,sound:S.sound,speech:S.speech,streak:{last:"",count:0},items:{},prog:{ep:1,done:{}},stats:{sessions:0,answers:0,correct:0,fog:0,bestCombo:0,reviews:0}};
-    save(); resetArmed=false; screenHome(); return; }
+    const sound=S.sound,speech=S.speech; S=freshState(); S.sound=sound; S.speech=speech;
+    save(); resetArmed=false; screenHome(); return;
+  }
   if(!G) return;
-  if(act==="next"){ G.i++; nextCard(); return; }
+  if(act==="next"){ if(G.phase==="feedback"){G.i++;nextCard();} return; }
+  if(act==="teach-rate"&&G.phase==="rate"){
+    let grade=+b.dataset.g; if(![0,2,3].includes(grade)) return;
+    if(c.peeked) grade=Math.min(grade,2);
+    finish(grade,'',c.card.ex); return;
+  }
+  if(act==="production-rate"&&G.phase==="production-review"){
+    const grade=+b.dataset.g;
+    if(![0,2].includes(grade)) return;
+    if(grade===2&&!Array.from(document.querySelectorAll('.production-goal')).every(input=>input.checked)) return;
+    finish(grade,c.productionAnswer?typedDetail(c.productionAnswer):'<p class="small mut">'+ui('Spoken response · self-assessed','Gesprochene Antwort · selbst bewertet')+'</p>',c.card.de); return;
+  }
+  if(G.phase!=="answer") return;
   if(act==="say"){ speak(c.card.de); return; }
-  if(act==="check-recall"){ checkTyped($("#ans").value,c.mg); return; }
+  if(act==="check-recall"){ const val=requireAnswer(); if(val!=null) checkTyped(val); return; }
   if(act==="check-recallrev"){
-    const typed=norm($("#ans").value);
-    const ok=typed.length>2&&norm(c.card.en).split(/[;,]/).some(v=>{ const words=norm(v).split(" ").filter(w=>w.length>3);
+    const val=requireAnswer(); if(val==null) return;
+    const typed=norm(val);
+    const ok=typed.length>2&&norm(c.card.en).split(/[;,]/).some(v=>{ const words=norm(v).split(' ').filter(w=>w.length>3);
       return words.length&&words.every(w=>typed.includes(w)); });
-    finish(ok?3:1,'<div class="small mut">You typed: “'+$("#ans").value+'”</div>',c.card.de); return; }
+    finish(ok?3:1,typedDetail(val,'en'),c.card.de); return;
+  }
+  if(act==="check-production"){ checkProduction(); return; }
+  if(act==="production-spoken"){ checkProduction(true); return; }
+  if(act==="production-cue"){
+    c.englishCue=!c.englishCue;
+    const prompt=$("#production-situation"); prompt.textContent=c.englishCue?c.card.promptEn:c.card.promptDe; prompt.lang=c.englishCue?'en':'de';
+    b.textContent=cueButtonLabel(c); b.setAttribute('aria-pressed',String(c.englishCue)); return;
+  }
+  if(act==="check-command"){
+    const val=requireAnswer(); if(val==null) return;
+    finish(commandAccepts(c.card,val)?3:0,typedDetail(val,'en'),c.card.de); return;
+  }
+  if(act==="command-choice"){
+    finish(+b.dataset.i===c.ci?2:0,'',c.card.de); return;
+  }
   if(act==="choice"){
-    const i=+b.dataset.i, ok=i===c.ci;
-    document.querySelectorAll("[data-act=choice]").forEach((el,j)=>{ el.disabled=true; if(j===c.ci)el.classList.add("correct"); else if(j===i)el.classList.add("wrong"); });
-    setTimeout(()=>finish(ok?(c.mg==="choicecorrect"?3:2):0, ok?'':'<div class="small mut">Correct answer highlighted above.</div>', c.card.de),450);
-    return; }
-  if(act==="tile"){ const i=+b.dataset.i; c.bank[i].used=true; c.placed.push(i); sfxClick(); renderBuilder(); return; }
+    const i=+b.dataset.i, ok=i===c.ci, correct=c.opts[c.ci], session=G;
+    G.phase="checking";
+    document.querySelectorAll('[data-act="choice"]').forEach((el,j)=>{el.disabled=true;if(j===c.ci)el.classList.add('correct');else if(j===i)el.classList.add('wrong');});
+    G.pending=setTimeout(()=>{if(G===session&&G.cur===c) finish(ok?(c.mg==="choicecorrect"?3:2):0,'',correct);},450);
+    return;
+  }
+  if(act==="tile"){
+    const i=+b.dataset.i; if(!c.bank[i]||c.bank[i].used) return;
+    c.bank[i].used=true; c.placed.push(i); sfxClick(); renderBuilder(); return;
+  }
   if(act==="untile"){ const i=+b.dataset.i; c.bank[i].used=false; c.placed=c.placed.filter(x=>x!==i); sfxClick(); renderBuilder(); return; }
   if(act==="hint-builder"){
-    const target=c.card.de.split(" "); const p=Math.min(c.placed.length,target.length-1);
+    const target=c.card.de.split(' '), p=Math.min(c.placed.length,target.length-1);
     c.bank.forEach(t=>{t.used=false;}); c.placed=[];
     for(let i=0;i<=p;i++){ const bi=c.bank.findIndex(t=>!t.used&&t.w===target[i]); if(bi<0)break; c.bank[bi].used=true; c.placed.push(bi); }
-    c.hinted=true; sfxClick(); renderBuilder(); return; }
+    c.hinted=true; sfxClick(); renderBuilder(); return;
+  }
   if(act==="check-builder"){
-    const got=c.placed.map(i=>c.bank[i].w).join(" ");
-    const ok=norm(got)===norm(c.card.de);
-    finish(ok?(c.hinted?2:3):0, ok?'':'<div class="small mut">Your build: “'+got+'”</div>', c.card.de);
-    if(ok) confetti(8); return; }
+    const got=c.placed.map(i=>c.bank[i].w).join(' '), ok=norm(got)===norm(c.card.de);
+    finish(ok?(c.hinted?2:3):0,ok?'':typedDetail(got),c.card.de);
+    if(ok) confetti(8); return;
+  }
   if(act==="teach-stop"){ teachRate(); return; }
   if(act==="teach-peek"){ c.peeked=true; teachRate(); return; }
-  if(act==="teach-rate"){ let g=+b.dataset.g; if(c.peeked) g=Math.min(g,2);
-    finish(g,'<div class="small mut">Model answer:</div>',c.card.de); return; }
-  if(act==="hunt-type"){
-    const t=ERR_TYPES[+b.dataset.i]; c.huntTypeOK=(t===c.card.errType); c.huntStep=1;
-    const opts=shuffle([c.card.fix, c.card.de, shuffle(DECK.filter(x=>x.kind==="error"&&x.id!==c.card.id))[0].fix]);
-    c.opts=opts; c.ci=opts.indexOf(c.card.fix);
-    app.innerHTML=topbar()+progress()+'<div class="panel">'+fogBadge(c.fog)+
-      '<div class="tag">Fehler-Jagd · step 2</div><div class="small mut">Your diagnosis: <b>'+t+'</b> '+(c.huntTypeOK?'✅':'❌ (it was “'+c.card.errType+'”)')+'</div>'+
-      '<div class="de" style="font-size:20px">Now pick the corrected sentence:</div>'+
-      opts.map((o,i)=>'<button class="opt" data-act="hunt-fix" data-i="'+i+'" data-key="'+(i+1)+'"><span class="k">'+(i+1)+'</span>'+o+'</button>').join("")+'</div>';
-    return; }
+  if(act==="hunt-type"){ presentHuntFix(ERR_TYPES[+b.dataset.i]); return; }
   if(act==="hunt-fix"){
-    const i=+b.dataset.i, fixOK=i===c.ci;
-    finish((c.huntTypeOK?2:0)+(fixOK?1:0),'<div class="small mut">Error type: <b>'+c.card.errType+'</b></div>',c.card.fix); return; }
+    const fixOK=+b.dataset.i===c.ci;
+    finish((c.huntTypeOK?2:0)+(fixOK?1:0),'<div class="small mut">'+ui('Error type','Fehlerart')+': <b>'+errorTypeLabel(c.card.errType)+'</b></div>',c.card.fix); return;
+  }
+});
+app.addEventListener("change",function(e){
+  if(!G||G.phase!=="production-review"||!e.target.matches('.production-goal')) return;
+  const button=document.querySelector('[data-act="production-rate"][data-g="2"]');
+  button.disabled=!Array.from(document.querySelectorAll('.production-goal')).every(input=>input.checked);
 });
 document.addEventListener("keydown",function(e){
-  if(!G) return;
+  if(!G||e.isComposing||e.repeat) return;
   const ae=document.activeElement;
-  if(G.phase==="feedback"&&(e.key==="Enter"||e.key===" ")){ e.preventDefault();
-    const b=document.querySelector('[data-act="next"]'); if(b)b.click(); return; }
-  if(G.phase==="rate"){ const k=parseInt(e.key,10);
-    if(k>=1&&k<=3){ const b=document.querySelector('[data-key="'+k+'"]'); if(b)b.click(); } return; }
+  const typing=ae&&(ae.tagName==="INPUT"||ae.tagName==="TEXTAREA"||ae.isContentEditable);
+  if(typing){
+    if(G.phase==="answer"&&ae.id==="ans"&&e.key==="Enter"&&(ae.tagName==="INPUT"||e.ctrlKey||e.metaKey)){
+      const button=document.querySelector('[data-act="check-recall"],[data-act="check-recallrev"],[data-act="check-production"],[data-act="check-command"]');
+      if(button){e.preventDefault();button.click();}
+    }
+    return; // Digits in an answer must never activate option shortcuts.
+  }
+  // Keep native Enter/Space behaviour for disclosure widgets and buttons.
+  if(ae&&["BUTTON","SUMMARY","A","SELECT"].includes(ae.tagName)) return;
+  if($("#english-help")&&$("#english-help").open) return;
+  if(G.phase==="feedback"&&(e.key==="Enter"||e.key===" ")){
+    e.preventDefault(); const b=document.querySelector('[data-act="next"]'); if(b)b.click(); return;
+  }
+  if(G.phase==="rate"){
+    const k=parseInt(e.key,10); if(k>=1&&k<=3){const b=document.querySelector('[data-key="'+k+'"]');if(b)b.click();} return;
+  }
   if(G.phase!=="answer") return;
-  if(G.cur.mg==="teach"&&e.key===" "){ e.preventDefault(); teachRate(); return; }
-  if(e.key==="Enter"&&ae&&ae.tagName==="INPUT"){ e.preventDefault();
-    const b=document.querySelector('[data-act="check-recall"],[data-act="check-recallrev"]'); if(b)b.click(); return; }
+  if(G.cur.mg==="teach"&&e.key===" "){e.preventDefault();teachRate();return;}
   const k=parseInt(e.key,10);
-  if(k>=1&&k<=9){ const b=document.querySelector('[data-key="'+k+'"]'); if(b)b.click(); }
+  if(k>=1&&k<=9){const b=document.querySelector('[data-key="'+k+'"]');if(b)b.click();}
 });
 
 /* ------------------------------ GO ------------------------------ */
