@@ -1,0 +1,556 @@
+{
+  "episode": {
+    "id": "b1e14",
+    "arcId": "B1",
+    "cefrLevel": "B1",
+    "title": "Das Winterkonzert",
+    "titleEn": "The winter concert",
+    "blurb": "Meis Band spielt im Jugendclub — und du bist diesmal nicht im Publikum, sondern an der Abendkasse. Karten, Vorgruppe, Gänsehaut: Konzert von der Arbeitsseite.",
+    "order": 22,
+    "sceneIds": [
+      "b1e14s1",
+      "b1e14s2",
+      "b1e14s3"
+    ]
+  },
+  "cast": [
+    {
+      "id": "mei",
+      "name": "Mei",
+      "role": "Sängerin bei Taucherglocke"
+    },
+    {
+      "id": "tobias",
+      "name": "Tobias",
+      "role": "Nachbar, Student"
+    },
+    {
+      "id": "luise",
+      "name": "Luise",
+      "role": "Café-Besitzerin"
+    },
+    {
+      "id": "berger",
+      "name": "Frau Berger",
+      "role": "Koordinatorin, Jugendclub"
+    }
+  ],
+  "items": [
+    {
+      "id": "der-auftritt",
+      "type": "word",
+      "german": "der Auftritt",
+      "meaning": "the (stage) appearance / gig",
+      "image": "mic",
+      "audio": "tts",
+      "introducedInScene": "b1e14s1",
+      "tags": [
+        "music",
+        "events"
+      ],
+      "cefrLevel": "B1",
+      "note": "der, Plural: die Auftritte — auftreten; der große Auftritt"
+    },
+    {
+      "id": "der-soundcheck",
+      "type": "word",
+      "german": "der Soundcheck",
+      "meaning": "the sound check",
+      "image": "laut",
+      "audio": "tts",
+      "introducedInScene": "b1e14s1",
+      "tags": [
+        "music",
+        "technology"
+      ],
+      "cefrLevel": "B1",
+      "note": "der, Plural: die Soundchecks — Test, Test, eins, zwei"
+    },
+    {
+      "id": "die-buehne",
+      "type": "word",
+      "german": "die Bühne",
+      "meaning": "the stage",
+      "image": "konzert",
+      "audio": "tts",
+      "introducedInScene": "b1e14s1",
+      "tags": [
+        "music",
+        "culture"
+      ],
+      "cefrLevel": "B1",
+      "note": "die, Plural: die Bühnen — auf der Bühne stehen"
+    },
+    {
+      "id": "die-halle",
+      "type": "word",
+      "german": "die Halle",
+      "meaning": "the hall",
+      "image": "haus",
+      "audio": "tts",
+      "introducedInScene": "b1e14s1",
+      "tags": [
+        "city",
+        "events"
+      ],
+      "cefrLevel": "B1",
+      "note": "die, Plural: die Hallen — Turnhalle, Festhalle, Jugendclub-Halle"
+    },
+    {
+      "id": "der-aufbau",
+      "type": "word",
+      "german": "der Aufbau",
+      "meaning": "the set-up / assembly",
+      "image": "werkzeug",
+      "audio": "tts",
+      "introducedInScene": "b1e14s1",
+      "tags": [
+        "events",
+        "work"
+      ],
+      "cefrLevel": "B1",
+      "note": "der, Plural: die Aufbauten — aufbauen (trennbar); danach: der Abbau"
+    },
+    {
+      "id": "falls",
+      "type": "grammar_pattern",
+      "german": "___ es regnet, verlegen wir ins Innere.",
+      "meaning": "If it rains, we'll move inside.",
+      "image": "ziel",
+      "audio": "tts",
+      "introducedInScene": "b1e14s1",
+      "tags": [
+        "grammar",
+        "events"
+      ],
+      "cefrLevel": "B1",
+      "cloze": "Falls",
+      "speak": "Falls es regnet, verlegen wir ins Innere.",
+      "note": "falls = wenn (für den Fall dass) — Vorrang vor wenn"
+    },
+    {
+      "id": "aufgeregt",
+      "type": "word",
+      "german": "aufgeregt",
+      "meaning": "excited / nervous",
+      "image": "person",
+      "audio": "tts",
+      "introducedInScene": "b1e14s2",
+      "tags": [
+        "feelings"
+      ],
+      "cefrLevel": "B1",
+      "note": "Adjektiv/Adverb — aufgeregt sein; sich aufregen (strengere Version)"
+    },
+    {
+      "id": "die-abendkasse",
+      "type": "word",
+      "german": "die Abendkasse",
+      "meaning": "the box office (at the door)",
+      "image": "kasse",
+      "audio": "tts",
+      "introducedInScene": "b1e14s2",
+      "tags": [
+        "events",
+        "money"
+      ],
+      "cefrLevel": "B1",
+      "note": "die, Plural: die Abendkassen — abends, an der Tür"
+    },
+    {
+      "id": "der-merchstand",
+      "type": "word",
+      "german": "der Merchstand",
+      "meaning": "the merch table",
+      "image": "laden",
+      "audio": "tts",
+      "introducedInScene": "b1e14s2",
+      "tags": [
+        "music",
+        "shopping"
+      ],
+      "cefrLevel": "B1",
+      "note": "der, Plural: die Merchstands — Merchandise: T-Shirts, Platten, Sticker"
+    },
+    {
+      "id": "die-vorgruppe",
+      "type": "word",
+      "german": "die Vorgruppe",
+      "meaning": "the opening act / support band",
+      "image": "band",
+      "audio": "tts",
+      "introducedInScene": "b1e14s2",
+      "tags": [
+        "music",
+        "events"
+      ],
+      "cefrLevel": "B1",
+      "note": "die, Plural: die Vorgruppen — plays BEFORE the main act"
+    },
+    {
+      "id": "der-sound",
+      "type": "word",
+      "german": "der Sound",
+      "meaning": "the sound (style)",
+      "image": "laut",
+      "audio": "tts",
+      "introducedInScene": "b1e14s2",
+      "tags": [
+        "music"
+      ],
+      "cefrLevel": "B1",
+      "note": "der, Plural: die Sounds — Denglisch, aber etabliert"
+    },
+    {
+      "id": "anstehen",
+      "type": "word",
+      "german": "anstehen",
+      "meaning": "to queue / stand in line",
+      "image": "kasse",
+      "audio": "tts",
+      "introducedInScene": "b1e14s2",
+      "tags": [
+        "everyday",
+        "events"
+      ],
+      "cefrLevel": "B1",
+      "note": "anstehen — an der Kasse anstehen; die Schlange"
+    },
+    {
+      "id": "die-zugabe",
+      "type": "word",
+      "german": "die Zugabe",
+      "meaning": "the encore",
+      "image": "mic",
+      "audio": "tts",
+      "introducedInScene": "b1e14s3",
+      "tags": [
+        "music",
+        "events"
+      ],
+      "cefrLevel": "B1",
+      "note": "die, Plural: die Zugaben — „Zugabe!“ rufen, bis sie kommt"
+    },
+    {
+      "id": "die-gaensehaut",
+      "type": "word",
+      "german": "die Gänsehaut",
+      "meaning": "goose bumps",
+      "image": "person",
+      "audio": "tts",
+      "introducedInScene": "b1e14s3",
+      "tags": [
+        "feelings"
+      ],
+      "cefrLevel": "B1",
+      "note": "die ( Singular ) — Gänsehaut bekommen: Gans + Haut"
+    },
+    {
+      "id": "durchhalten",
+      "type": "chunk",
+      "german": "Durchhalten!",
+      "meaning": "Hang in there!",
+      "image": "ziel",
+      "audio": "tts",
+      "introducedInScene": "b1e14s3",
+      "tags": [
+        "encouragement"
+      ],
+      "cefrLevel": "B1",
+      "speak": "Durchhalten!",
+      "note": "trennbar: wir halten durch — Motivationssatz"
+    },
+    {
+      "id": "die-setlist",
+      "type": "word",
+      "german": "die Setlist",
+      "meaning": "the set list",
+      "image": "konzept",
+      "audio": "tts",
+      "introducedInScene": "b1e14s3",
+      "tags": [
+        "music"
+      ],
+      "cefrLevel": "B1",
+      "note": "die, Plural: die Setlisten — nach dem Konzert: Souvenir"
+    },
+    {
+      "id": "mitsingen",
+      "type": "word",
+      "german": "mitsingen",
+      "meaning": "to sing along",
+      "image": "mic",
+      "audio": "tts",
+      "introducedInScene": "b1e14s3",
+      "tags": [
+        "music"
+      ],
+      "cefrLevel": "B1",
+      "note": "trennbar: ich singe mit — im Refrain mitzusingen"
+    },
+    {
+      "id": "stolz-auf",
+      "type": "chunk",
+      "german": "Ich bin stolz auf euch.",
+      "meaning": "I'm proud of you (all).",
+      "image": "team",
+      "audio": "tts",
+      "introducedInScene": "b1e14s3",
+      "tags": [
+        "feelings"
+      ],
+      "cefrLevel": "B1",
+      "speak": "Ich bin stolz auf euch.",
+      "note": "stolz sein AUF + Akkusativ"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "b1e14s1",
+      "episodeId": "b1e14",
+      "title": "Aufbau in der Halle",
+      "titleEn": "Set-up in the hall",
+      "place": "Jugendclub Lindenau, Halle",
+      "bg": "buehne",
+      "contextTags": [
+        "music",
+        "events",
+        "friends"
+      ],
+      "requiredItems": [
+        "das-konzert",
+        "die-band"
+      ],
+      "introducedItems": [
+        "der-auftritt",
+        "der-soundcheck",
+        "die-buehne",
+        "die-halle",
+        "der-aufbau",
+        "falls"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Samstag, drei Uhr. Die Halle des Jugendclubs riecht nach Farbe und Spannung. Taucherglocke spielt heute Abend — und du bist nicht Gast, sondern Crew. Frau Berger verteilt Aufgaben wie Geschenke."
+        },
+        {
+          "type": "line",
+          "speaker": "berger",
+          "text": "Sam! Du machst die Abendkasse, Tobias den Merchstand. …Mei ist übrigens aufgeregt, aber sagt das nicht laut — Sänger:innen glauben, Nervosität ist ansteckend. …Falls es regnet, verlegen wir rein. Sonst: Hofbühne. Alles klar?",
+          "translation": "Sam! You're on the box office, Tobias on merch. …Mei's nervous, by the way, but don't say it out loud — singers believe nervousness is contagious. …If it rains, we move inside. Otherwise: courtyard stage. All clear?"
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-auftritt",
+            "die-buehne",
+            "die-halle"
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-aufbau",
+            "der-soundcheck",
+            "falls"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Mei steht vor der Bühne und sagt nichts. Zum ersten Mal.",
+          "options": [
+            {
+              "label": "„Mei. Du hast schon vor Taucherglocke gesungen. Vor allem.“",
+              "line": "Mei. Du hast vor Taucherglocke gesungen, vor Kaffee-Kunden, vor mir. Heute kommt nur mehr Publikum dazu."
+            },
+            {
+              "label": "„Der Soundcheck ist dein Zuhause. Der Rest ist Wiederholung.“",
+              "line": "Der Soundcheck ist dein Zuhause. Der Auftritt ist Wiederholung — mit mehr Leuten. …Mei: „…Danke. Crew-Psychologie.“"
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "reading",
+          "title": "Aushang am Eingang",
+          "text": "WINTERKONZERT IM JUGENDCLUB\n\nTaucherglocke\n+ Vorgruppe: Die Mieter (ja, wirklich)\n\nEinlass: 19:00 · Beginn: 20:00\nVorkauf: 8 € · Abendkasse: 10 €\n\nFalls das Wetter mitspielt:\nHofbühne, offen. Sonst: Halle.\n\nGetränke zu Freundespreisen.\nGarderobe: gegen Spende.",
+          "translation": "WINTER CONCERT AT THE YOUTH CLUB\n\nTaucherglocke\n+ support: Die Mieter (yes, really)\n\nDoors: 7 pm · start: 8 pm\nAdvance: €8 · box office: €10\n\nIf the weather cooperates:\ncourtyard stage, open air. Otherwise: hall.\n\nDrinks at friendly prices.\nCoat check: by donation."
+        }
+      ]
+    },
+    {
+      "id": "b1e14s2",
+      "episodeId": "b1e14",
+      "title": "Abendkasse",
+      "titleEn": "Box office",
+      "place": "Eingang, Abendkasse-Tisch",
+      "bg": "laden",
+      "contextTags": [
+        "music",
+        "events",
+        "work"
+      ],
+      "requiredItems": [
+        "die-kasse",
+        "das-ticket"
+      ],
+      "introducedItems": [
+        "aufgeregt",
+        "die-abendkasse",
+        "der-merchstand",
+        "die-vorgruppe",
+        "der-sound",
+        "anstehen"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "19 Uhr: Die Schlange beginnt. Du sitzt hinter der Abendkasse, ein Stuhl, eine Kiste Wechselgeld, ein Schild: „BITTE ANSTEHEN — ES LOHNT SICH.“ Tobias verkauft daneben T-Shirts wie ein Profi-Händler."
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Merchstand-Regel eins: Erzähl zu jedem Shirt die Geschichte. …„Das hier? Das Design ist von Milos Lesegruppe. Ja, DEM Milo.“ …Verkauft. …Und du: Erste Gäste stehen an. Mach die Kasse auf und dich locker.",
+          "translation": "Merch rule one: tell the story behind every shirt. …'This one? The design is from Milo's reading group. Yes, THAT Milo.' …Sold. …And you: first guests are queuing. Open the till and relax."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-abendkasse",
+            "anstehen",
+            "aufgeregt"
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-merchstand",
+            "die-vorgruppe",
+            "der-sound"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Ein Gast: „Zwei Tickets — und stimmt das Gerücht, dass die Vorgruppe TAUCHERGLocke-Songs spielt?“",
+          "options": [
+            {
+              "label": "Ich sag nur: Zuhören lohnt sich. Ab 20 Uhr.",
+              "line": "Ich sage nur: Zuhören lohnt sich, ab 20 Uhr. …Er lacht, zahlt, winkt. Kassieren mit Geheimnis."
+            },
+            {
+              "label": "Die Vorgruppe spielt eigene Songs. Der Sound ist stärker als ihr Name.",
+              "line": "Die Vorgruppe spielt eigene Songs — der Sound ist stärker als ihr Name. Und der Name ist schon stark."
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "line",
+          "speaker": "berger",
+          "text": "(vorbei mit Getränkekisten) Zweiundvierzig vorverkauft, du hast schon dreißig an der Kasse! …Sam, du rechnest schneller als mein Kassenprogramm. Bleib genau so — und schau dir die Vorgruppe an. Übung für dein Auge.",
+          "translation": "(passing by with drink crates) Forty-two pre-sold, and you've already done thirty at the box office! …Sam, you count faster than my ticketing software. Stay exactly like that — and go watch the support act. Training for your eye."
+        }
+      ]
+    },
+    {
+      "id": "b1e14s3",
+      "episodeId": "b1e14",
+      "title": "Zugabe",
+      "titleEn": "Encore",
+      "place": "Halle, 21:40",
+      "bg": "buehne",
+      "contextTags": [
+        "music",
+        "events",
+        "feelings"
+      ],
+      "requiredItems": [
+        "feiern",
+        "der-spass"
+      ],
+      "introducedItems": [
+        "die-zugabe",
+        "die-gaensehaut",
+        "durchhalten",
+        "die-setlist",
+        "mitsingen",
+        "stolz-auf"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Taucherglocke spielt das letzte Lied der Setlist — und die Halle singt mehr mit als Mei. „Zugabe!“ rufen vierzig Menschen. Mei sieht dich an der Kasse, du zeigst auf die Uhr. Sie lächelt. Sie spielt trotzdem."
+        },
+        {
+          "type": "line",
+          "speaker": "mei",
+          "text": "(ins Mikrofon) Letzter Song. Der heißt „Bis zur Zugabe“ — und der ist für alle, die heute hinter der Kasse standen, als ich nicht reden konnte. …Sam. Ich bin stolz auf euch. Auf uns. Auf DIESEN Sound. …Und jetzt: alle mitsingen!",
+          "translation": "(into the microphone) Last song. It's called 'Until the encore' — and it's for everyone who stood behind the box office today when I couldn't speak. …Sam. I'm proud of you. Of us. Of THIS sound. …And now: everyone sing along!"
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-setlist",
+            "mitsingen",
+            "stolz-auf"
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-zugabe",
+            "die-gaensehaut",
+            "durchhalten"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Die Gänsehaut ist real. Tobias steht neben dir, die Kasse sicher unter dem Arm.",
+          "options": [
+            {
+              "label": "Hörst du das? Die Halle singt DEUTSCH. Und ich verstehe alles.",
+              "line": "Hörst du das? Die ganze Halle singt Deutsch — und ich verstehe jedes Wort. …Gänsehaut. Reale."
+            },
+            {
+              "label": "Vierzig Zugabe-Rufe. Und ich habe jede Kassiert gemerkt.",
+              "line": "Vierzig Zugabe-Rufe, und die Kasse ist voll. …Konzerte zahlen sich besser aus, als mein Mathelehrer behauptet hat."
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "narration",
+          "text": "Nach dem Konzert: Aufräumen als Crew-Ritual. Kabel rollen, Stühle stapeln, Mei zählt die Abendkasse noch einmal — nur für den Klang der Münzen. „Nächstes Mal“, sagt sie, „bist du an der Bühne.“ Du: „Nächstes Mal sing ich mit.“ Sie: „Zugabe.“ Frau Berger schreibt die Zahlen auf die Wandtafel: Eintritt dreihundertvierzehn Euro. Der Verein hat wieder Geld für Waffeln."
+        }
+      ]
+    }
+  ]
+}

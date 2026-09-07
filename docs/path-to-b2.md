@@ -1,18 +1,18 @@
 # The honest path from here to B2
 
-**Status quo (this build):** 46 episodes · 135 scenes · 793 knowledge items ·
-135 scenes of continuous story from arrival to a passed B2 exam and beyond —
-every episode a complete 3-scene arc, plus 37 Lektüre (reading) beats with
-glossary chips and translations.
+**Status quo (this build):** 54 episodes · 159 scenes · 933 knowledge items ·
+159 scenes of continuous story from arrival to a passed B2 exam, two
+Christmas seasons and a New Year's toast — every episode a complete 3-scene
+arc, plus 47 Lektüre (reading) beats with glossary chips and translations.
 
 ## What B2 actually requires
 
 | Dimension | Rough B2 benchmark | This build | Gap |
 |---|---|---|---|
-| Word families (active) | ~3,500–4,500 | 793 items (~630 word families) | ~5–6× |
-| Grammar patterns | all of A1–B2 systematically (Passiv, Konj. II, Nebensätze, Relativsätze, Partizipien, Konjunktiv I…) | 34 patterns, the most important ones, woven into story (incl. Verben mit Präpositionen, Plusquamperfekt, Konjunktiv I, Nominalstil, Modalpräteritum, KII-Vergangenheit, Passiv mit Modalverb, weil/damit/um…zu, nicht nur…sondern auch) | broad coverage exists, depth missing |
+| Word families (active) | ~3,500–4,500 | 933 items (~740 word families) | ~4–5× |
+| Grammar patterns | all of A1–B2 systematically (Passiv, Konj. II, Nebensätze, Relativsätze, Partizipien, Konjunktiv I…) | 34 patterns, the most important ones, woven into story (incl. Verben mit Präpositionen, Plusquamperfekt, Konjunktiv I, Nominalstil, Modalpräteritum, KII-Vergangenheit, Passiv mit Modalverb, weil/deshalb/damit/um…zu/ohne…zu, falls, obwohl-artig (zwar…aber), nicht nur…sondern auch, sich gewöhnen an) | broad coverage exists, depth missing |
 | Listening | hours of native-rate input | TTS dialogue lines + listen-checks | needs real media |
-| Reading | long-form texts | dialogue + narrations + 37 adapted passages (Amtsdeutsch, Leserbrief, Wetterwarnung, Theoriebogen, Protokoll, Gartenordnung…) | adapted texts exist; long-form books still outside |
+| Reading | long-form texts | dialogue + narrations + 47 adapted passages (Amtsdeutsch, Leserbrief, Wetterwarnung, Theoriebogen, Protokoll, Gartenordnung, Einkaufszettel, Deutungshilfe…) | adapted texts exist; long-form books still outside |
 | Speaking | interactive production | typed production + hint ladder | needs humans (or future SR) |
 
 ## What the app already does for you (the part most learners fail at)
@@ -37,11 +37,12 @@ glossary chips and translations.
    now 3 scenes; every A-episode ends its day, every B-episode ends its arc.
 2. ~~Reading beats~~ **done** — `reading` beat type shipped; 15 passages across
    A1–B2 (Angebote, Amtsbriefe, Police-Mail, Leserbrief, Verlaufsbericht …).
-3. ~~Level packs: topical episodes~~ **in progress** — 20 topical episodes
-   added (Markt, Führerschein, Stromwechsel, Tandem, Geburtstag, Lesung,
-   Jahresfinale, Zoo, Museum, Frühjahrsputz, erster Schnee, Mieterversammlung,
-   Flohmarkt, zweite Filiale, Kleingarten …); more arcs possible
-   (Weihnachtsmarkt, Werkstatt vertieft, Umzug nach Plagwitz …).
+3. ~~Level packs: topical episodes~~ **ongoing** — 28 topical episodes added
+   (Markt, Führerschein, Stromwechsel, Tandem, Geburtstag, Lesung, Jahresfinale,
+   Zoo, Museum, Frühjahrsputz, erster Schnee, Mieterversammlung, Flohmarkt,
+   zweite Filiale, Kleingarten, Kino, Weihnachtsmarkt, Heiligabend, erste Party,
+   Heimweh/Fernweh, Winterkonzert, Weihnachtsansprache, Jahreswechsel …);
+   more arcs possible (Werkstatt vertieft, Umzug nach Plagwitz, Ostern …).
 4. **Konjunktiv I / Pressebericht** episodes for the B2→C1 bridge.
 5. **Piper audio branch** (run `npm run audio` on an open network) so every
    line and reading passage has one consistent professional voice.

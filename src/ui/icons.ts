@@ -504,6 +504,34 @@ export const ICONS: Record<string, string> = {
     <path d="M6.5 10v9h11v-9" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
     <rect x="10" y="13" width="4" height="6" fill="none" stroke="${PALETTE.teal}" stroke-width="1.5"/>
     <path d="M15 6.5c1.5-1 3-1 4.5 0" fill="none" stroke="${PALETTE.accent}" stroke-width="1.5" stroke-linecap="round"/>`),
+  kino: S(`
+    <rect x="3.5" y="8" width="17" height="11" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/>
+    <path d="M6.5 5l1 3M11 4.5l1 3.5M15.5 5l1 3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M3.5 12h17" stroke="currentColor" stroke-width="1.4"/>
+    <circle cx="12" cy="15.7" r="1.8" fill="none" stroke="${PALETTE.accent}" stroke-width="1.5"/>`),
+  popcorn: S(`
+    <path d="M7 10.5h10l-1 8.5a1.5 1.5 0 0 1-1.5 1.4h-5A1.5 1.5 0 0 1 8 19z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    <circle cx="8.3" cy="8" r="2" fill="none" stroke="currentColor" stroke-width="1.6"/>
+    <circle cx="12" cy="6.3" r="2.1" fill="none" stroke="currentColor" stroke-width="1.6"/>
+    <circle cx="15.7" cy="8" r="2" fill="none" stroke="currentColor" stroke-width="1.6"/>
+    <circle cx="12" cy="9.3" r="1.2" fill="${PALETTE.gold}"/>`),
+  weihnachtsbaum: S(`
+    <path d="M12 3l4 5.5h-2.4l3.4 5h-2.8l3.8 5.5H6l3.8-5.5H7l3.4-5H8z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    <path d="M12 19v2.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    <circle cx="12" cy="11" r="1" fill="${PALETTE.gold}"/><circle cx="10.3" cy="16" r="1" fill="${PALETTE.accent}"/><circle cx="13.8" cy="16" r="1" fill="${PALETTE.teal}"/>`),
+  feuerwerk: S(`
+    <path d="M12 3.5v4M12 16.5v4M3.5 12h4M16.5 12h4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M6 6l2.8 2.8M15.2 15.2L18 18M18 6l-2.8 2.8M8.8 15.2L6 18" stroke="${PALETTE.accent}" stroke-width="1.6" stroke-linecap="round"/>
+    <circle cx="12" cy="12" r="2.2" fill="none" stroke="${PALETTE.gold}" stroke-width="1.8"/>
+    <circle cx="12" cy="12" r=".9" fill="${PALETTE.accent}"/>`),
+  stern: S(`
+    <path d="M12 3.5l2.5 5.4 5.9.6-4.4 4 1.2 5.8-5.2-3-5.2 3 1.2-5.8-4.4-4 5.9-.6z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    <circle cx="12" cy="12" r="1.2" fill="${PALETTE.gold}"/>`),
+  teller: S(`
+    <circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.8"/>
+    <circle cx="12" cy="12" r="4.8" fill="none" stroke="${PALETTE.teal}" stroke-width="1.4"/>
+    <path d="M9.5 12h5" stroke="${PALETTE.accent}" stroke-width="1.6" stroke-linecap="round"/>`),
+
 
 
 

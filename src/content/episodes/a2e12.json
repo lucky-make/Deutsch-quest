@@ -1,0 +1,562 @@
+{
+  "episode": {
+    "id": "a2e12",
+    "arcId": "A2",
+    "cefrLevel": "A2",
+    "title": "Heiligabend bei Brügge",
+    "titleEn": "Christmas Eve at Brügge's",
+    "blurb": "Frau Brügge lädt zum Heiligabend ein: Kartoffelsalat mit Würstchen, Kerzen, Weihnachtsmusik — und das erste Geschenk, das dir jemand in Deutschland persönlich packt.",
+    "order": 16,
+    "sceneIds": [
+      "a2e12s1",
+      "a2e12s2",
+      "a2e12s3"
+    ]
+  },
+  "cast": [
+    {
+      "id": "frau-bruegge",
+      "name": "Frau Brügge",
+      "role": "Vermieterin"
+    },
+    {
+      "id": "tobias",
+      "name": "Tobias",
+      "role": "Nachbar, Student"
+    },
+    {
+      "id": "luise",
+      "name": "Luise",
+      "role": "Café-Besitzerin"
+    }
+  ],
+  "items": [
+    {
+      "id": "der-heiligabend",
+      "type": "word",
+      "german": "der Heiligabend",
+      "meaning": "Christmas Eve (24 Dec)",
+      "image": "fest",
+      "audio": "tts",
+      "introducedInScene": "a2e12s1",
+      "tags": [
+        "celebration",
+        "time"
+      ],
+      "cefrLevel": "A2",
+      "note": "der, Plural: die Heiligabende — in Deutschland: DAS Fest"
+    },
+    {
+      "id": "der-kranz",
+      "type": "word",
+      "german": "der Kranz",
+      "meaning": "the wreath",
+      "image": "fest",
+      "audio": "tts",
+      "introducedInScene": "a2e12s1",
+      "tags": [
+        "celebration",
+        "home"
+      ],
+      "cefrLevel": "A2",
+      "note": "der, Plural: die Kränze — Adventskranz: vier Kerzen"
+    },
+    {
+      "id": "der-kartoffelsalat",
+      "type": "word",
+      "german": "der Kartoffelsalat",
+      "meaning": "the potato salad",
+      "image": "salat",
+      "audio": "tts",
+      "introducedInScene": "a2e12s1",
+      "tags": [
+        "food",
+        "celebration"
+      ],
+      "cefrLevel": "A2",
+      "note": "der, Plural: die Kartoffelsalate — Heiligabend-Klassiker Nr. 1"
+    },
+    {
+      "id": "deshalb",
+      "type": "grammar_pattern",
+      "german": "Es ist Heiligabend, ___ bin ich zu Hause.",
+      "meaning": "It's Christmas Eve, so I'm at home.",
+      "image": "ziel",
+      "audio": "tts",
+      "introducedInScene": "a2e12s1",
+      "tags": [
+        "grammar"
+      ],
+      "cefrLevel": "A2",
+      "cloze": "deshalb",
+      "speak": "Es ist Heiligabend, deshalb bin ich zu Hause.",
+      "note": "deshalb = deshalb — Verb auf Position 1 danach!"
+    },
+    {
+      "id": "die-bescherung",
+      "type": "word",
+      "german": "die Bescherung",
+      "meaning": "the (traditional) present-giving",
+      "image": "geschenk",
+      "audio": "tts",
+      "introducedInScene": "a2e12s1",
+      "tags": [
+        "celebration",
+        "family"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Bescherungen — abends am Baum"
+    },
+    {
+      "id": "die-tradition",
+      "type": "word",
+      "german": "die Tradition",
+      "meaning": "the tradition",
+      "image": "heimat",
+      "audio": "tts",
+      "introducedInScene": "a2e12s1",
+      "tags": [
+        "celebration",
+        "culture"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Traditionen — jede Familie hat ihre eigene"
+    },
+    {
+      "id": "das-wuerstchen",
+      "type": "word",
+      "german": "das Würstchen",
+      "meaning": "the (small) sausage",
+      "image": "bratwurst",
+      "audio": "tts",
+      "introducedInScene": "a2e12s2",
+      "tags": [
+        "food",
+        "celebration"
+      ],
+      "cefrLevel": "A2",
+      "note": "das, Plural: die Würstchen — Wiener oder Bockwurst, im Salat-Fluidum"
+    },
+    {
+      "id": "plaudern",
+      "type": "word",
+      "german": "plaudern",
+      "meaning": "to chat",
+      "image": "gespräch",
+      "audio": "tts",
+      "introducedInScene": "a2e12s2",
+      "tags": [
+        "people",
+        "friends"
+      ],
+      "cefrLevel": "A2",
+      "note": "plaudern — gemütlich reden, ohne Thema"
+    },
+    {
+      "id": "die-familie",
+      "type": "word",
+      "german": "die Familie",
+      "meaning": "the family",
+      "image": "team",
+      "audio": "tts",
+      "introducedInScene": "a2e12s2",
+      "tags": [
+        "people",
+        "family"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Familien — Familienfeier, Familienrezept"
+    },
+    {
+      "id": "der-teller",
+      "type": "word",
+      "german": "der Teller",
+      "meaning": "the plate",
+      "image": "teller",
+      "audio": "tts",
+      "introducedInScene": "a2e12s2",
+      "tags": [
+        "kitchen",
+        "food"
+      ],
+      "cefrLevel": "A2",
+      "note": "der, Plural: die Teller — einen Teller auffüllen"
+    },
+    {
+      "id": "anzuenden",
+      "type": "word",
+      "german": "anzünden",
+      "meaning": "to light / set alight",
+      "image": "kerze",
+      "audio": "tts",
+      "introducedInScene": "a2e12s2",
+      "tags": [
+        "celebration",
+        "actions"
+      ],
+      "cefrLevel": "A2",
+      "note": "trennbar: ich zünde an — Kerzen anzünden"
+    },
+    {
+      "id": "die-musik",
+      "type": "word",
+      "german": "die Musik",
+      "meaning": "the music",
+      "image": "konzert",
+      "audio": "tts",
+      "introducedInScene": "a2e12s2",
+      "tags": [
+        "music",
+        "celebration"
+      ],
+      "cefrLevel": "A2",
+      "note": "die ( Singular ) — Musik hören, Musik machen"
+    },
+    {
+      "id": "sich-bedanken",
+      "type": "chunk",
+      "german": "Ich möchte mich bedanken.",
+      "meaning": "I'd like to say thank you.",
+      "image": "gespräch",
+      "audio": "tts",
+      "introducedInScene": "a2e12s3",
+      "tags": [
+        "politeness",
+        "celebration"
+      ],
+      "cefrLevel": "A2",
+      "speak": "Ich möchte mich bedanken.",
+      "note": "sich bedanken BEI jemandem FÜR etwas"
+    },
+    {
+      "id": "die-schachtel",
+      "type": "word",
+      "german": "die Schachtel",
+      "meaning": "the (small) box",
+      "image": "paket",
+      "audio": "tts",
+      "introducedInScene": "a2e12s3",
+      "tags": [
+        "objects",
+        "celebration"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Schachteln — Geschenkschachtel"
+    },
+    {
+      "id": "die-handarbeit",
+      "type": "word",
+      "german": "die Handarbeit",
+      "meaning": "the handicraft / handwork",
+      "image": "geschenk",
+      "audio": "tts",
+      "introducedInScene": "a2e12s3",
+      "tags": [
+        "hobby",
+        "gifts"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Handarbeiten — stricken, häkeln, nähen"
+    },
+    {
+      "id": "die-socke",
+      "type": "word",
+      "german": "die Socke",
+      "meaning": "the sock",
+      "image": "schuhe",
+      "audio": "tts",
+      "introducedInScene": "a2e12s3",
+      "tags": [
+        "clothes",
+        "gifts"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Socken — gestrickte Socken: das höchste Geschenk"
+    },
+    {
+      "id": "besinnlich",
+      "type": "word",
+      "german": "besinnlich",
+      "meaning": "contemplative / festive-calm",
+      "image": "ruhe",
+      "audio": "tts",
+      "introducedInScene": "a2e12s3",
+      "tags": [
+        "feelings",
+        "celebration"
+      ],
+      "cefrLevel": "A2",
+      "note": "Adjektiv — „eine besinnliche Zeit“ = Weihnachtssprache"
+    },
+    {
+      "id": "singen",
+      "type": "word",
+      "german": "singen",
+      "meaning": "to sing",
+      "image": "mic",
+      "audio": "tts",
+      "introducedInScene": "a2e12s3",
+      "tags": [
+        "music",
+        "celebration"
+      ],
+      "cefrLevel": "A2",
+      "note": "singen — sang — gesungen; Lieder singen"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "a2e12s1",
+      "episodeId": "a2e12",
+      "title": "Die Einladung",
+      "titleEn": "The invitation",
+      "place": "Treppenhaus & Wohnung von Frau Brügge",
+      "bg": "treppenhaus",
+      "contextTags": [
+        "celebration",
+        "neighbors",
+        "family"
+      ],
+      "requiredItems": [
+        "das-abendessen",
+        "die-woche"
+      ],
+      "introducedItems": [
+        "der-heiligabend",
+        "der-kranz",
+        "der-kartoffelsalat",
+        "deshalb",
+        "die-bescherung",
+        "die-tradition"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Ein Zettel in Füllfeder: „Heiligabend, 17 Uhr, bei mir. Kartoffelsalat & Würstchen — Familienrezept. Kommst du & Tobias. Brügge.“ Luise ruft an, um zu fragen, ob sie Wein bringen soll. Sie fragt nicht, sie ANKÜNDIGT es."
+        },
+        {
+          "type": "line",
+          "speaker": "frau-bruegge",
+          "text": "Heiligabend ohne Menschen ist wie Kartoffelsalat ohne Kartoffeln. Deshalb: Du kommst. …Bei uns ist Bescherung am Abend — Geschenke, Baum, Musik. Das ist Tradition. Du bist jetzt Teil der Tradition. Willst du was erwidern? Nein? Gut.",
+          "translation": "Christmas Eve without people is like potato salad without potatoes. So: you're coming. …At ours, presents happen in the evening — gifts, tree, music. That's tradition. You're now part of the tradition. Want to object? No? Good."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-heiligabend",
+            "die-bescherung",
+            "die-tradition"
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-kartoffelsalat",
+            "der-kranz",
+            "deshalb"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Tobias grinst: „Sie hat dich adoptiert. Frag nicht, es gibt kein Zurück. Was bringst du mit?“",
+          "options": [
+            {
+              "label": "Meine Großmutter-Rezept-Karte. Ich backe Mohnkuchen.",
+              "line": "Ich bringe meine Großmutter-Rezept-Karte mit — ich backe Mohnkuchen. Zimt nicht sparen, du weißt ja."
+            },
+            {
+              "label": "Blumen. Und eine Postkarte vom Zoo als Deckblatt-Gag.",
+              "line": "Blumen. Und als Deckblatt die Zoo-Postkarte. …Tobias: „Sie wird sie einrahmen. Zwischen Mietverträgen.“"
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "reading",
+          "title": "Frau Brügges Einkaufszettel (am Kühlschrank)",
+          "text": "HEILIGABEND — EINKAUF\n\nKartoffeln (festkochend!)  2 kg\nWürstchen                  6 Stück\nGurken, Zwiebeln, Mayo\nEier, Essig, Senf\n\nTANNENZWEIGE für den Kranz: 4\nKerzen: NOCH VIER. (Zählen, Brügge!)\n\nGuests: Sam (bringt Kuchen),\nTobias (bringt Wein? Nein, Saft),\nLuise (bringt Wein, besteht darauf).\n\nDeshalb schön sein. Auch wenn's schwerfällt. 😉",
+          "translation": "CHRISTMAS EVE — SHOPPING\n\nPotatoes (firm!)           2 kg\nSausages                   6 pieces\ncucumbers, onions, mayo\neggs, vinegar, mustard\n\nFIR BRANCHES for the wreath: 4\nCandles: FOUR LEFT. (Count, Brügge!)\n\nGuests: Sam (brings cake),\nTobias (brings wine? no, juice),\nLuise (brings wine, insists).\n\nTherefore: be nice. Even if it's hard. 😉"
+        }
+      ]
+    },
+    {
+      "id": "a2e12s2",
+      "episodeId": "a2e12",
+      "title": "Küche, Kerzen, Kartoffelsalat",
+      "titleEn": "Kitchen, candles, potato salad",
+      "place": "Frau Brügges Küche, 4. OG",
+      "bg": "wohnung",
+      "contextTags": [
+        "food",
+        "celebration",
+        "neighbors"
+      ],
+      "requiredItems": [
+        "das-brot",
+        "die-kartoffel"
+      ],
+      "introducedItems": [
+        "das-wuerstchen",
+        "plaudern",
+        "die-familie",
+        "der-teller",
+        "anzuenden",
+        "die-musik"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Die Küche duftet nach Kartoffeln, Essig und Zwiebeln. Weihnachtsmusik läuft leise vom alten Radio, Tobias rührt die Mayo, Luise plaudert mit Frau Brügge über das Jahr — und du bekommst den Ehrenplatz: Teller-Turm-Wache."
+        },
+        {
+          "type": "line",
+          "speaker": "frau-bruegge",
+          "text": "Kartoffelsalat ist KEIN Rezept, das ist Beziehungspflege. …Salat in die Schüssel, Würstchen oben drauf, fertig. Und JA, ich probiere jährlich neue Varianten. Und JA, die Familie protestiert. Beides gehört dazu.",
+          "translation": "Potato salad is NOT a recipe, it's relationship maintenance. …Salad in the bowl, sausages on top, done. And YES, I try new variants every year. And YES, the family protests. Both are part of it."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "das-wuerstchen",
+            "der-teller",
+            "anzuenden"
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "plaudern",
+            "die-familie",
+            "die-musik"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "luise",
+          "text": "Sam, Prost auf dein erstes deutsches Weihnachtsfest. …Ach: Kerzen! Vier Stück, einer pro Adventssonntag. Zünd sie an — und ja, du darfst dir was wünschen. Aber leise, sonst kommt die Brügge-Sozialbehörde.",
+          "translation": "Sam, cheers to your first German Christmas. …Oh: candles! Four, one per Advent Sunday. Light them — and yes, you may make a wish. But quietly, or the Brügge social services will come."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Du zündest die vierte Kerze an.",
+          "options": [
+            {
+              "label": "(leise) Danke, Leipzig. Für Gleis 7, das es nicht gibt.",
+              "line": "(leise) Danke, Leipzig. Für Gleis 7, das es nicht gibt — und für alles andere, das es gibt."
+            },
+            {
+              "label": "(leise) Nächstes Jahr: Der Salat schmeckt nach MEINEM Rezept.",
+              "line": "(leise) Nächstes Jahr: Der Salat schmeckt nach MEINEM Rezept. …Du hörst Tobias kichern. Er hat es gehört."
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        }
+      ]
+    },
+    {
+      "id": "a2e12s3",
+      "episodeId": "a2e12",
+      "title": "Die Bescherung",
+      "titleEn": "The presents",
+      "place": "Wohnzimmer, am Baum",
+      "bg": "wohnung",
+      "contextTags": [
+        "celebration",
+        "neighbors",
+        "feelings"
+      ],
+      "requiredItems": [
+        "das-geschenk",
+        "die-kanne"
+      ],
+      "introducedItems": [
+        "sich-bedanken",
+        "die-schachtel",
+        "die-handarbeit",
+        "die-socke",
+        "besinnlich",
+        "singen"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Das Wohnzimmer: Kerzenlicht, ein Baum mit echten Kerzen (Feuerlöscher steht dekorativ daneben), drei Geschenke unter dem Baum — eins hat deinen Namen, in Füllfeder, mit Punkt."
+        },
+        {
+          "type": "line",
+          "speaker": "frau-bruegge",
+          "text": "So. Erst singen? …Nein? Ok. Dann die Bescherung. …Aufmachen! …Das ist Handarbeit — die Socken. Ich stricke seit vierzig Jahren, das passt dir, ich hab's gemessen. …Und jetzt schau in die Schachtel, die zweite. Unten drin.",
+          "translation": "Right. Sing first? …No? OK. Then the presents. …Open them! …That's handicraft — the socks. I've been knitting for forty years; they'll fit, I measured. …And now look in the box, the second one. At the bottom."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-handarbeit",
+            "die-socke",
+            "die-schachtel"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "luise",
+          "text": "Zweite Schachtel. …Eine kleine Kaffeekanne?! Du hast dir KAFFEEKANNEN gewünscht?! …Sam. Das ist kein Geschenk, das ist ein Porträt von dir. …Frau Brügge: „Von allen. Kaffee verbindet hier alle.“",
+          "translation": "Second box. …A little coffee pot?! You wished for COFFEE POTS?! …Sam. That's not a present, that's a portrait of you. …Frau Brügge: 'Of everyone. Coffee connects everybody here.'"
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "sich-bedanken",
+            "besinnlich",
+            "singen"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Frau Brügge schaut dich an. Bedank dich — richtig.",
+          "options": [
+            {
+              "label": "Ich möchte mich bedanken — bei Ihnen, für dieses ganze Jahr.",
+              "line": "Ich möchte mich bedanken. Bei Ihnen, für dieses ganze Jahr — vom ersten Zettel an der Tür bis heute Abend."
+            },
+            {
+              "label": "Danke für die Socken. Und dafür, dass Sie mir eine Familie leihen.",
+              "line": "Danke für die Socken — und dafür, dass Sie mir heute eine Familie leihen. …Frau Brügge: „Leihen? Nein. Behalten.“"
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "narration",
+          "text": "Dann singt ihr doch — „Stille Nacht“, zweistimmig, mit Tobias als-mobilem-Stimmungsproblem und Luise als Rhythmusabteilung. Draußen schneit es nicht, aber es riecht nach Schnee und Kerzen und Kaffee. Besinnlich ist das richtige Wort. Du hast es gelernt, und du hast es verstanden."
+        }
+      ]
+    }
+  ]
+}

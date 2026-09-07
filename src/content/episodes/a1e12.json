@@ -1,0 +1,549 @@
+{
+  "episode": {
+    "id": "a1e12",
+    "arcId": "A1",
+    "cefrLevel": "A1",
+    "title": "Im Kino",
+    "titleEn": "At the cinema",
+    "blurb": "Regen draußen, Popcorn drin: Tobias und Lina nehmen Sam mit ins Kino. Ein Film auf Deutsch — mit Leinwand, Helden und einem Ende, über das alle reden.",
+    "order": 12,
+    "sceneIds": [
+      "a1e12s1",
+      "a1e12s2",
+      "a1e12s3"
+    ]
+  },
+  "cast": [
+    {
+      "id": "tobias",
+      "name": "Tobias",
+      "role": "Nachbar, Student"
+    },
+    {
+      "id": "lina",
+      "name": "Lina",
+      "role": "Tobias' Cousine, 8 Jahre"
+    }
+  ],
+  "items": [
+    {
+      "id": "das-kino",
+      "type": "word",
+      "german": "das Kino",
+      "meaning": "the cinema",
+      "image": "kino",
+      "audio": "tts",
+      "introducedInScene": "a1e12s1",
+      "tags": [
+        "culture",
+        "leisure",
+        "city"
+      ],
+      "cefrLevel": "A1",
+      "note": "das, Plural: die Kinos — wir gehen INS Kino"
+    },
+    {
+      "id": "der-film",
+      "type": "word",
+      "german": "der Film",
+      "meaning": "the film / movie",
+      "image": "kamera",
+      "audio": "tts",
+      "introducedInScene": "a1e12s1",
+      "tags": [
+        "culture",
+        "leisure"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Filme — der Film läuft = it's showing"
+    },
+    {
+      "id": "die-eintrittskarte",
+      "type": "word",
+      "german": "die Eintrittskarte",
+      "meaning": "the (entry) ticket",
+      "image": "kino",
+      "audio": "tts",
+      "introducedInScene": "a1e12s1",
+      "tags": [
+        "culture",
+        "money"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Eintrittskarten — Platz 7, Reihe 3"
+    },
+    {
+      "id": "das-popcorn",
+      "type": "word",
+      "german": "das Popcorn",
+      "meaning": "the popcorn",
+      "image": "popcorn",
+      "audio": "tts",
+      "introducedInScene": "a1e12s1",
+      "tags": [
+        "food",
+        "leisure"
+      ],
+      "cefrLevel": "A1",
+      "note": "das ( Singular ) — süß oder gesalzen: DIE Frage"
+    },
+    {
+      "id": "der-titel",
+      "type": "word",
+      "german": "der Titel",
+      "meaning": "the title",
+      "image": "kino",
+      "audio": "tts",
+      "introducedInScene": "a1e12s1",
+      "tags": [
+        "culture",
+        "media"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Titel — Film, Buch, Lied"
+    },
+    {
+      "id": "ins-kino",
+      "type": "grammar_pattern",
+      "german": "Wir gehen ___ Kino.",
+      "meaning": "We're going to the cinema.",
+      "image": "ziel",
+      "audio": "tts",
+      "introducedInScene": "a1e12s1",
+      "tags": [
+        "grammar",
+        "culture"
+      ],
+      "cefrLevel": "A1",
+      "cloze": "ins",
+      "speak": "Wir gehen ins Kino.",
+      "note": "in + das = ins (Wohin?); im Kino = Wo? (Dativ)"
+    },
+    {
+      "id": "die-leinwand",
+      "type": "word",
+      "german": "die Leinwand",
+      "meaning": "the (cinema) screen",
+      "image": "kino",
+      "audio": "tts",
+      "introducedInScene": "a1e12s2",
+      "tags": [
+        "culture"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Leinwände — groß wie ein Haus"
+    },
+    {
+      "id": "leise",
+      "type": "word",
+      "german": "leise",
+      "meaning": "quiet(ly)",
+      "image": "laut",
+      "audio": "tts",
+      "introducedInScene": "a1e12s2",
+      "tags": [
+        "opinion",
+        "rules"
+      ],
+      "cefrLevel": "A1",
+      "note": "Adjektiv/Adverb — das Gegenteil von laut"
+    },
+    {
+      "id": "spannend",
+      "type": "word",
+      "german": "spannend",
+      "meaning": "exciting / suspenseful",
+      "image": "prüfen",
+      "audio": "tts",
+      "introducedInScene": "a1e12s2",
+      "tags": [
+        "opinion",
+        "culture"
+      ],
+      "cefrLevel": "A1",
+      "note": "Adjektiv — der Film ist spannend!"
+    },
+    {
+      "id": "die-unterhaltung",
+      "type": "word",
+      "german": "die Unterhaltung",
+      "meaning": "the entertainment / conversation",
+      "image": "gespräch",
+      "audio": "tts",
+      "introducedInScene": "a1e12s2",
+      "tags": [
+        "culture",
+        "people"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Unterhaltungen — sich unterhalten"
+    },
+    {
+      "id": "der-held",
+      "type": "word",
+      "german": "der Held",
+      "meaning": "the hero",
+      "image": "person",
+      "audio": "tts",
+      "introducedInScene": "a1e12s2",
+      "tags": [
+        "culture",
+        "people"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Helden — Achtung: der Held, DEN HeldEN"
+    },
+    {
+      "id": "die-szene",
+      "type": "word",
+      "german": "die Szene",
+      "meaning": "the scene",
+      "image": "konzert",
+      "audio": "tts",
+      "introducedInScene": "a1e12s2",
+      "tags": [
+        "culture",
+        "media"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Szenen — auch: die Szene = neighbourhood"
+    },
+    {
+      "id": "das-ende",
+      "type": "word",
+      "german": "das Ende",
+      "meaning": "the end",
+      "image": "zukunft",
+      "audio": "tts",
+      "introducedInScene": "a1e12s3",
+      "tags": [
+        "time",
+        "culture"
+      ],
+      "cefrLevel": "A1",
+      "note": "das, Plural: die Enden — am Ende; zu Ende sein"
+    },
+    {
+      "id": "weinen",
+      "type": "word",
+      "german": "weinen",
+      "meaning": "to cry",
+      "image": "person",
+      "audio": "tts",
+      "introducedInScene": "a1e12s3",
+      "tags": [
+        "feelings"
+      ],
+      "cefrLevel": "A1",
+      "note": "weinen — die Tränen (Plural); lachen ↔ weinen"
+    },
+    {
+      "id": "danach",
+      "type": "word",
+      "german": "danach",
+      "meaning": "afterwards",
+      "image": "zukunft",
+      "audio": "tts",
+      "introducedInScene": "a1e12s3",
+      "tags": [
+        "time"
+      ],
+      "cefrLevel": "A1",
+      "note": "Adverb — erst das Kino, danach der Spaziergang"
+    },
+    {
+      "id": "die-werbung",
+      "type": "word",
+      "german": "die Werbung",
+      "meaning": "the advertising / ads",
+      "image": "brief",
+      "audio": "tts",
+      "introducedInScene": "a1e12s3",
+      "tags": [
+        "media",
+        "culture"
+      ],
+      "cefrLevel": "A1",
+      "note": "die ( Singular ) — vor dem Film: 20 Minuten Werbung"
+    },
+    {
+      "id": "der-spaziergang",
+      "type": "word",
+      "german": "der Spaziergang",
+      "meaning": "the walk / stroll",
+      "image": "ziel",
+      "audio": "tts",
+      "introducedInScene": "a1e12s3",
+      "tags": [
+        "leisure",
+        "nature"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Spaziergänge — einen Spaziergang machen"
+    },
+    {
+      "id": "die-diskussion",
+      "type": "word",
+      "german": "die Diskussion",
+      "meaning": "the discussion",
+      "image": "gespräch",
+      "audio": "tts",
+      "introducedInScene": "a1e12s3",
+      "tags": [
+        "people",
+        "opinion"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Diskussionen — über den Film diskutieren"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "a1e12s1",
+      "episodeId": "a1e12",
+      "title": "Drei Karten",
+      "titleEn": "Three tickets",
+      "place": "Kino Cineding, Karl-Liebknecht-Straße",
+      "bg": "laden",
+      "contextTags": [
+        "culture",
+        "leisure",
+        "friends"
+      ],
+      "requiredItems": [
+        "der-sonntag",
+        "die-vorfreude"
+      ],
+      "introducedItems": [
+        "das-kino",
+        "der-film",
+        "die-eintrittskarte",
+        "das-popcorn",
+        "der-titel",
+        "ins-kino"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Es regnet (natürlich), und Tobias hat drei Karten für den Nachmittag: „Ein deutscher Film. Über einen Mann, der einen Zug verpasst und sein Leben findet.“ Lina ist dabei, weil es Popcorn gibt."
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Heute gehen wir ins Kino — ins Deutsche Kino! Keine Sorge: Der Titel klingt kompliziert, aber der Film hatUntertitel für Gefühle. …Scherz. Du verstehst mehr als du denkst. Und sonst: Popcorn-Kurs danach.",
+          "translation": "Today we're going to the cinema — German cinema! Don't worry: the title sounds complicated, but the film has subtitles for feelings. …Just kidding. You'll understand more than you think. And otherwise: popcorn course afterwards."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "das-kino",
+            "der-film",
+            "der-titel"
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-eintrittskarte",
+            "das-popcorn",
+            "ins-kino"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "An der Kasse: „Süßes oder gesalzenes Popcorn?“",
+          "options": [
+            {
+              "label": "Gesalzen, bitte. Ich bin jetzt ein deutscher Kinogänger.",
+              "line": "Gesalzen, bitte. Ich bin jetzt offiziell deutscher Kinogänger. …Lina: „FALSCH. Süß ist besser. Aber respektiert.“"
+            },
+            {
+              "label": "Süß. Lina hat recht und sie weiß es.",
+              "line": "Süß. Lina hat recht, und sie weiß es auch. …Lina: „ENDLICH sagt das mal jemand!“"
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "line",
+          "speaker": "lina",
+          "text": "Regeln im Kino: leise sein, Popcorn teilen (mit MIR), und wenn der Held fällt, darfst du „oooh“ sagen. Das ist erlaubt. Ich habe das geprüft.",
+          "translation": "Cinema rules: be quiet, share popcorn (with ME), and when the hero falls, you may say 'oooh'. That's allowed. I checked."
+        }
+      ]
+    },
+    {
+      "id": "a1e12s2",
+      "episodeId": "a1e12",
+      "title": "Die Leinwand",
+      "titleEn": "The big screen",
+      "place": "Saal 2, Reihe 3, Platz 5–7",
+      "bg": "buehne",
+      "contextTags": [
+        "culture",
+        "leisure",
+        "friends"
+      ],
+      "requiredItems": [
+        "lecker",
+        "die-limo"
+      ],
+      "introducedItems": [
+        "die-leinwand",
+        "leise",
+        "spannend",
+        "die-unterhaltung",
+        "der-held",
+        "die-szene"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Zwanzig Minuten Werbung, dann: Licht aus. Die Leinwand ist riesig, der Mann im Film verpasst seinen Zug, und du verstehst … Sätze. Ganze. Wirklich ganze Sätze."
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "(flüstert) Verstehst du was? …NEIN, warte, nicht jetzt, die Szene ist spannend — …(fünf Minuten später) Also? …(du nickst) GUT. Er hat den zweiten Zug genommen. Das ist die halbe Geschichte. Immer.",
+          "translation": "(whispering) Are you following? …NO wait, not now, this scene is suspenseful — …(five minutes later) So? …(you nod) GOOD. He took the second train. That's half the story. Always."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-leinwand",
+            "die-szene",
+            "spannend"
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-held",
+            "leise",
+            "die-unterhaltung"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Lina fällt fast vom Sitz: Der Held rennt. Wohin?",
+          "options": [
+            {
+              "label": "(flüstert) Zum Bahnhof! Zweiter Zug! Ich HAB es verstanden!",
+              "line": "(flüstert) Zum Bahnhof! Zweiter Zug! Ich hab es verstanden! …Lina: „LEISE! Aber ja! BRAVO!“ (leise-bravo)"
+            },
+            {
+              "label": "(flüstert) Keine Ahnung. Aber es sieht wichtig aus.",
+              "line": "(flüstert) Keine Ahnung. Aber es sieht SEHR wichtig aus. …Tobias: „Das ist 80 % vom Deutschlernen: Wichtigkeit raten.“"
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "line",
+          "speaker": "lina",
+          "text": "Die beste Szene war, als der Held die alte Frau getroffen hat und dann… ach nein, das erzähle ich nicht. Die musst du sehen. Nur so viel: Er weint. Und das ist okay. Sogar gut.",
+          "translation": "The best scene was when the hero met the old woman and then… oh no, I won't tell. You have to see it. Just this much: he cries. And that's okay. Even good."
+        }
+      ]
+    },
+    {
+      "id": "a1e12s3",
+      "episodeId": "a1e12",
+      "title": "Nach dem Film",
+      "titleEn": "After the film",
+      "place": "Karl-Liebknecht-Straße, Abend",
+      "bg": "strasse",
+      "contextTags": [
+        "culture",
+        "friends",
+        "city"
+      ],
+      "requiredItems": [
+        "der-heimweg",
+        "zufrieden"
+      ],
+      "introducedItems": [
+        "das-ende",
+        "weinen",
+        "danach",
+        "die-werbung",
+        "der-spaziergang",
+        "die-diskussion"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Das Ende: Der Mann verpasst absichtlich den dritten Zug — und bleibt. Licht an. Lina hat Tränentropfen-Statistik geführt: „Zwei. Von MIR. Tobias auch zwei, er hat geheult, er hat nur geheult.“"
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Ich habe NICHT geheult. Ich hatte… Kinoluft in den Augen. …Also: Was dachtest du am Ende? Würdest du auch bleiben — ohne Zug, neuer Ort, alles neu?",
+          "translation": "I did NOT cry. I had… cinema air in my eyes. …So: what did you think at the end? Would you stay too — without a train, new place, everything new?"
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "das-ende",
+            "weinen",
+            "die-diskussion"
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "danach",
+            "die-werbung",
+            "der-spaziergang"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Die Frage hängt über der Karl-Liebknecht-Straße.",
+          "options": [
+            {
+              "label": "Ich bin geblieben. Du siehst das Ergebnis: Ich stehe hier.",
+              "line": "Ich bin geblieben. Du siehst das Ergebnis — ich stehe hier und esse Popcorn vom Heimweg. …Tobias: „Beste Antwort des Kinojahres.“"
+            },
+            {
+              "label": "Der Film war gut. Aber mein Zug fährt noch.",
+              "line": "Der Film war gut, aber mein Zug fährt noch. …Vielleicht nach dem C1-Kurs. Erste Station: Flughafen. Mutter, ich komme."
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "narration",
+          "text": "Ihr macht einen Spaziergang durch die feuchte Straße, und die Diskussion hört nie auf: War die Werbung zu lang? (Ja.) War der Held mutig? (Sehr.) Hast du alles verstanden? (Mehr als beim letzten Mal.) Genau das ist Fortschritt — messbar in Sätzen."
+        }
+      ]
+    }
+  ]
+}

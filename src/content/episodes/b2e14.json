@@ -1,0 +1,563 @@
+{
+  "episode": {
+    "id": "b2e14",
+    "arcId": "B2",
+    "cefrLevel": "B2",
+    "title": "Der Jahreswechsel",
+    "titleEn": "New Year's Eve",
+    "blurb": "Silvester im Hinterhof: Bleigießen, Feuerwerk, Wünsche, Vorsätze. Ein Jahr geht, ein Jahr kommt — und Sam weiß jetzt, was er sagen will, ohne vorher zu üben.",
+    "order": 26,
+    "sceneIds": [
+      "b2e14s1",
+      "b2e14s2",
+      "b2e14s3"
+    ]
+  },
+  "cast": [
+    {
+      "id": "tobias",
+      "name": "Tobias",
+      "role": "Nachbar, Student"
+    },
+    {
+      "id": "mei",
+      "name": "Mei",
+      "role": "Freundin"
+    },
+    {
+      "id": "luise",
+      "name": "Luise",
+      "role": "Café-Besitzerin"
+    },
+    {
+      "id": "frau-bruegge",
+      "name": "Frau Brügge",
+      "role": "Vermieterin"
+    },
+    {
+      "id": "deniz",
+      "name": "Deniz",
+      "role": "Nachbar"
+    },
+    {
+      "id": "sara",
+      "name": "Sara",
+      "role": "Tandem-Partnerin"
+    },
+    {
+      "id": "jonas",
+      "name": "Jonas",
+      "role": "Handwerker, Freund"
+    }
+  ],
+  "items": [
+    {
+      "id": "der-jahreswechsel",
+      "type": "word",
+      "german": "der Jahreswechsel",
+      "meaning": "the turn of the year",
+      "image": "kalender",
+      "audio": "tts",
+      "introducedInScene": "b2e14s1",
+      "tags": [
+        "time",
+        "celebration"
+      ],
+      "cefrLevel": "B2",
+      "note": "der, Plural: die Jahreswechsel — zum Jahreswechsel"
+    },
+    {
+      "id": "die-silvesterparty",
+      "type": "word",
+      "german": "die Silvesterparty",
+      "meaning": "the New Year's Eve party",
+      "image": "fest",
+      "audio": "tts",
+      "introducedInScene": "b2e14s1",
+      "tags": [
+        "celebration",
+        "friends"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Silvesterpartys — St. Sylvester heißt auf Deutsch Silvester"
+    },
+    {
+      "id": "das-feuerwerk",
+      "type": "word",
+      "german": "das Feuerwerk",
+      "meaning": "the fireworks",
+      "image": "feuerwerk",
+      "audio": "tts",
+      "introducedInScene": "b2e14s1",
+      "tags": [
+        "celebration"
+      ],
+      "cefrLevel": "B2",
+      "note": "das, Plural: die Feuerwerke — Mitternacht: alle gleichzeitig"
+    },
+    {
+      "id": "bleigießen",
+      "type": "chunk",
+      "german": "Wir machen Bleigießen.",
+      "meaning": "We're doing lead pouring (fortune telling).",
+      "image": "werkzeug",
+      "audio": "tts",
+      "introducedInScene": "b2e14s1",
+      "tags": [
+        "celebration",
+        "tradition"
+      ],
+      "cefrLevel": "B2",
+      "speak": "Wir machen Bleigießen.",
+      "note": "das Blei — gießen; klassisches Silvestrorakel (heute oft mit Wachs)"
+    },
+    {
+      "id": "das-konfetti",
+      "type": "word",
+      "german": "das Konfetti",
+      "meaning": "the confetti",
+      "image": "fest",
+      "audio": "tts",
+      "introducedInScene": "b2e14s1",
+      "tags": [
+        "celebration"
+      ],
+      "cefrLevel": "B2",
+      "note": "das ( Singular ) — im März findet man es noch. Immer."
+    },
+    {
+      "id": "ohne-zu",
+      "type": "grammar_pattern",
+      "german": "Ohne ___ Wort zu sagen, nickte sie.",
+      "meaning": "Without saying a word, she nodded.",
+      "image": "gespräch",
+      "audio": "tts",
+      "introducedInScene": "b2e14s1",
+      "tags": [
+        "grammar"
+      ],
+      "cefrLevel": "B2",
+      "cloze": "ein",
+      "speak": "Ohne ein Wort zu sagen, nickte sie.",
+      "note": "ohne … zu + Infinitiv — etwas bleibt aus; wie um…zu, aber negativ"
+    },
+    {
+      "id": "die-mitternacht",
+      "type": "word",
+      "german": "die Mitternacht",
+      "meaning": "midnight",
+      "image": "urehr",
+      "audio": "tts",
+      "introducedInScene": "b2e14s2",
+      "tags": [
+        "time",
+        "celebration"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Mitternächte — um Mitternacht: der Jahreswechsel"
+    },
+    {
+      "id": "der-funke",
+      "type": "word",
+      "german": "der Funke",
+      "meaning": "the spark",
+      "image": "feuerwerk",
+      "audio": "tts",
+      "introducedInScene": "b2e14s2",
+      "tags": [
+        "celebration",
+        "reflection"
+      ],
+      "cefrLevel": "B2",
+      "note": "der, Plural: die Funken — der Funke springt über"
+    },
+    {
+      "id": "das-glueck",
+      "type": "word",
+      "german": "das Glück",
+      "meaning": "the luck / happiness",
+      "image": "person",
+      "audio": "tts",
+      "introducedInScene": "b2e14s2",
+      "tags": [
+        "feelings",
+        "celebration"
+      ],
+      "cefrLevel": "B2",
+      "note": "das ( Singular ) — „Viel Glück im neuen Jahr!“"
+    },
+    {
+      "id": "der-vorsatz",
+      "type": "word",
+      "german": "der Vorsatz",
+      "meaning": "the resolution / intention",
+      "image": "ziel",
+      "audio": "tts",
+      "introducedInScene": "b2e14s2",
+      "tags": [
+        "reflection",
+        "time"
+      ],
+      "cefrLevel": "B2",
+      "note": "der, Plural: die Vorsätze — der Neujahrsvorsatz, weltberühmt flüchtig"
+    },
+    {
+      "id": "sich-vornehmen",
+      "type": "chunk",
+      "german": "Ich nehme mir vor, weniger zu arbeiten.",
+      "meaning": "I intend to work less.",
+      "image": "kalender",
+      "audio": "tts",
+      "introducedInScene": "b2e14s2",
+      "tags": [
+        "reflection"
+      ],
+      "cefrLevel": "B2",
+      "speak": "Ich nehme mir vor, weniger zu arbeiten.",
+      "note": "sich (Dat.) etwas vornehmen — der Vorsatz kommt davon"
+    },
+    {
+      "id": "die-nacht",
+      "type": "word",
+      "german": "die Nacht",
+      "meaning": "the night",
+      "image": "zukunft",
+      "audio": "tts",
+      "introducedInScene": "b2e14s2",
+      "tags": [
+        "time"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Nächte — die lange Nacht; Gute Nacht!"
+    },
+    {
+      "id": "das-neujahr",
+      "type": "word",
+      "german": "das Neujahr",
+      "meaning": "New Year's (Day)",
+      "image": "fest",
+      "audio": "tts",
+      "introducedInScene": "b2e14s3",
+      "tags": [
+        "celebration",
+        "time"
+      ],
+      "cefrLevel": "B2",
+      "note": "das ( Singular ) — „Frohes Neujahr!“; Neujahr = der 1. Januar"
+    },
+    {
+      "id": "die-vision",
+      "type": "word",
+      "german": "die Vision",
+      "meaning": "the vision",
+      "image": "idee",
+      "audio": "tts",
+      "introducedInScene": "b2e14s3",
+      "tags": [
+        "reflection",
+        "opinion"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Visionen — größer als der Plan, kleiner als der Traum? Nein. Größer."
+    },
+    {
+      "id": "der-toast",
+      "type": "word",
+      "german": "der Toast",
+      "meaning": "the toast (drink)",
+      "image": "getränk",
+      "audio": "tts",
+      "introducedInScene": "b2e14s3",
+      "tags": [
+        "celebration",
+        "politeness"
+      ],
+      "cefrLevel": "B2",
+      "note": "der, Plural: die Toasts — einen Toast ausbringen AUF + Akkusativ"
+    },
+    {
+      "id": "das-versprechen",
+      "type": "word",
+      "german": "das Versprechen",
+      "meaning": "the promise",
+      "image": "geschenk",
+      "audio": "tts",
+      "introducedInScene": "b2e14s3",
+      "tags": [
+        "people",
+        "reflection"
+      ],
+      "cefrLevel": "B2",
+      "note": "das, Plural: die Versprechen — ein Versprechen geben und halten"
+    },
+    {
+      "id": "der-optimismus",
+      "type": "word",
+      "german": "der Optimismus",
+      "meaning": "the optimism",
+      "image": "sonnenuntergang",
+      "audio": "tts",
+      "introducedInScene": "b2e14s3",
+      "tags": [
+        "feelings",
+        "opinion"
+      ],
+      "cefrLevel": "B2",
+      "note": "der ( Singular ) — mit gesundem Optimismus; pessimistisch ↔ optimistisch"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "b2e14s1",
+      "episodeId": "b2e14",
+      "title": "Bleigießen",
+      "titleEn": "Lead pouring",
+      "place": "Hinterhof, Silvesternachmittag",
+      "bg": "fest",
+      "contextTags": [
+        "celebration",
+        "friends",
+        "tradition"
+      ],
+      "requiredItems": [
+        "das-jahr",
+        "die-freundschaft"
+      ],
+      "introducedItems": [
+        "der-jahreswechsel",
+        "die-silvesterparty",
+        "das-feuerwerk",
+        "bleigießen",
+        "das-konfetti",
+        "ohne-zu"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Silvester, Nachmittag. Der Hinterhof ist eine Party-Baustelle: Girlanden vom Geburtstag (dritte Wiederverwendung, mit Würde), Tische, Kerzen, und Frau Brügge mit einem Set Bleigießen aus dem Jahr 1989. Das Blei ist längst Wachs. Die Tradition ist geblieben."
+        },
+        {
+          "type": "line",
+          "speaker": "frau-bruegge",
+          "text": "Bleigießen! Ihr schmelzt Wachs, kippt es ins Wasser, und die Form sagt deine Zukunft. …Wissenschaftlich: Unsinn. Traditionell: Pflicht. …Sam, du fängst an. Neujahr braucht Omen, und deine haben bisher gut funktioniert.",
+          "translation": "Lead pouring! You melt wax, pour it into water, and the shape tells your future. …Scientifically: nonsense. Traditionally: mandatory. …Sam, you start. The new year needs omens, and yours have worked out well so far."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "bleigießen",
+            "die-silvesterparty",
+            "der-jahreswechsel"
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "das-feuerwerk",
+            "das-konfetti",
+            "ohne-zu"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Deine Wachsform landet im Wasser. Sie sieht aus wie … jemand rätselt.",
+          "options": [
+            {
+              "label": "Ein Koffer. Na klar. Das Universum hat Humor.",
+              "line": "Ein Koffer. Na klar — das Universum hat Humor. …Frau Brügge: „Oder ein Brot. Dann hättest du einen Bäckerladen. Beides gut.“"
+            },
+            {
+              "label": "Eine Brücke. Ich lasse sie nicht deuten. Ich deute selbst.",
+              "line": "Eine Brücke. Und ich deute selbst: Ich verbinde. Das war das Jahr, das wird das nächste. …Ohne ein Wort zu sagen, nickt Frau Brügge."
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "reading",
+          "title": "Deutungshilfe (aus Frau Brügges Karton)",
+          "text": "BLEIGIESSEN — OFFIZIELLE DEUTUNGS-HILFE\n(Ernsthaftigkeit: flexibel)\n\nSchiff      → eine Reise kommt\nBrot        → du wirst satt oder Bäcker\nVogel       → Nachricht von Weitem\nBlume       → etwas blüht\nKoffer      → du gehst ODER du bleibst\nBrücke      → du verbindest\nKlumpen     → das Jahr war anstrengend.\n              Leg dich hin.\n\nWer weint, muss Kuchen holen."
+        }
+      ]
+    },
+    {
+      "id": "b2e14s2",
+      "episodeId": "b2e14",
+      "title": "Mitternacht",
+      "titleEn": "Midnight",
+      "place": "Hinterhof, kurz vor zwölf",
+      "bg": "fest",
+      "contextTags": [
+        "celebration",
+        "friends",
+        "feelings"
+      ],
+      "requiredItems": [
+        "feiern",
+        "die-einladung"
+      ],
+      "introducedItems": [
+        "die-mitternacht",
+        "der-funke",
+        "das-glueck",
+        "der-vorsatz",
+        "sich-vornehmen",
+        "die-nacht"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Elf Uhr sechsundfünfzig. Alle stehen im Hof, Gläser in der Hand, Atem in kleinen Wolken. Irgendwo knallt der erste frühe Feuerwerksfan. Tobias zählt falsch runter. Alle zählen mit. Es ist egal."
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "…drei, zwei, EINS — zu früh! …Nochmal! …(dann, wirklich) drei, zwei, eins — FROHES NEUES JAHR! …(Feuerwerk überall. Konfetti aus dem Nichts. Luise umarmt den ganzen Hof gleichzeitig.)",
+          "translation": "…three, two, ONE — too early! …Again! …(then, for real) three, two, one — HAPPY NEW YEAR! …(fireworks everywhere. Confetti from nowhere. Luise hugging the entire courtyard at once.)"
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-mitternacht",
+            "das-glueck",
+            "der-funke"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "luise",
+          "text": "Glück! Mehr davon! …Und jetzt: Vorsätze. Jeder einen, laut. …Ich nehme mir vor, weniger zu arbeiten. …(alle schauen sie an) …Oder wenigstens pünktlicher Feierabend. …JONAS. Du bist.",
+          "translation": "Luck! More of it! …And now: resolutions. One each, out loud. …I intend to work less. …(everyone stares) …Or at least finish on time. …JONAS. Your turn."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-vorsatz",
+            "sich-vornehmen",
+            "die-nacht"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Dein Vorsatz. Alle hören zu. Das Feuerwerk auch.",
+          "options": [
+            {
+              "label": "Ich nehme mir vor, ein Buch zu schreiben. Die Kolumne hat's begonnen.",
+              "line": "Ich nehme mir vor, ein Buch zu schreiben — die Kolumne hat angefangen, der Rest fehlt noch. …(Mei: „KAPITEL EINS IST FERTIG. Du hast es vorgelesen!“)"
+            },
+            {
+              "label": "Ich nehme mir vor, Sara beim Spanisch korrigieren nicht mehr zu petzen.",
+              "line": "Ich nehme mir vor, beim Spanisch lernen mutiger zu sein — ein Fehler pro Satz, Minimum. Saras Regel. Sie nickt. Ohne ein Wort zu sagen."
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        }
+      ]
+    },
+    {
+      "id": "b2e14s3",
+      "episodeId": "b2e14",
+      "title": "Frohes Neujahr",
+      "titleEn": "Happy New Year",
+      "place": "Treppenhaus, Neujahr, 1:20 Uhr",
+      "bg": "treppenhaus",
+      "contextTags": [
+        "celebration",
+        "friends",
+        "reflection"
+      ],
+      "requiredItems": [
+        "die-gewohnheit",
+        "gespannt"
+      ],
+      "introducedItems": [
+        "das-neujahr",
+        "die-vision",
+        "der-toast",
+        "das-versprechen",
+        "der-optimismus"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Nach Mitternacht: Der Hof leert sich langsam, und im Treppenhaus sitzen die übrig Gebliebenen — Tobias, Mei, Sara — auf den Stufen, Gläser in der Hand, Konfetti in den Haaren. Die Nacht ist warm trotz Winter."
+        },
+        {
+          "type": "line",
+          "speaker": "sara",
+          "text": "Ein Toast auf das Neujahr! …Auf Sam: vor zwei Jahren mit Koffer und ohne Wörter, heute mit zwei Filialen, einer Kolumne und einem Buch-Plan. …Auf die Vision! …Und auf das Versprechen: Du schreibst, wir lesen. Das ist ein Deal.",
+          "translation": "A toast to the New Year! …To Sam: two years ago with a suitcase and no words, today with two branches, a column and a book plan. …To the vision! …And to the promise: you write, we read. That's a deal."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "das-neujahr",
+            "der-toast",
+            "die-vision"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "mei",
+          "text": "Und weißt du, was das Schönste ist? …Vor zwei Jahren hättest du diesen Toast nicht verstanden. Heute hast du ihn GEMACHT, mit Subjunktiv und allem. …Der Optimismus von dir, Sam. Der ist echt geworden. Der war vorher nur Zugabe.",
+          "translation": "And you know what's most beautiful? …Two years ago you wouldn't have understood that toast. Today you GAVE it, with subjunctive and everything. …Your optimism, Sam. It's become real. Before, it was just an encore."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "das-versprechen",
+            "der-optimismus"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Tobias streckt die Hand aus. „Und dein erstes Wort im neuen Jahr?“",
+          "options": [
+            {
+              "label": "„Danke.“ Zwei Silben, ein ganzes Jahr.",
+              "line": "Danke. Zwei Silben, ein ganzes Jahr drin. …Alle nicken. Ohne ein Wort zu sagen — ausnahmsweise."
+            },
+            {
+              "label": "„Weiter.“ Wie der Leserbrief von Ruth B. Weitermachen.",
+              "line": "Weiter. Wie im Leserbrief von Ruth B.: weitermachen. …Mei: „Das schaffst du. Kapitel eins wartet.\" "
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "reading",
+          "title": "Frau Brügges Neujahrsnachricht (2:04 Uhr)",
+          "text": "Liebe Mieter, liebe Freunde,\n\ndas Jahr ist gewechselt, die Nächte werden länger\nheller. (Fachbegriff.)\n\nDanke für: Brunnen, Kuchen, Ratgeber,\nKaffee, Geduld, Musik, Deko, Besuche.\n\nMeine Vorsätze:\n1. weniger kontrollieren (Anfänge: schwer)\n2. mehr Feiern (Anfänge: leicht)\n\nMeine Vision: Dieses Haus bleibt voll.\nDas ist keine Prophezeiung. Das ist ein Plan.\n\nFrohes Neujahr — E. Brügge\n(PS: Konfetti kehrt jeder selbst. Samstag.)",
+          "translation": "Dear tenants, dear friends,\n\nthe year has turned; the nights are getting\nlonger-brighter. (technical term)\n\nThank you for: fountain, cake, advice,\ncoffee, patience, music, decorations, visits.\n\nMy resolutions:\n1. less controlling (start: hard)\n2. more celebrating (start: easy)\n\nMy vision: this house stays full.\nThat's not a prophecy. That's a plan.\n\nHappy New Year — E. Brügge\n(PS: everyone sweeps their own confetti. Saturday."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,535 @@
+{
+  "episode": {
+    "id": "b1e13",
+    "arcId": "B1",
+    "cefrLevel": "B1",
+    "title": "Heimweh und Fernweh",
+    "titleEn": "Homesickness and wanderlust",
+    "blurb": "November, grau wie ein unausgeschriebener Brief. Ein Videoanruf nach Hause, ein Gespräch mit Sara — und die Erkenntnis, dass man zwei Heimaten haben kann.",
+    "order": 21,
+    "sceneIds": [
+      "b1e13s1",
+      "b1e13s2",
+      "b1e13s3"
+    ]
+  },
+  "cast": [
+    {
+      "id": "sara",
+      "name": "Sara",
+      "role": "Tandem-Partnerin aus Madrid"
+    },
+    {
+      "id": "mei",
+      "name": "Mei",
+      "role": "Kollegin, Freundin"
+    },
+    {
+      "id": "tobias",
+      "name": "Tobias",
+      "role": "Nachbar, Student"
+    }
+  ],
+  "items": [
+    {
+      "id": "das-heimweh",
+      "type": "word",
+      "german": "das Heimweh",
+      "meaning": "homesickness",
+      "image": "heimat",
+      "audio": "tts",
+      "introducedInScene": "b1e13s1",
+      "tags": [
+        "feelings",
+        "family"
+      ],
+      "cefrLevel": "B1",
+      "note": "das ( Singular ) — Heimweh haben; Heim + Weh = Schmerz"
+    },
+    {
+      "id": "das-fernweh",
+      "type": "word",
+      "german": "das Fernweh",
+      "meaning": "wanderlust / longing for far places",
+      "image": "train",
+      "audio": "tts",
+      "introducedInScene": "b1e13s1",
+      "tags": [
+        "feelings",
+        "reflection"
+      ],
+      "cefrLevel": "B1",
+      "note": "das ( Singular ) — das Gegenteil von Heimweh. Oder die gleiche Sehnsucht?"
+    },
+    {
+      "id": "die-jahreszeit",
+      "type": "word",
+      "german": "die Jahreszeit",
+      "meaning": "the season",
+      "image": "kalender",
+      "audio": "tts",
+      "introducedInScene": "b1e13s1",
+      "tags": [
+        "time",
+        "weather"
+      ],
+      "cefrLevel": "B1",
+      "note": "die, Plural: die Jahreszeiten — „die dunkle Jahreszeit“"
+    },
+    {
+      "id": "diesig",
+      "type": "word",
+      "german": "diesig",
+      "meaning": "hazy / misty",
+      "image": "wetter",
+      "audio": "tts",
+      "introducedInScene": "b1e13s1",
+      "tags": [
+        "weather"
+      ],
+      "cefrLevel": "B1",
+      "note": "Adjektiv — der Himmel ist diesig; der Nebel ist nah"
+    },
+    {
+      "id": "die-mutter",
+      "type": "word",
+      "german": "die Mutter",
+      "meaning": "the mother",
+      "image": "person",
+      "audio": "tts",
+      "introducedInScene": "b1e13s1",
+      "tags": [
+        "people",
+        "family"
+      ],
+      "cefrLevel": "B1",
+      "note": "die, Plural: die Mütter — vertraut: die Mama"
+    },
+    {
+      "id": "der-vater",
+      "type": "word",
+      "german": "der Vater",
+      "meaning": "the father",
+      "image": "person",
+      "audio": "tts",
+      "introducedInScene": "b1e13s1",
+      "tags": [
+        "people",
+        "family"
+      ],
+      "cefrLevel": "B1",
+      "note": "der, Plural: die Väter — vertraut: der Papa"
+    },
+    {
+      "id": "sich-gewoehnen-an",
+      "type": "grammar_pattern",
+      "german": "Ich gewöhne mich ___ den November.",
+      "meaning": "I'm getting used to November.",
+      "image": "ziel",
+      "audio": "tts",
+      "introducedInScene": "b1e13s2",
+      "tags": [
+        "grammar",
+        "feelings"
+      ],
+      "cefrLevel": "B1",
+      "cloze": "an",
+      "speak": "Ich gewöhne mich an den November.",
+      "note": "sich gewöhnen AN + Akkusativ — das Gewöhnen braucht Zeit"
+    },
+    {
+      "id": "der-videoanruf",
+      "type": "word",
+      "german": "der Videoanruf",
+      "meaning": "the video call",
+      "image": "handy",
+      "audio": "tts",
+      "introducedInScene": "b1e13s2",
+      "tags": [
+        "technology",
+        "family"
+      ],
+      "cefrLevel": "B1",
+      "note": "der, Plural: die Videoanrufe — sollte, wird aber nur angerufen"
+    },
+    {
+      "id": "erinnern",
+      "type": "chunk",
+      "german": "Ich erinnere mich an alles.",
+      "meaning": "I remember everything.",
+      "image": "heimat",
+      "audio": "tts",
+      "introducedInScene": "b1e13s2",
+      "tags": [
+        "feelings",
+        "reflection"
+      ],
+      "cefrLevel": "B1",
+      "speak": "Ich erinnere mich an alles.",
+      "note": "sich erinnern AN + Akkusativ; die Erinnerung"
+    },
+    {
+      "id": "die-kindheit",
+      "type": "word",
+      "german": "die Kindheit",
+      "meaning": "the childhood",
+      "image": "person",
+      "audio": "tts",
+      "introducedInScene": "b1e13s2",
+      "tags": [
+        "family",
+        "reflection"
+      ],
+      "cefrLevel": "B1",
+      "note": "die, Plural: die Kindheiten — Kindheitserinnerungen"
+    },
+    {
+      "id": "zwischen-heimaten",
+      "type": "chunk",
+      "german": "Ich lebe zwischen zwei Heimaten.",
+      "meaning": "I live between two homelands.",
+      "image": "heimat",
+      "audio": "tts",
+      "introducedInScene": "b1e13s3",
+      "tags": [
+        "feelings",
+        "reflection"
+      ],
+      "cefrLevel": "B1",
+      "speak": "Ich lebe zwischen zwei Heimaten.",
+      "note": "die Heimat, Plural: die Heimaten — nicht everyone finds this word easy"
+    },
+    {
+      "id": "der-traum",
+      "type": "word",
+      "german": "der Traum",
+      "meaning": "the dream",
+      "image": "idee",
+      "audio": "tts",
+      "introducedInScene": "b1e13s3",
+      "tags": [
+        "feelings",
+        "reflection"
+      ],
+      "cefrLevel": "B1",
+      "note": "der, Plural: die Träume — ein Traum wird wahr"
+    },
+    {
+      "id": "wachsen",
+      "type": "word",
+      "german": "wachsen",
+      "meaning": "to grow",
+      "image": "blumen",
+      "audio": "tts",
+      "introducedInScene": "b1e13s3",
+      "tags": [
+        "nature",
+        "reflection"
+      ],
+      "cefrLevel": "B1",
+      "note": "wachsen — wuchs — gewachsen; auch: Menschen wachsen"
+    },
+    {
+      "id": "die-bruecke",
+      "type": "word",
+      "german": "die Brücke",
+      "meaning": "the bridge",
+      "image": "train",
+      "audio": "tts",
+      "introducedInScene": "b1e13s3",
+      "tags": [
+        "city",
+        "reflection"
+      ],
+      "cefrLevel": "B1",
+      "note": "die, Plural: die Brücken — Brücken bauen (auch im übertragenen Sinn)"
+    },
+    {
+      "id": "die-begegnung",
+      "type": "word",
+      "german": "die Begegnung",
+      "meaning": "the encounter / meeting",
+      "image": "team",
+      "audio": "tts",
+      "introducedInScene": "b1e13s3",
+      "tags": [
+        "people",
+        "reflection"
+      ],
+      "cefrLevel": "B1",
+      "note": "die, Plural: die Begegnungen — eine besondere Begegnung"
+    },
+    {
+      "id": "die-sehnsucht",
+      "type": "word",
+      "german": "die Sehnsucht",
+      "meaning": "the longing / yearning",
+      "image": "heimat",
+      "audio": "tts",
+      "introducedInScene": "b1e13s2",
+      "tags": [
+        "feelings",
+        "reflection"
+      ],
+      "cefrLevel": "B1",
+      "note": "die, Plural: die Sehnsuchten — sich sehnen NACH + Dativ"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "b1e13s1",
+      "episodeId": "b1e13",
+      "title": "November",
+      "titleEn": "November",
+      "place": "Wohnung, Fenster, grauer Himmel",
+      "bg": "wohnung",
+      "contextTags": [
+        "feelings",
+        "family",
+        "reflection"
+      ],
+      "requiredItems": [
+        "die-erinnerung",
+        "die-motivation"
+      ],
+      "introducedItems": [
+        "das-heimweh",
+        "das-fernweh",
+        "die-jahreszeit",
+        "diesig",
+        "die-mutter",
+        "der-vater"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "November in Leipzig: Der Himmel ist diesig, die Sonne geht um vier unter, und die Stadt riecht nach nassem Laub. Dein Handy zeigt ein Foto: die Straße von zu Hause, in Sonne. Deine Mutter hat es geschickt. Kein Text. Nur das Foto."
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Du starrst schon wieder auf dein Handy. …Heimweh? …Hey, das ist keine Schwäche, das ist eine Jahreszeit. November macht ALLEN was — ich kriege im November sogar Heimweh nach Sommer.",
+          "translation": "You're staring at your phone again. …Homesickness? …Hey, that's not weakness, that's a season. November gets to EVERYONE — I even get homesick for summer in November."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "das-heimweh",
+            "die-jahreszeit",
+            "diesig"
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "das-fernweh",
+            "die-mutter",
+            "der-vater"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Das Handy klingelt. Ihre Mutter. Dein Daumen schwebt über der Abheben-Taste.",
+          "options": [
+            {
+              "label": "Ich nehme ab. Und lach dabei. Sie muss das sehen.",
+              "line": "Ich nehme ab — und ich lache dabei. Sie soll sehen, dass es mir hier gut geht. Auch wenn's heute weh tut."
+            },
+            {
+              "label": "Später. Erst Tee, erst Wort fürs Gespräch sammeln.",
+              "line": "Später. Erst ein Tee, erst die richtigen Wörter fürs Gespräch sammeln. Heimweh verzeiht eine Stunde."
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "reading",
+          "title": "Nachricht von deiner Mutter",
+          "text": "Liebling,\n\nvater fragt, ob du Wärmedämmung für den Balkon brauchst.\nIch sage ihm: er hat eine Wohnung. Mit Heizung. In Europa.\nEr sagt: trotzdem.\n\nIch habe deine Lieblingsmarmelade eingekocht.\nSie ist nicht mailbar. Sie wartet.\n\nRuf an, wenn du magst.\nWir sind nicht weit. Nur laut.\n\nMutter",
+          "translation": "Sweetheart,\n\nyour father asks if you need insulation for the balcony.\nI tell him: he has a flat. With heating. In Europe.\nHe says: still.\n\nI've bottled your favourite jam.\nIt's not mailable. It's waiting.\n\nCall when you like.\nWe're not far. Just loud.\n\nMother"
+        }
+      ]
+    },
+    {
+      "id": "b1e13s2",
+      "episodeId": "b1e13",
+      "title": "Videoanruf",
+      "titleEn": "The video call",
+      "place": "Clara-Zetkin-Park, Bank, Sonntag",
+      "bg": "park",
+      "contextTags": [
+        "family",
+        "feelings",
+        "reflection"
+      ],
+      "requiredItems": [
+        "das-tandem",
+        "die-muttersprache"
+      ],
+      "introducedItems": [
+        "sich-gewoehnen-an",
+        "der-videoanruf",
+        "erinnern",
+        "die-kindheit",
+        "die-sehnsucht"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Sonntag, Park, Bank. Der Videoanruf läuft: Ihre Mutter fragt nach dem Wetter (grau), dem Essen (gut), den Menschen („fremd, aber freundlich“). Ihr Vater erscheint im Bild, fragt nach der Heizung, verschwindet, kommt zurück mit einer Marmeladendose als Beweis."
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "(nach dem Anruf) Und? …Sam, du hast gelacht. Zehnmal. …Das ist kein Heimweh mehr — das ist ein anderes Wort: Zuhause in zwei Sprachen. …Sara sagt übrigens dasselbe. Sie wohnt seit drei Jahren „zwischen Madrid und Leipzig“.",
+          "translation": "(after the call) So? …Sam, you laughed. Ten times. …That's not homesickness any more — that's a different word: home in two languages. …Sara says the same thing. She's lived 'between Madrid and Leipzig' for three years."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-videoanruf",
+            "erinnern",
+            "die-kindheit"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "sara",
+          "text": "Sam. Ich gewöhne mich seit drei Jahren an den deutschen November. …Warte, das klingt traurig. Ist es nicht: Man gewöhnt sich nicht, man WÄCHST in die Jahreszeit. …Und ich erinnere mich an jede Kindheitssommer-Sonne in Madrid. Beides darf sein.",
+          "translation": "Sam. I've been getting used to the German November for three years. …Wait, that sounds sad. It isn't: you don't get used to it, you GROW into the season. …And I remember every childhood summer sun in Madrid. Both are allowed."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "sich-gewoehnen-an",
+            "die-sehnsucht"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Sara: „Und was machst du mit dem Heimweh? Praktisch.“",
+          "options": [
+            {
+              "label": "Ich koche ihr Rezept. Marmelade gibt es hier auch — fast.",
+              "line": "Ich koche ihr Rezept nach. Die Marmelade gibt es hier auch — fast die gleiche. Der Duft macht den Rest."
+            },
+            {
+              "label": "Ich plane eine Reise. Fernweh und Heimweh können sich abwechseln.",
+              "line": "Ich plane eine Reise nach Hause. Fernweh und Heimweh wechseln sich ab — wie die Jahreszeiten."
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "reading",
+          "title": "Saras Sprachnotizen (Gruppenchat)",
+          "text": "Wochenende, Thema Heimweh:\n\n— das Heimweh ≠ das Fernweh\n  (eines zieht dich zurück,\n   eines zieht dich fort)\n— sich gewöhnen AN + Akkusativ\n  („Ich gewöhne mich an den November“)\n— sich erinnern AN + Akkusativ\n  (beide Präpositionen: an! Merkwürdig,\n   aber jetzt sind sie Freunde)\n\nHausaufgabe: ein Satz mit beiden Wörtern.\nIch fange an: „Fernweh brachte mich hierher,\nHeimweh lässt mich schreiben.«",
+          "translation": "Weekend, topic: homesickness.\n\n— das Heimweh ≠ das Fernweh\n  (one pulls you back,\n   one pulls you away)\n— sich gewöhnen AN + accusative\n  ('I'm getting used to November')\n— sich erinnern AN + accusative\n  (both prepositions: an! Strange,\n   but now they're friends)\n\nHomework: one sentence with both words.\nI'll start: 'Wanderlust brought me here,\nhomesickness makes me write.'"
+        }
+      ]
+    },
+    {
+      "id": "b1e13s3",
+      "episodeId": "b1e13",
+      "title": "Zwischen zwei Heimaten",
+      "titleEn": "Between two homelands",
+      "place": "Café Luise, Abend",
+      "bg": "cafe",
+      "contextTags": [
+        "feelings",
+        "friends",
+        "reflection"
+      ],
+      "requiredItems": [
+        "die-zukunft",
+        "dankbar"
+      ],
+      "introducedItems": [
+        "zwischen-heimaten",
+        "der-traum",
+        "wachsen",
+        "die-bruecke",
+        "die-begegnung"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Abends im Café Luise: Mei hat Waffeln gemacht („Mitleid mit November-Menschen“), Sara sitzt mit Tee, Tobias mit einem Plan fürs Wochenende. Das Gespräch wird tiefer als der Kaffee."
+        },
+        {
+          "type": "line",
+          "speaker": "mei",
+          "text": "Ich hab auch Heimweh gehabt. Jahrelang. …Bis ich gemerkt habe: Heimweh ist keine Richtung, das ist Liebe. Man liebt einfach von weit weg. …Und dann, irgendwann, liebt man zweimal. Ohne Verrat. Das ist der Trick.",
+          "translation": "I had homesickness too. For years. …Until I realised: homesickness isn't a direction, it's love. You just love from far away. …And then, at some point, you love twice. Without betrayal. That's the trick."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "zwischen-heimaten",
+            "der-traum",
+            "die-begegnung"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "sara",
+          "text": "Genau. Ich lebe zwischen zwei Heimaten — und weißt du, was dazwischen liegt? Eine Brücke. Die heißt: Telefonate, Briefe, Besuche, Erinnerungen. …Und: neue Begegnungen. Ich bin nicht zwischen zwei Welten. Ich bin auf einer Brücke mit Aussicht.",
+          "translation": "Exactly. I live between two homelands — and you know what lies between them? A bridge. It's called: phone calls, letters, visits, memories. …And: new encounters. I'm not between two worlds. I'm on a bridge with a view."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-bruecke",
+            "wachsen"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Mei: „Und du, Sam? Wo bist du gerade?“",
+          "options": [
+            {
+              "label": "Auf der Brücke. Aber ich baue sie breiter. Mit Kaffee.",
+              "line": "Auf der Brücke. Aber ich baue sie gerade breiter — mit Telefonaten, Kaffee und einem Café voller Leute."
+            },
+            {
+              "label": "Ich bin dankbar. Für beide Heimat-Adressen in meinem Kopf.",
+              "line": "Ich bin dankbar. Für beide Heimat-Adressen in meinem Kopf — und dass ich die Briefmarken für beide habe."
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "narration",
+          "text": "Zu Hause schreibst du zwei Nachrichten: eine auf Spanisch an deine Mutter („die Marmelade kann warten, ich bringe einen Koffer mit“), eine an Frau Brügge („brauche für nächsten Sommer zwei Wochen Urlaub“). Fernweh und Heimweh, eingeteilt in einen Kalender. Der November graut weiter draußen — drinnen wächst etwas."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,566 @@
+{
+  "episode": {
+    "id": "b2e13",
+    "arcId": "B2",
+    "cefrLevel": "B2",
+    "title": "Die Weihnachtsansprache",
+    "titleEn": "The Christmas address",
+    "blurb": "Luises Idee: eine kurze Ansprache an beide Teams, vor Weihnachten. Du schreibst sie, kürzt sie, streichst sie — und hältst sie zweimal. Der Kern: Danke.",
+    "order": 25,
+    "sceneIds": [
+      "b2e13s1",
+      "b2e13s2",
+      "b2e13s3"
+    ]
+  },
+  "cast": [
+    {
+      "id": "luise",
+      "name": "Luise",
+      "role": "Café-Besitzerin"
+    },
+    {
+      "id": "rosa",
+      "name": "Rosa",
+      "role": "Teamleitung Plagwitz"
+    },
+    {
+      "id": "mei",
+      "name": "Mei",
+      "role": "Kollegin, Freundin"
+    },
+    {
+      "id": "frau-bruegge",
+      "name": "Frau Brügge",
+      "role": "Vermieterin"
+    }
+  ],
+  "items": [
+    {
+      "id": "der-jahresabschluss",
+      "type": "word",
+      "german": "der Jahresabschluss",
+      "meaning": "the year-end (review/balance)",
+      "image": "kalender",
+      "audio": "tts",
+      "introducedInScene": "b2e13s1",
+      "tags": [
+        "work",
+        "time",
+        "reflection"
+      ],
+      "cefrLevel": "B2",
+      "note": "der, Plural: die Jahresabschlüsse — im Büro: Zahlen; im Café: Worte"
+    },
+    {
+      "id": "die-herausforderung",
+      "type": "word",
+      "german": "die Herausforderung",
+      "meaning": "the challenge",
+      "image": "ziel",
+      "audio": "tts",
+      "introducedInScene": "b2e13s1",
+      "tags": [
+        "work",
+        "reflection"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Herausforderungen — herausfordern; gern im Bewerbungsgespräch"
+    },
+    {
+      "id": "zwar-aber",
+      "type": "grammar_pattern",
+      "german": "___ ist das Café klein, aber es hat Herz.",
+      "meaning": "The café may be small, but it has heart.",
+      "image": "gespräch",
+      "audio": "tts",
+      "introducedInScene": "b2e13s1",
+      "tags": [
+        "grammar"
+      ],
+      "cefrLevel": "B2",
+      "cloze": "Zwar",
+      "speak": "Zwar ist das Café klein, aber es hat Herz.",
+      "note": "zwar …, aber — Einräumung + Gegensatz; Verb nach „zwar“ auf Position 2"
+    },
+    {
+      "id": "der-humor",
+      "type": "word",
+      "german": "der Humor",
+      "meaning": "the humour",
+      "image": "person",
+      "audio": "tts",
+      "introducedInScene": "b2e13s1",
+      "tags": [
+        "opinion",
+        "people"
+      ],
+      "cefrLevel": "B2",
+      "note": "der ( Singular ) — Humor haben; trockener Humor = deutsche Spezialität"
+    },
+    {
+      "id": "die-kuerze",
+      "type": "word",
+      "german": "die Kürze",
+      "meaning": "the brevity / shortness",
+      "image": "urehr",
+      "audio": "tts",
+      "introducedInScene": "b2e13s1",
+      "tags": [
+        "time",
+        "writing"
+      ],
+      "cefrLevel": "B2",
+      "note": "die ( Singular ) — „In der Kürze liegt die Würze.“"
+    },
+    {
+      "id": "die-botschaft",
+      "type": "word",
+      "german": "die Botschaft",
+      "meaning": "the message",
+      "image": "brief",
+      "audio": "tts",
+      "introducedInScene": "b2e13s1",
+      "tags": [
+        "writing",
+        "media"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Botschaften — die Botschaft ankommen lassen"
+    },
+    {
+      "id": "formulieren",
+      "type": "word",
+      "german": "formulieren",
+      "meaning": "to formulate / phrase",
+      "image": "konzept",
+      "audio": "tts",
+      "introducedInScene": "b2e13s2",
+      "tags": [
+        "writing",
+        "work"
+      ],
+      "cefrLevel": "B2",
+      "note": "formulieren — höflich formulieren; die Formulierung"
+    },
+    {
+      "id": "streichen",
+      "type": "word",
+      "german": "streichen",
+      "meaning": "to delete / cut (text)",
+      "image": "formular",
+      "audio": "tts",
+      "introducedInScene": "b2e13s2",
+      "tags": [
+        "writing"
+      ],
+      "cefrLevel": "B2",
+      "note": "stark: streichen — strich — gestrichen; auch: Farbe streichen"
+    },
+    {
+      "id": "zuhoeren",
+      "type": "chunk",
+      "german": "Zuhören ist eine Fähigkeit.",
+      "meaning": "Listening is a skill.",
+      "image": "gespräch",
+      "audio": "tts",
+      "introducedInScene": "b2e13s2",
+      "tags": [
+        "people",
+        "reflection"
+      ],
+      "cefrLevel": "B2",
+      "speak": "Zuhören ist eine Fähigkeit.",
+      "note": "das Zuhören — zuhören (trennbar) + Dativ"
+    },
+    {
+      "id": "die-einfachheit",
+      "type": "word",
+      "german": "die Einfachheit",
+      "meaning": "the simplicity",
+      "image": "idee",
+      "audio": "tts",
+      "introducedInScene": "b2e13s2",
+      "tags": [
+        "opinion",
+        "writing"
+      ],
+      "cefrLevel": "B2",
+      "note": "die ( Singular ) — einfach ≠ simpel; Einfachheit ist schwer"
+    },
+    {
+      "id": "der-kern",
+      "type": "word",
+      "german": "der Kern",
+      "meaning": "the core / kernel",
+      "image": "idee",
+      "audio": "tts",
+      "introducedInScene": "b2e13s2",
+      "tags": [
+        "reflection",
+        "writing"
+      ],
+      "cefrLevel": "B2",
+      "note": "der, Plural: die Kerne — auf den Kern kommen; im Kern"
+    },
+    {
+      "id": "das-podium",
+      "type": "word",
+      "german": "das Podium",
+      "meaning": "the podium / platform",
+      "image": "konzert",
+      "audio": "tts",
+      "introducedInScene": "b2e13s3",
+      "tags": [
+        "events",
+        "work"
+      ],
+      "cefrLevel": "B2",
+      "note": "das, Plural: die Podien — heute: ein Milch-Kistchen"
+    },
+    {
+      "id": "die-aufmerksamkeit",
+      "type": "word",
+      "german": "die Aufmerksamkeit",
+      "meaning": "the attention",
+      "image": "laut",
+      "audio": "tts",
+      "introducedInScene": "b2e13s3",
+      "tags": [
+        "people",
+        "events"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Aufmerksamkeiten — Aufmerksamkeit schenken"
+    },
+    {
+      "id": "der-applaus",
+      "type": "word",
+      "german": "der Applaus",
+      "meaning": "the applause",
+      "image": "fest",
+      "audio": "tts",
+      "introducedInScene": "b2e13s3",
+      "tags": [
+        "events"
+      ],
+      "cefrLevel": "B2",
+      "note": "der ( Singular ) — Applaus ist nicht Beifall; beides ist schön"
+    },
+    {
+      "id": "die-gelegenheit-ergreifen",
+      "type": "chunk",
+      "german": "Ich ergreife die Gelegenheit.",
+      "meaning": "I'm seizing the opportunity.",
+      "image": "entscheidung",
+      "audio": "tts",
+      "introducedInScene": "b2e13s3",
+      "tags": [
+        "politeness",
+        "work"
+      ],
+      "cefrLevel": "B2",
+      "speak": "Ich ergreife die Gelegenheit.",
+      "note": "die Gelegenheit — ergreifen, nutzen; förmlich und gut"
+    },
+    {
+      "id": "der-zusammenhalt",
+      "type": "word",
+      "german": "der Zusammenhalt",
+      "meaning": "the (team) cohesion / solidarity",
+      "image": "team",
+      "audio": "tts",
+      "introducedInScene": "b2e13s3",
+      "tags": [
+        "work",
+        "people"
+      ],
+      "cefrLevel": "B2",
+      "note": "der ( Singular ) — Zusammenhalt ist das Wort fürs Teamgefühl"
+    },
+    {
+      "id": "der-jahresausklang",
+      "type": "word",
+      "german": "der Jahresausklang",
+      "meaning": "the end of the year",
+      "image": "sonnenuntergang",
+      "audio": "tts",
+      "introducedInScene": "b2e13s3",
+      "tags": [
+        "time",
+        "celebration"
+      ],
+      "cefrLevel": "B2",
+      "note": "der, Plural: die Jahresausklänge — ausklingen lassen"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "b2e13s1",
+      "episodeId": "b2e13",
+      "title": "Der Auftrag",
+      "titleEn": "The assignment",
+      "place": "Café Kontor, Theke, vor Öffnung",
+      "bg": "cafe",
+      "contextTags": [
+        "work",
+        "friends",
+        "reflection"
+      ],
+      "requiredItems": [
+        "die-filiale",
+        "die-ansprache"
+      ],
+      "introducedItems": [
+        "der-jahresabschluss",
+        "die-herausforderung",
+        "zwar-aber",
+        "der-humor",
+        "die-kuerze",
+        "die-botschaft"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Luise legt ein Blatt auf die Theke, darauf: „Jahresabschluss — WORTE, nicht Zahlen. Sam hält die Ansprache. Beide Filialen. Kurz.“ …Du liest zweimal. Sie wartet, wie man wartet, wenn die Antwort sowieso feststeht."
+        },
+        {
+          "type": "line",
+          "speaker": "luise",
+          "text": "Sam. Du hast dieses Jahr zwei Filialen am Laufen gehalten, ein Team eingearbeitet und meinen Stammgästen ihre Namen gemerkt. …Die Ansprache gehört dir. Zwar ist das Café klein, aber es hat Herz — und du sprichst sein Herz am besten.",
+          "translation": "Sam. You've kept two branches running this year, onboarded a team, and remembered my regulars' names. …The address is yours. The café may be small, but it has heart — and you speak its heart best."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-jahresabschluss",
+            "zwar-aber",
+            "die-herausforderung"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "rosa",
+          "text": "(aus Plagwitz angerufen) Ich habe gehört, du hältst die Ansprache! …Ein Tipp aus der Praxis: Teams verzeihen lange Ansprachen NICHT. …Kürze. Botschaft. Ein bisschen Humor. Fertig. Wir hören zu, versprochen — mit Kaffee.",
+          "translation": "(called from Plagwitz) I heard you're giving the address! …One tip from practice: teams do NOT forgive long speeches. …Brevity. Message. A bit of humour. Done. We'll listen, promise — with coffee."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-kuerze",
+            "die-botschaft",
+            "der-humor"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Luise: „Was ist die Herausforderung an der Sache? Du redest doch gern.“",
+          "options": [
+            {
+              "label": "Dass es WAHR sein muss. Teams riechen Floskeln.",
+              "line": "Die Herausforderung: Es muss WAHR sein. Teams riechen Floskeln von drei Metern Entfernung."
+            },
+            {
+              "label": "Dass ich alle meine — und alle vermissen dürfen.",
+              "line": "Dass ich alle nennen will — und die Liste zu lang wird. Vermissen darf niemanden. …Luise: „Dann sag es so.“"
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "reading",
+          "title": "Luises Notiz (auf dem Blatt geblieben)",
+          "text": "JAHRESABSCHLUSS — KONTROLLLISTE\n\n✓ Zahlen: macht Rosa, danke Rosa\n✓ Geschenke: macht Mei, danke Mei\n○ Ansprache: macht Sam\n\nAnsprache-Regeln (aus Erfahrung):\n— unter 5 Minuten\n— alle Namen, korrekt\n— eine Geschichte, WAHR\n— kein Firmendeutsch\n— am Ende: Danke. Mehr braucht's nicht.\n\n— L."
+        }
+      ]
+    },
+    {
+      "id": "b2e13s2",
+      "episodeId": "b2e13",
+      "title": "Schreiben, Streichen",
+      "titleEn": "Writing, cutting",
+      "place": "Wohnung, Donnerstag abend",
+      "bg": "wohnung",
+      "contextTags": [
+        "writing",
+        "friends",
+        "reflection"
+      ],
+      "requiredItems": [
+        "das-manuskript",
+        "die-kolumne"
+      ],
+      "introducedItems": [
+        "formulieren",
+        "streichen",
+        "zuhoeren",
+        "die-einfachheit",
+        "der-kern"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Manuskript Nummer eins: vier Seiten. Mei liest und sagt nichts. Das Nichts sagt genug. Dann streicht sie mit dem Bleistift Linien — die Hälfte bleibt, der Kern auch."
+        },
+        {
+          "type": "line",
+          "speaker": "mei",
+          "text": "Ich streiche jetzt. …Das hier: „Ich möchte die Gelegenheit nutzen“? Weg. Formulier das direkt: „Ich sage Danke.“ …Und das: „Wir haben Herausforderungen gemeistert“? Firmendeutsch. Sag stattdessen, WELCHE. Konkret ist dankbar.",
+          "translation": "I'm cutting now. …This: 'I would like to take the opportunity'? Gone. Phrase it directly: 'I say thank you.' …And: 'We mastered challenges'? Corporate speak. Say instead WHICH ones. Concrete is grateful."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "formulieren",
+            "streichen",
+            "die-einfachheit"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "mei",
+          "text": "Und jetzt das Wichtigste: Der Kern deiner Ansprache ist nicht das Jahr. Der Kern bist du — und die Frage: Wer bist du nach zwei Jahren hier? …Antwort: Jemand, der zuhören gelernt hat. …Das ist dein letzter Satz. Vor dem Danke.",
+          "translation": "And now the most important thing: the core of your address isn't the year. The core is you — and the question: who are you after two years here? …Answer: someone who learned to listen. …That's your last sentence. Before the thank-you."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "zuhoeren",
+            "der-kern"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Zwei Versionen vor dir: zwei Seiten oder ein Satz. Was gewinnst?",
+          "options": [
+            {
+              "label": "Der Satz. Und zwei Geschichten drumherum. Sonst nichts.",
+              "line": "Der Satz gewinnt — mit zwei echten Geschichten drumherum. Sonst nichts. Kürze ist Respekt vor der Zeit der anderen."
+            },
+            {
+              "label": "Zwei Seiten. Ich habe zwei Filialen zu bedanken.",
+              "line": "Zwei Seiten — ich habe zwei Filialen zu bedanken und zu viele Namen, die es wert sind. …Mei: „Dann streich die Übergänge, nicht die Namen.“"
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "reading",
+          "title": "Manuskript, endgültige Fassung (Auszug)",
+          "text": "ANSPRACHE — 23. DEZEMBER\n\n„Vor zwei Jahren fragte ich nach Gleis 7.\nHeute frage ich nach Milch — für 400 Leute am Tag.\n\nZwar war dieses Jahr anstrengend,\naber es war das beste, das ich hatte.\n\nIch habe gelernt: Zuhören ist eine Fähigkeit.\nIch übe noch.\n\nDanke. Für Namen, für Geduld, für Kaffee.\nFrohe Weihnachten — jetzt guckt auf Mei,\nsie singt gleich.\"",
+          "translation": "ADDRESS — 23 DECEMBER\n\n'Two years ago I asked about platform 7.\nToday I ask about milk — for 400 people a day.\n\nThe café may be small,\nbut this year had heart.\n\nI've learned: listening is a skill.\nI'm still practising.\n\nThank you. For names, for patience, for coffee.\nMerry Christmas — and now look at Mei,\nshe's about to sing.'"
+        }
+      ]
+    },
+    {
+      "id": "b2e13s3",
+      "episodeId": "b2e13",
+      "title": "Zwei Filialen, eine Ansprache",
+      "titleEn": "Two branches, one address",
+      "place": "Café Kontor & Plagwitz, 23. Dezember",
+      "bg": "cafe",
+      "contextTags": [
+        "work",
+        "celebration",
+        "friends"
+      ],
+      "requiredItems": [
+        "die-teamleiterin",
+        "der-stammgast"
+      ],
+      "introducedItems": [
+        "das-podium",
+        "die-aufmerksamkeit",
+        "der-applaus",
+        "die-gelegenheit-ergreifen",
+        "der-zusammenhalt",
+        "der-jahresausklang"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Elfen Uhr, Café Kontor: Das Team steht zwischen Kaffeemaschine und Theke, das Podium ist ein Milchkistchen. Elfen vierzig, Plagwitz: dasselbe Blatt, ein anderes Kistchen. Dazwischen: die Tram, du, und ein Blatt mit einem Satz als Kern."
+        },
+        {
+          "type": "line",
+          "speaker": "luise",
+          "text": "(Kontor) So, Leute. Der Jahresausklang steht an, und Sam ergreift die Gelegenheit. …Sam: Wir zuhören. (flüsternd) Und JA, ich weine. Das ist kein Geheimnis mehr, das ist Tradition.",
+          "translation": "(Kontor) Right, everyone. The year is winding down, and Sam is seizing the opportunity. …Sam: we're listening. (whispering) And YES, I'm going to cry. That's no secret any more, that's tradition."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "das-podium",
+            "die-gelegenheit-ergreifen",
+            "der-jahresausklang"
+          ]
+        },
+        {
+          "type": "choice",
+          "prompt": "Der Anfang. Ein Satz, dann Stille. Deine Worte:",
+          "options": [
+            {
+              "label": "„Vor zwei Jahren fragte ich nach Gleis 7. Heute frage ich nach Milch.“",
+              "line": "„Vor zwei Jahren fragte ich nach Gleis 7. Heute frage ich nach Milch — für vierhundert Leute am Tag.“ …(Lachen. Dann Stille. Der guten Art.)"
+            },
+            {
+              "label": "„Ich habe keine Zahlen. Rosa hat sie. Ich habe Namen.“",
+              "line": "„Ich habe keine Zahlen — Rosa hat sie. Ich habe Namen. Ich nenne sie alle, und wir gehen erst, wenn sie alle genannt sind.“ …(Applaus vor dem Applaus.)"
+            }
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-aufmerksamkeit",
+            "der-zusammenhalt"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "line",
+          "speaker": "rosa",
+          "text": "(Plagwitz, nach der Ansprache) …Ich hab gedacht, ich bin hart. …Ich stehe hier und habe Tränen in einer Kaffeebranche, in der ich seit zehn Jahren arbeite. …Zusammenhalt, Sam. Das war das Wort, das gefehlt hat. Alle Jahre wieder.",
+          "translation": "(Plagwitz, after the address) …I thought I was tough. …I'm standing here with tears in a coffee industry where I've worked for ten years. …Cohesion, Sam. That was the missing word. Every year again."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-applaus"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "narration",
+          "text": "Zwischen den Filialen sitzt du in der Tram und schaust auf das Blatt. Es ist besetzt mit Notizen: Rosa hat „Zusammenhalt“ unterstrichen, Mei hat ein Häkchen hinter „Mei singt gleich“ gemacht, Luise hat ein Wasserflecken-Exposé ihrer Tränen hinterlassen. Zwei Filialen, eine Ansprache, ein Jahr — ausklingen lassen, bis Silvester den Rest sagt."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,571 @@
+{
+  "episode": {
+    "id": "a2e13",
+    "arcId": "A2",
+    "cefrLevel": "A2",
+    "title": "Die erste Party",
+    "titleEn": "The first party",
+    "blurb": "Sam lädt zum ersten Mal selbst ein: Wohnung, Musik, Bowle, Gästeliste. Alles kann schiefgehen — außer dem-plan, und der heißt: einfach machen.",
+    "order": 17,
+    "sceneIds": [
+      "a2e13s1",
+      "a2e13s2",
+      "a2e13s3"
+    ]
+  },
+  "cast": [
+    {
+      "id": "tobias",
+      "name": "Tobias",
+      "role": "Nachbar, Student"
+    },
+    {
+      "id": "mei",
+      "name": "Mei",
+      "role": "Kollegin im Café"
+    },
+    {
+      "id": "deniz",
+      "name": "Deniz",
+      "role": "Nachbar"
+    },
+    {
+      "id": "luise",
+      "name": "Luise",
+      "role": "Café-Besitzerin"
+    }
+  ],
+  "items": [
+    {
+      "id": "die-planung",
+      "type": "word",
+      "german": "die Planung",
+      "meaning": "the planning",
+      "image": "kalender",
+      "audio": "tts",
+      "introducedInScene": "a2e13s1",
+      "tags": [
+        "admin",
+        "party"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Planungen — planen; „ ohne Planung läuft nichts“"
+    },
+    {
+      "id": "die-gaesteliste",
+      "type": "word",
+      "german": "die Gästeliste",
+      "meaning": "the guest list",
+      "image": "liste",
+      "audio": "tts",
+      "introducedInScene": "a2e13s1",
+      "tags": [
+        "party",
+        "people"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Gästelisten — wer kommt, wer kommt nicht"
+    },
+    {
+      "id": "entweder-oder",
+      "type": "grammar_pattern",
+      "german": "___ Samstag oder Sonntag?",
+      "meaning": "Either Saturday or Sunday?",
+      "image": "entscheidung",
+      "audio": "tts",
+      "introducedInScene": "a2e13s1",
+      "tags": [
+        "grammar",
+        "party"
+      ],
+      "cefrLevel": "A2",
+      "cloze": "Entweder",
+      "speak": "Entweder Samstag oder Sonntag?",
+      "note": "entweder … oder — nur eine Option, klare Wahl"
+    },
+    {
+      "id": "der-snack",
+      "type": "word",
+      "german": "der Snack",
+      "meaning": "the snack",
+      "image": "popcorn",
+      "audio": "tts",
+      "introducedInScene": "a2e13s1",
+      "tags": [
+        "food",
+        "party"
+      ],
+      "cefrLevel": "A2",
+      "note": "der, Plural: die Snacks — Niemand isst nur Chips. Lüg nicht."
+    },
+    {
+      "id": "die-getraenke",
+      "type": "word",
+      "german": "die Getränke",
+      "meaning": "the drinks (plural)",
+      "image": "getränk",
+      "audio": "tts",
+      "introducedInScene": "a2e13s1",
+      "tags": [
+        "food",
+        "party"
+      ],
+      "cefrLevel": "A2",
+      "note": "Plural: die Getränke — kalt stellen VOR der Party"
+    },
+    {
+      "id": "der-einkaufszettel",
+      "type": "word",
+      "german": "der Einkaufszettel",
+      "meaning": "the shopping list",
+      "image": "liste",
+      "audio": "tts",
+      "introducedInScene": "a2e13s1",
+      "tags": [
+        "shopping",
+        "party"
+      ],
+      "cefrLevel": "A2",
+      "note": "der, Plural: die Einkaufszettel — hilft, hilft, hilft"
+    },
+    {
+      "id": "dekorieren",
+      "type": "word",
+      "german": "dekorieren",
+      "meaning": "to decorate",
+      "image": "blumen",
+      "audio": "tts",
+      "introducedInScene": "a2e13s2",
+      "tags": [
+        "party",
+        "home"
+      ],
+      "cefrLevel": "A2",
+      "note": "dekorieren — das Wohnzimmer, den Tisch, alles"
+    },
+    {
+      "id": "die-auswahl",
+      "type": "word",
+      "german": "die Auswahl",
+      "meaning": "the selection / choice",
+      "image": "entscheidung",
+      "audio": "tts",
+      "introducedInScene": "a2e13s2",
+      "tags": [
+        "party",
+        "opinion"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Auswahlen — eine große Auswahl an …"
+    },
+    {
+      "id": "die-runde",
+      "type": "word",
+      "german": "die Runde",
+      "meaning": "the round / circle (of people)",
+      "image": "team",
+      "audio": "tts",
+      "introducedInScene": "a2e13s2",
+      "tags": [
+        "party",
+        "people"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Runden — eine Runde drehen; eine Runde geben"
+    },
+    {
+      "id": "die-bowle",
+      "type": "word",
+      "german": "die Bowle",
+      "meaning": "the punch (big bowl)",
+      "image": "getränk",
+      "audio": "tts",
+      "introducedInScene": "a2e13s2",
+      "tags": [
+        "food",
+        "party"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Bowlen — Erdbeer-Minze-Bowle von Luise"
+    },
+    {
+      "id": "der-sitzsack",
+      "type": "word",
+      "german": "der Sitzsack",
+      "meaning": "the beanbag",
+      "image": "stuhl",
+      "audio": "tts",
+      "introducedInScene": "a2e13s2",
+      "tags": [
+        "home",
+        "party"
+      ],
+      "cefrLevel": "A2",
+      "note": "der, Plural: die Sitzsäcke — Tobias' contribution, schwer wie ein Mensch"
+    },
+    {
+      "id": "die-beleuchtung",
+      "type": "word",
+      "german": "die Beleuchtung",
+      "meaning": "the lighting",
+      "image": "lampe",
+      "audio": "tts",
+      "introducedInScene": "a2e13s2",
+      "tags": [
+        "home",
+        "party"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Beleuchtungen — warmes Licht = halbe Party"
+    },
+    {
+      "id": "die-begruessung",
+      "type": "word",
+      "german": "die Begrüßung",
+      "meaning": "the greeting / welcome",
+      "image": "gespräch",
+      "audio": "tts",
+      "introducedInScene": "a2e13s3",
+      "tags": [
+        "politeness",
+        "party"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Begrüßungen — jemanden begrüßen"
+    },
+    {
+      "id": "der-smalltalk",
+      "type": "word",
+      "german": "der Smalltalk",
+      "meaning": "small talk",
+      "image": "gespräch",
+      "audio": "tts",
+      "introducedInScene": "a2e13s3",
+      "tags": [
+        "people",
+        "party"
+      ],
+      "cefrLevel": "A2",
+      "note": "der ( Singular ) — Smalltalk machen: Wetter, Wohnungen, Wörter"
+    },
+    {
+      "id": "der-lacher",
+      "type": "word",
+      "german": "der Lacher",
+      "meaning": "the laugh / gag",
+      "image": "person",
+      "audio": "tts",
+      "introducedInScene": "a2e13s3",
+      "tags": [
+        "feelings",
+        "party"
+      ],
+      "cefrLevel": "A2",
+      "note": "der, Plural: die Lacher — ein Lacher ist garantiert"
+    },
+    {
+      "id": "die-stille",
+      "type": "word",
+      "german": "die Stille",
+      "meaning": "the silence",
+      "image": "ruhe",
+      "audio": "tts",
+      "introducedInScene": "a2e13s3",
+      "tags": [
+        "feelings",
+        "party"
+      ],
+      "cefrLevel": "A2",
+      "note": "die ( Singular ) — nach der Party: eine freundliche Stille"
+    },
+    {
+      "id": "der-abschied",
+      "type": "word",
+      "german": "der Abschied",
+      "meaning": "the farewell",
+      "image": "person",
+      "audio": "tts",
+      "introducedInScene": "a2e13s3",
+      "tags": [
+        "people",
+        "party"
+      ],
+      "cefrLevel": "A2",
+      "note": "der, Plural: die Abschiede — sich verabschieden VON"
+    },
+    {
+      "id": "servieren",
+      "type": "word",
+      "german": "servieren",
+      "meaning": "to serve",
+      "image": "teller",
+      "audio": "tts",
+      "introducedInScene": "a2e13s3",
+      "tags": [
+        "food",
+        "party"
+      ],
+      "cefrLevel": "A2",
+      "note": "servieren — Snacks, Getränke, Komplimente"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "a2e13s1",
+      "episodeId": "a2e13",
+      "title": "Die Gästeliste",
+      "titleEn": "The guest list",
+      "place": "Wohnung, Küchentisch, mit Papier",
+      "bg": "wohnung",
+      "contextTags": [
+        "party",
+        "friends",
+        "home"
+      ],
+      "requiredItems": [
+        "danke-fuer-die-einladung",
+        "das-geschenk"
+      ],
+      "introducedItems": [
+        "die-planung",
+        "die-gaesteliste",
+        "entweder-oder",
+        "der-snack",
+        "die-getraenke",
+        "der-einkaufszettel"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Ein Jahr in Leipzig, und du hast noch nie selbst eingeladen. Das ändert sich: Samstag, deine Wohnung, „einfach so, zum Kennenlernen voneinander“ — Tobias' Vorschlag, dein Zettel, deine Nervosität."
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Regel eins der Planung: Die Gästeliste entscheidet alles. …Sieben Leute, kleine Wohnung — perfekt. Groß genug für Musik, klein genug für Gespräche. …Und jetzt: Einkaufszettel. Was servierst du?",
+          "translation": "Rule one of planning: the guest list decides everything. …Seven people, small flat — perfect. Big enough for music, small enough for conversations. …And now: shopping list. What are you serving?"
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-planung",
+            "die-gaesteliste",
+            "der-einkaufszettel"
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-snack",
+            "die-getraenke",
+            "entweder-oder"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Termin-Frage aus der Gruppe: „Entweder Samstag oder Sonntag?“",
+          "options": [
+            {
+              "label": "Samstag! Sonntags sind alle müde und getragen vom Gewissen.",
+              "line": "Samstag! Sonntags sind alle müde und moralisch belastet. …Tobias: „Poetisch. Und richtig.“"
+            },
+            {
+              "label": "Samstag. Und ich schicke heute noch die Einladung, sonst wird nichts.",
+              "line": "Samstag. Und ich schicke die Einladung HEUTE noch, sonst passiert es nie."
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "reading",
+          "title": "Dein Einkaufszettel (Entwurf 3)",
+          "text": "PARTY SAMSTAG — EINKAUF\n\nSnacks:\n— Chips (2 Sorten, wegen Lina)\n— Weintrauben (Luise isst die)\n— Nüsse (Deniz' Vater sagt, die sind gesund)\n\nGetränke:\n— Apfelschorle 4 Flaschen\n— Wasser ADE, 6 Flaschen\n— SAFT für Tobias (er fährt Rad)\n\nTaschentücher. Warum? Sicherheit."
+        }
+      ]
+    },
+    {
+      "id": "a2e13s2",
+      "episodeId": "a2e13",
+      "title": "Vorbereitung mit Panik",
+      "titleEn": "Preparation with panic",
+      "place": "Wohnung, Samstagnachmittag",
+      "bg": "wohnung",
+      "contextTags": [
+        "party",
+        "home",
+        "friends"
+      ],
+      "requiredItems": [
+        "die-musik",
+        "wischen"
+      ],
+      "introducedItems": [
+        "dekorieren",
+        "die-auswahl",
+        "die-runde",
+        "die-bowle",
+        "der-sitzsack",
+        "die-beleuchtung"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Vier Stunden vor Start: Tobias schlept einen Sitzsack die vierte Etage hoch („mein Beitrag“), Mei kuratiert die Musikauswahl wie ein Museum, und Luise bringt eine Bowle, die groß genug für ein Schwimmbad ist."
+        },
+        {
+          "type": "line",
+          "speaker": "mei",
+          "text": "Die Auswahl: drei Stunden Deutsch-Pop, zwei Stunden spanische Traurigkeit für Sara, und am Ende Jazz, wenn alle müde sind. …Musik ist wie Sprache: Du musst fühlen, wer zuhören will. …Und: DEINE Wohnung, DEINE Musik. Regeln.",
+          "translation": "The selection: three hours of German pop, two hours of Spanish sadness for Sara, and jazz at the end when everyone's tired. …Music is like language: you have to feel who wants to listen. …And: YOUR flat, YOUR music. Rules."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-auswahl",
+            "der-sitzsack"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "luise",
+          "text": "Die Bowle: Erdbeeren, Minze, Apfelschorle, ein Hauch Sommer im Dezember. …Du servierst sie mit Löffel, nicht mit Strohhalm — wir sind hier nicht im Wilden Westen. …Und jetzt: Runde drehen, Kerzen, Licht. Warme Beleuchtung. Sofort.",
+          "translation": "The punch: strawberries, mint, apple spritzer, a hint of summer in December. …You serve it with a ladle, not a straw — this isn't the Wild West. …And now: do a round, candles, light. Warm lighting. Immediately."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-bowle",
+            "die-beleuchtung"
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "dekorieren",
+            "die-runde"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Wischmopp in der Hand, 40 Minuten vor den ersten Gästen. Luise: „Perfektionist.“",
+          "options": [
+            {
+              "label": "Ich wische nochmal die Ecke. Gäste schauen UNTEN.",
+              "line": "Ich wische nochmal die Ecke. Gäste schauen nach UNTEN, nicht nach oben. Erfahrung aus dem Frühjahrsputz."
+            },
+            {
+              "label": "Fertig! Ab jetzt: Musik laut, Fenster auf, Panik aus.",
+              "line": "Fertig! Ab jetzt Musik laut, Fenster auf, Panik aus. …Luise: „So klingt ein Gastgeber. Behalt das.“"
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        }
+      ]
+    },
+    {
+      "id": "a2e13s3",
+      "episodeId": "a2e13",
+      "title": "Klingeln, Lachen, Stille",
+      "titleEn": "Ring, laugh, silence",
+      "place": "Wohnung, Samstagabend bis Sonntagfrüh",
+      "bg": "wohnung",
+      "contextTags": [
+        "party",
+        "friends",
+        "feelings"
+      ],
+      "requiredItems": [
+        "der-gast",
+        "muede"
+      ],
+      "introducedItems": [
+        "die-begruessung",
+        "der-smalltalk",
+        "der-lacher",
+        "die-stille",
+        "der-abschied",
+        "servieren"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "18:59: Die Klingel. Frau Brügge kommt mit einer Kerze, Lina (auf zwei Stunden) mit selbstgemalten Platzkarten, Deniz mit Nüssen, Sara mit spanischem Käse, Mei mit einer Playlist und Luise mit Wein und Lautstärke."
+        },
+        {
+          "type": "line",
+          "speaker": "mei",
+          "text": "Deine Begrüßung, dein Lachen, deine Party. …Und weißt du, was gut aussieht? Alle reden mit allen. …Smalltalk auf Deutsch, Bowle in der Hand, sieben Leute in einer Wohnung — das IST Integration, Sam. Sag das niemandem, der es nervig findet.",
+          "translation": "Your greeting, your laugh, your party. …And you know what looks good? Everyone talking to everyone. …Small talk in German, punch in hand, seven people in one flat — that IS integration, Sam. Don't tell anyone who finds that annoying."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-begruessung",
+            "der-smalltalk",
+            "der-lacher"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "frau-bruegge",
+          "text": "(mit leerem Teller) Der Kartoffelsalat ist heute weg, hm? …Junger Mann: Du hast heute acht Menschen gefüttert, unterhalten und müde gemacht. …Das ist mehr, als manche Vereine in einem Jahr schaffen.",
+          "translation": "(with an empty plate) The potato salad is gone today, hm? …Young man: today you fed, entertained and tired out eight people. …That's more than some clubs manage in a year."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-stille",
+            "der-abschied",
+            "servieren"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Mitternacht minus zwei Stunden. Die letzte Runde geht. Verabschiede deine Gäste.",
+          "options": [
+            {
+              "label": "Danke, dass ihr da wart. Nächste Party gibt es im Frühling.",
+              "line": "Danke, dass ihr da wart. Die nächste Party gibt es im Frühling — mit Garten, versprochen."
+            },
+            {
+              "label": "Bleibt noch auf einen Tee? Die Stille ist auch schön.",
+              "line": "Bleibt noch jemand auf einen Tee? Die Stille danach ist auch schön. …Bleiben alle. Natürlich."
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "narration",
+          "text": "Später: Teller in der Spüle, Stühle schief, der Sitzsack erobert die ganze Ecke. Die Stille ist freundlich, nicht leer. Auf deinem Zettel steht unter „PARTY“ ein Häkchen — und daneben, neu: „nächste Mal: mehr Stühle.“ Deine erste Party auf Deutsch ist Geschichte. Die Stadt hat es gemerkt."
+        }
+      ]
+    }
+  ]
+}
