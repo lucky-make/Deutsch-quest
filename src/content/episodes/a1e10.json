@@ -1,0 +1,566 @@
+{
+  "episode": {
+    "id": "a1e10",
+    "arcId": "A1",
+    "cefrLevel": "A1",
+    "title": "Der Zoo",
+    "titleEn": "The zoo",
+    "blurb": "Sonntag im Zoo Leipzig: Tobias' Cousine Lina (8) kennt jedes Tier beim Namen. Du lernst Tiere, Kameras — und deinen ersten Akkusativ, ganz ohne Warnung.",
+    "order": 10,
+    "sceneIds": [
+      "a1e10s1",
+      "a1e10s2",
+      "a1e10s3"
+    ]
+  },
+  "cast": [
+    {
+      "id": "tobias",
+      "name": "Tobias",
+      "role": "Nachbar, Student"
+    },
+    {
+      "id": "lina",
+      "name": "Lina",
+      "role": "Tobias' Cousine, 8 Jahre"
+    }
+  ],
+  "items": [
+    {
+      "id": "der-zoo",
+      "type": "word",
+      "german": "der Zoo",
+      "meaning": "the zoo",
+      "image": "pfote",
+      "audio": "tts",
+      "introducedInScene": "a1e10s1",
+      "tags": [
+        "leisure",
+        "animals",
+        "city"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Zoos — Leipziger Zoo ist berühmt"
+    },
+    {
+      "id": "das-tier",
+      "type": "word",
+      "german": "das Tier",
+      "meaning": "the animal",
+      "image": "pfote",
+      "audio": "tts",
+      "introducedInScene": "a1e10s1",
+      "tags": [
+        "animals",
+        "nature"
+      ],
+      "cefrLevel": "A1",
+      "note": "das, Plural: die Tiere"
+    },
+    {
+      "id": "der-elefant",
+      "type": "word",
+      "german": "der Elefant",
+      "meaning": "the elephant",
+      "image": "pfote",
+      "audio": "tts",
+      "introducedInScene": "a1e10s1",
+      "tags": [
+        "animals"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Elefanten"
+    },
+    {
+      "id": "der-affe",
+      "type": "word",
+      "german": "der Affe",
+      "meaning": "the monkey / ape",
+      "image": "pfote",
+      "audio": "tts",
+      "introducedInScene": "a1e10s1",
+      "tags": [
+        "animals"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Affen"
+    },
+    {
+      "id": "die-kamera",
+      "type": "word",
+      "german": "die Kamera",
+      "meaning": "the camera",
+      "image": "kamera",
+      "audio": "tts",
+      "introducedInScene": "a1e10s1",
+      "tags": [
+        "technology",
+        "hobby"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Kameras"
+    },
+    {
+      "id": "fotografieren",
+      "type": "chunk",
+      "german": "Darf ich fotografieren?",
+      "meaning": "May I take photos?",
+      "image": "kamera",
+      "audio": "tts",
+      "introducedInScene": "a1e10s1",
+      "tags": [
+        "questions",
+        "hobby"
+      ],
+      "cefrLevel": "A1",
+      "speak": "Darf ich fotografieren?",
+      "note": "fotografieren — im Zoo: meistens ja!"
+    },
+    {
+      "id": "die-giraffe",
+      "type": "word",
+      "german": "die Giraffe",
+      "meaning": "the giraffe",
+      "image": "pfote",
+      "audio": "tts",
+      "introducedInScene": "a1e10s2",
+      "tags": [
+        "animals"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Giraffen — der Hals!"
+    },
+    {
+      "id": "der-loewe",
+      "type": "word",
+      "german": "der Löwe",
+      "meaning": "the lion",
+      "image": "pfote",
+      "audio": "tts",
+      "introducedInScene": "a1e10s2",
+      "tags": [
+        "animals"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Löwen"
+    },
+    {
+      "id": "das-kind",
+      "type": "word",
+      "german": "das Kind",
+      "meaning": "the child",
+      "image": "person",
+      "audio": "tts",
+      "introducedInScene": "a1e10s2",
+      "tags": [
+        "people",
+        "family"
+      ],
+      "cefrLevel": "A1",
+      "note": "das, Plural: die Kinder"
+    },
+    {
+      "id": "die-tierpflegerin",
+      "type": "word",
+      "german": "die Tierpflegerin",
+      "meaning": "the (female) zookeeper",
+      "image": "person",
+      "audio": "tts",
+      "introducedInScene": "a1e10s2",
+      "tags": [
+        "animals",
+        "work",
+        "people"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Tierpflegerinnen; männlich: der Tierpfleger"
+    },
+    {
+      "id": "fuettern",
+      "type": "word",
+      "german": "füttern",
+      "meaning": "to feed (an animal)",
+      "image": "korb",
+      "audio": "tts",
+      "introducedInScene": "a1e10s2",
+      "tags": [
+        "animals"
+      ],
+      "cefrLevel": "A1",
+      "note": "füttern — im Zoo: BITTE NICHT FÜTTERN!"
+    },
+    {
+      "id": "den-affen",
+      "type": "grammar_pattern",
+      "german": "___ Affen finde ich am lustigsten.",
+      "meaning": "I find the monkeys the funniest.",
+      "image": "gespräch",
+      "audio": "tts",
+      "introducedInScene": "a1e10s2",
+      "tags": [
+        "grammar",
+        "animals"
+      ],
+      "cefrLevel": "A1",
+      "cloze": "Den",
+      "speak": "Den Affen finde ich am lustigsten.",
+      "note": "Akkusativ: der → den. Das Objekt bekommt den."
+    },
+    {
+      "id": "der-regenwald",
+      "type": "word",
+      "german": "der Regenwald",
+      "meaning": "the rainforest",
+      "image": "blumen",
+      "audio": "tts",
+      "introducedInScene": "a1e10s3",
+      "tags": [
+        "nature",
+        "animals"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Regenwälder — Gondwanaland heißt dich willkommen"
+    },
+    {
+      "id": "der-eisbaer",
+      "type": "word",
+      "german": "der Eisbär",
+      "meaning": "the polar bear",
+      "image": "pfote",
+      "audio": "tts",
+      "introducedInScene": "a1e10s3",
+      "tags": [
+        "animals"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Eisbären"
+    },
+    {
+      "id": "das-erlebnis",
+      "type": "word",
+      "german": "das Erlebnis",
+      "meaning": "the experience",
+      "image": "heimat",
+      "audio": "tts",
+      "introducedInScene": "a1e10s3",
+      "tags": [
+        "feelings",
+        "leisure"
+      ],
+      "cefrLevel": "A1",
+      "note": "das, Plural: die Erlebnisse — ein schönes Erlebnis"
+    },
+    {
+      "id": "der-geschenkeladen",
+      "type": "word",
+      "german": "der Geschenkeladen",
+      "meaning": "the gift shop",
+      "image": "geschenk",
+      "audio": "tts",
+      "introducedInScene": "a1e10s3",
+      "tags": [
+        "shopping",
+        "gifts"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Geschenkeläden — am Ausgang, natürlich"
+    },
+    {
+      "id": "die-erklaerungstafel",
+      "type": "word",
+      "german": "die Erklärungstafel",
+      "meaning": "the information board",
+      "image": "formular",
+      "audio": "tts",
+      "introducedInScene": "a1e10s3",
+      "tags": [
+        "learning",
+        "signs"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Erklärungstafeln — leselern-Paradies"
+    },
+    {
+      "id": "der-ausgang",
+      "type": "word",
+      "german": "der Ausgang",
+      "meaning": "the exit",
+      "image": "haus",
+      "audio": "tts",
+      "introducedInScene": "a1e10s3",
+      "tags": [
+        "city",
+        "signs"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Ausgänge — Gegenteil: der Eingang"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "a1e10s1",
+      "episodeId": "a1e10",
+      "title": "Sonnenaufgang im Zoo",
+      "titleEn": "Sunrise at the zoo",
+      "place": "Zoo Leipzig, Haupteingang",
+      "bg": "park",
+      "contextTags": [
+        "leisure",
+        "animals",
+        "friends"
+      ],
+      "requiredItems": [
+        "der-sonntag",
+        "das-wetter"
+      ],
+      "introducedItems": [
+        "der-zoo",
+        "das-tier",
+        "der-elefant",
+        "der-affe",
+        "die-kamera",
+        "fotografieren"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Sonntag, halb neun. Tobias steht vor deiner Tür mit einem Rucksack und einem Kind. Das Kind heißt Lina, ist acht, und hat bereits den kompletten Zoo-Plan auswendig gelernt."
+        },
+        {
+          "type": "line",
+          "speaker": "lina",
+          "text": "Du bist der Neue aus dem ersten Stock! Ich bin Lina. …Zooplan: erst Elefanten, dann Affen, dann Löwen, dann Mittagessen, dann Eisbär. Der Regenwald ist am Ende, weil man da lange braucht. Klar?",
+          "translation": "You're the new one from the second floor! I'm Lina. …Zoo plan: first elephants, then monkeys, then lions, then lunch, then polar bear. The rainforest is at the end because it takes a long time. Clear?"
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-zoo",
+            "das-tier",
+            "der-elefant"
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-affe",
+            "die-kamera",
+            "fotografieren"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Lina hält die Kamera in deine Richtung.",
+          "options": [
+            {
+              "label": "Darf ich fotografieren? …Von dir und Onkel Tobias.",
+              "line": "Darf ich fotografieren? …Von dir und Onkel Tobias. …Tobias: „ONKEL? Seit wann bin ich Onkel?“"
+            },
+            {
+              "label": "Lina macht den Plan. Ich mache die Fotos. Team.",
+              "line": "Lina macht den Plan, ich mache die Fotos. Team Zoo. …Lina: „Bestes Team. Auf geht's!“"
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Warnung: Lina kennt jedes Tier auf Deutsch UND Latein. Wenn sie anfängt, nick einfach. …Und das Wetter ist perfekt — die Tiere sind heute draußen. Alle. Sogar der Faule.",
+          "translation": "Warning: Lina knows every animal in German AND Latin. When she gets going, just nod. …And the weather is perfect — the animals are outside today. All of them. Even the lazy one."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "reading",
+          "title": "Schild am Haupteingang",
+          "text": "ZOO LEIPZIG\n\nÖffnungszeiten: 9:00 – 18:00\n\nErwachsene:        21,00 €\nKinder (6–15):     14,00 €\nKinder unter 6:    frei\n\nBITTE NICHT FÜTTERN!\n\nGondwanaland: Einlass bis 16:30\n\nWir wünschen einen schönen Tag\nmit über 850 Tierarten.",
+          "translation": "LEIPZIG ZOO\n\nOpening hours: 9 am – 6 pm\n\nAdults:            €21.00\nChildren (6–15):   €14.00\nChildren under 6:  free\n\nPLEASE DO NOT FEED THE ANIMALS!\n\nGondwanaland: entry until 4:30 pm\n\nWe wish you a lovely day\nwith over 850 species."
+        }
+      ]
+    },
+    {
+      "id": "a1e10s2",
+      "episodeId": "a1e10",
+      "title": "Linas Unterricht",
+      "titleEn": "Lina's class",
+      "place": "Affenhaus, dann Löwen-Anlage",
+      "bg": "park",
+      "contextTags": [
+        "animals",
+        "learning",
+        "friends"
+      ],
+      "requiredItems": [
+        "die-limo",
+        "die-decke"
+      ],
+      "introducedItems": [
+        "die-giraffe",
+        "der-loewe",
+        "das-kind",
+        "die-tierpflegerin",
+        "fuettern",
+        "den-affen"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Im Affenhaus passiert es: Ein junger Affe klaut Linas Limo-Halterung und trägt sie wie eine Trophäe durch das Gehege. Lina schreit vor Begeisterung. Du schreitest vor Erkenntnis: „DEN Affen“ — du hast es gerade benutzt, ohne es zu wissen."
+        },
+        {
+          "type": "line",
+          "speaker": "lina",
+          "text": "DEN Affen finde ich am lustigsten! Hast du das gehört, Onkel Tobias? Sam hat es RICHTIG gesagt! …Also: Den Affen. Den Elefanten. Der Affe macht was → den Affen sehe ich. Der macht, den sehe ich. Kapiert?",
+          "translation": "I find the monkeys the funniest! Did you hear that, Uncle Tobias? Sam said it RIGHT! …So: the monkeys (accusative). The monkey does something → I see the monkey (accusative). Nominative does, accusative gets seen. Got it?"
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "den-affen",
+            "die-giraffe",
+            "der-loewe"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Sie hat dir in vierzig Sekunden beigebracht, wofür meine Grammatikbücher zwei Kapitel brauchen. …Und da vorne: Giraffen. Der Hals ist echt. Kein Effekt. Ich hab nachgefragt.",
+          "translation": "She taught you in forty seconds what my grammar books need two chapters for. …And over there: giraffes. The neck is real. No trick photography. I checked."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "das-kind",
+            "die-tierpflegerin",
+            "fuettern"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Eine Tierpflegerin kommt mit einem Eimer vorbei. Lina zieht dich am Ärmel.",
+          "options": [
+            {
+              "label": "Entschuldigung — darf ich eine Frage zur Fütterung stellen?",
+              "line": "Entschuldigung — darf ich eine Frage zur Fütterung stellen? …Sie darf. Und sie antwortet zwanzig Minuten. Lina: „BESTE TAG.“"
+            },
+            {
+              "label": "Lina, frag du. Du kennst dich besser aus.",
+              "line": "Lina, du fragst — du kennst dich besser aus. …Lina fragt. Lina kennt sich aus. Lina redet noch, als ihr längst bei den Löwen seid."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "„Bitte nicht füttern“ — und trotzdem hat der Affe die Limo-Halterung. …Merke: Regeln im Zoo gelten für Gäste, nicht für Bewohner. Wie im realen Leben auch, wenn ich ehrlich bin.",
+          "translation": "'Please do not feed' — and yet the monkey got the lemonade holder. …Note: zoo rules apply to guests, not to residents. Same in real life, honestly."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        }
+      ]
+    },
+    {
+      "id": "a1e10s3",
+      "episodeId": "a1e10",
+      "title": "Gondwanaland",
+      "titleEn": "Gondwanaland",
+      "place": "Gondwanaland, Regenwaldhalle",
+      "bg": "park",
+      "contextTags": [
+        "animals",
+        "nature",
+        "friends"
+      ],
+      "requiredItems": [
+        "die-kamera",
+        "die-limo"
+      ],
+      "introducedItems": [
+        "der-regenwald",
+        "der-eisbaer",
+        "das-erlebnis",
+        "der-geschenkeladen",
+        "die-erklaerungstafel",
+        "der-ausgang"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Gondwanaland: eine Halle so groß wie ein Dorf, 24 Grad, Luftfeuchtigkeit von einem anderen Kontinent. Irgendwo tropft es. Lina hat den Plan bereits dreimal angepasst. Aktuell: alles."
+        },
+        {
+          "type": "line",
+          "speaker": "lina",
+          "text": "Das ist der Regenwald! Nur drinnen! Mit Dach! …Und gleich kommen wir zu den Riesentauben und dann zur Brücke und dann… Onkel Tobias, der Eisbär ist NICHT hier. Der ist draußen. Mach den Plan nicht kaputt.",
+          "translation": "This is the rainforest! Just indoors! With a roof! …And soon we'll get to the giant pigeons and then the bridge and then… Uncle Tobias, the polar bear is NOT here. It's outside. Don't ruin the plan."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-regenwald",
+            "der-eisbaer",
+            "das-erlebnis"
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-erklaerungstafel",
+            "der-geschenkeladen",
+            "der-ausgang"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Der Ausgang naht. Der Geschenkeladen auch.",
+          "options": [
+            {
+              "label": "Ein Plüschielefant. Als Erinnerung. Es gibt keine Diskussion.",
+              "line": "Ein Plüschielefant, als Erinnerung. Es gibt keine Diskussion. …Lina: „ZWEI. Einer für mich.“"
+            },
+            {
+              "label": "Nur eine Postkarte? …Zehn Postkarten.",
+              "line": "Nur eine Postkarte? …Zehn Postkarten. Alle bekommen Post. Der Zoo schreibt mit."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Sam, lass mal kurz festhalten: Vor einem Monat konntest du nicht mal „Entschuldigung“ sagen. Heute liest du Erklärungstafeln vor, und Lina korrigiert deinen Akkusativ. …Das ist ein Erlebnis. Ich dokumentiere das.",
+          "translation": "Sam, let's pause for a second: a month ago you couldn't even say 'Entschuldigung'. Today you're reading information boards out loud, and Lina corrects your accusative. …That's an experience. I'm documenting it."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "narration",
+          "text": "Draußen: Die Sonne steht tief, Lina schläft im Rucksack-Trott ein, Tobias trägt sie und den Plüschielefanten. Am Ausgang drehst du dich noch einmal um. Der Zoo, der Regenwald, der Tag — alles wird im Kopf abgelegt unter: Erlebnis. Mehrzahl folgt sicher."
+        }
+      ]
+    }
+  ]
+}

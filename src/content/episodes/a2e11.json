@@ -1,0 +1,565 @@
+{
+  "episode": {
+    "id": "a2e11",
+    "arcId": "A2",
+    "cefrLevel": "A2",
+    "title": "Der erste Schnee",
+    "titleEn": "The first snow",
+    "blurb": "Leipzig wird weiß, dein Fahrrad wird schwer, und das Schild am Haus sagt Räumpflicht. Schnee, Schaufel, Streugut — und der Satz, der dein Leben regelt: „Man muss.“",
+    "order": 15,
+    "sceneIds": [
+      "a2e11s1",
+      "a2e11s2",
+      "a2e11s3"
+    ]
+  },
+  "cast": [
+    {
+      "id": "tobias",
+      "name": "Tobias",
+      "role": "Nachbar, Student"
+    },
+    {
+      "id": "frau-bruegge",
+      "name": "Frau Brügge",
+      "role": "Vermieterin"
+    },
+    {
+      "id": "deniz",
+      "name": "Deniz",
+      "role": "Nachbar"
+    }
+  ],
+  "items": [
+    {
+      "id": "der-schnee",
+      "type": "word",
+      "german": "der Schnee",
+      "meaning": "the snow",
+      "image": "schnee",
+      "audio": "tts",
+      "introducedInScene": "a2e11s1",
+      "tags": [
+        "weather",
+        "nature"
+      ],
+      "cefrLevel": "A2",
+      "note": "der ( Singular ) — es schneit = it's snowing"
+    },
+    {
+      "id": "der-winter",
+      "type": "word",
+      "german": "der Winter",
+      "meaning": "the winter",
+      "image": "schnee",
+      "audio": "tts",
+      "introducedInScene": "a2e11s1",
+      "tags": [
+        "weather",
+        "time"
+      ],
+      "cefrLevel": "A2",
+      "note": "der, Plural: die Winter — im Winter; nächster Winter"
+    },
+    {
+      "id": "frieren",
+      "type": "word",
+      "german": "frieren",
+      "meaning": "to be / feel cold",
+      "image": "wetter",
+      "audio": "tts",
+      "introducedInScene": "a2e11s1",
+      "tags": [
+        "weather",
+        "feelings"
+      ],
+      "cefrLevel": "A2",
+      "note": "frieren — ich friere; KEIN Mensch friert gern"
+    },
+    {
+      "id": "die-wettervorhersage",
+      "type": "word",
+      "german": "die Wettervorhersage",
+      "meaning": "the weather forecast",
+      "image": "kalender",
+      "audio": "tts",
+      "introducedInScene": "a2e11s1",
+      "tags": [
+        "weather",
+        "media"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Wettervorhersagen — heute: 90% Schnee"
+    },
+    {
+      "id": "die-muetze",
+      "type": "word",
+      "german": "die Mütze",
+      "meaning": "the (beanie) cap",
+      "image": "muetze",
+      "audio": "tts",
+      "introducedInScene": "a2e11s1",
+      "tags": [
+        "clothes",
+        "weather"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Mützen — Deckmütze fürs Ohr"
+    },
+    {
+      "id": "der-schal",
+      "type": "word",
+      "german": "der Schal",
+      "meaning": "the scarf",
+      "image": "schal",
+      "audio": "tts",
+      "introducedInScene": "a2e11s1",
+      "tags": [
+        "clothes"
+      ],
+      "cefrLevel": "A2",
+      "note": "der, Plural: die Schals — aus Wolle, um den Hals"
+    },
+    {
+      "id": "raeumen",
+      "type": "word",
+      "german": "räumen",
+      "meaning": "to clear (snow); to vacate",
+      "image": "schaufel",
+      "audio": "tts",
+      "introducedInScene": "a2e11s2",
+      "tags": [
+        "weather",
+        "actions"
+      ],
+      "cefrLevel": "A2",
+      "note": "räumen — Schnee räumen; die Wohnung räumen"
+    },
+    {
+      "id": "die-schaufel",
+      "type": "word",
+      "german": "die Schaufel",
+      "meaning": "the shovel",
+      "image": "schaufel",
+      "audio": "tts",
+      "introducedInScene": "a2e11s2",
+      "tags": [
+        "tools",
+        "weather"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Schaufeln — im Keller, neben Brunhilde"
+    },
+    {
+      "id": "streuen",
+      "type": "word",
+      "german": "streuen",
+      "meaning": "to scatter / grit (salt)",
+      "image": "schaufel",
+      "audio": "tts",
+      "introducedInScene": "a2e11s2",
+      "tags": [
+        "weather",
+        "actions"
+      ],
+      "cefrLevel": "A2",
+      "note": "streuen — Salz streuen gegen Glatteis"
+    },
+    {
+      "id": "die-raeumpflicht",
+      "type": "word",
+      "german": "die Räumpflicht",
+      "meaning": "the (legal) duty to clear snow",
+      "image": "formular",
+      "audio": "tts",
+      "introducedInScene": "a2e11s2",
+      "tags": [
+        "rules",
+        "weather",
+        "home"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Räumpflichten — 7–20 Uhr, Sonntags später"
+    },
+    {
+      "id": "glatt",
+      "type": "word",
+      "german": "glatt",
+      "meaning": "smooth / slippery (icy)",
+      "image": "reifen",
+      "audio": "tts",
+      "introducedInScene": "a2e11s2",
+      "tags": [
+        "weather",
+        "danger"
+      ],
+      "cefrLevel": "A2",
+      "note": "Adjektiv — es ist glatt!; Glatteis = black ice"
+    },
+    {
+      "id": "der-handschuh",
+      "type": "word",
+      "german": "der Handschuh",
+      "meaning": "the glove",
+      "image": "jacke",
+      "audio": "tts",
+      "introducedInScene": "a2e11s2",
+      "tags": [
+        "clothes"
+      ],
+      "cefrLevel": "A2",
+      "note": "der, Plural: die Handschuhe — Hand + Schuh. Deutsch."
+    },
+    {
+      "id": "man-muss",
+      "type": "grammar_pattern",
+      "german": "Ab 7 Uhr ___ man den Bürgersteig räumen.",
+      "meaning": "From 7 am you have to clear the pavement.",
+      "image": "ziel",
+      "audio": "tts",
+      "introducedInScene": "a2e11s2",
+      "tags": [
+        "grammar",
+        "rules"
+      ],
+      "cefrLevel": "A2",
+      "cloze": "muss",
+      "speak": "Ab 7 Uhr muss man den Bürgersteig räumen.",
+      "note": "man muss … = impersonal obligation; nobody escapes"
+    },
+    {
+      "id": "der-teich",
+      "type": "word",
+      "german": "der Teich",
+      "meaning": "the pond",
+      "image": "wasser",
+      "audio": "tts",
+      "introducedInScene": "a2e11s3",
+      "tags": [
+        "nature"
+      ],
+      "cefrLevel": "A2",
+      "note": "der, Plural: die Teiche — zugefroren = frozen over"
+    },
+    {
+      "id": "die-waermflasche",
+      "type": "word",
+      "german": "die Wärmflasche",
+      "meaning": "the hot-water bottle",
+      "image": "thermos",
+      "audio": "tts",
+      "introducedInScene": "a2e11s3",
+      "tags": [
+        "health",
+        "home"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Wärmflaschen — Wärme + Flasche"
+    },
+    {
+      "id": "der-gluehwein",
+      "type": "word",
+      "german": "der Glühwein",
+      "meaning": "the mulled wine",
+      "image": "getränk",
+      "audio": "tts",
+      "introducedInScene": "a2e11s3",
+      "tags": [
+        "food",
+        "winter"
+      ],
+      "cefrLevel": "A2",
+      "note": "der, Plural: die Glühweine — auf dem Weihnachtsmarkt"
+    },
+    {
+      "id": "die-schneeflocke",
+      "type": "word",
+      "german": "die Schneeflocke",
+      "meaning": "the snowflake",
+      "image": "schnee",
+      "audio": "tts",
+      "introducedInScene": "a2e11s3",
+      "tags": [
+        "weather",
+        "nature"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Schneeflocken — keine gleicht der anderen"
+    },
+    {
+      "id": "der-atem",
+      "type": "word",
+      "german": "der Atem",
+      "meaning": "the breath",
+      "image": "ruhe",
+      "audio": "tts",
+      "introducedInScene": "a2e11s3",
+      "tags": [
+        "health",
+        "nature"
+      ],
+      "cefrLevel": "A2",
+      "note": "der ( Singular ) — der Atem sieht man bei Kälte!"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "a2e11s1",
+      "episodeId": "a2e11",
+      "title": "Weißes Leipzig",
+      "titleEn": "White Leipzig",
+      "place": "Wohnungsfenster, dann Straße",
+      "bg": "wohnung",
+      "contextTags": [
+        "weather",
+        "friends",
+        "city"
+      ],
+      "requiredItems": [
+        "das-wetter",
+        "die-woche"
+      ],
+      "introducedItems": [
+        "der-schnee",
+        "der-winter",
+        "frieren",
+        "die-wettervorhersage",
+        "die-muetze",
+        "der-schal"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Du wachst auf, und die Welt ist stumm und weiß. Erster Schnee deines Lebens in Deutschland. Draußen hängt die Wettervorhersage vor dem Fenster wie eine Ankündigung: 90 %, minus vier Grad, auch morgen."
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "(schreit von unten hoch) SAM! SCHNEE! …Das ist DEIN erster Winter! Wir müssen raus, bevor er plattgetreten wird! Mütze, Schal, alles — oben ohne friert man hier nicht, da friert man GEISTIG.",
+          "translation": "(shouting up from below) SAM! SNOW! …This is YOUR first winter! We have to go out before it gets trampled flat! Cap, scarf, everything — you don't just freeze up here, you freeze SPIRITUALLY."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-schnee",
+            "der-winter",
+            "die-wettervorhersage"
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "frieren",
+            "die-muetze",
+            "der-schal"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Draußen: minus vier. Deine Nase hat schon aufgegeben.",
+          "options": [
+            {
+              "label": "Ich friere. Aber glücklich. Womit macht man Schneemänner?",
+              "line": "Ich friere. Aber glücklich! Womit baut man hier Schneemänner — Karotte haben wir, Kassler auch."
+            },
+            {
+              "label": "Der Schnee ist so… still. Ist Leipzig immer so leise?",
+              "line": "Der Schnee ist so still! Ist Leipzig immer so leise? …Tobias: „Nur beim ersten Schnee. Danach rutschen wir alle laut.“"
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "reading",
+          "title": "Wetterwarnung (Amtliche Information)",
+          "text": "AMTLICHE WARNVORHERSAGE\nLeipzig und Umgebung\n\nWarnung vor SCHNEEFALL:\n5–10 cm Neuschnee bis zum Abend.\n\nStraßen und Wege werden glatt.\nBitte fahren Sie langsam.\n\nRäumpflicht: 7:00–20:00 Uhr\n(Sonntags ab 9:00 Uhr)\n\n— Deutscher Wetterdienst",
+          "translation": "OFFICIAL WARNING\nLeipzig and surroundings\n\nWarning of SNOWFALL:\n5–10 cm of fresh snow by evening.\n\nRoads and paths will become slippery.\nPlease drive slowly.\n\nDuty to clear snow: 7 am – 8 pm\n(Sundays from 9 am)\n\n— German Weather Service"
+        }
+      ]
+    },
+    {
+      "id": "a2e11s2",
+      "episodeId": "a2e11",
+      "title": "Räumpflicht",
+      "titleEn": "Snow duty",
+      "place": "Bürgersteig, Lindenauer Straße",
+      "bg": "strasse",
+      "contextTags": [
+        "weather",
+        "home",
+        "neighbors"
+      ],
+      "requiredItems": [
+        "das-fahrrad",
+        "vorsicht"
+      ],
+      "introducedItems": [
+        "raeumen",
+        "die-schaufel",
+        "streuen",
+        "die-raeumpflicht",
+        "glatt",
+        "der-handschuh",
+        "man-muss"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Das Schild im Hausflur hat kein Mitleid: „Räumpflicht 7–20 Uhr. Mieter räumen den Gehweg vor dem Haus.“ Frau Brügge händigt dir eine Schaufel aus wie ein Schwert bei einer Ritterernennung."
+        },
+        {
+          "type": "line",
+          "speaker": "frau-bruegge",
+          "text": "Schaufel. Salz. Handschuhe. …Und jetzt die wichtigste Lektion des Winters: Ab 7 Uhr muss man den Gehweg räumen — man MUSS. Nicht „sollte“. Nicht „könnte“. Muss. Der erste Fußgänger um 7:01 ist immer ein Anwalt.",
+          "translation": "Shovel. Salt. Gloves. …And now the most important lesson of winter: from 7 am you MUST clear the pavement — must. Not 'should'. Not 'could'. Must. The first pedestrian at 7:01 is always a lawyer."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "raeumen",
+            "die-schaufel",
+            "man-muss"
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "streuen",
+            "die-raeumpflicht",
+            "der-handschuh"
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "glatt"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Der Gehweg ist zur Hälfte frei. Deniz kommt mit einem Thermoskanne-Trio vorbei.",
+          "options": [
+            {
+              "label": "Ich streue noch Salz. Sicherheit vor Gemütlichkeit.",
+              "line": "Ich streue erst Salz, dann Pause. Sicherheit vor Gemütlichkeit — sagt mein Rückgrat, nicht mein Rücken."
+            },
+            {
+              "label": "Pause! Tobias bringt Glühwein — äh, „Tee“.",
+              "line": "Pause! Tobias bringt drei Becher „Tee“ mit, der verdächtig nach Zimt und achtzehn Prozent riecht."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "deniz",
+          "text": "Siehst du gut aus, Sam. Fast wie ein echter Leipziger: eine Schaufel in der Hand und ein Gesicht wie an Heiligabend. …Und jetzt gucken: glatt? Fast glatt? Salz drüber, fertig. DAS ist Deutschland in drei Schritten.",
+          "translation": "You look good, Sam. Almost like a real Leipziger: a shovel in hand and a face like it's Christmas Eve. …And now look: slippery? Almost slippery? Salt on it, done. THAT is Germany in three steps."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        }
+      ]
+    },
+    {
+      "id": "a2e11s3",
+      "episodeId": "a2e11",
+      "title": "Der gefrorene Teich",
+      "titleEn": "The frozen pond",
+      "place": "Clara-Zetkin-Park, gegen Abend",
+      "bg": "park",
+      "contextTags": [
+        "weather",
+        "friends",
+        "nature"
+      ],
+      "requiredItems": [
+        "gemuetlich",
+        "die-luft"
+      ],
+      "introducedItems": [
+        "der-teich",
+        "die-waermflasche",
+        "der-gluehwein",
+        "die-schneeflocke",
+        "der-atem"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Abends im Park: Der Teich ist zugefroren, ein Kind schiebt eine Wärmflasche in einer Strickmütze über das Eis (warum? niemand fragt), und euer Atem hängt als kleine Wolken in der Luft."
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Schau: unser Atem! Bei Kälte sieht man, dass man lebt. …Und da: Schneeflocken im Laternenlicht. Jede anders. Wie meine Excuses am Montagmorgen, aber schöner.",
+          "translation": "Look: our breath! In the cold you can see that you're alive. …And there: snowflakes in the lamplight. Every one different. Like my excuses on Monday mornings, but prettier."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-teich",
+            "die-waermflasche",
+            "der-atem"
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-schneeflocke",
+            "der-gluehwein"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Tobias hält zwei Becher. „Glühwein oder Kindpunsch?“",
+          "options": [
+            {
+              "label": "Glühwein. Man muss ja irgendwie warm bleiben.",
+              "line": "Glühwein, bitte. Man muss ja irgendwie warm bleiben — das ist meine offizielle Begründung und ich stehe dazu."
+            },
+            {
+              "label": "Tee für mich. Ich schiebe morgen wieder Schnee.",
+              "line": "Tee für mich — ich muss morgen wieder Schnee schieben. Der Atem vom Training ist schon hart genug."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "deniz",
+          "text": "Sam, dein erster Schnee. …Weißt du noch, dein erster Tag? Da war Sommer, Koffer, Gleis sieben. Und jetzt: Schnee, Pflicht, Glühwein. …Du hast jetzt alle Jahreszeiten auf Deutsch gelebt. Glückwunsch.",
+          "translation": "Sam, your first snow. …Remember your first day? Summer then, suitcase, platform seven. And now: snow, duty, mulled wine. …You've now lived every season in German. Congratulations."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "narration",
+          "text": "Der Park wird dunkel, die Laterne malt Kreise in den Schnee. Auf dem Heimweg rutscht einer aus, lacht, steht auf, lauter. Frieren tut keiner mehr. Der erste Winter ist halb geschafft — und du hast gelernt, was alle Leipziger wissen: Salz streuen, tief atmen, weitergehen."
+        }
+      ]
+    }
+  ]
+}

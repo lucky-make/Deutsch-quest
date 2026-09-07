@@ -443,6 +443,68 @@ export const ICONS: Record<string, string> = {
     <path d="M9 3v5M15 3v5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
     <path d="M7 8h10v3.5a5 5 0 0 1-10 0z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
     <path d="M12 16.5V19a2.5 2.5 0 0 1-2.5 2.5H8" fill="none" stroke="${PALETTE.accent}" stroke-width="1.8" stroke-linecap="round"/>`),
+  pfote: S(`
+    <ellipse cx="12" cy="14.5" rx="4.2" ry="3.6" fill="none" stroke="currentColor" stroke-width="1.8"/>
+    <circle cx="6.2" cy="10" r="1.6" fill="${PALETTE.accent}"/><circle cx="9.4" cy="7.4" r="1.6" fill="${PALETTE.accent}"/>
+    <circle cx="14.6" cy="7.4" r="1.6" fill="${PALETTE.accent}"/><circle cx="17.8" cy="10" r="1.6" fill="${PALETTE.accent}"/>`),
+  kamera: S(`
+    <path d="M4 8.5A1.5 1.5 0 0 1 5.5 7h2.7l1.4-2h4.8l1.4 2h2.7A1.5 1.5 0 0 1 20 8.5v8a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 4 16.5z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    <circle cx="12" cy="12.3" r="3" fill="none" stroke="currentColor" stroke-width="1.8"/>
+    <circle cx="12" cy="12.3" r="1" fill="${PALETTE.accent}"/>
+    <circle cx="17.2" cy="10" r=".9" fill="${PALETTE.gold}"/>`),
+  museum: S(`
+    <path d="M4 9.5L12 4l8 5.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M5.5 10v7M9.8 10v7M14.2 10v7M18.5 10v7" stroke="currentColor" stroke-width="1.8"/>
+    <path d="M4 19.5h16M4 17h16" stroke="${PALETTE.teal}" stroke-width="1.6" stroke-linecap="round"/>
+    <circle cx="12" cy="8" r="1" fill="${PALETTE.gold}"/>`),
+  palette: S(`
+    <path d="M12 3.5c-4.8 0-8.5 3.5-8.5 8s3.4 8.5 8 8.5c1.5 0 2-1 1.5-2-.6-1.3.2-2.5 1.7-2.5h1.8c2.2 0 4-1.6 4-3.8 0-4.6-3.7-8.2-8.5-8.2z" fill="none" stroke="currentColor" stroke-width="1.8"/>
+    <circle cx="8" cy="9" r="1.2" fill="${PALETTE.accent}"/><circle cx="12.3" cy="7" r="1.2" fill="${PALETTE.gold}"/>
+    <circle cx="16.4" cy="9.4" r="1.2" fill="${PALETTE.teal}"/><circle cx="7.6" cy="13.4" r="1.2" fill="${PALETTE.sky}"/>`),
+  staubsauger: S(`
+    <path d="M6.5 12.5a5.5 5.5 0 0 1 11 0V17a1.5 1.5 0 0 1-1.5 1.5H8A1.5 1.5 0 0 1 6.5 17z" fill="none" stroke="currentColor" stroke-width="1.8"/>
+    <circle cx="12" cy="12.5" r="1.8" fill="none" stroke="${PALETTE.accent}" stroke-width="1.6"/>
+    <path d="M12 3.5v3M9 18.5v2h6v-2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>`),
+  eimer: S(`
+    <path d="M5.5 8h13l-1.4 10a2 2 0 0 1-2 1.5H8.9a2 2 0 0 1-2-1.5z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    <path d="M8 8a4 4 0 0 1 8 0" fill="none" stroke="currentColor" stroke-width="1.8"/>
+    <path d="M6.3 12h11.4" stroke="${PALETTE.teal}" stroke-width="1.5"/>`),
+  schnee: S(`
+    <path d="M12 3v18M4.2 7.5l15.6 9M4.2 16.5l15.6-9" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+    <path d="M12 3l-2 2M12 3l2 2M12 21l-2-2M12 21l2-2" stroke="${PALETTE.teal}" stroke-width="1.4" stroke-linecap="round"/>`),
+  schal: S(`
+    <path d="M8 3.5h8v8c0 2-1.5 3-1.5 5v4h-5v-4c0-2-1.5-3-1.5-5z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    <path d="M9.5 11.5h5" stroke="${PALETTE.accent}" stroke-width="1.6"/>
+    <path d="M9.5 16.5h5M9.5 19h5" stroke="${PALETTE.teal}" stroke-width="1.3" stroke-linecap="round"/>`),
+  muetze: S(`
+    <path d="M5.5 14a6.5 6.5 0 0 1 13 0" fill="none" stroke="currentColor" stroke-width="1.8"/>
+    <path d="M4.5 14h15v3h-15z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    <circle cx="12" cy="6" r="1.5" fill="${PALETTE.accent}"/>
+    <path d="M8 14v3M12 14v3M16 14v3" stroke="${PALETTE.teal}" stroke-width="1.3"/>`),
+  schaufel: S(`
+    <path d="M13.5 4.5l6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M15.5 6.5l-6.2 6.2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M9.3 12.7c-2.2 2.2-2 5.6-4.8 7-1.4-2.8-.2-6.2 2-8.4a2.9 2.9 0 0 1 2.8 1.4z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    <path d="M10.5 13.5l2.5 2.5" stroke="${PALETTE.accent}" stroke-width="1.5" stroke-linecap="round"/>`),
+  stempel: S(`
+    <path d="M9 4.5h6l-1 6h3.5A1.5 1.5 0 0 1 19 12v2H5v-2a1.5 1.5 0 0 1 1.5-1.5H10z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    <path d="M5.5 17h13" stroke="${PALETTE.accent}" stroke-width="2.2" stroke-linecap="round"/>`),
+  liste: S(`
+    <rect x="5" y="3.5" width="14" height="17" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/>
+    <path d="M8.5 8h7M8.5 12h7M8.5 16h4.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+    <circle cx="8.2" cy="8" r=".7" fill="${PALETTE.accent}"/><circle cx="8.2" cy="12" r=".7" fill="${PALETTE.accent}"/><circle cx="8.2" cy="16" r=".7" fill="${PALETTE.accent}"/>`),
+  giesskanne: S(`
+    <path d="M8 10h7.5a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2z" fill="none" stroke="currentColor" stroke-width="1.8"/>
+    <path d="M6 12.5L3 9.5m2.2-.8l2 2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M10 10V7.5a2 2 0 0 1 2-2h1.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M14.5 5.5l2-2" stroke="${PALETTE.teal}" stroke-width="1.6" stroke-linecap="round"/>
+    <path d="M9.5 19v1.2M12 19v1.2M14.5 19v1.2" stroke="${PALETTE.accent}" stroke-width="1.4" stroke-linecap="round"/>`),
+  laube: S(`
+    <path d="M4.5 11L12 4l7.5 7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M6.5 10v9h11v-9" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    <rect x="10" y="13" width="4" height="6" fill="none" stroke="${PALETTE.teal}" stroke-width="1.5"/>
+    <path d="M15 6.5c1.5-1 3-1 4.5 0" fill="none" stroke="${PALETTE.accent}" stroke-width="1.5" stroke-linecap="round"/>`),
+
 
 
 }

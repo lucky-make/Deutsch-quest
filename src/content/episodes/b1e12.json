@@ -1,0 +1,521 @@
+{
+  "episode": {
+    "id": "b1e12",
+    "arcId": "B1",
+    "cefrLevel": "B1",
+    "title": "Der Flohmarkt",
+    "titleEn": "The flea market",
+    "blurb": "Keller geräumt, Tisch gemietet, Preise gehandelt: Auf dem Flohmarkt verkauft du dein erstes Leipziger Jahr an Fremde — und lernst, warum alles zu verschenken am schnellsten weggeht.",
+    "order": 20,
+    "sceneIds": [
+      "b1e12s1",
+      "b1e12s2",
+      "b1e12s3"
+    ]
+  },
+  "cast": [
+    {
+      "id": "tobias",
+      "name": "Tobias",
+      "role": "Nachbar, Student"
+    },
+    {
+      "id": "kunde",
+      "name": "Herr Gellert",
+      "role": "Stammkunde des Flohmarkts"
+    }
+  ],
+  "items": [
+    {
+      "id": "der-keller",
+      "type": "word",
+      "german": "der Keller",
+      "meaning": "the basement / cellar",
+      "image": "treppenhaus",
+      "audio": "tts",
+      "introducedInScene": "b1e12s1",
+      "tags": [
+        "home"
+      ],
+      "cefrLevel": "B1",
+      "note": "der, Plural: die Keller — wo Dinge warten, die man „noch braucht“"
+    },
+    {
+      "id": "der-flohmarkt",
+      "type": "word",
+      "german": "der Flohmarkt",
+      "meaning": "the flea market",
+      "image": "stand",
+      "audio": "tts",
+      "introducedInScene": "b1e12s1",
+      "tags": [
+        "shopping",
+        "city"
+      ],
+      "cefrLevel": "B1",
+      "note": "der, Plural: die Flohmärkte — flohen? Flöhe? Egal: Schnäppchen"
+    },
+    {
+      "id": "verkaufen",
+      "type": "word",
+      "german": "verkaufen",
+      "meaning": "to sell",
+      "image": "geld",
+      "audio": "tts",
+      "introducedInScene": "b1e12s1",
+      "tags": [
+        "money",
+        "shopping"
+      ],
+      "cefrLevel": "B1",
+      "note": "verkaufen — Gegenteil: kaufen; der Verkauf"
+    },
+    {
+      "id": "der-karton",
+      "type": "word",
+      "german": "der Karton",
+      "meaning": "the (cardboard) box",
+      "image": "paket",
+      "audio": "tts",
+      "introducedInScene": "b1e12s1",
+      "tags": [
+        "objects",
+        "home"
+      ],
+      "cefrLevel": "B1",
+      "note": "der, Plural: die Kartons — aus dem Keller, in die Freiheit"
+    },
+    {
+      "id": "das-schnaeppchen",
+      "type": "word",
+      "german": "das Schnäppchen",
+      "meaning": "the bargain",
+      "image": "geld",
+      "audio": "tts",
+      "introducedInScene": "b1e12s1",
+      "tags": [
+        "shopping",
+        "money"
+      ],
+      "cefrLevel": "B1",
+      "note": "das, Plural: die Schnäppchen — Schnäppchen machen = Bargeld-Adrenalin"
+    },
+    {
+      "id": "die-schallplatte",
+      "type": "word",
+      "german": "die Schallplatte",
+      "meaning": "the vinyl record",
+      "image": "konzert",
+      "audio": "tts",
+      "introducedInScene": "b1e12s1",
+      "tags": [
+        "music",
+        "objects"
+      ],
+      "cefrLevel": "B1",
+      "note": "die, Plural: die Schallplatten — auf Flohmärkten: Gold"
+    },
+    {
+      "id": "feilschen",
+      "type": "word",
+      "german": "feilschen",
+      "meaning": "to haggle",
+      "image": "gespräch",
+      "audio": "tts",
+      "introducedInScene": "b1e12s2",
+      "tags": [
+        "shopping",
+        "money"
+      ],
+      "cefrLevel": "B1",
+      "note": "feilschen — um den Preis feilschen; Sportart am Flohmarkt"
+    },
+    {
+      "id": "der-stammkunde",
+      "type": "word",
+      "german": "der Stammkunde",
+      "meaning": "the regular customer",
+      "image": "person",
+      "audio": "tts",
+      "introducedInScene": "b1e12s2",
+      "tags": [
+        "shopping",
+        "people"
+      ],
+      "cefrLevel": "B1",
+      "note": "der, Plural: die Stammkunden — kommt früh, kennt alles, zahlt bar"
+    },
+    {
+      "id": "der-rabatt",
+      "type": "word",
+      "german": "der Rabatt",
+      "meaning": "the discount",
+      "image": "münzen",
+      "audio": "tts",
+      "introducedInScene": "b1e12s2",
+      "tags": [
+        "money",
+        "shopping"
+      ],
+      "cefrLevel": "B1",
+      "note": "der, Plural: die Rabatte — 20 % Rabatt; Rabatt geben"
+    },
+    {
+      "id": "das-geschirr",
+      "type": "word",
+      "german": "das Geschirr",
+      "meaning": "the dishes / crockery",
+      "image": "tisch",
+      "audio": "tts",
+      "introducedInScene": "b1e12s2",
+      "tags": [
+        "kitchen",
+        "objects"
+      ],
+      "cefrLevel": "B1",
+      "note": "das ( Singular ) — ein Geschirr, viele Teller"
+    },
+    {
+      "id": "um-platz-zu",
+      "type": "grammar_pattern",
+      "german": "Ich verkaufe alles, ___ Platz zu schaffen.",
+      "meaning": "I'm selling everything to make room.",
+      "image": "ziel",
+      "audio": "tts",
+      "introducedInScene": "b1e12s2",
+      "tags": [
+        "grammar",
+        "shopping"
+      ],
+      "cefrLevel": "B1",
+      "cloze": "um",
+      "speak": "Ich verkaufe alles, um Platz zu schaffen.",
+      "note": "um … zu + Infinitiv = Zweck (gleiches Subjekt!)"
+    },
+    {
+      "id": "der-erloes",
+      "type": "word",
+      "german": "der Erlös",
+      "meaning": "the proceeds",
+      "image": "münzen",
+      "audio": "tts",
+      "introducedInScene": "b1e12s3",
+      "tags": [
+        "money"
+      ],
+      "cefrLevel": "B1",
+      "note": "der, Plural: die Erlöse — was am Ende übrig bleibt"
+    },
+    {
+      "id": "die-reste",
+      "type": "word",
+      "german": "die Reste",
+      "meaning": "the leftovers / remains",
+      "image": "tüte",
+      "audio": "tts",
+      "introducedInScene": "b1e12s3",
+      "tags": [
+        "objects"
+      ],
+      "cefrLevel": "B1",
+      "note": "Plural: die Reste — vom Essen, vom Tag, vom Keller"
+    },
+    {
+      "id": "zu-verschenken",
+      "type": "chunk",
+      "german": "Zu verschenken!",
+      "meaning": "For free! (giving away)",
+      "image": "geschenk",
+      "audio": "tts",
+      "introducedInScene": "b1e12s3",
+      "tags": [
+        "shopping",
+        "community"
+      ],
+      "cefrLevel": "B1",
+      "speak": "Zu verschenken!",
+      "note": "das Zauberwort: weg ist es schneller als verkauft"
+    },
+    {
+      "id": "die-freude",
+      "type": "word",
+      "german": "die Freude",
+      "meaning": "the joy",
+      "image": "person",
+      "audio": "tts",
+      "introducedInScene": "b1e12s3",
+      "tags": [
+        "feelings"
+      ],
+      "cefrLevel": "B1",
+      "note": "die, Plural: die Freuden — Freude an etwas (Dativ)"
+    },
+    {
+      "id": "die-haelfte",
+      "type": "word",
+      "german": "die Hälfte",
+      "meaning": "the half",
+      "image": "kuchen",
+      "audio": "tts",
+      "introducedInScene": "b1e12s3",
+      "tags": [
+        "numbers"
+      ],
+      "cefrLevel": "B1",
+      "note": "die, Plural: die Hälften — die Hälfte von etwas"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "b1e12s1",
+      "episodeId": "b1e12",
+      "title": "Keller-Archäologie",
+      "titleEn": "Basement archaeology",
+      "place": "Keller, dann Wohnzimmer",
+      "bg": "treppenhaus",
+      "contextTags": [
+        "home",
+        "shopping",
+        "friends"
+      ],
+      "requiredItems": [
+        "der-koffer",
+        "die-zeitschrift"
+      ],
+      "introducedItems": [
+        "der-keller",
+        "der-flohmarkt",
+        "verkaufen",
+        "der-karton",
+        "das-schnaeppchen",
+        "die-schallplatte"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Dein Keller ist ein Museum deines ersten Jahres: der Koffer von der Ankunft, drei Kartons Zeug von Flohmärkten (Rückwanderung inklusive), und eine Zeitschriftensammlung, die Tobias „dein Archiv“ nennt."
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Sam. Am Samstag ist Flohmarkt am Jugendclub. Wir verkaufen. …Nicht, weil du arm bist — weil Platz auch Wohlstand ist. Und weil dein Keller langsam eine zweite Wohnung ist. Mit Mietpreis.",
+          "translation": "Sam. There's a flea market at the youth club on Saturday. We're selling. …Not because you're broke — because space is also wealth. And because your basement is slowly becoming a second flat. With rent."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-keller",
+            "der-flohmarkt",
+            "verkaufen"
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-karton",
+            "das-schnaeppchen",
+            "die-schallplatte"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Tobias hält eine Schallplatte hoch: DDR-Schlager, 1978.",
+          "options": [
+            {
+              "label": "Verkaufen. Schnäppchenjäger lieben das.",
+              "line": "Verkaufen! Schnäppchenjäger lieben genau das. …Tobias: „Kleinanzeigen-Preis: drei Euro. Am Markt: Zehn. Markt schlägt Netz.“"
+            },
+            {
+              "label": "Behalten. Das ist die Hintergrundmusik meines Kellers.",
+              "line": "Behalten! Das ist die Hintergrundmusik meines Kellers. …„Sam. Musik im Keller braucht keinen Anwalt, sie braucht Zuhörer.“"
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "reading",
+          "title": "Aushang am Jugendclub",
+          "text": "FLOHMARKT AM JUGENDCLUB\nSamstag, 9–15 Uhr\n\nTisch mieten: 8 € (2 m)\nAufbau ab 7:30 Uhr\n\nRegeln:\n— Kein Verkauf von Neuer Ware\n— Feilschen ausdrücklich erwünscht\n— Reste bitte selbst mitnehmen\n\nBei Regen: fällt aus. Leipzig-Wetter.\nEhrenamtler gesucht für Kaffee & Kuchen.",
+          "translation": "FLEA MARKET AT THE YOUTH CLUB\nSaturday, 9 am–3 pm\n\nTable rental: €8 (2 m)\nSet-up from 7:30 am\n\nRules:\n— No selling of new goods\n— Haggling explicitly encouraged\n— Please take leftovers home\n\nIn case of rain: cancelled. Leipzig weather.\nVolunteers wanted for coffee & cake."
+        }
+      ]
+    },
+    {
+      "id": "b1e12s2",
+      "episodeId": "b1e12",
+      "title": "Hageln erlaubt",
+      "titleEn": "Haggling allowed",
+      "place": "Flohmarkt, Tisch 14, zwischen Porzellan und Platten",
+      "bg": "markt",
+      "contextTags": [
+        "shopping",
+        "money",
+        "city"
+      ],
+      "requiredItems": [
+        "bar-oder-mit-karte",
+        "die-kasse"
+      ],
+      "introducedItems": [
+        "feilschen",
+        "der-stammkunde",
+        "der-rabatt",
+        "das-geschirr",
+        "um-platz-zu"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Tisch 14: Geschirr von der letzten Miete, zwei Kartons Zeitschriften, die Schallplatte (dein teuerstes Objekt), und ein Schild: „ALLES MUSS WEG — wir verkaufen, um Platz zu schaffen!“"
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Regel eins am Flohmarkt: Preise sind Vorschläge. Regel zwei: Wer feilscht, ist ehrlich. Regel drei: Erster Preis ist immer Test. …Und da kommt Herr Gellert — Stammkunde, kommt um acht, zahlt bar, kennt jeden. Warte ab.",
+          "translation": "Rule one at the flea market: prices are suggestions. Rule two: those who haggle are honest. Rule three: the first price is always a test. …And there comes Mr Gellert — regular customer, arrives at eight, pays cash, knows everyone. Just wait."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "feilschen",
+            "der-stammkunde",
+            "der-rabatt"
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "das-geschirr",
+            "um-platz-zu"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Herr Gellert: „Junge, die ganze Schüssel für fünf? Ich nehme alle. Was sagst du?“",
+          "options": [
+            {
+              "label": "Acht, und ich gebe dir zehn Prozent Rabatt drauf.",
+              "line": "Acht Euro, und ich gebe dir zehn Prozent Rabatt. …Gellert: „Sechs.“ …„Sieben.“ …„Siebeneinhalb.“ …„Gesehen. Abgemacht, Sieben.“"
+            },
+            {
+              "label": "Fünf sind ok. Aber Sie erzählen mir, was das Geschirr war.",
+              "line": "Fünf sind ok. Aber Sie erzählen mir, was das Geschirr früher war. …Gellert erzählt. Achtzehn Minuten. Wertvoller als Euro."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "kunde",
+          "text": "Ich kaufe hier seit zwanzig Jahren. Bedenken? Klar. Aber wirfst du dein Geschirr weg, verlierst du Geschichten. Junge: Du sprichst gut. …Bargeld, wie es sich gehört. …Und: viel Erfolg beim Platz schaffen — du brauchst Platz, ich hab gesehen, wie du guckst.",
+          "translation": "I've been buying here for twenty years. Regrets? Sure. But when you throw your dishes away, you lose stories. Young man: you speak well. …Cash, as it should be. …And good luck making room — you need the space, I can see it in your face."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        }
+      ]
+    },
+    {
+      "id": "b1e12s3",
+      "episodeId": "b1e12",
+      "title": "Zu verschenken",
+      "titleEn": "For free",
+      "place": "Flohmarkt, 14:30, Restetisch",
+      "bg": "markt",
+      "contextTags": [
+        "shopping",
+        "community",
+        "friends"
+      ],
+      "requiredItems": [
+        "der-kuchen",
+        "die-torte"
+      ],
+      "introducedItems": [
+        "der-erloes",
+        "die-reste",
+        "zu-verschenken",
+        "die-freude",
+        "die-haelfte"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "14:30 Uhr. Die Kasse wiegt sich zufrieden: Zweiundvierzig Euro Erlös. Auf dem Restetisch: die Reste — eine Laterne ohne Lampenfassungen, Geschirr-Einzelkinder, Zeitschriften von 2019. Tobias hat ein Schild geschrieben: „ZU VERSCHENKEN!“"
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Schau zu. …Das ist Magie: „Zu verschenken“ — und binnen fünf Minuten ist die Hälfte weg. Leute, die nichts brauchen, laufen schneller als Busse, wenn es gratis ist. …Leipzig-Physik.",
+          "translation": "Watch this. …That's magic: 'for free' — and within five minutes half of it's gone. People who need nothing run faster than buses when it's free. …Leipzig physics."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-erloes",
+            "zu-verschenken",
+            "die-haelfte"
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-reste",
+            "die-freude"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Ein Junge fragt schüchtern, ob die Zeitschriften wirklich gratis sind.",
+          "options": [
+            {
+              "label": "Zu verschenken! Viel Spaß damit — und les mal Seite 34.",
+              "line": "Zu verschenken! Viel Spaß damit — und les mal Seite 34, da ist ein Modellflugzeug drin. …Sein Lächeln ist mehr wert als der Erlös."
+            },
+            {
+              "label": "Klar — aber dafür erzählst du mir, was du damit baust.",
+              "line": "Klar, aber dafür erzählst du mir, was du damit baust. …Er baut Flugzeuge. Aus Pappe. Der Morgen ist gerettet."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Bilanz: zweiundvierzig Euro, ein leerer Keller, drei neue Bekannte, eine Lektion. …Manchmal ist der beste Preis nicht der höchste — sondern der, der dir was zurückgibt. Und du hast heute geredet wie ein Verkäufer, der die Sprache seines Markts spricht.",
+          "translation": "Balance sheet: forty-two euros, an empty basement, three new acquaintances, one lesson. …Sometimes the best price isn't the highest — it's the one that gives something back. And today you talked like a seller who speaks the language of his market."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "reading",
+          "title": "Zettel auf dem Restetisch",
+          "text": "ZU VERSCHENKEN!\n\n— Laterne (ohne Elektrik,\n   mit Charakter)\n— Teller, Einzelkinder\n— Zeitschriften 2019\n   (mit Modellbogen auf S. 34)\n— ein Regenschirm,\n   der Schnee überlebt hat\n\nNehmen, lächeln, gehen.\nDas ist der ganze Deal.",
+          "translation": "FOR FREE!\n\n— Lantern (no wiring,\n   plenty of character)\n— Plates, singles only\n— Magazines 2019\n   (with model kit on page 34)\n— one umbrella\n   that survived snow\n\nTake, smile, leave.\nThat's the whole deal."
+        }
+      ]
+    }
+  ]
+}

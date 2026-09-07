@@ -1,0 +1,567 @@
+{
+  "episode": {
+    "id": "b1e11",
+    "arcId": "B1",
+    "cefrLevel": "B1",
+    "title": "Die Mieterversammlung",
+    "titleEn": "The tenants' meeting",
+    "blurb": "Hausverwaltung, Tagesordnung, Anträge: Im Hinterhof wird über einen Brunnen abgestimmt. Demokratie im Treppenhaus — mit Protokoll, Mehrheit und einem Gegenantrag von Frau Brügge.",
+    "order": 19,
+    "sceneIds": [
+      "b1e11s1",
+      "b1e11s2",
+      "b1e11s3"
+    ]
+  },
+  "cast": [
+    {
+      "id": "verwaltung",
+      "name": "Herr Kalisch",
+      "role": "Hausverwaltung"
+    },
+    {
+      "id": "frau-bruegge",
+      "name": "Frau Brügge",
+      "role": "Vermieterin"
+    },
+    {
+      "id": "deniz",
+      "name": "Deniz",
+      "role": "Nachbar"
+    },
+    {
+      "id": "tobias",
+      "name": "Tobias",
+      "role": "Nachbar, Student"
+    }
+  ],
+  "items": [
+    {
+      "id": "die-versammlung",
+      "type": "word",
+      "german": "die Versammlung",
+      "meaning": "the (assembly) meeting",
+      "image": "team",
+      "audio": "tts",
+      "introducedInScene": "b1e11s1",
+      "tags": [
+        "neighbors",
+        "admin",
+        "meeting"
+      ],
+      "cefrLevel": "B1",
+      "note": "die, Plural: die Versammlungen — Mieterversammlung, Hauptversammlung"
+    },
+    {
+      "id": "der-tagesordnungspunkt",
+      "type": "word",
+      "german": "der Tagesordnungspunkt",
+      "meaning": "the agenda item",
+      "image": "liste",
+      "audio": "tts",
+      "introducedInScene": "b1e11s1",
+      "tags": [
+        "meeting",
+        "admin"
+      ],
+      "cefrLevel": "B1",
+      "note": "der, Plural: die Tagesordnungspunkte — Abkürzung: TOP 3"
+    },
+    {
+      "id": "die-verwaltung",
+      "type": "word",
+      "german": "die Verwaltung",
+      "meaning": "the (property) administration",
+      "image": "firma",
+      "audio": "tts",
+      "introducedInScene": "b1e11s1",
+      "tags": [
+        "admin",
+        "work"
+      ],
+      "cefrLevel": "B1",
+      "note": "die, Plural: die Verwaltungen — leitet das Haus, liebt Klemmbretter"
+    },
+    {
+      "id": "die-heizkosten",
+      "type": "word",
+      "german": "die Heizkosten",
+      "meaning": "the heating costs (plural)",
+      "image": "münzen",
+      "audio": "tts",
+      "introducedInScene": "b1e11s1",
+      "tags": [
+        "money",
+        "home"
+      ],
+      "cefrLevel": "B1",
+      "note": "Plural: die Heizkosten — immer ein Tagesordnungspunkt"
+    },
+    {
+      "id": "die-ruecklage",
+      "type": "word",
+      "german": "die Rücklage",
+      "meaning": "the reserves (funds set aside)",
+      "image": "münzen",
+      "audio": "tts",
+      "introducedInScene": "b1e11s1",
+      "tags": [
+        "money",
+        "admin"
+      ],
+      "cefrLevel": "B1",
+      "note": "die, Plural: die Rücklagen — Instandhaltungsrücklage = das Sparschwein des Hauses"
+    },
+    {
+      "id": "damit-brunnen",
+      "type": "grammar_pattern",
+      "german": "Wir sammeln Geld, ___ der Hof einen Brunnen bekommt.",
+      "meaning": "We're collecting money so that the courtyard gets a fountain.",
+      "image": "ziel",
+      "audio": "tts",
+      "introducedInScene": "b1e11s1",
+      "tags": [
+        "grammar",
+        "neighbors"
+      ],
+      "cefrLevel": "B1",
+      "cloze": "damit",
+      "speak": "Wir sammeln Geld, damit der Hof einen Brunnen bekommt.",
+      "note": "damit + Satz = Ziel (final); im Satz danach: Verb an Position 2"
+    },
+    {
+      "id": "abstimmen",
+      "type": "word",
+      "german": "abstimmen",
+      "meaning": "to vote",
+      "image": "liste",
+      "audio": "tts",
+      "introducedInScene": "b1e11s2",
+      "tags": [
+        "meeting",
+        "democracy"
+      ],
+      "cefrLevel": "B1",
+      "note": "trennbar: wir stimmen ab — über etwas abstimmen"
+    },
+    {
+      "id": "der-beschluss",
+      "type": "word",
+      "german": "der Beschluss",
+      "meaning": "the (official) decision / resolution",
+      "image": "stempel",
+      "audio": "tts",
+      "introducedInScene": "b1e11s2",
+      "tags": [
+        "meeting",
+        "admin"
+      ],
+      "cefrLevel": "B1",
+      "note": "der, Plural: die Beschlüsse — einen Beschluss fassen"
+    },
+    {
+      "id": "die-mehrheit",
+      "type": "word",
+      "german": "die Mehrheit",
+      "meaning": "the majority",
+      "image": "team",
+      "audio": "tts",
+      "introducedInScene": "b1e11s2",
+      "tags": [
+        "meeting",
+        "democracy"
+      ],
+      "cefrLevel": "B1",
+      "note": "die, Plural: die Mehrheiten — einfache Mehrheit reicht meist"
+    },
+    {
+      "id": "die-muelltrennung",
+      "type": "word",
+      "german": "die Mülltrennung",
+      "meaning": "the waste separation",
+      "image": "korb",
+      "audio": "tts",
+      "introducedInScene": "b1e11s2",
+      "tags": [
+        "environment",
+        "home",
+        "rules"
+      ],
+      "cefrLevel": "B1",
+      "note": "die, Plural: die Mülltrennungen — Gelbe Tonne, Blaue Tonne, Biotonne"
+    },
+    {
+      "id": "der-hausmeister",
+      "type": "word",
+      "german": "der Hausmeister",
+      "meaning": "the caretaker",
+      "image": "werkzeug",
+      "audio": "tts",
+      "introducedInScene": "b1e11s2",
+      "tags": [
+        "work",
+        "home"
+      ],
+      "cefrLevel": "B1",
+      "note": "der, Plural: die Hausmeister — hat Schlüssel, hat Ordnung, hat Meinung"
+    },
+    {
+      "id": "stimmen-fuer",
+      "type": "grammar_pattern",
+      "german": "Ich stimme ___ den Brunnen.",
+      "meaning": "I'm voting for the fountain.",
+      "image": "liste",
+      "audio": "tts",
+      "introducedInScene": "b1e11s2",
+      "tags": [
+        "grammar",
+        "meeting"
+      ],
+      "cefrLevel": "B1",
+      "cloze": "für",
+      "speak": "Ich stimme für den Brunnen.",
+      "note": "stimmen für + Akkusativ; dagegen: stimmen gegen"
+    },
+    {
+      "id": "der-brunnen",
+      "type": "word",
+      "german": "der Brunnen",
+      "meaning": "the fountain / well",
+      "image": "wasser",
+      "audio": "tts",
+      "introducedInScene": "b1e11s3",
+      "tags": [
+        "nature",
+        "neighbors"
+      ],
+      "cefrLevel": "B1",
+      "note": "der, Plural: die Brunnen — ein Wunsch aller Innenhöfe"
+    },
+    {
+      "id": "die-spende",
+      "type": "word",
+      "german": "die Spende",
+      "meaning": "the donation",
+      "image": "geschenk",
+      "audio": "tts",
+      "introducedInScene": "b1e11s3",
+      "tags": [
+        "money",
+        "community"
+      ],
+      "cefrLevel": "B1",
+      "note": "die, Plural: die Spenden — spenden (Verb)"
+    },
+    {
+      "id": "die-einweihung",
+      "type": "word",
+      "german": "die Einweihung",
+      "meaning": "the inauguration / opening ceremony",
+      "image": "fest",
+      "audio": "tts",
+      "introducedInScene": "b1e11s3",
+      "tags": [
+        "celebration",
+        "neighbors"
+      ],
+      "cefrLevel": "B1",
+      "note": "die, Plural: die Einweihungen — etwas einweihen"
+    },
+    {
+      "id": "die-hoffnung",
+      "type": "word",
+      "german": "die Hoffnung",
+      "meaning": "the hope",
+      "image": "person",
+      "audio": "tts",
+      "introducedInScene": "b1e11s3",
+      "tags": [
+        "feelings"
+      ],
+      "cefrLevel": "B1",
+      "note": "die, Plural: die Hoffnungen — Hoffnung haben auf + Akkusativ"
+    },
+    {
+      "id": "der-sommer",
+      "type": "word",
+      "german": "der Sommer",
+      "meaning": "the summer",
+      "image": "sonnenuntergang",
+      "audio": "tts",
+      "introducedInScene": "b1e11s3",
+      "tags": [
+        "time",
+        "weather"
+      ],
+      "cefrLevel": "B1",
+      "note": "der, Plural: die Sommer — im Sommer; nächsten Sommer"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "b1e11s1",
+      "episodeId": "b1e11",
+      "title": "Einladung mit Tagesordnung",
+      "titleEn": "Invitation with agenda",
+      "place": "Hausflur, schwarzes Brett",
+      "bg": "treppenhaus",
+      "contextTags": [
+        "neighbors",
+        "admin",
+        "meeting"
+      ],
+      "requiredItems": [
+        "die-einladung",
+        "die-ruhe"
+      ],
+      "introducedItems": [
+        "die-versammlung",
+        "der-tagesordnungspunkt",
+        "die-verwaltung",
+        "die-heizkosten",
+        "die-ruecklage",
+        "damit-brunnen"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Am schwarzen Brett: ein offizieller Zettel mit neun Tagesordnungspunkten und einer Handschrift darunter, die du kennst: „TOP 10: BRUNNEN. Bringt Kuchen mit. E. B.“"
+        },
+        {
+          "type": "line",
+          "speaker": "deniz",
+          "text": "Mieterversammlung, nächste Woche, Hinterhof. …TOP 1: Heizkosten. TOP 2: Mülltrennung, weil ALLE wieder raten. TOP 3: Rücklage. …Und die geheime TOP 10: Frau Brügge will einen Brunnen. Einen. Brunnen.",
+          "translation": "Tenants' meeting, next week, courtyard. …Item 1: heating costs. Item 2: waste separation, because EVERYONE keeps guessing. Item 3: reserves. …And the secret item 10: Frau Brügge wants a fountain. A. Fountain."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-versammlung",
+            "der-tagesordnungspunkt",
+            "die-verwaltung"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Die Heizkosten stehen jedes Jahr drauf — wie Weihnachten, nur weniger festlich. …Und der Brunnen? Den wünscht sich der Hof seit Jahren. Wir sammeln halt Geld, damit der Hof endlich was Schönes bekommt.",
+          "translation": "Heating costs are on the list every year — like Christmas, just less festive. …And the fountain? The courtyard has wanted one for years. So we're collecting money so the courtyard finally gets something nice."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-heizkosten",
+            "die-ruecklage",
+            "damit-brunnen"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Deniz: „Du bist jetzt Mieter. Sagst du bei der Versammlung was?“",
+          "options": [
+            {
+              "label": "Ja. Ich stimme für den Brunnen — mit Begründung.",
+              "line": "Ja, ich stimme für den Brunnen. Mit Begründung, damit die Verwaltung weiß, dass ich mitdenke."
+            },
+            {
+              "label": "Erst zuhören. Ich kenne meine Rolle: Kuchen und Klugheit.",
+              "line": "Erst mal zuhören. Meine Rolle: Kuchen mitbringen und klug nicken. Beides kann ich schon."
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "reading",
+          "title": "Einladung zur Mieterversammlung",
+          "text": "EINLADUNG\nzur Mieterversammlung am Donnerstag,\n18:00 Uhr, Hinterhof (bei Regen: Flur, EG)\n\nTagesordnung:\nTOP 1   Heizkostenabrechnung 2026\nTOP 2   Mülltrennung: neue Beschilderung\nTOP 3   Instandhaltungsrücklage\nTOP 4   Fahrradständer: Standort\nTOP 10  Antrag Brunnen (Brügge, E.)\n\nAnträge sind bis Vorabend schriftlich\nbei der Verwaltung einzureichen.\n\n— Hausverwaltung Kalisch & Partner",
+          "translation": "INVITATION\nto the tenants' meeting on Thursday,\n6 pm, courtyard (in case of rain: ground-floor hallway)\n\nAgenda:\nItem 1   Heating bill 2026\nItem 2   Waste separation: new signage\nItem 3   Maintenance reserve\nItem 4   Bike racks: location\nItem 10  Motion: fountain (Brügge, E.)\n\nMotions must be submitted in writing\nto the management by the evening before.\n\n— Property management Kalisch & Partner"
+        }
+      ]
+    },
+    {
+      "id": "b1e11s2",
+      "episodeId": "b1e11",
+      "title": "Antrag und Gegenantrag",
+      "titleEn": "Motion and counter-motion",
+      "place": "Hinterhof, Klappstühle & Kuchen",
+      "bg": "fest",
+      "contextTags": [
+        "neighbors",
+        "meeting",
+        "admin"
+      ],
+      "requiredItems": [
+        "die-meinung",
+        "die-frage"
+      ],
+      "introducedItems": [
+        "abstimmen",
+        "der-beschluss",
+        "die-mehrheit",
+        "die-muelltrennung",
+        "der-hausmeister",
+        "stimmen-fuer"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Donnerstag, 18 Uhr. Herr Kalisch von der Verwaltung liest vor wie ein Nachrichtensprecher mit Klemmbrett. Die Mülltrennung wird diskutiert — zwei Stunden für vier Tonnen. Danach kommt alles ins Rollen."
+        },
+        {
+          "type": "line",
+          "speaker": "verwaltung",
+          "text": "Zu TOP 2: Es gab Beschwerden. Gelbe Tonne = Verpackungen. NICHT: Restmüll. Wer zweifelt, schaut auf das neue Schild. …Gibt's Fragen? …Nein? Dann Abstimmung: Wer ist dafür, dass der Hausmeister die Schilder montiert?",
+          "translation": "On item 2: there were complaints. Yellow bin = packaging. NOT: residual waste. If in doubt, look at the new sign. …Any questions? …No? Then a vote: who's in favour of the caretaker mounting the signs?"
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-muelltrennung",
+            "der-hausmeister",
+            "abstimmen"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "frau-bruegge",
+          "text": "(zu TOP 10) Meine Damen und Herren. Dieser Hof ist grau seit 1987. Ich bin alt genug, um das zu sagen, und reich genug am Kuchen. …Ich stelle den Antrag: Brunnen. Finanzierung: Spenden plus Rücklage. …Jetzt möge man abstimmen.",
+          "translation": "(on item 10) Ladies and gentlemen. This courtyard has been grey since 1987. I'm old enough to say it and rich in cakes. …I put forward the motion: a fountain. Funding: donations plus reserves. …Now let's vote."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-beschluss",
+            "die-mehrheit",
+            "stimmen-fuer"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Kalisch hebt die Hand: „Wer stimmt für den Brunnen?“",
+          "options": [
+            {
+              "label": "Ich stimme für den Brunnen. Und ich spende dreißig Euro.",
+              "line": "Ich stimme für den Brunnen — und ich spende dreißig Euro. …Kalisch: „Notiert. Erster Spender. Kraftvoll.“"
+            },
+            {
+              "label": "Ich stimme dafür — aber ich stelle eine Frage: Wer reinigt ihn?",
+              "line": "Ich stimme dafür. Eine Frage: Wer reinigt den Brunnen? …Frau Brügge: „Der Hausmeister. Das ist jetzt Teil seines Mythos.“"
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "verwaltung",
+          "text": "Abstimmung: Sechs dafür, eine dagegen, eine Enthaltung. …Die Mehrheit hat entschieden. Beschluss gefasst: Brunnen im Frühjahr. …(Brügge, leise): „Wer war dagegen?“ …(Stille. Protokoll bleibt anonym.)",
+          "translation": "Vote: six in favour, one against, one abstention. …The majority has decided. Resolution passed: fountain in spring. …(Brügge, quietly): 'Who voted against?' …(Silence. The minutes stay anonymous.)"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        }
+      ]
+    },
+    {
+      "id": "b1e11s3",
+      "episodeId": "b1e11",
+      "title": "Die Einweihung",
+      "titleEn": "The inauguration",
+      "place": "Hinterhof, Mai, Brunnen läuft",
+      "bg": "fest",
+      "contextTags": [
+        "neighbors",
+        "celebration",
+        "community"
+      ],
+      "requiredItems": [
+        "feiern",
+        "die-umarmung"
+      ],
+      "introducedItems": [
+        "der-brunnen",
+        "die-spende",
+        "die-einweihung",
+        "die-hoffnung",
+        "der-sommer"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Mai. Der Brunnen läuft — ein Podest, eine Kupferschale, Wasser, das plätschert wie eine kleine Werbung fürs Leben. Darumherum: alle Nachbarn, Kuchen, und Frau Brügge mit einer Schere und einem roten Band."
+        },
+        {
+          "type": "line",
+          "speaker": "frau-bruegge",
+          "text": "Vor vierzig Jahren wollte dieser Hof einen Brunnen. Vor vierzig Jahren war ich nicht Vermieterin, sondern Mieterin — in DIESSEM Haus. …Heute machen wir es wahr. Danach: Kuchen. …Die Einweihung ist damit eröffnet!",
+          "translation": "Forty years ago this courtyard wanted a fountain. Forty years ago I wasn't the landlady — I was a tenant, in THIS very house. …Today we're making it happen. After that: cake. …The inauguration is hereby open!"
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-brunnen",
+            "die-einweihung",
+            "die-spende"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "deniz",
+          "text": "Sam, schau die Liste: Spenden von allen — der Bäcker, Luise, sogar die Verwaltung. …Hoffnung in Euro. Und im Sommer sitzen hier alle am Wasser wie in Italien. Nur mit mehr Regeln.",
+          "translation": "Sam, look at the list: donations from everyone — the baker, Luise, even the property management. …Hope in euros. And in summer everyone will sit here by the water like in Italy. Just with more rules."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-hoffnung",
+            "der-sommer"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Frau Brügge reicht dir die Schere. „Du hast mitgestimmt. Gemeinsam.“",
+          "options": [
+            {
+              "label": "Ich schneide das Band durch — für den Sommer.",
+              "line": "Ich schneide das Band durch — auf den Sommer, auf das Wasser, auf Nachbarschaft mit Brunnen."
+            },
+            {
+              "label": "Wir schneiden zusammen. Alle Hände an der Schere.",
+              "line": "Wir schneiden zusammen — alle Hände an der Schere. …Das Foto hängt später im Treppenhaus. Lauter Lächeln."
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "reading",
+          "title": "Protokoll (Auszug), von der Verwaltung verschickt",
+          "text": "PROTOKOLL — Mieterversammlung, 14.03.\n\nTOP 2: Schilder werden montiert.\nBeschluss: einstimmig.\n\nTOP 10: Antrag „Brunnen im Hof“.\nAbstimmung: 6 dafür, 1 dagegen, 1 Enthaltung.\nBeschluss: angenommen. Umsetzung: Frühjahr.\n\nFinanzierung: Spenden (bisher 412 €)\nund Instandhaltungsrücklage.\n\nNächste Versammlung: Herbst.\nAnträge bitte wieder schriftlich.\n\n— Kalisch & Partner",
+          "translation": "MINUTES — tenants' meeting, 14 March\n\nItem 2: signs will be mounted.\nResolution: unanimous.\n\nItem 10: motion 'fountain in the courtyard'.\nVote: 6 in favour, 1 against, 1 abstention.\nResolution: passed. Implementation: spring.\n\nFunding: donations (so far €412)\nand the maintenance reserve.\n\nNext meeting: autumn.\nMotions again in writing, please.\n\n— Kalisch & Partner"
+        }
+      ]
+    }
+  ]
+}

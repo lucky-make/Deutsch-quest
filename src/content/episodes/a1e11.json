@@ -1,0 +1,563 @@
+{
+  "episode": {
+    "id": "a1e11",
+    "arcId": "A1",
+    "cefrLevel": "A1",
+    "title": "Das Museum",
+    "titleEn": "The museum",
+    "blurb": "Regentag, und Mei zieht dich ins Museum der bildenden Künste. Bilder, Farben, ein Wächter mit Meinungen — und die wichtigste Frage für Sprachlernende: „Was bedeutet das?“",
+    "order": 11,
+    "sceneIds": [
+      "a1e11s1",
+      "a1e11s2",
+      "a1e11s3"
+    ]
+  },
+  "cast": [
+    {
+      "id": "mei",
+      "name": "Mei",
+      "role": "Kollegin im Café"
+    },
+    {
+      "id": "pauly",
+      "name": "Herr Pauly",
+      "role": "Aufseher im Museum"
+    }
+  ],
+  "items": [
+    {
+      "id": "das-museum",
+      "type": "word",
+      "german": "das Museum",
+      "meaning": "the museum",
+      "image": "museum",
+      "audio": "tts",
+      "introducedInScene": "a1e11s1",
+      "tags": [
+        "culture",
+        "city",
+        "leisure"
+      ],
+      "cefrLevel": "A1",
+      "note": "das, Plural: die Museen — Leipzig hat viele"
+    },
+    {
+      "id": "der-eingang",
+      "type": "word",
+      "german": "der Eingang",
+      "meaning": "the entrance",
+      "image": "haus",
+      "audio": "tts",
+      "introducedInScene": "a1e11s1",
+      "tags": [
+        "city",
+        "signs"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Eingänge — Gegenteil: der Ausgang"
+    },
+    {
+      "id": "die-fuehrung",
+      "type": "word",
+      "german": "die Führung",
+      "meaning": "the guided tour",
+      "image": "person",
+      "audio": "tts",
+      "introducedInScene": "a1e11s1",
+      "tags": [
+        "culture",
+        "learning"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Führungen — an Sonntagen oft gratis"
+    },
+    {
+      "id": "der-audioguide",
+      "type": "word",
+      "german": "der Audioguide",
+      "meaning": "the audio guide",
+      "image": "laut",
+      "audio": "tts",
+      "introducedInScene": "a1e11s1",
+      "tags": [
+        "culture",
+        "technology"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Audioguides — Nummer eintippen, lauschen"
+    },
+    {
+      "id": "das-obergeschoss",
+      "type": "word",
+      "german": "das Obergeschoss",
+      "meaning": "the upper floor",
+      "image": "treppenhaus",
+      "audio": "tts",
+      "introducedInScene": "a1e11s1",
+      "tags": [
+        "city",
+        "home"
+      ],
+      "cefrLevel": "A1",
+      "note": "das, Plural: die Obergeschosse — unten: das Erdgeschoss"
+    },
+    {
+      "id": "was-bedeutet",
+      "type": "grammar_pattern",
+      "german": "Was ___ „abstrakt“?",
+      "meaning": "What does 'abstract' mean?",
+      "image": "gespräch",
+      "audio": "tts",
+      "introducedInScene": "a1e11s1",
+      "tags": [
+        "grammar",
+        "questions",
+        "learning"
+      ],
+      "cefrLevel": "A1",
+      "cloze": "bedeutet",
+      "speak": "Was bedeutet „abstrakt“?",
+      "note": "Was bedeutet …? — die wichtigste Frage im Museum (und überall)"
+    },
+    {
+      "id": "das-gemaelde",
+      "type": "word",
+      "german": "das Gemälde",
+      "meaning": "the painting",
+      "image": "palette",
+      "audio": "tts",
+      "introducedInScene": "a1e11s2",
+      "tags": [
+        "culture",
+        "art"
+      ],
+      "cefrLevel": "A1",
+      "note": "das, Plural: die Gemälde — hängt an der Wand"
+    },
+    {
+      "id": "die-farbe",
+      "type": "word",
+      "german": "die Farbe",
+      "meaning": "the color / paint",
+      "image": "palette",
+      "audio": "tts",
+      "introducedInScene": "a1e11s2",
+      "tags": [
+        "art",
+        "home"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Farben — bunt = many colors"
+    },
+    {
+      "id": "der-maler",
+      "type": "word",
+      "german": "der Maler",
+      "meaning": "the painter",
+      "image": "palette",
+      "audio": "tts",
+      "introducedInScene": "a1e11s2",
+      "tags": [
+        "art",
+        "work"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Maler; weiblich: die Malerin"
+    },
+    {
+      "id": "modern",
+      "type": "word",
+      "german": "modern",
+      "meaning": "modern",
+      "image": "idee",
+      "audio": "tts",
+      "introducedInScene": "a1e11s2",
+      "tags": [
+        "art",
+        "opinion"
+      ],
+      "cefrLevel": "A1",
+      "note": "Adjektiv — nicht verwechseln mit „der Modus“"
+    },
+    {
+      "id": "das-kunstwerk",
+      "type": "word",
+      "german": "das Kunstwerk",
+      "meaning": "the (work of) art",
+      "image": "museum",
+      "audio": "tts",
+      "introducedInScene": "a1e11s2",
+      "tags": [
+        "culture",
+        "art"
+      ],
+      "cefrLevel": "A1",
+      "note": "das, Plural: die Kunstwerke"
+    },
+    {
+      "id": "die-erklaerung",
+      "type": "word",
+      "german": "die Erklärung",
+      "meaning": "the explanation",
+      "image": "buch",
+      "audio": "tts",
+      "introducedInScene": "a1e11s2",
+      "tags": [
+        "learning",
+        "culture"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Erklärungen — neben jedem Bild"
+    },
+    {
+      "id": "das-original",
+      "type": "word",
+      "german": "das Original",
+      "meaning": "the original",
+      "image": "prüfen",
+      "audio": "tts",
+      "introducedInScene": "a1e11s3",
+      "tags": [
+        "art",
+        "culture"
+      ],
+      "cefrLevel": "A1",
+      "note": "das, Plural: die Originale — das echte Ding!"
+    },
+    {
+      "id": "die-postkarte",
+      "type": "word",
+      "german": "die Postkarte",
+      "meaning": "the postcard",
+      "image": "brief",
+      "audio": "tts",
+      "introducedInScene": "a1e11s3",
+      "tags": [
+        "media",
+        "gifts"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Postkarten — 65 Cent, weltpostfähig"
+    },
+    {
+      "id": "das-stillleben",
+      "type": "word",
+      "german": "das Stillleben",
+      "meaning": "the still life (painting)",
+      "image": "palette",
+      "audio": "tts",
+      "introducedInScene": "a1e11s3",
+      "tags": [
+        "art"
+      ],
+      "cefrLevel": "A1",
+      "note": "das, Plural: die Stillleben — Blumen, Obst, Totenkopf, optional"
+    },
+    {
+      "id": "die-inspiration",
+      "type": "word",
+      "german": "die Inspiration",
+      "meaning": "the inspiration",
+      "image": "idee",
+      "audio": "tts",
+      "introducedInScene": "a1e11s3",
+      "tags": [
+        "art",
+        "feelings"
+      ],
+      "cefrLevel": "A1",
+      "note": "die ( Singular ) — von lateinisch inspirare: einatmen"
+    },
+    {
+      "id": "die-dauer",
+      "type": "word",
+      "german": "die Dauer",
+      "meaning": "the duration",
+      "image": "urehr",
+      "audio": "tts",
+      "introducedInScene": "a1e11s3",
+      "tags": [
+        "time"
+      ],
+      "cefrLevel": "A1",
+      "note": "die ( Singular ) — die Dauer des Regens: endlos"
+    },
+    {
+      "id": "der-eindruck",
+      "type": "word",
+      "german": "der Eindruck",
+      "meaning": "the impression",
+      "image": "person",
+      "audio": "tts",
+      "introducedInScene": "a1e11s3",
+      "tags": [
+        "opinion",
+        "feelings"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Eindrücke — einen guten Eindruck machen"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "a1e11s1",
+      "episodeId": "a1e11",
+      "title": "Der Regentag",
+      "titleEn": "The rainy day",
+      "place": "Museum der bildenden Künste, Sachsenplatz",
+      "bg": "strasse",
+      "contextTags": [
+        "culture",
+        "city",
+        "friends"
+      ],
+      "requiredItems": [
+        "die-zeitschrift",
+        "der-kaffee"
+      ],
+      "introducedItems": [
+        "das-museum",
+        "der-eingang",
+        "die-fuehrung",
+        "der-audioguide",
+        "das-obergeschoss",
+        "was-bedeutet"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Es regnet seit dem Frühstück, und der Regen hat Pläne: den ganzen Tag. Mei steht mit einem Schirm und einer Zeitschrift vor deiner Tür — dein Museumsklimbim: „Café-Luise-Pausen-Highlight: das Museum um die Ecke.“"
+        },
+        {
+          "type": "line",
+          "speaker": "mei",
+          "text": "Regen = Museums-Wetter. Das ist das Gesetz. …Kostenlos rein, alles anschauen, oben im Café heiße Schokolade. Und wenn du etwas nicht verstehst — frag mich. Frag anything. …Das ist heute dein Deutsch-Tagesziel: Fragen stellen.",
+          "translation": "Rain = museum weather. That's the law. …Free entry, look at everything, hot chocolate upstairs in the café. And if you don't understand something — ask me. Ask anything. …That's your German goal today: asking questions."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "das-museum",
+            "der-eingang",
+            "die-fuehrung"
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-audioguide",
+            "das-obergeschoss",
+            "was-bedeutet"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Die Kassenfrau reicht dir einen Audioguide. Auf dem Display steht „1 = Deutsch, 2 = English“.",
+          "options": [
+            {
+              "label": "Eins. Deutsch. Ich fische mit dem Netz, das ich baue.",
+              "line": "Eins — Deutsch. Ich fische mit dem Netz, das ich gerade baue. …„Poetisch“, sagt Mei. „Und richtig.“"
+            },
+            {
+              "label": "Erst eins. Wenn ich nicht mehr kann: zwei.",
+              "line": "Erst eins, Deutsch. Und wenn ich nicht mehr kann, wechsle ich auf zwei. …Mei: „Deal. Schokolade danach.“"
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "pauly",
+          "text": "(am Aufzug) Nach oben? Obergeschoss, moderne Kunst. …Junge Leute wollen immer direkt nach oben. Erst die alten Bilder, dann die neuen — so ist die Reihenfolge des Denkens. …Ach, fragt nur, wenn ihr was nicht versteht.",
+          "translation": "(at the lift) Going up? Upper floor, modern art. …Young people always want to go straight up. Old paintings first, then the new ones — that's the order of thinking. …Anyway, just ask if you don't understand something."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        }
+      ]
+    },
+    {
+      "id": "a1e11s2",
+      "episodeId": "a1e11",
+      "title": "Bilder und Fragen",
+      "titleEn": "Paintings and questions",
+      "place": "1. Obergeschoss, Moderne",
+      "bg": "buero",
+      "contextTags": [
+        "culture",
+        "art",
+        "learning"
+      ],
+      "requiredItems": [
+        "der-audioguide",
+        "die-fuehrung"
+      ],
+      "introducedItems": [
+        "das-gemaelde",
+        "die-farbe",
+        "der-maler",
+        "modern",
+        "das-kunstwerk",
+        "die-erklaerung"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Moderne Kunst: ein Gemälde, das aussieht wie ein Streit zwischen Rot und Blau. Mei steht davor, verschränkt die Arme und nickt langsam. So nicken Menschen, die verstehen. Oder so tun."
+        },
+        {
+          "type": "line",
+          "speaker": "mei",
+          "text": "Ok. Was siehst du? …Nicht „ein rotes Durcheinander“. Beschreib: Farben, Formen, Gefühle. …Kunst im Museum ist wie Deutsch: Es gibt keine einzige richtige Antwort. Es gibt nur deine.",
+          "translation": "OK. What do you see? …Not 'a red mess'. Describe: colors, shapes, feelings. …Art in a museum is like German: there's no single right answer. There's only yours."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "das-gemaelde",
+            "die-farbe",
+            "modern"
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-maler",
+            "das-kunstwerk",
+            "die-erklaerung"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Mei zeigt auf die Erklärungstafel. „Und was steht da?“",
+          "options": [
+            {
+              "label": "Ich verstehe die Hälfte. Die Hälfte reicht für heute.",
+              "line": "Ich verstehe die Hälfte. Und die Hälfte reicht für heute. Die andere Hälfte kommt beim nächsten Regen."
+            },
+            {
+              "label": "Was bedeutet „Abstrakt“ genau? Ich frage den Herrn.",
+              "line": "Was bedeutet „abstrakt“ genau? Ich frage den Herrn mit der Brille. …Er freut sich. Wirklich."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "pauly",
+          "text": "„Abstrakt“ heißt: ohne echtes Vorbild. Der Maler malt nicht, WAS er sieht — sondern was er fühlt. …Verstehen Sie das nicht? Perfekt. Dann sind Sie ehrlich. Kunst ist geduldig, und Museen sind kostenlos am Sonntag.",
+          "translation": "'Abstract' means: without a real model. The painter doesn't paint WHAT he sees — but what he feels. …You don't understand it? Perfect. Then you're honest. Art is patient, and museums are free on Sundays."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "reading",
+          "title": "Wandtext im Obergeschoss",
+          "text": "ABSTRAKT UND KONKRET\nMalerei nach 1945\n\n»Ein Bild muss nicht zeigen, was es gibt.\nEs kann zeigen, was es bedeutet.«\n\nDie Farben hier sind keine Gegenstände.\nSie sind Nachrichten.\nLesen Sie langsam. Sie dürfen raten.",
+          "translation": "ABSTRACT AND CONCRETE\nPainting after 1945\n\n'A painting doesn't have to show what exists.\nIt can show what it means.'\n\nThe colors here are not objects.\nThey are messages.\nRead slowly. You're allowed to guess."
+        }
+      ]
+    },
+    {
+      "id": "a1e11s3",
+      "episodeId": "a1e11",
+      "title": "Die Postkarte",
+      "titleEn": "The postcard",
+      "place": "Museumscafé, Obergeschoss",
+      "bg": "cafe",
+      "contextTags": [
+        "culture",
+        "friends",
+        "food"
+      ],
+      "requiredItems": [
+        "der-kuchen",
+        "das-geschenk"
+      ],
+      "introducedItems": [
+        "das-original",
+        "die-postkarte",
+        "das-stillleben",
+        "die-inspiration",
+        "die-dauer",
+        "der-eindruck"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Museumscafé: heiße Schokolade, Kuchen, Regenfenster. Auf dem Tisch liegt dein erster Museums-Eindruck — und im Rucksack klimpert eine Tüte Postkarten aus dem Shop."
+        },
+        {
+          "type": "line",
+          "speaker": "mei",
+          "text": "Und? Der Eindruck heute? …Siehst du: „Eindruck machen“ geht auch ohne Perfektion. Du hast heute gefragt, beschrieben, gelesen — das war mehr Deutsch als manche Unterrichtsstunde.",
+          "translation": "So? Today's impression? …See: 'making an impression' works without perfection too. Today you asked, described, read — that was more German than some whole lessons."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-eindruck",
+            "die-inspiration",
+            "die-dauer"
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "das-original",
+            "die-postkarte",
+            "das-stillleben"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Mei schiebt dir eine Postkarte und einen Stift hin.",
+          "options": [
+            {
+              "label": "Ich schreibe an Frau Brügge: „Danke für die Kanne. KommeSonntag.\"",
+              "line": "Ich schreibe an Frau Brügge: „Danke für die Kanne. Komme Sonntag vorbei. Sam.“ …Kunst als Geschenk. Klassiker."
+            },
+            {
+              "label": "Ich schreibe eine ans Café — an alle gleichzeitig.",
+              "line": "Ich schreibe eine ans Café, an alle gleichzeitig. …Sie hängt sie an. Direkt neben den Kuchen-Preisen."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "mei",
+          "text": "Weißt du, was ein Stillleben ist? Blumen, Obst, Anfang vom Leben — und daneben dann die Zeit, die alles isst. …So fühlt sich Deutschlernen auch an, manchmal: schön, und die Dauer ist länger als gedacht. Aber es isst dich nicht. Es füttert dich.",
+          "translation": "You know what a still life is? Flowers, fruit, the start of life — and next to it, time, which eats everything. …That's what learning German feels like sometimes: beautiful, and it takes longer than expected. But it doesn't eat you. It feeds you."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "narration",
+          "text": "Der Regen hört pünktlich zum Schließen auf. Im Ausgang drehst du dich um: Original, Gemälde, Farben, Eindruck — vier Wörter mehr im Kopf als am Morgen. Mei kauft noch schnell zwei Postkarten. Für den nächsten Regentag. Den gibt es in Leipzig sicher."
+        }
+      ]
+    }
+  ]
+}

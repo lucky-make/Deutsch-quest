@@ -1,0 +1,568 @@
+{
+  "episode": {
+    "id": "b2e12",
+    "arcId": "B2",
+    "cefrLevel": "B2",
+    "title": "Der Kleingarten",
+    "titleEn": "The allotment garden",
+    "beats": [],
+    "blurb": "Ein Garten im Verein, eine Laube mit Geschichte, ein Zaun mit Regelwerk: Du pachtest Schrebergarten Nr. 14 — und findest heraus, dass Gärten nicht nur Arbeit sind, sondern auch Halt.",
+    "order": 24,
+    "sceneIds": [
+      "b2e12s1",
+      "b2e12s2",
+      "b2e12s3"
+    ]
+  },
+  "cast": [
+    {
+      "id": "frau-bruegge",
+      "name": "Frau Brügge",
+      "role": "Vermieterin, Gartenexpertin"
+    },
+    {
+      "id": "jonas",
+      "name": "Jonas",
+      "role": "Handwerker, Vereinsmitglied"
+    },
+    {
+      "id": "mei",
+      "name": "Mei",
+      "role": "Freundin"
+    },
+    {
+      "id": "frau-lippold",
+      "name": "Frau Lippold",
+      "role": "ehemalige Pächterin von Parzelle 14, 94 Jahre"
+    }
+  ],
+  "items": [
+    {
+      "id": "der-kleingarten",
+      "type": "word",
+      "german": "der Kleingarten",
+      "meaning": "the allotment garden",
+      "image": "laube",
+      "audio": "tts",
+      "introducedInScene": "b2e12s1",
+      "tags": [
+        "hobby",
+        "nature",
+        "community"
+      ],
+      "cefrLevel": "B2",
+      "note": "der, Plural: die Kleingärten — auch: Schrebergarten"
+    },
+    {
+      "id": "die-laube",
+      "type": "word",
+      "german": "die Laube",
+      "meaning": "the (garden) hut / arbour",
+      "image": "laube",
+      "audio": "tts",
+      "introducedInScene": "b2e12s1",
+      "tags": [
+        "hobby",
+        "home"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Lauben — Herzstück jedes Kleingartens"
+    },
+    {
+      "id": "pachten",
+      "type": "word",
+      "german": "pachten",
+      "meaning": "to lease / rent (land)",
+      "image": "vertrag",
+      "audio": "tts",
+      "introducedInScene": "b2e12s1",
+      "tags": [
+        "hobby",
+        "paperwork"
+      ],
+      "cefrLevel": "B2",
+      "note": "pachten — ein Grundstück pachten; der Pachtvertrag"
+    },
+    {
+      "id": "die-anlage",
+      "type": "word",
+      "german": "die Anlage",
+      "meaning": "the (garden) complex / facility",
+      "image": "korb",
+      "audio": "tts",
+      "introducedInScene": "b2e12s1",
+      "tags": [
+        "hobby",
+        "community"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Anlagen — die Kleingartenanlage mit 40 Parzellen"
+    },
+    {
+      "id": "die-warteliste",
+      "type": "word",
+      "german": "die Warteliste",
+      "meaning": "the waiting list",
+      "image": "liste",
+      "audio": "tts",
+      "introducedInScene": "b2e12s1",
+      "tags": [
+        "admin",
+        "hobby"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Wartelisten — in Städten: oft jahrelang"
+    },
+    {
+      "id": "die-gartenordnung",
+      "type": "word",
+      "german": "die Gartenordnung",
+      "meaning": "the garden rules",
+      "image": "formular",
+      "audio": "tts",
+      "introducedInScene": "b2e12s1",
+      "tags": [
+        "rules",
+        "hobby"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Gartenordnungen — Lesestoff für Winterabende"
+    },
+    {
+      "id": "das-beet",
+      "type": "word",
+      "german": "das Beet",
+      "meaning": "the (flower/vegetable) bed",
+      "image": "blumen",
+      "audio": "tts",
+      "introducedInScene": "b2e12s2",
+      "tags": [
+        "hobby",
+        "nature"
+      ],
+      "cefrLevel": "B2",
+      "note": "das, Plural: die Beete — Beete anlegen, Unkraut jäten"
+    },
+    {
+      "id": "giessen",
+      "type": "word",
+      "german": "gießen",
+      "meaning": "to water / pour",
+      "image": "giesskanne",
+      "audio": "tts",
+      "introducedInScene": "b2e12s2",
+      "tags": [
+        "hobby",
+        "actions"
+      ],
+      "cefrLevel": "B2",
+      "note": "gießen — goss — gegossen; morgens oder abends, nie mittags"
+    },
+    {
+      "id": "das-unkraut",
+      "type": "word",
+      "german": "das Unkraut",
+      "meaning": "the weeds",
+      "image": "blumen",
+      "audio": "tts",
+      "introducedInScene": "b2e12s2",
+      "tags": [
+        "hobby",
+        "nature"
+      ],
+      "cefrLevel": "B2",
+      "note": "das, Plural: die Unkräuter — wächst schneller als jeder Beschluss"
+    },
+    {
+      "id": "jaeten",
+      "type": "word",
+      "german": "jäten",
+      "meaning": "to weed",
+      "image": "werkzeug",
+      "audio": "tts",
+      "introducedInScene": "b2e12s2",
+      "tags": [
+        "hobby",
+        "actions"
+      ],
+      "cefrLevel": "B2",
+      "note": "jäten — Unkraut jäten; meditativ, verspricht Frau Brügge"
+    },
+    {
+      "id": "die-ernte",
+      "type": "word",
+      "german": "die Ernte",
+      "meaning": "the harvest",
+      "image": "korb",
+      "audio": "tts",
+      "introducedInScene": "b2e12s2",
+      "tags": [
+        "hobby",
+        "nature",
+        "food"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Ernten — ernten; im August: alles gleichzeitig"
+    },
+    {
+      "id": "nicht-nur-sondern-auch",
+      "type": "grammar_pattern",
+      "german": "Ein Garten ist nicht nur Arbeit, ___ auch Entspannung.",
+      "meaning": "A garden isn't just work, but also relaxation.",
+      "image": "gespräch",
+      "audio": "tts",
+      "introducedInScene": "b2e12s2",
+      "tags": [
+        "grammar",
+        "hobby"
+      ],
+      "cefrLevel": "B2",
+      "cloze": "sondern",
+      "speak": "Ein Garten ist nicht nur Arbeit, sondern auch Entspannung.",
+      "note": "nicht nur … sondern auch — zweiter Teil nach dem Komma"
+    },
+    {
+      "id": "die-kaffeetafel",
+      "type": "word",
+      "german": "die Kaffeetafel",
+      "meaning": "the (lavish) coffee table",
+      "image": "kaffee",
+      "audio": "tts",
+      "introducedInScene": "b2e12s3",
+      "tags": [
+        "food",
+        "celebration"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Kaffeetafeln — im Garten: üppiger als zu Hause"
+    },
+    {
+      "id": "der-apfelbaum",
+      "type": "word",
+      "german": "der Apfelbaum",
+      "meaning": "the apple tree",
+      "image": "apfel",
+      "audio": "tts",
+      "introducedInScene": "b2e12s3",
+      "tags": [
+        "nature",
+        "hobby"
+      ],
+      "cefrLevel": "B2",
+      "note": "der, Plural: die Apfelbäume — Parzelle 14 hat einen: alt, stolz"
+    },
+    {
+      "id": "der-zaun",
+      "type": "word",
+      "german": "der Zaun",
+      "meaning": "the fence",
+      "image": "schloss",
+      "audio": "tts",
+      "introducedInScene": "b2e12s3",
+      "tags": [
+        "hobby",
+        "rules"
+      ],
+      "cefrLevel": "B2",
+      "note": "der, Plural: die Zäune — laut Ordnung: max. 80 cm, Hecke zählt mit"
+    },
+    {
+      "id": "der-kompost",
+      "type": "word",
+      "german": "der Kompost",
+      "meaning": "the compost",
+      "image": "korb",
+      "audio": "tts",
+      "introducedInScene": "b2e12s3",
+      "tags": [
+        "nature",
+        "hobby"
+      ],
+      "cefrLevel": "B2",
+      "note": "der, Plural: die Komposte — der wahre Motor des Gartens"
+    },
+    {
+      "id": "die-marmelade",
+      "type": "word",
+      "german": "die Marmelade",
+      "meaning": "the jam",
+      "image": "brot",
+      "audio": "tts",
+      "introducedInScene": "b2e12s3",
+      "tags": [
+        "food"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Marmeladen — aus der Ernte, mit Etikett"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "b2e12s1",
+      "episodeId": "b2e12",
+      "title": "Parzelle 14 wird frei",
+      "titleEn": "Plot 14 becomes available",
+      "place": "Kleingartenverein Lindenau, Aushang & Garten",
+      "bg": "park",
+      "contextTags": [
+        "hobby",
+        "community",
+        "nature"
+      ],
+      "requiredItems": [
+        "der-verein",
+        "die-nachbarschaft"
+      ],
+      "introducedItems": [
+        "der-kleingarten",
+        "die-laube",
+        "pachten",
+        "die-anlage",
+        "die-warteliste",
+        "die-gartenordnung"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Der Aushang hängt wie ein Gerücht: „Parzelle 14 frei ab 1. Mai. Pacht 38 €/Monat. Bewerbung beim Vorstand.“ Jonas tippt dir auf die Schulter: „Nummer 14? Da war mal Frau Lippold. Die ist 94 und zieht zu ihrer Tochter. Die Laube ist von 1961.“"
+        },
+        {
+          "type": "line",
+          "speaker": "jonas",
+          "text": "Kleingarten ist keine Freizeit, das ist ein Amt mit Erdbeeren. …Du pachtest das Land, du pflegst die Anlage mit, du hältst dich an die Gartenordnung. …Und du gewinnst: Nachbarn, Apfelbaum, und den besten Sommer deines Lebens.",
+          "translation": "An allotment isn't leisure, it's an office with strawberries. …You lease the land, you help maintain the complex, you follow the garden rules. …And you gain: neighbours, an apple tree, and the best summer of your life."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-kleingarten",
+            "pachten",
+            "die-gartenordnung"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "frau-bruegge",
+          "text": "(kommt angelaufen, natürlich hat sie es längst gehört) Nummer 14! …Die Warteliste ist lang, aber der Vorstand kennt dich — vom Brunnen, vom Ehrenamt, vom Vereinsfußball. …Und die Laube: NICHTS abreißen. Frau Lippold kommt im Sommer zum Kaffee. Alles bleibt.",
+          "translation": "(comes hurrying over, of course she already knows) Plot 14! …The waiting list is long, but the board knows you — from the fountain, from volunteering, from club football. …And the hut: tear NOTHING down. Frau Lippold is coming for coffee in summer. Everything stays."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-laube",
+            "die-anlage",
+            "die-warteliste"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Der Vorstand: „Herr Jones. Warum wollen Sie ausgerechnet hier einen Garten?“",
+          "options": [
+            {
+              "label": "Weil ich hier angekommen bin — und Gärten wachsen langsamer als ich.",
+              "line": "Weil ich hier angekommen bin — und weil Gärten langsamer wachsen als mein Leben. Das tut gut."
+            },
+            {
+              "label": "Weil Frau Brügge Brunnen, Kuchen und nun auch Erdbeeren will.",
+              "line": "Weil Frau Brügge den Brunnen wollte, dann Kuchen — und jetzt offenbar Erdbeeren. Ich bereite mich vor."
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "reading",
+          "title": "Aushang am Vereinsheim",
+          "text": "KLEINGARTENVEREIN LINDENAU e. V.\n\nParzelle 14 wird frei zum 01.05.\n\n— Fläche: 320 m², mit Obstbäumen\n— Laube (1961, gepflegt, mit Ofen)\n— Pacht: 38 €/Monat\n— Mitgliedschaft im Verein erforderlich\n\nBewerbungen schriftlich beim Vorstand.\nVergabe durch den Vorstand, nicht durch\ndie Warteliste allein — Engagement zählt.\n\nDie Gartenordnung liegt im Vereinsheim aus.\nBitte lesenz. Bitte beherzigen.",
+          "translation": "ALLOTMENT CLUB LINDENAU\n\nPlot 14 becomes available from 1 May.\n\n— Area: 320 m², with fruit trees\n— Hut (1961, well kept, with stove)\n— Lease: €38/month\n— Club membership required\n\nApplications in writing to the board.\nAllocation decided by the board, not by\nthe waiting list alone — commitment counts.\n\nThe garden rules are on display in the clubhouse.\nPlease read them. Please follow them."
+        }
+      ]
+    },
+    {
+      "id": "b2e12s2",
+      "episodeId": "b2e12",
+      "title": "Beete und Beschwerden",
+      "titleEn": "Beds and complaints",
+      "place": "Parzelle 14, erster richtiger Arbeitstag",
+      "bg": "park",
+      "contextTags": [
+        "hobby",
+        "nature",
+        "neighbors"
+      ],
+      "requiredItems": [
+        "das-werkzeug",
+        "die-geduld"
+      ],
+      "introducedItems": [
+        "das-beet",
+        "giessen",
+        "das-unkraut",
+        "jaeten",
+        "die-ernte",
+        "nicht-nur-sondern-auch"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Erster Arbeitstag: sieben Uhr, taufrisch, Werkzeug aus Jonas' Werkstatt. Frau Brügge hat eine Garten-Schürze mitgebracht. Aufgestickt: „Oberrat der Beete“. Niemand kennt dieses Amt. Sie erfindet es gerade."
+        },
+        {
+          "type": "line",
+          "speaker": "frau-bruegge",
+          "text": "So. Erst schauen, dann handeln. …Die Beete von Frau Lippold: Johannisbeere links, Rhabarber hinten, und in der Mitte — probier mal! — Erdbeeren. …Du gießt MORGENS oder ABENDS. Mittags gießen ist wie mittags reden: unnütz und anstrengend.",
+          "translation": "Right. First look, then act. …Frau Lippold's beds: redcurrants left, rhubarb at the back, and in the middle — taste! — strawberries. …You water in the MORNING or EVENING. Watering at noon is like talking at noon: useless and exhausting."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "das-beet",
+            "giessen",
+            "die-ernte"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "jonas",
+          "text": "Und das hier ist Unkraut. Das ist nicht einfach Gras — das ist dein Gegner. …Jäten heißt: Wurzel mit raus, sonst kommt es wieder, und zwar beleidigt. …Ein Garten ist nicht nur Arbeit, sondern auch Entspannung. Aber heute? Heute ist Arbeit.",
+          "translation": "And this is weeds. That's not just grass — that's your opponent. …Weeding means: root and all, otherwise it comes back, and offended, too. …A garden isn't just work, it's also relaxation. But today? Today it's work."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "das-unkraut",
+            "jaeten",
+            "nicht-nur-sondern-auch"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Der Nachbar von Parzelle 13 läuft dreimal vorbei. Beim dritten Mal bleibt er.",
+          "options": [
+            {
+              "label": "Guten Morgen! Ich bin Sam, neu bei 14. Rat erwünscht.",
+              "line": "Guten Morgen! Ich bin Sam, neu bei Nummer 14. Rat ist ausdrücklich erwünscht. …Er erzählt 40 Minuten. Alles Wichtige. Und was nicht Wichtiges."
+            },
+            {
+              "label": "Ihr Rasen ist beeindruckend. Mein Tip: Ich werde versuchen, euer Niveau zu halten.",
+              "line": "Ihr Rasen ist beeindruckend. Ich versuche, euer Niveau zu halten — aber ohne eure Mäh-Termine auszuspionieren."
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "narration",
+          "text": "Mittags: Rücken meldet sich, Erdbeeren auch — süß, warm von der Sonne, unverkäuflich. Du pflückst eine Schale für Frau Lippold. Jäten, sagen sie, sei Meditation. Sie haben recht, aber erst nach der dritten Wurzel."
+        }
+      ]
+    },
+    {
+      "id": "b2e12s3",
+      "episodeId": "b2e12",
+      "title": "Die Kaffeetafel",
+      "titleEn": "The coffee table",
+      "place": "Parzelle 14, unter dem Apfelbaum, Sonntag",
+      "bg": "fest",
+      "contextTags": [
+        "hobby",
+        "celebration",
+        "community"
+      ],
+      "requiredItems": [
+        "die-einladung",
+        "die-freude"
+      ],
+      "introducedItems": [
+        "die-kaffeetafel",
+        "der-apfelbaum",
+        "der-zaun",
+        "der-kompost",
+        "die-marmelade"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Sonntag, Ende Juli. Unter dem alten Apfelbaum steht die Kaffeetafel: Zwetschgenkuchen (Frau Brügge), Erdbeermarmelade (deine erste, Etikett: „Parzelle 14, handverlesen“), Kaffee aus der Thermoskanne von Jonas. Frau Lippold, 94, sitzt im Ehrenplatz."
+        },
+        {
+          "type": "line",
+          "speaker": "frau-lippold",
+          "text": "Also. …Die Laube sieht aus wie immer. Der Zaun ist 79 Zentimeter — einen Zentimeter Luft haben Sie gelassen, gut so, die Ordnung liebt Lücken. …Und die Marmelade? …(probierzt) …Junger Mann. Die schmeckt wie 1975. Nehmen Sie das als Kompliment.",
+          "translation": "So. …The hut looks like it always has. The fence is 79 centimetres — you left one centimetre of air, good, rules love gaps. …And the jam? …(tastes) …Young man. It tastes like 1975. Take that as a compliment."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-kaffeetafel",
+            "die-marmelade",
+            "der-zaun"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "jonas",
+          "text": "Und schau: der Kompost. …Alles, was der Garten nicht mehr braucht, wird wieder Boden. …Manchmal denk ich, so funktioniert Leipzig auch. Und vielleicht so ein Leben: Kompost, Geduld, dann Ernte.",
+          "translation": "And look: the compost. …Everything the garden no longer needs becomes soil again. …Sometimes I think that's how Leipzig works too. And maybe a life: compost, patience, then harvest."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-apfelbaum",
+            "der-kompost"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Frau Lippold klopft dir auf den Handrücken. „Bewahren Sie den Garten so. Versprechen Sie es.\"",
+          "options": [
+            {
+              "label": "Ich verspreche es. Mit Ausnahme: neue Erdbeersorten.",
+              "line": "Ich verspreche es — mit genau einer Ausnahme: neue Erdbeersorten. Experimente sind Erbe auch."
+            },
+            {
+              "label": "Ich verspreche es. Und Sie kommen jeden Sommer zum Kontrolle.",
+              "line": "Ich verspreche es. Und Sie kommen jeden Sommer zur Kontrolle vorbei. …Frau Lippold: „Angenommen. Mit Kuchenpflicht.“"
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "reading",
+          "title": "Aus der Gartenordnung (Abschnitt 7)",
+          "text": "§7 Nachbarschaft & Ordnung\n\n(1) Hecken und Zäune dürfen eine Höhe\n    von 80 cm nicht überschreiten.\n(2) Der Kompost ist so zu führen, dass\n    keine Belästigung entsteht.\n(3) Wasser wird gespart. Die Regentonne\n    ist VOR der Leitung zu benutzen.\n(4) Gemeinschaftsflächen werden von allen\n    Mitgliedern gepflegt. Klagen bitte\n    beim Vorstand, nicht beim Nachbarn.\n(5) Die Kaffeetafel ist eine Einladung.\n    Kuchen mitbringen ist üblich,\n    Rezepte zu teilen ist Pflicht.",
+          "translation": "§7 Neighbourliness & order\n\n(1) Hedges and fences must not exceed\n    a height of 80 cm.\n(2) The compost must be kept in a way\n    that causes no nuisance.\n(3) Water is to be saved. The rain barrel\n    is to be used BEFORE the tap.\n(4) Common areas are maintained by all\n    members. Complaints go to the board,\n    not to the neighbour.\n(5) The coffee table is an invitation.\n    Bringing cake is customary,\n    sharing recipes is mandatory."
+        },
+        {
+          "type": "narration",
+          "text": "Abendsonne durch die Apfelblätter. Auf deiner Liste steht für morgen: gießen, jäten, die Regentonne anschließen, Frau Lippold anrufen. Ein Garten ist nicht nur Arbeit — du hast es selbst gesagt, mitten im Unkraut, und es hat gestimmt."
+        }
+      ]
+    }
+  ]
+}

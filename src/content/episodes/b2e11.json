@@ -1,0 +1,564 @@
+{
+  "episode": {
+    "id": "b2e11",
+    "arcId": "B2",
+    "cefrLevel": "B2",
+    "title": "Die zweite Filiale",
+    "titleEn": "The second branch",
+    "blurb": "Café Kontor wächst: Filiale Nummer zwei, und Luise will dich als Leitung. Du sitzt jetzt auf der anderen Seite des Tisches — und stellst die Fragen beim Vorstellungsgespräch.",
+    "order": 23,
+    "sceneIds": [
+      "b2e11s1",
+      "b2e11s2",
+      "b2e11s3"
+    ]
+  },
+  "cast": [
+    {
+      "id": "luise",
+      "name": "Luise",
+      "role": "Café-Besitzerin"
+    },
+    {
+      "id": "rosa",
+      "name": "Rosa",
+      "role": "Bewerberin"
+    },
+    {
+      "id": "mei",
+      "name": "Mei",
+      "role": "Kollegin, Freundin"
+    }
+  ],
+  "items": [
+    {
+      "id": "die-erweiterung",
+      "type": "word",
+      "german": "die Erweiterung",
+      "meaning": "the expansion / extension",
+      "image": "konzept",
+      "audio": "tts",
+      "introducedInScene": "b2e11s1",
+      "tags": [
+        "work",
+        "business"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Erweiterungen — erweitern; hier: die des Cafés"
+    },
+    {
+      "id": "die-eroeffnung",
+      "type": "word",
+      "german": "die Eröffnung",
+      "meaning": "the opening",
+      "image": "fest",
+      "audio": "tts",
+      "introducedInScene": "b2e11s1",
+      "tags": [
+        "work",
+        "celebration",
+        "business"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Eröffnungen — eröffnen; die offizielle Eröffnung"
+    },
+    {
+      "id": "die-stellenanzeige",
+      "type": "word",
+      "german": "die Stellenanzeige",
+      "meaning": "the job advertisement",
+      "image": "formular",
+      "audio": "tts",
+      "introducedInScene": "b2e11s1",
+      "tags": [
+        "work",
+        "media"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Stellenanzeigen — „Wir suchen ab sofort…“"
+    },
+    {
+      "id": "die-fuehrungsverantwortung",
+      "type": "word",
+      "german": "die Führungsverantwortung",
+      "meaning": "the leadership responsibility",
+      "image": "ziel",
+      "audio": "tts",
+      "introducedInScene": "b2e11s1",
+      "tags": [
+        "work"
+      ],
+      "cefrLevel": "B2",
+      "note": "die ( Singular ) — Personal führen = Menschen, nicht Maschinen"
+    },
+    {
+      "id": "die-einarbeitung",
+      "type": "word",
+      "german": "die Einarbeitung",
+      "meaning": "the onboarding / induction",
+      "image": "urehr",
+      "audio": "tts",
+      "introducedInScene": "b2e11s1",
+      "tags": [
+        "work",
+        "time"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Einarbeitungen — jmdn. einarbeiten"
+    },
+    {
+      "id": "das-gespraech",
+      "type": "word",
+      "german": "das Gespräch",
+      "meaning": "the conversation / interview",
+      "image": "gespräch",
+      "audio": "tts",
+      "introducedInScene": "b2e11s1",
+      "tags": [
+        "work",
+        "meeting"
+      ],
+      "cefrLevel": "B2",
+      "note": "das, Plural: die Gespräche — ein Gespräch führen"
+    },
+    {
+      "id": "die-bewerberin",
+      "type": "word",
+      "german": "die Bewerberin",
+      "meaning": "the (female) applicant",
+      "image": "person",
+      "audio": "tts",
+      "introducedInScene": "b2e11s2",
+      "tags": [
+        "work",
+        "people"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Bewerberinnen; männlich: der Bewerber"
+    },
+    {
+      "id": "selbstbewusst",
+      "type": "word",
+      "german": "selbstbewusst",
+      "meaning": "self-confident",
+      "image": "mic",
+      "audio": "tts",
+      "introducedInScene": "b2e11s2",
+      "tags": [
+        "work",
+        "opinion"
+      ],
+      "cefrLevel": "B2",
+      "note": "Adjektiv — selbstbewusst auftreten; auch: selbstbewusste Pause"
+    },
+    {
+      "id": "die-rueckfrage",
+      "type": "word",
+      "german": "die Rückfrage",
+      "meaning": "the follow-up question",
+      "image": "gespräch",
+      "audio": "tts",
+      "introducedInScene": "b2e11s2",
+      "tags": [
+        "work",
+        "meeting"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Rückfragen — wer Rückfragen stellt, denkt mit"
+    },
+    {
+      "id": "stelle-besetzt-werden",
+      "type": "grammar_pattern",
+      "german": "Die Stelle muss bis Ende des Monats ___ werden.",
+      "meaning": "The position has to be filled by the end of the month.",
+      "image": "formular",
+      "audio": "tts",
+      "introducedInScene": "b2e11s2",
+      "tags": [
+        "grammar",
+        "work"
+      ],
+      "cefrLevel": "B2",
+      "cloze": "besetzt",
+      "speak": "Die Stelle muss bis Ende des Monats besetzt werden.",
+      "note": "Passiv mit Modalverb: muss … + Partizip II + werden"
+    },
+    {
+      "id": "die-schlange",
+      "type": "word",
+      "german": "die Schlange",
+      "meaning": "the queue / line (also: snake)",
+      "image": "kasse",
+      "audio": "tts",
+      "introducedInScene": "b2e11s3",
+      "tags": [
+        "everyday"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Schlangen — sich anstellen / anstehen"
+    },
+    {
+      "id": "der-stammgast",
+      "type": "word",
+      "german": "der Stammgast",
+      "meaning": "the regular (guest)",
+      "image": "person",
+      "audio": "tts",
+      "introducedInScene": "b2e11s3",
+      "tags": [
+        "people",
+        "business"
+      ],
+      "cefrLevel": "B2",
+      "note": "der, Plural: die Stammgäste — das Rückgrat jedes Cafés"
+    },
+    {
+      "id": "die-teamleiterin",
+      "type": "word",
+      "german": "die Teamleiterin",
+      "meaning": "the (female) team leader",
+      "image": "team",
+      "audio": "tts",
+      "introducedInScene": "b2e11s3",
+      "tags": [
+        "work",
+        "people"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Teamleiterinnen — du, ab heute"
+    },
+    {
+      "id": "die-ansprache",
+      "type": "word",
+      "german": "die Ansprache",
+      "meaning": "the (short) address / speech",
+      "image": "mic",
+      "audio": "tts",
+      "introducedInScene": "b2e11s3",
+      "tags": [
+        "work",
+        "events"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Ansprachen — kurz halten, wirken lassen"
+    },
+    {
+      "id": "der-ansturm",
+      "type": "word",
+      "german": "der Ansturm",
+      "meaning": "the (great) rush / influx",
+      "image": "team",
+      "audio": "tts",
+      "introducedInScene": "b2e11s3",
+      "tags": [
+        "business",
+        "events"
+      ],
+      "cefrLevel": "B2",
+      "note": "der, Plural: die Anstürme — großer Ansturm am Eröffnungstag"
+    },
+    {
+      "id": "die-kalkulation",
+      "type": "word",
+      "german": "die Kalkulation",
+      "meaning": "the (cost) calculation",
+      "image": "budget",
+      "audio": "tts",
+      "introducedInScene": "b2e11s2",
+      "tags": [
+        "work",
+        "money"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Kalkulationen — kalkulieren; Herzstück der Gastronomie"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "b2e11s1",
+      "episodeId": "b2e11",
+      "title": "Luises Plan B",
+      "titleEn": "Luise's plan B",
+      "place": "Café Kontor, Lager, zwischen Kaffeelieferungen",
+      "bg": "cafe",
+      "contextTags": [
+        "work",
+        "business",
+        "friends"
+      ],
+      "requiredItems": [
+        "die-filiale",
+        "die-stelle"
+      ],
+      "introducedItems": [
+        "die-erweiterung",
+        "die-eroeffnung",
+        "die-stellenanzeige",
+        "die-fuehrungsverantwortung",
+        "die-einarbeitung",
+        "das-gespraech"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Luise hat eine Karte auf den Mehlsack geknallt: Eine Fläche in Plagwitz ist frei — 80 Quadratmeter, Backstein, zu viel Charme. „Zweites Kontor“, sagt sie. „Und du leitest es.“ Kein Fragezeichen im Raum."
+        },
+        {
+          "type": "line",
+          "speaker": "luise",
+          "text": "Sam. Du hast den Anbau gebaut, die Zahlen im Griff und meinen Stammkunden die Namen gemerkt. …Die Erweiterung ist beschlossene Sache, die Eröffnung im Mai. Und DU bekommst die Führungsverantwortung. …Widerworte dauern bei mir genau bis Freitag.",
+          "translation": "Sam. You built the extension, you handle the numbers, and you remember my regulars' names. …The expansion is a done deal, the opening is in May. And YOU get the leadership role. …Objections are accepted until Friday exactly."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-erweiterung",
+            "die-eroeffnung",
+            "die-fuehrungsverantwortung"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "mei",
+          "text": "Und damit das legal ist: Stellenanzeige. …„Café Kontor Plagwitz sucht zum nächstmöglichen Zeitpunkt eine Teamleitung (m/w/d).“ …Du wirst sie NICHT selbst schreiben dürfen, Luise. Du schreibst Anzeigen wie Liebesbriefe an 1989.",
+          "translation": "And so it's legal: a job ad. …'Café Kontor Plagwitz is looking for a team lead (m/f/d) at the earliest possible date.' …You will NOT be allowed to write it yourself, Luise. You write job ads like love letters to 1989."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-stellenanzeige",
+            "die-einarbeitung",
+            "das-gespraech"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Luise: „Du hast Bedenken. Sprich sie aus, ich hab Kaffee.“",
+          "options": [
+            {
+              "label": "Ich habe noch nie jemanden eingearbeitet. Aber ich lerne schnell.",
+              "line": "Ich habe noch nie jemanden eingearbeitet — aber ich lerne schnell, und ich kenne jede Maschine hier mit Vornamen."
+            },
+            {
+              "label": "Führungsverantwortung auf Deutsch? Da fehlen mir noch Wörter.",
+              "line": "Führungsverantwortung auf Deutsch? Da fehlen mir noch Fachwörter. …Luise: „Die kaufen wir dir. Ein Wörterbuch ist billiger als eine Fehlbesetzung.“"
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "reading",
+          "title": "Stellenanzeige (endgültige Fassung)",
+          "text": "CAFÉ KONTOR PLAGWITZ\nNeueröffnung Mai — Wir suchen Sie!\n\nTeamleitung (m/w/d), Vollzeit\n\nIhre Aufgaben:\n— Führung des Teams (4–6 Personen)\n— Verantwortung für Ablauf & Qualität\n— Kontakt zu Lieferanten & Stammgästen\n\nSie bringen mit:\n— Erfahrung in der Gastronomie\n— Organisationstalent und Ruhe\n— Freude an Menschen und Kaffee\n\nBewerbung: persönlich, per Post\noder — modern! — per Mail.",
+          "translation": "CAFÉ KONTOR PLAGWITZ\nOpening in May — We're looking for you!\n\nTeam lead (m/f/d), full-time\n\nYour tasks:\n— Leading the team (4–6 people)\n— Responsibility for operations & quality\n— Contact with suppliers & regulars\n\nYou bring:\n— Experience in hospitality\n— Organisational talent and calm\n— Joy in people and coffee\n\nApply: in person, by post\nor — modern! — by email."
+        }
+      ]
+    },
+    {
+      "id": "b2e11s2",
+      "episodeId": "b2e11",
+      "title": "Das Interview",
+      "titleEn": "The interview",
+      "place": "Café Kontor, Theke als Konferenztisch",
+      "bg": "buero",
+      "contextTags": [
+        "work",
+        "meeting",
+        "people"
+      ],
+      "requiredItems": [
+        "der-eindruck",
+        "die-frage",
+        "der-lebenslauf",
+        "die-vorbereitung"
+      ],
+      "introducedItems": [
+        "die-bewerberin",
+        "die-kalkulation",
+        "selbstbewusst",
+        "die-rueckfrage",
+        "stelle-besetzt-werden"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Dreizehn Bewerbungen, vier Gespräche. Heute: Rosa, 31, zehn Jahre Gastronomie, Lebenslauf in sauberem Deutsch, Blick, der Kaffeemaschinen mal eben mental kalibriert. Du sitzt auf der ANDEREN Seite. Die Rolle sitzt komisch. Noch."
+        },
+        {
+          "type": "line",
+          "speaker": "rosa",
+          "text": "Vorab: Ich habe Ihre Eröffnung gelesen, Ihren Anbau, Ihre Kritiken. …Ich mag Konzepte, die wachsen, ohne sich zu verbiegen. …Und jetzt bitte Sie: Fragen Sie. Ich bin vorbereitet — aber überraschen Sie mich ruhig.",
+          "translation": "Up front: I've read about your opening, your extension, your reviews. …I like concepts that grow without bending out of shape. …And now your turn: ask. I'm prepared — but feel free to surprise me."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-bewerberin",
+            "die-kalkulation",
+            "selbstbewusst"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "luise",
+          "text": "(flüsternd) Gut, oder? …Du jetzt: Rückfragen stellen! Nicht nur fragen — NACHfragen. Nachfragen zeigt, dass du zuhörst. …Und dann das Wichtigste: Wenn sie gut ist, sag es ihr. Deutsche höfliche Vagheit hilft niemandem.",
+          "translation": "(whispering) Good, right? …You now: ask follow-up questions! Not just questions — follow-ups. Follow-ups show you're listening. …And the most important thing: if she's good, tell her. Polite German vagueness helps nobody."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-rueckfrage",
+            "stelle-besetzt-werden"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Rosa hat geantwortet. Jetzt die Rückfrage.",
+          "options": [
+            {
+              "label": "Sie sagten „Team statt Hierarchie“. Wie sieht das im stressigen Montag aus?",
+              "line": "Sie sagten „Team statt Hierarchie“ — wie sieht das konkret am stressigen Montag um acht aus? …Rosa: „Sehr gut gefragt. Antwort: Kaffee zuerst, Klärung danach.“"
+            },
+            {
+              "label": "Was war Ihr schwerster Arbeitstag — und was haben Sie gelernt?",
+              "line": "Was war Ihr schwerester Arbeitstag — und was haben Sie daraus gelernt? …Rosa erzählt. Ehrlich. Mit Daten. Luise nickt langsam."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "luise",
+          "text": "Rosa — Sie sind die Beste von allen. Klartext. …Sam, sachlich: Der Vertrag muss diese Woche raus, die Stelle muss bis Monatsende besetzt werden. …Du leitest das Gespräch. Sag du es ihr.",
+          "translation": "Rosa — you're the best of all of them. Plain talk. …Sam, factually: the contract has to go out this week, the position must be filled by the end of the month. …You're leading this. You tell her."
+        },
+        {
+          "type": "choice",
+          "prompt": "Dein erster Satz als Leitung. Ruhig atmen.",
+          "options": [
+            {
+              "label": "Rosa: Sie sind eingestellt. Willkommen bei Kontor.",
+              "line": "Rosa — Sie sind eingestellt. Willkommen bei Kontor. …Rosa: „Das war die kürzeste Absage-Nacht meines Lebens. Danke.“"
+            },
+            {
+              "label": "Wir möchten Sie einstellen. Die Einarbeitung startet am 2. — okay?",
+              "line": "Wir möchten Sie einstellen — die Einarbeitung startet am zweiten. Passt das? …Rosa: „Passt. Unglaublich, aber es passt.“"
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "reading",
+          "title": "Dein Bewertungsbogen (handschriftlich)",
+          "text": "BEWERTUNG — Gespräch 4 (Rosa K.)\n\nVorbereitung: sehr gut (kennt Konzept)\nAuftreten: selbstbewusst, nicht laut\nFachfragen: stark (Preiskalkulation!)\nTeamverständnis: „Team statt Hierarchie“\n  → Rückfrage nötig: Alltag? — beantwortet.\n\nEindruck: passt zu uns. Mehr als das.\n\nEmpfehlung: einstellen.\nStelle bis 31. besetzen. ✓\n\n(Sam)",
+          "translation": "EVALUATION — interview 4 (Rosa K.)\n\nPreparation: very good (knows the concept)\nPresence: self-confident, not loud\nExpert questions: strong (price calculation!)\nTeam spirit: 'team over hierarchy'\n  → follow-up needed: daily life? — answered.\n\nImpression: fits us. More than that.\n\nRecommendation: hire.\nFill position by the 31st. ✓\n\n(Sam)"
+        }
+      ]
+    },
+    {
+      "id": "b2e11s3",
+      "episodeId": "b2e11",
+      "title": "Eröffnung Plagwitz",
+      "titleEn": "Opening day, Plagwitz",
+      "place": "Café Kontor Plagwitz, 8:58 Uhr",
+      "bg": "laden",
+      "contextTags": [
+        "work",
+        "celebration",
+        "friends"
+      ],
+      "requiredItems": [
+        "feiern",
+        "die-einladung",
+        "der-einsatz"
+      ],
+      "introducedItems": [
+        "die-schlange",
+        "der-stammgast",
+        "die-teamleiterin",
+        "die-ansprache",
+        "der-ansturm"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Zwei Minuten vor der Eröffnung: Rosa poliert die Theke wie eine Bühne, Luise prüft die Blumen zum dritten Mal, und vor der Tür steht eine Schlange. Eine echte. Mit Leuten. Die Kaffee wollen."
+        },
+        {
+          "type": "line",
+          "speaker": "luise",
+          "text": "Sam. Ansprache. Kurz. …Kürzer. …Drei Sätze, dann machen wir auf. Und: Lächeln ist keine Pflicht, aber es hilft beim Umsatz.",
+          "translation": "Sam. Speech. Short. …Shorter. …Three sentences, then we open. And: smiling isn't mandatory, but it helps turnover."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-ansprache",
+            "die-schlange",
+            "die-teamleiterin"
+          ]
+        },
+        {
+          "type": "choice",
+          "prompt": "Die Schlange wartet. Drei Sätze. Deine.",
+          "options": [
+            {
+              "label": "„Vor zwei Jahren stand ich mit einem Koffer vor Gleis 7. Heute mache ich hier auf. Kaffee für alle!“",
+              "line": "„Vor zwei Jahren stand ich mit einem Koffer vor Gleis 7. Heute öffnen wir hier eine Filiale. Kaffee für alle — und danke, dass ihr da seid!“"
+            },
+            {
+              "label": "„Kurze Ansprache: Auf dass der Kaffee heiß und die Wartezeiten kurz sind. Auf!“",
+              "line": "„Kurze Ansprache: Auf dass der Kaffee heiß und die Schlangen kurz bleiben. Wir öffnen!“ …Applaus von Frau Brügge, die natürlich da ist."
+            }
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-stammgast",
+            "der-ansturm"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "rosa",
+          "text": "Chef — äh, Chefträger? …Die erste Schlange ist abgebaut, der Stammgast von gegenüber hat sich bereits zweimal angemeldet: „Bedenken? Null. Kaffee? Stark.“ …Wir schaffen das. Mit vollem Einsatz und halbem Kaffee in mir.",
+          "translation": "Boss — er, boss-carrier? …The first queue is cleared, the regular from across the street has already signed up twice: 'Regrets? None. Coffee? Strong.' …We've got this. With full commitment and half a coffee in me."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "reading",
+          "title": "Kurznotiz der Leipziger Rundschau (Lokalteil)",
+          "text": "NEU IN PLAGWITZ\n\nCafé Kontor eröffnet zweite Filiale\n\nAm Samstag öffnete das Café Kontor\nseinen zweiten Standort. Geleitet wird\ndie Filiale von Sam Jones, der vor\ntwo Jahren als Aushilfe begann.\n\nInhaberin Luise Berger: »Wachstum ist\nnichts ohne Menschen. Und Jones ist\nder beste Beweis dafür.«\n\nÖffnungszeiten: Mo–Fr 7–18,\nSa/So 8–16. Kuchen: täglich wechselnd.",
+          "translation": "NEW IN PLAGWITZ\n\nCafé Kontor opens second branch\n\nOn Saturday, Café Kontor opened its\nsecond location. The branch is managed\nby Sam Jones, who started as a temp\ntwo years ago.\n\nOwner Luise Berger: 'Growth is nothing\nwithout people. And Jones is the best\nproof of that.'\n\nOpening hours: Mon–Fri 7 am–6 pm,\nSat/Sun 8 am–4 pm. Cake: changes daily."
+        }
+      ]
+    }
+  ]
+}

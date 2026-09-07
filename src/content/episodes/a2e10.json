@@ -1,0 +1,538 @@
+{
+  "episode": {
+    "id": "a2e10",
+    "arcId": "A2",
+    "cefrLevel": "A2",
+    "title": "Der Frühjahrsputz",
+    "titleEn": "The spring cleaning",
+    "blurb": "Ein Zettel von der Hausverwaltung: Kontrollgang am Freitag. Tobias, zwei Eimer und ein Staubsauger mit Charakter — und dein erster weil-Satz im wilden Leben.",
+    "order": 14,
+    "sceneIds": [
+      "a2e10s1",
+      "a2e10s2",
+      "a2e10s3"
+    ]
+  },
+  "cast": [
+    {
+      "id": "tobias",
+      "name": "Tobias",
+      "role": "Nachbar, Student"
+    },
+    {
+      "id": "frau-bruegge",
+      "name": "Frau Brügge",
+      "role": "Vermieterin"
+    }
+  ],
+  "items": [
+    {
+      "id": "der-fruehjahrsputz",
+      "type": "word",
+      "german": "der Frühjahrsputz",
+      "meaning": "the spring cleaning",
+      "image": "sonnenuntergang",
+      "audio": "tts",
+      "introducedInScene": "a2e10s1",
+      "tags": [
+        "home",
+        "culture"
+      ],
+      "cefrLevel": "A2",
+      "note": "der, Plural: die Frühjahrsputze — eine deutsche Institution"
+    },
+    {
+      "id": "der-staubsauger",
+      "type": "word",
+      "german": "der Staubsauger",
+      "meaning": "the vacuum cleaner",
+      "image": "staubsauger",
+      "audio": "tts",
+      "introducedInScene": "a2e10s1",
+      "tags": [
+        "home",
+        "objects"
+      ],
+      "cefrLevel": "A2",
+      "note": "der, Plural: die Staubsauger — saugt den Staub"
+    },
+    {
+      "id": "der-eimer",
+      "type": "word",
+      "german": "der Eimer",
+      "meaning": "the bucket",
+      "image": "eimer",
+      "audio": "tts",
+      "introducedInScene": "a2e10s1",
+      "tags": [
+        "home",
+        "objects"
+      ],
+      "cefrLevel": "A2",
+      "note": "der, Plural: die Eimer — einer für Wasser, einer für Mut"
+    },
+    {
+      "id": "der-staub",
+      "type": "word",
+      "german": "der Staub",
+      "meaning": "the dust",
+      "image": "staubsauger",
+      "audio": "tts",
+      "introducedInScene": "a2e10s1",
+      "tags": [
+        "home"
+      ],
+      "cefrLevel": "A2",
+      "note": "der ( Singular ) — Staub wischen; „Staub schlucken“ geht auch"
+    },
+    {
+      "id": "wischen",
+      "type": "word",
+      "german": "wischen",
+      "meaning": "to wipe / mop",
+      "image": "eimer",
+      "audio": "tts",
+      "introducedInScene": "a2e10s1",
+      "tags": [
+        "home",
+        "actions"
+      ],
+      "cefrLevel": "A2",
+      "note": "wischen — abwischen, aufwischen, durchwischen"
+    },
+    {
+      "id": "gruendlich",
+      "type": "word",
+      "german": "gründlich",
+      "meaning": "thorough(ly)",
+      "image": "prüfen",
+      "audio": "tts",
+      "introducedInScene": "a2e10s1",
+      "tags": [
+        "home",
+        "opinion"
+      ],
+      "cefrLevel": "A2",
+      "note": "Adjektiv/Adverb — gründlich putzen = wirklich ALLES"
+    },
+    {
+      "id": "ordentlich",
+      "type": "word",
+      "german": "ordentlich",
+      "meaning": "tidy / neat / properly",
+      "image": "prüfen",
+      "audio": "tts",
+      "introducedInScene": "a2e10s2",
+      "tags": [
+        "home",
+        "opinion"
+      ],
+      "cefrLevel": "A2",
+      "note": "Adjektiv/Adverb — ordentlich sein; ordentlich viel Arbeit"
+    },
+    {
+      "id": "die-fensterbank",
+      "type": "word",
+      "german": "die Fensterbank",
+      "meaning": "the windowsill",
+      "image": "fenster",
+      "audio": "tts",
+      "introducedInScene": "a2e10s2",
+      "tags": [
+        "home"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Fensterbänke — Staub liebt sie"
+    },
+    {
+      "id": "die-buerste",
+      "type": "word",
+      "german": "die Bürste",
+      "meaning": "the brush",
+      "image": "staubsauger",
+      "audio": "tts",
+      "introducedInScene": "a2e10s2",
+      "tags": [
+        "home",
+        "objects"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Bürsten"
+    },
+    {
+      "id": "der-schmutz",
+      "type": "word",
+      "german": "der Schmutz",
+      "meaning": "the dirt",
+      "image": "werkzeug",
+      "audio": "tts",
+      "introducedInScene": "a2e10s2",
+      "tags": [
+        "home"
+      ],
+      "cefrLevel": "A2",
+      "note": "der ( Singular ) — schmutzig = dirty"
+    },
+    {
+      "id": "das-chaos",
+      "type": "word",
+      "german": "das Chaos",
+      "meaning": "the chaos / mess",
+      "image": "entscheidung",
+      "audio": "tts",
+      "introducedInScene": "a2e10s2",
+      "tags": [
+        "home"
+      ],
+      "cefrLevel": "A2",
+      "note": "das ( Singular ) — kreatives Chaos ist auch ein Chaos"
+    },
+    {
+      "id": "weil-die-kontrolle",
+      "type": "grammar_pattern",
+      "german": "Ich putze so gründlich, ___ die Kontrolle am Freitag kommt.",
+      "meaning": "I'm cleaning so thoroughly because the inspection is on Friday.",
+      "image": "ziel",
+      "audio": "tts",
+      "introducedInScene": "a2e10s2",
+      "tags": [
+        "grammar",
+        "home"
+      ],
+      "cefrLevel": "A2",
+      "cloze": "weil",
+      "speak": "Ich putze so gründlich, weil die Kontrolle am Freitag kommt.",
+      "note": "weil + Verb am Ende: „…weil die Kontrolle kommt.“"
+    },
+    {
+      "id": "die-kontrolle",
+      "type": "word",
+      "german": "die Kontrolle",
+      "meaning": "the inspection / check",
+      "image": "prüfen",
+      "audio": "tts",
+      "introducedInScene": "a2e10s3",
+      "tags": [
+        "admin",
+        "home"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Kontrollen — Kontrollgang = Rundgang zur Kontrolle"
+    },
+    {
+      "id": "sauber",
+      "type": "word",
+      "german": "sauber",
+      "meaning": "clean",
+      "image": "eimer",
+      "audio": "tts",
+      "introducedInScene": "a2e10s3",
+      "tags": [
+        "home",
+        "opinion"
+      ],
+      "cefrLevel": "A2",
+      "note": "Adjektiv — sauber!; putzen = to clean"
+    },
+    {
+      "id": "die-belohnung",
+      "type": "word",
+      "german": "die Belohnung",
+      "meaning": "the reward",
+      "image": "geschenk",
+      "audio": "tts",
+      "introducedInScene": "a2e10s3",
+      "tags": [
+        "feelings",
+        "home"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Belohnungen — sich etwas zur Belohnung kaufen"
+    },
+    {
+      "id": "der-hausflur",
+      "type": "word",
+      "german": "der Hausflur",
+      "meaning": "the stairwell / hallway (of a building)",
+      "image": "treppenhaus",
+      "audio": "tts",
+      "introducedInScene": "a2e10s3",
+      "tags": [
+        "home",
+        "neighbors"
+      ],
+      "cefrLevel": "A2",
+      "note": "der, Plural: die Hausflure — im Flur kehren alle mit"
+    },
+    {
+      "id": "die-kaffeepause",
+      "type": "word",
+      "german": "die Kaffeepause",
+      "meaning": "the coffee break",
+      "image": "kaffee",
+      "audio": "tts",
+      "introducedInScene": "a2e10s3",
+      "tags": [
+        "food",
+        "time"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Kaffeepausen — wichtigster Putz-Abschnitt"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "a2e10s1",
+      "episodeId": "a2e10",
+      "title": "Der Zettel",
+      "titleEn": "The note",
+      "place": "Wohnung, Tür, dann Küche",
+      "bg": "wohnung",
+      "contextTags": [
+        "home",
+        "neighbors",
+        "problem"
+      ],
+      "requiredItems": [
+        "die-wohnung",
+        "die-treppe"
+      ],
+      "introducedItems": [
+        "der-fruehjahrsputz",
+        "der-staubsauger",
+        "der-eimer",
+        "der-staub",
+        "wischen",
+        "gruendlich"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Ein Zettel an der Haustür, Durchschläge für alle: „Kontrollgang der Hausverwaltung: Freitag, 10 Uhr. Bitte stellen Sie sicher, dass die Wohnungen zugänglich sind.“ Tobias liest ihn vor wie eine Kriegserklärung."
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Kontrollgang. Das ist wie ein Zuhörer-Test, nur für Wohnungen. …Und ehrlich, Sam: Deine Bude ist… kreativ. Deswegen: Frühjahrsputz, die volle Dröhnung. Ich bring Staubsauger und Eimer — und meine Oma-Techniken.",
+          "translation": "Inspection walk. It's like a listening test, just for flats. …And honestly, Sam: your place is… creative. So: spring cleaning, the full works. I'll bring the vacuum and a bucket — and my grandma's techniques."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-fruehjahrsputz",
+            "der-staubsauger",
+            "der-eimer"
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-staub",
+            "wischen",
+            "gruendlich"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Tobias rollt die Ärmel hoch.",
+          "options": [
+            {
+              "label": "Team Putz. Ich mache Bad und Küche, du den Rest.",
+              "line": "Team Putz! Ich nehme Bad und Küche, du den Rest. …„Deal. Aber der Staubsauger ist launisch — red ruhig mit ihm.“"
+            },
+            {
+              "label": "Wie gründlich ist „gründlich“? In Minuten, bitte.",
+              "line": "Wie gründlich ist 'gründlich'? In Minuten, bitte. …Tobias: „Bis es glänzt. Zeit ist eine Illusion.“"
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "reading",
+          "title": "Zettel der Hausverwaltung",
+          "text": "MITTEILUNG AN ALLE MIETER\n\nAm Freitag, den 12., findet zwischen\n9:00 und 12:00 Uhr der jährliche\nKontrollgang statt.\n\nBitte garantieren Sie Zugang zu allen Räumen.\nBeschwerden (z. B. Feuchtigkeit, kaputte Fenster)\nbitte schriftlich an der Tür hinterlassen.\n\nDie Hausverwaltung",
+          "translation": "NOTICE TO ALL TENANTS\n\nOn Friday the 12th, between 9 and 12 am,\nthe annual inspection will take place.\n\nPlease guarantee access to all rooms.\nComplaints (e.g. damp, broken windows)\nplease leave in writing at the door.\n\nThe property management"
+        }
+      ]
+    },
+    {
+      "id": "a2e10s2",
+      "episodeId": "a2e10",
+      "title": "Der Staubsauger streikt",
+      "titleEn": "The vacuum goes on strike",
+      "place": "Wohnung, alle Zimmer gleichzeitig",
+      "bg": "wohnung",
+      "contextTags": [
+        "home",
+        "friends",
+        "problem"
+      ],
+      "requiredItems": [
+        "der-lappen",
+        "der-zettel"
+      ],
+      "introducedItems": [
+        "ordentlich",
+        "die-fensterbank",
+        "die-buerste",
+        "der-schmutz",
+        "das-chaos",
+        "weil-die-kontrolle"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Der Staubsauger von Tobias' Oma heißt „Brunhilde“, ist 34 Jahre alt und hat einen eigenen Willen. Brunhilde startet. Brunhilde hört auf. Brunhilde startet wieder. Klassik."
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Brunhilde ist kein Gerät, das ist eine Beziehung. …Du musst sie umarmen, wenn sie startet. …SO. Sie läuft. …Und jetzt: System. Erst oben, dann unten. Erst trocken, dann nass. Fensterbank VOR Boden, sonst wischt du doppelt.",
+          "translation": "Brunhilde isn't a machine, she's a relationship. …You have to hug her when she starts. …THERE. She's running. …And now: system. Top first, then bottom. Dry first, then wet. Windowsill BEFORE floor, otherwise you wipe twice."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "ordentlich",
+            "die-fensterbank",
+            "die-buerste"
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-schmutz",
+            "das-chaos",
+            "weil-die-kontrolle"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Tobias findet hinter deinem Schrank eine Tasse aus dem ersten Monat. Inhalt: Wissenschaft.",
+          "options": [
+            {
+              "label": "Weg damit. Ich putze gründlich, weil die Kontrolle am Freitag kommt.",
+              "line": "Weg damit! Ich putze gründlich, weil die Kontrolle am Freitag kommt. …„Und weil deine Tasse jetzt Archäologie ist.“"
+            },
+            {
+              "label": "Die Tasse bleibt. Sie ist Zeitzeuge. Aber draußen.",
+              "line": "Die Tasse bleibt — sie ist Zeitzeuge. Aber draußen. Auf dem Flur. Als Mahnmal."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Zwischenstand: Fensterbank sauber, Bürste voll, Schmutz im Eimer, Chaos halbiert. …Und dein Deutsch? „Ordentlich“, würde meine Oma sagen. Das ist ein Kompliment der höchsten Kategorie.",
+          "translation": "Status: windowsill clean, brush full, dirt in the bucket, chaos halved. …And your German? 'Ordentlich' (orderly), my grandma would say. That's the highest category of compliment."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        }
+      ]
+    },
+    {
+      "id": "a2e10s3",
+      "episodeId": "a2e10",
+      "title": "Der Kontrollgang",
+      "titleEn": "The inspection",
+      "place": "Wohnung, Freitag 10:05",
+      "bg": "wohnung",
+      "contextTags": [
+        "home",
+        "admin",
+        "neighbors"
+      ],
+      "requiredItems": [
+        "die-kanne",
+        "der-kuchen"
+      ],
+      "introducedItems": [
+        "die-kontrolle",
+        "sauber",
+        "die-belohnung",
+        "der-hausflur",
+        "die-kaffeepause"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Freitag. Die Wohnung glänzt so sehr, dass du deine Spiegelung grüßt. Die Hausverwaltung kommt mit Klemmbrett. Frau Brügge kommt mit — natürlich —, quasi als Aufsichtsrat."
+        },
+        {
+          "type": "line",
+          "speaker": "frau-bruegge",
+          "text": "Na. …Hm. …Fensterbank: sauber. Bad: sauber. Flur: gewischt. …Junger Mann, wenn alle Mieter so putzen würden, wären wir beide arbeitslos — ich und die Hausverwaltung. …Sehr ordentlich.",
+          "translation": "Well. …Hm. …Windowsill: clean. Bathroom: clean. Hallway: mopped. …Young man, if all tenants cleaned like this, we'd both be unemployed — me and the property management. …Very orderly."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-kontrolle",
+            "sauber",
+            "die-belohnung"
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-hausflur",
+            "die-kaffeepause"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Frau Brügge klopft an die Heizung. „Kaputt. Soll ich den Hausmeister schicken?“",
+          "options": [
+            {
+              "label": "Ja, bitte. Und danke für die Kontrolle!",
+              "line": "Ja, bitte schicken Sie den Hausmeister. Und danke für die Kontrolle! …Sie notiert: „zu freundlich“. Auch gut."
+            },
+            {
+              "label": "Nein, danke — Tobias und ich probieren es erst selbst.",
+              "line": "Nein, danke — Tobias und ich probieren es erst selbst. …Frau Brügge: „Mit WERKZEUG, nicht mit Ideen.“ Verstanden?"
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Sie ist weg. Die Kontrolle ist bestanden. …Und jetzt, bitte sehr: Kaffeepause. Die ist nach jedem Putztag Pflicht — sagt meine Oma, und die hat Recht, das weißt du ja inzwischen.",
+          "translation": "She's gone. Inspection passed. …And now, please: coffee break. It's mandatory after every cleaning day — grandma says so, and she's right, you know that by now."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "reading",
+          "title": "Frau Brügges Notiz (am Klemmbrett zurückgelassen)",
+          "text": "Für Sam —\n\nTipp 1: Flur jeden Samstag kehren.\nGemeinschaft, nicht Strafe.\n\nTipp 2: Ein Eimer Wasser, ein Schuss Essig.\nMehr braucht Glas nicht.\n\nTipp 3: Wer gründlich putzt, darf\npünktlich Feierabend machen.\n\n— E. Brügge\n(der Heizmeister kommt am Dienstag,\n klingelt NICHT laut)",
+          "translation": "For Sam —\n\nTip 1: Sweep the hallway every Saturday.\nCommunity, not punishment.\n\nTip 2: One bucket of water, a dash of vinegar.\nThat's all glass needs.\n\nTip 3: Those who clean thoroughly\ndeserve to finish on time.\n\n— E. Brügge\n(the heating man comes on Tuesday,\n doesn't ring loudly)"
+        }
+      ]
+    }
+  ]
+}
