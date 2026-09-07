@@ -7,33 +7,304 @@
     "titleEn": "One year in Leipzig",
     "blurb": "Ein Jahr. Eine Pinnwand voller Nachweise, ein Hof voller Nachbarn, eine Mail von der Volkshochschule: C1-Kurs, ab Oktober. Ohne euch hätte ich das nicht geschafft.",
     "order": 22,
-    "sceneIds": ["b2e10s1", "b2e10s2", "b2e10s3"]
+    "sceneIds": [
+      "b2e10s1",
+      "b2e10s2",
+      "b2e10s3"
+    ]
   },
   "cast": [
-    { "id": "tobias", "name": "Tobias", "role": "Nachbar, Student" },
-    { "id": "luise", "name": "Luise", "role": "Café-Besitzerin" },
-    { "id": "mei", "name": "Mei", "role": "Kollegin, Freundin" },
-    { "id": "frau-bruegge", "name": "Frau Brügge", "role": "Vermieterin" }
+    {
+      "id": "tobias",
+      "name": "Tobias",
+      "role": "Nachbar, Student"
+    },
+    {
+      "id": "luise",
+      "name": "Luise",
+      "role": "Café-Besitzerin"
+    },
+    {
+      "id": "mei",
+      "name": "Mei",
+      "role": "Kollegin, Freundin"
+    },
+    {
+      "id": "frau-bruegge",
+      "name": "Frau Brügge",
+      "role": "Vermieterin"
+    }
   ],
   "items": [
-    { "id": "das-jahr", "type": "word", "german": "das Jahr", "meaning": "the year", "image": "kalender", "audio": "tts", "introducedInScene": "b2e10s1", "tags": ["time"], "cefrLevel": "B2", "note": "das, Plural: die Jahre — „im Laufe des Jahres“" },
-    { "id": "der-rueckblick", "type": "word", "german": "der Rückblick", "meaning": "the look back / review", "image": "heimat", "audio": "tts", "introducedInScene": "b2e10s1", "tags": ["reflection", "time"], "cefrLevel": "B2", "note": "der, Plural: die Rückblicke — Rückblick halten" },
-    { "id": "die-etappe", "type": "word", "german": "die Etappe", "meaning": "the stage / leg (of a journey)", "image": "ziel", "audio": "tts", "introducedInScene": "b2e10s1", "tags": ["time", "reflection"], "cefrLevel": "B2", "note": "die, Plural: die Etappen — eine schwierige Etappe" },
-    { "id": "die-gewohnheit", "type": "word", "german": "die Gewohnheit", "meaning": "the habit", "image": "wecker", "audio": "tts", "introducedInScene": "b2e10s1", "tags": ["reflection", "time"], "cefrLevel": "B2", "note": "die, Plural: die Gewohnheiten — aus Übung wird Gewohnheit" },
-    { "id": "der-anfang", "type": "word", "german": "der Anfang", "meaning": "the beginning", "image": "urehr", "audio": "tts", "introducedInScene": "b2e10s1", "tags": ["time", "reflection"], "cefrLevel": "B2", "note": "der, Plural: die Anfänge — am Anfang, zum Anfang" },
-    { "id": "die-sammlung", "type": "word", "german": "die Sammlung", "meaning": "the collection", "image": "buch", "audio": "tts", "introducedInScene": "b2e10s1", "tags": ["reflection", "home"], "cefrLevel": "B2", "note": "die, Plural: die Sammlungen — sammeln" },
-    { "id": "gelingen", "type": "chunk", "german": "Es ist gelungen.", "meaning": "It worked out. / It succeeded.", "image": "fest", "audio": "tts", "introducedInScene": "b2e10s2", "tags": ["reflection", "opinion"], "cefrLevel": "B2", "speak": "Es ist gelungen.", "note": "gelingen — gelang — gelungen; mit Dativ-Subjekt oft" },
-    { "id": "die-freundschaft", "type": "word", "german": "die Freundschaft", "meaning": "the friendship", "image": "team", "audio": "tts", "introducedInScene": "b2e10s2", "tags": ["friends", "feelings"], "cefrLevel": "B2", "note": "die, Plural: die Freundschaften — eine Freundschaft schließen" },
-    { "id": "der-entschluss", "type": "word", "german": "der Entschluss", "meaning": "the decision / resolve", "image": "entscheidung", "audio": "tts", "introducedInScene": "b2e10s2", "tags": ["reflection"], "cefrLevel": "B2", "note": "der, Plural: die Entschlüsse — einen Entschluss fassen" },
-    { "id": "gemeinsam", "type": "word", "german": "gemeinsam", "meaning": "together / joint", "image": "ball", "audio": "tts", "introducedInScene": "b2e10s2", "tags": ["friends"], "cefrLevel": "B2", "note": "Adverb/Adjektiv — gemeinsam kochen, gemeinsame Sache" },
-    { "id": "wohlfuehlen", "type": "chunk", "german": "Ich fühle mich hier wohl.", "meaning": "I feel at home here.", "image": "ruhe", "audio": "tts", "introducedInScene": "b2e10s2", "tags": ["feelings", "reflection"], "cefrLevel": "B2", "speak": "Ich fühle mich hier wohl.", "note": "sich wohlfühlen — das Ziel aller Einwanderung" },
-    { "id": "die-wurzeln", "type": "word", "german": "die Wurzeln", "meaning": "the roots", "image": "blumen", "audio": "tts", "introducedInScene": "b2e10s2", "tags": ["reflection", "nature"], "cefrLevel": "B2", "note": "Plural: die Wurzeln — Wurzeln schlagen = put down roots" },
-    { "id": "die-weiterbildung", "type": "word", "german": "die Weiterbildung", "meaning": "the further education / training", "image": "zertifikat", "audio": "tts", "introducedInScene": "b2e10s3", "tags": ["learning", "work"], "cefrLevel": "B2", "note": "die, Plural: die Weiterbildungen — Deutschland-Lieblingswort" },
-    { "id": "der-vhs-kurs", "type": "word", "german": "der VHS-Kurs", "meaning": "the adult education centre course", "image": "haus", "audio": "tts", "introducedInScene": "b2e10s3", "tags": ["learning"], "cefrLevel": "B2", "note": "der, Plural: die VHS-Kurse — Volkshochschule: Bildung für alle" },
-    { "id": "die-einschreibung", "type": "word", "german": "die Einschreibung", "meaning": "the enrolment / registration", "image": "formular", "audio": "tts", "introducedInScene": "b2e10s3", "tags": ["learning", "admin"], "cefrLevel": "B2", "note": "die, Plural: die Einschreibungen — einschreiben (lassen)" },
-    { "id": "gespannt", "type": "word", "german": "gespannt", "meaning": "curious / excited (to see)", "image": "person", "audio": "tts", "introducedInScene": "b2e10s3", "tags": ["feelings"], "cefrLevel": "B2", "note": "„Ich bin gespannt“ — auf + Akkusativ" },
-    { "id": "die-perspektive", "type": "word", "german": "die Perspektive", "meaning": "the perspective / outlook", "image": "train", "audio": "tts", "introducedInScene": "b2e10s3", "tags": ["reflection", "opinion"], "cefrLevel": "B2", "note": "die, Plural: die Perspektiven — auch: Blickwinkel" },
-    { "id": "ohne-euch-haette", "type": "grammar_pattern", "german": "Ohne euch ___ ich dieses Jahr nicht geschafft.", "meaning": "Without you, I wouldn't have made it through this year.", "image": "team", "audio": "tts", "introducedInScene": "b2e10s3", "tags": ["grammar", "feelings"], "cefrLevel": "B2", "cloze": "hätte", "speak": "Ohne euch hätte ich dieses Jahr nicht geschafft.", "note": "Konjunktiv II Vergangenheit: hätte + Partizip — höflich, feierlich, ehrlich" }
+    {
+      "id": "das-jahr",
+      "type": "word",
+      "german": "das Jahr",
+      "meaning": "the year",
+      "image": "kalender",
+      "audio": "tts",
+      "introducedInScene": "b2e10s1",
+      "tags": [
+        "time"
+      ],
+      "cefrLevel": "B2",
+      "note": "das, Plural: die Jahre — „im Laufe des Jahres“"
+    },
+    {
+      "id": "der-rueckblick",
+      "type": "word",
+      "german": "der Rückblick",
+      "meaning": "the look back / review",
+      "image": "heimat",
+      "audio": "tts",
+      "introducedInScene": "b2e10s1",
+      "tags": [
+        "reflection",
+        "time"
+      ],
+      "cefrLevel": "B2",
+      "note": "der, Plural: die Rückblicke — Rückblick halten"
+    },
+    {
+      "id": "die-etappe",
+      "type": "word",
+      "german": "die Etappe",
+      "meaning": "the stage / leg (of a journey)",
+      "image": "ziel",
+      "audio": "tts",
+      "introducedInScene": "b2e10s1",
+      "tags": [
+        "time",
+        "reflection"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Etappen — eine schwierige Etappe"
+    },
+    {
+      "id": "die-gewohnheit",
+      "type": "word",
+      "german": "die Gewohnheit",
+      "meaning": "the habit",
+      "image": "wecker",
+      "audio": "tts",
+      "introducedInScene": "b2e10s1",
+      "tags": [
+        "reflection",
+        "time"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Gewohnheiten — aus Übung wird Gewohnheit"
+    },
+    {
+      "id": "der-anfang",
+      "type": "word",
+      "german": "der Anfang",
+      "meaning": "the beginning",
+      "image": "urehr",
+      "audio": "tts",
+      "introducedInScene": "b2e10s1",
+      "tags": [
+        "time",
+        "reflection"
+      ],
+      "cefrLevel": "B2",
+      "note": "der, Plural: die Anfänge — am Anfang, zum Anfang"
+    },
+    {
+      "id": "die-sammlung",
+      "type": "word",
+      "german": "die Sammlung",
+      "meaning": "the collection",
+      "image": "buch",
+      "audio": "tts",
+      "introducedInScene": "b2e10s1",
+      "tags": [
+        "reflection",
+        "home"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Sammlungen — sammeln"
+    },
+    {
+      "id": "gelingen",
+      "type": "chunk",
+      "german": "Es ist gelungen.",
+      "meaning": "It worked out. / It succeeded.",
+      "image": "fest",
+      "audio": "tts",
+      "introducedInScene": "b2e10s2",
+      "tags": [
+        "reflection",
+        "opinion"
+      ],
+      "cefrLevel": "B2",
+      "speak": "Es ist gelungen.",
+      "note": "gelingen — gelang — gelungen; mit Dativ-Subjekt oft"
+    },
+    {
+      "id": "die-freundschaft",
+      "type": "word",
+      "german": "die Freundschaft",
+      "meaning": "the friendship",
+      "image": "team",
+      "audio": "tts",
+      "introducedInScene": "b2e10s2",
+      "tags": [
+        "friends",
+        "feelings"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Freundschaften — eine Freundschaft schließen"
+    },
+    {
+      "id": "der-entschluss",
+      "type": "word",
+      "german": "der Entschluss",
+      "meaning": "the decision / resolve",
+      "image": "entscheidung",
+      "audio": "tts",
+      "introducedInScene": "b2e10s2",
+      "tags": [
+        "reflection"
+      ],
+      "cefrLevel": "B2",
+      "note": "der, Plural: die Entschlüsse — einen Entschluss fassen"
+    },
+    {
+      "id": "gemeinsam",
+      "type": "word",
+      "german": "gemeinsam",
+      "meaning": "together / joint",
+      "image": "ball",
+      "audio": "tts",
+      "introducedInScene": "b2e10s2",
+      "tags": [
+        "friends"
+      ],
+      "cefrLevel": "B2",
+      "note": "Adverb/Adjektiv — gemeinsam kochen, gemeinsame Sache"
+    },
+    {
+      "id": "wohlfuehlen",
+      "type": "chunk",
+      "german": "Ich fühle mich hier wohl.",
+      "meaning": "I feel at home here.",
+      "image": "ruhe",
+      "audio": "tts",
+      "introducedInScene": "b2e10s2",
+      "tags": [
+        "feelings",
+        "reflection"
+      ],
+      "cefrLevel": "B2",
+      "speak": "Ich fühle mich hier wohl.",
+      "note": "sich wohlfühlen — das Ziel aller Einwanderung"
+    },
+    {
+      "id": "die-wurzeln",
+      "type": "word",
+      "german": "die Wurzeln",
+      "meaning": "the roots",
+      "image": "blumen",
+      "audio": "tts",
+      "introducedInScene": "b2e10s2",
+      "tags": [
+        "reflection",
+        "nature"
+      ],
+      "cefrLevel": "B2",
+      "note": "Plural: die Wurzeln — Wurzeln schlagen = put down roots"
+    },
+    {
+      "id": "die-weiterbildung",
+      "type": "word",
+      "german": "die Weiterbildung",
+      "meaning": "the further education / training",
+      "image": "zertifikat",
+      "audio": "tts",
+      "introducedInScene": "b2e10s3",
+      "tags": [
+        "learning",
+        "work"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Weiterbildungen — Deutschland-Lieblingswort"
+    },
+    {
+      "id": "der-vhs-kurs",
+      "type": "word",
+      "german": "der VHS-Kurs",
+      "meaning": "the adult education centre course",
+      "image": "haus",
+      "audio": "tts",
+      "introducedInScene": "b2e10s3",
+      "tags": [
+        "learning"
+      ],
+      "cefrLevel": "B2",
+      "note": "der, Plural: die VHS-Kurse — Volkshochschule: Bildung für alle"
+    },
+    {
+      "id": "die-einschreibung",
+      "type": "word",
+      "german": "die Einschreibung",
+      "meaning": "the enrolment / registration",
+      "image": "formular",
+      "audio": "tts",
+      "introducedInScene": "b2e10s3",
+      "tags": [
+        "learning",
+        "admin"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Einschreibungen — einschreiben (lassen)"
+    },
+    {
+      "id": "gespannt",
+      "type": "word",
+      "german": "gespannt",
+      "meaning": "curious / excited (to see)",
+      "image": "person",
+      "audio": "tts",
+      "introducedInScene": "b2e10s3",
+      "tags": [
+        "feelings"
+      ],
+      "cefrLevel": "B2",
+      "note": "„Ich bin gespannt“ — auf + Akkusativ"
+    },
+    {
+      "id": "die-perspektive",
+      "type": "word",
+      "german": "die Perspektive",
+      "meaning": "the perspective / outlook",
+      "image": "train",
+      "audio": "tts",
+      "introducedInScene": "b2e10s3",
+      "tags": [
+        "reflection",
+        "opinion"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Perspektiven — auch: Blickwinkel"
+    },
+    {
+      "id": "ohne-euch-haette",
+      "type": "grammar_pattern",
+      "german": "Ohne euch ___ ich dieses Jahr nicht geschafft.",
+      "meaning": "Without you, I wouldn't have made it through this year.",
+      "image": "team",
+      "audio": "tts",
+      "introducedInScene": "b2e10s3",
+      "tags": [
+        "grammar",
+        "feelings"
+      ],
+      "cefrLevel": "B2",
+      "cloze": "hätte",
+      "speak": "Ohne euch hätte ich dieses Jahr nicht geschafft.",
+      "note": "Konjunktiv II Vergangenheit: hätte + Partizip — höflich, feierlich, ehrlich"
+    }
   ],
   "scenes": [
     {
@@ -43,22 +314,95 @@
       "titleEn": "The pinboard",
       "place": "Wohnung, Abend vor dem Jahrestag",
       "bg": "wohnung",
-      "contextTags": ["reflection", "home", "feelings"],
-      "requiredItems": ["die-erinnerung", "der-bericht"],
-      "introducedItems": ["das-jahr", "der-rueckblick", "die-etappe", "die-gewohnheit", "der-anfang", "die-sammlung"],
+      "contextTags": [
+        "reflection",
+        "home",
+        "feelings"
+      ],
+      "requiredItems": [
+        "die-erinnerung",
+        "der-bericht"
+      ],
+      "introducedItems": [
+        "das-jahr",
+        "der-rueckblick",
+        "die-etappe",
+        "die-gewohnheit",
+        "der-anfang",
+        "die-sammlung"
+      ],
       "beats": [
-        { "type": "narration", "text": "Ein Jahr, morgen. Du machst einen Rückblick der handwerklichen Art: die Pinnwand abnehmen und ausbreiten. Auf dem Bett landet eine Sammlung: Zettel, Belege, ein Bescheid, ein Physio-Bericht, die Rezeptkarte von Frau Brügge, das Programmheft von gestern." },
-        { "type": "line", "speaker": "tobias", "text": "Was ist das? …Oh. OH. Das ist ja dein… Archiv. …Sam, das hier ist ein Bescheid! Und das ein Fahrstunden-Zettel! …Du hast dokumentiert wie ein Steuerberater mit Gefühlen.", "translation": "What's that? …Oh. OH. That's your… archive. …Sam, that's an official notice! And that's a driving-lesson note! …You've documented like a tax accountant with feelings." },
-        { "type": "meet", "itemIds": ["die-sammlung", "das-jahr", "der-rueckblick"] },
-        { "type": "line", "speaker": "tobias", "text": "Weißt du, was mir auffällt? Am Anfang war alles Papier: Anmeldung, Formular, Nachweis. …Und jetzt ist alles Leben: Kuchen, Lesung, Verein. …Das Jahr hat sich von Verwaltung zu Gewohnheit entwickelt. Das ist, glaube ich, wie Ankommen funktioniert.", "translation": "You know what I notice? At the beginning everything was paperwork: registration, form, proof. …And now it's all life: cake, reading, club. …The year turned from administration into habit. I think that's how arriving works." },
-        { "type": "meet", "itemIds": ["die-etappe", "die-gewohnheit", "der-anfang"] },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "choice", "prompt": "Tobias hält die allererste Notiz hoch: „Guten Tag, ich heiße Sam.“", "options": [
-          { "label": "Die bleibt an der Pinnwand. Für immer. Erste Etappe.", "line": "Die bleibt an der Pinnwand. Für immer. Erste Etappe — sie hat alles eingeleitet." },
-          { "label": "Die lege ich ins Kochbuch. Als Einleitung für mein Buch.", "line": "Die lege ich ins Kochbuch. Als Einleitung für mein Buch. Kapitel minus eins." }
-        ] },
-        { "type": "check", "count": 2, "mode": "recall" },
-        { "type": "narration", "text": "Du pinnst alles wieder an — diesmal nicht als Ablage, sondern als Linie: Anfang, Mitte, jetzt. Die Linie zeigt Richtung. Morgen: Gartenparty. Übermorgen: ein Brief, den du noch nicht kennst." }
+        {
+          "type": "narration",
+          "text": "Ein Jahr, morgen. Du machst einen Rückblick der handwerklichen Art: die Pinnwand abnehmen und ausbreiten. Auf dem Bett landet eine Sammlung: Zettel, Belege, ein Bescheid, ein Physio-Bericht, die Rezeptkarte von Frau Brügge, das Programmheft von gestern."
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Was ist das? …Oh. OH. Das ist ja dein… Archiv. …Sam, das hier ist ein Bescheid! Und das ein Fahrstunden-Zettel! …Du hast dokumentiert wie ein Steuerberater mit Gefühlen.",
+          "translation": "What's that? …Oh. OH. That's your… archive. …Sam, that's an official notice! And that's a driving-lesson note! …You've documented like a tax accountant with feelings."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-sammlung",
+            "das-jahr",
+            "der-rueckblick"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Weißt du, was mir auffällt? Am Anfang war alles Papier: Anmeldung, Formular, Nachweis. …Und jetzt ist alles Leben: Kuchen, Lesung, Verein. …Das Jahr hat sich von Verwaltung zu Gewohnheit entwickelt. Das ist, glaube ich, wie Ankommen funktioniert.",
+          "translation": "You know what I notice? At the beginning everything was paperwork: registration, form, proof. …And now it's all life: cake, reading, club. …The year turned from administration into habit. I think that's how arriving works."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-etappe",
+            "die-gewohnheit",
+            "der-anfang"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Tobias hält die allererste Notiz hoch: „Guten Tag, ich heiße Sam.“",
+          "options": [
+            {
+              "label": "Die bleibt an der Pinnwand. Für immer. Erste Etappe.",
+              "line": "Die bleibt an der Pinnwand. Für immer. Erste Etappe — sie hat alles eingeleitet."
+            },
+            {
+              "label": "Die lege ich ins Kochbuch. Als Einleitung für mein Buch.",
+              "line": "Die lege ich ins Kochbuch. Als Einleitung für mein Buch. Kapitel minus eins."
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "reading",
+          "title": "Pinnwand-Inventar (Tobias listet mit)",
+          "text": "DAS JAHR AN PAPIER:\n\nAnmeldung · Bürgeramt-Stempel (Schön!)\nArbeitsvertrag 1 · Arbeitsvertrag 2 (immer besser)\nBescheid Aufenthaltstitel (2 Jahre!)\nPhysio-Bericht · Zeugnis B2 · 1 Kassenbon Zoo\n1 Postkarte Leipzig (eigene Handschrift, erste Wochen)\n\nSammlung = Etappen.\nRückblick = Beweis. Das Jahr war lang.\nUnd genau richtig lang.",
+          "translation": "THE YEAR ON PAPER:\n\nRegistration · citizens'-office stamp (pretty!)\nEmployment contract 1 · employment contract 2 (always better)\nResidence-permit notice (2 years!)\nPhysio report · B2 certificate · 1 zoo receipt\n1 postcard of Leipzig (own handwriting, first weeks)\n\nA collection = stages.\nA look back = proof. The year was long.\nAnd exactly the right kind of long.",
+          "itemIds": [
+            "die-sammlung",
+            "der-rueckblick",
+            "die-etappe"
+          ]
+        },
+        {
+          "type": "narration",
+          "text": "Du pinnst alles wieder an — diesmal nicht als Ablage, sondern als Linie: Anfang, Mitte, jetzt. Die Linie zeigt Richtung. Morgen: Gartenparty. Übermorgen: ein Brief, den du noch nicht kennst."
+        }
       ]
     },
     {
@@ -68,22 +412,95 @@
       "titleEn": "Courtyard, barbecue, neighbours",
       "place": "Hinterhof, Jahrestag, später Nachmittag",
       "bg": "fest",
-      "contextTags": ["friends", "celebration", "neighbors"],
-      "requiredItems": ["das-grillfest", "die-nachbarschaft"],
-      "introducedItems": ["gelingen", "die-freundschaft", "der-entschluss", "gemeinsam", "wohlfuehlen", "die-wurzeln"],
+      "contextTags": [
+        "friends",
+        "celebration",
+        "neighbors"
+      ],
+      "requiredItems": [
+        "das-grillfest",
+        "die-nachbarschaft"
+      ],
+      "introducedItems": [
+        "gelingen",
+        "die-freundschaft",
+        "der-entschluss",
+        "gemeinsam",
+        "wohlfuehlen",
+        "die-wurzeln"
+      ],
       "beats": [
-        { "type": "narration", "text": "Der Hof: Girlanden von Frau Brügges Geburtstag (recycelt, mit Würde), der Grill von Jonas, und sämtliche Menschen, die du in einem Jahr gesammelt hast. Luise hält eine Rede von genau einem Satz." },
-        { "type": "line", "speaker": "luise", "text": "Vor einem Jahr kam ein Mensch mit einem Koffer rein und fragte nach Gleis sieben. …Er hat es nicht gefunden. Aber er hat alles andere gefunden. …Prost, Sam.", "translation": "A year ago a person walked in with a suitcase and asked for platform seven. …He didn't find it. But he found everything else. …Cheers, Sam." },
-        { "type": "meet", "itemIds": ["die-freundschaft", "gemeinsam", "wohlfuehlen"] },
-        { "type": "line", "speaker": "frau-bruegge", "text": "Ich vermiete seit dreißig Jahren. Die meisten ziehen nach drei Jahren weiter — Studium, Liebe, Beruf. …Du aber: Du hast Wurzeln geschlagen. Ich sehe das am Mülltonnensystem. Wer sein Mülltonnensystem liebt, der bleibt.", "translation": "I've been renting out for thirty years. Most people move on after three — studies, love, career. …But you: you've put down roots. I can tell from the bin system. Anyone who loves their bin system stays." },
-        { "type": "meet", "itemIds": ["die-wurzeln", "gelingen", "der-entschluss"] },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "choice", "prompt": "Luise fragt beiläufig: „Und, bleibst du?“", "options": [
-          { "label": "Ich bleibe. Es ist gelungen — hier fühle ich mich wohl.", "line": "Ich bleibe. Es ist gelungen — hier fühle ich mich wohl. Das ist der kürzeste Entschluss meines Lebens." },
-          { "label": "Bis Gleis sieben mich findet, ja.", "line": "Bis Gleis sieben mich findet: ja. …Vielleicht baue ich es ja irgendwann selbst. Als Gartenprojekt." }
-        ] },
-        { "type": "check", "count": 2, "mode": "listen" },
-        { "type": "narration", "text": "Der Abend wird lang und gut. Irgendwann sitzt ihr alle auf der Treppe, Teller auf den Knien, und deniz erzählt den Gleis-7-Witz falsch und niemand korrigiert ihn. Ein Jahr. Es ist gelungen." }
+        {
+          "type": "narration",
+          "text": "Der Hof: Girlanden von Frau Brügges Geburtstag (recycelt, mit Würde), der Grill von Jonas, und sämtliche Menschen, die du in einem Jahr gesammelt hast. Luise hält eine Rede von genau einem Satz."
+        },
+        {
+          "type": "line",
+          "speaker": "luise",
+          "text": "Vor einem Jahr kam ein Mensch mit einem Koffer rein und fragte nach Gleis sieben. …Er hat es nicht gefunden. Aber er hat alles andere gefunden. …Prost, Sam.",
+          "translation": "A year ago a person walked in with a suitcase and asked for platform seven. …He didn't find it. But he found everything else. …Cheers, Sam."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-freundschaft",
+            "gemeinsam",
+            "wohlfuehlen"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "frau-bruegge",
+          "text": "Ich vermiete seit dreißig Jahren. Die meisten ziehen nach drei Jahren weiter — Studium, Liebe, Beruf. …Du aber: Du hast Wurzeln geschlagen. Ich sehe das am Mülltonnensystem. Wer sein Mülltonnensystem liebt, der bleibt.",
+          "translation": "I've been renting out for thirty years. Most people move on after three — studies, love, career. …But you: you've put down roots. I can tell from the bin system. Anyone who loves their bin system stays."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-wurzeln",
+            "gelingen",
+            "der-entschluss"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Luise fragt beiläufig: „Und, bleibst du?“",
+          "options": [
+            {
+              "label": "Ich bleibe. Es ist gelungen — hier fühle ich mich wohl.",
+              "line": "Ich bleibe. Es ist gelungen — hier fühle ich mich wohl. Das ist der kürzeste Entschluss meines Lebens."
+            },
+            {
+              "label": "Bis Gleis sieben mich findet, ja.",
+              "line": "Bis Gleis sieben mich findet: ja. …Vielleicht baue ich es ja irgendwann selbst. Als Gartenprojekt."
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "reading",
+          "title": "Luises Karte an Sam (auf dem Grilltisch)",
+          "text": "»Ein Jahr. Ein Koffer. Ein Café.\n\nDu hast Wurzeln geschlagen, ohne es zu merken —\nman sieht es daran, dass du hier Namensschilder\nfür die Gäste geschrieben hast. Freiwillig.\n\nGemeinsam ist ein gutes Wort.\nSich wohlfühlen ist ein besseres.\nBleiben ist das beste.\n\n— Luise«",
+          "translation": "'One year. One suitcase. One café.\n\nYou've put down roots without noticing —\nyou can tell because you wrote name tags\nfor the guests here. Voluntarily.\n\nTogether is a good word.\nFeeling at home is a better one.\nStaying is the best.\n\n— Luise'",
+          "itemIds": [
+            "gemeinsam",
+            "die-wurzeln",
+            "wohlfuehlen"
+          ]
+        },
+        {
+          "type": "narration",
+          "text": "Der Abend wird lang und gut. Irgendwann sitzt ihr alle auf der Treppe, Teller auf den Knien, und deniz erzählt den Gleis-7-Witz falsch und niemand korrigiert ihn. Ein Jahr. Es ist gelungen."
+        }
       ]
     },
     {
@@ -93,23 +510,90 @@
       "titleEn": "The next step",
       "place": "Café Kontor, Montag, Post kommt",
       "bg": "cafe",
-      "contextTags": ["reflection", "learning", "work"],
-      "requiredItems": ["ich-habe-bestanden", "die-anfrage"],
-      "introducedItems": ["die-weiterbildung", "der-vhs-kurs", "die-einschreibung", "gespannt", "die-perspektive", "ohne-euch-haette"],
+      "contextTags": [
+        "reflection",
+        "learning",
+        "work"
+      ],
+      "requiredItems": [
+        "ich-habe-bestanden",
+        "die-anfrage"
+      ],
+      "introducedItems": [
+        "die-weiterbildung",
+        "der-vhs-kurs",
+        "die-einschreibung",
+        "gespannt",
+        "die-perspektive",
+        "ohne-euch-haette"
+      ],
       "beats": [
-        { "type": "narration", "text": "Montagmorgen, Café Kontor. Zwischen Lieferanten-Rechnungen liegt ein Brief der Volkshochschule. Du öffnest ihn zwischen zwei Milchschaum-Wolken, wie damals das Telefonat der Rundschau." },
-        { "type": "line", "speaker": "mei", "text": "Auf, auf! …„Sehr geehrter Herr Jones, gern bestätigen wir Ihre Anfrage: Platz im C1-Kurs, ab Oktober, dienstags und donnerstags. Einschreibung bis 15. September.“ …SAM. Du hast DICH beworben. Ohne dass jemand geschubst hat.", "translation": "Open it! …'Dear Mr Jones, we are happy to confirm your inquiry: place in the C1 course, from October, Tuesdays and Thursdays. Enrolment by 15 September.' …SAM. You applied. By yourself. Without anyone pushing you." },
-        { "type": "meet", "itemIds": ["die-weiterbildung", "der-vhs-kurs", "die-einschreibung"] },
-        { "type": "choice", "prompt": "Mei: „Und? C1. Das ist… hoch.“", "options": [
-          { "label": "Ich bin gespannt. Und ein bisschen nervös. Beides gehört dazu.", "line": "Ich bin gespannt. Und ein bisschen nervös. Beides gehört dazu — wie Milch und Schaum." },
-          { "label": "Nach der B2-Prüfung ist vor der C1-Prüfung.", "line": "Nach der B2-Prüfung ist vor der C1-Prüfung. …Sag das nicht Luise, sonst baut sie uns einen Anbau für die Bücher." }
-        ] },
-        { "type": "meet", "itemIds": ["gespannt", "die-perspektive", "ohne-euch-haette"] },
-        { "type": "line", "speaker": "luise", "text": "(aus dem Lagerraum) Ich hab gehört, was da drin steht. …C1, Sam. Dann kannst du mir die Lieferanten-Rechnungen auf Deutsch inspizieren. …Nein, im Ernst: Weiterbildung ist das Größte. Mach die Einschreibung heute. JETZT. Vor der Mittagspause.", "translation": "(from the storeroom) I heard what's in there. …C1, Sam. Then you can dispute my supplier invoices at a native level. …No, seriously: further education is the greatest thing. Do the enrolment today. NOW. Before the lunch rush." },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "check", "count": 2, "mode": "listen" },
-        { "type": "reading", "title": "E-Mail der Volkshochschule Leipzig", "text": "Volkshochschule Leipzig\nProgrammbereich Sprachen\n\nSehr geehrter Herr Jones,\n\ngern bestätigen wir Ihre Anfrage:\n\nKurs:      Deutsch C1 — Oberstufe (Abendkurs)\nBeginn:    Dienstag, 06.10.2026\nZeiten:    dienstags & donnerstags, 18:30–20:00\nOrt:       VHS-Haus, Raum 2.14\nDozentin:  Fr. Dr. Ahlers\n\nDie Einschreibung ist bis 15.09. möglich.\nBitte bringen Sie Ihren B2-Nachweis mit.\n\nWir freuen uns auf Sie.\nIhre VHS Leipzig", "translation": "Leipzig Adult Education Centre\nLanguages department\n\nDear Mr Jones,\n\nwe are happy to confirm your inquiry:\n\nCourse:    German C1 — advanced (evening class)\nStart:     Tuesday, 6 Oct 2026\nTimes:     Tuesdays & Thursdays, 6:30–8 pm\nLocation:  VHS building, room 2.14\nTeacher:   Ms Dr Ahlers\n\nEnrolment is possible until 15 Sep.\nPlease bring your B2 certificate.\n\nWe look forward to seeing you.\nYour VHS Leipzig" },
-        { "type": "narration", "text": "Mittags legst du den Brief auf die Pinnwand — an den Anfang einer neuen Linie. Tobias kommt vorbei, liest, pfeift. Du sagst den Satz, den du seit Gleis sieben übst: „Ohne euch hätte ich dieses Jahr nicht geschafft.“ Tobias sagt nichts. Er nickt so, wie Nachbarn nicken, wenn ein Satz stimmt. …Der Scheduler räumt derweil leise auf: viele hundert Wörter später ist die nächste Etappe fällig — und du bist gespannt." }
+        {
+          "type": "narration",
+          "text": "Montagmorgen, Café Kontor. Zwischen Lieferanten-Rechnungen liegt ein Brief der Volkshochschule. Du öffnest ihn zwischen zwei Milchschaum-Wolken, wie damals das Telefonat der Rundschau."
+        },
+        {
+          "type": "line",
+          "speaker": "mei",
+          "text": "Auf, auf! …„Sehr geehrter Herr Jones, gern bestätigen wir Ihre Anfrage: Platz im C1-Kurs, ab Oktober, dienstags und donnerstags. Einschreibung bis 15. September.“ …SAM. Du hast DICH beworben. Ohne dass jemand geschubst hat.",
+          "translation": "Open it! …'Dear Mr Jones, we are happy to confirm your inquiry: place in the C1 course, from October, Tuesdays and Thursdays. Enrolment by 15 September.' …SAM. You applied. By yourself. Without anyone pushing you."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-weiterbildung",
+            "der-vhs-kurs",
+            "die-einschreibung"
+          ]
+        },
+        {
+          "type": "choice",
+          "prompt": "Mei: „Und? C1. Das ist… hoch.“",
+          "options": [
+            {
+              "label": "Ich bin gespannt. Und ein bisschen nervös. Beides gehört dazu.",
+              "line": "Ich bin gespannt. Und ein bisschen nervös. Beides gehört dazu — wie Milch und Schaum."
+            },
+            {
+              "label": "Nach der B2-Prüfung ist vor der C1-Prüfung.",
+              "line": "Nach der B2-Prüfung ist vor der C1-Prüfung. …Sag das nicht Luise, sonst baut sie uns einen Anbau für die Bücher."
+            }
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "gespannt",
+            "die-perspektive",
+            "ohne-euch-haette"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "luise",
+          "text": "(aus dem Lagerraum) Ich hab gehört, was da drin steht. …C1, Sam. Dann kannst du mir die Lieferanten-Rechnungen auf Deutsch inspizieren. …Nein, im Ernst: Weiterbildung ist das Größte. Mach die Einschreibung heute. JETZT. Vor der Mittagspause.",
+          "translation": "(from the storeroom) I heard what's in there. …C1, Sam. Then you can dispute my supplier invoices at a native level. …No, seriously: further education is the greatest thing. Do the enrolment today. NOW. Before the lunch rush."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "reading",
+          "title": "E-Mail der Volkshochschule Leipzig",
+          "text": "Volkshochschule Leipzig\nProgrammbereich Sprachen\n\nSehr geehrter Herr Jones,\n\ngern bestätigen wir Ihre Anfrage:\n\nKurs:      Deutsch C1 — Oberstufe (Abendkurs)\nBeginn:    Dienstag, 06.10.2026\nZeiten:    dienstags & donnerstags, 18:30–20:00\nOrt:       VHS-Haus, Raum 2.14\nDozentin:  Fr. Dr. Ahlers\n\nDie Einschreibung ist bis 15.09. möglich.\nBitte bringen Sie Ihren B2-Nachweis mit.\n\nWir freuen uns auf Sie.\nIhre VHS Leipzig",
+          "translation": "Leipzig Adult Education Centre\nLanguages department\n\nDear Mr Jones,\n\nwe are happy to confirm your inquiry:\n\nCourse:    German C1 — advanced (evening class)\nStart:     Tuesday, 6 Oct 2026\nTimes:     Tuesdays & Thursdays, 6:30–8 pm\nLocation:  VHS building, room 2.14\nTeacher:   Ms Dr Ahlers\n\nEnrolment is possible until 15 Sep.\nPlease bring your B2 certificate.\n\nWe look forward to seeing you.\nYour VHS Leipzig"
+        },
+        {
+          "type": "narration",
+          "text": "Mittags legst du den Brief auf die Pinnwand — an den Anfang einer neuen Linie. Tobias kommt vorbei, liest, pfeift. Du sagst den Satz, den du seit Gleis sieben übst: „Ohne euch hätte ich dieses Jahr nicht geschafft.“ Tobias sagt nichts. Er nickt so, wie Nachbarn nicken, wenn ein Satz stimmt. …Der Scheduler räumt derweil leise auf: viele hundert Wörter später ist die nächste Etappe fällig — und du bist gespannt."
+        }
       ]
     }
   ]

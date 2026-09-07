@@ -7,31 +7,296 @@
     "titleEn": "The first flat",
     "blurb": "Möbel, Schrauben, Brötchen. Du kaufst ein, baust auf — und bestellst zum ersten Mal auf Deutsch.",
     "order": 2,
-    "sceneIds": ["a1e2s1", "a1e2s2", "a1e2s3"]
+    "sceneIds": [
+      "a1e2s1",
+      "a1e2s2",
+      "a1e2s3"
+    ]
   },
   "cast": [
-    { "id": "tobias", "name": "Tobias", "role": "Nachbar, Student" },
-    { "id": "verkaeuferin", "name": "Frau Wenzel", "role": "Bäckerin" }
+    {
+      "id": "tobias",
+      "name": "Tobias",
+      "role": "Nachbar, Student"
+    },
+    {
+      "id": "verkaeuferin",
+      "name": "Frau Wenzel",
+      "role": "Bäckerin"
+    }
   ],
   "items": [
-    { "id": "das-zimmer", "type": "word", "german": "das Zimmer", "meaning": "the room", "image": "wohnung", "audio": "tts", "introducedInScene": "a1e2s1", "tags": ["home", "furniture"], "cefrLevel": "A1", "note": "das, Plural: die Zimmer" },
-    { "id": "das-bett", "type": "word", "german": "das Bett", "meaning": "the bed", "image": "bett", "audio": "tts", "introducedInScene": "a1e2s1", "tags": ["home", "furniture"], "cefrLevel": "A1", "note": "das, Plural: die Betten" },
-    { "id": "der-tisch", "type": "word", "german": "der Tisch", "meaning": "the table", "image": "tisch", "audio": "tts", "introducedInScene": "a1e2s1", "tags": ["home", "furniture"], "cefrLevel": "A1", "note": "der, Plural: die Tische" },
-    { "id": "das-fenster", "type": "word", "german": "das Fenster", "meaning": "the window", "image": "fenster", "audio": "tts", "introducedInScene": "a1e2s1", "tags": ["home", "furniture"], "cefrLevel": "A1", "note": "das, Plural: die Fenster" },
-    { "id": "wo-ist-die-kueche", "type": "chunk", "german": "Wo ist die Küche?", "meaning": "Where is the kitchen?", "audio": "tts", "introducedInScene": "a1e2s1", "tags": ["home", "questions"], "cefrLevel": "A1", "parentId": "wo-ist-gleis" },
-    { "id": "die-wohnung-ist-schoen", "type": "sentence", "german": "Die Wohnung ist schön.", "meaning": "The flat is nice.", "audio": "tts", "introducedInScene": "a1e2s1", "tags": ["home", "smalltalk"], "cefrLevel": "A1" },
-    { "id": "das-brot", "type": "word", "german": "das Brot", "meaning": "the bread", "image": "brot", "audio": "tts", "introducedInScene": "a1e2s2", "tags": ["food", "shopping"], "cefrLevel": "A1", "note": "das, Plural: die Brote" },
-    { "id": "die-butter", "type": "word", "german": "die Butter", "meaning": "the butter", "image": "brot", "audio": "tts", "introducedInScene": "a1e2s2", "tags": ["food", "shopping"], "cefrLevel": "A1", "note": "die ( Singular wie Plural )" },
-    { "id": "der-apfel", "type": "word", "german": "der Apfel", "meaning": "the apple", "image": "apfel", "audio": "tts", "introducedInScene": "a1e2s2", "tags": ["food", "shopping"], "cefrLevel": "A1", "note": "der, Plural: die Äpfel" },
-    { "id": "das-wasser", "type": "word", "german": "das Wasser", "meaning": "the water", "image": "wasser", "audio": "tts", "introducedInScene": "a1e2s2", "tags": ["food", "shopping"], "cefrLevel": "A1", "note": "das ( Singular ) — „ein Wasser“ am Tisch = ein Glas" },
-    { "id": "ich-haette-gern", "type": "grammar_pattern", "german": "Ich hätte gern ___.", "meaning": "I would like ___. (the polite ordering machine)", "audio": "tts", "introducedInScene": "a1e2s2", "tags": ["food", "shopping", "request"], "cefrLevel": "A1", "cloze": "ein Brötchen", "alt": ["ein Brot", "ein Wasser", "zwei Brötchen", "einen Apfel"], "speak": "Ich hätte gern ein Brötchen, bitte.", "note": "Universell: Bäcker, Café, Restaurant, Kiosk — einfach einsetzen." },
-    { "id": "zusammen-bitte", "type": "chunk", "german": "Zusammen, bitte.", "meaning": "Together, please. (paying for it all at once)", "audio": "tts", "introducedInScene": "a1e2s2", "tags": ["shopping", "request"], "cefrLevel": "A1", "note": "An der Kasse. Gegenteil: „Getrennt, bitte.“" },
-    { "id": "der-stuhl", "type": "word", "german": "der Stuhl", "meaning": "the chair", "image": "stuhl", "audio": "tts", "introducedInScene": "a1e2s3", "tags": ["home", "furniture"], "cefrLevel": "A1", "note": "der, Plural: die Stühle" },
-    { "id": "die-lampe", "type": "word", "german": "die Lampe", "meaning": "the lamp", "image": "lampe", "audio": "tts", "introducedInScene": "a1e2s3", "tags": ["home", "furniture"], "cefrLevel": "A1", "note": "die, Plural: die Lampen" },
-    { "id": "das-regal", "type": "word", "german": "das Regal", "meaning": "the shelf", "image": "wohnung", "audio": "tts", "introducedInScene": "a1e2s3", "tags": ["home", "furniture"], "cefrLevel": "A1", "note": "das, Plural: die Regale — nicht das königliche Regal" },
-    { "id": "der-hammer", "type": "word", "german": "der Hammer", "meaning": "the hammer", "image": "werkzeug", "audio": "tts", "introducedInScene": "a1e2s3", "tags": ["objects", "repair"], "cefrLevel": "A1", "note": "der, Plural: die Hämmer" },
-    { "id": "ich-helfe-dir", "type": "chunk", "german": "Ich helfe dir!", "meaning": "I'll help you!", "audio": "tts", "introducedInScene": "a1e2s3", "tags": ["neighbors", "friends"], "cefrLevel": "A1", "note": "du-Form — unter Nachbarn und Freunden normal." },
-    { "id": "danke-schoen", "type": "chunk", "german": "Danke schön!", "meaning": "Thank you very much!", "audio": "tts", "introducedInScene": "a1e2s3", "tags": ["politeness", "friends"], "cefrLevel": "A1" }
+    {
+      "id": "das-zimmer",
+      "type": "word",
+      "german": "das Zimmer",
+      "meaning": "the room",
+      "image": "wohnung",
+      "audio": "tts",
+      "introducedInScene": "a1e2s1",
+      "tags": [
+        "home",
+        "furniture"
+      ],
+      "cefrLevel": "A1",
+      "note": "das, Plural: die Zimmer"
+    },
+    {
+      "id": "das-bett",
+      "type": "word",
+      "german": "das Bett",
+      "meaning": "the bed",
+      "image": "bett",
+      "audio": "tts",
+      "introducedInScene": "a1e2s1",
+      "tags": [
+        "home",
+        "furniture"
+      ],
+      "cefrLevel": "A1",
+      "note": "das, Plural: die Betten"
+    },
+    {
+      "id": "der-tisch",
+      "type": "word",
+      "german": "der Tisch",
+      "meaning": "the table",
+      "image": "tisch",
+      "audio": "tts",
+      "introducedInScene": "a1e2s1",
+      "tags": [
+        "home",
+        "furniture"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Tische"
+    },
+    {
+      "id": "das-fenster",
+      "type": "word",
+      "german": "das Fenster",
+      "meaning": "the window",
+      "image": "fenster",
+      "audio": "tts",
+      "introducedInScene": "a1e2s1",
+      "tags": [
+        "home",
+        "furniture"
+      ],
+      "cefrLevel": "A1",
+      "note": "das, Plural: die Fenster"
+    },
+    {
+      "id": "wo-ist-die-kueche",
+      "type": "chunk",
+      "german": "Wo ist die Küche?",
+      "meaning": "Where is the kitchen?",
+      "audio": "tts",
+      "introducedInScene": "a1e2s1",
+      "tags": [
+        "home",
+        "questions"
+      ],
+      "cefrLevel": "A1",
+      "parentId": "wo-ist-gleis"
+    },
+    {
+      "id": "die-wohnung-ist-schoen",
+      "type": "sentence",
+      "german": "Die Wohnung ist schön.",
+      "meaning": "The flat is nice.",
+      "audio": "tts",
+      "introducedInScene": "a1e2s1",
+      "tags": [
+        "home",
+        "smalltalk"
+      ],
+      "cefrLevel": "A1"
+    },
+    {
+      "id": "das-brot",
+      "type": "word",
+      "german": "das Brot",
+      "meaning": "the bread",
+      "image": "brot",
+      "audio": "tts",
+      "introducedInScene": "a1e2s2",
+      "tags": [
+        "food",
+        "shopping"
+      ],
+      "cefrLevel": "A1",
+      "note": "das, Plural: die Brote"
+    },
+    {
+      "id": "die-butter",
+      "type": "word",
+      "german": "die Butter",
+      "meaning": "the butter",
+      "image": "brot",
+      "audio": "tts",
+      "introducedInScene": "a1e2s2",
+      "tags": [
+        "food",
+        "shopping"
+      ],
+      "cefrLevel": "A1",
+      "note": "die ( Singular wie Plural )"
+    },
+    {
+      "id": "der-apfel",
+      "type": "word",
+      "german": "der Apfel",
+      "meaning": "the apple",
+      "image": "apfel",
+      "audio": "tts",
+      "introducedInScene": "a1e2s2",
+      "tags": [
+        "food",
+        "shopping"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Äpfel"
+    },
+    {
+      "id": "das-wasser",
+      "type": "word",
+      "german": "das Wasser",
+      "meaning": "the water",
+      "image": "wasser",
+      "audio": "tts",
+      "introducedInScene": "a1e2s2",
+      "tags": [
+        "food",
+        "shopping"
+      ],
+      "cefrLevel": "A1",
+      "note": "das ( Singular ) — „ein Wasser“ am Tisch = ein Glas"
+    },
+    {
+      "id": "ich-haette-gern",
+      "type": "grammar_pattern",
+      "german": "Ich hätte gern ___.",
+      "meaning": "I would like ___. (the polite ordering machine)",
+      "audio": "tts",
+      "introducedInScene": "a1e2s2",
+      "tags": [
+        "food",
+        "shopping",
+        "request"
+      ],
+      "cefrLevel": "A1",
+      "cloze": "ein Brötchen",
+      "alt": [
+        "ein Brot",
+        "ein Wasser",
+        "zwei Brötchen",
+        "einen Apfel"
+      ],
+      "speak": "Ich hätte gern ein Brötchen, bitte.",
+      "note": "Universell: Bäcker, Café, Restaurant, Kiosk — einfach einsetzen."
+    },
+    {
+      "id": "zusammen-bitte",
+      "type": "chunk",
+      "german": "Zusammen, bitte.",
+      "meaning": "Together, please. (paying for it all at once)",
+      "audio": "tts",
+      "introducedInScene": "a1e2s2",
+      "tags": [
+        "shopping",
+        "request"
+      ],
+      "cefrLevel": "A1",
+      "note": "An der Kasse. Gegenteil: „Getrennt, bitte.“"
+    },
+    {
+      "id": "der-stuhl",
+      "type": "word",
+      "german": "der Stuhl",
+      "meaning": "the chair",
+      "image": "stuhl",
+      "audio": "tts",
+      "introducedInScene": "a1e2s3",
+      "tags": [
+        "home",
+        "furniture"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Stühle"
+    },
+    {
+      "id": "die-lampe",
+      "type": "word",
+      "german": "die Lampe",
+      "meaning": "the lamp",
+      "image": "lampe",
+      "audio": "tts",
+      "introducedInScene": "a1e2s3",
+      "tags": [
+        "home",
+        "furniture"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Lampen"
+    },
+    {
+      "id": "das-regal",
+      "type": "word",
+      "german": "das Regal",
+      "meaning": "the shelf",
+      "image": "wohnung",
+      "audio": "tts",
+      "introducedInScene": "a1e2s3",
+      "tags": [
+        "home",
+        "furniture"
+      ],
+      "cefrLevel": "A1",
+      "note": "das, Plural: die Regale — nicht das königliche Regal"
+    },
+    {
+      "id": "der-hammer",
+      "type": "word",
+      "german": "der Hammer",
+      "meaning": "the hammer",
+      "image": "werkzeug",
+      "audio": "tts",
+      "introducedInScene": "a1e2s3",
+      "tags": [
+        "objects",
+        "repair"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Hämmer"
+    },
+    {
+      "id": "ich-helfe-dir",
+      "type": "chunk",
+      "german": "Ich helfe dir!",
+      "meaning": "I'll help you!",
+      "audio": "tts",
+      "introducedInScene": "a1e2s3",
+      "tags": [
+        "neighbors",
+        "friends"
+      ],
+      "cefrLevel": "A1",
+      "note": "du-Form — unter Nachbarn und Freunden normal."
+    },
+    {
+      "id": "danke-schoen",
+      "type": "chunk",
+      "german": "Danke schön!",
+      "meaning": "Thank you very much!",
+      "audio": "tts",
+      "introducedInScene": "a1e2s3",
+      "tags": [
+        "politeness",
+        "friends"
+      ],
+      "cefrLevel": "A1"
+    }
   ],
   "scenes": [
     {
@@ -41,23 +306,95 @@
       "titleEn": "Two rooms, a kitchenette",
       "place": "Bärbelstraße 12, 2. OG",
       "bg": "wohnung",
-      "contextTags": ["home", "furniture"],
+      "contextTags": [
+        "home",
+        "furniture"
+      ],
       "requiredItems": [],
-      "introducedItems": ["das-zimmer", "das-bett", "der-tisch", "das-fenster", "wo-ist-die-kueche", "die-wohnung-ist-schoen"],
+      "introducedItems": [
+        "das-zimmer",
+        "das-bett",
+        "der-tisch",
+        "das-fenster",
+        "wo-ist-die-kueche",
+        "die-wohnung-ist-schoen"
+      ],
       "beats": [
-        { "type": "narration", "text": "Zwei Zimmer, Küchenzeile, Bad. Im Inserat stand „charmant“. Jetzt heißt das Wort: du wohnst hier." },
-        { "type": "meet", "itemIds": ["das-zimmer", "das-bett", "der-tisch"] },
-        { "type": "narration", "text": "Aus dem Flur ruft eine Stimme. Ein junger Mann steht in der Tür, einen Karton mit Gläsern im Arm." },
-        { "type": "line", "speaker": "tobias", "text": "Hallo! Tobias, von gegenüber, dritter Stock. Ich hab ein Regal übrig, falls du eins brauchst. …Und eine Bohrmaschine.", "translation": "Hi! Tobias, from across the hall, third floor. I have a spare shelf if you need one. …And a drill." },
-        { "type": "meet", "itemIds": ["das-fenster", "wo-ist-die-kueche", "die-wohnung-ist-schoen"] },
-        { "type": "choice", "prompt": "Tobias: „Und, was sagst du zur Wohnung?“", "options": [
-          { "label": "Die Wohnung ist schön!", "line": "Die Wohnung ist schön!" },
-          { "label": "Wo ist die Küche? …Ah. Da.", "line": "Wo ist die Küche? …Ah. Da ist sie." }
-        ] },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "line", "speaker": "tobias", "text": "Alte Wohnung, neue Fenster. Nachts hört man nur die Straßenbahn. Gewöhnst du dich dran, versprochen.", "translation": "Old flat, new windows. At night you only hear the tram. You'll get used to it, promise." },
-        { "type": "check", "count": 2, "mode": "recall" },
-        { "type": "narration", "text": "Das Bett steht am Fenster. Erster Abend in Leipzig. Die Decke riecht noch nach dem Zug." }
+        {
+          "type": "narration",
+          "text": "Zwei Zimmer, Küchenzeile, Bad. Im Inserat stand „charmant“. Jetzt heißt das Wort: du wohnst hier."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "das-zimmer",
+            "das-bett",
+            "der-tisch"
+          ]
+        },
+        {
+          "type": "narration",
+          "text": "Aus dem Flur ruft eine Stimme. Ein junger Mann steht in der Tür, einen Karton mit Gläsern im Arm."
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Hallo! Tobias, von gegenüber, dritter Stock. Ich hab ein Regal übrig, falls du eins brauchst. …Und eine Bohrmaschine.",
+          "translation": "Hi! Tobias, from across the hall, third floor. I have a spare shelf if you need one. …And a drill."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "das-fenster",
+            "wo-ist-die-kueche",
+            "die-wohnung-ist-schoen"
+          ]
+        },
+        {
+          "type": "choice",
+          "prompt": "Tobias: „Und, was sagst du zur Wohnung?“",
+          "options": [
+            {
+              "label": "Die Wohnung ist schön!",
+              "line": "Die Wohnung ist schön!"
+            },
+            {
+              "label": "Wo ist die Küche? …Ah. Da.",
+              "line": "Wo ist die Küche? …Ah. Da ist sie."
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Alte Wohnung, neue Fenster. Nachts hört man nur die Straßenbahn. Gewöhnst du dich dran, versprochen.",
+          "translation": "Old flat, new windows. At night you only hear the tram. You'll get used to it, promise."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "reading",
+          "title": "Frau Brügges Möbelliste",
+          "text": "ZIMMER 1 (für Sam):\n— Bett (klingt komisch, hält 30 Jahre)\n— Tisch von meiner Tante (stabil, ehrlich)\n— Fenster bleibt offen im Sommer, NOTIZ AN MICH: Fliegen\n\nRest steht im Keller.\nWas fehlt, wird gekauft. Mit Liste.\nListe ist bei mir.",
+          "translation": "ROOM 1 (for Sam):\n— Bed (sounds strange, lasts 30 years)\n— Table from my aunt (stable, honest)\n— Window stays open in summer, NOTE TO SELF: flies\n\nThe rest is in the basement.\nWhatever's missing will be bought. With a list.\nThe list is with me.",
+          "itemIds": [
+            "das-zimmer",
+            "das-bett",
+            "die-wohnung-ist-schoen"
+          ]
+        },
+        {
+          "type": "narration",
+          "text": "Das Bett steht am Fenster. Erster Abend in Leipzig. Die Decke riecht noch nach dem Zug."
+        }
       ]
     },
     {
@@ -67,22 +404,81 @@
       "titleEn": "At the bakery",
       "place": "Bäckerei Wenzel, Jahnallee",
       "bg": "laden",
-      "contextTags": ["food", "shopping", "request"],
+      "contextTags": [
+        "food",
+        "shopping",
+        "request"
+      ],
       "requiredItems": [],
-      "introducedItems": ["das-brot", "die-butter", "der-apfel", "das-wasser", "ich-haette-gern", "zusammen-bitte"],
+      "introducedItems": [
+        "das-brot",
+        "die-butter",
+        "der-apfel",
+        "das-wasser",
+        "ich-haette-gern",
+        "zusammen-bitte"
+      ],
       "beats": [
-        { "type": "narration", "text": "Sonntagmorgen. Die Jahnallee riecht nach Brötchen. In der Bäckerei Wenzel stehen vier Leute an — alle reden Deutsch. Alle." },
-        { "type": "meet", "itemIds": ["das-brot", "die-butter", "der-apfel"] },
-        { "type": "line", "speaker": "verkaeuferin", "text": "Guten Morgen! Und für Sie?", "translation": "Good morning! And for you?" },
-        { "type": "meet", "itemIds": ["das-wasser", "ich-haette-gern", "zusammen-bitte"] },
-        { "type": "choice", "prompt": "Du bist dran.", "options": [
-          { "label": "Ich hätte gern ein Brötchen und ein Wasser.", "line": "Ich hätte gern ein Brötchen und ein Wasser." },
-          { "label": "Ein Brot, bitte. …Und Butter.", "line": "Ein Brot, bitte. …Und Butter." }
-        ] },
-        { "type": "line", "speaker": "verkaeuferin", "text": "Sehr gern. Sonst noch etwas? — Zusammen macht drei vierzig.", "translation": "With pleasure. Anything else? — Together that's three forty." },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "narration", "text": "Mit der Tüte auf dem Arm gehst du zurück. Das Brot ist noch warm. Leipzig kann also was." },
-        { "type": "check", "count": 2, "mode": "recall" }
+        {
+          "type": "narration",
+          "text": "Sonntagmorgen. Die Jahnallee riecht nach Brötchen. In der Bäckerei Wenzel stehen vier Leute an — alle reden Deutsch. Alle."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "das-brot",
+            "die-butter",
+            "der-apfel"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "verkaeuferin",
+          "text": "Guten Morgen! Und für Sie?",
+          "translation": "Good morning! And for you?"
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "das-wasser",
+            "ich-haette-gern",
+            "zusammen-bitte"
+          ]
+        },
+        {
+          "type": "choice",
+          "prompt": "Du bist dran.",
+          "options": [
+            {
+              "label": "Ich hätte gern ein Brötchen und ein Wasser.",
+              "line": "Ich hätte gern ein Brötchen und ein Wasser."
+            },
+            {
+              "label": "Ein Brot, bitte. …Und Butter.",
+              "line": "Ein Brot, bitte. …Und Butter."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "verkaeuferin",
+          "text": "Sehr gern. Sonst noch etwas? — Zusammen macht drei vierzig.",
+          "translation": "With pleasure. Anything else? — Together that's three forty."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "narration",
+          "text": "Mit der Tüte auf dem Arm gehst du zurück. Das Brot ist noch warm. Leipzig kann also was."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        }
       ]
     },
     {
@@ -92,23 +488,98 @@
       "titleEn": "Furniture with Tobias",
       "place": "Wohnung, 2. OG",
       "bg": "wohnung",
-      "contextTags": ["home", "furniture", "neighbors"],
+      "contextTags": [
+        "home",
+        "furniture",
+        "neighbors"
+      ],
       "requiredItems": [],
-      "introducedItems": ["der-stuhl", "die-lampe", "das-regal", "der-hammer", "ich-helfe-dir", "danke-schoen"],
+      "introducedItems": [
+        "der-stuhl",
+        "die-lampe",
+        "das-regal",
+        "der-hammer",
+        "ich-helfe-dir",
+        "danke-schoen"
+      ],
       "beats": [
-        { "type": "narration", "text": "Ein Karton Regalbretter, zwölf Schrauben, null Anleitung. Tobias kommt mit einer Werkzeugkiste die Treppe hoch." },
-        { "type": "line", "speaker": "tobias", "text": "Anleitung? Hab ich nie benutzt. Ich helfe dir!", "translation": "Instructions? Never used one. I'll help you!" },
-        { "type": "meet", "itemIds": ["der-stuhl", "die-lampe", "das-regal"] },
-        { "type": "meet", "itemIds": ["der-hammer", "ich-helfe-dir", "danke-schoen"] },
-        { "type": "choice", "prompt": "Er überreicht dir den Hammer wie einen Worcesters.", "options": [
-          { "label": "Danke schön, Tobias!", "line": "Danke schön, Tobias!" },
-          { "label": "Ich helfe dir dann beim Umzug. …Irgendwann.", "line": "Ich helfe dir dann beim Umzug. …Irgendwann." }
-        ] },
-        { "type": "line", "speaker": "tobias", "text": "Abgemacht! …Moment. Der Stuhl wackelt. Hammer.", "translation": "Deal! …Wait. The chair wobbles. Hammer." },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "narration", "text": "Zwei Stunden später steht das Regal. Schief, aber es steht. Die Lampe macht warmes Licht auf den alten Dielen." },
-        { "type": "check", "count": 2, "mode": "recall" },
-        { "type": "line", "speaker": "tobias", "text": "Wenn du Bock hast: Donnerstag spielen wir in Connewitz. Komm doch mit!", "translation": "If you're up for it: Thursday we're playing in Connewitz. Come along!" }
+        {
+          "type": "narration",
+          "text": "Ein Karton Regalbretter, zwölf Schrauben, null Anleitung. Tobias kommt mit einer Werkzeugkiste die Treppe hoch."
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Anleitung? Hab ich nie benutzt. Ich helfe dir!",
+          "translation": "Instructions? Never used one. I'll help you!"
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-stuhl",
+            "die-lampe",
+            "das-regal"
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-hammer",
+            "ich-helfe-dir",
+            "danke-schoen"
+          ]
+        },
+        {
+          "type": "choice",
+          "prompt": "Er überreicht dir den Hammer wie einen Worcesters.",
+          "options": [
+            {
+              "label": "Danke schön, Tobias!",
+              "line": "Danke schön, Tobias!"
+            },
+            {
+              "label": "Ich helfe dir dann beim Umzug. …Irgendwann.",
+              "line": "Ich helfe dir dann beim Umzug. …Irgendwann."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Abgemacht! …Moment. Der Stuhl wackelt. Hammer.",
+          "translation": "Deal! …Wait. The chair wobbles. Hammer."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "narration",
+          "text": "Zwei Stunden später steht das Regal. Schief, aber es steht. Die Lampe macht warmes Licht auf den alten Dielen."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Wenn du Bock hast: Donnerstag spielen wir in Connewitz. Komm doch mit!",
+          "translation": "If you're up for it: Thursday we're playing in Connewitz. Come along!"
+        },
+        {
+          "type": "reading",
+          "title": "Aufbauanleitung: Regal „LEP-2000“",
+          "text": "1. Teile zählen: 8 Bretter, 16 Schrauben, 1 Hammer.\n2. Kurzes Brett oben. Lange Bretter unten. (Physik.)\n3. Schrauben fest — aber nicht zu fest. (Erfahrung.)\n4. Fertig? Regal schief? → Zweite Person hilft.\n\nHinweis: Das Regal ist gerade.\nDie Wand ist schief. Willkommen im Altbau.",
+          "translation": "1. Count the parts: 8 boards, 16 screws, 1 hammer.\n2. Short board on top. Long boards at the bottom. (Physics.)\n3. Tighten the screws — but not too tight. (Experience.)\n4. Done? Shelf crooked? → A second person helps.\n\nNote: the shelf is straight.\nThe wall is crooked. Welcome to old buildings.",
+          "itemIds": [
+            "das-regal",
+            "der-hammer",
+            "ich-helfe-dir"
+          ]
+        }
       ]
     }
   ]

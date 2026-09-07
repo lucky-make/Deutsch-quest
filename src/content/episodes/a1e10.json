@@ -472,6 +472,17 @@
           "type": "check",
           "count": 2,
           "mode": "listen"
+        },
+        {
+          "type": "reading",
+          "title": "Tafel: Fütterungszeiten",
+          "text": "FÜTTERUNG (BITTE ZUSCHAUEN, NICHT HELFEN):\n\nGiraffen   11:00 & 15:00\nLöwen      14:30 (lahm-Schauen inklusive)\nAffen      immer. Wirklich. Immer.\n\nFragen? Die Tierpflegerin steht nach jeder\nFütterung bereit. Kinder zuerst. Erwachsene:\nauch. (Kind im Herzen zählt.)",
+          "translation": "FEEDING TIMES (please watch, don't help):\n\nGiraffes   11 am & 3 pm\nLions      2:30 pm (lazy-watching included)\nMonkeys    always. Really. Always.\n\nQuestions? The zookeeper is available after every\nfeeding. Children first. Adults:\ntoo. (Inner child counts.)",
+          "itemIds": [
+            "die-tierpflegerin",
+            "fuettern",
+            "die-giraffe"
+          ]
         }
       ]
     },

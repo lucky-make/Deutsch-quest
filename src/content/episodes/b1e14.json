@@ -468,6 +468,17 @@
           "speaker": "berger",
           "text": "(vorbei mit Getränkekisten) Zweiundvierzig vorverkauft, du hast schon dreißig an der Kasse! …Sam, du rechnest schneller als mein Kassenprogramm. Bleib genau so — und schau dir die Vorgruppe an. Übung für dein Auge.",
           "translation": "(passing by with drink crates) Forty-two pre-sold, and you've already done thirty at the box office! …Sam, you count faster than my ticketing software. Stay exactly like that — and go watch the support act. Training for your eye."
+        },
+        {
+          "type": "reading",
+          "title": "Preisliste Merchstand (Tobias' Handschrift)",
+          "text": "TAUCHERGLOCKE — ABENDKASSE & MERCH\n\nTicket: 10 € (Vorkauf 8 € — sag's den Leuten!)\nT-Shirt: 18 € (L fast weg)\nPlatte: 20 € (signiert +2, Mei entscheidet spontan)\nSticker: 1 € oder Geschichte gegen Sticker\n\nVorgruppe „Die Mieter“: besser als ihr Name.\n(Statement vom Stand. Wird verteidigt.)",
+          "translation": "TAUCHERGLOCKE — BOX OFFICE & MERCH\n\nTicket: €10 (advance €8 — tell people!)\nT-shirt: €18 (L almost gone)\nRecord: €20 (signed +2, Mei decides spontaneously)\nSticker: €1 or story-for-sticker\n\nSupport act 'Die Mieter': better than their name.\n(Statement from the stand. Will be defended.)",
+          "itemIds": [
+            "der-merchstand",
+            "die-abendkasse",
+            "die-vorgruppe"
+          ]
         }
       ]
     },
@@ -545,6 +556,17 @@
           "type": "check",
           "count": 2,
           "mode": "listen"
+        },
+        {
+          "type": "reading",
+          "title": "Setlist (von der Bühne gefallen)",
+          "text": "1. Gleislos\n2. Regen auf Beton\n3. Milchschaum\n4. Die Mieter (mit Vorgruppe!)\n5. Kinshasa, 4 Uhr\n—\n6. (ZUGABE) Bis zur Zugabe\n\nAnmerkung von Mei:\n»Alle mitsingen. Besonders bei 5.\n Besonders SAM.«",
+          "translation": "1. Platformless\n2. Rain on Concrete\n3. Milk Foam\n4. The Tenants (with the support act!)\n5. Kinshasa, 4 a.m.\n—\n6. (ENCORE) Until the Encore\n\nNote from Mei:\n'Everyone sings along. Especially on 5.\nEspecially SAM.'",
+          "itemIds": [
+            "die-setlist",
+            "mitsingen",
+            "die-zugabe"
+          ]
         },
         {
           "type": "narration",

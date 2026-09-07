@@ -3,7 +3,8 @@
 **Status quo (this build):** 54 episodes · 159 scenes · 933 knowledge items ·
 159 scenes of continuous story from arrival to a passed B2 exam, two
 Christmas seasons and a New Year's toast — every episode a complete 3-scene
-arc, plus 47 Lektüre (reading) beats with glossary chips and translations.
+arc, plus 120 Lektüre (reading) beats — at least two per episode — with
+glossary chips and translations.
 
 ## What B2 actually requires
 
@@ -12,7 +13,7 @@ arc, plus 47 Lektüre (reading) beats with glossary chips and translations.
 | Word families (active) | ~3,500–4,500 | 933 items (~740 word families) | ~4–5× |
 | Grammar patterns | all of A1–B2 systematically (Passiv, Konj. II, Nebensätze, Relativsätze, Partizipien, Konjunktiv I…) | 34 patterns, the most important ones, woven into story (incl. Verben mit Präpositionen, Plusquamperfekt, Konjunktiv I, Nominalstil, Modalpräteritum, KII-Vergangenheit, Passiv mit Modalverb, weil/deshalb/damit/um…zu/ohne…zu, falls, obwohl-artig (zwar…aber), nicht nur…sondern auch, sich gewöhnen an) | broad coverage exists, depth missing |
 | Listening | hours of native-rate input | TTS dialogue lines + listen-checks | needs real media |
-| Reading | long-form texts | dialogue + narrations + 47 adapted passages (Amtsdeutsch, Leserbrief, Wetterwarnung, Theoriebogen, Protokoll, Gartenordnung, Einkaufszettel, Deutungshilfe…) | adapted texts exist; long-form books still outside |
+| Reading | long-form texts | dialogue + narrations + 120 adapted passages (Amtsdeutsch, Leserbrief, Wetterwarnung, Theoriebogen, Protokoll, Gartenordnung, Einkaufszettel, Deutungshilfe…) | adapted texts exist; long-form books still outside |
 | Speaking | interactive production | typed production + hint ladder | needs humans (or future SR) |
 
 ## What the app already does for you (the part most learners fail at)
@@ -35,8 +36,10 @@ arc, plus 47 Lektüre (reading) beats with glossary chips and translations.
 
 1. ~~Third scenes for the 8 two-scene episodes~~ **done** — every episode is
    now 3 scenes; every A-episode ends its day, every B-episode ends its arc.
-2. ~~Reading beats~~ **done** — `reading` beat type shipped; 15 passages across
-   A1–B2 (Angebote, Amtsbriefe, Police-Mail, Leserbrief, Verlaufsbericht …).
+2. ~~Reading beats~~ **done, then doubled down** — `reading` beat type shipped;
+   now 120 passages, at least two per episode (Angebote, Amtsbriefe,
+   Police-Mail, Leserbrief, Verlaufsbericht, Prüfungsbestätigung, Setlist,
+   Abnahmeprotokoll, Karten und Notizen aus dem Leben selbst …).
 3. ~~Level packs: topical episodes~~ **ongoing** — 28 topical episodes added
    (Markt, Führerschein, Stromwechsel, Tandem, Geburtstag, Lesung, Jahresfinale,
    Zoo, Museum, Frühjahrsputz, erster Schnee, Mieterversammlung, Flohmarkt,

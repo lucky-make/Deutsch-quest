@@ -438,6 +438,17 @@
           "mode": "recall"
         },
         {
+          "type": "reading",
+          "title": "Omas Rezept: Gemüsesuppe",
+          "text": "Für 4 Personen (oder 3 Nachbarn):\n\n— 4 Kartoffeln, 2 Karotten, Gemüse nach Markt\n— Butter in den Topf, Zwiebeln glasig\n— Wasser dazu, 20 Minuten — GENUG, Oma sagt\n— Salz probieren. Dann nochmal.\n\nDazu: Salat und Brot.\nWer nachfragt, kriegt die Suppe gleich doppelt erklärt.",
+          "translation": "For 4 people (or 3 neighbours):\n\n— 4 potatoes, 2 carrots, vegetables from the market\n— Butter in the pot, onions till glassy\n— Add water, 20 minutes — ENOUGH, grandma says\n— Taste for salt. Then again.\n\nWith it: salad and bread.\nWhoever asks gets the soup explained twice as long.",
+          "itemIds": [
+            "die-suppe",
+            "der-salat",
+            "es-war-sehr-lecker"
+          ]
+        },
+        {
           "type": "narration",
           "text": "Du sagst „schön“ und meinst es. Der Kaffee duftet, draußen wird es dunkel über den Dächern der Bärbelstraße."
         }
@@ -529,6 +540,17 @@
           "type": "check",
           "count": 2,
           "mode": "recall"
+        },
+        {
+          "type": "reading",
+          "title": "Antwortzettel (Füllfeder)",
+          "text": "»Kaffee ist um vier. Deine Kanne darf kommen —\nsie hat schon einen guten Ruf in diesem Haus.\n\nKuchen selbstgemacht? Dann sind wir Gäste.\nDas ist ein Unterschied, junger Mann.\n\n— E. Brügge«\n\n(An der Tür: kein Klingelschild. Nur dieser Zettel.\nAlle im Haus kennen ihn.)",
+          "translation": "'Coffee is at four. Your pot may come —\nit already has a good reputation in this house.\n\nCake homemade? Then we're guests.\nThat's a difference, young man.\n\n— E. Brügge'\n\n(On the door: no nameplate. Just this note.\nEveryone in the building knows it.)",
+          "itemIds": [
+            "der-zettel",
+            "die-kanne",
+            "der-gast"
+          ]
         },
         {
           "type": "narration",

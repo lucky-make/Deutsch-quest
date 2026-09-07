@@ -7,31 +7,292 @@
     "titleEn": "The first Sunday",
     "blurb": "Sonntag, 22 Grad, kein Termin. Tobias erklärt dir das Wichtigste Wort für Leipzig: Picknick. Rosental, Wiese, Enten — und dein erstes „Lass uns …“.",
     "order": 8,
-    "sceneIds": ["a1e8s1", "a1e8s2", "a1e8s3"]
+    "sceneIds": [
+      "a1e8s1",
+      "a1e8s2",
+      "a1e8s3"
+    ]
   },
   "cast": [
-    { "id": "tobias", "name": "Tobias", "role": "Nachbar, Student" },
-    { "id": "frau-bruegge", "name": "Frau Brügge", "role": "Vermieterin" }
+    {
+      "id": "tobias",
+      "name": "Tobias",
+      "role": "Nachbar, Student"
+    },
+    {
+      "id": "frau-bruegge",
+      "name": "Frau Brügge",
+      "role": "Vermieterin"
+    }
   ],
   "items": [
-    { "id": "die-wiese", "type": "word", "german": "die Wiese", "meaning": "the meadow / grass field", "image": "blumen", "audio": "tts", "introducedInScene": "a1e8s1", "tags": ["nature", "leisure"], "cefrLevel": "A1", "note": "die, Plural: die Wiesen — grün und im Sommer voll" },
-    { "id": "die-decke", "type": "word", "german": "die Decke", "meaning": "the blanket / ceiling", "image": "decke", "audio": "tts", "introducedInScene": "a1e8s1", "tags": ["leisure", "home"], "cefrLevel": "A1", "note": "die, Plural: die Decken — auch die Zimmerdecke!" },
-    { "id": "das-picknick", "type": "word", "german": "das Picknick", "meaning": "the picnic", "image": "korb", "audio": "tts", "introducedInScene": "a1e8s1", "tags": ["food", "leisure"], "cefrLevel": "A1", "note": "das, Plural: die Picknicke — Picknick machen" },
-    { "id": "der-himmel", "type": "word", "german": "der Himmel", "meaning": "the sky", "image": "wetter", "audio": "tts", "introducedInScene": "a1e8s1", "tags": ["nature", "weather"], "cefrLevel": "A1", "note": "der ( Singular ) — blauer Himmel = gutes Wetter" },
-    { "id": "die-vorfreude", "type": "word", "german": "die Vorfreude", "meaning": "the anticipation", "image": "geschenk", "audio": "tts", "introducedInScene": "a1e8s1", "tags": ["feelings", "leisure"], "cefrLevel": "A1", "note": "die ( Singular ) — „Vorfreude ist die schönste Freude“" },
-    { "id": "lass-uns-spazieren", "type": "grammar_pattern", "german": "Lass uns ___ gehen!", "meaning": "Let's go for a walk!", "image": "ziel", "audio": "tts", "introducedInScene": "a1e8s1", "tags": ["grammar", "leisure"], "cefrLevel": "A1", "cloze": "spazieren", "speak": "Lass uns spazieren gehen!", "note": "Lass uns + Verb — Vorschläge machen auf A1-Niveau" },
-    { "id": "die-ente", "type": "word", "german": "die Ente", "meaning": "the duck", "image": "ente", "audio": "tts", "introducedInScene": "a1e8s2", "tags": ["nature", "animals"], "cefrLevel": "A1", "note": "die, Plural: die Enten — im Park sehr mutig" },
-    { "id": "das-eis", "type": "word", "german": "das Eis", "meaning": "the ice cream", "image": "eis", "audio": "tts", "introducedInScene": "a1e8s2", "tags": ["food", "leisure"], "cefrLevel": "A1", "note": "das ( Singular ) — auch: der Eisbecher; „ein Eis“ geht immer" },
-    { "id": "der-drachen", "type": "word", "german": "der Drachen", "meaning": "the kite (also: dragon)", "image": "drachen", "audio": "tts", "introducedInScene": "a1e8s2", "tags": ["leisure", "nature"], "cefrLevel": "A1", "note": "der, Plural: die Drachen — einen Drachen steigen lassen" },
-    { "id": "die-wolke", "type": "word", "german": "die Wolke", "meaning": "the cloud", "image": "wetter", "audio": "tts", "introducedInScene": "a1e8s2", "tags": ["weather", "nature"], "cefrLevel": "A1", "note": "die, Plural: die Wolken — wolkenlos = perfekt" },
-    { "id": "gemuetlich", "type": "word", "german": "gemütlich", "meaning": "cozy / comfortable / unhurried", "image": "ruhe", "audio": "tts", "introducedInScene": "a1e8s2", "tags": ["feelings", "opinion"], "cefrLevel": "A1", "note": "Adjektiv — DAS deutsche Gefühlswort" },
-    { "id": "die-limo", "type": "word", "german": "die Limo", "meaning": "the soft drink (colloquial)", "image": "getränk", "audio": "tts", "introducedInScene": "a1e8s2", "tags": ["food"], "cefrLevel": "A1", "note": "die, Plural: die Limos — kurz für Limonade" },
-    { "id": "der-heimweg", "type": "word", "german": "der Heimweg", "meaning": "the way home", "image": "strasse", "audio": "tts", "introducedInScene": "a1e8s3", "tags": ["city", "time"], "cefrLevel": "A1", "note": "der, Plural: die Heimwege — auf dem Heimweg" },
-    { "id": "die-kirsche", "type": "word", "german": "die Kirsche", "meaning": "the cherry", "image": "apfel", "audio": "tts", "introducedInScene": "a1e8s3", "tags": ["food"], "cefrLevel": "A1", "note": "die, Plural: die Kirschen — im Sommer günstig" },
-    { "id": "der-sonnenuntergang", "type": "word", "german": "der Sonnenuntergang", "meaning": "the sunset", "image": "sonnenuntergang", "audio": "tts", "introducedInScene": "a1e8s3", "tags": ["nature", "time"], "cefrLevel": "A1", "note": "der, Plural: die Sonnenuntergänge" },
-    { "id": "die-laterne", "type": "word", "german": "die Laterne", "meaning": "the (street) lantern", "image": "lampe", "audio": "tts", "introducedInScene": "a1e8s3", "tags": ["city"], "cefrLevel": "A1", "note": "die, Plural: die Laternen — abends angehen" },
-    { "id": "der-mond", "type": "word", "german": "der Mond", "meaning": "the moon", "image": "zukunft", "audio": "tts", "introducedInScene": "a1e8s3", "tags": ["nature"], "cefrLevel": "A1", "note": "der ( Singular ) — voller Mond" },
-    { "id": "zufrieden", "type": "word", "german": "zufrieden", "meaning": "satisfied / content", "image": "person", "audio": "tts", "introducedInScene": "a1e8s3", "tags": ["feelings"], "cefrLevel": "A1", "note": "zufrieden SEIN MIT + Dativ" }
+    {
+      "id": "die-wiese",
+      "type": "word",
+      "german": "die Wiese",
+      "meaning": "the meadow / grass field",
+      "image": "blumen",
+      "audio": "tts",
+      "introducedInScene": "a1e8s1",
+      "tags": [
+        "nature",
+        "leisure"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Wiesen — grün und im Sommer voll"
+    },
+    {
+      "id": "die-decke",
+      "type": "word",
+      "german": "die Decke",
+      "meaning": "the blanket / ceiling",
+      "image": "decke",
+      "audio": "tts",
+      "introducedInScene": "a1e8s1",
+      "tags": [
+        "leisure",
+        "home"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Decken — auch die Zimmerdecke!"
+    },
+    {
+      "id": "das-picknick",
+      "type": "word",
+      "german": "das Picknick",
+      "meaning": "the picnic",
+      "image": "korb",
+      "audio": "tts",
+      "introducedInScene": "a1e8s1",
+      "tags": [
+        "food",
+        "leisure"
+      ],
+      "cefrLevel": "A1",
+      "note": "das, Plural: die Picknicke — Picknick machen"
+    },
+    {
+      "id": "der-himmel",
+      "type": "word",
+      "german": "der Himmel",
+      "meaning": "the sky",
+      "image": "wetter",
+      "audio": "tts",
+      "introducedInScene": "a1e8s1",
+      "tags": [
+        "nature",
+        "weather"
+      ],
+      "cefrLevel": "A1",
+      "note": "der ( Singular ) — blauer Himmel = gutes Wetter"
+    },
+    {
+      "id": "die-vorfreude",
+      "type": "word",
+      "german": "die Vorfreude",
+      "meaning": "the anticipation",
+      "image": "geschenk",
+      "audio": "tts",
+      "introducedInScene": "a1e8s1",
+      "tags": [
+        "feelings",
+        "leisure"
+      ],
+      "cefrLevel": "A1",
+      "note": "die ( Singular ) — „Vorfreude ist die schönste Freude“"
+    },
+    {
+      "id": "lass-uns-spazieren",
+      "type": "grammar_pattern",
+      "german": "Lass uns ___ gehen!",
+      "meaning": "Let's go for a walk!",
+      "image": "ziel",
+      "audio": "tts",
+      "introducedInScene": "a1e8s1",
+      "tags": [
+        "grammar",
+        "leisure"
+      ],
+      "cefrLevel": "A1",
+      "cloze": "spazieren",
+      "speak": "Lass uns spazieren gehen!",
+      "note": "Lass uns + Verb — Vorschläge machen auf A1-Niveau"
+    },
+    {
+      "id": "die-ente",
+      "type": "word",
+      "german": "die Ente",
+      "meaning": "the duck",
+      "image": "ente",
+      "audio": "tts",
+      "introducedInScene": "a1e8s2",
+      "tags": [
+        "nature",
+        "animals"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Enten — im Park sehr mutig"
+    },
+    {
+      "id": "das-eis",
+      "type": "word",
+      "german": "das Eis",
+      "meaning": "the ice cream",
+      "image": "eis",
+      "audio": "tts",
+      "introducedInScene": "a1e8s2",
+      "tags": [
+        "food",
+        "leisure"
+      ],
+      "cefrLevel": "A1",
+      "note": "das ( Singular ) — auch: der Eisbecher; „ein Eis“ geht immer"
+    },
+    {
+      "id": "der-drachen",
+      "type": "word",
+      "german": "der Drachen",
+      "meaning": "the kite (also: dragon)",
+      "image": "drachen",
+      "audio": "tts",
+      "introducedInScene": "a1e8s2",
+      "tags": [
+        "leisure",
+        "nature"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Drachen — einen Drachen steigen lassen"
+    },
+    {
+      "id": "die-wolke",
+      "type": "word",
+      "german": "die Wolke",
+      "meaning": "the cloud",
+      "image": "wetter",
+      "audio": "tts",
+      "introducedInScene": "a1e8s2",
+      "tags": [
+        "weather",
+        "nature"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Wolken — wolkenlos = perfekt"
+    },
+    {
+      "id": "gemuetlich",
+      "type": "word",
+      "german": "gemütlich",
+      "meaning": "cozy / comfortable / unhurried",
+      "image": "ruhe",
+      "audio": "tts",
+      "introducedInScene": "a1e8s2",
+      "tags": [
+        "feelings",
+        "opinion"
+      ],
+      "cefrLevel": "A1",
+      "note": "Adjektiv — DAS deutsche Gefühlswort"
+    },
+    {
+      "id": "die-limo",
+      "type": "word",
+      "german": "die Limo",
+      "meaning": "the soft drink (colloquial)",
+      "image": "getränk",
+      "audio": "tts",
+      "introducedInScene": "a1e8s2",
+      "tags": [
+        "food"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Limos — kurz für Limonade"
+    },
+    {
+      "id": "der-heimweg",
+      "type": "word",
+      "german": "der Heimweg",
+      "meaning": "the way home",
+      "image": "strasse",
+      "audio": "tts",
+      "introducedInScene": "a1e8s3",
+      "tags": [
+        "city",
+        "time"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Heimwege — auf dem Heimweg"
+    },
+    {
+      "id": "die-kirsche",
+      "type": "word",
+      "german": "die Kirsche",
+      "meaning": "the cherry",
+      "image": "apfel",
+      "audio": "tts",
+      "introducedInScene": "a1e8s3",
+      "tags": [
+        "food"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Kirschen — im Sommer günstig"
+    },
+    {
+      "id": "der-sonnenuntergang",
+      "type": "word",
+      "german": "der Sonnenuntergang",
+      "meaning": "the sunset",
+      "image": "sonnenuntergang",
+      "audio": "tts",
+      "introducedInScene": "a1e8s3",
+      "tags": [
+        "nature",
+        "time"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Sonnenuntergänge"
+    },
+    {
+      "id": "die-laterne",
+      "type": "word",
+      "german": "die Laterne",
+      "meaning": "the (street) lantern",
+      "image": "lampe",
+      "audio": "tts",
+      "introducedInScene": "a1e8s3",
+      "tags": [
+        "city"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Laternen — abends angehen"
+    },
+    {
+      "id": "der-mond",
+      "type": "word",
+      "german": "der Mond",
+      "meaning": "the moon",
+      "image": "zukunft",
+      "audio": "tts",
+      "introducedInScene": "a1e8s3",
+      "tags": [
+        "nature"
+      ],
+      "cefrLevel": "A1",
+      "note": "der ( Singular ) — voller Mond"
+    },
+    {
+      "id": "zufrieden",
+      "type": "word",
+      "german": "zufrieden",
+      "meaning": "satisfied / content",
+      "image": "person",
+      "audio": "tts",
+      "introducedInScene": "a1e8s3",
+      "tags": [
+        "feelings"
+      ],
+      "cefrLevel": "A1",
+      "note": "zufrieden SEIN MIT + Dativ"
+    }
   ],
   "scenes": [
     {
@@ -41,22 +302,86 @@
       "titleEn": "The plan",
       "place": "Wohnung, Sonntagmorgen",
       "bg": "wohnung",
-      "contextTags": ["friends", "leisure", "weather"],
-      "requiredItems": ["der-sonntag", "das-wetter"],
-      "introducedItems": ["die-wiese", "die-decke", "das-picknick", "der-himmel", "die-vorfreude", "lass-uns-spazieren"],
+      "contextTags": [
+        "friends",
+        "leisure",
+        "weather"
+      ],
+      "requiredItems": [
+        "der-sonntag",
+        "das-wetter"
+      ],
+      "introducedItems": [
+        "die-wiese",
+        "die-decke",
+        "das-picknick",
+        "der-himmel",
+        "die-vorfreude",
+        "lass-uns-spazieren"
+      ],
       "beats": [
-        { "type": "narration", "text": "Sonntagmorgen. Die Sonne steht im Zimmer, und dein Handy bleibt still. Kein Termin. Kein Amt. Tobias klopft mit einem Rucksack und dem Gesicht eines Menschen mit Plan." },
-        { "type": "line", "speaker": "tobias", "text": "Guten Morgen, Sonne! Das Wetter ist perfekt — 24 Grad, eine kleine Wolke, mehr nicht. Wir machen Picknick. Rosental. Ich habe Decke, Brot, Limo. Du bringst dich selbst mit — das reicht.", "translation": "Good morning, sunshine! The weather is perfect — 24 degrees, one small cloud, that's it. We're having a picnic. Rosental park. I've got a blanket, bread, lemonade. You just bring yourself — that's enough." },
-        { "type": "meet", "itemIds": ["die-wiese", "die-decke", "das-picknick"] },
-        { "type": "line", "speaker": "tobias", "text": "Siehst du den Himmel? Ganz blau. Und weißt du, was ich am besten finde? Die Vorfreude. Sonntag ist erfunden worden, damit Menschen Picknick machen. Glaub mir, ich war dabei.", "translation": "See the sky? Completely blue. And you know what I like best? The anticipation. Sunday was invented so that people have picnics. Trust me, I was there." },
-        { "type": "meet", "itemIds": ["der-himmel", "die-vorfreude", "lass-uns-spazieren"] },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "choice", "prompt": "Tobias wartet an der Tür.", "options": [
-          { "label": "Lass uns spazieren gehen! Ich bin dabei.", "line": "Lass uns spazieren gehen! Ich bin dabei — und ich bringe Kirschen mit." },
-          { "label": "Ein Picknick? Ich habe noch nie eins gemacht.", "line": "Ein Picknick? Ich habe noch nie eins gemacht. …Zeit für die erste Vorfreude deines Lebens." }
-        ] },
-        { "type": "check", "count": 2, "mode": "recall" },
-        { "type": "reading", "title": "Wetterbericht für Leipzig", "text": "Wetterbericht — Sonntag\n\nLeipzig: 24 Grad, sonnig.\nAm Nachmittag ein paar Wolken,\nkein Regen. Wind schwach, 2–3.\n\nPerfekt für einen Ausflug:\nRosental, Auensee, Park.\n\nSonnencreme nicht vergessen!", "translation": "Weather report — Sunday\n\nLeipzig: 24 degrees, sunny.\nA few clouds in the afternoon,\nno rain. Wind light, 2–3.\n\nPerfect for an outing:\nRosental, Auensee, park.\n\nDon't forget sunscreen!" }
+        {
+          "type": "narration",
+          "text": "Sonntagmorgen. Die Sonne steht im Zimmer, und dein Handy bleibt still. Kein Termin. Kein Amt. Tobias klopft mit einem Rucksack und dem Gesicht eines Menschen mit Plan."
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Guten Morgen, Sonne! Das Wetter ist perfekt — 24 Grad, eine kleine Wolke, mehr nicht. Wir machen Picknick. Rosental. Ich habe Decke, Brot, Limo. Du bringst dich selbst mit — das reicht.",
+          "translation": "Good morning, sunshine! The weather is perfect — 24 degrees, one small cloud, that's it. We're having a picnic. Rosental park. I've got a blanket, bread, lemonade. You just bring yourself — that's enough."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-wiese",
+            "die-decke",
+            "das-picknick"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Siehst du den Himmel? Ganz blau. Und weißt du, was ich am besten finde? Die Vorfreude. Sonntag ist erfunden worden, damit Menschen Picknick machen. Glaub mir, ich war dabei.",
+          "translation": "See the sky? Completely blue. And you know what I like best? The anticipation. Sunday was invented so that people have picnics. Trust me, I was there."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-himmel",
+            "die-vorfreude",
+            "lass-uns-spazieren"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Tobias wartet an der Tür.",
+          "options": [
+            {
+              "label": "Lass uns spazieren gehen! Ich bin dabei.",
+              "line": "Lass uns spazieren gehen! Ich bin dabei — und ich bringe Kirschen mit."
+            },
+            {
+              "label": "Ein Picknick? Ich habe noch nie eins gemacht.",
+              "line": "Ein Picknick? Ich habe noch nie eins gemacht. …Zeit für die erste Vorfreude deines Lebens."
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "reading",
+          "title": "Wetterbericht für Leipzig",
+          "text": "Wetterbericht — Sonntag\n\nLeipzig: 24 Grad, sonnig.\nAm Nachmittag ein paar Wolken,\nkein Regen. Wind schwach, 2–3.\n\nPerfekt für einen Ausflug:\nRosental, Auensee, Park.\n\nSonnencreme nicht vergessen!",
+          "translation": "Weather report — Sunday\n\nLeipzig: 24 degrees, sunny.\nA few clouds in the afternoon,\nno rain. Wind light, 2–3.\n\nPerfect for an outing:\nRosental, Auensee, park.\n\nDon't forget sunscreen!"
+        }
       ]
     },
     {
@@ -66,22 +391,84 @@
       "titleEn": "Picnic in the Rosental",
       "place": "Rosental, große Wiese",
       "bg": "park",
-      "contextTags": ["friends", "food", "nature"],
-      "requiredItems": ["das-brot", "lecker"],
-      "introducedItems": ["die-ente", "das-eis", "der-drachen", "die-wolke", "gemuetlich", "die-limo"],
+      "contextTags": [
+        "friends",
+        "food",
+        "nature"
+      ],
+      "requiredItems": [
+        "das-brot",
+        "lecker"
+      ],
+      "introducedItems": [
+        "die-ente",
+        "das-eis",
+        "der-drachen",
+        "die-wolke",
+        "gemuetlich",
+        "die-limo"
+      ],
       "beats": [
-        { "type": "narration", "text": "Die Wiese ist ein grünes Meer: Familien, Hunde, ein Mann mit einem Drachen und viel zu viel Zuversicht. Ihr breitet die Decke direkt unter einer alten Kastanie aus." },
-        { "type": "line", "speaker": "tobias", "text": "So. Decke glatt, Brot auf, Limo kalt. …Und da vorne: Enten. Vorsicht, die sind hier frech. Die eine da, mit dem Gesicht — die hat mir letzten Sommer das Brot gestohlen. Ich vergesse nie.", "translation": "Right. Blanket smooth, bread out, lemonade cold. …And over there: ducks. Careful, they're cheeky here. That one, with that face — she stole my bread last summer. I never forget." },
-        { "type": "meet", "itemIds": ["die-ente", "das-eis", "die-limo"] },
-        { "type": "meet", "itemIds": ["der-drachen", "die-wolke", "gemuetlich"] },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "choice", "prompt": "Der Drachen-Mann kämpft. Der Drachen gewinnt.", "options": [
-          { "label": "Soll ich ihm helfen? Ich renne schnell.", "line": "Soll ich ihm helfen? Ich renne schnell. …Tobias: „Nein. Das muss er selbst. Für seinen Stolz.“" },
-          { "label": "Lass ihn. Wir sind gemütlich, er ist Sportler.", "line": "Lass ihn. Wir sind gemütlich, er ist Sportler. Zwei Welten auf einer Wiese." }
-        ] },
-        { "type": "line", "speaker": "tobias", "text": "Genau so fühlt sich Deutsch an, wenn es endlich klappt: wie ein Picknick. Man sitzt, die Wolken ziehen, ein Eis schmilzt — und nichts ist dringend. …Außer der Ente. Nichts ist frecher als die Ente.", "translation": "That's exactly what German feels like when it finally works: like a picnic. You sit, the clouds drift, an ice cream melts — and nothing is urgent. …Except the duck. Nothing is cheekier than the duck." },
-        { "type": "check", "count": 2, "mode": "listen" },
-        { "type": "narration", "text": "Du isst Brot mit Butter, Tobias erzählt von einem Drachen-Unfall mit Lehrer (Drachen: unschuldig), und die Ente patrouillert in drei Metern Entfernung. Die Zeit geht langsam. Es ist gut so." }
+        {
+          "type": "narration",
+          "text": "Die Wiese ist ein grünes Meer: Familien, Hunde, ein Mann mit einem Drachen und viel zu viel Zuversicht. Ihr breitet die Decke direkt unter einer alten Kastanie aus."
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "So. Decke glatt, Brot auf, Limo kalt. …Und da vorne: Enten. Vorsicht, die sind hier frech. Die eine da, mit dem Gesicht — die hat mir letzten Sommer das Brot gestohlen. Ich vergesse nie.",
+          "translation": "Right. Blanket smooth, bread out, lemonade cold. …And over there: ducks. Careful, they're cheeky here. That one, with that face — she stole my bread last summer. I never forget."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-ente",
+            "das-eis",
+            "die-limo"
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-drachen",
+            "die-wolke",
+            "gemuetlich"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Der Drachen-Mann kämpft. Der Drachen gewinnt.",
+          "options": [
+            {
+              "label": "Soll ich ihm helfen? Ich renne schnell.",
+              "line": "Soll ich ihm helfen? Ich renne schnell. …Tobias: „Nein. Das muss er selbst. Für seinen Stolz.“"
+            },
+            {
+              "label": "Lass ihn. Wir sind gemütlich, er ist Sportler.",
+              "line": "Lass ihn. Wir sind gemütlich, er ist Sportler. Zwei Welten auf einer Wiese."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Genau so fühlt sich Deutsch an, wenn es endlich klappt: wie ein Picknick. Man sitzt, die Wolken ziehen, ein Eis schmilzt — und nichts ist dringend. …Außer der Ente. Nichts ist frecher als die Ente.",
+          "translation": "That's exactly what German feels like when it finally works: like a picnic. You sit, the clouds drift, an ice cream melts — and nothing is urgent. …Except the duck. Nothing is cheekier than the duck."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "narration",
+          "text": "Du isst Brot mit Butter, Tobias erzählt von einem Drachen-Unfall mit Lehrer (Drachen: unschuldig), und die Ente patrouillert in drei Metern Entfernung. Die Zeit geht langsam. Es ist gut so."
+        }
       ]
     },
     {
@@ -91,22 +478,95 @@
       "titleEn": "The way home",
       "place": "Zetizerring, später Nachmittag",
       "bg": "strasse",
-      "contextTags": ["friends", "city", "feelings"],
-      "requiredItems": ["der-kaffee", "langsam"],
-      "introducedItems": ["der-heimweg", "die-kirsche", "der-sonnenuntergang", "die-laterne", "der-mond", "zufrieden"],
+      "contextTags": [
+        "friends",
+        "city",
+        "feelings"
+      ],
+      "requiredItems": [
+        "der-kaffee",
+        "langsam"
+      ],
+      "introducedItems": [
+        "der-heimweg",
+        "die-kirsche",
+        "der-sonnenuntergang",
+        "die-laterne",
+        "der-mond",
+        "zufrieden"
+      ],
       "beats": [
-        { "type": "narration", "text": "Der Heimweg führt an einer Kioskbude vorbei (Kirschen, „2 Euro die Tüte“), und dann wird es plötzlich golden: Der Sonnenuntergang setzt die ganze Straße in Warmwasserfarben." },
-        { "type": "meet", "itemIds": ["der-heimweg", "die-kirsche", "der-sonnenuntergang"] },
-        { "type": "line", "speaker": "tobias", "text": "Kirschen? Hier. Zwei Euro. …Und jetzt sieh mal: Die Laternen gehen an, der Mond kommt hoch, und du lächelst wie ein Mensch, der zuaffen ist. Zufrieden, nicht wahr?", "translation": "Cherries? Here. Two euros. …And now look: the lanterns come on, the moon rises, and you're smiling like someone who ate too much. Content, right?" },
-        { "type": "meet", "itemIds": ["die-laterne", "der-mond", "zufrieden"] },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "choice", "prompt": "Tobias: „Und? Wie war dein erster deutscher Sonntag?“", "options": [
-          { "label": "Sehr gemütlich. Ich bin zufrieden.", "line": "Sehr gemütlich. Ich bin zufrieden. …Und ein bisschen müde. Picknick ist anstrengender als gedacht." },
-          { "label": "Ich habe neue Wörter gelernt: Ente, Wiese, Vorfreude.", "line": "Ich habe neue Wörter gelernt: Ente, Wiese, Vorfreude. …Die Ente kann ich nicht mehr vergessen." }
-        ] },
-        { "type": "line", "speaker": "tobias", "text": "Vorfreude. Das ist das Wort für die Woche. Nächsten Sonntag: Auensee. Ich bring den Drachen mit — diesmal mit Anleitung.", "translation": "Anticipation. That's the word for the week. Next Sunday: Auensee lake. I'll bring the kite — this time with instructions." },
-        { "type": "check", "count": 2, "mode": "listen" },
-        { "type": "narration", "text": "Zu Hause wäschst du die Kirschen und legst sie in eine Schale, einfach, um sie anzusehen. Draußen ist der Mond jetzt richtig da. Dein erster deutscher Sonntag hat ein Ende — und ein Gefühl dahinter: zufrieden." }
+        {
+          "type": "narration",
+          "text": "Der Heimweg führt an einer Kioskbude vorbei (Kirschen, „2 Euro die Tüte“), und dann wird es plötzlich golden: Der Sonnenuntergang setzt die ganze Straße in Warmwasserfarben."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-heimweg",
+            "die-kirsche",
+            "der-sonnenuntergang"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Kirschen? Hier. Zwei Euro. …Und jetzt sieh mal: Die Laternen gehen an, der Mond kommt hoch, und du lächelst wie ein Mensch, der angekommen ist. Zufrieden, nicht wahr?",
+          "translation": "Cherries? Here. Two euros. …And now look: the lanterns come on, the moon rises, and you're smiling like someone who ate too much. Content, right?"
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-laterne",
+            "der-mond",
+            "zufrieden"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Tobias: „Und? Wie war dein erster deutscher Sonntag?“",
+          "options": [
+            {
+              "label": "Sehr gemütlich. Ich bin zufrieden.",
+              "line": "Sehr gemütlich. Ich bin zufrieden. …Und ein bisschen müde. Picknick ist anstrengender als gedacht."
+            },
+            {
+              "label": "Ich habe neue Wörter gelernt: Ente, Wiese, Vorfreude.",
+              "line": "Ich habe neue Wörter gelernt: Ente, Wiese, Vorfreude. …Die Ente kann ich nicht mehr vergessen."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Vorfreude. Das ist das Wort für die Woche. Nächsten Sonntag: Auensee. Ich bring den Drachen mit — diesmal mit Anleitung.",
+          "translation": "Anticipation. That's the word for the week. Next Sunday: Auensee lake. I'll bring the kite — this time with instructions."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "reading",
+          "title": "Tobias' SMS (19:42)",
+          "text": "»Sonnenuntergang: 8/10. Laterne: an.\nKirschen: deine Schuld, ich hab zu viele gegessen.\n\nHeimweg-Vorschlag: die lange Runde.\nZufrieden-Zählen: wie viele Laternen wir passieren,\nbis wir nichts mehr sagen müssen.\n\nIch bin bei 4. Dein Rekord?«",
+          "translation": "'Sunset: 8/10. Lantern: on.\nCherries: your fault, I ate too many.\n\nWay-home suggestion: the long route.\nContentment-counting: how many lanterns we pass\nuntil we don't need to say anything anymore.\n\nI'm at 4. Your record?'",
+          "itemIds": [
+            "der-heimweg",
+            "zufrieden",
+            "der-sonnenuntergang"
+          ]
+        },
+        {
+          "type": "narration",
+          "text": "Zu Hause wäschst du die Kirschen und legst sie in eine Schale, einfach, um sie anzusehen. Draußen ist der Mond jetzt richtig da. Dein erster deutscher Sonntag hat ein Ende — und ein Gefühl dahinter: zufrieden."
+        }
       ]
     }
   ]

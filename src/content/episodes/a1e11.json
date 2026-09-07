@@ -380,6 +380,17 @@
           "type": "check",
           "count": 2,
           "mode": "recall"
+        },
+        {
+          "type": "reading",
+          "title": "Kastentext am Eingang",
+          "text": "MUSEUM DER BILDENDEN KÜNSTE\n\nDi–So 10–18 · Do bis 20 · Mo geschlossen\n\nFÜHRUNG: So 11:00 (deutsch) · 15:00 (einfache Sprache)\nAUDIOGUIDE: 2 € · am Tresen, mit Nummern\n\nObergeschoss: Moderne. Erdgeschoss: Alte Meister.\n\n»Was bedeutet das Bild?\n Die richtige Antwort ist die deine.«",
+          "translation": "MUSEUM OF FINE ARTS\n\nTue–Sun 10–6 · Thu till 8 · Mon closed\n\nTOUR: Sun 11 am (German) · 3 pm (simple language)\nAUDIO GUIDE: €2 · at the desk, with numbers\n\nUpper floor: modern art. Ground floor: old masters.\n\n'What does the painting mean?\nThe right answer is yours.'",
+          "itemIds": [
+            "die-fuehrung",
+            "der-audioguide",
+            "der-eingang"
+          ]
         }
       ]
     },

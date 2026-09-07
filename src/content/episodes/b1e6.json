@@ -460,6 +460,17 @@
           "type": "check",
           "count": 2,
           "mode": "recall"
+        },
+        {
+          "type": "reading",
+          "title": "Spielbericht, Kurzversion",
+          "text": "Lindenau II — Markkleeberg V    2:1\n\nTore: Jonas (12.), Opponent (39.), Jonas (77., Elfmeter)\n\nDas Unentschieden wurde nicht benötigt —\nerstes Saison-Drittel: zwei Siege, ein Remis.\n\nEinsatz: hoch. Beine: morgen spürst du sie. (Alle.)\nFairplay: da. Wetter: mitfühlend.",
+          "translation": "Lindenau II — Markkleeberg V    2:1\n\nGoals: Jonas (12th), opponent (39th), Jonas (77th, penalty)\n\nThe draw wasn't needed —\nfirst third of the season: two wins, one tie.\n\nEffort: high. Legs: heard from tomorrow. (Everyone.)\nFair play: present. Weather: compassionate.",
+          "itemIds": [
+            "das-tor",
+            "gewinnen",
+            "der-einsatz"
+          ]
         }
       ]
     },
@@ -546,6 +557,17 @@
           "type": "check",
           "count": 2,
           "mode": "listen"
+        },
+        {
+          "type": "reading",
+          "title": "Vereins-Newsletter (Kurzfassung)",
+          "text": "LINDENAU II — SPIELTAG-RÜCKBLICK\n\n»Wir haben uns gesteigert: weniger Mecker,\nmehr Pässe. Fairplay war da, der Fanblock laut,\ndas Grillfest danach besser als der Spielstand.\n\nNächstes Training: Dienstag 19:00.\nWer feiert, kommt trotzdem. Wer feiert UND trainiert,\nkriegt beim nächsten Mal die Wurst zuerst.«",
+          "translation": "LINDENAU II — MATCHDAY REVIEW\n\n'We've improved: less grumbling, more passing.\nFair play was there, the fan block loud,\nthe barbecue afterwards better than the score.\n\nNext training: Tuesday 7 pm.\nThose who celebrate still come. Those who celebrate\nAND train get the sausage first next time.'",
+          "itemIds": [
+            "der-fairplay",
+            "feiern",
+            "sich-steigern"
+          ]
         },
         {
           "type": "narration",

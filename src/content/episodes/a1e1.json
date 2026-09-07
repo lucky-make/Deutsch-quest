@@ -7,34 +7,296 @@
     "titleEn": "Arrival at the main station",
     "blurb": "Zug, Koffer, erste Wörter. Du lernst fragen, wo etwas ist — und findest deine neue Stadt.",
     "order": 1,
-    "sceneIds": ["a1e1s1", "a1e1s2", "a1e1s3"]
+    "sceneIds": [
+      "a1e1s1",
+      "a1e1s2",
+      "a1e1s3"
+    ]
   },
   "cast": [
-    { "id": "ansage", "name": "Durchsage", "role": "Bahnhofsansage" },
-    { "id": "mitarbeiter", "name": "Herr Klein", "role": "Mitarbeiter am Schalter" },
-    { "id": "fahrer", "name": "Herr Pilz", "role": "Straßenbahnfahrer" },
-    { "id": "frau-mit-hund", "name": "Fahrgast mit Hund", "role": "Mitfahrerin" },
-    { "id": "frau-bruegge", "name": "Frau Brügge", "role": "Vermieterin" }
+    {
+      "id": "ansage",
+      "name": "Durchsage",
+      "role": "Bahnhofsansage"
+    },
+    {
+      "id": "mitarbeiter",
+      "name": "Herr Klein",
+      "role": "Mitarbeiter am Schalter"
+    },
+    {
+      "id": "fahrer",
+      "name": "Herr Pilz",
+      "role": "Straßenbahnfahrer"
+    },
+    {
+      "id": "frau-mit-hund",
+      "name": "Fahrgast mit Hund",
+      "role": "Mitfahrerin"
+    },
+    {
+      "id": "frau-bruegge",
+      "name": "Frau Brügge",
+      "role": "Vermieterin"
+    }
   ],
   "items": [
-    { "id": "der-bahnhof", "type": "word", "german": "der Bahnhof", "meaning": "the train station", "image": "train", "audio": "tts", "introducedInScene": "a1e1s1", "tags": ["transport", "arrival"], "cefrLevel": "A1", "note": "der, Plural: die Bahnhöfe" },
-    { "id": "das-gleis", "type": "word", "german": "das Gleis", "meaning": "the platform / track", "image": "train", "audio": "tts", "introducedInScene": "a1e1s1", "tags": ["transport"], "cefrLevel": "A1", "note": "das, Plural: die Gleise" },
-    { "id": "die-fahrkarte", "type": "word", "german": "die Fahrkarte", "meaning": "the ticket", "image": "train", "audio": "tts", "introducedInScene": "a1e1s1", "tags": ["transport", "shopping"], "cefrLevel": "A1", "note": "die, Plural: die Fahrkarten" },
-    { "id": "der-koffer", "type": "word", "german": "der Koffer", "meaning": "the suitcase", "image": "koffer", "audio": "tts", "introducedInScene": "a1e1s1", "tags": ["arrival"], "cefrLevel": "A1", "note": "der, Plural: die Koffer" },
-    { "id": "entschuldigung", "type": "chunk", "german": "Entschuldigung!", "meaning": "Excuse me! (the universal polite opener)", "audio": "tts", "introducedInScene": "a1e1s1", "tags": ["politeness"], "cefrLevel": "A1", "note": "Funktioniert überall: jemanden ansprechen, durchkommen, sich entschuldigen." },
-    { "id": "wo-ist-gleis", "type": "sentence", "german": "Wo ist Gleis sieben?", "meaning": "Where is platform seven?", "audio": "tts", "introducedInScene": "a1e1s1", "tags": ["transport", "questions"], "cefrLevel": "A1", "note": "Muster: „Wo ist …?“ — bleibt dein wichtigstes Werkzeug." },
-    { "id": "die-straßenbahn", "type": "word", "german": "die Straßenbahn", "meaning": "the tram", "image": "tram", "audio": "tts", "introducedInScene": "a1e1s2", "tags": ["transport", "city"], "cefrLevel": "A1", "note": "die, Plural: die Straßenbahnen — alle sagen auch: „die Tram“" },
-    { "id": "die-haltestelle", "type": "word", "german": "die Haltestelle", "meaning": "the (tram/bus) stop", "image": "haltestelle", "audio": "tts", "introducedInScene": "a1e1s2", "tags": ["transport", "city"], "cefrLevel": "A1", "note": "die, Plural: die Haltestellen" },
-    { "id": "das-ticket", "type": "word", "german": "das Ticket", "meaning": "the ticket (the modern word)", "image": "koffer", "audio": "tts", "introducedInScene": "a1e1s2", "tags": ["transport", "shopping"], "cefrLevel": "A1", "note": "das — neben „die Fahrkarte“ völlig normal" },
-    { "id": "geradeaus", "type": "chunk", "german": "geradeaus", "meaning": "straight ahead", "audio": "tts", "introducedInScene": "a1e1s2", "tags": ["directions", "city"], "cefrLevel": "A1", "note": "Die Standardantwort auf „Wo ist …?“" },
-    { "id": "faehrt-diese-bahn", "type": "sentence", "german": "Fährt diese Bahn zum Marktplatz?", "meaning": "Does this tram go to Marktplatz?", "audio": "tts", "introducedInScene": "a1e1s2", "tags": ["transport", "questions"], "cefrLevel": "A1" },
-    { "id": "eine-fahrkarte-bitte", "type": "chunk", "german": "Eine Fahrkarte, bitte.", "meaning": "One ticket, please.", "audio": "tts", "introducedInScene": "a1e1s2", "tags": ["transport", "request"], "cefrLevel": "A1", "parentId": "die-fahrkarte" },
-    { "id": "die-wohnung", "type": "word", "german": "die Wohnung", "meaning": "the flat / apartment", "image": "wohnung", "audio": "tts", "introducedInScene": "a1e1s3", "tags": ["home"], "cefrLevel": "A1", "note": "die, Plural: die Wohnungen" },
-    { "id": "der-schluessel", "type": "word", "german": "der Schlüssel", "meaning": "the key", "image": "schlüssel", "audio": "tts", "introducedInScene": "a1e1s3", "tags": ["home", "objects"], "cefrLevel": "A1", "note": "der, Plural: die Schlüssel" },
-    { "id": "die-vermieterin", "type": "word", "german": "die Vermieterin", "meaning": "the landlady", "image": "person", "audio": "tts", "introducedInScene": "a1e1s3", "tags": ["home", "people"], "cefrLevel": "A1", "note": "die; männlich: der Vermieter" },
-    { "id": "guten-tag", "type": "chunk", "german": "Guten Tag!", "meaning": "Hello! (daytime, safe with strangers)", "audio": "tts", "introducedInScene": "a1e1s3", "tags": ["politeness", "smalltalk"], "cefrLevel": "A1", "note": "Förmlicher als „Hallo“ — bei Frau Brügge hörst du „Sie“." },
-    { "id": "ich-heisse", "type": "sentence", "german": "Ich heiße Sam Jones.", "meaning": "My name is Sam Jones.", "audio": "tts", "introducedInScene": "a1e1s3", "tags": ["smalltalk", "introduction"], "cefrLevel": "A1", "note": "Muster: „Ich heiße …“" },
-    { "id": "willkommen-in-leipzig", "type": "chunk", "german": "Willkommen in Leipzig!", "meaning": "Welcome to Leipzig!", "audio": "tts", "introducedInScene": "a1e1s3", "tags": ["arrival", "smalltalk"], "cefrLevel": "A1" }
+    {
+      "id": "der-bahnhof",
+      "type": "word",
+      "german": "der Bahnhof",
+      "meaning": "the train station",
+      "image": "train",
+      "audio": "tts",
+      "introducedInScene": "a1e1s1",
+      "tags": [
+        "transport",
+        "arrival"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Bahnhöfe"
+    },
+    {
+      "id": "das-gleis",
+      "type": "word",
+      "german": "das Gleis",
+      "meaning": "the platform / track",
+      "image": "train",
+      "audio": "tts",
+      "introducedInScene": "a1e1s1",
+      "tags": [
+        "transport"
+      ],
+      "cefrLevel": "A1",
+      "note": "das, Plural: die Gleise"
+    },
+    {
+      "id": "die-fahrkarte",
+      "type": "word",
+      "german": "die Fahrkarte",
+      "meaning": "the ticket",
+      "image": "train",
+      "audio": "tts",
+      "introducedInScene": "a1e1s1",
+      "tags": [
+        "transport",
+        "shopping"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Fahrkarten"
+    },
+    {
+      "id": "der-koffer",
+      "type": "word",
+      "german": "der Koffer",
+      "meaning": "the suitcase",
+      "image": "koffer",
+      "audio": "tts",
+      "introducedInScene": "a1e1s1",
+      "tags": [
+        "arrival"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Koffer"
+    },
+    {
+      "id": "entschuldigung",
+      "type": "chunk",
+      "german": "Entschuldigung!",
+      "meaning": "Excuse me! (the universal polite opener)",
+      "audio": "tts",
+      "introducedInScene": "a1e1s1",
+      "tags": [
+        "politeness"
+      ],
+      "cefrLevel": "A1",
+      "note": "Funktioniert überall: jemanden ansprechen, durchkommen, sich entschuldigen."
+    },
+    {
+      "id": "wo-ist-gleis",
+      "type": "sentence",
+      "german": "Wo ist Gleis sieben?",
+      "meaning": "Where is platform seven?",
+      "audio": "tts",
+      "introducedInScene": "a1e1s1",
+      "tags": [
+        "transport",
+        "questions"
+      ],
+      "cefrLevel": "A1",
+      "note": "Muster: „Wo ist …?“ — bleibt dein wichtigstes Werkzeug."
+    },
+    {
+      "id": "die-straßenbahn",
+      "type": "word",
+      "german": "die Straßenbahn",
+      "meaning": "the tram",
+      "image": "tram",
+      "audio": "tts",
+      "introducedInScene": "a1e1s2",
+      "tags": [
+        "transport",
+        "city"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Straßenbahnen — alle sagen auch: „die Tram“"
+    },
+    {
+      "id": "die-haltestelle",
+      "type": "word",
+      "german": "die Haltestelle",
+      "meaning": "the (tram/bus) stop",
+      "image": "haltestelle",
+      "audio": "tts",
+      "introducedInScene": "a1e1s2",
+      "tags": [
+        "transport",
+        "city"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Haltestellen"
+    },
+    {
+      "id": "das-ticket",
+      "type": "word",
+      "german": "das Ticket",
+      "meaning": "the ticket (the modern word)",
+      "image": "koffer",
+      "audio": "tts",
+      "introducedInScene": "a1e1s2",
+      "tags": [
+        "transport",
+        "shopping"
+      ],
+      "cefrLevel": "A1",
+      "note": "das — neben „die Fahrkarte“ völlig normal"
+    },
+    {
+      "id": "geradeaus",
+      "type": "chunk",
+      "german": "geradeaus",
+      "meaning": "straight ahead",
+      "audio": "tts",
+      "introducedInScene": "a1e1s2",
+      "tags": [
+        "directions",
+        "city"
+      ],
+      "cefrLevel": "A1",
+      "note": "Die Standardantwort auf „Wo ist …?“"
+    },
+    {
+      "id": "faehrt-diese-bahn",
+      "type": "sentence",
+      "german": "Fährt diese Bahn zum Marktplatz?",
+      "meaning": "Does this tram go to Marktplatz?",
+      "audio": "tts",
+      "introducedInScene": "a1e1s2",
+      "tags": [
+        "transport",
+        "questions"
+      ],
+      "cefrLevel": "A1"
+    },
+    {
+      "id": "eine-fahrkarte-bitte",
+      "type": "chunk",
+      "german": "Eine Fahrkarte, bitte.",
+      "meaning": "One ticket, please.",
+      "audio": "tts",
+      "introducedInScene": "a1e1s2",
+      "tags": [
+        "transport",
+        "request"
+      ],
+      "cefrLevel": "A1",
+      "parentId": "die-fahrkarte"
+    },
+    {
+      "id": "die-wohnung",
+      "type": "word",
+      "german": "die Wohnung",
+      "meaning": "the flat / apartment",
+      "image": "wohnung",
+      "audio": "tts",
+      "introducedInScene": "a1e1s3",
+      "tags": [
+        "home"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Wohnungen"
+    },
+    {
+      "id": "der-schluessel",
+      "type": "word",
+      "german": "der Schlüssel",
+      "meaning": "the key",
+      "image": "schlüssel",
+      "audio": "tts",
+      "introducedInScene": "a1e1s3",
+      "tags": [
+        "home",
+        "objects"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Schlüssel"
+    },
+    {
+      "id": "die-vermieterin",
+      "type": "word",
+      "german": "die Vermieterin",
+      "meaning": "the landlady",
+      "image": "person",
+      "audio": "tts",
+      "introducedInScene": "a1e1s3",
+      "tags": [
+        "home",
+        "people"
+      ],
+      "cefrLevel": "A1",
+      "note": "die; männlich: der Vermieter"
+    },
+    {
+      "id": "guten-tag",
+      "type": "chunk",
+      "german": "Guten Tag!",
+      "meaning": "Hello! (daytime, safe with strangers)",
+      "audio": "tts",
+      "introducedInScene": "a1e1s3",
+      "tags": [
+        "politeness",
+        "smalltalk"
+      ],
+      "cefrLevel": "A1",
+      "note": "Förmlicher als „Hallo“ — bei Frau Brügge hörst du „Sie“."
+    },
+    {
+      "id": "ich-heisse",
+      "type": "sentence",
+      "german": "Ich heiße Sam Jones.",
+      "meaning": "My name is Sam Jones.",
+      "audio": "tts",
+      "introducedInScene": "a1e1s3",
+      "tags": [
+        "smalltalk",
+        "introduction"
+      ],
+      "cefrLevel": "A1",
+      "note": "Muster: „Ich heiße …“"
+    },
+    {
+      "id": "willkommen-in-leipzig",
+      "type": "chunk",
+      "german": "Willkommen in Leipzig!",
+      "meaning": "Welcome to Leipzig!",
+      "audio": "tts",
+      "introducedInScene": "a1e1s3",
+      "tags": [
+        "arrival",
+        "smalltalk"
+      ],
+      "cefrLevel": "A1"
+    }
   ],
   "scenes": [
     {
@@ -44,23 +306,95 @@
       "titleEn": "Platform 7",
       "place": "Hauptbahnhof, Fernbahnhofshalle",
       "bg": "bahnhof",
-      "contextTags": ["arrival", "transport"],
+      "contextTags": [
+        "arrival",
+        "transport"
+      ],
       "requiredItems": [],
-      "introducedItems": ["der-bahnhof", "das-gleis", "die-fahrkarte", "der-koffer", "entschuldigung", "wo-ist-gleis"],
+      "introducedItems": [
+        "der-bahnhof",
+        "das-gleis",
+        "die-fahrkarte",
+        "der-koffer",
+        "entschuldigung",
+        "wo-ist-gleis"
+      ],
       "beats": [
-        { "type": "narration", "text": "Sechs Stunden Zug. Ein Koffer, in dem zu viel Hoffnung steckt. Über dir kräht eine Stimme aus dem Lautsprecher — und du verstehst zum Glück genau die richtige Hälfte." },
-        { "type": "line", "speaker": "ansage", "text": "Der Zug aus Frankfurt kommt heute auf Gleis 7 an.", "translation": "The train from Frankfurt arrives on platform 7 today." },
-        { "type": "meet", "itemIds": ["der-bahnhof", "das-gleis", "die-fahrkarte"] },
-        { "type": "narration", "text": "Erst mal orientieren. Am Schalter steht ein Mann mit Mütze, der schon tausend Verlorene gerettet hat. Du hörst ein Muster, das du sofort klauen kannst." },
-        { "type": "meet", "itemIds": ["der-koffer", "entschuldigung", "wo-ist-gleis"] },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "choice", "prompt": "Der Schalter ist frei. Wie fragst du?", "options": [
-          { "label": "Entschuldigung, wo ist Gleis sieben?", "line": "Entschuldigung, wo ist Gleis sieben?" },
-          { "label": "Hallo! Bahn? Leipzig? Gleis?", "line": "Hallo! Bahn? Leipzig? Gleis?" }
-        ] },
-        { "type": "line", "speaker": "mitarbeiter", "text": "Gleis sieben? Da drüben, links. Der Zug fährt gleich.", "translation": "Platform seven? Over there, on the left. The train leaves soon." },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "narration", "text": "Du nickst, lächelst — und hast gerade dein erstes deutsches Gespräch geführt. Der Zug nach Leipzig fährt in zehn Minuten." }
+        {
+          "type": "narration",
+          "text": "Sechs Stunden Zug. Ein Koffer, in dem zu viel Hoffnung steckt. Über dir kräht eine Stimme aus dem Lautsprecher — und du verstehst zum Glück genau die richtige Hälfte."
+        },
+        {
+          "type": "line",
+          "speaker": "ansage",
+          "text": "Der Zug aus Frankfurt kommt heute auf Gleis 7 an.",
+          "translation": "The train from Frankfurt arrives on platform 7 today."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-bahnhof",
+            "das-gleis",
+            "die-fahrkarte"
+          ]
+        },
+        {
+          "type": "narration",
+          "text": "Erst mal orientieren. Am Schalter steht ein Mann mit Mütze, der schon tausend Verlorene gerettet hat. Du hörst ein Muster, das du sofort klauen kannst."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-koffer",
+            "entschuldigung",
+            "wo-ist-gleis"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Der Schalter ist frei. Wie fragst du?",
+          "options": [
+            {
+              "label": "Entschuldigung, wo ist Gleis sieben?",
+              "line": "Entschuldigung, wo ist Gleis sieben?"
+            },
+            {
+              "label": "Hallo! Bahn? Leipzig? Gleis?",
+              "line": "Hallo! Bahn? Leipzig? Gleis?"
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "mitarbeiter",
+          "text": "Gleis sieben? Da drüben, links. Der Zug fährt gleich.",
+          "translation": "Platform seven? Over there, on the left. The train leaves soon."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "reading",
+          "title": "Info-Schalter: Leipzig für Ankömmlinge",
+          "text": "WILLKOMMEN IM HAUPTBAHNHOF LEIPZIG\n\nZüge: Gleise 1–24 (Gleis 7 — sagen wir: variabel)\nFahrkarten: Schalter oder Automat (nimmt Münzen, merci)\n\nTram Richtung Lindenau: Haltestelle vor dem Ausgang.\n\n»Erste Regel dieser Stadt:\n Entschuldigung wirkt auf Deutsch wie auf jeder Sprache.\n Zweite Regel: einfach fragen. Wo ist Gleis 7?\n Man zeigt es dir. Wirklich.«",
+          "translation": "WELCOME TO LEIPZIG CENTRAL STATION\n\nTrains: platforms 1–24 (platform 7 — let's say: variable)\nTickets: counter or machine (takes coins, thanks)\n\nTram towards Lindenau: stop right outside the exit.\n\n'First rule of this city:\nEntschuldigung (sorry) works in German like in any language.\nSecond rule: just ask. Where's platform 7?\nSomeone will point. Really.'",
+          "itemIds": [
+            "der-bahnhof",
+            "die-fahrkarte",
+            "wo-ist-gleis"
+          ]
+        },
+        {
+          "type": "narration",
+          "text": "Du nickst, lächelst — und hast gerade dein erstes deutsches Gespräch geführt. Der Zug nach Leipzig fährt in zehn Minuten."
+        }
       ]
     },
     {
@@ -70,23 +404,84 @@
       "titleEn": "Taking the tram",
       "place": "Vorplatz, Haltestelle Hauptbahnhof",
       "bg": "strasse",
-      "contextTags": ["transport", "city"],
+      "contextTags": [
+        "transport",
+        "city"
+      ],
       "requiredItems": [],
-      "introducedItems": ["die-straßenbahn", "die-haltestelle", "das-ticket", "geradeaus", "faehrt-diese-bahn", "eine-fahrkarte-bitte"],
+      "introducedItems": [
+        "die-straßenbahn",
+        "die-haltestelle",
+        "das-ticket",
+        "geradeaus",
+        "faehrt-diese-bahn",
+        "eine-fahrkarte-bitte"
+      ],
       "beats": [
-        { "type": "narration", "text": "Vor dem Bahnhof: Gleise, Fahrräder überall, ein Kiosk. Die Linie 4 rollt mit leisem Summen heran." },
-        { "type": "meet", "itemIds": ["die-straßenbahn", "die-haltestelle", "das-ticket"] },
-        { "type": "meet", "itemIds": ["geradeaus", "faehrt-diese-bahn", "eine-fahrkarte-bitte"] },
-        { "type": "choice", "prompt": "Automat oder Fahrer?", "options": [
-          { "label": "Eine Fahrkarte, bitte.", "line": "Eine Fahrkarte, bitte." },
-          { "label": "Ich nehme ein Ticket beim Fahrer.", "line": "Ich nehme ein Ticket." }
-        ] },
-        { "type": "line", "speaker": "fahrer", "text": "Zwei siebzig. Danke! Zurückbleiben, bitte.", "translation": "Two seventy. Thanks! Please stand back." },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "narration", "text": "Die Bahn ruckt an. Straßennamen ziehen vorbei: Jahnallee, Leutzsch, Lindenau. Du wiederholst sie leise — die Stadt gibt dir kostenlos Vokabeln." },
-        { "type": "line", "speaker": "frau-mit-hund", "text": "Aussteigen am Marktplatz? Ich auch! Gleiche Haltestelle.", "translation": "Getting off at Marktplatz? Me too! Same stop." },
-        { "type": "check", "count": 2, "mode": "recall" },
-        { "type": "narration", "text": "Der Hund seufzt, die Türen zischen auf. Der Marktplatz — dein neues Zentrum der Welt." }
+        {
+          "type": "narration",
+          "text": "Vor dem Bahnhof: Gleise, Fahrräder überall, ein Kiosk. Die Linie 4 rollt mit leisem Summen heran."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-straßenbahn",
+            "die-haltestelle",
+            "das-ticket"
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "geradeaus",
+            "faehrt-diese-bahn",
+            "eine-fahrkarte-bitte"
+          ]
+        },
+        {
+          "type": "choice",
+          "prompt": "Automat oder Fahrer?",
+          "options": [
+            {
+              "label": "Eine Fahrkarte, bitte.",
+              "line": "Eine Fahrkarte, bitte."
+            },
+            {
+              "label": "Ich nehme ein Ticket beim Fahrer.",
+              "line": "Ich nehme ein Ticket."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "fahrer",
+          "text": "Zwei siebzig. Danke! Zurückbleiben, bitte.",
+          "translation": "Two seventy. Thanks! Please stand back."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "narration",
+          "text": "Die Bahn ruckt an. Straßennamen ziehen vorbei: Jahnallee, Leutzsch, Lindenau. Du wiederholst sie leise — die Stadt gibt dir kostenlos Vokabeln."
+        },
+        {
+          "type": "line",
+          "speaker": "frau-mit-hund",
+          "text": "Aussteigen am Marktplatz? Ich auch! Gleiche Haltestelle.",
+          "translation": "Getting off at Marktplatz? Me too! Same stop."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "narration",
+          "text": "Der Hund seufzt, die Türen zischen auf. Der Marktplatz — dein neues Zentrum der Welt."
+        }
       ]
     },
     {
@@ -96,23 +491,98 @@
       "titleEn": "Frau Brügge",
       "place": "Bärbelstraße 12, Hauseingang",
       "bg": "wohnung",
-      "contextTags": ["arrival", "home", "neighbors"],
+      "contextTags": [
+        "arrival",
+        "home",
+        "neighbors"
+      ],
       "requiredItems": [],
-      "introducedItems": ["die-wohnung", "der-schluessel", "die-vermieterin", "guten-tag", "ich-heisse", "willkommen-in-leipzig"],
+      "introducedItems": [
+        "die-wohnung",
+        "der-schluessel",
+        "die-vermieterin",
+        "guten-tag",
+        "ich-heisse",
+        "willkommen-in-leipzig"
+      ],
       "beats": [
-        { "type": "narration", "text": "Bärbelstraße 12. Vor dem Hausflur wartet eine Frau mit kinnlangem Graustich, Arme verschränkt, Blick schon halb freundlich." },
-        { "type": "line", "speaker": "frau-bruegge", "text": "Guten Tag! Sie müssen Sam sein. Ich bin Frau Brügge, Ihre Vermieterin.", "translation": "Hello! You must be Sam. I'm Frau Brügge, your landlady." },
-        { "type": "meet", "itemIds": ["guten-tag", "die-vermieterin", "ich-heisse"] },
-        { "type": "choice", "prompt": "Sie reicht die Hand. Was sagst du?", "options": [
-          { "label": "Guten Tag! Ich heiße Sam Jones.", "line": "Guten Tag! Ich heiße Sam Jones." },
-          { "label": "Hallo! Sam. …Jones. Also: Sam Jones.", "line": "Hallo! Sam. …Jones. Also: Sam Jones." }
-        ] },
-        { "type": "meet", "itemIds": ["die-wohnung", "der-schluessel", "willkommen-in-leipzig"] },
-        { "type": "line", "speaker": "frau-bruegge", "text": "So. Der Schlüssel. Zweiter Stock, rechts. Die Wohnung ist alt, aber ehrlich.", "translation": "Here. The key. Second floor, on the right. The flat is old, but honest." },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "line", "speaker": "frau-bruegge", "text": "Willkommen in Leipzig! Wenn's Fragen gibt: zweite Etage, Klingelschild „Brügge“.", "translation": "Welcome to Leipzig! If you have questions: second floor, name plate 'Brügge'." },
-        { "type": "check", "count": 2, "mode": "recall" },
-        { "type": "narration", "text": "Der Schlüssel passt beim ersten Versuch. Die Wohnung ist kalt, leer — und ganz dein." }
+        {
+          "type": "narration",
+          "text": "Bärbelstraße 12. Vor dem Hausflur wartet eine Frau mit kinnlangem Graustich, Arme verschränkt, Blick schon halb freundlich."
+        },
+        {
+          "type": "line",
+          "speaker": "frau-bruegge",
+          "text": "Guten Tag! Sie müssen Sam sein. Ich bin Frau Brügge, Ihre Vermieterin.",
+          "translation": "Hello! You must be Sam. I'm Frau Brügge, your landlady."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "guten-tag",
+            "die-vermieterin",
+            "ich-heisse"
+          ]
+        },
+        {
+          "type": "choice",
+          "prompt": "Sie reicht die Hand. Was sagst du?",
+          "options": [
+            {
+              "label": "Guten Tag! Ich heiße Sam Jones.",
+              "line": "Guten Tag! Ich heiße Sam Jones."
+            },
+            {
+              "label": "Hallo! Sam. …Jones. Also: Sam Jones.",
+              "line": "Hallo! Sam. …Jones. Also: Sam Jones."
+            }
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-wohnung",
+            "der-schluessel",
+            "willkommen-in-leipzig"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "frau-bruegge",
+          "text": "So. Der Schlüssel. Zweiter Stock, rechts. Die Wohnung ist alt, aber ehrlich.",
+          "translation": "Here. The key. Second floor, on the right. The flat is old, but honest."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "line",
+          "speaker": "frau-bruegge",
+          "text": "Willkommen in Leipzig! Wenn's Fragen gibt: zweite Etage, Klingelschild „Brügge“.",
+          "translation": "Welcome to Leipzig! If you have questions: second floor, name plate 'Brügge'."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "reading",
+          "title": "Zettel am Schlüsselbund",
+          "text": "DREI SCHLÜSSEL. Nicht vier.\n\n1. Haustür — immer zuschließen.\n2. Wohnung — vorsichtig drehen, sie ist alt.\n3. Keller — nur bei Tag.\n\nZettel (Füllfeder):\n»Willkommen in Leipzig, Herr Jones.\nBei Fragen: ich wohne im 4. Stock.\nGuten Tag sagt man hier übrigens ALLEN.\n— E. Brügge«",
+          "translation": "THREE KEYS. Not four.\n\n1. Front door — always lock it.\n2. Flat — turn carefully, it's old.\n3. Basement — daytime only.\n\nNote (fountain pen):\n'Welcome to Leipzig, Mr Jones.\nAny questions: I live on the 4th floor.\nBy the way, you say good day to EVERYONE here.\n— E. Brügge'",
+          "itemIds": [
+            "der-schluessel",
+            "die-wohnung",
+            "guten-tag"
+          ]
+        },
+        {
+          "type": "narration",
+          "text": "Der Schlüssel passt beim ersten Versuch. Die Wohnung ist kalt, leer — und ganz dein."
+        }
       ]
     }
   ]

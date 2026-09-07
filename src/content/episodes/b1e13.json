@@ -526,6 +526,17 @@
           "mode": "listen"
         },
         {
+          "type": "reading",
+          "title": "Saras Sprachnotiz (November-Sonderausgabe)",
+          "text": "Wort der dunklen Jahreszeit:\n\ndie Brücke — verbindet zwei Seiten.\nBeispiele: Madrid–Leipzig. Gestern–Morgen.\n\nMan wächst in die Jahreszeit hinein.\nJede Begegnung ist eine Planke.\n\nHausaufgabe: Nenne deine Brücke.\nEin Satz reicht. Mehr wird nicht verlangt.\nWeniger wäre schade.",
+          "translation": "Word of the dark season:\n\ndie Brücke (the bridge) — connects two sides.\nExamples: Madrid–Leipzig. Yesterday–tomorrow.\n\nYou grow into the season.\nEvery encounter is one plank.\n\nHomework: name your bridge.\nOne sentence is enough. More isn't required.\nLess would be a shame.",
+          "itemIds": [
+            "die-bruecke",
+            "wachsen",
+            "die-begegnung"
+          ]
+        },
+        {
           "type": "narration",
           "text": "Zu Hause schreibst du zwei Nachrichten: eine auf Spanisch an deine Mutter („die Marmelade kann warten, ich bringe einen Koffer mit“), eine an Frau Brügge („brauche für nächsten Sommer zwei Wochen Urlaub“). Fernweh und Heimweh, eingeteilt in einen Kalender. Der November graut weiter draußen — drinnen wächst etwas."
         }

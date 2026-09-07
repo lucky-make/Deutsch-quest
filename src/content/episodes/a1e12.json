@@ -378,6 +378,17 @@
           "speaker": "lina",
           "text": "Regeln im Kino: leise sein, Popcorn teilen (mit MIR), und wenn der Held fällt, darfst du „oooh“ sagen. Das ist erlaubt. Ich habe das geprüft.",
           "translation": "Cinema rules: be quiet, share popcorn (with ME), and when the hero falls, you may say 'oooh'. That's allowed. I checked."
+        },
+        {
+          "type": "reading",
+          "title": "Programm – Kino Cineding",
+          "text": "HEUTE 17:00 · „Der zweite Zug“ (OF, 96 Min.)\nEin Mann, ein Gleis, ein neues Leben.\n\n17:15 · „Winterlicht“ (OmU)\n20:00 · Klassiker: „Leipzig, August“\n\nKarten: 9 € / erm. 6,50 €\nPopcorn: süß oder gesalzen. ALLE Fragen.\nEs gibt nur zwei Lager. Wähle weise.",
+          "translation": "TODAY 5 pm · 'The Second Train' (original German, 96 min)\nA man, a platform, a new life.\n\n5:15 pm · 'Winterlight' (subtitled)\n8 pm · Classic: 'Leipzig, August'\n\nTickets: €9 / reduced €6.50\nPopcorn: sweet or salty. EVERYONE asks.\nThere are only two camps. Choose wisely.",
+          "itemIds": [
+            "das-kino",
+            "der-film",
+            "der-titel"
+          ]
         }
       ]
     },
@@ -461,6 +472,17 @@
           "speaker": "lina",
           "text": "Die beste Szene war, als der Held die alte Frau getroffen hat und dann… ach nein, das erzähle ich nicht. Die musst du sehen. Nur so viel: Er weint. Und das ist okay. Sogar gut.",
           "translation": "The best scene was when the hero met the old woman and then… oh no, I won't tell. You have to see it. Just this much: he cries. And that's okay. Even good."
+        },
+        {
+          "type": "reading",
+          "title": "Tafel im Kinosaal",
+          "text": "IM KINORAUM:\n— LEISE sein. Der Film ist lauter als du.\n— Handy AUS. Alles kann warten.\n— Der Held braucht keine Kommentare.\n  (Aber ein leises „oooh“ ist menschlich.)\n\n»Die Leinwand zeigt alles.\n Dein Nachbar will nichts hören.«",
+          "translation": "IN THE SCREENING ROOM:\n— Be QUIET. The film is louder than you.\n— Phone OFF. Everything can wait.\n— The hero doesn't need commentary.\n  (But a quiet 'oooh' is human.)\n\n'The screen shows everything.\nYour neighbour doesn't want to hear anything.'",
+          "itemIds": [
+            "leise",
+            "der-held",
+            "die-leinwand"
+          ]
         }
       ]
     },

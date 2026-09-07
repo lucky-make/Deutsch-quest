@@ -473,6 +473,17 @@
           "type": "check",
           "count": 2,
           "mode": "listen"
+        },
+        {
+          "type": "reading",
+          "title": "Etikett am Streusalz-Eimer",
+          "text": "STREUSALZ — HAUS LINDENAU\n\nRäumpflicht: 7–20 Uhr (So ab 9).\nErst räumen, DANN streuen. Sonst: Suppe.\n\nSparsam streuen. Salz ist kein Deko.\nGlatt ist kein Zustand. Glatt ist eine Aufforderung\nzum Gehen. Langsam gehen.\n\nHandschohe vergessen? Kellerschrank, links.\n(Links ist immer der Kellerschrank.)",
+          "translation": "GRITTING SALT — LINDENAU HOUSE\n\nDuty to clear: 7 am–8 pm (Sundays from 9).\nClear first, THEN spread. Otherwise: soup.\n\nSpread sparingly. Salt isn't decoration.\nSlippery isn't a condition. Slippery is an invitation\nto walk. Slowly.\n\nForgot gloves? Basement cupboard, left.\n(Left is always the basement cupboard.)",
+          "itemIds": [
+            "die-raeumpflicht",
+            "streuen",
+            "glatt"
+          ]
         }
       ]
     },

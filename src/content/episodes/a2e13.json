@@ -388,7 +388,8 @@
         {
           "type": "reading",
           "title": "Dein Einkaufszettel (Entwurf 3)",
-          "text": "PARTY SAMSTAG — EINKAUF\n\nSnacks:\n— Chips (2 Sorten, wegen Lina)\n— Weintrauben (Luise isst die)\n— Nüsse (Deniz' Vater sagt, die sind gesund)\n\nGetränke:\n— Apfelschorle 4 Flaschen\n— Wasser ADE, 6 Flaschen\n— SAFT für Tobias (er fährt Rad)\n\nTaschentücher. Warum? Sicherheit."
+          "text": "PARTY SAMSTAG — EINKAUF\n\nSnacks:\n— Chips (2 Sorten, wegen Lina)\n— Weintrauben (Luise isst die)\n— Nüsse (Deniz' Vater sagt, die sind gesund)\n\nGetränke:\n— Apfelschorle 4 Flaschen\n— Wasser ADE, 6 Flaschen\n— SAFT für Tobias (er fährt Rad)\n\nTaschentücher. Warum? Sicherheit.",
+          "translation": "PARTY SATURDAY — SHOPPING\n\nSnacks:\n— crisps (2 kinds, because of Lina)\n— grapes (Luise eats them)\n— nuts (Deniz's father says they're healthy)\n\nDrinks:\n— apple spritzer, 4 bottles\n— still water, 6 bottles\n— JUICE for Tobias (he cycles)\n\nTissues. Why? Safety."
         }
       ]
     },
@@ -477,6 +478,17 @@
           "type": "check",
           "count": 2,
           "mode": "listen"
+        },
+        {
+          "type": "reading",
+          "title": "Bowle-Rezept (Luise diktiert, Sam schreibt)",
+          "text": "ERDBEER-MINZE-BOWLE (Partygröße)\n\n2 Schälchen Erdbeeren, viertelt\n1 Bund Minze, zupfen (nicht schneiden!)\n2 Flaschen Apfelschorle · 1 Flasche Mineral\nEis: VIEL. Becher: mehr als du denkst.\n\nAuswahl der Gäste respektieren:\nwasser daneben stellen. Immer.\nBeleuchtung dimmen kurz vor Ankunft der ersten.\n\n»Servieren mit Löffel. Strohhalme sind Deko.«",
+          "translation": "STRAWBERRY-MINT PUNCH (party size)\n\n2 baskets of strawberries, quartered\n1 bunch of mint, plucked (not cut!)\n2 bottles apple spritzer · 1 bottle sparkling water\nIce: PLENTY. Cups: more than you think.\n\nRespect the guests' choice:\nput water next to it. Always.\nDim the lighting shortly before the first ones arrive.\n\n'Serve with a ladle. Straws are decoration.'",
+          "itemIds": [
+            "die-bowle",
+            "die-auswahl",
+            "die-beleuchtung"
+          ]
         }
       ]
     },

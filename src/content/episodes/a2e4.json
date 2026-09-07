@@ -347,6 +347,17 @@
           "type": "check",
           "count": 2,
           "mode": "recall"
+        },
+        {
+          "type": "reading",
+          "title": "SMS-Kette: Tobias ↔ Jonas",
+          "text": "TOBIAS: Sam liegt am Radweg. Reifen tot.\nJONAS: Klassiker. Elsterflutbecken?\nTOBIAS: Ja. Er will helfen lassen — auf Deutsch.\nJONAS: Er soll sagen: „Mein Fahrrad ist kaputt.\n        Können Sie mir helfen?“ Chancen: 100 %.\nTOBIAS: Werkstatt offen?\nJONAS: Immer. Werkstatt ist weder Beruf noch Hobby.\n        Es ist eine Haltung.",
+          "translation": "TOBIAS: Sam's on the cycle path. Tyre dead.\nJONAS: Classic. Elster flood basin?\nTOBIAS: Yes. He wants to ask for help — in German.\nJONAS: He should say: 'Mein Fahrrad ist kaputt.\n        Können Sie mir helfen?' Odds: 100%.\nTOBIAS: Workshop open?\nJONAS: Always. The workshop is neither job nor hobby.\n        It's an attitude.",
+          "itemIds": [
+            "die-werkstatt",
+            "koennen-sie-mir-helfen",
+            "kaputt"
+          ]
         }
       ]
     },
@@ -428,6 +439,17 @@
           "type": "check",
           "count": 2,
           "mode": "listen"
+        },
+        {
+          "type": "reading",
+          "title": "Kostenvoranschlag – Werkstatt Jonas",
+          "text": "Fahrrad, blau, treu:\n\nSchlauch vorne (kaputt — klar)   8,00 €\nArbeit, klein                    7,00 €\nLuft (gratis, immer)             0,00 €\n\nGESAMT: 15,00 €\n\n»Reparieren lohnt sich.\n Wegwerfen lohnt sich nie.«\n\nDauer: 15 Minuten. Kaffee: selbstmitbringen.\nFertig-Argument: nicht nötig, wird eh fertig.",
+          "translation": "Bicycle, blue, loyal:\n\nFront inner tube (broken — obviously) €8.00\nLabour, small                         €7.00\nAir (free, always)                    €0.00\n\nTOTAL: €15.00\n\n'Repairing is worth it.\nThrowing away never is.'\n\nDuration: 15 minutes. Coffee: bring your own.\n'Is it done yet' argument: unnecessary, it'll be done anyway.",
+          "itemIds": [
+            "reparieren",
+            "ist-es-fertig",
+            "das-werkzeug"
+          ]
         },
         {
           "type": "narration",

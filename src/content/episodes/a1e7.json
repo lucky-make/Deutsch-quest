@@ -522,7 +522,6 @@
           "translation": "Deposit machine\nGlass with deposit: €0.08\nRefillable bottle: €0.15\nOne-way bottle/can: €0.25\nPlease insert bottles one at a time.\nRedeem the voucher at the checkout.",
           "itemIds": [
             "der-pfandautomat",
-            "die-pfandflasche",
             "das-guthaben"
           ]
         },

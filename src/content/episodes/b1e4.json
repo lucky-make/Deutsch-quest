@@ -7,26 +7,210 @@
     "titleEn": "The move",
     "blurb": "Besichtigung, Mietvertrag, Schlüsselübergabe. Ein Kapitel schließt sich — und genau deshalb fällt dir auf, was du alles kannst.",
     "order": 12,
-    "sceneIds": ["b1e4s1", "b1e4s2"]
+    "sceneIds": [
+      "b1e4s1",
+      "b1e4s2"
+    ]
   },
   "cast": [
-    { "id": "maklerin", "name": "Frau Hedicke", "role": "Wohnungsvermittlung" },
-    { "id": "frau-bruegge", "name": "Frau Brügge", "role": "Vermieterin" },
-    { "id": "tobias", "name": "Tobias", "role": "Nachbar, Freund" }
+    {
+      "id": "maklerin",
+      "name": "Frau Hedicke",
+      "role": "Wohnungsvermittlung"
+    },
+    {
+      "id": "frau-bruegge",
+      "name": "Frau Brügge",
+      "role": "Vermieterin"
+    },
+    {
+      "id": "tobias",
+      "name": "Tobias",
+      "role": "Nachbar, Freund"
+    }
   ],
   "items": [
-    { "id": "die-miete", "type": "word", "german": "die Miete", "meaning": "the rent", "image": "münzen", "audio": "tts", "introducedInScene": "b1e4s1", "tags": ["flat-hunt", "moving", "money"], "cefrLevel": "B1", "note": "die, Plural: die Mieten" },
-    { "id": "die-nebenkosten", "type": "word", "german": "die Nebenkosten", "meaning": "the additional/utility costs", "image": "beleg", "audio": "tts", "introducedInScene": "b1e4s1", "tags": ["flat-hunt", "money", "bills"], "cefrLevel": "B1", "note": "Pluralwort — Strom, Wasser, Heizung" },
-    { "id": "der-balkon", "type": "word", "german": "der Balkon", "meaning": "the balcony", "image": "balkon", "audio": "tts", "introducedInScene": "b1e4s1", "tags": ["flat-hunt", "home"], "cefrLevel": "B1", "note": "der, Plural: die Balkone — Südseite!" },
-    { "id": "frisch-renoviert", "type": "chunk", "german": "Die Wohnung ist frisch renoviert.", "meaning": "The flat is freshly renovated.", "audio": "tts", "introducedInScene": "b1e4s1", "tags": ["flat-hunt", "home"], "cefrLevel": "B1" },
-    { "id": "wann-kann-ich-einziehen", "type": "sentence", "german": "Wann kann ich einziehen?", "meaning": "When can I move in?", "audio": "tts", "introducedInScene": "b1e4s1", "tags": ["flat-hunt", "moving", "questions"], "cefrLevel": "B1", "note": "einziehen = ein + ziehen, trennbar" },
-    { "id": "der-mietvertrag", "type": "word", "german": "der Mietvertrag", "meaning": "the rental contract", "image": "vertrag", "audio": "tts", "introducedInScene": "b1e4s1", "tags": ["flat-hunt", "paperwork", "moving"], "cefrLevel": "B1", "note": "der, Plural: die Mietverträge" },
-    { "id": "das-treppenhaus", "type": "word", "german": "das Treppenhaus", "meaning": "the stairwell", "image": "treppenhaus", "audio": "tts", "introducedInScene": "b1e4s2", "tags": ["moving", "home", "neighbors"], "cefrLevel": "B1", "note": "das, Plural: die Treppenhäuser — Kehrwochen inklusive" },
-    { "id": "der-zaehlerstand", "type": "word", "german": "der Zählerstand", "meaning": "the meter reading", "image": "prüfen", "audio": "tts", "introducedInScene": "b1e4s2", "tags": ["moving", "bills", "paperwork"], "cefrLevel": "B1", "note": "der, Plural: die Zählerstände" },
-    { "id": "das-protokoll", "type": "word", "german": "das Protokoll", "meaning": "the protocol / record", "image": "formular", "audio": "tts", "introducedInScene": "b1e4s2", "tags": ["moving", "paperwork"], "cefrLevel": "B1", "note": "das, Plural: die Protokolle — hier: Übergabeprotokoll" },
-    { "id": "die-kaution", "type": "word", "german": "die Kaution", "meaning": "the deposit", "image": "kaution", "audio": "tts", "introducedInScene": "b1e4s2", "tags": ["moving", "money", "flat-hunt"], "cefrLevel": "B1", "note": "die, Plural: die Kautonen — meist drei Nettokaltmieten" },
-    { "id": "ich-ziehe-ein", "type": "chunk", "german": "Ich ziehe morgen ein.", "meaning": "I'm moving in tomorrow.", "audio": "tts", "introducedInScene": "b1e4s2", "tags": ["moving"], "cefrLevel": "B1", "note": "einziehen — das Wort des Tages" },
-    { "id": "viel-glueck", "type": "chunk", "german": "Viel Glück in der neuen Wohnung!", "meaning": "Good luck in the new flat!", "audio": "tts", "introducedInScene": "b1e4s2", "tags": ["moving", "politeness", "neighbors"], "cefrLevel": "B1" }
+    {
+      "id": "die-miete",
+      "type": "word",
+      "german": "die Miete",
+      "meaning": "the rent",
+      "image": "münzen",
+      "audio": "tts",
+      "introducedInScene": "b1e4s1",
+      "tags": [
+        "flat-hunt",
+        "moving",
+        "money"
+      ],
+      "cefrLevel": "B1",
+      "note": "die, Plural: die Mieten"
+    },
+    {
+      "id": "die-nebenkosten",
+      "type": "word",
+      "german": "die Nebenkosten",
+      "meaning": "the additional/utility costs",
+      "image": "beleg",
+      "audio": "tts",
+      "introducedInScene": "b1e4s1",
+      "tags": [
+        "flat-hunt",
+        "money",
+        "bills"
+      ],
+      "cefrLevel": "B1",
+      "note": "Pluralwort — Strom, Wasser, Heizung"
+    },
+    {
+      "id": "der-balkon",
+      "type": "word",
+      "german": "der Balkon",
+      "meaning": "the balcony",
+      "image": "balkon",
+      "audio": "tts",
+      "introducedInScene": "b1e4s1",
+      "tags": [
+        "flat-hunt",
+        "home"
+      ],
+      "cefrLevel": "B1",
+      "note": "der, Plural: die Balkone — Südseite!"
+    },
+    {
+      "id": "frisch-renoviert",
+      "type": "chunk",
+      "german": "Die Wohnung ist frisch renoviert.",
+      "meaning": "The flat is freshly renovated.",
+      "audio": "tts",
+      "introducedInScene": "b1e4s1",
+      "tags": [
+        "flat-hunt",
+        "home"
+      ],
+      "cefrLevel": "B1"
+    },
+    {
+      "id": "wann-kann-ich-einziehen",
+      "type": "sentence",
+      "german": "Wann kann ich einziehen?",
+      "meaning": "When can I move in?",
+      "audio": "tts",
+      "introducedInScene": "b1e4s1",
+      "tags": [
+        "flat-hunt",
+        "moving",
+        "questions"
+      ],
+      "cefrLevel": "B1",
+      "note": "einziehen = ein + ziehen, trennbar"
+    },
+    {
+      "id": "der-mietvertrag",
+      "type": "word",
+      "german": "der Mietvertrag",
+      "meaning": "the rental contract",
+      "image": "vertrag",
+      "audio": "tts",
+      "introducedInScene": "b1e4s1",
+      "tags": [
+        "flat-hunt",
+        "paperwork",
+        "moving"
+      ],
+      "cefrLevel": "B1",
+      "note": "der, Plural: die Mietverträge"
+    },
+    {
+      "id": "das-treppenhaus",
+      "type": "word",
+      "german": "das Treppenhaus",
+      "meaning": "the stairwell",
+      "image": "treppenhaus",
+      "audio": "tts",
+      "introducedInScene": "b1e4s2",
+      "tags": [
+        "moving",
+        "home",
+        "neighbors"
+      ],
+      "cefrLevel": "B1",
+      "note": "das, Plural: die Treppenhäuser — Kehrwochen inklusive"
+    },
+    {
+      "id": "der-zaehlerstand",
+      "type": "word",
+      "german": "der Zählerstand",
+      "meaning": "the meter reading",
+      "image": "prüfen",
+      "audio": "tts",
+      "introducedInScene": "b1e4s2",
+      "tags": [
+        "moving",
+        "bills",
+        "paperwork"
+      ],
+      "cefrLevel": "B1",
+      "note": "der, Plural: die Zählerstände"
+    },
+    {
+      "id": "das-protokoll",
+      "type": "word",
+      "german": "das Protokoll",
+      "meaning": "the protocol / record",
+      "image": "formular",
+      "audio": "tts",
+      "introducedInScene": "b1e4s2",
+      "tags": [
+        "moving",
+        "paperwork"
+      ],
+      "cefrLevel": "B1",
+      "note": "das, Plural: die Protokolle — hier: Übergabeprotokoll"
+    },
+    {
+      "id": "die-kaution",
+      "type": "word",
+      "german": "die Kaution",
+      "meaning": "the deposit",
+      "image": "kaution",
+      "audio": "tts",
+      "introducedInScene": "b1e4s2",
+      "tags": [
+        "moving",
+        "money",
+        "flat-hunt"
+      ],
+      "cefrLevel": "B1",
+      "note": "die, Plural: die Kautonen — meist drei Nettokaltmieten"
+    },
+    {
+      "id": "ich-ziehe-ein",
+      "type": "chunk",
+      "german": "Ich ziehe morgen ein.",
+      "meaning": "I'm moving in tomorrow.",
+      "audio": "tts",
+      "introducedInScene": "b1e4s2",
+      "tags": [
+        "moving"
+      ],
+      "cefrLevel": "B1",
+      "note": "einziehen — das Wort des Tages"
+    },
+    {
+      "id": "viel-glueck",
+      "type": "chunk",
+      "german": "Viel Glück in der neuen Wohnung!",
+      "meaning": "Good luck in the new flat!",
+      "audio": "tts",
+      "introducedInScene": "b1e4s2",
+      "tags": [
+        "moving",
+        "politeness",
+        "neighbors"
+      ],
+      "cefrLevel": "B1"
+    }
   ],
   "scenes": [
     {
@@ -36,22 +220,92 @@
       "titleEn": "The new flat",
       "place": "Karl-Heine-Straße 41, 3. OG",
       "bg": "wohnung",
-      "contextTags": ["flat-hunt", "moving", "home"],
+      "contextTags": [
+        "flat-hunt",
+        "moving",
+        "home"
+      ],
       "requiredItems": [],
-      "introducedItems": ["die-miete", "die-nebenkosten", "der-balkon", "frisch-renoviert", "wann-kann-ich-einziehen", "der-mietvertrag"],
+      "introducedItems": [
+        "die-miete",
+        "die-nebenkosten",
+        "der-balkon",
+        "frisch-renoviert",
+        "wann-kann-ich-einziehen",
+        "der-mietvertrag"
+      ],
       "beats": [
-        { "type": "narration", "text": "Altbau, hohe Fenster, Dielenboden, ein Balkon Richtung Süden. Sieben Interessenten, du bist der dritte. Vor dir geht jemand wieder raus." },
-        { "type": "meet", "itemIds": ["die-miete", "die-nebenkosten", "der-balkon"] },
-        { "type": "line", "speaker": "maklerin", "text": "Fünf hundertzwanzig warm, Nebenkosten inklusive. Die Wohnung ist frisch renoviert — aber ohne Möbel, das ist fair.", "translation": "Five hundred twenty warm, utilities included. The flat is freshly renovated — but unfurnished, that's fair." },
-        { "type": "meet", "itemIds": ["frisch-renoviert", "der-mietvertrag", "wann-kann-ich-einziehen"] },
-        { "type": "choice", "prompt": "Die Maklerin schaut auf ihre Uhr.", "options": [
-          { "label": "Wann kann ich einziehen?", "line": "Wann kann ich einziehen?" },
-          { "label": "Zeigen Sie mir noch den Mietvertrag.", "line": "Zeigen Sie mir bitte noch den Mietvertrag." }
-        ] },
-        { "type": "line", "speaker": "maklerin", "text": "Erster des Monats. Der Mietvertrag geht heute Abend per E-Mail — lesen Sie ihn in Ruhe, wirklich.", "translation": "First of the month. The rental contract goes out by email tonight — read it properly, really." },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "check", "count": 2, "mode": "recall" },
-        { "type": "narration", "text": "Du stehst auf dem Balkon und siehst Dächer. Zwei Wochen später hat die Bärbelstraße dich hergeben müssen — die Karl-Heine-Straße hat dich." }
+        {
+          "type": "narration",
+          "text": "Altbau, hohe Fenster, Dielenboden, ein Balkon Richtung Süden. Sieben Interessenten, du bist der dritte. Vor dir geht jemand wieder raus."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-miete",
+            "die-nebenkosten",
+            "der-balkon"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "maklerin",
+          "text": "Fünf hundertzwanzig warm, Nebenkosten inklusive. Die Wohnung ist frisch renoviert — aber ohne Möbel, das ist fair.",
+          "translation": "Five hundred twenty warm, utilities included. The flat is freshly renovated — but unfurnished, that's fair."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "frisch-renoviert",
+            "der-mietvertrag",
+            "wann-kann-ich-einziehen"
+          ]
+        },
+        {
+          "type": "choice",
+          "prompt": "Die Maklerin schaut auf ihre Uhr.",
+          "options": [
+            {
+              "label": "Wann kann ich einziehen?",
+              "line": "Wann kann ich einziehen?"
+            },
+            {
+              "label": "Zeigen Sie mir noch den Mietvertrag.",
+              "line": "Zeigen Sie mir bitte noch den Mietvertrag."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "maklerin",
+          "text": "Erster des Monats. Der Mietvertrag geht heute Abend per E-Mail — lesen Sie ihn in Ruhe, wirklich.",
+          "translation": "First of the month. The rental contract goes out by email tonight — read it properly, really."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "reading",
+          "title": "Wohnungsanzeige (vom Brett gerissen)",
+          "text": "2-ZIMMER-WOHNUNG, 54 m², Lindenau\n\n— Balkon (Sonne abends, Mieterfreude gratis)\n— frisch renoviert, Bad neu\n— 3. OG ohne Aufzug („Fitness inklusive“)\n\nKaltmiete 420 € + Nebenkosten 110 €\nProvisionsfrei. Besichtigung: sofort.\n\n»An andere Interessenten gedacht?\n Ja. Sie waren zu langsam.«",
+          "translation": "2-ROOM FLAT, 54 m², Lindenau\n\n— Balcony (evening sun, tenant joy free of charge)\n— freshly renovated, new bathroom\n— 3rd floor, no lift ('fitness included')\n\nBase rent €420 + utilities €110\nNo agent fee. Viewing: immediately.\n\n'Thought of other interested parties?\nYes. They were too slow.'",
+          "itemIds": [
+            "die-miete",
+            "die-nebenkosten",
+            "der-balkon"
+          ]
+        },
+        {
+          "type": "narration",
+          "text": "Du stehst auf dem Balkon und siehst Dächer. Zwei Wochen später hat die Bärbelstraße dich hergeben müssen — die Karl-Heine-Straße hat dich."
+        }
       ]
     },
     {
@@ -61,22 +315,95 @@
       "titleEn": "Key handover",
       "place": "Karl-Heine-Straße 41, Treppenhaus",
       "bg": "treppenhaus",
-      "contextTags": ["moving", "home", "neighbors"],
-      "requiredItems": ["die-wohnung", "der-mietvertrag"],
-      "introducedItems": ["das-treppenhaus", "der-zaehlerstand", "das-protokoll", "die-kaution", "ich-ziehe-ein", "viel-glueck"],
+      "contextTags": [
+        "moving",
+        "home",
+        "neighbors"
+      ],
+      "requiredItems": [
+        "die-wohnung",
+        "der-mietvertrag"
+      ],
+      "introducedItems": [
+        "das-treppenhaus",
+        "der-zaehlerstand",
+        "das-protokoll",
+        "die-kaution",
+        "ich-ziehe-ein",
+        "viel-glueck"
+      ],
       "beats": [
-        { "type": "narration", "text": "Übergabetag. Frau Hedicke mit Mappe, du mit Taschen. Im Treppenhaus duftet es nach Farbe und Wochenende." },
-        { "type": "meet", "itemIds": ["das-treppenhaus", "das-protokoll", "die-kaution"] },
-        { "type": "line", "speaker": "maklerin", "text": "So — das Übergabeprotokoll: Zählerstand notieren, Schäden notieren, dann die Kaution später zurück. Lesen, unterschreiben, ziehen ein.", "translation": "Right — the handover protocol: note the meter reading, note any damage, then the deposit comes back later. Read, sign, move in." },
-        { "type": "meet", "itemIds": ["der-zaehlerstand", "ich-ziehe-ein", "viel-glueck"] },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "line", "speaker": "maklerin", "text": "Und — der alte Schlüssel vom Herrn vorher? …Gut. Dann: alles Ihre. Viel Glück in der neuen Wohnung!", "translation": "And — the old key from the previous tenant? …Good. Then: it's all yours. Good luck in the new flat!" },
-        { "type": "choice", "prompt": "Du hältst den Schlüssel in der Hand. Er ähnelt einem, den du noch kennst.", "options": [
-          { "label": "Danke! Ich ziehe morgen richtig ein.", "line": "Danke! Morgen ziehe ich richtig ein — mit Kartons und allem." },
-          { "label": "Ich hab schon Übung mit Schlüsseln.", "line": "Ich habe inzwischen schon Übung mit Schlüsseln." }
-        ] },
-        { "type": "check", "count": 2, "mode": "recall" },
-        { "type": "narration", "text": "Der Schlüssel passt. Zweiter Schlüssel in Leipzig, zweite Wohnung, dieselbe Hand. Tobias tritt aus dem Treppenhausnebel: „Ab jetzt Liegenschaftsbesitzer. Toast morgen!“" }
+        {
+          "type": "narration",
+          "text": "Übergabetag. Frau Hedicke mit Mappe, du mit Taschen. Im Treppenhaus duftet es nach Farbe und Wochenende."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "das-treppenhaus",
+            "das-protokoll",
+            "die-kaution"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "maklerin",
+          "text": "So — das Übergabeprotokoll: Zählerstand notieren, Schäden notieren, dann die Kaution später zurück. Lesen, unterschreiben, ziehen ein.",
+          "translation": "Right — the handover protocol: note the meter reading, note any damage, then the deposit comes back later. Read, sign, move in."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-zaehlerstand",
+            "ich-ziehe-ein",
+            "viel-glueck"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "line",
+          "speaker": "maklerin",
+          "text": "Und — der alte Schlüssel vom Herrn vorher? …Gut. Dann: alles Ihre. Viel Glück in der neuen Wohnung!",
+          "translation": "And — the old key from the previous tenant? …Good. Then: it's all yours. Good luck in the new flat!"
+        },
+        {
+          "type": "choice",
+          "prompt": "Du hältst den Schlüssel in der Hand. Er ähnelt einem, den du noch kennst.",
+          "options": [
+            {
+              "label": "Danke! Ich ziehe morgen richtig ein.",
+              "line": "Danke! Morgen ziehe ich richtig ein — mit Kartons und allem."
+            },
+            {
+              "label": "Ich hab schon Übung mit Schlüsseln.",
+              "line": "Ich habe inzwischen schon Übung mit Schlüsseln."
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "reading",
+          "title": "Übergabeprotokoll (Auszug)",
+          "text": "Wohnungsübergabe, 1. März\n\nZählerstand Strom: 04187 kWh\nZählerstand Wasser: 231 m³\nSchlüssel: 4 (drei sind zurück — Anmerkung: gut)\nMängel: Tür schließt langsam. Charakterfrage.\nKaution: 1.260 €, beim Amt hinterlegt\n\nBeide Seiten: einverstanden.\nUnterschriften: vorhanden. Und: ein Daumenabdruck\n(Tinte, versehentlich, bleibt als Kunstwerk).",
+          "translation": "Flat hand-over, 1 March\n\nElectricity meter: 04187 kWh\nWater meter: 231 m³\nKeys: 4 (three returned — note: good)\nDefects: door closes slowly. A matter of character.\nDeposit: €1,260, held in escrow\n\nBoth parties: in agreement.\nSignatures: present. Plus: one thumbprint\n(ink, accidental, stays as artwork).",
+          "itemIds": [
+            "das-protokoll",
+            "der-zaehlerstand",
+            "die-kaution"
+          ]
+        },
+        {
+          "type": "narration",
+          "text": "Der Schlüssel passt. Zweiter Schlüssel in Leipzig, zweite Wohnung, dieselbe Hand. Tobias tritt aus dem Treppenhausnebel: „Ab jetzt Liegenschaftsbesitzer. Toast morgen!“"
+        }
       ]
     }
   ]

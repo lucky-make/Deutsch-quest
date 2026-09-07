@@ -481,6 +481,17 @@
           "mode": "listen"
         },
         {
+          "type": "reading",
+          "title": "Meis Regieanweisungen (am Rand)",
+          "text": "S. 1: Langsam anfangen. Ganz langsam. Publikum belohnen.\nS. 2: Betonung auf „Koffer“ — nicht auf „kam“.\nS. 3: Absatz-Ende = Pause. EINE SEKUNDE. Zählen!\nS. 4: Hier tief durchatmen. Sichtbar. Das ist okay.\nS. 5: „Banane“ lächeln. Du darfst.\n\n»Das gesprochene Wort vergisst man nicht,\nwenn es atmet.«",
+          "translation": "P. 1: Start slowly. Very slowly. Reward the audience.\nP. 2: Stress on 'suitcase' — not on 'came'.\nP. 3: end of paragraph = pause. ONE SECOND. Count it!\nP. 4: breathe deeply here. Visibly. That's okay.\nP. 5: smile at 'banana'. You're allowed.\n\n'The spoken word isn't forgotten\nwhen it breathes.'",
+          "itemIds": [
+            "die-betonung",
+            "der-absatz",
+            "tief-durchatmen"
+          ]
+        },
+        {
           "type": "narration",
           "text": "Um Mitternacht liest du zum letzten Mal — und der Kaktus kriegt die beste Fassung. Der Text bleibt derselbe. Aber die Stimme heute klingt, als hätte sie das alles selbst erlebt. Hat sie."
         }

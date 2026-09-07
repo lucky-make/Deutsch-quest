@@ -7,29 +7,253 @@
     "titleEn": "Café Luise makes plans",
     "blurb": "Ein Hinterhof-Anbau, Zahlen, ein Pitch. Du hältst deine erste Präsentation — auf Deutsch, vor Publikum.",
     "order": 13,
-    "sceneIds": ["b2e1s1", "b2e1s2", "b2e1s3"]
+    "sceneIds": [
+      "b2e1s1",
+      "b2e1s2",
+      "b2e1s3"
+    ]
   },
   "cast": [
-    { "id": "luise", "name": "Luise", "role": "Café-Besitzerin" },
-    { "id": "mei", "name": "Mei", "role": "Kollegin" },
-    { "id": "marek", "name": "Marek", "role": "Kollege, Backstube" }
+    {
+      "id": "luise",
+      "name": "Luise",
+      "role": "Café-Besitzerin"
+    },
+    {
+      "id": "mei",
+      "name": "Mei",
+      "role": "Kollegin"
+    },
+    {
+      "id": "marek",
+      "name": "Marek",
+      "role": "Kollege, Backstube"
+    }
   ],
   "items": [
-    { "id": "der-vorschlag", "type": "word", "german": "der Vorschlag", "meaning": "the proposal / suggestion", "image": "idee", "audio": "tts", "introducedInScene": "b2e1s1", "tags": ["meeting", "planning", "work"], "cefrLevel": "B2", "note": "der, Plural: die Vorschläge" },
-    { "id": "ich-schlage-vor", "type": "grammar_pattern", "german": "Ich schlage vor, ___.", "meaning": "I propose that ___.", "audio": "tts", "introducedInScene": "b2e1s1", "tags": ["meeting", "planning", "opinion"], "cefrLevel": "B2", "cloze": "wir testen es im April", "alt": "wir starten im April", "speak": "Ich schlage vor, wir testen es im April.", "note": "schlagen vor + Nebensatz mit Verb am Ende" },
-    { "id": "das-ziel", "type": "word", "german": "das Ziel", "meaning": "the goal / target", "image": "ziel", "audio": "tts", "introducedInScene": "b2e1s1", "tags": ["meeting", "planning"], "cefrLevel": "B2", "note": "das, Plural: die Ziele" },
-    { "id": "der-umsatz", "type": "word", "german": "der Umsatz", "meaning": "the revenue / turnover", "image": "budget", "audio": "tts", "introducedInScene": "b2e1s1", "tags": ["meeting", "money", "work"], "cefrLevel": "B2", "note": "der, Plural: die Umsätze" },
-    { "id": "was-haltet-ihr-davon", "type": "sentence", "german": "Was haltet ihr davon?", "meaning": "What do you think of it? (to a group)", "audio": "tts", "introducedInScene": "b2e1s1", "tags": ["meeting", "opinion"], "cefrLevel": "B2" },
-    { "id": "die-praesentation", "type": "word", "german": "die Präsentation", "meaning": "the presentation", "image": "präsentation", "audio": "tts", "introducedInScene": "b2e1s2", "tags": ["work", "meeting"], "cefrLevel": "B2", "note": "die, Plural: die Präsentationen" },
-    { "id": "das-konzept", "type": "word", "german": "das Konzept", "meaning": "the concept", "image": "konzept", "audio": "tts", "introducedInScene": "b2e1s2", "tags": ["work", "planning"], "cefrLevel": "B2", "note": "das, Plural: die Konzepte" },
-    { "id": "die-kennzahl", "type": "word", "german": "die Kennzahl", "meaning": "the key figure / metric", "image": "prüfen", "audio": "tts", "introducedInScene": "b2e1s2", "tags": ["work", "money"], "cefrLevel": "B2", "note": "die, Plural: die Kennzahlen" },
-    { "id": "die-kundschaft", "type": "word", "german": "die Kundschaft", "meaning": "the clientele / customers", "image": "kunde", "audio": "tts", "introducedInScene": "b2e1s2", "tags": ["work", "cafe"], "cefrLevel": "B2", "note": "die ( Singular, Sammelbegriff )" },
-    { "id": "die-zahlen-ueberzeugen", "type": "chunk", "german": "Die Zahlen überzeugen.", "meaning": "The numbers are convincing.", "audio": "tts", "introducedInScene": "b2e1s2", "tags": ["meeting", "money", "opinion"], "cefrLevel": "B2" },
-    { "id": "die-entscheidung", "type": "word", "german": "die Entscheidung", "meaning": "the decision", "image": "entscheidung", "audio": "tts", "introducedInScene": "b2e1s3", "tags": ["meeting", "planning"], "cefrLevel": "B2", "note": "die, Plural: die Entscheidungen — „eine Entscheidung treffen\"" },
-    { "id": "das-budget", "type": "word", "german": "das Budget", "meaning": "the budget", "image": "budget", "audio": "tts", "introducedInScene": "b2e1s3", "tags": ["money", "planning"], "cefrLevel": "B2" },
-    { "id": "die-verantwortung", "type": "word", "german": "die Verantwortung", "meaning": "the responsibility", "image": "kaution", "audio": "tts", "introducedInScene": "b2e1s3", "tags": ["work", "career"], "cefrLevel": "B2", "note": "die ( Singular ) — „Verantwortung übernehmen\"" },
-    { "id": "wir-haben-entschieden", "type": "sentence", "german": "Wir haben entschieden: Wir wagen es.", "meaning": "We've decided: we'll dare to do it.", "audio": "tts", "introducedInScene": "b2e1s3", "tags": ["meeting", "planning"], "cefrLevel": "B2" },
-    { "id": "das-ist-mutig", "type": "chunk", "german": "Das ist mutig.", "meaning": "That's brave.", "audio": "tts", "introducedInScene": "b2e1s3", "tags": ["opinion", "smalltalk"], "cefrLevel": "B2", "note": "Kann Kompliment sein. Kann auch Warnung sein. Kontext!" }
+    {
+      "id": "der-vorschlag",
+      "type": "word",
+      "german": "der Vorschlag",
+      "meaning": "the proposal / suggestion",
+      "image": "idee",
+      "audio": "tts",
+      "introducedInScene": "b2e1s1",
+      "tags": [
+        "meeting",
+        "planning",
+        "work"
+      ],
+      "cefrLevel": "B2",
+      "note": "der, Plural: die Vorschläge"
+    },
+    {
+      "id": "ich-schlage-vor",
+      "type": "grammar_pattern",
+      "german": "Ich schlage vor, ___.",
+      "meaning": "I propose that ___.",
+      "audio": "tts",
+      "introducedInScene": "b2e1s1",
+      "tags": [
+        "meeting",
+        "planning",
+        "opinion"
+      ],
+      "cefrLevel": "B2",
+      "cloze": "wir testen es im April",
+      "alt": "wir starten im April",
+      "speak": "Ich schlage vor, wir testen es im April.",
+      "note": "schlagen vor + Nebensatz mit Verb am Ende"
+    },
+    {
+      "id": "das-ziel",
+      "type": "word",
+      "german": "das Ziel",
+      "meaning": "the goal / target",
+      "image": "ziel",
+      "audio": "tts",
+      "introducedInScene": "b2e1s1",
+      "tags": [
+        "meeting",
+        "planning"
+      ],
+      "cefrLevel": "B2",
+      "note": "das, Plural: die Ziele"
+    },
+    {
+      "id": "der-umsatz",
+      "type": "word",
+      "german": "der Umsatz",
+      "meaning": "the revenue / turnover",
+      "image": "budget",
+      "audio": "tts",
+      "introducedInScene": "b2e1s1",
+      "tags": [
+        "meeting",
+        "money",
+        "work"
+      ],
+      "cefrLevel": "B2",
+      "note": "der, Plural: die Umsätze"
+    },
+    {
+      "id": "was-haltet-ihr-davon",
+      "type": "sentence",
+      "german": "Was haltet ihr davon?",
+      "meaning": "What do you think of it? (to a group)",
+      "audio": "tts",
+      "introducedInScene": "b2e1s1",
+      "tags": [
+        "meeting",
+        "opinion"
+      ],
+      "cefrLevel": "B2"
+    },
+    {
+      "id": "die-praesentation",
+      "type": "word",
+      "german": "die Präsentation",
+      "meaning": "the presentation",
+      "image": "präsentation",
+      "audio": "tts",
+      "introducedInScene": "b2e1s2",
+      "tags": [
+        "work",
+        "meeting"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Präsentationen"
+    },
+    {
+      "id": "das-konzept",
+      "type": "word",
+      "german": "das Konzept",
+      "meaning": "the concept",
+      "image": "konzept",
+      "audio": "tts",
+      "introducedInScene": "b2e1s2",
+      "tags": [
+        "work",
+        "planning"
+      ],
+      "cefrLevel": "B2",
+      "note": "das, Plural: die Konzepte"
+    },
+    {
+      "id": "die-kennzahl",
+      "type": "word",
+      "german": "die Kennzahl",
+      "meaning": "the key figure / metric",
+      "image": "prüfen",
+      "audio": "tts",
+      "introducedInScene": "b2e1s2",
+      "tags": [
+        "work",
+        "money"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Kennzahlen"
+    },
+    {
+      "id": "die-kundschaft",
+      "type": "word",
+      "german": "die Kundschaft",
+      "meaning": "the clientele / customers",
+      "image": "kunde",
+      "audio": "tts",
+      "introducedInScene": "b2e1s2",
+      "tags": [
+        "work",
+        "cafe"
+      ],
+      "cefrLevel": "B2",
+      "note": "die ( Singular, Sammelbegriff )"
+    },
+    {
+      "id": "die-zahlen-ueberzeugen",
+      "type": "chunk",
+      "german": "Die Zahlen überzeugen.",
+      "meaning": "The numbers are convincing.",
+      "audio": "tts",
+      "introducedInScene": "b2e1s2",
+      "tags": [
+        "meeting",
+        "money",
+        "opinion"
+      ],
+      "cefrLevel": "B2"
+    },
+    {
+      "id": "die-entscheidung",
+      "type": "word",
+      "german": "die Entscheidung",
+      "meaning": "the decision",
+      "image": "entscheidung",
+      "audio": "tts",
+      "introducedInScene": "b2e1s3",
+      "tags": [
+        "meeting",
+        "planning"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Entscheidungen — „eine Entscheidung treffen\""
+    },
+    {
+      "id": "das-budget",
+      "type": "word",
+      "german": "das Budget",
+      "meaning": "the budget",
+      "image": "budget",
+      "audio": "tts",
+      "introducedInScene": "b2e1s3",
+      "tags": [
+        "money",
+        "planning"
+      ],
+      "cefrLevel": "B2"
+    },
+    {
+      "id": "die-verantwortung",
+      "type": "word",
+      "german": "die Verantwortung",
+      "meaning": "the responsibility",
+      "image": "kaution",
+      "audio": "tts",
+      "introducedInScene": "b2e1s3",
+      "tags": [
+        "work",
+        "career"
+      ],
+      "cefrLevel": "B2",
+      "note": "die ( Singular ) — „Verantwortung übernehmen\""
+    },
+    {
+      "id": "wir-haben-entschieden",
+      "type": "sentence",
+      "german": "Wir haben entschieden: Wir wagen es.",
+      "meaning": "We've decided: we'll dare to do it.",
+      "audio": "tts",
+      "introducedInScene": "b2e1s3",
+      "tags": [
+        "meeting",
+        "planning"
+      ],
+      "cefrLevel": "B2"
+    },
+    {
+      "id": "das-ist-mutig",
+      "type": "chunk",
+      "german": "Das ist mutig.",
+      "meaning": "That's brave.",
+      "audio": "tts",
+      "introducedInScene": "b2e1s3",
+      "tags": [
+        "opinion",
+        "smalltalk"
+      ],
+      "cefrLevel": "B2",
+      "note": "Kann Kompliment sein. Kann auch Warnung sein. Kontext!"
+    }
   ],
   "scenes": [
     {
@@ -39,22 +263,81 @@
       "titleEn": "The team meeting",
       "place": "Café Luise, nach Schluss, Theke als Tisch",
       "bg": "cafe",
-      "contextTags": ["work", "meeting", "planning"],
-      "requiredItems": ["die-stelle"],
-      "introducedItems": ["der-vorschlag", "ich-schlage-vor", "das-ziel", "der-umsatz", "was-haltet-ihr-davon"],
+      "contextTags": [
+        "work",
+        "meeting",
+        "planning"
+      ],
+      "requiredItems": [
+        "die-stelle"
+      ],
+      "introducedItems": [
+        "der-vorschlag",
+        "ich-schlage-vor",
+        "das-ziel",
+        "der-umsatz",
+        "was-haltet-ihr-davon"
+      ],
       "beats": [
-        { "type": "narration", "text": "Abend. Stühle auf den Tischen, einer bleibt unten: Teamrunde. Luise hat eine Excel-Tabelle und einen Namen für den Hinterhof: „Luises Zweiter\"." },
-        { "type": "line", "speaker": "luise", "text": "Kurz und ehrlich: Der Umsatz stimmt, aber wir platzen aus allen Nähten. Ideen?", "translation": "Brief and honest: revenue is fine, but we're bursting at the seams. Ideas?" },
-        { "type": "meet", "itemIds": ["der-umsatz", "das-ziel", "der-vorschlag"] },
-        { "type": "meet", "itemIds": ["ich-schlage-vor", "was-haltet-ihr-davon"] },
-        { "type": "choice", "prompt": "Alle schauen dich an. Du hast einen Plan.", "options": [
-          { "label": "Ich schlage vor, wir testen es im April.", "line": "Ich schlage vor, wir testen den Anbau im April — klein und reversibel." },
-          { "label": "Mein Ziel: mehr Plätze draußen.", "line": "Mein Ziel wäre: mehr Plätze draußen, weniger Risiko drinnen." }
-        ] },
-        { "type": "line", "speaker": "mei", "text": "Ich find's gut. Marek? …Marek findet alles gut, was Mehl enthält. — Sam, rechnest du das mal aus?", "translation": "I like it. Marek? …Marek likes everything containing flour. — Sam, will you work out the numbers?" },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "check", "count": 2, "mode": "recall" },
-        { "type": "narration", "text": "Du gehst mit einer Aufgabe nach Hause: Zahlen. Auf Deutsch rechnen, plausch­halber schrecklicher als reden. Aber du hast ja Kennzahlen." }
+        {
+          "type": "narration",
+          "text": "Abend. Stühle auf den Tischen, einer bleibt unten: Teamrunde. Luise hat eine Excel-Tabelle und einen Namen für den Hinterhof: „Luises Zweiter\"."
+        },
+        {
+          "type": "line",
+          "speaker": "luise",
+          "text": "Kurz und ehrlich: Der Umsatz stimmt, aber wir platzen aus allen Nähten. Ideen?",
+          "translation": "Brief and honest: revenue is fine, but we're bursting at the seams. Ideas?"
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-umsatz",
+            "das-ziel",
+            "der-vorschlag"
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "ich-schlage-vor",
+            "was-haltet-ihr-davon"
+          ]
+        },
+        {
+          "type": "choice",
+          "prompt": "Alle schauen dich an. Du hast einen Plan.",
+          "options": [
+            {
+              "label": "Ich schlage vor, wir testen es im April.",
+              "line": "Ich schlage vor, wir testen den Anbau im April — klein und reversibel."
+            },
+            {
+              "label": "Mein Ziel: mehr Plätze draußen.",
+              "line": "Mein Ziel wäre: mehr Plätze draußen, weniger Risiko drinnen."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "mei",
+          "text": "Ich find's gut. Marek? …Marek findet alles gut, was Mehl enthält. — Sam, rechnest du das mal aus?",
+          "translation": "I like it. Marek? …Marek likes everything containing flour. — Sam, will you work out the numbers?"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "narration",
+          "text": "Du gehst mit einer Aufgabe nach Hause: Zahlen. Auf Deutsch rechnen, plausch­halber schrecklicher als reden. Aber du hast ja Kennzahlen."
+        }
       ]
     },
     {
@@ -64,22 +347,93 @@
       "titleEn": "The presentation",
       "place": "Café Luise, hintere Stube, Beamer vom Flohmarkt",
       "bg": "buero",
-      "contextTags": ["work", "presentation", "meeting"],
-      "requiredItems": ["das-ziel", "der-vorschlag"],
-      "introducedItems": ["die-praesentation", "das-konzept", "die-kennzahl", "die-kundschaft", "die-zahlen-ueberzeugen"],
+      "contextTags": [
+        "work",
+        "presentation",
+        "meeting"
+      ],
+      "requiredItems": [
+        "das-ziel",
+        "der-vorschlag"
+      ],
+      "introducedItems": [
+        "die-praesentation",
+        "das-konzept",
+        "die-kennzahl",
+        "die-kundschaft",
+        "die-zahlen-ueberzeugen"
+      ],
       "beats": [
-        { "type": "narration", "text": "Drei Folien, eine Lampe, vier Zuhörer. Deine Vorbereitung hängt am Kühlschrank seit einer Woche. Die Hände sind kalt, die Kennzahlen sind heiß." },
-        { "type": "meet", "itemIds": ["die-praesentation", "das-konzept", "die-kennzahl"] },
-        { "type": "line", "speaker": "luise", "text": "Also los. Ich höre.", "translation": "Go ahead. I'm listening." },
-        { "type": "choice", "prompt": "Tiefer Atem. Folie eins.", "options": [
-          { "label": "Unser Konzept in drei Sätzen.", "line": "Unser Konzept in drei Sätzen: mehr Platz, gleiche Küche, gleiche Preise." },
-          { "label": "Ich fange mit den Zahlen an.", "line": "Ich fange mit den Zahlen an, weil die Zahlen überzeugen." }
-        ] },
-        { "type": "meet", "itemIds": ["die-kundschaft", "die-zahlen-ueberzeugen"] },
-        { "type": "line", "speaker": "marek", "text": "Moment — die Kennzahl hier unten: dreißig Prozent mehr Kundschaft am Wochenende? …Das ist nicht klein und reversibel. Das ist richtig groß.", "translation": "Wait — the metric down here: thirty percent more customers on weekends? …That's not small and reversible. That's properly big." },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "check", "count": 2, "mode": "listen" },
-        { "type": "narration", "text": "Diskussion um acht Uhr abends, auf Deutsch, du mitten drin. Irgendwann merkst du, dass du nicht mehr übersetzt. Du denkst einfach." }
+        {
+          "type": "narration",
+          "text": "Drei Folien, eine Lampe, vier Zuhörer. Deine Vorbereitung hängt am Kühlschrank seit einer Woche. Die Hände sind kalt, die Kennzahlen sind heiß."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-praesentation",
+            "das-konzept",
+            "die-kennzahl"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "luise",
+          "text": "Also los. Ich höre.",
+          "translation": "Go ahead. I'm listening."
+        },
+        {
+          "type": "choice",
+          "prompt": "Tiefer Atem. Folie eins.",
+          "options": [
+            {
+              "label": "Unser Konzept in drei Sätzen.",
+              "line": "Unser Konzept in drei Sätzen: mehr Platz, gleiche Küche, gleiche Preise."
+            },
+            {
+              "label": "Ich fange mit den Zahlen an.",
+              "line": "Ich fange mit den Zahlen an, weil die Zahlen überzeugen."
+            }
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-kundschaft",
+            "die-zahlen-ueberzeugen"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "marek",
+          "text": "Moment — die Kennzahl hier unten: dreißig Prozent mehr Kundschaft am Wochenende? …Das ist nicht klein und reversibel. Das ist richtig groß.",
+          "translation": "Wait — the metric down here: thirty percent more customers on weekends? …That's not small and reversible. That's properly big."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "reading",
+          "title": "Luises Konzeptpapier „Anbau“",
+          "text": "CAFÉ LUISE — IDEE ANBAU\n\nZiel: 12 mehr Plätze, Winter draußen möglich.\nKernzahl: Mehrwert 4.000 €/Jahr (Kalkulation folgt)\nKundschaft: Stammgäste + Bibliotheksflüchtlinge\n\nOffene Fragen:\n— Genehmigung? (Kalisch fragen)\n— Wer baut? (Jonas? Andere? Zwei Angebote!)\n— Budget-Deckel: setzen. STRIKT.",
+          "translation": "CAFÉ LUISE — IDEA: EXTENSION\n\nGoal: 12 more seats, winter seating possible.\nCore number: added value €4,000/year (calculation to follow)\nClientele: regulars + library refugees\n\nOpen questions:\n— Permit? (ask Kalisch)\n— Who builds? (Jonas? Others? Two quotes!)\n— Budget cap: set it. STRICT.",
+          "itemIds": [
+            "das-konzept",
+            "die-kennzahl",
+            "die-kundschaft"
+          ]
+        },
+        {
+          "type": "narration",
+          "text": "Diskussion um acht Uhr abends, auf Deutsch, du mitten drin. Irgendwann merkst du, dass du nicht mehr übersetzt. Du denkst einfach."
+        }
       ]
     },
     {
@@ -89,21 +443,88 @@
       "titleEn": "The decision",
       "place": "Café Luise, Theke, eine Woche später",
       "bg": "cafe",
-      "contextTags": ["work", "planning", "meeting"],
-      "requiredItems": ["das-ziel"],
-      "introducedItems": ["die-entscheidung", "das-budget", "die-verantwortung", "wir-haben-entschieden", "das-ist-mutig"],
+      "contextTags": [
+        "work",
+        "planning",
+        "meeting"
+      ],
+      "requiredItems": [
+        "das-ziel"
+      ],
+      "introducedItems": [
+        "die-entscheidung",
+        "das-budget",
+        "die-verantwortung",
+        "wir-haben-entschieden",
+        "das-ist-mutig"
+      ],
       "beats": [
-        { "type": "line", "speaker": "luise", "text": "So. Ich habe mit meiner Bank geredet. Das Budget steht — mit Bedingungen. Darum sage ich es vor allen: Wir haben entschieden, wir wagen es.", "translation": "Right. I talked to my bank. The budget is there — with conditions. That's why I'm saying it in front of everyone: we've decided, we'll dare to do it." },
-        { "type": "meet", "itemIds": ["das-budget", "die-entscheidung", "wir-haben-entschieden"] },
-        { "type": "meet", "itemIds": ["die-verantwortung", "das-ist-mutig"] },
-        { "type": "choice", "prompt": "Luise schaut dich an, ernster als sonst.", "options": [
-          { "label": "Ich übernehme die Verantwortung für die Zahlen.", "line": "Ich übernehme die Verantwortung für die Zahlen — jede einzelne." },
-          { "label": "Das ist mutig, Luise. Und richtig.", "line": "Das ist mutig, Luise. Und es ist richtig." }
-        ] },
-        { "type": "line", "speaker": "luise", "text": "Mutig ist es erst, wenn man's riskiert hat. …Deswegen: Projektleitung Anbau — Sam. Ab Montag. Herzlichen Glückwunsch.", "translation": "It's only brave once you've risked it. …Therefore: project lead for the extension — Sam. Starting Monday. Congratulations." },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "check", "count": 2, "mode": "recall" },
-        { "type": "narration", "text": "Mei pfeift, Marek klatscht mit mehligen Händen. Du hast jetzt Verantwortung, ein Budget — und samstags Baustellenstaub in der Schürze." }
+        {
+          "type": "line",
+          "speaker": "luise",
+          "text": "So. Ich habe mit meiner Bank geredet. Das Budget steht — mit Bedingungen. Darum sage ich es vor allen: Wir haben entschieden, wir wagen es.",
+          "translation": "Right. I talked to my bank. The budget is there — with conditions. That's why I'm saying it in front of everyone: we've decided, we'll dare to do it."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "das-budget",
+            "die-entscheidung",
+            "wir-haben-entschieden"
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-verantwortung",
+            "das-ist-mutig"
+          ]
+        },
+        {
+          "type": "choice",
+          "prompt": "Luise schaut dich an, ernster als sonst.",
+          "options": [
+            {
+              "label": "Ich übernehme die Verantwortung für die Zahlen.",
+              "line": "Ich übernehme die Verantwortung für die Zahlen — jede einzelne."
+            },
+            {
+              "label": "Das ist mutig, Luise. Und richtig.",
+              "line": "Das ist mutig, Luise. Und es ist richtig."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "luise",
+          "text": "Mutig ist es erst, wenn man's riskiert hat. …Deswegen: Projektleitung Anbau — Sam. Ab Montag. Herzlichen Glückwunsch.",
+          "translation": "It's only brave once you've risked it. …Therefore: project lead for the extension — Sam. Starting Monday. Congratulations."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "reading",
+          "title": "Beschluss-Notiz (Theke, unter der Glaskappe)",
+          "text": "ENTSCHIEDEN (Ende der Diskussion, Anfang der Arbeit):\n\n1. Anbau kommt. Frühling. Kein „vielleicht“.\n2. Budget: 28.000 €. Deckel zu.\n3. Verantwortung: Luise (Geld) + Team (Baustelle-Diät).\n\n»Mutig ist nicht laut.\n Mutig ist: unterschreiben und dann kommen.«",
+          "translation": "DECIDED (end of discussion, start of work):\n\n1. The extension is happening. Spring. No 'maybe'.\n2. Budget: €28,000. Lid closed.\n3. Responsibility: Luise (money) + team (construction-site diet).\n\n'Brave isn't loud.\nBrave is: sign, and then show up.'",
+          "itemIds": [
+            "die-entscheidung",
+            "das-budget",
+            "wir-haben-entschieden"
+          ]
+        },
+        {
+          "type": "narration",
+          "text": "Mei pfeift, Marek klatscht mit mehligen Händen. Du hast jetzt Verantwortung, ein Budget — und samstags Baustellenstaub in der Schürze."
+        }
       ]
     }
   ]

@@ -7,31 +7,288 @@
     "titleEn": "The first wage",
     "blurb": "Erstes Geld, erstes Konto, erster Dauerauftrag. Deutschland bürokratisch zu lieben beginnt beim Banktermin.",
     "order": 9,
-    "sceneIds": ["a2e5s1", "a2e5s2", "a2e5s3"]
+    "sceneIds": [
+      "a2e5s1",
+      "a2e5s2",
+      "a2e5s3"
+    ]
   },
   "cast": [
-    { "id": "luise", "name": "Luise", "role": "Café-Besitzerin" },
-    { "id": "bankfrau", "name": "Frau Weißenfels", "role": "Bankangestellte" },
-    { "id": "frau-bruegge", "name": "Frau Brügge", "role": "Vermieterin" }
+    {
+      "id": "luise",
+      "name": "Luise",
+      "role": "Café-Besitzerin"
+    },
+    {
+      "id": "bankfrau",
+      "name": "Frau Weißenfels",
+      "role": "Bankangestellte"
+    },
+    {
+      "id": "frau-bruegge",
+      "name": "Frau Brügge",
+      "role": "Vermieterin"
+    }
   ],
   "items": [
-    { "id": "das-geld", "type": "word", "german": "das Geld", "meaning": "the money", "image": "münzen", "audio": "tts", "introducedInScene": "a2e5s1", "tags": ["money", "bank"], "cefrLevel": "A2", "note": "das ( Singular ) — Plural selten: die Gelder" },
-    { "id": "die-bank", "type": "word", "german": "die Bank", "meaning": "the bank (also: the bench!)", "image": "bank", "audio": "tts", "introducedInScene": "a2e5s1", "tags": ["bank", "money", "city"], "cefrLevel": "A2", "note": "die, Plural: die Banken — die Bank = auch die Sitzbank. Kontext entscheidet." },
-    { "id": "das-konto", "type": "word", "german": "das Konto", "meaning": "the (bank) account", "image": "bank", "audio": "tts", "introducedInScene": "a2e5s1", "tags": ["bank", "money"], "cefrLevel": "A2", "note": "das, Plural: die Konten" },
-    { "id": "die-bankkarte", "type": "word", "german": "die Bankkarte", "meaning": "the bank card", "image": "geld", "audio": "tts", "introducedInScene": "a2e5s1", "tags": ["bank", "money"], "cefrLevel": "A2", "note": "die, Plural: die Bankkarten" },
-    { "id": "der-lohn-ist-da", "type": "sentence", "german": "Der Lohn ist da!", "meaning": "The wage has arrived!", "image": "münzen", "audio": "tts", "introducedInScene": "a2e5s1", "tags": ["money", "work"], "cefrLevel": "A2", "parentId": "der-lohn" },
-    { "id": "geld-abheben", "type": "chunk", "german": "Ich möchte Geld abheben.", "meaning": "I'd like to withdraw money.", "image": "bank", "audio": "tts", "introducedInScene": "a2e5s1", "tags": ["bank", "money", "request"], "cefrLevel": "A2", "note": "abheben = ab + heben, trennbar" },
-    { "id": "konto-eroeffnen", "type": "grammar_pattern", "german": "Ich möchte ein Konto ___.", "meaning": "I'd like to open an account.", "image": "bank", "audio": "tts", "introducedInScene": "a2e5s2", "tags": ["bank", "money", "request"], "cefrLevel": "A2", "cloze": "eröffnen", "speak": "Ich möchte ein Konto eröffnen.", "note": "möchte + Infinitiv am Satzende" },
-    { "id": "die-geheimzahl", "type": "word", "german": "die Geheimzahl", "meaning": "the PIN", "image": "prüfen", "audio": "tts", "introducedInScene": "a2e5s2", "tags": ["bank", "money"], "cefrLevel": "A2", "note": "die, Plural: die Geheimzahlen — geheim = secret" },
-    { "id": "ueberweisen", "type": "chunk", "german": "Ich überweise die Miete.", "meaning": "I'm transferring the rent.", "image": "münzen", "audio": "tts", "introducedInScene": "a2e5s2", "tags": ["bank", "money"], "cefrLevel": "A2", "note": "überweisen — Geld geht von Konto zu Konto" },
-    { "id": "der-dauerauftrag", "type": "word", "german": "der Dauerauftrag", "meaning": "the standing order", "image": "kalender", "audio": "tts", "introducedInScene": "a2e5s2", "tags": ["bank", "money", "admin"], "cefrLevel": "A2", "note": "der, Plural: die Daueraufträge — die Miete zahlt sich jetzt selbst" },
-    { "id": "der-kontostand", "type": "word", "german": "der Kontostand", "meaning": "the account balance", "image": "prüfen", "audio": "tts", "introducedInScene": "a2e5s2", "tags": ["bank", "money"], "cefrLevel": "A2", "note": "der, Plural: die Kontostände" },
-    { "id": "die-bankverbindung", "type": "word", "german": "die Bankverbindung", "meaning": "the bank details", "image": "formular", "audio": "tts", "introducedInScene": "a2e5s2", "tags": ["bank", "paperwork"], "cefrLevel": "A2", "note": "die, Plural: die Bankverbindungen — IBAN & Co." },
-    { "id": "die-ueberweisung", "type": "word", "german": "die Überweisung", "meaning": "the bank transfer", "image": "brief", "audio": "tts", "introducedInScene": "a2e5s3", "tags": ["bank", "money"], "cefrLevel": "A2", "note": "die, Plural: die Überweisungen" },
-    { "id": "puenktlich", "type": "word", "german": "pünktlich", "meaning": "punctual / on time", "image": "urehr", "audio": "tts", "introducedInScene": "a2e5s3", "tags": ["time", "smalltalk"], "cefrLevel": "A2", "note": "Adjektiv — in Deutschland fast ein Kompliment" },
-    { "id": "erledigt", "type": "chunk", "german": "Erledigt!", "meaning": "Done! / Sorted!", "audio": "tts", "introducedInScene": "a2e5s3", "tags": ["smalltalk"], "cefrLevel": "A2", "note": "Das befriedigendste deutsche Wort nach „Feierabend“" },
-    { "id": "auf-das-konto", "type": "sentence", "german": "Das Geld kommt direkt auf mein Konto.", "meaning": "The money goes straight into my account.", "image": "bank", "audio": "tts", "introducedInScene": "a2e5s3", "tags": ["bank", "money"], "cefrLevel": "A2" },
-    { "id": "selbstaendig", "type": "chunk", "german": "Ich bin jetzt selbstständig.", "meaning": "I'm financially independent now. / I'm self-employed.", "image": "geld", "audio": "tts", "introducedInScene": "a2e5s3", "tags": ["money", "work"], "cefrLevel": "A2", "note": "auch: selbstständig = self-employed. Kontext!" }
+    {
+      "id": "das-geld",
+      "type": "word",
+      "german": "das Geld",
+      "meaning": "the money",
+      "image": "münzen",
+      "audio": "tts",
+      "introducedInScene": "a2e5s1",
+      "tags": [
+        "money",
+        "bank"
+      ],
+      "cefrLevel": "A2",
+      "note": "das ( Singular ) — Plural selten: die Gelder"
+    },
+    {
+      "id": "die-bank",
+      "type": "word",
+      "german": "die Bank",
+      "meaning": "the bank (also: the bench!)",
+      "image": "bank",
+      "audio": "tts",
+      "introducedInScene": "a2e5s1",
+      "tags": [
+        "bank",
+        "money",
+        "city"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Banken — die Bank = auch die Sitzbank. Kontext entscheidet."
+    },
+    {
+      "id": "das-konto",
+      "type": "word",
+      "german": "das Konto",
+      "meaning": "the (bank) account",
+      "image": "bank",
+      "audio": "tts",
+      "introducedInScene": "a2e5s1",
+      "tags": [
+        "bank",
+        "money"
+      ],
+      "cefrLevel": "A2",
+      "note": "das, Plural: die Konten"
+    },
+    {
+      "id": "die-bankkarte",
+      "type": "word",
+      "german": "die Bankkarte",
+      "meaning": "the bank card",
+      "image": "geld",
+      "audio": "tts",
+      "introducedInScene": "a2e5s1",
+      "tags": [
+        "bank",
+        "money"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Bankkarten"
+    },
+    {
+      "id": "der-lohn-ist-da",
+      "type": "sentence",
+      "german": "Der Lohn ist da!",
+      "meaning": "The wage has arrived!",
+      "image": "münzen",
+      "audio": "tts",
+      "introducedInScene": "a2e5s1",
+      "tags": [
+        "money",
+        "work"
+      ],
+      "cefrLevel": "A2",
+      "parentId": "der-lohn"
+    },
+    {
+      "id": "geld-abheben",
+      "type": "chunk",
+      "german": "Ich möchte Geld abheben.",
+      "meaning": "I'd like to withdraw money.",
+      "image": "bank",
+      "audio": "tts",
+      "introducedInScene": "a2e5s1",
+      "tags": [
+        "bank",
+        "money",
+        "request"
+      ],
+      "cefrLevel": "A2",
+      "note": "abheben = ab + heben, trennbar"
+    },
+    {
+      "id": "konto-eroeffnen",
+      "type": "grammar_pattern",
+      "german": "Ich möchte ein Konto ___.",
+      "meaning": "I'd like to open an account.",
+      "image": "bank",
+      "audio": "tts",
+      "introducedInScene": "a2e5s2",
+      "tags": [
+        "bank",
+        "money",
+        "request"
+      ],
+      "cefrLevel": "A2",
+      "cloze": "eröffnen",
+      "speak": "Ich möchte ein Konto eröffnen.",
+      "note": "möchte + Infinitiv am Satzende"
+    },
+    {
+      "id": "die-geheimzahl",
+      "type": "word",
+      "german": "die Geheimzahl",
+      "meaning": "the PIN",
+      "image": "prüfen",
+      "audio": "tts",
+      "introducedInScene": "a2e5s2",
+      "tags": [
+        "bank",
+        "money"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Geheimzahlen — geheim = secret"
+    },
+    {
+      "id": "ueberweisen",
+      "type": "chunk",
+      "german": "Ich überweise die Miete.",
+      "meaning": "I'm transferring the rent.",
+      "image": "münzen",
+      "audio": "tts",
+      "introducedInScene": "a2e5s2",
+      "tags": [
+        "bank",
+        "money"
+      ],
+      "cefrLevel": "A2",
+      "note": "überweisen — Geld geht von Konto zu Konto"
+    },
+    {
+      "id": "der-dauerauftrag",
+      "type": "word",
+      "german": "der Dauerauftrag",
+      "meaning": "the standing order",
+      "image": "kalender",
+      "audio": "tts",
+      "introducedInScene": "a2e5s2",
+      "tags": [
+        "bank",
+        "money",
+        "admin"
+      ],
+      "cefrLevel": "A2",
+      "note": "der, Plural: die Daueraufträge — die Miete zahlt sich jetzt selbst"
+    },
+    {
+      "id": "der-kontostand",
+      "type": "word",
+      "german": "der Kontostand",
+      "meaning": "the account balance",
+      "image": "prüfen",
+      "audio": "tts",
+      "introducedInScene": "a2e5s2",
+      "tags": [
+        "bank",
+        "money"
+      ],
+      "cefrLevel": "A2",
+      "note": "der, Plural: die Kontostände"
+    },
+    {
+      "id": "die-bankverbindung",
+      "type": "word",
+      "german": "die Bankverbindung",
+      "meaning": "the bank details",
+      "image": "formular",
+      "audio": "tts",
+      "introducedInScene": "a2e5s2",
+      "tags": [
+        "bank",
+        "paperwork"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Bankverbindungen — IBAN & Co."
+    },
+    {
+      "id": "die-ueberweisung",
+      "type": "word",
+      "german": "die Überweisung",
+      "meaning": "the bank transfer",
+      "image": "brief",
+      "audio": "tts",
+      "introducedInScene": "a2e5s3",
+      "tags": [
+        "bank",
+        "money"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Überweisungen"
+    },
+    {
+      "id": "puenktlich",
+      "type": "word",
+      "german": "pünktlich",
+      "meaning": "punctual / on time",
+      "image": "urehr",
+      "audio": "tts",
+      "introducedInScene": "a2e5s3",
+      "tags": [
+        "time",
+        "smalltalk"
+      ],
+      "cefrLevel": "A2",
+      "note": "Adjektiv — in Deutschland fast ein Kompliment"
+    },
+    {
+      "id": "erledigt",
+      "type": "chunk",
+      "german": "Erledigt!",
+      "meaning": "Done! / Sorted!",
+      "audio": "tts",
+      "introducedInScene": "a2e5s3",
+      "tags": [
+        "smalltalk"
+      ],
+      "cefrLevel": "A2",
+      "note": "Das befriedigendste deutsche Wort nach „Feierabend“"
+    },
+    {
+      "id": "auf-das-konto",
+      "type": "sentence",
+      "german": "Das Geld kommt direkt auf mein Konto.",
+      "meaning": "The money goes straight into my account.",
+      "image": "bank",
+      "audio": "tts",
+      "introducedInScene": "a2e5s3",
+      "tags": [
+        "bank",
+        "money"
+      ],
+      "cefrLevel": "A2"
+    },
+    {
+      "id": "selbstaendig",
+      "type": "chunk",
+      "german": "Ich bin jetzt selbstständig.",
+      "meaning": "I'm financially independent now. / I'm self-employed.",
+      "image": "geld",
+      "audio": "tts",
+      "introducedInScene": "a2e5s3",
+      "tags": [
+        "money",
+        "work"
+      ],
+      "cefrLevel": "A2",
+      "note": "auch: selbstständig = self-employed. Kontext!"
+    }
   ],
   "scenes": [
     {
@@ -41,22 +298,96 @@
       "titleEn": "First wage",
       "place": "Café Luise, nach der Schicht",
       "bg": "cafe",
-      "contextTags": ["work", "money", "bank"],
-      "requiredItems": ["der-lohn", "die-bestaetigung"],
-      "introducedItems": ["das-geld", "die-bank", "das-konto", "die-bankkarte", "der-lohn-ist-da", "geld-abheben"],
+      "contextTags": [
+        "work",
+        "money",
+        "bank"
+      ],
+      "requiredItems": [
+        "der-lohn",
+        "die-bestaetigung"
+      ],
+      "introducedItems": [
+        "das-geld",
+        "die-bank",
+        "das-konto",
+        "die-bankkarte",
+        "der-lohn-ist-da",
+        "geld-abheben"
+      ],
       "beats": [
-        { "type": "narration", "text": "Zwei Wochen Probetag, zwölf Schichten, ein namenloses Blatt Papier: Deine erste Lohnabrechnung. Luise legt einen Umschlag auf die Theke, so altmodisch, dass er schon wieder cool ist." },
-        { "type": "line", "speaker": "luise", "text": "Dein erster Lohn. Bar, bis du ein Konto hast. Und Sam: Banktermin machen. Bar bezahlen ist 1998.", "translation": "Your first wage. Cash, until you have an account. And Sam: make a bank appointment. Paying cash is 1998." },
-        { "type": "meet", "itemIds": ["der-lohn-ist-da", "das-geld", "die-bank"] },
-        { "type": "meet", "itemIds": ["das-konto", "die-bankkarte", "geld-abheben"] },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "choice", "prompt": "Luise wartet auf eine Reaktion.", "options": [
-          { "label": "Danke! Ich möchte morgen ein Konto eröffnen.", "line": "Danke! Ich möchte morgen ein Konto eröffnen." },
-          { "label": "Kann ich hier erst mal Geld abheben? …Scherz.", "line": "Kann ich hier erst mal Geld abheben? …Nur Scherz." }
-        ] },
-        { "type": "line", "speaker": "luise", "text": "Morgen ist Mittwoch. Mittwochvormittag sind die Banken leer. Geh um neun, sag, ich hab dich geschickt. …Bringt nichts, aber klingt gut.", "translation": "Tomorrow's Wednesday. Wednesday morning the banks are empty. Go at nine, say I sent you. …Won't help, but sounds good." },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "check", "count": 2, "mode": "recall" }
+        {
+          "type": "narration",
+          "text": "Zwei Wochen Probetag, zwölf Schichten, ein namenloses Blatt Papier: Deine erste Lohnabrechnung. Luise legt einen Umschlag auf die Theke, so altmodisch, dass er schon wieder cool ist."
+        },
+        {
+          "type": "line",
+          "speaker": "luise",
+          "text": "Dein erster Lohn. Bar, bis du ein Konto hast. Und Sam: Banktermin machen. Bar bezahlen ist 1998.",
+          "translation": "Your first wage. Cash, until you have an account. And Sam: make a bank appointment. Paying cash is 1998."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-lohn-ist-da",
+            "das-geld",
+            "die-bank"
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "das-konto",
+            "die-bankkarte",
+            "geld-abheben"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Luise wartet auf eine Reaktion.",
+          "options": [
+            {
+              "label": "Danke! Ich möchte morgen ein Konto eröffnen.",
+              "line": "Danke! Ich möchte morgen ein Konto eröffnen."
+            },
+            {
+              "label": "Kann ich hier erst mal Geld abheben? …Scherz.",
+              "line": "Kann ich hier erst mal Geld abheben? …Nur Scherz."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "luise",
+          "text": "Morgen ist Mittwoch. Mittwochvormittag sind die Banken leer. Geh um neun, sag, ich hab dich geschickt. …Bringt nichts, aber klingt gut.",
+          "translation": "Tomorrow's Wednesday. Wednesday morning the banks are empty. Go at nine, say I sent you. …Won't help, but sounds good."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "reading",
+          "title": "Deine erste Gehaltsabrechnung",
+          "text": "Café Luise — Abrechnung Oktober\n\nBrutto       1.240,00 €\nSteuer         -61,00 €\nSozialabgaben -187,20 €\n——————————————\nNETTO         991,80 €\n\nKonto-Chef hin oder her:\nDiese Zahl hat jemand mit Arbeit verdient.\n\nTipp der Kassiererin von der Bank:\n»Aufs Konto lassen. Abheben nur, was du trägst.«",
+          "translation": "Café Luise — statement, October\n\nGross        €1,240.00\nTax            −€61.00\nSocial security −€187.20\n——————————————\nNET           €991.80\n\nAccount boss or not:\nsomeone earned this number with work.\n\nTip from the bank teller:\n'Leave it in the account. Only withdraw what you can carry.'",
+          "itemIds": [
+            "das-konto",
+            "der-lohn-ist-da",
+            "geld-abheben"
+          ]
+        }
       ]
     },
     {
@@ -66,22 +397,85 @@
       "titleEn": "At the account",
       "place": "Stadt- und Kreisbank, Schalter 2",
       "bg": "amt",
-      "contextTags": ["bank", "money", "paperwork"],
-      "requiredItems": ["die-bank", "die-bestaetigung"],
-      "introducedItems": ["konto-eroeffnen", "die-geheimzahl", "ueberweisen", "der-dauerauftrag", "der-kontostand", "die-bankverbindung"],
+      "contextTags": [
+        "bank",
+        "money",
+        "paperwork"
+      ],
+      "requiredItems": [
+        "die-bank",
+        "die-bestaetigung"
+      ],
+      "introducedItems": [
+        "konto-eroeffnen",
+        "die-geheimzahl",
+        "ueberweisen",
+        "der-dauerauftrag",
+        "der-kontostand",
+        "die-bankverbindung"
+      ],
       "beats": [
-        { "type": "narration", "text": "Mittwoch, neun Uhr. Die Bank duftet nach Papier und Sicherheit. Frau Weißenfels hat Ihren Pass und Ihre Anmeldung bereits erwartet — wie ein Orakel." },
-        { "type": "meet", "itemIds": ["konto-eroeffnen", "die-geheimzahl", "die-bankverbindung"] },
-        { "type": "line", "speaker": "bankfrau", "text": "Konto eröffnen, sehr gern. Wir brauchen: Pass, Anmeldung, und eine Geheimzahl, die nicht „1234“ ist. …Sie wäre überrascht, wie oft das vorkommt.", "translation": "Opening an account, with pleasure. We need: passport, registration, and a PIN that isn't '1234'. …You'd be surprised how often that happens." },
-        { "type": "meet", "itemIds": ["ueberweisen", "der-dauerauftrag", "der-kontostand"] },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "choice", "prompt": "Sie tippt auf den Bildschirm.", "options": [
-          { "label": "Ich richte einen Dauerauftrag für die Miete ein.", "line": "Ich richte gleich einen Dauerauftrag für die Miete ein." },
-          { "label": "Kann ich von dem Konto auch Geld abheben?", "line": "Kann ich von dem Konto auch Geld abheben?" }
-        ] },
-        { "type": "line", "speaker": "bankfrau", "text": "Dauerauftrag — sehr vernünftig. Die Miete geht dann jeden Ersten automatisch raus. Und Ihr Kontostand? Den sehen Sie in der App, Tag und Nacht. Ob Sie das wollen, ist eine andere Frage.", "translation": "Standing order — very sensible. The rent then goes out automatically on the first of each month. And your balance? You can see it in the app, day and night. Whether you want that is another question." },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "check", "count": 2, "mode": "listen" }
+        {
+          "type": "narration",
+          "text": "Mittwoch, neun Uhr. Die Bank duftet nach Papier und Sicherheit. Frau Weißenfels hat Ihren Pass und Ihre Anmeldung bereits erwartet — wie ein Orakel."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "konto-eroeffnen",
+            "die-geheimzahl",
+            "die-bankverbindung"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "bankfrau",
+          "text": "Konto eröffnen, sehr gern. Wir brauchen: Pass, Anmeldung, und eine Geheimzahl, die nicht „1234“ ist. …Sie wäre überrascht, wie oft das vorkommt.",
+          "translation": "Opening an account, with pleasure. We need: passport, registration, and a PIN that isn't '1234'. …You'd be surprised how often that happens."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "ueberweisen",
+            "der-dauerauftrag",
+            "der-kontostand"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Sie tippt auf den Bildschirm.",
+          "options": [
+            {
+              "label": "Ich richte einen Dauerauftrag für die Miete ein.",
+              "line": "Ich richte gleich einen Dauerauftrag für die Miete ein."
+            },
+            {
+              "label": "Kann ich von dem Konto auch Geld abheben?",
+              "line": "Kann ich von dem Konto auch Geld abheben?"
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "bankfrau",
+          "text": "Dauerauftrag — sehr vernünftig. Die Miete geht dann jeden Ersten automatisch raus. Und Ihr Kontostand? Den sehen Sie in der App, Tag und Nacht. Ob Sie das wollen, ist eine andere Frage.",
+          "translation": "Standing order — very sensible. The rent then goes out automatically on the first of each month. And your balance? You can see it in the app, day and night. Whether you want that is another question."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        }
       ]
     },
     {
@@ -91,22 +485,93 @@
       "titleEn": "The first transfer",
       "place": "Wohnung, Abend, Handy in der Hand",
       "bg": "wohnung",
-      "contextTags": ["bank", "money", "home"],
-      "requiredItems": ["ueberweisen", "der-dauerauftrag"],
-      "introducedItems": ["die-ueberweisung", "puenktlich", "erledigt", "auf-das-konto", "selbstaendig"],
+      "contextTags": [
+        "bank",
+        "money",
+        "home"
+      ],
+      "requiredItems": [
+        "ueberweisen",
+        "der-dauerauftrag"
+      ],
+      "introducedItems": [
+        "die-ueberweisung",
+        "puenktlich",
+        "erledigt",
+        "auf-das-konto",
+        "selbstaendig"
+      ],
       "beats": [
-        { "type": "narration", "text": "Abend. Deine neue Bankkarte liegt auf dem Tisch wie ein Ausweis fürs Erwachsensein. Zeit für die erste Miete — diesmal digital, diesmal richtig." },
-        { "type": "meet", "itemIds": ["die-ueberweisung", "auf-das-konto", "puenktlich"] },
-        { "type": "line", "speaker": "frau-bruegge", "text": "Am Telefon? …Eine Überweisung? So modern! Und pünktlich am Ersten. Herr Jones, Sie sind mir ja einer!", "translation": "On the phone? …A bank transfer? How modern! And punctually on the first. Mr Jones, you're something else." },
-        { "type": "meet", "itemIds": ["erledigt", "selbstaendig"] },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "choice", "prompt": "Die App fragt: „Überweisung senden?“", "options": [
-          { "label": "Senden. …Erledigt!", "line": "Senden. …So. Erledigt!" },
-          { "label": "Erst Kontostand prüfen. Immer.", "line": "Erst Kontostand prüfen. Immer erst prüfen." }
-        ] },
-        { "type": "line", "speaker": "frau-bruegge", "text": "Bestätigung kommt per SMS. …Und wenn Sie das nächste Mal bar zahlen wollen: Der Kuchen kostet auch nichts.", "translation": "Confirmation comes by text. …And next time you want to pay cash: the cake costs nothing either." },
-        { "type": "check", "count": 2, "mode": "recall" },
-        { "type": "narration", "text": "Du starrst auf die Bestätigung. Erste Überweisung in Deutschland, Konto eröffnet, Dauerauftrag aktiv. Der Lohn ist da — und ein Stück Selbstständigkeit gleich mit." }
+        {
+          "type": "narration",
+          "text": "Abend. Deine neue Bankkarte liegt auf dem Tisch wie ein Ausweis fürs Erwachsensein. Zeit für die erste Miete — diesmal digital, diesmal richtig."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-ueberweisung",
+            "auf-das-konto",
+            "puenktlich"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "frau-bruegge",
+          "text": "Am Telefon? …Eine Überweisung? So modern! Und pünktlich am Ersten. Herr Jones, Sie sind mir ja einer!",
+          "translation": "On the phone? …A bank transfer? How modern! And punctually on the first. Mr Jones, you're something else."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "erledigt",
+            "selbstaendig"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Die App fragt: „Überweisung senden?“",
+          "options": [
+            {
+              "label": "Senden. …Erledigt!",
+              "line": "Senden. …So. Erledigt!"
+            },
+            {
+              "label": "Erst Kontostand prüfen. Immer.",
+              "line": "Erst Kontostand prüfen. Immer erst prüfen."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "frau-bruegge",
+          "text": "Bestätigung kommt per SMS. …Und wenn Sie das nächste Mal bar zahlen wollen: Der Kuchen kostet auch nichts.",
+          "translation": "Confirmation comes by text. …And next time you want to pay cash: the cake costs nothing either."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "reading",
+          "title": "Bestätigung: Dauerauftrag Miete",
+          "text": "Betreff: Dauerauftrag eingerichtet\n\nMiete: am Ersten, pünktlich, automatisch.\nAuf das Konto der Vermieterin —\nohne dass du daran denken musst.\n\nÜberweisungen für den Rest: manuell, mit Kopf.\n\n»Erledigt ist erledigt.\n Pünktlich ist charme.«",
+          "translation": "Re: standing order set up\n\nRent: on the first, on time, automatically.\nTo the landlady's account —\nwithout you having to think about it.\n\nTransfers for everything else: manual, with a head.\n\n'Done is done.\nOn time is charming.'",
+          "itemIds": [
+            "die-ueberweisung",
+            "puenktlich",
+            "auf-das-konto"
+          ]
+        },
+        {
+          "type": "narration",
+          "text": "Du starrst auf die Bestätigung. Erste Überweisung in Deutschland, Konto eröffnet, Dauerauftrag aktiv. Der Lohn ist da — und ein Stück Selbstständigkeit gleich mit."
+        }
       ]
     }
   ]

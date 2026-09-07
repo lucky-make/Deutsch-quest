@@ -379,7 +379,8 @@
         {
           "type": "reading",
           "title": "Luises Notiz (auf dem Blatt geblieben)",
-          "text": "JAHRESABSCHLUSS — KONTROLLLISTE\n\n✓ Zahlen: macht Rosa, danke Rosa\n✓ Geschenke: macht Mei, danke Mei\n○ Ansprache: macht Sam\n\nAnsprache-Regeln (aus Erfahrung):\n— unter 5 Minuten\n— alle Namen, korrekt\n— eine Geschichte, WAHR\n— kein Firmendeutsch\n— am Ende: Danke. Mehr braucht's nicht.\n\n— L."
+          "text": "JAHRESABSCHLUSS — KONTROLLLISTE\n\n✓ Zahlen: macht Rosa, danke Rosa\n✓ Geschenke: macht Mei, danke Mei\n○ Ansprache: macht Sam\n\nAnsprache-Regeln (aus Erfahrung):\n— unter 5 Minuten\n— alle Namen, korrekt\n— eine Geschichte, WAHR\n— kein Firmendeutsch\n— am Ende: Danke. Mehr braucht's nicht.\n\n— L.",
+          "translation": "YEAR-END — CHECKLIST\n\n✓ numbers: Rosa's on it, thanks Rosa\n✓ presents: Mei's on it, thanks Mei\n○ address: Sam's on it\n\nAddress rules (from experience):\n— under 5 minutes\n— all names, correct\n— one story, TRUE\n— no corporate German\n— at the end: thank you. That's all you need.\n\n— L."
         }
       ]
     },
@@ -497,7 +498,7 @@
       "beats": [
         {
           "type": "narration",
-          "text": "Elfen Uhr, Café Kontor: Das Team steht zwischen Kaffeemaschine und Theke, das Podium ist ein Milchkistchen. Elfen vierzig, Plagwitz: dasselbe Blatt, ein anderes Kistchen. Dazwischen: die Tram, du, und ein Blatt mit einem Satz als Kern."
+          "text": "Elf Uhr, Café Kontor: Das Team steht zwischen Kaffeemaschine und Theke, das Podium ist ein Milchkistchen. Elf vierzig, Plagwitz: dasselbe Blatt, ein anderes Kistchen. Dazwischen: die Tram, du, und ein Blatt mit einem Satz als Kern."
         },
         {
           "type": "line",
@@ -555,6 +556,17 @@
           "type": "check",
           "count": 2,
           "mode": "listen"
+        },
+        {
+          "type": "reading",
+          "title": "Programmzettel: Jahresausklang",
+          "text": "CAFÉ KONTOR — JAHRESAUSKLANG\n\n17:00 Ansprache (Sam. Kurz. Versprochen.)\n17:05 Aufmerksamkeit fürs Team: Namen, Zahlen, Danke.\n17:10 Zusammenhalt-Übung: gemeinsames Foto. Lächeln optional,\n     Anwesenheit Pflicht.\n17:30 Glühwein (Luise) · Kinderpunsch (Rosa denkt an alle)\n\n»Ein Jahr geht nicht ohne die Menschen,\n die es getragen haben.«",
+          "translation": "CAFÉ KONTOR — YEAR-END GATHERING\n\n5 pm Address (Sam. Short. Promised.)\n5:05 attention for the team: names, numbers, thank-you.\n5:10 cohesion exercise: group photo. Smiling optional,\n     attendance mandatory.\n5:30 mulled wine (Luise) · kids' punch (Rosa thinks of everyone)\n\n'A year doesn't pass without the people\nwho carried it.'",
+          "itemIds": [
+            "der-jahresausklang",
+            "die-aufmerksamkeit",
+            "der-zusammenhalt"
+          ]
         },
         {
           "type": "narration",

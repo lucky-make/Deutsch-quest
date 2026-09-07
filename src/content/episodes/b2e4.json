@@ -377,6 +377,17 @@
           "mode": "recall"
         },
         {
+          "type": "reading",
+          "title": "Aushang: Nachbarschaftsfest",
+          "text": "HOF FEST — SAMSTAG, 15 UHR\n\nProgramm:\n15:00 Aufbau (Stand-Team: meldet euch!)\n16:00 Bratwurst & Limonade & Chaos\n17:30 Kinderspielzeug-Parcours (Lina: Regeln)\n19:00 Kurzreden (max. 3 Minuten! Brügge-Regel)\n20:00 Musik bis die Nachbarn mitsingen\n\nRegen? Verlegung in den Flur. Geld zurück gibt's nicht,\ndafür Kuchen.",
+          "translation": "COURTYARD FESTIVAL — SATURDAY, 3 PM\n\nProgramme:\n3 pm Set-up (stall team: sign up!)\n4 pm Bratwurst & lemonade & chaos\n5:30 pm kids' toy obstacle course (Lina: rules)\n7 pm short speeches (3 minutes MAX! Brügge rule)\n8 pm music until the neighbours sing along\n\nRain? We move to the hallway. No refunds,\nbut cake.",
+          "itemIds": [
+            "das-fest",
+            "der-stand",
+            "die-nachbarschaft"
+          ]
+        },
+        {
           "type": "narration",
           "text": "Wimpel, Tische, ein Kaffeeautomat von 1974. Um zwölf riecht der Hof nach Fest. Du hast fünf Stunden, um eine Rede zu schreiben. Deutsch genug für diesen Hof: hast du immer."
         }
@@ -463,6 +474,17 @@
           "type": "check",
           "count": 2,
           "mode": "recall"
+        },
+        {
+          "type": "reading",
+          "title": "Hof-Grillkarte (Kreide, wischfest)",
+          "text": "BRATWURST        2,50 €  (Bratzen-Standard)\nVEGGIE-WURST     2,50 €  (gleiche Würde)\nLIMONADE         1,00 €  (kalt, versprochen)\nKAFFEE           0,50 €  (Luise-Spende)\n\n»Zum Wohl — und zum Schatten:\nder Baum gehört ALLEN. Platz teilen ist Pflicht.\nPreise sind Vorschläge. Hunger ist Realität.«",
+          "translation": "COURTYARD BARBECUE MENU (chalk, smudge-proof)\n\nBRATWURST        €2.50  (courtyard standard)\nVEGGIE SAUSAGE   €2.50  (equal dignity)\nLEMONADE         €1.00  (cold, promised)\nCOFFEE           €0.50  (Luise's donation)\n\n'Cheers — and about the shade:\nthe tree belongs to EVERYONE. Sharing space is mandatory.\nPrices are suggestions. Hunger is reality.'",
+          "itemIds": [
+            "die-bratwurst",
+            "die-limonade",
+            "zum-wohl"
+          ]
         }
       ]
     },
@@ -549,6 +571,17 @@
           "type": "check",
           "count": 2,
           "mode": "recall"
+        },
+        {
+          "type": "reading",
+          "title": "Rede-Kärtchen (Nummeriert, nass vom Glas)",
+          "text": "1. »Vor zwei Jahren kannte ich niemanden hier.«\n2. »Heute: der ganze Hof. Plus drei Schlüssel\n   zu Wohnungen, in die ich einfach rein darf.«\n3. »Heimat ist kein Ort. Heimat ist, wer bleibt.«\n4. »Wir haben gemeinsam einen Hof lebendig gemacht.«\n5. »Auf uns.«\n\n(Rückseite: „Nicht weinen. ABER wenn, dann bei 5.“)",
+          "translation": "1. 'Two years ago I knew nobody here.'\n2. 'Today: the whole courtyard. Plus three keys\n   to flats I can just walk into.'\n3. 'Home isn't a place. Home is who stays.'\n4. 'Together we brought a courtyard to life.'\n5. 'To us.'\n\n(Back: 'Don't cry. BUT if you do, at 5.' )",
+          "itemIds": [
+            "die-rede",
+            "stolz",
+            "auf-uns"
+          ]
         },
         {
           "type": "narration",

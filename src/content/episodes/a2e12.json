@@ -553,6 +553,17 @@
           "mode": "listen"
         },
         {
+          "type": "reading",
+          "title": "Dankeskarte (Entwurf, Start Typing, Delete, Start)",
+          "text": "»Liebe Frau Brügge,\n\nich möchte mich bedanken. Für Heiligabend,\nfür die Socken (sie passen — natürlich passen sie),\nfür eine Bescherung, die besinnlich war\nund nicht stressig.\n\nIch habe Ihnen nichts dafür gekauft.\nIch backe dafür. Jeden ersten Sonntag.\nDas ist ein Versprechen und ein Rezept.\n\n— Sam«",
+          "translation": "'Dear Ms Brügge,\n\nI want to say thank you. For Christmas Eve,\nfor the socks (they fit — of course they fit),\nfor an evening of presents that was contemplative\nand not stressful.\n\nI didn't buy you anything for it.\nInstead I'll bake. Every first Sunday.\nThat's a promise and a recipe.\n\n— Sam'",
+          "itemIds": [
+            "sich-bedanken",
+            "die-socke",
+            "besinnlich"
+          ]
+        },
+        {
           "type": "narration",
           "text": "Dann singt ihr doch — „Stille Nacht“, zweistimmig, mit Tobias als-mobilem-Stimmungsproblem und Luise als Rhythmusabteilung. Draußen schneit es nicht, aber es riecht nach Schnee und Kerzen und Kaffee. Besinnlich ist das richtige Wort. Du hast es gelernt, und du hast es verstanden."
         }

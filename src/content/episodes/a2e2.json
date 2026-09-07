@@ -7,31 +7,300 @@
     "titleEn": "The trial day at the café",
     "blurb": "Luise sucht Verstärkung. Lebenslauf, Schürze, Kasse — dein erster deutscher Arbeitstag.",
     "order": 6,
-    "sceneIds": ["a2e2s1", "a2e2s2", "a2e2s3"]
+    "sceneIds": [
+      "a2e2s1",
+      "a2e2s2",
+      "a2e2s3"
+    ]
   },
   "cast": [
-    { "id": "luise", "name": "Luise", "role": "Café-Besitzerin" },
-    { "id": "kunde", "name": "Herr Sandig", "role": "Stammkunde" }
+    {
+      "id": "luise",
+      "name": "Luise",
+      "role": "Café-Besitzerin"
+    },
+    {
+      "id": "kunde",
+      "name": "Herr Sandig",
+      "role": "Stammkunde"
+    }
   ],
   "items": [
-    { "id": "die-stelle", "type": "word", "german": "die Stelle", "meaning": "the job / position", "image": "stelle", "audio": "tts", "introducedInScene": "a2e2s1", "tags": ["work", "job"], "cefrLevel": "A2", "note": "die, Plural: die Stellen" },
-    { "id": "ich-bewerbe-mich", "type": "grammar_pattern", "german": "Ich bewerbe mich als ___.", "meaning": "I'm applying as ___.", "audio": "tts", "introducedInScene": "a2e2s1", "tags": ["work", "job", "career"], "cefrLevel": "A2", "cloze": "Kellner", "alt": ["Kellnerin", "Servicekraft", "Barista"], "speak": "Ich bewerbe mich als Kellner.", "note": "sich bewerben als + Beruf (ohne Artikel)" },
-    { "id": "der-lebenslauf", "type": "word", "german": "der Lebenslauf", "meaning": "the CV / résumé", "image": "lebenslauf", "audio": "tts", "introducedInScene": "a2e2s1", "tags": ["work", "job", "paperwork"], "cefrLevel": "A2", "note": "der, Plural: die Lebensläufe — wörtlich: der Lebens-Lauf" },
-    { "id": "die-erfahrung", "type": "word", "german": "die Erfahrung", "meaning": "the experience", "image": "idee", "audio": "tts", "introducedInScene": "a2e2s1", "tags": ["work", "job"], "cefrLevel": "A2", "note": "die, Plural: die Erfahrungen" },
-    { "id": "ich-lerne-schnell", "type": "sentence", "german": "Ich lerne schnell.", "meaning": "I learn fast.", "audio": "tts", "introducedInScene": "a2e2s1", "tags": ["work", "job"], "cefrLevel": "A2", "note": "Der ehrlichste Satz in jedem Vorstellungsgespräch." },
-    { "id": "der-probetag", "type": "word", "german": "der Probetag", "meaning": "the trial day", "image": "kalender", "audio": "tts", "introducedInScene": "a2e2s1", "tags": ["work", "job"], "cefrLevel": "A2", "note": "der, Plural: die Probetage" },
-    { "id": "die-schuerze", "type": "word", "german": "die Schürze", "meaning": "the apron", "image": "schürze", "audio": "tts", "introducedInScene": "a2e2s2", "tags": ["work", "cafe"], "cefrLevel": "A2", "note": "die, Plural: die Schürzen" },
-    { "id": "die-kasse", "type": "word", "german": "die Kasse", "meaning": "the cash register / till", "image": "kasse", "audio": "tts", "introducedInScene": "a2e2s2", "tags": ["work", "cafe", "money"], "cefrLevel": "A2", "note": "die, Plural: die Kassen" },
-    { "id": "der-kunde", "type": "word", "german": "der Kunde", "meaning": "the customer", "image": "kunde", "audio": "tts", "introducedInScene": "a2e2s2", "tags": ["work", "cafe"], "cefrLevel": "A2", "note": "der, Plural: die Kunden; weiblich: die Kundin" },
-    { "id": "was-darf-es-sein", "type": "sentence", "german": "Was darf es sein?", "meaning": "What would you like? (service standard)", "audio": "tts", "introducedInScene": "a2e2s2", "tags": ["work", "cafe", "request"], "cefrLevel": "A2", "note": "Höfliche Standardfrage — hinter jeder Theke Deutschlands" },
-    { "id": "die-tasse", "type": "word", "german": "die Tasse", "meaning": "the cup", "image": "kaffee", "audio": "tts", "introducedInScene": "a2e2s2", "tags": ["cafe", "objects"], "cefrLevel": "A2", "note": "die, Plural: die Tassen" },
-    { "id": "gleich-fertig", "type": "chunk", "german": "Gleich fertig!", "meaning": "Almost done!", "audio": "tts", "introducedInScene": "a2e2s2", "tags": ["work", "cafe"], "cefrLevel": "A2" },
-    { "id": "der-vertrag", "type": "word", "german": "der Vertrag", "meaning": "the contract", "image": "vertrag", "audio": "tts", "introducedInScene": "a2e2s3", "tags": ["work", "paperwork"], "cefrLevel": "A2", "note": "der, Plural: die Verträge" },
-    { "id": "die-stunde", "type": "word", "german": "die Stunde", "meaning": "the hour", "image": "urehr", "audio": "tts", "introducedInScene": "a2e2s3", "tags": ["work", "time", "money"], "cefrLevel": "A2", "note": "die, Plural: die Stunden — „zwölf Euro die Stunde\"" },
-    { "id": "der-lohn", "type": "word", "german": "der Lohn", "meaning": "the wage / pay", "image": "münzen", "audio": "tts", "introducedInScene": "a2e2s3", "tags": ["work", "money"], "cefrLevel": "A2", "note": "der (meist Singular)" },
-    { "id": "die-unterschrift", "type": "word", "german": "die Unterschrift", "meaning": "the signature", "image": "unterschrift", "audio": "tts", "introducedInScene": "a2e2s3", "tags": ["work", "paperwork"], "cefrLevel": "A2", "note": "die, Plural: die Unterschriften" },
-    { "id": "der-feierabend", "type": "word", "german": "der Feierabend", "meaning": "the end of the working day", "image": "sonnenuntergang", "audio": "tts", "introducedInScene": "a2e2s3", "tags": ["work", "time"], "cefrLevel": "A2", "note": "der — ein deutsches Urlaubsgefühl in einem Wort" },
-    { "id": "herzlich-willkommen-im-team", "type": "chunk", "german": "Herzlich willkommen im Team!", "meaning": "A warm welcome to the team!", "audio": "tts", "introducedInScene": "a2e2s3", "tags": ["work", "friends"], "cefrLevel": "A2" }
+    {
+      "id": "die-stelle",
+      "type": "word",
+      "german": "die Stelle",
+      "meaning": "the job / position",
+      "image": "stelle",
+      "audio": "tts",
+      "introducedInScene": "a2e2s1",
+      "tags": [
+        "work",
+        "job"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Stellen"
+    },
+    {
+      "id": "ich-bewerbe-mich",
+      "type": "grammar_pattern",
+      "german": "Ich bewerbe mich als ___.",
+      "meaning": "I'm applying as ___.",
+      "audio": "tts",
+      "introducedInScene": "a2e2s1",
+      "tags": [
+        "work",
+        "job",
+        "career"
+      ],
+      "cefrLevel": "A2",
+      "cloze": "Kellner",
+      "alt": [
+        "Kellnerin",
+        "Servicekraft",
+        "Barista"
+      ],
+      "speak": "Ich bewerbe mich als Kellner.",
+      "note": "sich bewerben als + Beruf (ohne Artikel)"
+    },
+    {
+      "id": "der-lebenslauf",
+      "type": "word",
+      "german": "der Lebenslauf",
+      "meaning": "the CV / résumé",
+      "image": "lebenslauf",
+      "audio": "tts",
+      "introducedInScene": "a2e2s1",
+      "tags": [
+        "work",
+        "job",
+        "paperwork"
+      ],
+      "cefrLevel": "A2",
+      "note": "der, Plural: die Lebensläufe — wörtlich: der Lebens-Lauf"
+    },
+    {
+      "id": "die-erfahrung",
+      "type": "word",
+      "german": "die Erfahrung",
+      "meaning": "the experience",
+      "image": "idee",
+      "audio": "tts",
+      "introducedInScene": "a2e2s1",
+      "tags": [
+        "work",
+        "job"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Erfahrungen"
+    },
+    {
+      "id": "ich-lerne-schnell",
+      "type": "sentence",
+      "german": "Ich lerne schnell.",
+      "meaning": "I learn fast.",
+      "audio": "tts",
+      "introducedInScene": "a2e2s1",
+      "tags": [
+        "work",
+        "job"
+      ],
+      "cefrLevel": "A2",
+      "note": "Der ehrlichste Satz in jedem Vorstellungsgespräch."
+    },
+    {
+      "id": "der-probetag",
+      "type": "word",
+      "german": "der Probetag",
+      "meaning": "the trial day",
+      "image": "kalender",
+      "audio": "tts",
+      "introducedInScene": "a2e2s1",
+      "tags": [
+        "work",
+        "job"
+      ],
+      "cefrLevel": "A2",
+      "note": "der, Plural: die Probetage"
+    },
+    {
+      "id": "die-schuerze",
+      "type": "word",
+      "german": "die Schürze",
+      "meaning": "the apron",
+      "image": "schürze",
+      "audio": "tts",
+      "introducedInScene": "a2e2s2",
+      "tags": [
+        "work",
+        "cafe"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Schürzen"
+    },
+    {
+      "id": "die-kasse",
+      "type": "word",
+      "german": "die Kasse",
+      "meaning": "the cash register / till",
+      "image": "kasse",
+      "audio": "tts",
+      "introducedInScene": "a2e2s2",
+      "tags": [
+        "work",
+        "cafe",
+        "money"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Kassen"
+    },
+    {
+      "id": "der-kunde",
+      "type": "word",
+      "german": "der Kunde",
+      "meaning": "the customer",
+      "image": "kunde",
+      "audio": "tts",
+      "introducedInScene": "a2e2s2",
+      "tags": [
+        "work",
+        "cafe"
+      ],
+      "cefrLevel": "A2",
+      "note": "der, Plural: die Kunden; weiblich: die Kundin"
+    },
+    {
+      "id": "was-darf-es-sein",
+      "type": "sentence",
+      "german": "Was darf es sein?",
+      "meaning": "What would you like? (service standard)",
+      "audio": "tts",
+      "introducedInScene": "a2e2s2",
+      "tags": [
+        "work",
+        "cafe",
+        "request"
+      ],
+      "cefrLevel": "A2",
+      "note": "Höfliche Standardfrage — hinter jeder Theke Deutschlands"
+    },
+    {
+      "id": "die-tasse",
+      "type": "word",
+      "german": "die Tasse",
+      "meaning": "the cup",
+      "image": "kaffee",
+      "audio": "tts",
+      "introducedInScene": "a2e2s2",
+      "tags": [
+        "cafe",
+        "objects"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Tassen"
+    },
+    {
+      "id": "gleich-fertig",
+      "type": "chunk",
+      "german": "Gleich fertig!",
+      "meaning": "Almost done!",
+      "audio": "tts",
+      "introducedInScene": "a2e2s2",
+      "tags": [
+        "work",
+        "cafe"
+      ],
+      "cefrLevel": "A2"
+    },
+    {
+      "id": "der-vertrag",
+      "type": "word",
+      "german": "der Vertrag",
+      "meaning": "the contract",
+      "image": "vertrag",
+      "audio": "tts",
+      "introducedInScene": "a2e2s3",
+      "tags": [
+        "work",
+        "paperwork"
+      ],
+      "cefrLevel": "A2",
+      "note": "der, Plural: die Verträge"
+    },
+    {
+      "id": "die-stunde",
+      "type": "word",
+      "german": "die Stunde",
+      "meaning": "the hour",
+      "image": "urehr",
+      "audio": "tts",
+      "introducedInScene": "a2e2s3",
+      "tags": [
+        "work",
+        "time",
+        "money"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Stunden — „zwölf Euro die Stunde\""
+    },
+    {
+      "id": "der-lohn",
+      "type": "word",
+      "german": "der Lohn",
+      "meaning": "the wage / pay",
+      "image": "münzen",
+      "audio": "tts",
+      "introducedInScene": "a2e2s3",
+      "tags": [
+        "work",
+        "money"
+      ],
+      "cefrLevel": "A2",
+      "note": "der (meist Singular)"
+    },
+    {
+      "id": "die-unterschrift",
+      "type": "word",
+      "german": "die Unterschrift",
+      "meaning": "the signature",
+      "image": "unterschrift",
+      "audio": "tts",
+      "introducedInScene": "a2e2s3",
+      "tags": [
+        "work",
+        "paperwork"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Unterschriften"
+    },
+    {
+      "id": "der-feierabend",
+      "type": "word",
+      "german": "der Feierabend",
+      "meaning": "the end of the working day",
+      "image": "sonnenuntergang",
+      "audio": "tts",
+      "introducedInScene": "a2e2s3",
+      "tags": [
+        "work",
+        "time"
+      ],
+      "cefrLevel": "A2",
+      "note": "der — ein deutsches Urlaubsgefühl in einem Wort"
+    },
+    {
+      "id": "herzlich-willkommen-im-team",
+      "type": "chunk",
+      "german": "Herzlich willkommen im Team!",
+      "meaning": "A warm welcome to the team!",
+      "audio": "tts",
+      "introducedInScene": "a2e2s3",
+      "tags": [
+        "work",
+        "friends"
+      ],
+      "cefrLevel": "A2"
+    }
   ],
   "scenes": [
     {
@@ -41,22 +310,94 @@
       "titleEn": "Applying with Luise",
       "place": "Café Luise, Nachmittag",
       "bg": "cafe",
-      "contextTags": ["work", "job", "cafe"],
-      "requiredItems": ["der-kaffee"],
-      "introducedItems": ["die-stelle", "ich-bewerbe-mich", "der-lebenslauf", "die-erfahrung", "ich-lerne-schnell", "der-probetag"],
+      "contextTags": [
+        "work",
+        "job",
+        "cafe"
+      ],
+      "requiredItems": [
+        "der-kaffee"
+      ],
+      "introducedItems": [
+        "die-stelle",
+        "ich-bewerbe-mich",
+        "der-lebenslauf",
+        "die-erfahrung",
+        "ich-lerne-schnell",
+        "der-probetag"
+      ],
       "beats": [
-        { "type": "narration", "text": "Ein Zettel im Fenster von Café Luise: „Suche Hilfe hinter der Theke. Sprechen: nötig. Lächeln: nötig. Perfektion: überbewertet.“" },
-        { "type": "meet", "itemIds": ["die-stelle", "ich-bewerbe-mich", "der-lebenslauf"] },
-        { "type": "line", "speaker": "luise", "text": "Du? Na super. Ich brauche jemanden ab morgen. Hast du schon mal in der Gastronomie gearbeitet?", "translation": "You? Great. I need someone from tomorrow. Have you ever worked in hospitality?" },
-        { "type": "meet", "itemIds": ["die-erfahrung", "ich-lerne-schnell", "der-probetag"] },
-        { "type": "choice", "prompt": "Verkaufe dich. Mit Wahrheit.", "options": [
-          { "label": "Ich lerne schnell. Und Kaffee mag ich.", "line": "Ich lerne schnell. Und Kaffee mag ich sehr." },
-          { "label": "Ehrlich: wenig Erfahrung. Aber Lust.", "line": "Ehrlich gesagt: wenig Erfahrung. Aber Lust." }
-        ] },
-        { "type": "line", "speaker": "luise", "text": "Lust ist der Anfang von Erfahrung. …Mach einen Probetag. Morgen, acht Uhr. Schürze gibt's hier.", "translation": "Desire is the start of experience. …Do a trial day. Tomorrow, eight a.m. Apron's provided here." },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "check", "count": 2, "mode": "recall" },
-        { "type": "narration", "text": "Du gehst mit einem Mittwoch-Termin und einem kleinen Pulsrasen nach Hause. Bewerbung: abgehakt." }
+        {
+          "type": "narration",
+          "text": "Ein Zettel im Fenster von Café Luise: „Suche Hilfe hinter der Theke. Sprechen: nötig. Lächeln: nötig. Perfektion: überbewertet.“"
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-stelle",
+            "ich-bewerbe-mich",
+            "der-lebenslauf"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "luise",
+          "text": "Du? Na super. Ich brauche jemanden ab morgen. Hast du schon mal in der Gastronomie gearbeitet?",
+          "translation": "You? Great. I need someone from tomorrow. Have you ever worked in hospitality?"
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-erfahrung",
+            "ich-lerne-schnell",
+            "der-probetag"
+          ]
+        },
+        {
+          "type": "choice",
+          "prompt": "Verkaufe dich. Mit Wahrheit.",
+          "options": [
+            {
+              "label": "Ich lerne schnell. Und Kaffee mag ich.",
+              "line": "Ich lerne schnell. Und Kaffee mag ich sehr."
+            },
+            {
+              "label": "Ehrlich: wenig Erfahrung. Aber Lust.",
+              "line": "Ehrlich gesagt: wenig Erfahrung. Aber Lust."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "luise",
+          "text": "Lust ist der Anfang von Erfahrung. …Mach einen Probetag. Morgen, acht Uhr. Schürze gibt's hier.",
+          "translation": "Desire is the start of experience. …Do a trial day. Tomorrow, eight a.m. Apron's provided here."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "reading",
+          "title": "Stellenanzeige (Aushang, angeschaut von 14 Leuten)",
+          "text": "CAFÉ LUISE SUCHT VERSTÄRKUNG\n\nTeilzeit, ab sofort, Kaffee inklusive.\n\nDu bringst mit:\n— einen Lebenslauf (Ehrlichkeit zählt mehr als Erfahrung)\n— Lust auf frühe Stunden und laute Gäste\n— die Fähigkeit, schnell zu lernen\n\nProbetag: angefragt = gefunden.\n\n»Wir stellen nicht den besten Kaffee an.\n Wir stellen die besten Leute ein.«",
+          "translation": "CAFÉ LUISE IS LOOKING FOR BACKUP\n\nPart-time, immediately, coffee included.\n\nYou bring:\n— a CV (honesty counts more than experience)\n— appetite for early hours and loud guests\n— the ability to learn fast\n\nTrial day: asked = found.\n\n'We don't hire the best coffee.\nWe hire the best people.'",
+          "itemIds": [
+            "die-stelle",
+            "der-lebenslauf",
+            "der-probetag"
+          ]
+        },
+        {
+          "type": "narration",
+          "text": "Du gehst mit einem Mittwoch-Termin und einem kleinen Pulsrasen nach Hause. Bewerbung: abgehakt."
+        }
       ]
     },
     {
@@ -66,23 +407,102 @@
       "titleEn": "Behind the counter",
       "place": "Café Luise, 8:00 Uhr",
       "bg": "cafe",
-      "contextTags": ["work", "cafe", "service"],
-      "requiredItems": ["ich-haette-gern", "der-kaffee"],
-      "introducedItems": ["die-schuerze", "die-kasse", "der-kunde", "was-darf-es-sein", "die-tasse", "gleich-fertig"],
+      "contextTags": [
+        "work",
+        "cafe",
+        "service"
+      ],
+      "requiredItems": [
+        "ich-haette-gern",
+        "der-kaffee"
+      ],
+      "introducedItems": [
+        "die-schuerze",
+        "die-kasse",
+        "der-kunde",
+        "was-darf-es-sein",
+        "die-tasse",
+        "gleich-fertig"
+      ],
       "beats": [
-        { "type": "line", "speaker": "luise", "text": "Guten Morgen, Probekraft! Schürze schnüren, Hände waschen, Maschine an. …Und lächeln kostet hier nichts.", "translation": "Good morning, trial staff! Tie your apron, wash your hands, machine on. …And smiling costs nothing here." },
-        { "type": "meet", "itemIds": ["die-schuerze", "die-kasse", "die-tasse"] },
-        { "type": "meet", "itemIds": ["der-kunde", "was-darf-es-sein", "gleich-fertig"] },
-        { "type": "line", "speaker": "kunde", "text": "Ich hätte gern einen Kaffee mit Milch und ein Wasser.", "translation": "I'd like a coffee with milk and a water." },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "choice", "prompt": "Dein erster Kunde steht da.", "options": [
-          { "label": "Was darf es sein? …Oh — schon gesagt.", "line": "Was darf es sein? …Oh — haben Sie schon gesagt." },
-          { "label": "Gleich fertig! Ein Kaffee mit Milch und ein Wasser.", "line": "Gleich fertig! Ein Kaffee mit Milch und ein Wasser." }
-        ] },
-        { "type": "line", "speaker": "kunde", "text": "Stark, das Tempo! Du machst das ja wie ein Profi.", "translation": "Nice pace! You're doing this like a pro." },
-        { "type": "check", "count": 2, "mode": "listen" },
-        { "type": "narration", "text": "Um elf Uhr drängelt sich eine ganze Mittagspause durch die Tür. Die Kasse klickt. Luise beobachtet dich über den Milchschaum und nickt langsam." },
-        { "type": "check", "count": 2, "mode": "recall" }
+        {
+          "type": "line",
+          "speaker": "luise",
+          "text": "Guten Morgen, Probekraft! Schürze schnüren, Hände waschen, Maschine an. …Und lächeln kostet hier nichts.",
+          "translation": "Good morning, trial staff! Tie your apron, wash your hands, machine on. …And smiling costs nothing here."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-schuerze",
+            "die-kasse",
+            "die-tasse"
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-kunde",
+            "was-darf-es-sein",
+            "gleich-fertig"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "kunde",
+          "text": "Ich hätte gern einen Kaffee mit Milch und ein Wasser.",
+          "translation": "I'd like a coffee with milk and a water."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Dein erster Kunde steht da.",
+          "options": [
+            {
+              "label": "Was darf es sein? …Oh — schon gesagt.",
+              "line": "Was darf es sein? …Oh — haben Sie schon gesagt."
+            },
+            {
+              "label": "Gleich fertig! Ein Kaffee mit Milch und ein Wasser.",
+              "line": "Gleich fertig! Ein Kaffee mit Milch und ein Wasser."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "kunde",
+          "text": "Stark, das Tempo! Du machst das ja wie ein Profi.",
+          "translation": "Nice pace! You're doing this like a pro."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "narration",
+          "text": "Um elf Uhr drängelt sich eine ganze Mittagspause durch die Tür. Die Kasse klickt. Luise beobachtet dich über den Milchschaum und nickt langsam."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "reading",
+          "title": "Schichtplan – Café Luise (Probewoche)",
+          "text": "MO 7:00 Luise+Sam   (Kasse: Luise)\nDI 7:00 Sam allein? fast. Mei ab 9.\nMI 7:00 Sam         (Lieferung ca. 7:30)\nDO frei             (Deutschkurs!)\nFR 7:00 Sam+Luise   (Kuchentag)\nSA 8:00 Sam+Mei     (Stress-Familienfrühstück)\n\nSchürze hängt an der Tür. Wer sie trägt,\nsagt „Was darf es sein?“ — auch bei Stress.\nBESONDERS bei Stress.",
+          "translation": "MON 7:00 Luise+Sam  (till: Luise)\nTUE 7:00 Sam alone? almost. Mei from 9.\nWED 7:00 Sam        (delivery ~7:30)\nTHU off             (German course!)\nFRI 7:00 Sam+Luise  (cake day)\nSAT 8:00 Sam+Mei    (stressful family breakfasts)\n\nThe apron hangs by the door. Whoever wears it\nsays 'What can I get you?' — even under stress.\nESPECIALLY under stress.",
+          "itemIds": [
+            "die-schuerze",
+            "die-kasse",
+            "was-darf-es-sein"
+          ]
+        }
       ]
     },
     {
@@ -92,22 +512,83 @@
       "titleEn": "The contract",
       "place": "Café Luise, hintere Stube",
       "bg": "buero",
-      "contextTags": ["work", "money", "paperwork"],
-      "requiredItems": ["unterschreiben"],
-      "introducedItems": ["der-vertrag", "die-stunde", "der-lohn", "die-unterschrift", "der-feierabend", "herzlich-willkommen-im-team"],
+      "contextTags": [
+        "work",
+        "money",
+        "paperwork"
+      ],
+      "requiredItems": [
+        "unterschreiben"
+      ],
+      "introducedItems": [
+        "der-vertrag",
+        "die-stunde",
+        "der-lohn",
+        "die-unterschrift",
+        "der-feierabend",
+        "herzlich-willkommen-im-team"
+      ],
       "beats": [
-        { "type": "narration", "text": "Abend. Luise legt einen Bogen Papier auf den Tisch zwischen zwei Kaffeetassen." },
-        { "type": "meet", "itemIds": ["der-vertrag", "die-stunde", "der-lohn"] },
-        { "type": "line", "speaker": "luise", "text": "Zwölf Euro die Stunde, erst mal zwanzig Stunden die Woche. Kleines Café, kleiner Lohn, aber ehrlich.", "translation": "Twelve euros an hour, twenty hours a week to start. Small café, small wage, but honest." },
-        { "type": "meet", "itemIds": ["die-unterschrift", "der-feierabend", "herzlich-willkommen-im-team"] },
-        { "type": "choice", "prompt": "Sie schiebt den Vertrag zu dir.", "options": [
-          { "label": "Ich unterschreibe. Danke, Luise!", "line": "Ich unterschreibe. Danke, Luise!" },
-          { "label": "Darf ich ihn in Ruhe lesen?", "line": "Darf ich ihn in Ruhe lesen?" }
-        ] },
-        { "type": "line", "speaker": "luise", "text": "Lesen ist gut. Unbedingt lesen. …Und dann: Herzlich willkommen im Team!", "translation": "Reading is good. Definitely read. …And then: a warm welcome to the team!" },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "check", "count": 2, "mode": "recall" },
-        { "type": "narration", "text": "Deine Unterschrift, ihr Kaffeefleck, ein Handschlag. Um zwanzig Uhr schaltet Luise das Licht aus: Feierabend. Dein Feierabend." }
+        {
+          "type": "narration",
+          "text": "Abend. Luise legt einen Bogen Papier auf den Tisch zwischen zwei Kaffeetassen."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-vertrag",
+            "die-stunde",
+            "der-lohn"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "luise",
+          "text": "Zwölf Euro die Stunde, erst mal zwanzig Stunden die Woche. Kleines Café, kleiner Lohn, aber ehrlich.",
+          "translation": "Twelve euros an hour, twenty hours a week to start. Small café, small wage, but honest."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-unterschrift",
+            "der-feierabend",
+            "herzlich-willkommen-im-team"
+          ]
+        },
+        {
+          "type": "choice",
+          "prompt": "Sie schiebt den Vertrag zu dir.",
+          "options": [
+            {
+              "label": "Ich unterschreibe. Danke, Luise!",
+              "line": "Ich unterschreibe. Danke, Luise!"
+            },
+            {
+              "label": "Darf ich ihn in Ruhe lesen?",
+              "line": "Darf ich ihn in Ruhe lesen?"
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "luise",
+          "text": "Lesen ist gut. Unbedingt lesen. …Und dann: Herzlich willkommen im Team!",
+          "translation": "Reading is good. Definitely read. …And then: a warm welcome to the team!"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "narration",
+          "text": "Deine Unterschrift, ihr Kaffeefleck, ein Handschlag. Um zwanzig Uhr schaltet Luise das Licht aus: Feierabend. Dein Feierabend."
+        }
       ]
     }
   ]

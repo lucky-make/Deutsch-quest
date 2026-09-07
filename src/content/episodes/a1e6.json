@@ -7,31 +7,279 @@
     "titleEn": "The alarm clock",
     "blurb": "Der erste Monat neigt sich dem Ende zu. Du baust dir einen Alltag — mit Wecker, Brötchen und deutschem Traum.",
     "order": 6,
-    "sceneIds": ["a1e6s1", "a1e6s2", "a1e6s3"]
+    "sceneIds": [
+      "a1e6s1",
+      "a1e6s2",
+      "a1e6s3"
+    ]
   },
   "cast": [
-    { "id": "tobias", "name": "Tobias", "role": "Nachbar" },
-    { "id": "frau-bruegge", "name": "Frau Brügge", "role": "Vermieterin" },
-    { "id": "verkaeuferin", "name": "Frau Wenzel", "role": "Bäckerin" }
+    {
+      "id": "tobias",
+      "name": "Tobias",
+      "role": "Nachbar"
+    },
+    {
+      "id": "frau-bruegge",
+      "name": "Frau Brügge",
+      "role": "Vermieterin"
+    },
+    {
+      "id": "verkaeuferin",
+      "name": "Frau Wenzel",
+      "role": "Bäckerin"
+    }
   ],
   "items": [
-    { "id": "der-tag", "type": "word", "german": "der Tag", "meaning": "the day", "image": "sonnenuntergang", "audio": "tts", "introducedInScene": "a1e6s1", "tags": ["time", "routine"], "cefrLevel": "A1", "note": "der, Plural: die Tage — „Guten Tag\"" },
-    { "id": "der-morgen", "type": "word", "german": "der Morgen", "meaning": "the morning", "image": "kaffee", "audio": "tts", "introducedInScene": "a1e6s1", "tags": ["time", "routine"], "cefrLevel": "A1", "note": "der, Plural: die Morgen — „am Morgen\"" },
-    { "id": "der-wecker", "type": "word", "german": "der Wecker", "meaning": "the alarm clock", "image": "wecker", "audio": "tts", "introducedInScene": "a1e6s1", "tags": ["time", "routine", "objects"], "cefrLevel": "A1", "note": "der, Plural: die Wecker" },
-    { "id": "aufstehen", "type": "chunk", "german": "Ich stehe um sieben auf.", "meaning": "I get up at seven.", "image": "wecker", "audio": "tts", "introducedInScene": "a1e6s1", "tags": ["routine", "time"], "cefrLevel": "A1", "note": "aufstehen = auf + stehen, trennbar — Verb ans Ende!" },
-    { "id": "um-wie-viel-uhr", "type": "sentence", "german": "Um wie viel Uhr treffen wir uns?", "meaning": "What time are we meeting?", "image": "urehr", "audio": "tts", "introducedInScene": "a1e6s1", "tags": ["time", "questions"], "cefrLevel": "A1", "note": "um + Uhrzeit — „um acht Uhr\"" },
-    { "id": "spaet", "type": "chunk", "german": "Es ist spät.", "meaning": "It's late.", "image": "urehr", "audio": "tts", "introducedInScene": "a1e6s1", "tags": ["time"], "cefrLevel": "A1" },
-    { "id": "der-abend", "type": "word", "german": "der Abend", "meaning": "the evening", "image": "sonnenuntergang", "audio": "tts", "introducedInScene": "a1e6s2", "tags": ["time", "routine"], "cefrLevel": "A1", "note": "der, Plural: die Abende — „guten Abend\"" },
-    { "id": "die-woche", "type": "word", "german": "die Woche", "meaning": "the week", "image": "kalender", "audio": "tts", "introducedInScene": "a1e6s2", "tags": ["time", "routine"], "cefrLevel": "A1", "note": "die, Plural: die Wochen" },
-    { "id": "muede", "type": "word", "german": "müde", "meaning": "tired", "image": "bett", "audio": "tts", "introducedInScene": "a1e6s2", "tags": ["feelings", "routine"], "cefrLevel": "A1", "note": "Adjektiv — die ehrlichste Antwort auf „Wie geht's?“" },
-    { "id": "ich-habe-geschlafen", "type": "sentence", "german": "Ich habe schlecht geschlafen.", "meaning": "I slept badly.", "image": "bett", "audio": "tts", "introducedInScene": "a1e6s2", "tags": ["routine", "health"], "cefrLevel": "A1", "note": "Perfekt: haben + Partizip am Ende" },
-    { "id": "der-sonntag", "type": "word", "german": "der Sonntag", "meaning": "the Sunday", "image": "kalender", "audio": "tts", "introducedInScene": "a1e6s2", "tags": ["time"], "cefrLevel": "A1", "note": "der — in Deutschland ein Ruhetag, wirklich" },
-    { "id": "jeden-tag", "type": "chunk", "german": "Jeden Tag ein bisschen.", "meaning": "A little bit every day.", "image": "kalender", "audio": "tts", "introducedInScene": "a1e6s2", "tags": ["routine", "learning"], "cefrLevel": "A1", "note": "Das Prinzip dieses Spiels." },
-    { "id": "fruehstueck", "type": "word", "german": "das Frühstück", "meaning": "the breakfast", "image": "brot", "audio": "tts", "introducedInScene": "a1e6s3", "tags": ["food", "routine"], "cefrLevel": "A1", "note": "das — Frühstück in Deutschland ist ein Ereignis" },
-    { "id": "die-zeitschrift", "type": "word", "german": "die Zeitschrift", "meaning": "the magazine", "image": "brief", "audio": "tts", "introducedInScene": "a1e6s3", "tags": ["media", "objects"], "cefrLevel": "A1", "note": "die, Plural: die Zeitschriften" },
-    { "id": "langsam", "type": "chunk", "german": "Langsam, langsam!", "meaning": "Slowly, slowly! / Take it easy!", "audio": "tts", "introducedInScene": "a1e6s3", "tags": ["smalltalk"], "cefrLevel": "A1" },
-    { "id": "gewoehnungssache", "type": "word", "german": "die Gewöhnungssache", "meaning": "a matter of getting used to", "image": "idee", "audio": "tts", "introducedInScene": "a1e6s3", "tags": ["smalltalk", "learning"], "cefrLevel": "A1", "note": "typisch deutsch: ein Riesenwort für etwas Simples" },
-    { "id": "es-wird-licht", "type": "sentence", "german": "Es wird langsam hell.", "meaning": "It's slowly getting light.", "image": "sonnenuntergang", "audio": "tts", "introducedInScene": "a1e6s3", "tags": ["time", "smalltalk"], "cefrLevel": "A1" }
+    {
+      "id": "der-tag",
+      "type": "word",
+      "german": "der Tag",
+      "meaning": "the day",
+      "image": "sonnenuntergang",
+      "audio": "tts",
+      "introducedInScene": "a1e6s1",
+      "tags": [
+        "time",
+        "routine"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Tage — „Guten Tag\""
+    },
+    {
+      "id": "der-morgen",
+      "type": "word",
+      "german": "der Morgen",
+      "meaning": "the morning",
+      "image": "kaffee",
+      "audio": "tts",
+      "introducedInScene": "a1e6s1",
+      "tags": [
+        "time",
+        "routine"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Morgen — „am Morgen\""
+    },
+    {
+      "id": "der-wecker",
+      "type": "word",
+      "german": "der Wecker",
+      "meaning": "the alarm clock",
+      "image": "wecker",
+      "audio": "tts",
+      "introducedInScene": "a1e6s1",
+      "tags": [
+        "time",
+        "routine",
+        "objects"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Wecker"
+    },
+    {
+      "id": "aufstehen",
+      "type": "chunk",
+      "german": "Ich stehe um sieben auf.",
+      "meaning": "I get up at seven.",
+      "image": "wecker",
+      "audio": "tts",
+      "introducedInScene": "a1e6s1",
+      "tags": [
+        "routine",
+        "time"
+      ],
+      "cefrLevel": "A1",
+      "note": "aufstehen = auf + stehen, trennbar — Verb ans Ende!"
+    },
+    {
+      "id": "um-wie-viel-uhr",
+      "type": "sentence",
+      "german": "Um wie viel Uhr treffen wir uns?",
+      "meaning": "What time are we meeting?",
+      "image": "urehr",
+      "audio": "tts",
+      "introducedInScene": "a1e6s1",
+      "tags": [
+        "time",
+        "questions"
+      ],
+      "cefrLevel": "A1",
+      "note": "um + Uhrzeit — „um acht Uhr\""
+    },
+    {
+      "id": "spaet",
+      "type": "chunk",
+      "german": "Es ist spät.",
+      "meaning": "It's late.",
+      "image": "urehr",
+      "audio": "tts",
+      "introducedInScene": "a1e6s1",
+      "tags": [
+        "time"
+      ],
+      "cefrLevel": "A1"
+    },
+    {
+      "id": "der-abend",
+      "type": "word",
+      "german": "der Abend",
+      "meaning": "the evening",
+      "image": "sonnenuntergang",
+      "audio": "tts",
+      "introducedInScene": "a1e6s2",
+      "tags": [
+        "time",
+        "routine"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Abende — „guten Abend\""
+    },
+    {
+      "id": "die-woche",
+      "type": "word",
+      "german": "die Woche",
+      "meaning": "the week",
+      "image": "kalender",
+      "audio": "tts",
+      "introducedInScene": "a1e6s2",
+      "tags": [
+        "time",
+        "routine"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Wochen"
+    },
+    {
+      "id": "muede",
+      "type": "word",
+      "german": "müde",
+      "meaning": "tired",
+      "image": "bett",
+      "audio": "tts",
+      "introducedInScene": "a1e6s2",
+      "tags": [
+        "feelings",
+        "routine"
+      ],
+      "cefrLevel": "A1",
+      "note": "Adjektiv — die ehrlichste Antwort auf „Wie geht's?“"
+    },
+    {
+      "id": "ich-habe-geschlafen",
+      "type": "sentence",
+      "german": "Ich habe schlecht geschlafen.",
+      "meaning": "I slept badly.",
+      "image": "bett",
+      "audio": "tts",
+      "introducedInScene": "a1e6s2",
+      "tags": [
+        "routine",
+        "health"
+      ],
+      "cefrLevel": "A1",
+      "note": "Perfekt: haben + Partizip am Ende"
+    },
+    {
+      "id": "der-sonntag",
+      "type": "word",
+      "german": "der Sonntag",
+      "meaning": "the Sunday",
+      "image": "kalender",
+      "audio": "tts",
+      "introducedInScene": "a1e6s2",
+      "tags": [
+        "time"
+      ],
+      "cefrLevel": "A1",
+      "note": "der — in Deutschland ein Ruhetag, wirklich"
+    },
+    {
+      "id": "jeden-tag",
+      "type": "chunk",
+      "german": "Jeden Tag ein bisschen.",
+      "meaning": "A little bit every day.",
+      "image": "kalender",
+      "audio": "tts",
+      "introducedInScene": "a1e6s2",
+      "tags": [
+        "routine",
+        "learning"
+      ],
+      "cefrLevel": "A1",
+      "note": "Das Prinzip dieses Spiels."
+    },
+    {
+      "id": "fruehstueck",
+      "type": "word",
+      "german": "das Frühstück",
+      "meaning": "the breakfast",
+      "image": "brot",
+      "audio": "tts",
+      "introducedInScene": "a1e6s3",
+      "tags": [
+        "food",
+        "routine"
+      ],
+      "cefrLevel": "A1",
+      "note": "das — Frühstück in Deutschland ist ein Ereignis"
+    },
+    {
+      "id": "die-zeitschrift",
+      "type": "word",
+      "german": "die Zeitschrift",
+      "meaning": "the magazine",
+      "image": "brief",
+      "audio": "tts",
+      "introducedInScene": "a1e6s3",
+      "tags": [
+        "media",
+        "objects"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Zeitschriften"
+    },
+    {
+      "id": "langsam",
+      "type": "chunk",
+      "german": "Langsam, langsam!",
+      "meaning": "Slowly, slowly! / Take it easy!",
+      "audio": "tts",
+      "introducedInScene": "a1e6s3",
+      "tags": [
+        "smalltalk"
+      ],
+      "cefrLevel": "A1"
+    },
+    {
+      "id": "gewoehnungssache",
+      "type": "word",
+      "german": "die Gewöhnungssache",
+      "meaning": "a matter of getting used to",
+      "image": "idee",
+      "audio": "tts",
+      "introducedInScene": "a1e6s3",
+      "tags": [
+        "smalltalk",
+        "learning"
+      ],
+      "cefrLevel": "A1",
+      "note": "typisch deutsch: ein Riesenwort für etwas Simples"
+    },
+    {
+      "id": "es-wird-licht",
+      "type": "sentence",
+      "german": "Es wird langsam hell.",
+      "meaning": "It's slowly getting light.",
+      "image": "sonnenuntergang",
+      "audio": "tts",
+      "introducedInScene": "a1e6s3",
+      "tags": [
+        "time",
+        "smalltalk"
+      ],
+      "cefrLevel": "A1"
+    }
   ],
   "scenes": [
     {
@@ -41,22 +289,82 @@
       "titleEn": "Seven o'clock",
       "place": "Wohnung, sehr früher Morgen",
       "bg": "wohnung",
-      "contextTags": ["routine", "home", "time"],
-      "requiredItems": ["das-bett"],
-      "introducedItems": ["der-tag", "der-morgen", "der-wecker", "aufstehen", "um-wie-viel-uhr", "spaet"],
+      "contextTags": [
+        "routine",
+        "home",
+        "time"
+      ],
+      "requiredItems": [
+        "das-bett"
+      ],
+      "introducedItems": [
+        "der-tag",
+        "der-morgen",
+        "der-wecker",
+        "aufstehen",
+        "um-wie-viel-uhr",
+        "spaet"
+      ],
       "beats": [
-        { "type": "narration", "text": "Der Wecker klingelt wie ein Feuerwehreinsatz. Draußen ist es noch grau. Der erste Monat neigt sich dem Ende zu — und du hast beschlossen, dass dein Alltag Struktur braucht." },
-        { "type": "meet", "itemIds": ["der-wecker", "aufstehen", "der-morgen"] },
-        { "type": "narration", "text": "Sieben Uhr. Du stehst auf, machst Kaffee und schaust aus dem Fenster: Leipzig im Morgengrau, ein Tramfahrer winkt einen Hundevergängler durch." },
-        { "type": "meet", "itemIds": ["der-tag", "um-wie-viel-uhr", "spaet"] },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "choice", "prompt": "Tobias tippt dir aufs Handy: „Wann frühstücken wir?“", "options": [
-          { "label": "Um wie viel Uhr öffnet der Bäcker?", "line": "Um wie viel Uhr öffnet der Bäcker?" },
-          { "label": "Ich stehe um sieben auf. Danach?", "line": "Ich stehe um sieben auf. Danach?" }
-        ] },
-        { "type": "line", "speaker": "tobias", "text": "Sechs! …Und du hast schon verpasst. …Scherz. Halb sieben. Aber gehst du lieber früher? Jeder Tag hat nur so viele Stunden.", "translation": "Six! …And you already missed it. …Joke. Six thirty. But would you rather go earlier? Every day has only so many hours." },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "check", "count": 2, "mode": "listen" }
+        {
+          "type": "narration",
+          "text": "Der Wecker klingelt wie ein Feuerwehreinsatz. Draußen ist es noch grau. Der erste Monat neigt sich dem Ende zu — und du hast beschlossen, dass dein Alltag Struktur braucht."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-wecker",
+            "aufstehen",
+            "der-morgen"
+          ]
+        },
+        {
+          "type": "narration",
+          "text": "Sieben Uhr. Du stehst auf, machst Kaffee und schaust aus dem Fenster: Leipzig im Morgengrau, ein Tramfahrer winkt einen Hundevergängler durch."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-tag",
+            "um-wie-viel-uhr",
+            "spaet"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Tobias tippt dir aufs Handy: „Wann frühstücken wir?“",
+          "options": [
+            {
+              "label": "Um wie viel Uhr öffnet der Bäcker?",
+              "line": "Um wie viel Uhr öffnet der Bäcker?"
+            },
+            {
+              "label": "Ich stehe um sieben auf. Danach?",
+              "line": "Ich stehe um sieben auf. Danach?"
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Sechs! …Und du hast schon verpasst. …Scherz. Halb sieben. Aber gehst du lieber früher? Jeder Tag hat nur so viele Stunden.",
+          "translation": "Six! …And you already missed it. …Joke. Six thirty. But would you rather go earlier? Every day has only so many hours."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        }
       ]
     },
     {
@@ -66,22 +374,97 @@
       "titleEn": "A German dream",
       "place": "Treppenabsatz, Morgen",
       "bg": "treppenhaus",
-      "contextTags": ["routine", "neighbors", "time"],
-      "requiredItems": ["der-morgen", "der-tag"],
-      "introducedItems": ["der-abend", "die-woche", "muede", "ich-habe-geschlafen", "der-sonntag", "jeden-tag"],
+      "contextTags": [
+        "routine",
+        "neighbors",
+        "time"
+      ],
+      "requiredItems": [
+        "der-morgen",
+        "der-tag"
+      ],
+      "introducedItems": [
+        "der-abend",
+        "die-woche",
+        "muede",
+        "ich-habe-geschlafen",
+        "der-sonntag",
+        "jeden-tag"
+      ],
       "beats": [
-        { "type": "narration", "text": "Du triffst Tobias auf dem Treppenabsatz — er hat zwei Brötchentüten, du hast dunkle Ringe unter den Augen." },
-        { "type": "line", "speaker": "tobias", "text": "Du siehst müde aus. …Schlecht geschlafen?", "translation": "You look tired. …Slept badly?" },
-        { "type": "meet", "itemIds": ["muede", "ich-habe-geschlafen", "der-abend"] },
-        { "type": "choice", "prompt": "Ehrliche Antwort.", "options": [
-          { "label": "Ich habe schlecht geschlafen. Ich war müde.", "line": "Ich habe schlecht geschlafen. Der Wecker war zu laut." },
-          { "label": "Nein, gut! Ich habe auf Deutsch geträumt.", "line": "Nein, gut! Ich habe auf Deutsch geträumt." }
-        ] },
-        { "type": "line", "speaker": "tobias", "text": "Auf Deutsch geträumt?! …Bruder. Das ist der Moment. Jetzt hast du es offiziell geschafft.", "translation": "You dreamed in German?! …Bro. That's the moment. You've officially made it now." },
-        { "type": "meet", "itemIds": ["die-woche", "der-sonntag", "jeden-tag"] },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "line", "speaker": "tobias", "text": "Weißt du, was ich am Anfang gemacht habe? Jeden Tag ein bisschen. Zehn Minuten. Sonntags mehr. Und jetzt: Ich rede mit dir.", "translation": "You know what I did at the beginning? A little bit every day. Ten minutes. More on Sundays. And now: I'm talking with you." },
-        { "type": "check", "count": 2, "mode": "recall" }
+        {
+          "type": "narration",
+          "text": "Du triffst Tobias auf dem Treppenabsatz — er hat zwei Brötchentüten, du hast dunkle Ringe unter den Augen."
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Du siehst müde aus. …Schlecht geschlafen?",
+          "translation": "You look tired. …Slept badly?"
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "muede",
+            "ich-habe-geschlafen",
+            "der-abend"
+          ]
+        },
+        {
+          "type": "choice",
+          "prompt": "Ehrliche Antwort.",
+          "options": [
+            {
+              "label": "Ich habe schlecht geschlafen. Ich war müde.",
+              "line": "Ich habe schlecht geschlafen. Der Wecker war zu laut."
+            },
+            {
+              "label": "Nein, gut! Ich habe auf Deutsch geträumt.",
+              "line": "Nein, gut! Ich habe auf Deutsch geträumt."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Auf Deutsch geträumt?! …Bruder. Das ist der Moment. Jetzt hast du es offiziell geschafft.",
+          "translation": "You dreamed in German?! …Bro. That's the moment. You've officially made it now."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-woche",
+            "der-sonntag",
+            "jeden-tag"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Weißt du, was ich am Anfang gemacht habe? Jeden Tag ein bisschen. Zehn Minuten. Sonntags mehr. Und jetzt: Ich rede mit dir.",
+          "translation": "You know what I did at the beginning? A little bit every day. Ten minutes. More on Sundays. And now: I'm talking with you."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "reading",
+          "title": "Sams Wochenplan (Entwurf 5)",
+          "text": "MONTAG   6:30 aufstehen   ·   CAFÉ-PROBE? nein: CAFÉ-JOB\nDIENSTAG 6:30            ·   Deutsch-Wörter (zehn, laut)\nMITTWOCH 7:00 (Schwäche) ·   Waschkorb\nDONNERSTAG 6:30          ·   Tobias-Abend?\nFREITAG  6:30            ·   Markt einkaufen\nSAMSTAG  frei            ·   STADT VERSTEHEN\nSONNTAG  keinen Wecker.   KEINEN.\n\n(Jeden Tag: ein Wort, das bleibt.\nDiese Woche: „Gewohnheit“.)",
+          "translation": "MONDAY   6:30 up        ·   café trial? no: café JOB\nTUESDAY  6:30           ·   German words (ten, out loud)\nWEDNESDAY 7:00 (weakness) · laundry basket\nTHURSDAY 6:30           ·   Tobias evening?\nFRIDAY   6:30           ·   shop at the market\nSATURDAY  free          ·   UNDERSTAND THE CITY\nSUNDAY   no alarm.       NONE.\n\n(Every day: one word that stays.\nThis week: 'habit'.)",
+          "itemIds": [
+            "die-woche",
+            "jeden-tag",
+            "der-sonntag"
+          ]
+        }
       ]
     },
     {
@@ -91,23 +474,98 @@
       "titleEn": "Sunday breakfast",
       "place": "Frau Brügges Küche",
       "bg": "wohnung",
-      "contextTags": ["routine", "food", "home"],
-      "requiredItems": ["das-abendessen", "die-woche"],
-      "introducedItems": ["fruehstueck", "die-zeitschrift", "langsam", "gewoehnungssache", "es-wird-licht"],
+      "contextTags": [
+        "routine",
+        "food",
+        "home"
+      ],
+      "requiredItems": [
+        "das-abendessen",
+        "die-woche"
+      ],
+      "introducedItems": [
+        "fruehstueck",
+        "die-zeitschrift",
+        "langsam",
+        "gewoehnungssache",
+        "es-wird-licht"
+      ],
       "beats": [
-        { "type": "narration", "text": "Sonntagmorgen. Frau Brügge hat dich hochbestellt: Frühstück. Auf dem Tisch: Brötchen, Marmelade, Eier, und eine Zeitschrift mit dem Titel „Leipzig ist größer als sein Ruf“." },
-        { "type": "meet", "itemIds": ["fruehstueck", "die-zeitschrift", "es-wird-licht"] },
-        { "type": "line", "speaker": "frau-bruegge", "text": "Guten Morgen, ihr zwei. Langsam, langsam — die Eier laufen nicht weg. …Sam, du siehst aus wie ein neuer Mensch.", "translation": "Good morning, you two. Slowly, slowly — the eggs aren't going anywhere. …Sam, you look like a new person." },
-        { "type": "meet", "itemIds": ["langsam", "gewoehnungssache"] },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "choice", "prompt": "Frau Brügge schenkt Kaffee nach.", "options": [
-          { "label": "Der Morgen ist jetzt mein Lieblingsmoment.", "line": "Der Morgen ist jetzt mein Lieblingsmoment." },
-          { "label": "Das ist alles noch Gewöhnungssache.", "line": "Das ist alles noch Gewöhnungssache." }
-        ] },
-        { "type": "line", "speaker": "frau-bruegge", "text": "Gewöhnungssache, genau. …Und weißt du was? Die Stadt gewöhnt sich auch an dich. Das dauert nur länger.", "translation": "A matter of getting used to, exactly. …And you know what? The city gets used to you too. That just takes longer." },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "check", "count": 2, "mode": "listen" },
-        { "type": "narration", "text": "Sonnenlicht auf dem Blümchentischtuch. Dein erster Monat. Der Wecker ist jetzt dein Kollege." }
+        {
+          "type": "narration",
+          "text": "Sonntagmorgen. Frau Brügge hat dich hochbestellt: Frühstück. Auf dem Tisch: Brötchen, Marmelade, Eier, und eine Zeitschrift mit dem Titel „Leipzig ist größer als sein Ruf“."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "fruehstueck",
+            "die-zeitschrift",
+            "es-wird-licht"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "frau-bruegge",
+          "text": "Guten Morgen, ihr zwei. Langsam, langsam — die Eier laufen nicht weg. …Sam, du siehst aus wie ein neuer Mensch.",
+          "translation": "Good morning, you two. Slowly, slowly — the eggs aren't going anywhere. …Sam, you look like a new person."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "langsam",
+            "gewoehnungssache"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Frau Brügge schenkt Kaffee nach.",
+          "options": [
+            {
+              "label": "Der Morgen ist jetzt mein Lieblingsmoment.",
+              "line": "Der Morgen ist jetzt mein Lieblingsmoment."
+            },
+            {
+              "label": "Das ist alles noch Gewöhnungssache.",
+              "line": "Das ist alles noch Gewöhnungssache."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "frau-bruegge",
+          "text": "Gewöhnungssache, genau. …Und weißt du was? Die Stadt gewöhnt sich auch an dich. Das dauert nur länger.",
+          "translation": "A matter of getting used to, exactly. …And you know what? The city gets used to you too. That just takes longer."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "reading",
+          "title": "Merkzettel an der Kaffeekanne",
+          "text": "»FRÜHSTÜCK: erst Tee, dann Zeitungen.\nLangsam ist auch ein Tempo.\n\nDas hier ist Gewohnheitssache —\nalles ist Gewohnheitssache,\nsogar das Licht um sieben.«\n\n(Unter dem Zettel, klein: „Es wird Licht.“)",
+          "translation": "'BREAKFAST: first tea, then newspapers.\nSlow is also a pace.\n\nThis is a matter of habit —\neverything is a matter of habit,\neven the light at seven.'\n\n(Under the note, small: 'The light will come.')",
+          "itemIds": [
+            "fruehstueck",
+            "langsam",
+            "gewoehnungssache"
+          ]
+        },
+        {
+          "type": "narration",
+          "text": "Sonnenlicht auf dem Blümchentischtuch. Dein erster Monat. Der Wecker ist jetzt dein Kollege."
+        }
       ]
     }
   ]

@@ -361,6 +361,17 @@
           "mode": "recall"
         },
         {
+          "type": "reading",
+          "title": "Flyer: TAUCHERGLOCKE live",
+          "text": "WERK 2 — HALLE D\nFreitag · 21:00 · Einlass 20:00\n\nTAUCHERGLOCKE\n(„Postpunk mit Herzklopfen“ — Leipziger Volkszeitung)\n\nVVK 9 € · ABENDKASSE 12 €\n\n»Bring Ohren. Der Rest kommt von selbst.«",
+          "translation": "WERK 2 — HALL D\nFriday · 9 pm · doors 8 pm\n\nTAUCHERGLOCKE\n('post-punk with a pounding heart' — Leipzig paper)\n\nAdvance €9 · box office €12\n\n'Bring ears. The rest comes by itself.'",
+          "itemIds": [
+            "das-konzert",
+            "die-band",
+            "der-eintritt"
+          ]
+        },
+        {
           "type": "narration",
           "text": "Luise summt von der Kaffeemaschine aus. Du hast jetzt für Freitag etwas, worauf du dich freust. Das ist, leise gesagt, ein Lebensgefühl."
         }
@@ -539,6 +550,17 @@
           "type": "check",
           "count": 2,
           "mode": "listen"
+        },
+        {
+          "type": "reading",
+          "title": "Meis Playlist (Zettel, doppelt gefaltet)",
+          "text": "Nr. 7 „Regen auf Beton“ — für Sam, erster Tag\nNr. 12 „Kinshasa, 4 Uhr“ — mein erstes Deutsch-Lied\nNr. 19 „Stille Nacht, lauter Hof“ — December only\nNr. 24 „Der Schlüssel“ — geht um Frau Brügge. Logisch.\nNr. 36 „Angekommen (B-Seite)“ — noch ungeschrieben.\nVielleicht schreibst du den Text. Du kannst jetzt Deutsch.\n\nRegel: Im Refrain mitsingen. Laut ist erlaubt.",
+          "translation": "No. 7 'Rain on Concrete' — for Sam, day one\nNo. 12 'Kinshasa, 4 a.m.' — my first German song\nNo. 19 'Silent Night, Loud Courtyard' — December only\nNo. 24 'The Key' — it's about Frau Brügge. Obviously.\nNo. 36 'Arrived (B-side)' — still unwritten.\nMaybe you'll write the lyrics. You can speak German now.\n\nRule: sing along in the chorus. Loud is allowed.",
+          "itemIds": [
+            "die-playlist",
+            "die-erinnerung",
+            "der-rhythmus"
+          ]
         },
         {
           "type": "narration",

@@ -7,32 +7,307 @@
     "titleEn": "Rain and second-hand",
     "blurb": "Der erste graue Oktoberwoche. Du kaufst eine Jacke — gebraucht, ehrlich und sehr leipzigerisch.",
     "order": 5,
-    "sceneIds": ["a1e5s1", "a1e5s2", "a1e5s3"]
+    "sceneIds": [
+      "a1e5s1",
+      "a1e5s2",
+      "a1e5s3"
+    ]
   },
   "cast": [
-    { "id": "kiosk", "name": "Herr Scholz", "role": "Kioskbesitzer" },
-    { "id": "rike", "name": "Rike", "role": "Second-Hand-Laden" },
-    { "id": "tobias", "name": "Tobias", "role": "Nachbar" }
+    {
+      "id": "kiosk",
+      "name": "Herr Scholz",
+      "role": "Kioskbesitzer"
+    },
+    {
+      "id": "rike",
+      "name": "Rike",
+      "role": "Second-Hand-Laden"
+    },
+    {
+      "id": "tobias",
+      "name": "Tobias",
+      "role": "Nachbar"
+    }
   ],
   "items": [
-    { "id": "das-wetter", "type": "word", "german": "das Wetter", "meaning": "the weather", "image": "wetter", "audio": "tts", "introducedInScene": "a1e5s1", "tags": ["weather", "smalltalk"], "cefrLevel": "A1", "note": "das ( Singular ) — Thema Nummer eins im Aufzugsgespräch" },
-    { "id": "es-regnet", "type": "chunk", "german": "Es regnet.", "meaning": "It's raining.", "image": "wetter", "audio": "tts", "introducedInScene": "a1e5s1", "tags": ["weather"], "cefrLevel": "A1", "note": "es + Verb — für Wetter immer ohne Person" },
-    { "id": "wie-ist-das-wetter", "type": "sentence", "german": "Wie ist das Wetter heute?", "meaning": "How is the weather today?", "image": "wetter", "audio": "tts", "introducedInScene": "a1e5s1", "tags": ["weather", "smalltalk", "questions"], "cefrLevel": "A1" },
-    { "id": "der-regenschirm", "type": "word", "german": "der Regenschirm", "meaning": "the umbrella", "image": "regenschirm", "audio": "tts", "introducedInScene": "a1e5s1", "tags": ["weather", "objects"], "cefrLevel": "A1", "note": "der, Plural: die Regenschirme — wird in Leipzig oft vergessen" },
-    { "id": "die-jacke", "type": "word", "german": "die Jacke", "meaning": "the jacket", "image": "jacke", "audio": "tts", "introducedInScene": "a1e5s1", "tags": ["clothes", "shopping"], "cefrLevel": "A1", "note": "die, Plural: die Jacken" },
-    { "id": "der-pullover", "type": "word", "german": "der Pullover", "meaning": "the sweater / jumper", "image": "jacke", "audio": "tts", "introducedInScene": "a1e5s1", "tags": ["clothes", "shopping"], "cefrLevel": "A1", "note": "der, Plural: die Pullis ( umgangssprachlich )" },
-    { "id": "die-hose", "type": "word", "german": "die Hose", "meaning": "the trousers / pants", "image": "jacke", "audio": "tts", "introducedInScene": "a1e5s2", "tags": ["clothes", "shopping"], "cefrLevel": "A1", "note": "die, Plural: die Hosen — wie englisch trousers, immer Plural-Feeling" },
-    { "id": "die-schuhe", "type": "word", "german": "die Schuhe", "meaning": "the shoes", "image": "schuhe", "audio": "tts", "introducedInScene": "a1e5s2", "tags": ["clothes", "shopping"], "cefrLevel": "A1", "note": "Pluralwort — Singular: der Schuh" },
-    { "id": "die-groesse", "type": "word", "german": "die Größe", "meaning": "the size", "image": "jacke", "audio": "tts", "introducedInScene": "a1e5s2", "tags": ["clothes", "shopping"], "cefrLevel": "A1", "note": "die, Plural: die Größen" },
-    { "id": "anprobieren", "type": "chunk", "german": "Kann ich das anprobieren?", "meaning": "Can I try this on?", "image": "jacke", "audio": "tts", "introducedInScene": "a1e5s2", "tags": ["clothes", "shopping", "request"], "cefrLevel": "A1", "note": "anprobieren = an + probieren, trennbar" },
-    { "id": "ich-suche-groesse", "type": "grammar_pattern", "german": "Ich suche eine Jacke in Größe ___.", "meaning": "I'm looking for a jacket in size ___.", "audio": "tts", "introducedInScene": "a1e5s2", "tags": ["clothes", "shopping", "request"], "cefrLevel": "A1", "cloze": "M", "alt": ["L", "S", "XL"], "speak": "Ich suche eine Jacke in Größe M.", "note": "Größen: S, M, L, XL" },
-    { "id": "der-laden", "type": "word", "german": "der Laden", "meaning": "the shop", "image": "laden", "audio": "tts", "introducedInScene": "a1e5s2", "tags": ["shopping", "city"], "cefrLevel": "A1", "note": "der, Plural: die Läden — Umlaut im Plural!" },
-    { "id": "die-umkleide", "type": "word", "german": "die Umkleide", "meaning": "the changing room", "image": "schürze", "audio": "tts", "introducedInScene": "a1e5s2", "tags": ["clothes", "shopping"], "cefrLevel": "A1", "note": "die, Plural: die Umkleiden" },
-    { "id": "passt-gut", "type": "chunk", "german": "Passt gut!", "meaning": "Fits well! / Looks good on you!", "audio": "tts", "introducedInScene": "a1e5s3", "tags": ["clothes", "smalltalk"], "cefrLevel": "A1" },
-    { "id": "die-jacke-passt", "type": "grammar_pattern", "german": "Die Jacke passt mir ___.", "meaning": "The jacket fits me ___.", "audio": "tts", "introducedInScene": "a1e5s3", "tags": ["clothes", "shopping", "opinion"], "cefrLevel": "A1", "cloze": "gut", "alt": ["sehr gut", "nicht"], "speak": "Die Jacke passt mir gut.", "note": "passen + Dativ: passt mir/dir/ihm" },
-    { "id": "die-klamotten", "type": "word", "german": "die Klamotten", "meaning": "the clothes (colloquial)", "image": "jacke", "audio": "tts", "introducedInScene": "a1e5s3", "tags": ["clothes"], "cefrLevel": "A1", "note": "Plural, umgangssprachlich — sehr leipzigerisch" },
-    { "id": "gebraucht", "type": "word", "german": "gebraucht", "meaning": "used / second-hand", "image": "koffer", "audio": "tts", "introducedInScene": "a1e5s3", "tags": ["shopping", "money"], "cefrLevel": "A1", "note": "Adjektiv — gebraucht kaufen = buy second-hand" },
-    { "id": "schade", "type": "chunk", "german": "Schade!", "meaning": "What a pity! / Too bad!", "audio": "tts", "introducedInScene": "a1e5s3", "tags": ["smalltalk"], "cefrLevel": "A1" }
+    {
+      "id": "das-wetter",
+      "type": "word",
+      "german": "das Wetter",
+      "meaning": "the weather",
+      "image": "wetter",
+      "audio": "tts",
+      "introducedInScene": "a1e5s1",
+      "tags": [
+        "weather",
+        "smalltalk"
+      ],
+      "cefrLevel": "A1",
+      "note": "das ( Singular ) — Thema Nummer eins im Aufzugsgespräch"
+    },
+    {
+      "id": "es-regnet",
+      "type": "chunk",
+      "german": "Es regnet.",
+      "meaning": "It's raining.",
+      "image": "wetter",
+      "audio": "tts",
+      "introducedInScene": "a1e5s1",
+      "tags": [
+        "weather"
+      ],
+      "cefrLevel": "A1",
+      "note": "es + Verb — für Wetter immer ohne Person"
+    },
+    {
+      "id": "wie-ist-das-wetter",
+      "type": "sentence",
+      "german": "Wie ist das Wetter heute?",
+      "meaning": "How is the weather today?",
+      "image": "wetter",
+      "audio": "tts",
+      "introducedInScene": "a1e5s1",
+      "tags": [
+        "weather",
+        "smalltalk",
+        "questions"
+      ],
+      "cefrLevel": "A1"
+    },
+    {
+      "id": "der-regenschirm",
+      "type": "word",
+      "german": "der Regenschirm",
+      "meaning": "the umbrella",
+      "image": "regenschirm",
+      "audio": "tts",
+      "introducedInScene": "a1e5s1",
+      "tags": [
+        "weather",
+        "objects"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Regenschirme — wird in Leipzig oft vergessen"
+    },
+    {
+      "id": "die-jacke",
+      "type": "word",
+      "german": "die Jacke",
+      "meaning": "the jacket",
+      "image": "jacke",
+      "audio": "tts",
+      "introducedInScene": "a1e5s1",
+      "tags": [
+        "clothes",
+        "shopping"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Jacken"
+    },
+    {
+      "id": "der-pullover",
+      "type": "word",
+      "german": "der Pullover",
+      "meaning": "the sweater / jumper",
+      "image": "jacke",
+      "audio": "tts",
+      "introducedInScene": "a1e5s1",
+      "tags": [
+        "clothes",
+        "shopping"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Pullis ( umgangssprachlich )"
+    },
+    {
+      "id": "die-hose",
+      "type": "word",
+      "german": "die Hose",
+      "meaning": "the trousers / pants",
+      "image": "jacke",
+      "audio": "tts",
+      "introducedInScene": "a1e5s2",
+      "tags": [
+        "clothes",
+        "shopping"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Hosen — wie englisch trousers, immer Plural-Feeling"
+    },
+    {
+      "id": "die-schuhe",
+      "type": "word",
+      "german": "die Schuhe",
+      "meaning": "the shoes",
+      "image": "schuhe",
+      "audio": "tts",
+      "introducedInScene": "a1e5s2",
+      "tags": [
+        "clothes",
+        "shopping"
+      ],
+      "cefrLevel": "A1",
+      "note": "Pluralwort — Singular: der Schuh"
+    },
+    {
+      "id": "die-groesse",
+      "type": "word",
+      "german": "die Größe",
+      "meaning": "the size",
+      "image": "jacke",
+      "audio": "tts",
+      "introducedInScene": "a1e5s2",
+      "tags": [
+        "clothes",
+        "shopping"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Größen"
+    },
+    {
+      "id": "anprobieren",
+      "type": "chunk",
+      "german": "Kann ich das anprobieren?",
+      "meaning": "Can I try this on?",
+      "image": "jacke",
+      "audio": "tts",
+      "introducedInScene": "a1e5s2",
+      "tags": [
+        "clothes",
+        "shopping",
+        "request"
+      ],
+      "cefrLevel": "A1",
+      "note": "anprobieren = an + probieren, trennbar"
+    },
+    {
+      "id": "ich-suche-groesse",
+      "type": "grammar_pattern",
+      "german": "Ich suche eine Jacke in Größe ___.",
+      "meaning": "I'm looking for a jacket in size ___.",
+      "audio": "tts",
+      "introducedInScene": "a1e5s2",
+      "tags": [
+        "clothes",
+        "shopping",
+        "request"
+      ],
+      "cefrLevel": "A1",
+      "cloze": "M",
+      "alt": [
+        "L",
+        "S",
+        "XL"
+      ],
+      "speak": "Ich suche eine Jacke in Größe M.",
+      "note": "Größen: S, M, L, XL"
+    },
+    {
+      "id": "der-laden",
+      "type": "word",
+      "german": "der Laden",
+      "meaning": "the shop",
+      "image": "laden",
+      "audio": "tts",
+      "introducedInScene": "a1e5s2",
+      "tags": [
+        "shopping",
+        "city"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Läden — Umlaut im Plural!"
+    },
+    {
+      "id": "die-umkleide",
+      "type": "word",
+      "german": "die Umkleide",
+      "meaning": "the changing room",
+      "image": "schürze",
+      "audio": "tts",
+      "introducedInScene": "a1e5s2",
+      "tags": [
+        "clothes",
+        "shopping"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Umkleiden"
+    },
+    {
+      "id": "passt-gut",
+      "type": "chunk",
+      "german": "Passt gut!",
+      "meaning": "Fits well! / Looks good on you!",
+      "audio": "tts",
+      "introducedInScene": "a1e5s3",
+      "tags": [
+        "clothes",
+        "smalltalk"
+      ],
+      "cefrLevel": "A1"
+    },
+    {
+      "id": "die-jacke-passt",
+      "type": "grammar_pattern",
+      "german": "Die Jacke passt mir ___.",
+      "meaning": "The jacket fits me ___.",
+      "audio": "tts",
+      "introducedInScene": "a1e5s3",
+      "tags": [
+        "clothes",
+        "shopping",
+        "opinion"
+      ],
+      "cefrLevel": "A1",
+      "cloze": "gut",
+      "alt": [
+        "sehr gut",
+        "nicht"
+      ],
+      "speak": "Die Jacke passt mir gut.",
+      "note": "passen + Dativ: passt mir/dir/ihm"
+    },
+    {
+      "id": "die-klamotten",
+      "type": "word",
+      "german": "die Klamotten",
+      "meaning": "the clothes (colloquial)",
+      "image": "jacke",
+      "audio": "tts",
+      "introducedInScene": "a1e5s3",
+      "tags": [
+        "clothes"
+      ],
+      "cefrLevel": "A1",
+      "note": "Plural, umgangssprachlich — sehr leipzigerisch"
+    },
+    {
+      "id": "gebraucht",
+      "type": "word",
+      "german": "gebraucht",
+      "meaning": "used / second-hand",
+      "image": "koffer",
+      "audio": "tts",
+      "introducedInScene": "a1e5s3",
+      "tags": [
+        "shopping",
+        "money"
+      ],
+      "cefrLevel": "A1",
+      "note": "Adjektiv — gebraucht kaufen = buy second-hand"
+    },
+    {
+      "id": "schade",
+      "type": "chunk",
+      "german": "Schade!",
+      "meaning": "What a pity! / Too bad!",
+      "audio": "tts",
+      "introducedInScene": "a1e5s3",
+      "tags": [
+        "smalltalk"
+      ],
+      "cefrLevel": "A1"
+    }
   ],
   "scenes": [
     {
@@ -42,20 +317,76 @@
       "titleEn": "The first rain",
       "place": "Jahnallee, Kiosk, unter Vordächern",
       "bg": "strasse",
-      "contextTags": ["weather", "city", "shopping"],
+      "contextTags": [
+        "weather",
+        "city",
+        "shopping"
+      ],
       "requiredItems": [],
-      "introducedItems": ["das-wetter", "es-regnet", "wie-ist-das-wetter", "der-regenschirm", "die-jacke", "der-pullover"],
+      "introducedItems": [
+        "das-wetter",
+        "es-regnet",
+        "wie-ist-das-wetter",
+        "der-regenschirm",
+        "die-jacke",
+        "der-pullover"
+      ],
       "beats": [
-        { "type": "narration", "text": "Deine zweite Woche in Leipzig. Der Himmel macht zu, und dann kommt alles gleichzeitig: Regen, Wind, ein Radfahrer mit Regenponcho. Du hast keinen Schirm. Natürlich hast du keinen Schirm." },
-        { "type": "line", "speaker": "kiosk", "text": "Na, schön nass geworden? …Das Wetter hier macht, was es will. Schirm? Ja, hab ich. Acht Euro.", "translation": "Well, got nice and wet? …The weather here does what it wants. Umbrella? Yes, I have one. Eight euros." },
-        { "type": "meet", "itemIds": ["das-wetter", "es-regnet", "der-regenschirm"] },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "narration", "text": "Der Schirm ist klein und grün und sofort dein Lieblingsbesitz. Unter einer Busunterstand-Deckung treffst du Tobias, der dich von weitem anwinkt." },
-        { "type": "line", "speaker": "tobias", "text": "Sam! Schau dich an — schon halb Leipziger. …Aber diese Jacke hält hier nichts. Wir gehen morgen shoppen. Second-hand!", "translation": "Sam! Look at you — already half a Leipziger. …But that jacket won't survive here. We're going shopping tomorrow. Second-hand!" },
-        { "type": "meet", "itemIds": ["wie-ist-das-wetter", "die-jacke", "der-pullover"] },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "check", "count": 2, "mode": "listen" },
-        { "type": "narration", "text": "Morgen also. Du schaust aus dem Fenster und sprichst dein erstes echtes deutsches Wettergespräch — mit dem Regen." }
+        {
+          "type": "narration",
+          "text": "Deine zweite Woche in Leipzig. Der Himmel macht zu, und dann kommt alles gleichzeitig: Regen, Wind, ein Radfahrer mit Regenponcho. Du hast keinen Schirm. Natürlich hast du keinen Schirm."
+        },
+        {
+          "type": "line",
+          "speaker": "kiosk",
+          "text": "Na, schön nass geworden? …Das Wetter hier macht, was es will. Schirm? Ja, hab ich. Acht Euro.",
+          "translation": "Well, got nice and wet? …The weather here does what it wants. Umbrella? Yes, I have one. Eight euros."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "das-wetter",
+            "es-regnet",
+            "der-regenschirm"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "narration",
+          "text": "Der Schirm ist klein und grün und sofort dein Lieblingsbesitz. Unter einer Busunterstand-Deckung treffst du Tobias, der dich von weitem anwinkt."
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Sam! Schau dich an — schon halb Leipziger. …Aber diese Jacke hält hier nichts. Wir gehen morgen shoppen. Second-hand!",
+          "translation": "Sam! Look at you — already half a Leipziger. …But that jacket won't survive here. We're going shopping tomorrow. Second-hand!"
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "wie-ist-das-wetter",
+            "die-jacke",
+            "der-pullover"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "narration",
+          "text": "Morgen also. Du schaust aus dem Fenster und sprichst dein erstes echtes deutsches Wettergespräch — mit dem Regen."
+        }
       ]
     },
     {
@@ -65,22 +396,94 @@
       "titleEn": "Fundgrube Connewitz",
       "place": "Second-Hand-Laden, Connewitz",
       "bg": "laden",
-      "contextTags": ["clothes", "shopping"],
-      "requiredItems": ["die-jacke", "der-pullover"],
-      "introducedItems": ["die-hose", "die-schuhe", "die-groesse", "anprobieren", "ich-suche-groesse", "der-laden"],
+      "contextTags": [
+        "clothes",
+        "shopping"
+      ],
+      "requiredItems": [
+        "die-jacke",
+        "der-pullover"
+      ],
+      "introducedItems": [
+        "die-hose",
+        "die-schuhe",
+        "die-groesse",
+        "anprobieren",
+        "ich-suche-groesse",
+        "der-laden"
+      ],
       "beats": [
-        { "type": "narration", "text": "Ein Laden voller Gerüche nach Holz, Kaffee und alter Vinyl. Regale bis zur Decke, eine Garderobe wie eine kleine Stadt." },
-        { "type": "meet", "itemIds": ["der-laden", "die-hose", "die-schuhe"] },
-        { "type": "line", "speaker": "rike", "text": "Hallo ihr zwei! Pullover sind heute reduziert. Und an den Schuhen dürft ihr euch ruhig sattsehen.", "translation": "Hello you two! Sweaters are discounted today. And feel free to feast your eyes on the shoes." },
-        { "type": "meet", "itemIds": ["die-groesse", "anprobieren", "ich-suche-groesse"] },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "choice", "prompt": "Rike schaut fragend.", "options": [
-          { "label": "Ich suche eine Jacke in Größe M.", "line": "Ich suche eine Jacke in Größe M." },
-          { "label": "Kann ich diese Jacke anprobieren?", "line": "Kann ich diese Jacke anprobieren?" }
-        ] },
-        { "type": "line", "speaker": "rike", "text": "Klar, Umkleide ist da hinten. Sag Bescheid, wenn ich was anderes holen soll.", "translation": "Sure, changing room's back there. Let me know if I should fetch something else." },
-        { "type": "check", "count": 2, "mode": "recall" },
-        { "type": "narration", "text": "Zwei Jacken, ein Pullover, ein absurd schöner alter Mantel. Du willst alle. Du nimmst eine." }
+        {
+          "type": "narration",
+          "text": "Ein Laden voller Gerüche nach Holz, Kaffee und alter Vinyl. Regale bis zur Decke, eine Garderobe wie eine kleine Stadt."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-laden",
+            "die-hose",
+            "die-schuhe"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "rike",
+          "text": "Hallo ihr zwei! Pullover sind heute reduziert. Und an den Schuhen dürft ihr euch ruhig sattsehen.",
+          "translation": "Hello you two! Sweaters are discounted today. And feel free to feast your eyes on the shoes."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-groesse",
+            "anprobieren",
+            "ich-suche-groesse"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Rike schaut fragend.",
+          "options": [
+            {
+              "label": "Ich suche eine Jacke in Größe M.",
+              "line": "Ich suche eine Jacke in Größe M."
+            },
+            {
+              "label": "Kann ich diese Jacke anprobieren?",
+              "line": "Kann ich diese Jacke anprobieren?"
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "rike",
+          "text": "Klar, Umkleide ist da hinten. Sag Bescheid, wenn ich was anderes holen soll.",
+          "translation": "Sure, changing room's back there. Let me know if I should fetch something else."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "reading",
+          "title": "Preisschilder im Laden",
+          "text": "JACKE   ——— 5 €   (Größe M)\nPULLI  ——— 3 €   (Größe L, „wie neu“)\nSCHUHE ——— 4 €\n\nKLEIDUNG: bitte ANPROBIEREN. Umkleide hinten links.\n\n»Alles gebraucht, nichts verbraucht.«\n(An der Kasse: Barzahlung. Und ein Lächeln kostet nichts.)",
+          "translation": "JACKET ——— €5   (size M)\nJUMPER ——— €3   (size L, 'like new')\nSHOES ——— €4\n\nCLOTHES: please TRY THEM ON. Fitting room back left.\n\n'Everything second-hand, nothing worn out.'\n(At the till: cash payment. And a smile costs nothing.)",
+          "itemIds": [
+            "die-groesse",
+            "anprobieren",
+            "der-laden"
+          ]
+        },
+        {
+          "type": "narration",
+          "text": "Zwei Jacken, ein Pullover, ein absurd schöner alter Mantel. Du willst alle. Du nimmst eine."
+        }
       ]
     },
     {
@@ -90,23 +493,98 @@
       "titleEn": "The jacket",
       "place": "Wohnung, 2. OG, Trocknungsaktion",
       "bg": "wohnung",
-      "contextTags": ["clothes", "home", "shopping"],
-      "requiredItems": ["anprobieren", "die-groesse"],
-      "introducedItems": ["passt-gut", "die-jacke-passt", "die-klamotten", "gebraucht", "schade"],
+      "contextTags": [
+        "clothes",
+        "home",
+        "shopping"
+      ],
+      "requiredItems": [
+        "anprobieren",
+        "die-groesse"
+      ],
+      "introducedItems": [
+        "passt-gut",
+        "die-jacke-passt",
+        "die-klamotten",
+        "gebraucht",
+        "schade"
+      ],
       "beats": [
-        { "type": "narration", "text": "Zuhause hängt alles zum Trocknen. Tobias inspiziert deine Einkäufe wie ein Zollbeamter mit Geschmack." },
-        { "type": "line", "speaker": "tobias", "text": "Wie viel? …Achtzehn Euro?! Für die Jacke? Neu kostet die sechzig. …Gebraucht kaufen ist eine Superkraft.", "translation": "How much? …Eighteen euros?! For the jacket? New it's sixty. …Buying second-hand is a superpower." },
-        { "type": "meet", "itemIds": ["gebraucht", "die-klamotten", "schade"] },
-        { "type": "meet", "itemIds": ["passt-gut", "die-jacke-passt"] },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "choice", "prompt": "Tobias: „Und, passt sie?“", "options": [
-          { "label": "Ja! Die Jacke passt mir perfekt.", "line": "Ja! Die Jacke passt mir perfekt." },
-          { "label": "Fast. Nur die Ärmel sind zu kurz.", "line": "Fast. Nur die Ärmel sind ein bisschen zu kurz." }
-        ] },
-        { "type": "line", "speaker": "tobias", "text": "Passt gut! Damit überlebst du den Herbst. …Und im Winter kaufen wir Schnee. …Ach so: Schnee gibt's gratis.", "translation": "Fits well! That'll get you through autumn. …And in winter we'll buy snow. …Oh wait: snow's free." },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "check", "count": 2, "mode": "recall" },
-        { "type": "narration", "text": "Die neue Jacke hängt am Türgriff. Draußen regnet es weiter — aber draußen ist jetzt optional." }
+        {
+          "type": "narration",
+          "text": "Zuhause hängt alles zum Trocknen. Tobias inspiziert deine Einkäufe wie ein Zollbeamter mit Geschmack."
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Wie viel? …Achtzehn Euro?! Für die Jacke? Neu kostet die sechzig. …Gebraucht kaufen ist eine Superkraft.",
+          "translation": "How much? …Eighteen euros?! For the jacket? New it's sixty. …Buying second-hand is a superpower."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "gebraucht",
+            "die-klamotten",
+            "schade"
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "passt-gut",
+            "die-jacke-passt"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Tobias: „Und, passt sie?“",
+          "options": [
+            {
+              "label": "Ja! Die Jacke passt mir perfekt.",
+              "line": "Ja! Die Jacke passt mir perfekt."
+            },
+            {
+              "label": "Fast. Nur die Ärmel sind zu kurz.",
+              "line": "Fast. Nur die Ärmel sind ein bisschen zu kurz."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Passt gut! Damit überlebst du den Herbst. …Und im Winter kaufen wir Schnee. …Ach so: Schnee gibt's gratis.",
+          "translation": "Fits well! That'll get you through autumn. …And in winter we'll buy snow. …Oh wait: snow's free."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "reading",
+          "title": "Kassenbon – Secondhand Lindenau",
+          "text": "1× JACKE        5,00 €\n1× PULLOVER     3,00 €\n1× KLAMOTTEN-TASCHE (eigene) 0,00 €\n\nGESAMT          8,00 €\nGezahlt: bar. Danke!\n\nUmtausch: innerhalb 3 Tagen, mit Bon.\n(Regen zählt nicht als Schaden.\n Regen zählt als Wetter.)",
+          "translation": "1× JACKET       €5.00\n1× JUMPER       €3.00\n1× THRIFT-BAG (own) €0.00\n\nTOTAL           €8.00\nPaid: cash. Thank you!\n\nExchange: within 3 days, with receipt.\n(Rain doesn't count as damage.\nRain counts as weather.)",
+          "itemIds": [
+            "die-klamotten",
+            "gebraucht",
+            "passt-gut"
+          ]
+        },
+        {
+          "type": "narration",
+          "text": "Die neue Jacke hängt am Türgriff. Draußen regnet es weiter — aber draußen ist jetzt optional."
+        }
       ]
     }
   ]

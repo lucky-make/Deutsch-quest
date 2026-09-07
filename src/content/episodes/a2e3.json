@@ -7,26 +7,202 @@
     "titleEn": "Sick in Leipzig",
     "blurb": "Husten, Fieber, Praxis, Apotheke. Deutsch werden, wenn der Körper Pause macht.",
     "order": 7,
-    "sceneIds": ["a2e3s1", "a2e3s2"]
+    "sceneIds": [
+      "a2e3s1",
+      "a2e3s2"
+    ]
   },
   "cast": [
-    { "id": "dr-kern", "name": "Dr. Kern", "role": "Hausärztin" },
-    { "id": "apotheker", "name": "Herr Özdemir", "role": "Apotheker" },
-    { "id": "luise", "name": "Luise", "role": "Café-Besitzerin" }
+    {
+      "id": "dr-kern",
+      "name": "Dr. Kern",
+      "role": "Hausärztin"
+    },
+    {
+      "id": "apotheker",
+      "name": "Herr Özdemir",
+      "role": "Apotheker"
+    },
+    {
+      "id": "luise",
+      "name": "Luise",
+      "role": "Café-Besitzerin"
+    }
   ],
   "items": [
-    { "id": "die-praxis", "type": "word", "german": "die Praxis", "meaning": "the doctor's practice / office", "image": "praxis", "audio": "tts", "introducedInScene": "a2e3s1", "tags": ["health", "doctor"], "cefrLevel": "A2", "note": "die, Plural: die Praxen" },
-    { "id": "der-husten", "type": "word", "german": "der Husten", "meaning": "the cough", "image": "thermos", "audio": "tts", "introducedInScene": "a2e3s1", "tags": ["health", "sick"], "cefrLevel": "A2" },
-    { "id": "das-fieber", "type": "word", "german": "das Fieber", "meaning": "the fever", "image": "thermos", "audio": "tts", "introducedInScene": "a2e3s1", "tags": ["health", "sick"], "cefrLevel": "A2" },
-    { "id": "krank", "type": "word", "german": "krank", "meaning": "sick / ill", "image": "thermos", "audio": "tts", "introducedInScene": "a2e3s1", "tags": ["health", "sick"], "cefrLevel": "A2", "note": "Adjektiv — „Ich bin krank.“ Genau so einfach." },
-    { "id": "ich-fuehle-mich-nicht-gut", "type": "sentence", "german": "Ich fühle mich nicht gut.", "meaning": "I don't feel well.", "audio": "tts", "introducedInScene": "a2e3s1", "tags": ["health", "sick"], "cefrLevel": "A2" },
-    { "id": "die-untersuchung", "type": "word", "german": "die Untersuchung", "meaning": "the examination", "image": "stethoskop", "audio": "tts", "introducedInScene": "a2e3s1", "tags": ["health", "doctor"], "cefrLevel": "A2", "note": "die, Plural: die Untersuchungen" },
-    { "id": "die-apotheke", "type": "word", "german": "die Apotheke", "meaning": "the pharmacy", "image": "apotheke", "audio": "tts", "introducedInScene": "a2e3s2", "tags": ["health", "pharmacy"], "cefrLevel": "A2", "note": "die, Plural: die Apotheken — rotes A, nicht grünes Kreuz" },
-    { "id": "das-medikament", "type": "word", "german": "das Medikament", "meaning": "the medication", "image": "pille", "audio": "tts", "introducedInScene": "a2e3s2", "tags": ["health", "pharmacy"], "cefrLevel": "A2", "note": "das, Plural: die Medikamente — umgangssprachlich: die Tabletten" },
-    { "id": "das-rezept", "type": "word", "german": "das Rezept", "meaning": "the prescription (and: the recipe)", "image": "formular", "audio": "tts", "introducedInScene": "a2e3s2", "tags": ["health", "pharmacy"], "cefrLevel": "A2", "note": "das, Plural: die Rezepte — doppelt verwendet!" },
-    { "id": "die-krankmeldung", "type": "word", "german": "die Krankmeldung", "meaning": "the sick note (to your employer)", "image": "brief", "audio": "tts", "introducedInScene": "a2e3s2", "tags": ["health", "work"], "cefrLevel": "A2", "note": "die, Plural: die Krankmeldungen" },
-    { "id": "dreimal-am-tag", "type": "chunk", "german": "Dreimal am Tag, nach dem Essen.", "meaning": "Three times a day, after eating.", "audio": "tts", "introducedInScene": "a2e3s2", "tags": ["health", "pharmacy"], "cefrLevel": "A2" },
-    { "id": "gute-besserung", "type": "chunk", "german": "Gute Besserung!", "meaning": "Get well soon!", "audio": "tts", "introducedInScene": "a2e3s2", "tags": ["health", "politeness"], "cefrLevel": "A2", "note": "Pflichtprogramm bei Krankheit im Deutschen" }
+    {
+      "id": "die-praxis",
+      "type": "word",
+      "german": "die Praxis",
+      "meaning": "the doctor's practice / office",
+      "image": "praxis",
+      "audio": "tts",
+      "introducedInScene": "a2e3s1",
+      "tags": [
+        "health",
+        "doctor"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Praxen"
+    },
+    {
+      "id": "der-husten",
+      "type": "word",
+      "german": "der Husten",
+      "meaning": "the cough",
+      "image": "thermos",
+      "audio": "tts",
+      "introducedInScene": "a2e3s1",
+      "tags": [
+        "health",
+        "sick"
+      ],
+      "cefrLevel": "A2"
+    },
+    {
+      "id": "das-fieber",
+      "type": "word",
+      "german": "das Fieber",
+      "meaning": "the fever",
+      "image": "thermos",
+      "audio": "tts",
+      "introducedInScene": "a2e3s1",
+      "tags": [
+        "health",
+        "sick"
+      ],
+      "cefrLevel": "A2"
+    },
+    {
+      "id": "krank",
+      "type": "word",
+      "german": "krank",
+      "meaning": "sick / ill",
+      "image": "thermos",
+      "audio": "tts",
+      "introducedInScene": "a2e3s1",
+      "tags": [
+        "health",
+        "sick"
+      ],
+      "cefrLevel": "A2",
+      "note": "Adjektiv — „Ich bin krank.“ Genau so einfach."
+    },
+    {
+      "id": "ich-fuehle-mich-nicht-gut",
+      "type": "sentence",
+      "german": "Ich fühle mich nicht gut.",
+      "meaning": "I don't feel well.",
+      "audio": "tts",
+      "introducedInScene": "a2e3s1",
+      "tags": [
+        "health",
+        "sick"
+      ],
+      "cefrLevel": "A2"
+    },
+    {
+      "id": "die-untersuchung",
+      "type": "word",
+      "german": "die Untersuchung",
+      "meaning": "the examination",
+      "image": "stethoskop",
+      "audio": "tts",
+      "introducedInScene": "a2e3s1",
+      "tags": [
+        "health",
+        "doctor"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Untersuchungen"
+    },
+    {
+      "id": "die-apotheke",
+      "type": "word",
+      "german": "die Apotheke",
+      "meaning": "the pharmacy",
+      "image": "apotheke",
+      "audio": "tts",
+      "introducedInScene": "a2e3s2",
+      "tags": [
+        "health",
+        "pharmacy"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Apotheken — rotes A, nicht grünes Kreuz"
+    },
+    {
+      "id": "das-medikament",
+      "type": "word",
+      "german": "das Medikament",
+      "meaning": "the medication",
+      "image": "pille",
+      "audio": "tts",
+      "introducedInScene": "a2e3s2",
+      "tags": [
+        "health",
+        "pharmacy"
+      ],
+      "cefrLevel": "A2",
+      "note": "das, Plural: die Medikamente — umgangssprachlich: die Tabletten"
+    },
+    {
+      "id": "das-rezept",
+      "type": "word",
+      "german": "das Rezept",
+      "meaning": "the prescription (and: the recipe)",
+      "image": "formular",
+      "audio": "tts",
+      "introducedInScene": "a2e3s2",
+      "tags": [
+        "health",
+        "pharmacy"
+      ],
+      "cefrLevel": "A2",
+      "note": "das, Plural: die Rezepte — doppelt verwendet!"
+    },
+    {
+      "id": "die-krankmeldung",
+      "type": "word",
+      "german": "die Krankmeldung",
+      "meaning": "the sick note (to your employer)",
+      "image": "brief",
+      "audio": "tts",
+      "introducedInScene": "a2e3s2",
+      "tags": [
+        "health",
+        "work"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Krankmeldungen"
+    },
+    {
+      "id": "dreimal-am-tag",
+      "type": "chunk",
+      "german": "Dreimal am Tag, nach dem Essen.",
+      "meaning": "Three times a day, after eating.",
+      "audio": "tts",
+      "introducedInScene": "a2e3s2",
+      "tags": [
+        "health",
+        "pharmacy"
+      ],
+      "cefrLevel": "A2"
+    },
+    {
+      "id": "gute-besserung",
+      "type": "chunk",
+      "german": "Gute Besserung!",
+      "meaning": "Get well soon!",
+      "audio": "tts",
+      "introducedInScene": "a2e3s2",
+      "tags": [
+        "health",
+        "politeness"
+      ],
+      "cefrLevel": "A2",
+      "note": "Pflichtprogramm bei Krankheit im Deutschen"
+    }
   ],
   "scenes": [
     {
@@ -36,22 +212,94 @@
       "titleEn": "At Dr. Kern's",
       "place": "Hausarztpraxis Dr. Kern",
       "bg": "klinik",
-      "contextTags": ["health", "doctor", "sick"],
-      "requiredItems": ["der-termin"],
-      "introducedItems": ["die-praxis", "der-husten", "das-fieber", "krank", "ich-fuehle-mich-nicht-gut", "die-untersuchung"],
+      "contextTags": [
+        "health",
+        "doctor",
+        "sick"
+      ],
+      "requiredItems": [
+        "der-termin"
+      ],
+      "introducedItems": [
+        "die-praxis",
+        "der-husten",
+        "das-fieber",
+        "krank",
+        "ich-fuehle-mich-nicht-gut",
+        "die-untersuchung"
+      ],
       "beats": [
-        { "type": "narration", "text": "Zwei Nächte gehustet, die Decke wie nasse Wolle. Tobias' Rat: „Hausarzt. Termin. Heute.“ Die Praxis duftet nach Desinfektion und alten Zeitschriften." },
-        { "type": "meet", "itemIds": ["die-praxis", "der-husten", "das-fieber"] },
-        { "type": "line", "speaker": "dr-kern", "text": "Na, was fehlt Ihnen denn? …Sie sehen blass aus, das kann ich Ihnen sagen.", "translation": "Well, what seems to be the problem? …You look pale, I can tell you that much." },
-        { "type": "meet", "itemIds": ["krank", "ich-fuehle-mich-nicht-gut", "die-untersuchung"] },
-        { "type": "choice", "prompt": "Dr. Kern setzt das Stethoskop ab.", "options": [
-          { "label": "Ich fühle mich nicht gut. Ich habe Fieber.", "line": "Ich fühle mich nicht gut. Ich habe Fieber." },
-          { "label": "Ich bin krank. Seit zwei Nächten: Husten.", "line": "Ich bin krank. Seit zwei Nächten: Husten." }
-        ] },
-        { "type": "line", "speaker": "dr-kern", "text": "Also — leichte Bronchitis, kein Schlimmes. Eine Untersuchung, ein Rezept, und Sie bleiben zwei Tage im Bett.", "translation": "Well — mild bronchitis, nothing serious. One examination, a prescription, and you stay in bed for two days." },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "check", "count": 2, "mode": "recall" },
-        { "type": "narration", "text": "Sie schreibt zwei Zettel: einen für die Apotheke, einen für Luise. Deutsch lernen heißt auch: krankheitsdeutsch lernen." }
+        {
+          "type": "narration",
+          "text": "Zwei Nächte gehustet, die Decke wie nasse Wolle. Tobias' Rat: „Hausarzt. Termin. Heute.“ Die Praxis duftet nach Desinfektion und alten Zeitschriften."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-praxis",
+            "der-husten",
+            "das-fieber"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "dr-kern",
+          "text": "Na, was fehlt Ihnen denn? …Sie sehen blass aus, das kann ich Ihnen sagen.",
+          "translation": "Well, what seems to be the problem? …You look pale, I can tell you that much."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "krank",
+            "ich-fuehle-mich-nicht-gut",
+            "die-untersuchung"
+          ]
+        },
+        {
+          "type": "choice",
+          "prompt": "Dr. Kern setzt das Stethoskop ab.",
+          "options": [
+            {
+              "label": "Ich fühle mich nicht gut. Ich habe Fieber.",
+              "line": "Ich fühle mich nicht gut. Ich habe Fieber."
+            },
+            {
+              "label": "Ich bin krank. Seit zwei Nächten: Husten.",
+              "line": "Ich bin krank. Seit zwei Nächten: Husten."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "dr-kern",
+          "text": "Also — leichte Bronchitis, kein Schlimmes. Eine Untersuchung, ein Rezept, und Sie bleiben zwei Tage im Bett.",
+          "translation": "Well — mild bronchitis, nothing serious. One examination, a prescription, and you stay in bed for two days."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "reading",
+          "title": "Patientenbogen (Praxis Dr. Kern)",
+          "text": "Name: ………………………………\nSeit wann fühlen Sie sich nicht gut?\n   seit heute / seit Tagen / seit Montagmorgen\n\nSymptome: Husten … Fieber … (Kreuzen: ehrlich)\nVorhandene Medikamente: ………………………\n\nUntersuchung erfolgt durch die Ärztin.\nNiemand wird ausgelacht. Versprochen.\n(„Schon wieder Husten“ zählt nicht als Diagnose.)",
+          "translation": "Patient form (Dr Kern's practice)\nName: ……………\nHow long have you felt unwell?\n   since today / for days / since Monday morning\n\nSymptoms: cough … fever … (tick honestly)\nCurrent medication: ……………\n\nThe examination is carried out by the doctor.\nNobody will laugh at you. Promised.\n('A cold again' doesn't count as a diagnosis.)",
+          "itemIds": [
+            "die-praxis",
+            "das-fieber",
+            "die-untersuchung"
+          ]
+        },
+        {
+          "type": "narration",
+          "text": "Sie schreibt zwei Zettel: einen für die Apotheke, einen für Luise. Deutsch lernen heißt auch: krankheitsdeutsch lernen."
+        }
       ]
     },
     {
@@ -61,22 +309,94 @@
       "titleEn": "Pharmacy & sick note",
       "place": "Rosen-Apotheke, dann das Handy",
       "bg": "laden",
-      "contextTags": ["health", "pharmacy", "work"],
-      "requiredItems": ["krank"],
-      "introducedItems": ["die-apotheke", "das-medikament", "das-rezept", "die-krankmeldung", "dreimal-am-tag", "gute-besserung"],
+      "contextTags": [
+        "health",
+        "pharmacy",
+        "work"
+      ],
+      "requiredItems": [
+        "krank"
+      ],
+      "introducedItems": [
+        "die-apotheke",
+        "das-medikament",
+        "das-rezept",
+        "die-krankmeldung",
+        "dreimal-am-tag",
+        "gute-besserung"
+      ],
       "beats": [
-        { "type": "narration", "text": "Zwei Straßen weiter: rotes A über der Tür. Hinter der Theke sortiert ein Mann mit Lesebrille kleine Schachteln." },
-        { "type": "meet", "itemIds": ["die-apotheke", "das-rezept", "das-medikament"] },
-        { "type": "line", "speaker": "apotheker", "text": "Bronchitis-Teemix und Tabletten — dreimal am Tag, nach dem Essen. Und: viel trinken, wenig Heldentum.", "translation": "Bronchitis tea mix and tablets — three times a day, after eating. And: drink a lot, no heroics." },
-        { "type": "meet", "itemIds": ["die-krankmeldung", "dreimal-am-tag", "gute-besserung"] },
-        { "type": "choice", "prompt": "Vor der Tür tippt Luise dir auf die Schulter.", "options": [
-          { "label": "Luise, ich bin krank. Hier: die Krankmeldung.", "line": "Luise, ich bin krank. Hier ist die Krankmeldung." },
-          { "label": "Ich schicke dir ein Foto von der Krankmeldung.", "line": "Ich schicke dir ein Foto von der Krankmeldung." }
-        ] },
-        { "type": "line", "speaker": "luise", "text": "Passt. Bleib zu Hause, das ist eine Anweisung. …Und: gute Besserung!", "translation": "Fine. Stay home, that's an order. …And: get well soon!" },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "check", "count": 2, "mode": "recall" },
-        { "type": "narration", "text": "Zwei Tage Sofa, Tee nach Uhrzeit, einsames Karaoke mit dem Radiomoderator. Am dritten Tag klingelt Tobias mit Suppe. Deutschland hat auch das." }
+        {
+          "type": "narration",
+          "text": "Zwei Straßen weiter: rotes A über der Tür. Hinter der Theke sortiert ein Mann mit Lesebrille kleine Schachteln."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-apotheke",
+            "das-rezept",
+            "das-medikament"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "apotheker",
+          "text": "Bronchitis-Teemix und Tabletten — dreimal am Tag, nach dem Essen. Und: viel trinken, wenig Heldentum.",
+          "translation": "Bronchitis tea mix and tablets — three times a day, after eating. And: drink a lot, no heroics."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-krankmeldung",
+            "dreimal-am-tag",
+            "gute-besserung"
+          ]
+        },
+        {
+          "type": "choice",
+          "prompt": "Vor der Tür tippt Luise dir auf die Schulter.",
+          "options": [
+            {
+              "label": "Luise, ich bin krank. Hier: die Krankmeldung.",
+              "line": "Luise, ich bin krank. Hier ist die Krankmeldung."
+            },
+            {
+              "label": "Ich schicke dir ein Foto von der Krankmeldung.",
+              "line": "Ich schicke dir ein Foto von der Krankmeldung."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "luise",
+          "text": "Passt. Bleib zu Hause, das ist eine Anweisung. …Und: gute Besserung!",
+          "translation": "Fine. Stay home, that's an order. …And: get well soon!"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "reading",
+          "title": "Etikett auf der Medikamentenschachtel",
+          "text": "Name: S. Jones   Datum: heute\n\n1 Tablette — DREIMAL AM TAG\nnach dem Essen, mit viel Wasser.\n\nNicht zusammen mit Kaffee.\n(Schon gar nicht mit Kaffee UND Meeting.)\n\nBei Fragen: Rosen-Apotheke, Mo–Fr 8–19.\nGute Besserung wünscht Ihnen\ndas ganze Apotheken-Team.",
+          "translation": "Name: S. Jones   Date: today\n\n1 tablet — THREE TIMES A DAY\nafter meals, with plenty of water.\n\nNot together with coffee.\n(Certainly not with coffee AND a meeting.)\n\nQuestions: Rosen Pharmacy, Mon–Fri 8 am–7 pm.\nGet well soon, wishes\nthe whole pharmacy team.",
+          "itemIds": [
+            "das-medikament",
+            "dreimal-am-tag",
+            "gute-besserung"
+          ]
+        },
+        {
+          "type": "narration",
+          "text": "Zwei Tage Sofa, Tee nach Uhrzeit, einsames Karaoke mit dem Radiomoderator. Am dritten Tag klingelt Tobias mit Suppe. Deutschland hat auch das."
+        }
       ]
     }
   ]

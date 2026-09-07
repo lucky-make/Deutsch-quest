@@ -7,32 +7,290 @@
     "titleEn": "City and daily life",
     "blurb": "Markt, Café, erste Nummern. Leipzig wird langsam zu einem Ort mit Namen, Gerüchen und Wiedererkennung.",
     "order": 3,
-    "sceneIds": ["a1e3s1", "a1e3s2", "a1e3s3"]
+    "sceneIds": [
+      "a1e3s1",
+      "a1e3s2",
+      "a1e3s3"
+    ]
   },
   "cast": [
-    { "id": "haendlerin", "name": "Frau Pawlik", "role": "Marktstand" },
-    { "id": "luise", "name": "Luise", "role": "Café-Besitzerin" },
-    { "id": "tobias", "name": "Tobias", "role": "Nachbar, Student" }
+    {
+      "id": "haendlerin",
+      "name": "Frau Pawlik",
+      "role": "Marktstand"
+    },
+    {
+      "id": "luise",
+      "name": "Luise",
+      "role": "Café-Besitzerin"
+    },
+    {
+      "id": "tobias",
+      "name": "Tobias",
+      "role": "Nachbar, Student"
+    }
   ],
   "items": [
-    { "id": "das-gemuese", "type": "word", "german": "das Gemüse", "meaning": "the vegetables", "image": "gemuese", "audio": "tts", "introducedInScene": "a1e3s1", "tags": ["food", "shopping"], "cefrLevel": "A1", "note": "das ( Sammelbegriff )" },
-    { "id": "die-kartoffel", "type": "word", "german": "die Kartoffel", "meaning": "the potato", "image": "gemuese", "audio": "tts", "introducedInScene": "a1e3s1", "tags": ["food", "shopping"], "cefrLevel": "A1", "note": "die, Plural: die Kartoffeln" },
-    { "id": "der-euro", "type": "word", "german": "der Euro", "meaning": "the euro", "image": "geld", "audio": "tts", "introducedInScene": "a1e3s1", "tags": ["shopping", "money"], "cefrLevel": "A1", "note": "der, Plural: die Euros — Preis: „drei Euro zwanzig“" },
-    { "id": "die-tuete", "type": "word", "german": "die Tüte", "meaning": "the (paper/plastic) bag", "image": "tüte", "audio": "tts", "introducedInScene": "a1e3s1", "tags": ["shopping"], "cefrLevel": "A1", "note": "die, Plural: die Tüten" },
-    { "id": "wie-viel-kostet", "type": "sentence", "german": "Wie viel kostet das?", "meaning": "How much does that cost?", "audio": "tts", "introducedInScene": "a1e3s1", "tags": ["shopping", "money", "questions"], "cefrLevel": "A1" },
-    { "id": "alles-frisch", "type": "chunk", "german": "Alles frisch!", "meaning": "Everything's fresh!", "audio": "tts", "introducedInScene": "a1e3s1", "tags": ["food", "shopping"], "cefrLevel": "A1" },
-    { "id": "der-kaffee", "type": "word", "german": "der Kaffee", "meaning": "the coffee", "image": "kaffee", "audio": "tts", "introducedInScene": "a1e3s2", "tags": ["cafe", "food"], "cefrLevel": "A1", "note": "der ( Singular ) — „ein Kaffee“ = eine Tasse" },
-    { "id": "der-kuchen", "type": "word", "german": "der Kuchen", "meaning": "the cake", "image": "kuchen", "audio": "tts", "introducedInScene": "a1e3s2", "tags": ["cafe", "food"], "cefrLevel": "A1", "note": "der, Plural: die Kuchen — mittags ist Kaffeezeit" },
-    { "id": "der-tee", "type": "word", "german": "der Tee", "meaning": "the tea", "image": "tee", "audio": "tts", "introducedInScene": "a1e3s2", "tags": ["cafe", "food"], "cefrLevel": "A1" },
-    { "id": "ist-dieser-platz-frei", "type": "sentence", "german": "Ist dieser Platz frei?", "meaning": "Is this seat free?", "audio": "tts", "introducedInScene": "a1e3s2", "tags": ["cafe", "politeness", "questions"], "cefrLevel": "A1", "note": "Der Klassiker in vollen Cafés und Bahnen." },
-    { "id": "lecker", "type": "chunk", "german": "Sehr lecker!", "meaning": "Very tasty!", "audio": "tts", "introducedInScene": "a1e3s2", "tags": ["food", "smalltalk"], "cefrLevel": "A1", "note": "Das höchste deutsche Kompliment fürs Essen." },
-    { "id": "die-rechnung", "type": "word", "german": "die Rechnung", "meaning": "the bill / check", "image": "beleg", "audio": "tts", "introducedInScene": "a1e3s2", "tags": ["cafe", "money"], "cefrLevel": "A1", "note": "die, Plural: die Rechnungen — „Die Rechnung, bitte!“" },
-    { "id": "das-handy", "type": "word", "german": "das Handy", "meaning": "the mobile phone", "image": "handy", "audio": "tts", "introducedInScene": "a1e3s3", "tags": ["phone", "objects"], "cefrLevel": "A1", "note": "das, Plural: die Handys — echtes deutsches Wort, kein Englisches" },
-    { "id": "die-handynummer", "type": "word", "german": "die Handynummer", "meaning": "the mobile number", "image": "handy", "audio": "tts", "introducedInScene": "a1e3s3", "tags": ["phone", "smalltalk"], "cefrLevel": "A1", "note": "die, Plural: die Handynummern" },
-    { "id": "anrufen", "type": "chunk", "german": "Ich rufe dich an.", "meaning": "I'll call you.", "audio": "tts", "introducedInScene": "a1e3s3", "tags": ["phone", "friends"], "cefrLevel": "A1", "note": "anrufen = an + rufen, trennbar: „Ich rufe dich an.\"" },
-    { "id": "wie-ist-deine-nummer", "type": "sentence", "german": "Wie ist deine Nummer?", "meaning": "What's your number?", "audio": "tts", "introducedInScene": "a1e3s3", "tags": ["phone", "questions", "friends"], "cefrLevel": "A1" },
-    { "id": "der-termin", "type": "word", "german": "der Termin", "meaning": "the appointment", "image": "kalender", "audio": "tts", "introducedInScene": "a1e3s3", "tags": ["admin", "phone"], "cefrLevel": "A1", "note": "der, Plural: die Termine — in Deutschland heilig" },
-    { "id": "bis-morgen", "type": "chunk", "german": "Bis morgen!", "meaning": "See you tomorrow!", "audio": "tts", "introducedInScene": "a1e3s3", "tags": ["smalltalk", "friends"], "cefrLevel": "A1" }
+    {
+      "id": "das-gemuese",
+      "type": "word",
+      "german": "das Gemüse",
+      "meaning": "the vegetables",
+      "image": "gemuese",
+      "audio": "tts",
+      "introducedInScene": "a1e3s1",
+      "tags": [
+        "food",
+        "shopping"
+      ],
+      "cefrLevel": "A1",
+      "note": "das ( Sammelbegriff )"
+    },
+    {
+      "id": "die-kartoffel",
+      "type": "word",
+      "german": "die Kartoffel",
+      "meaning": "the potato",
+      "image": "gemuese",
+      "audio": "tts",
+      "introducedInScene": "a1e3s1",
+      "tags": [
+        "food",
+        "shopping"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Kartoffeln"
+    },
+    {
+      "id": "der-euro",
+      "type": "word",
+      "german": "der Euro",
+      "meaning": "the euro",
+      "image": "geld",
+      "audio": "tts",
+      "introducedInScene": "a1e3s1",
+      "tags": [
+        "shopping",
+        "money"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Euros — Preis: „drei Euro zwanzig“"
+    },
+    {
+      "id": "die-tuete",
+      "type": "word",
+      "german": "die Tüte",
+      "meaning": "the (paper/plastic) bag",
+      "image": "tüte",
+      "audio": "tts",
+      "introducedInScene": "a1e3s1",
+      "tags": [
+        "shopping"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Tüten"
+    },
+    {
+      "id": "wie-viel-kostet",
+      "type": "sentence",
+      "german": "Wie viel kostet das?",
+      "meaning": "How much does that cost?",
+      "audio": "tts",
+      "introducedInScene": "a1e3s1",
+      "tags": [
+        "shopping",
+        "money",
+        "questions"
+      ],
+      "cefrLevel": "A1"
+    },
+    {
+      "id": "alles-frisch",
+      "type": "chunk",
+      "german": "Alles frisch!",
+      "meaning": "Everything's fresh!",
+      "audio": "tts",
+      "introducedInScene": "a1e3s1",
+      "tags": [
+        "food",
+        "shopping"
+      ],
+      "cefrLevel": "A1"
+    },
+    {
+      "id": "der-kaffee",
+      "type": "word",
+      "german": "der Kaffee",
+      "meaning": "the coffee",
+      "image": "kaffee",
+      "audio": "tts",
+      "introducedInScene": "a1e3s2",
+      "tags": [
+        "cafe",
+        "food"
+      ],
+      "cefrLevel": "A1",
+      "note": "der ( Singular ) — „ein Kaffee“ = eine Tasse"
+    },
+    {
+      "id": "der-kuchen",
+      "type": "word",
+      "german": "der Kuchen",
+      "meaning": "the cake",
+      "image": "kuchen",
+      "audio": "tts",
+      "introducedInScene": "a1e3s2",
+      "tags": [
+        "cafe",
+        "food"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Kuchen — mittags ist Kaffeezeit"
+    },
+    {
+      "id": "der-tee",
+      "type": "word",
+      "german": "der Tee",
+      "meaning": "the tea",
+      "image": "tee",
+      "audio": "tts",
+      "introducedInScene": "a1e3s2",
+      "tags": [
+        "cafe",
+        "food"
+      ],
+      "cefrLevel": "A1"
+    },
+    {
+      "id": "ist-dieser-platz-frei",
+      "type": "sentence",
+      "german": "Ist dieser Platz frei?",
+      "meaning": "Is this seat free?",
+      "audio": "tts",
+      "introducedInScene": "a1e3s2",
+      "tags": [
+        "cafe",
+        "politeness",
+        "questions"
+      ],
+      "cefrLevel": "A1",
+      "note": "Der Klassiker in vollen Cafés und Bahnen."
+    },
+    {
+      "id": "lecker",
+      "type": "chunk",
+      "german": "Sehr lecker!",
+      "meaning": "Very tasty!",
+      "audio": "tts",
+      "introducedInScene": "a1e3s2",
+      "tags": [
+        "food",
+        "smalltalk"
+      ],
+      "cefrLevel": "A1",
+      "note": "Das höchste deutsche Kompliment fürs Essen."
+    },
+    {
+      "id": "die-rechnung",
+      "type": "word",
+      "german": "die Rechnung",
+      "meaning": "the bill / check",
+      "image": "beleg",
+      "audio": "tts",
+      "introducedInScene": "a1e3s2",
+      "tags": [
+        "cafe",
+        "money"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Rechnungen — „Die Rechnung, bitte!“"
+    },
+    {
+      "id": "das-handy",
+      "type": "word",
+      "german": "das Handy",
+      "meaning": "the mobile phone",
+      "image": "handy",
+      "audio": "tts",
+      "introducedInScene": "a1e3s3",
+      "tags": [
+        "phone",
+        "objects"
+      ],
+      "cefrLevel": "A1",
+      "note": "das, Plural: die Handys — echtes deutsches Wort, kein Englisches"
+    },
+    {
+      "id": "die-handynummer",
+      "type": "word",
+      "german": "die Handynummer",
+      "meaning": "the mobile number",
+      "image": "handy",
+      "audio": "tts",
+      "introducedInScene": "a1e3s3",
+      "tags": [
+        "phone",
+        "smalltalk"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Handynummern"
+    },
+    {
+      "id": "anrufen",
+      "type": "chunk",
+      "german": "Ich rufe dich an.",
+      "meaning": "I'll call you.",
+      "audio": "tts",
+      "introducedInScene": "a1e3s3",
+      "tags": [
+        "phone",
+        "friends"
+      ],
+      "cefrLevel": "A1",
+      "note": "anrufen = an + rufen, trennbar: „Ich rufe dich an.\""
+    },
+    {
+      "id": "wie-ist-deine-nummer",
+      "type": "sentence",
+      "german": "Wie ist deine Nummer?",
+      "meaning": "What's your number?",
+      "audio": "tts",
+      "introducedInScene": "a1e3s3",
+      "tags": [
+        "phone",
+        "questions",
+        "friends"
+      ],
+      "cefrLevel": "A1"
+    },
+    {
+      "id": "der-termin",
+      "type": "word",
+      "german": "der Termin",
+      "meaning": "the appointment",
+      "image": "kalender",
+      "audio": "tts",
+      "introducedInScene": "a1e3s3",
+      "tags": [
+        "admin",
+        "phone"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Termine — in Deutschland heilig"
+    },
+    {
+      "id": "bis-morgen",
+      "type": "chunk",
+      "german": "Bis morgen!",
+      "meaning": "See you tomorrow!",
+      "audio": "tts",
+      "introducedInScene": "a1e3s3",
+      "tags": [
+        "smalltalk",
+        "friends"
+      ],
+      "cefrLevel": "A1"
+    }
   ],
   "scenes": [
     {
@@ -42,22 +300,82 @@
       "titleEn": "At the market",
       "place": "Marktplatz, Gemüsestand 3",
       "bg": "markt",
-      "contextTags": ["food", "shopping"],
-      "requiredItems": ["ich-haette-gern"],
-      "introducedItems": ["das-gemuese", "die-kartoffel", "der-euro", "die-tuete", "wie-viel-kostet", "alles-frisch"],
+      "contextTags": [
+        "food",
+        "shopping"
+      ],
+      "requiredItems": [
+        "ich-haette-gern"
+      ],
+      "introducedItems": [
+        "das-gemuese",
+        "die-kartoffel",
+        "der-euro",
+        "die-tuete",
+        "wie-viel-kostet",
+        "alles-frisch"
+      ],
       "beats": [
-        { "type": "narration", "text": "Samstag, Marktplatz. Stände, Rufe, Dampf von gebrannten Mandeln. Vor dem Gemüsestand diskutieren zwei Frauen leidenschaftlich über Kohlrabi." },
-        { "type": "meet", "itemIds": ["das-gemuese", "die-kartoffel", "der-euro"] },
-        { "type": "line", "speaker": "haendlerin", "text": "Na, was darf's sein? Die Kartoffeln sind heute frisch vom Feld.", "translation": "So, what'll it be? The potatoes are fresh from the field today." },
-        { "type": "meet", "itemIds": ["die-tuete", "wie-viel-kostet", "alles-frisch"] },
-        { "type": "choice", "prompt": "Die Frau schaut dich erwartungsvoll an.", "options": [
-          { "label": "Ich hätte gern zwei Kilo Kartoffeln.", "line": "Ich hätte gern zwei Kilo Kartoffeln." },
-          { "label": "Wie viel kostet das Gemüse?", "line": "Wie viel kostet das Gemüse?" }
-        ] },
-        { "type": "line", "speaker": "haendlerin", "text": "Zwei Kilo — drei Euro zwanzig. Alles frisch, versprochen!", "translation": "Two kilos — three euros twenty. Everything fresh, promised!" },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "narration", "text": "Sie wiegt, winkt ab und tut noch eine Möhre in die Tüte. Du zahlst mit Münzen und fühlst dich verdächtig einheimisch." },
-        { "type": "check", "count": 2, "mode": "recall" }
+        {
+          "type": "narration",
+          "text": "Samstag, Marktplatz. Stände, Rufe, Dampf von gebrannten Mandeln. Vor dem Gemüsestand diskutieren zwei Frauen leidenschaftlich über Kohlrabi."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "das-gemuese",
+            "die-kartoffel",
+            "der-euro"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "haendlerin",
+          "text": "Na, was darf's sein? Die Kartoffeln sind heute frisch vom Feld.",
+          "translation": "So, what'll it be? The potatoes are fresh from the field today."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-tuete",
+            "wie-viel-kostet",
+            "alles-frisch"
+          ]
+        },
+        {
+          "type": "choice",
+          "prompt": "Die Frau schaut dich erwartungsvoll an.",
+          "options": [
+            {
+              "label": "Ich hätte gern zwei Kilo Kartoffeln.",
+              "line": "Ich hätte gern zwei Kilo Kartoffeln."
+            },
+            {
+              "label": "Wie viel kostet das Gemüse?",
+              "line": "Wie viel kostet das Gemüse?"
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "haendlerin",
+          "text": "Zwei Kilo — drei Euro zwanzig. Alles frisch, versprochen!",
+          "translation": "Two kilos — three euros twenty. Everything fresh, promised!"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "narration",
+          "text": "Sie wiegt, winkt ab und tut noch eine Möhre in die Tüte. Du zahlst mit Münzen und fühlst dich verdächtig einheimisch."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        }
       ]
     },
     {
@@ -67,23 +385,100 @@
       "titleEn": "Café Luise",
       "place": "Café Luise, Kastanienweg",
       "bg": "cafe",
-      "contextTags": ["cafe", "food", "smalltalk"],
-      "requiredItems": ["ich-haette-gern"],
-      "introducedItems": ["der-kaffee", "der-kuchen", "der-tee", "ist-dieser-platz-frei", "lecker", "die-rechnung"],
+      "contextTags": [
+        "cafe",
+        "food",
+        "smalltalk"
+      ],
+      "requiredItems": [
+        "ich-haette-gern"
+      ],
+      "introducedItems": [
+        "der-kaffee",
+        "der-kuchen",
+        "der-tee",
+        "ist-dieser-platz-frei",
+        "lecker",
+        "die-rechnung"
+      ],
       "beats": [
-        { "type": "narration", "text": "Regen. Du flüchtest in ein Café mit milchglasgrünen Sesseln und einem Schild: „Café Luise — seit 1997“." },
-        { "type": "meet", "itemIds": ["der-kaffee", "der-kuchen", "der-tee"] },
-        { "type": "line", "speaker": "luise", "text": "Setz dich, wo du willst! Wir haben Kaffee, Tee — und heute Streuselkuchen.", "translation": "Sit wherever you like! We have coffee, tea — and today streusel cake." },
-        { "type": "meet", "itemIds": ["ist-dieser-platz-frei", "lecker", "die-rechnung"] },
-        { "type": "choice", "prompt": "An der Theke herrscht kurze Ruhe.", "options": [
-          { "label": "Ich hätte gern einen Kaffee, bitte.", "line": "Ich hätte gern einen Kaffee, bitte." },
-          { "label": "Ein Tee und ein Stück Kuchen, bitte.", "line": "Einen Tee und ein Stück Kuchen, bitte." }
-        ] },
-        { "type": "line", "speaker": "luise", "text": "Na dann: Ein Kaffee und ein Streuselkuchen. Der ist heute noch warm.", "translation": "Well then: a coffee and a streusel cake. It's still warm today." },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "narration", "text": "Der Kuchen ist warm, der Kaffee stark. Am Nebentisch streiten zwei Studenten freundlich über Fußball." },
-        { "type": "line", "speaker": "luise", "text": "Schmeckt's? …Du kannst gern öfter kommen. Ich bin Luise.", "translation": "Tasty? …Feel free to come more often. I'm Luise." },
-        { "type": "check", "count": 2, "mode": "recall" }
+        {
+          "type": "narration",
+          "text": "Regen. Du flüchtest in ein Café mit milchglasgrünen Sesseln und einem Schild: „Café Luise — seit 1997“."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-kaffee",
+            "der-kuchen",
+            "der-tee"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "luise",
+          "text": "Setz dich, wo du willst! Wir haben Kaffee, Tee — und heute Streuselkuchen.",
+          "translation": "Sit wherever you like! We have coffee, tea — and today streusel cake."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "ist-dieser-platz-frei",
+            "lecker",
+            "die-rechnung"
+          ]
+        },
+        {
+          "type": "choice",
+          "prompt": "An der Theke herrscht kurze Ruhe.",
+          "options": [
+            {
+              "label": "Ich hätte gern einen Kaffee, bitte.",
+              "line": "Ich hätte gern einen Kaffee, bitte."
+            },
+            {
+              "label": "Ein Tee und ein Stück Kuchen, bitte.",
+              "line": "Einen Tee und ein Stück Kuchen, bitte."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "luise",
+          "text": "Na dann: Ein Kaffee und ein Streuselkuchen. Der ist heute noch warm.",
+          "translation": "Well then: a coffee and a streusel cake. It's still warm today."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "narration",
+          "text": "Der Kuchen ist warm, der Kaffee stark. Am Nebentisch streiten zwei Studenten freundlich über Fußball."
+        },
+        {
+          "type": "line",
+          "speaker": "luise",
+          "text": "Schmeckt's? …Du kannst gern öfter kommen. Ich bin Luise.",
+          "translation": "Tasty? …Feel free to come more often. I'm Luise."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "reading",
+          "title": "Kaffeekarte – Bäckerei & Café Wenzel",
+          "text": "KAFFEE          2,20 €\nMILCHKAFFEE     2,80 €\nTEE             2,20 €\nKUCHEN DES TAGES  3,00 €\nRechnung auf Wunsch. Zettel einstecken.\n\n»Wer pünktlich ist, kriegt den ersten Kuchen.\nWer lächelt, kriegt die größte Ecke.«\n— Familie Wenzel",
+          "translation": "COFFEE          €2.20\nLATTE           €2.80\nTEA             €2.20\nCAKE OF THE DAY €3.00\nReceipt on request. Keep the slip.\n\n'Whoever is on time gets the first cake.\nWhoever smiles gets the biggest table.'\n— Wenzel family",
+          "itemIds": [
+            "der-kaffee",
+            "der-kuchen",
+            "die-rechnung"
+          ]
+        }
       ]
     },
     {
@@ -93,24 +488,102 @@
       "titleEn": "The phone number",
       "place": "Abend, Küchenfenster",
       "bg": "wohnung",
-      "contextTags": ["phone", "smalltalk", "friends"],
+      "contextTags": [
+        "phone",
+        "smalltalk",
+        "friends"
+      ],
       "requiredItems": [],
-      "introducedItems": ["das-handy", "die-handynummer", "anrufen", "wie-ist-deine-nummer", "der-termin", "bis-morgen"],
+      "introducedItems": [
+        "das-handy",
+        "die-handynummer",
+        "anrufen",
+        "wie-ist-deine-nummer",
+        "der-termin",
+        "bis-morgen"
+      ],
       "beats": [
-        { "type": "narration", "text": "Abend. Tobias' Regal steht, Frau Brügges Klingelschild hast du gefunden — aber was, wenn die Waschmaschine stirbt?" },
-        { "type": "meet", "itemIds": ["das-handy", "die-handynummer", "anrufen"] },
-        { "type": "line", "speaker": "tobias", "text": "Schreib dir meine Nummer ein. Wenn's brennt: anrufen. Wenn's nur tropft: auch anrufen.", "translation": "Write down my number. If it's on fire: call. If it's just dripping: also call." },
-        { "type": "meet", "itemIds": ["wie-ist-deine-nummer", "der-termin", "bis-morgen"] },
-        { "type": "choice", "prompt": "Dein Handy liegt bereit.", "options": [
-          { "label": "Wie ist deine Nummer?", "line": "Wie ist deine Nummer?" },
-          { "label": "Ich rufe dich an, versprochen.", "line": "Ich rufe dich an, versprochen." }
-        ] },
-        { "type": "line", "speaker": "tobias", "text": "Null eins sieben sechs, dann zweimal acht und zweimal drei. …Merken oder schreiben?", "translation": "Zero one seven six, then two eights and two threes. …Memorize or write down?" },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "narration", "text": "Du speicherst ihn unter „Tobias (Regal)“. Er grinst und verschwindet die Treppe hoch." },
-        { "type": "line", "speaker": "tobias", "text": "Und nicht vergessen: morgen hast du deinen Termin beim Amt!", "translation": "And don't forget: tomorrow you have your appointment at the office!" },
-        { "type": "check", "count": 2, "mode": "listen" },
-        { "type": "narration", "text": "Der Kalender im Handy kennt jetzt ein Wort, das du noch nicht aussprechen kannst: Bürgeramt. Morgen." }
+        {
+          "type": "narration",
+          "text": "Abend. Tobias' Regal steht, Frau Brügges Klingelschild hast du gefunden — aber was, wenn die Waschmaschine stirbt?"
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "das-handy",
+            "die-handynummer",
+            "anrufen"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Schreib dir meine Nummer ein. Wenn's brennt: anrufen. Wenn's nur tropft: auch anrufen.",
+          "translation": "Write down my number. If it's on fire: call. If it's just dripping: also call."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "wie-ist-deine-nummer",
+            "der-termin",
+            "bis-morgen"
+          ]
+        },
+        {
+          "type": "choice",
+          "prompt": "Dein Handy liegt bereit.",
+          "options": [
+            {
+              "label": "Wie ist deine Nummer?",
+              "line": "Wie ist deine Nummer?"
+            },
+            {
+              "label": "Ich rufe dich an, versprochen.",
+              "line": "Ich rufe dich an, versprochen."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Null eins sieben sechs, dann zweimal acht und zweimal drei. …Merken oder schreiben?",
+          "translation": "Zero one seven six, then two eights and two threes. …Memorize or write down?"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "narration",
+          "text": "Du speicherst ihn unter „Tobias (Regal)“. Er grinst und verschwindet die Treppe hoch."
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Und nicht vergessen: morgen hast du deinen Termin beim Amt!",
+          "translation": "And don't forget: tomorrow you have your appointment at the office!"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "reading",
+          "title": "Notizbuch, Seite 1",
+          "text": "SAM JONES\n— Handy: (ist jetzt an)\n— Mei (Café): 0176 …………\n— Notarzt: 112 · Polizei: 110\n\nTermin: Frau Brügge, nächste Woche, 16 Uhr.\nNicht vergessen. NICHT VERGESSEN.\n\n(Bleistift, weil Tinte im Regen läuft.\n Leipzig-Wissen, Tag vier.)",
+          "translation": "SAM JONES\n— Mobile: (is on now)\n— Mei (café): 0176 ……\n— Emergency doctor: 112 · Police: 110\n\nAppointment: Frau Brügge, next week, 4 pm.\nDon't forget. DON'T FORGET.\n\n(Pencil, because ink runs in the rain.\nLeipzig knowledge, day four.)",
+          "itemIds": [
+            "das-handy",
+            "die-handynummer",
+            "der-termin"
+          ]
+        },
+        {
+          "type": "narration",
+          "text": "Der Kalender im Handy kennt jetzt ein Wort, das du noch nicht aussprechen kannst: Bürgeramt. Morgen."
+        }
       ]
     }
   ]

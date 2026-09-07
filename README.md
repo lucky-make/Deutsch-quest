@@ -80,7 +80,8 @@ shares tags, not because the script demands it. Pinned by
   KnowledgeItems** (5–7 new per scene), all hand-authored contemporary German
 - **Lektüre beats**: full reading passages with clickable glossary chips,
   full-passage audio and translations — Amtsbriefe, Leserbriefe, weather reports,
-  theory exams, invoices, playlists, zoo signs, garden rules, Deutungshilfen (47)
+  theory exams, invoices, playlists, zoo signs, garden rules, Deutungshilfen
+  (120 — at least two per episode, every one glossary-chipped and translated)
 - Systematic grammar woven into the story as first-class items: relative
   clauses, Konjunktiv II, passive (Präsens + Präteritum), je…desto, separable
   verbs, **Verben mit Präpositionen**, **Plusquamperfekt**,
@@ -137,7 +138,7 @@ What DeutschPath gives you toward that goal:
 
 What it doesn't give you yet, and what it would honestly take:
 - **volume**: the item pool needs ~3–4× more content. 54 complete episodes and
-  47 reading passages are a real spine, but genuine B2 wants thousands of
+  120 reading passages are a real spine, but genuine B2 wants thousands of
   sentences of reading volume and native media — those live outside any app.
   The engine needs zero changes for more content — it's authoring, and the JSON
   format + validation tests make it safe to add.

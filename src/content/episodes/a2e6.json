@@ -7,31 +7,282 @@
     "titleEn": "A package from home",
     "blurb": "Ein Benachrichtigungszettel, ein Schalter, ein Päckchen Tee aus der alten Heimat. Post auf Deutsch.",
     "order": 10,
-    "sceneIds": ["a2e6s1", "a2e6s2", "a2e6s3"]
+    "sceneIds": [
+      "a2e6s1",
+      "a2e6s2",
+      "a2e6s3"
+    ]
   },
   "cast": [
-    { "id": "kranich", "name": "Herr Kranich", "role": "Postmitarbeiter" },
-    { "id": "tobias", "name": "Tobias", "role": "Nachbar, Freund" },
-    { "id": "mutter", "name": "Mum", "role": "Familie, per Nachricht" }
+    {
+      "id": "kranich",
+      "name": "Herr Kranich",
+      "role": "Postmitarbeiter"
+    },
+    {
+      "id": "tobias",
+      "name": "Tobias",
+      "role": "Nachbar, Freund"
+    },
+    {
+      "id": "mutter",
+      "name": "Mum",
+      "role": "Familie, per Nachricht"
+    }
   ],
   "items": [
-    { "id": "das-paket", "type": "word", "german": "das Paket", "meaning": "the package / parcel", "image": "paket", "audio": "tts", "introducedInScene": "a2e6s1", "tags": ["post", "objects"], "cefrLevel": "A2", "note": "das, Plural: die Pakete" },
-    { "id": "der-zettel-im-briefkasten", "type": "sentence", "german": "Es lag ein Zettel im Briefkasten.", "meaning": "There was a note in the letterbox.", "image": "brief", "audio": "tts", "introducedInScene": "a2e6s1", "tags": ["post", "paperwork"], "cefrLevel": "A2" },
-    { "id": "zur-abholung-bereit", "type": "chunk", "german": "Das Paket liegt zur Abholung bereit.", "meaning": "The package is ready for pickup.", "image": "paket", "audio": "tts", "introducedInScene": "a2e6s1", "tags": ["post", "paperwork"], "cefrLevel": "A2", "note": "zur Abholung bereit — Standardformel, gut zu kennen" },
-    { "id": "die-filiale", "type": "word", "german": "die Filiale", "meaning": "the branch (of a shop/chain)", "image": "laden", "audio": "tts", "introducedInScene": "a2e6s1", "tags": ["post", "city", "shopping"], "cefrLevel": "A2", "note": "die, Plural: die Filialen" },
-    { "id": "die-postleitzahl", "type": "word", "german": "die Postleitzahl", "meaning": "the postal code", "image": "formular", "audio": "tts", "introducedInScene": "a2e6s1", "tags": ["post", "paperwork"], "cefrLevel": "A2", "note": "die, Plural: die Postleitzahlen — kurz: die PLZ" },
-    { "id": "das-einschreiben", "type": "word", "german": "das Einschreiben", "meaning": "the registered letter", "image": "brief", "audio": "tts", "introducedInScene": "a2e6s1", "tags": ["post", "paperwork"], "cefrLevel": "A2", "note": "das, Plural: die Einschreiben — wichtig bei Behördenpost" },
-    { "id": "den-ausweis-vorzeigen", "type": "sentence", "german": "Kann ich Ihren Ausweis sehen?", "meaning": "May I see your ID?", "image": "pass", "audio": "tts", "introducedInScene": "a2e6s2", "tags": ["post", "politeness", "paperwork"], "cefrLevel": "A2", "note": "vorzeigen = to show — der Ausweis muss vorgezeigt werden" },
-    { "id": "der-umschlag", "type": "word", "german": "der Umschlag", "meaning": "the envelope", "image": "brief", "audio": "tts", "introducedInScene": "a2e6s2", "tags": ["post", "objects"], "cefrLevel": "A2", "note": "der, Plural: die Umschläge" },
-    { "id": "abschicken", "type": "chunk", "german": "Ich möchte das Paket abschicken.", "meaning": "I'd like to send off the package.", "image": "paket", "audio": "tts", "introducedInScene": "a2e6s2", "tags": ["post", "request"], "cefrLevel": "A2", "note": "abschicken = ab + schicken, trennbar" },
-    { "id": "das-paeckchen", "type": "word", "german": "das Päckchen", "meaning": "the small parcel", "image": "geschenk", "audio": "tts", "introducedInScene": "a2e6s2", "tags": ["post", "objects"], "cefrLevel": "A2", "note": "das, Plural: die Päckchen — Verkleinerungsform von Paket" },
-    { "id": "der-inhalt", "type": "word", "german": "der Inhalt", "meaning": "the contents", "image": "tüte", "audio": "tts", "introducedInScene": "a2e6s2", "tags": ["post", "paperwork"], "cefrLevel": "A2", "note": "der — auf dem Zollformular: „Inhalt: Tee, Süßigkeiten\"" },
-    { "id": "die-zollangelegenheit", "type": "word", "german": "die Zollangelegenheit", "meaning": "the customs matter", "image": "formular", "audio": "tts", "introducedInScene": "a2e6s2", "tags": ["post", "admin"], "cefrLevel": "A2", "note": "die, Plural: die Zollangelegenheiten — hoffentlich nie deine" },
-    { "id": "der-tee-aus-der-heimat", "type": "chunk", "german": "Tee aus der Heimat!", "meaning": "Tea from back home!", "image": "tee", "audio": "tts", "introducedInScene": "a2e6s3", "tags": ["food", "feelings"], "cefrLevel": "A2", "note": "Heimat-Gefühl in einer Tüte" },
-    { "id": "ich-freue-mich-riesig", "type": "sentence", "german": "Ich freue mich riesig!", "meaning": "I'm thrilled!", "image": "geschenk", "audio": "tts", "introducedInScene": "a2e6s3", "tags": ["feelings", "politeness"], "cefrLevel": "A2", "note": "riesig = riesenhaft groß — hier: sehr, sehr froh" },
-    { "id": "danke-vielmals", "type": "chunk", "german": "Danke vielmals!", "meaning": "Thanks a lot! (formal)", "audio": "tts", "introducedInScene": "a2e6s3", "tags": ["politeness"], "cefrLevel": "A2" },
-    { "id": "das-andenken", "type": "word", "german": "das Andenken", "meaning": "the keepsake / memento", "image": "geschenk", "audio": "tts", "introducedInScene": "a2e6s3", "tags": ["objects", "feelings"], "cefrLevel": "A2", "note": "das, Plural: die Andenken — auch: souvenir" },
-    { "id": "vermissen", "type": "chunk", "german": "Ich habe euch vermisst.", "meaning": "I've missed you (all).", "audio": "tts", "introducedInScene": "a2e6s3", "tags": ["feelings", "friends"], "cefrLevel": "A2", "note": "vermissen + Akkusativ — großes deutsches Gefühlsverb" }
+    {
+      "id": "das-paket",
+      "type": "word",
+      "german": "das Paket",
+      "meaning": "the package / parcel",
+      "image": "paket",
+      "audio": "tts",
+      "introducedInScene": "a2e6s1",
+      "tags": [
+        "post",
+        "objects"
+      ],
+      "cefrLevel": "A2",
+      "note": "das, Plural: die Pakete"
+    },
+    {
+      "id": "der-zettel-im-briefkasten",
+      "type": "sentence",
+      "german": "Es lag ein Zettel im Briefkasten.",
+      "meaning": "There was a note in the letterbox.",
+      "image": "brief",
+      "audio": "tts",
+      "introducedInScene": "a2e6s1",
+      "tags": [
+        "post",
+        "paperwork"
+      ],
+      "cefrLevel": "A2"
+    },
+    {
+      "id": "zur-abholung-bereit",
+      "type": "chunk",
+      "german": "Das Paket liegt zur Abholung bereit.",
+      "meaning": "The package is ready for pickup.",
+      "image": "paket",
+      "audio": "tts",
+      "introducedInScene": "a2e6s1",
+      "tags": [
+        "post",
+        "paperwork"
+      ],
+      "cefrLevel": "A2",
+      "note": "zur Abholung bereit — Standardformel, gut zu kennen"
+    },
+    {
+      "id": "die-filiale",
+      "type": "word",
+      "german": "die Filiale",
+      "meaning": "the branch (of a shop/chain)",
+      "image": "laden",
+      "audio": "tts",
+      "introducedInScene": "a2e6s1",
+      "tags": [
+        "post",
+        "city",
+        "shopping"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Filialen"
+    },
+    {
+      "id": "die-postleitzahl",
+      "type": "word",
+      "german": "die Postleitzahl",
+      "meaning": "the postal code",
+      "image": "formular",
+      "audio": "tts",
+      "introducedInScene": "a2e6s1",
+      "tags": [
+        "post",
+        "paperwork"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Postleitzahlen — kurz: die PLZ"
+    },
+    {
+      "id": "das-einschreiben",
+      "type": "word",
+      "german": "das Einschreiben",
+      "meaning": "the registered letter",
+      "image": "brief",
+      "audio": "tts",
+      "introducedInScene": "a2e6s1",
+      "tags": [
+        "post",
+        "paperwork"
+      ],
+      "cefrLevel": "A2",
+      "note": "das, Plural: die Einschreiben — wichtig bei Behördenpost"
+    },
+    {
+      "id": "den-ausweis-vorzeigen",
+      "type": "sentence",
+      "german": "Kann ich Ihren Ausweis sehen?",
+      "meaning": "May I see your ID?",
+      "image": "pass",
+      "audio": "tts",
+      "introducedInScene": "a2e6s2",
+      "tags": [
+        "post",
+        "politeness",
+        "paperwork"
+      ],
+      "cefrLevel": "A2",
+      "note": "vorzeigen = to show — der Ausweis muss vorgezeigt werden"
+    },
+    {
+      "id": "der-umschlag",
+      "type": "word",
+      "german": "der Umschlag",
+      "meaning": "the envelope",
+      "image": "brief",
+      "audio": "tts",
+      "introducedInScene": "a2e6s2",
+      "tags": [
+        "post",
+        "objects"
+      ],
+      "cefrLevel": "A2",
+      "note": "der, Plural: die Umschläge"
+    },
+    {
+      "id": "abschicken",
+      "type": "chunk",
+      "german": "Ich möchte das Paket abschicken.",
+      "meaning": "I'd like to send off the package.",
+      "image": "paket",
+      "audio": "tts",
+      "introducedInScene": "a2e6s2",
+      "tags": [
+        "post",
+        "request"
+      ],
+      "cefrLevel": "A2",
+      "note": "abschicken = ab + schicken, trennbar"
+    },
+    {
+      "id": "das-paeckchen",
+      "type": "word",
+      "german": "das Päckchen",
+      "meaning": "the small parcel",
+      "image": "geschenk",
+      "audio": "tts",
+      "introducedInScene": "a2e6s2",
+      "tags": [
+        "post",
+        "objects"
+      ],
+      "cefrLevel": "A2",
+      "note": "das, Plural: die Päckchen — Verkleinerungsform von Paket"
+    },
+    {
+      "id": "der-inhalt",
+      "type": "word",
+      "german": "der Inhalt",
+      "meaning": "the contents",
+      "image": "tüte",
+      "audio": "tts",
+      "introducedInScene": "a2e6s2",
+      "tags": [
+        "post",
+        "paperwork"
+      ],
+      "cefrLevel": "A2",
+      "note": "der — auf dem Zollformular: „Inhalt: Tee, Süßigkeiten\""
+    },
+    {
+      "id": "die-zollangelegenheit",
+      "type": "word",
+      "german": "die Zollangelegenheit",
+      "meaning": "the customs matter",
+      "image": "formular",
+      "audio": "tts",
+      "introducedInScene": "a2e6s2",
+      "tags": [
+        "post",
+        "admin"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Zollangelegenheiten — hoffentlich nie deine"
+    },
+    {
+      "id": "der-tee-aus-der-heimat",
+      "type": "chunk",
+      "german": "Tee aus der Heimat!",
+      "meaning": "Tea from back home!",
+      "image": "tee",
+      "audio": "tts",
+      "introducedInScene": "a2e6s3",
+      "tags": [
+        "food",
+        "feelings"
+      ],
+      "cefrLevel": "A2",
+      "note": "Heimat-Gefühl in einer Tüte"
+    },
+    {
+      "id": "ich-freue-mich-riesig",
+      "type": "sentence",
+      "german": "Ich freue mich riesig!",
+      "meaning": "I'm thrilled!",
+      "image": "geschenk",
+      "audio": "tts",
+      "introducedInScene": "a2e6s3",
+      "tags": [
+        "feelings",
+        "politeness"
+      ],
+      "cefrLevel": "A2",
+      "note": "riesig = riesenhaft groß — hier: sehr, sehr froh"
+    },
+    {
+      "id": "danke-vielmals",
+      "type": "chunk",
+      "german": "Danke vielmals!",
+      "meaning": "Thanks a lot! (formal)",
+      "audio": "tts",
+      "introducedInScene": "a2e6s3",
+      "tags": [
+        "politeness"
+      ],
+      "cefrLevel": "A2"
+    },
+    {
+      "id": "das-andenken",
+      "type": "word",
+      "german": "das Andenken",
+      "meaning": "the keepsake / memento",
+      "image": "geschenk",
+      "audio": "tts",
+      "introducedInScene": "a2e6s3",
+      "tags": [
+        "objects",
+        "feelings"
+      ],
+      "cefrLevel": "A2",
+      "note": "das, Plural: die Andenken — auch: souvenir"
+    },
+    {
+      "id": "vermissen",
+      "type": "chunk",
+      "german": "Ich habe euch vermisst.",
+      "meaning": "I've missed you (all).",
+      "audio": "tts",
+      "introducedInScene": "a2e6s3",
+      "tags": [
+        "feelings",
+        "friends"
+      ],
+      "cefrLevel": "A2",
+      "note": "vermissen + Akkusativ — großes deutsches Gefühlsverb"
+    }
   ],
   "scenes": [
     {
@@ -41,17 +292,64 @@
       "titleEn": "The yellow note",
       "place": "Briefkasten, Erdgeschoss",
       "bg": "treppenhaus",
-      "contextTags": ["post", "home", "paperwork"],
-      "requiredItems": ["der-brief", "abholen"],
-      "introducedItems": ["das-paket", "der-zettel-im-briefkasten", "zur-abholung-bereit", "die-filiale", "die-postleitzahl", "das-einschreiben"],
+      "contextTags": [
+        "post",
+        "home",
+        "paperwork"
+      ],
+      "requiredItems": [
+        "der-brief",
+        "abholen"
+      ],
+      "introducedItems": [
+        "das-paket",
+        "der-zettel-im-briefkasten",
+        "zur-abholung-bereit",
+        "die-filiale",
+        "die-postleitzahl",
+        "das-einschreiben"
+      ],
       "beats": [
-        { "type": "narration", "text": "Freitagabend. Im Briefkasten liegt kein Brief, sondern ein gelber Zettel. Absender: Mama Jones. Herzschlag." },
-        { "type": "meet", "itemIds": ["das-paket", "der-zettel-im-briefkasten", "zur-abholung-bereit"] },
-        { "type": "line", "speaker": "tobias", "text": "Ein Paket?! Von zu Hause? …Und du erzählst mir das erst JETZT? — Filiale ist am Ring, montags bis samstags. Nimm Pass mit.", "translation": "A package?! From home? …And you're only telling me NOW? — Branch is at the Ring, Mondays to Saturdays. Take your passport." },
-        { "type": "meet", "itemIds": ["die-filiale", "die-postleitzahl", "das-einschreiben"] },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "check", "count": 2, "mode": "recall" },
-        { "type": "narration", "text": "Montag, halb neun. Du stehst vor der Postfiliale wie vor einem Schatzkarten-Eingang. Deine Handgymnastik: Zettel, Pass, Schlüsselbund." }
+        {
+          "type": "narration",
+          "text": "Freitagabend. Im Briefkasten liegt kein Brief, sondern ein gelber Zettel. Absender: Mama Jones. Herzschlag."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "das-paket",
+            "der-zettel-im-briefkasten",
+            "zur-abholung-bereit"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Ein Paket?! Von zu Hause? …Und du erzählst mir das erst JETZT? — Filiale ist am Ring, montags bis samstags. Nimm Pass mit.",
+          "translation": "A package?! From home? …And you're only telling me NOW? — Branch is at the Ring, Mondays to Saturdays. Take your passport."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-filiale",
+            "die-postleitzahl",
+            "das-einschreiben"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "narration",
+          "text": "Montag, halb neun. Du stehst vor der Postfiliale wie vor einem Schatzkarten-Eingang. Deine Handgymnastik: Zettel, Pass, Schlüsselbund."
+        }
       ]
     },
     {
@@ -61,22 +359,98 @@
       "titleEn": "At the counter",
       "place": "Postfiliale, Schalter 3",
       "bg": "amt",
-      "contextTags": ["post", "service", "paperwork"],
-      "requiredItems": ["der-pass", "zur-abholung-bereit"],
-      "introducedItems": ["den-ausweis-vorzeigen", "der-umschlag", "abschicken", "das-paeckchen", "der-inhalt", "die-zollangelegenheit"],
+      "contextTags": [
+        "post",
+        "service",
+        "paperwork"
+      ],
+      "requiredItems": [
+        "der-pass",
+        "zur-abholung-bereit"
+      ],
+      "introducedItems": [
+        "den-ausweis-vorzeigen",
+        "der-umschlag",
+        "abschicken",
+        "das-paeckchen",
+        "der-inhalt",
+        "die-zollangelegenheit"
+      ],
       "beats": [
-        { "type": "line", "speaker": "kranich", "text": "Guten Morgen. Paket? — Zettel her. …Und kann ich Ihren Ausweis sehen? Danke. …Moment, das ist aber ein großes Paket.", "translation": "Good morning. Package? — Note please. …And may I see your ID? Thanks. …Wow, that's a big package." },
-        { "type": "meet", "itemIds": ["den-ausweis-vorzeigen", "der-inhalt", "die-zollangelegenheit"] },
-        { "type": "line", "speaker": "kranich", "text": "Inhalt: „Tee, Süßigkeiten, Strickjacke“. …Zollangelegenheit? Nein, innerhalb der EU ungefährlich. Unterschrift hier, bitte.", "translation": "Contents: 'tea, sweets, knitted cardigan'. …Customs matter? No, within the EU that's harmless. Signature here, please." },
-        { "type": "meet", "itemIds": ["das-paeckchen", "abschicken", "der-umschlag"] },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "choice", "prompt": "Herr Kranich: „Sonst noch etwas?“", "options": [
-          { "label": "Ja — ich möchte diesen Umschlag abschicken.", "line": "Ja — ich möchte diesen Umschlag als Einschreiben abschicken." },
-          { "label": "Nein, danke. …Doch: Noch einen schönen Tag!", "line": "Nein, danke. …Doch: Ihnen auch einen schönen Tag!" }
-        ] },
-        { "type": "line", "speaker": "kranich", "text": "Einschreiben, gern. Vier Euro zwanzig. …Und: Den Tee kenn ich, der ist gut. Meine Frau trinkt den.", "translation": "Registered mail, sure. Four euros twenty. …And: I know that tea, it's good. My wife drinks it." },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "check", "count": 2, "mode": "listen" }
+        {
+          "type": "line",
+          "speaker": "kranich",
+          "text": "Guten Morgen. Paket? — Zettel her. …Und kann ich Ihren Ausweis sehen? Danke. …Moment, das ist aber ein großes Paket.",
+          "translation": "Good morning. Package? — Note please. …And may I see your ID? Thanks. …Wow, that's a big package."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "den-ausweis-vorzeigen",
+            "der-inhalt",
+            "die-zollangelegenheit"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "kranich",
+          "text": "Inhalt: „Tee, Süßigkeiten, Strickjacke“. …Zollangelegenheit? Nein, innerhalb der EU ungefährlich. Unterschrift hier, bitte.",
+          "translation": "Contents: 'tea, sweets, knitted cardigan'. …Customs matter? No, within the EU that's harmless. Signature here, please."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "das-paeckchen",
+            "abschicken",
+            "der-umschlag"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Herr Kranich: „Sonst noch etwas?“",
+          "options": [
+            {
+              "label": "Ja — ich möchte diesen Umschlag abschicken.",
+              "line": "Ja — ich möchte diesen Umschlag als Einschreiben abschicken."
+            },
+            {
+              "label": "Nein, danke. …Doch: Noch einen schönen Tag!",
+              "line": "Nein, danke. …Doch: Ihnen auch einen schönen Tag!"
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "kranich",
+          "text": "Einschreiben, gern. Vier Euro zwanzig. …Und: Den Tee kenn ich, der ist gut. Meine Frau trinkt den.",
+          "translation": "Registered mail, sure. Four euros twenty. …And: I know that tea, it's good. My wife drinks it."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "reading",
+          "title": "Zollinhaltserklärung (CN 22)",
+          "text": "Absender: Li Wen, Hangzhou\nEmpfänger: Sam Jones, Leipzig\n\nInhalt: Tee (500 g), Strickjacke (1),\nMarmelade (2 Gläser — vorsichtig!)\nWert: — unter uns: sentimental.\nOffiziell: 20 €.\n\n»Geschenk — nicht zu verkaufen.\n Sehr wichtig. Dringend. Danke.«",
+          "translation": "Sender: Li Wen, Hangzhou\nRecipient: Sam Jones, Leipzig\n\nContents: tea (500 g), cardigan (1),\njam (2 jars — carefully!)\nValue: — between us: sentimental.\nOfficially: €20.\n\n'Gift — not for sale.\nVery important. Urgent. Thank you.'",
+          "itemIds": [
+            "das-paeckchen",
+            "der-inhalt",
+            "die-zollangelegenheit"
+          ]
+        }
       ]
     },
     {
@@ -86,24 +460,104 @@
       "titleEn": "Tea, cardigan, jam",
       "place": "Küchentisch, Auspackaktion",
       "bg": "wohnung",
-      "contextTags": ["home", "feelings", "food"],
-      "requiredItems": ["das-paket", "der-inhalt"],
-      "introducedItems": ["der-tee-aus-der-heimat", "ich-freue-mich-riesig", "danke-vielmals", "das-andenken", "vermissen"],
+      "contextTags": [
+        "home",
+        "feelings",
+        "food"
+      ],
+      "requiredItems": [
+        "das-paket",
+        "der-inhalt"
+      ],
+      "introducedItems": [
+        "der-tee-aus-der-heimat",
+        "ich-freue-mich-riesig",
+        "danke-vielmals",
+        "das-andenken",
+        "vermissen"
+      ],
       "beats": [
-        { "type": "narration", "text": "Wohnung, Küchentisch. Tobias ist gekommen, offiziell „aus Neugier“, inoffiziell wegen der Süßigkeiten. Du schneidest das Klebeband auf." },
-        { "type": "meet", "itemIds": ["der-tee-aus-der-heimat", "das-andenken", "ich-freue-mich-riesig"] },
-        { "type": "line", "speaker": "tobias", "text": "Ohhh. Eine Strickjacke! …Handgestrickt?! Sam. Deine Mutter ist ein Schatz. Und die Marmelade — die ist in drei Tagen weg, das sage ich jetzt schon.", "translation": "Ohhh. A knitted cardigan! …Hand-knitted?! Sam. Your mum is a treasure. And that jam — it'll be gone in three days, I'm telling you now." },
-        { "type": "meet", "itemIds": ["danke-vielmals", "vermissen"] },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "choice", "prompt": "Dein Handy vibriert: Nachricht von Mum. „Und? Alles angekommen?“", "options": [
-          { "label": "Ich freue mich riesig! Danke vielmals!", "line": "Ich freue mich riesig! Danke vielmals, Mum!" },
-          { "label": "Alles da. Ich habe euch vermisst.", "line": "Alles da. Ich habe euch vermisst." }
-        ] },
-        { "type": "line", "speaker": "mutter", "text": "❤️ Süß. Und trink ordentlichen Tee, nicht immer diesen Kaffee. …Wie ist die Strickjacke?", "translation": "❤️ Sweet. And drink proper tea, not always that coffee. …How's the cardigan?" },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "line", "speaker": "tobias", "text": "Sag ihr, die Strickjacke ist dein neues Leipzig-Outfit. …Und gib mir noch Marmelade. Nur ein Löffel. …Zwei.", "translation": "Tell her the cardigan is your new Leipzig outfit. …And give me some jam. Just one spoonful. …Two." },
-        { "type": "check", "count": 2, "mode": "recall" },
-        { "type": "narration", "text": "Abends: Tee aus der Heimat, frische Strickjacke, ein Foto von zu Hause als Lesezeichen im Kochbuch. Leipzig fühlt sich heute nicht weniger wie Leipzig an — und zu Hause nicht weiter weg." }
+        {
+          "type": "narration",
+          "text": "Wohnung, Küchentisch. Tobias ist gekommen, offiziell „aus Neugier“, inoffiziell wegen der Süßigkeiten. Du schneidest das Klebeband auf."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-tee-aus-der-heimat",
+            "das-andenken",
+            "ich-freue-mich-riesig"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Ohhh. Eine Strickjacke! …Handgestrickt?! Sam. Deine Mutter ist ein Schatz. Und die Marmelade — die ist in drei Tagen weg, das sage ich jetzt schon.",
+          "translation": "Ohhh. A knitted cardigan! …Hand-knitted?! Sam. Your mum is a treasure. And that jam — it'll be gone in three days, I'm telling you now."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "danke-vielmals",
+            "vermissen"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Dein Handy vibriert: Nachricht von Mum. „Und? Alles angekommen?“",
+          "options": [
+            {
+              "label": "Ich freue mich riesig! Danke vielmals!",
+              "line": "Ich freue mich riesig! Danke vielmals, Mum!"
+            },
+            {
+              "label": "Alles da. Ich habe euch vermisst.",
+              "line": "Alles da. Ich habe euch vermisst."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "mutter",
+          "text": "❤️ Süß. Und trink ordentlichen Tee, nicht immer diesen Kaffee. …Wie ist die Strickjacke?",
+          "translation": "❤️ Sweet. And drink proper tea, not always that coffee. …How's the cardigan?"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Sag ihr, die Strickjacke ist dein neues Leipzig-Outfit. …Und gib mir noch Marmelade. Nur ein Löffel. …Zwei.",
+          "translation": "Tell her the cardigan is your new Leipzig outfit. …And give me some jam. Just one spoonful. …Two."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "reading",
+          "title": "Zettel im Paket (Mutterhandschrift)",
+          "text": "Mein Sam,\n\nder Tee ist von Oma. Die Jacke von mir.\nDie Marmelade ist ein Experiment — sag ehrlich.\n\nWir vermissen dich. Aber: Leipzig\nhat dir schon einen Tisch gegeben,\ndas sieht man auf dem Foto.\n\nIss warm. Ruf an. Danke vielmals fürs\nFotoschicken. — Mutter",
+          "translation": "My Sam,\n\nthe tea is from Grandma. The cardigan from me.\nThe jam is an experiment — be honest.\n\nWe miss you. But: Leipzig\nhas already given you a table,\nyou can see it in the photo.\n\nEat warm. Call. Many thanks for\nsending the photos. — Mother",
+          "itemIds": [
+            "vermissen",
+            "danke-vielmals",
+            "das-andenken"
+          ]
+        },
+        {
+          "type": "narration",
+          "text": "Abends: Tee aus der Heimat, frische Strickjacke, ein Foto von zu Hause als Lesezeichen im Kochbuch. Leipzig fühlt sich heute nicht weniger wie Leipzig an — und zu Hause nicht weiter weg."
+        }
       ]
     }
   ]

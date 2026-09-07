@@ -563,6 +563,17 @@
           "mode": "listen"
         },
         {
+          "type": "reading",
+          "title": "Merkkarte: Erste Fahrt",
+          "text": "VOR DEM START:\nSitz · Spiegel · Gurt. („SSG“ — Ott merkt sich's)\n\nLINKS Kupplung · MITTE Bremse · RECHTS Gaspedal\n\nSanft anfahren. Früher bremsen. Später parken.\n\n»Der Lappen kostet Geld.\n Das Fahrgefühl kostet Nerven.\n Beides lohnt sich.«",
+          "translation": "BEFORE STARTING:\nSeat · mirrors · belt. ('SSG' — Ott's mnemonic)\n\nLEFT clutch · MIDDLE brake · RIGHT accelerator\n\nPull away gently. Brake early. Park later.\n\n'The licence costs money.\nThe feeling of driving costs nerves.\nBoth are worth it.'",
+          "itemIds": [
+            "das-gaspedal",
+            "die-bremse",
+            "der-lappen"
+          ]
+        },
+        {
           "type": "narration",
           "text": "Der Motor aus. Deine Hände zittern ein bisschen — vor Stolz, nicht vor Angst. Tobias winkt vom Radweg. Du fährst mit dem Auto langsam an ihm vorbei und winkst wie ein König. Endlich."
         }

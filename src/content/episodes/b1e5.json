@@ -7,32 +7,304 @@
     "titleEn": "The day trip",
     "blurb": "Ein freier Samstag, drei Menschen, ein Zug nach Dresden. Verspätung inklusive — und der erste Relativsatz im echten Leben.",
     "order": 13,
-    "sceneIds": ["b1e5s1", "b1e5s2", "b1e5s3"]
+    "sceneIds": [
+      "b1e5s1",
+      "b1e5s2",
+      "b1e5s3"
+    ]
   },
   "cast": [
-    { "id": "mei", "name": "Mei", "role": "Kollegin, Freundin" },
-    { "id": "tobias", "name": "Tobias", "role": "Freund" },
-    { "id": "bahnangestellte", "name": "Frau Reinhardt", "role": "Bahnhofsmitarbeiterin" }
+    {
+      "id": "mei",
+      "name": "Mei",
+      "role": "Kollegin, Freundin"
+    },
+    {
+      "id": "tobias",
+      "name": "Tobias",
+      "role": "Freund"
+    },
+    {
+      "id": "bahnangestellte",
+      "name": "Frau Reinhardt",
+      "role": "Bahnhofsmitarbeiterin"
+    }
   ],
   "items": [
-    { "id": "der-ausflug", "type": "word", "german": "der Ausflug", "meaning": "the (day) trip / excursion", "image": "koffer", "audio": "tts", "introducedInScene": "b1e5s1", "tags": ["travel", "friends"], "cefrLevel": "B1", "note": "der, Plural: die Ausflüge — „einen Ausflug machen“" },
-    { "id": "die-verbindung", "type": "word", "german": "die Verbindung", "meaning": "the (transport) connection", "image": "train", "audio": "tts", "introducedInScene": "b1e5s1", "tags": ["travel", "transport"], "cefrLevel": "B1", "note": "die, Plural: die Verbindungen — auch: der Kontakt" },
-    { "id": "die-verspaetung", "type": "word", "german": "die Verspätung", "meaning": "the delay", "image": "urehr", "audio": "tts", "introducedInScene": "b1e5s1", "tags": ["travel", "transport", "time"], "cefrLevel": "B1", "note": "die, Plural: die Verspätungen — „hat zehn Minuten Verspätung“" },
-    { "id": "hin-und-zurueck", "type": "chunk", "german": "Hin und zurück, bitte.", "meaning": "Return ticket, please. (there and back)", "image": "train", "audio": "tts", "introducedInScene": "b1e5s1", "tags": ["travel", "transport", "request"], "cefrLevel": "B1", "note": "die Fahrkarte kennen Sie schon — jetzt pluralisiert" },
-    { "id": "wenn-wir-zeit-haetten", "type": "grammar_pattern", "german": "Wenn wir mehr Zeit hätten, ___ wir in die Altstadt.", "meaning": "If we had more time, we'd go to the old town.", "audio": "tts", "introducedInScene": "b1e5s1", "tags": ["travel", "wishes"], "cefrLevel": "B1", "cloze": "gingen", "alt": ["fahren", "kämen"], "speak": "Wenn wir mehr Zeit hätten, gingen wir in die Altstadt.", "note": "Konjunktiv II: hätte / ginge / käme — Träume auf Deutsch" },
-    { "id": "uebermorgen", "type": "word", "german": "übermorgen", "meaning": "the day after tomorrow", "image": "kalender", "audio": "tts", "introducedInScene": "b1e5s1", "tags": ["travel", "time"], "cefrLevel": "B1", "note": "vorgestern – gestern – heute – morgen – übermorgen" },
-    { "id": "der-zug-faehrt-um", "type": "sentence", "german": "Der Zug fährt um 8:42 Uhr.", "meaning": "The train leaves at 8:42.", "image": "train", "audio": "tts", "introducedInScene": "b1e5s2", "tags": ["travel", "transport", "time"], "cefrLevel": "B1" },
-    { "id": "der-bahnsteig", "type": "word", "german": "der Bahnsteig", "meaning": "the platform", "image": "train", "audio": "tts", "introducedInScene": "b1e5s2", "tags": ["travel", "transport"], "cefrLevel": "B1", "note": "der, Plural: die Bahnsteige — ugs. auch: das Gleis" },
-    { "id": "der-zug-der-nach-dresden-faehrt", "type": "grammar_pattern", "german": "Der Zug, ___ nach Dresden fährt, ist verspätet.", "meaning": "The train that goes to Dresden is delayed.", "audio": "tts", "introducedInScene": "b1e5s2", "tags": ["travel", "grammar"], "cefrLevel": "B1", "cloze": "der", "speak": "Der Zug, der nach Dresden fährt, ist verspätet.", "note": "Relativsatz: der/die/das — das Wort steht zwei Mal im Satz" },
-    { "id": "die-sehenswuerdigkeit", "type": "word", "german": "die Sehenswürdigkeit", "meaning": "the sight / place of interest", "image": "schloss", "audio": "tts", "introducedInScene": "b1e5s2", "tags": ["travel", "city"], "cefrLevel": "B1", "note": "die, Plural: die Sehenswürdigkeiten — wörtlich: Wert, der sich zu sehen lohnt" },
-    { "id": "das-schloss", "type": "word", "german": "das Schloss", "meaning": "the palace / castle", "image": "schloss", "audio": "tts", "introducedInScene": "b1e5s2", "tags": ["travel", "city"], "cefrLevel": "B1", "note": "das, Plural: die Schlösser — nicht verwechseln mit dem Schloss an der Tür!" },
-    { "id": "die-altstadt", "type": "word", "german": "die Altstadt", "meaning": "the old town", "image": "haus", "audio": "tts", "introducedInScene": "b1e5s2", "tags": ["travel", "city"], "cefrLevel": "B1", "note": "die, Plural: die Altstädte" },
-    { "id": "fuehren", "type": "sentence", "german": "Wo führt diese Straße hin?", "meaning": "Where does this street lead?", "image": "strasse", "audio": "tts", "introducedInScene": "b1e5s3", "tags": ["travel", "directions", "questions"], "cefrLevel": "B1" },
-    { "id": "sich-lohnen", "type": "chunk", "german": "Das lohnt sich!", "meaning": "It's worth it!", "image": "ziel", "audio": "tts", "introducedInScene": "b1e5s3", "tags": ["travel", "opinion"], "cefrLevel": "B1", "note": "sich lohnen — reflexiv, sehr häufig" },
-    { "id": "die-aussicht", "type": "word", "german": "die Aussicht", "meaning": "the view / outlook", "image": "sonnenuntergang", "audio": "tts", "introducedInScene": "b1e5s3", "tags": ["travel"], "cefrLevel": "B1", "note": "die, Plural: die Aussichten — auch übertragen: „gute Aussichten“" },
-    { "id": "der-andenkenladen", "type": "word", "german": "der Andenkenladen", "meaning": "the souvenir shop", "image": "tüte", "audio": "tts", "introducedInScene": "b1e5s3", "tags": ["travel", "shopping"], "cefrLevel": "B1", "note": "der, Plural: die Andenkenläden" },
-    { "id": "entspannt", "type": "chunk", "german": "Völlig entspannt.", "meaning": "Completely relaxed.", "audio": "tts", "introducedInScene": "b1e5s3", "tags": ["feelings", "smalltalk"], "cefrLevel": "B1" },
-    { "id": "es-hat-sich-gelohnt", "type": "sentence", "german": "Es hat sich gelohnt!", "meaning": "It was worth it!", "audio": "tts", "introducedInScene": "b1e5s3", "tags": ["travel", "opinion"], "cefrLevel": "B1", "note": "Perfekt von sich lohnen — der Abschluss eines jeden guten Tages" }
+    {
+      "id": "der-ausflug",
+      "type": "word",
+      "german": "der Ausflug",
+      "meaning": "the (day) trip / excursion",
+      "image": "koffer",
+      "audio": "tts",
+      "introducedInScene": "b1e5s1",
+      "tags": [
+        "travel",
+        "friends"
+      ],
+      "cefrLevel": "B1",
+      "note": "der, Plural: die Ausflüge — „einen Ausflug machen“"
+    },
+    {
+      "id": "die-verbindung",
+      "type": "word",
+      "german": "die Verbindung",
+      "meaning": "the (transport) connection",
+      "image": "train",
+      "audio": "tts",
+      "introducedInScene": "b1e5s1",
+      "tags": [
+        "travel",
+        "transport"
+      ],
+      "cefrLevel": "B1",
+      "note": "die, Plural: die Verbindungen — auch: der Kontakt"
+    },
+    {
+      "id": "die-verspaetung",
+      "type": "word",
+      "german": "die Verspätung",
+      "meaning": "the delay",
+      "image": "urehr",
+      "audio": "tts",
+      "introducedInScene": "b1e5s1",
+      "tags": [
+        "travel",
+        "transport",
+        "time"
+      ],
+      "cefrLevel": "B1",
+      "note": "die, Plural: die Verspätungen — „hat zehn Minuten Verspätung“"
+    },
+    {
+      "id": "hin-und-zurueck",
+      "type": "chunk",
+      "german": "Hin und zurück, bitte.",
+      "meaning": "Return ticket, please. (there and back)",
+      "image": "train",
+      "audio": "tts",
+      "introducedInScene": "b1e5s1",
+      "tags": [
+        "travel",
+        "transport",
+        "request"
+      ],
+      "cefrLevel": "B1",
+      "note": "die Fahrkarte kennen Sie schon — jetzt pluralisiert"
+    },
+    {
+      "id": "wenn-wir-zeit-haetten",
+      "type": "grammar_pattern",
+      "german": "Wenn wir mehr Zeit hätten, ___ wir in die Altstadt.",
+      "meaning": "If we had more time, we'd go to the old town.",
+      "audio": "tts",
+      "introducedInScene": "b1e5s1",
+      "tags": [
+        "travel",
+        "wishes"
+      ],
+      "cefrLevel": "B1",
+      "cloze": "gingen",
+      "alt": [
+        "fahren",
+        "kämen"
+      ],
+      "speak": "Wenn wir mehr Zeit hätten, gingen wir in die Altstadt.",
+      "note": "Konjunktiv II: hätte / ginge / käme — Träume auf Deutsch"
+    },
+    {
+      "id": "uebermorgen",
+      "type": "word",
+      "german": "übermorgen",
+      "meaning": "the day after tomorrow",
+      "image": "kalender",
+      "audio": "tts",
+      "introducedInScene": "b1e5s1",
+      "tags": [
+        "travel",
+        "time"
+      ],
+      "cefrLevel": "B1",
+      "note": "vorgestern – gestern – heute – morgen – übermorgen"
+    },
+    {
+      "id": "der-zug-faehrt-um",
+      "type": "sentence",
+      "german": "Der Zug fährt um 8:42 Uhr.",
+      "meaning": "The train leaves at 8:42.",
+      "image": "train",
+      "audio": "tts",
+      "introducedInScene": "b1e5s2",
+      "tags": [
+        "travel",
+        "transport",
+        "time"
+      ],
+      "cefrLevel": "B1"
+    },
+    {
+      "id": "der-bahnsteig",
+      "type": "word",
+      "german": "der Bahnsteig",
+      "meaning": "the platform",
+      "image": "train",
+      "audio": "tts",
+      "introducedInScene": "b1e5s2",
+      "tags": [
+        "travel",
+        "transport"
+      ],
+      "cefrLevel": "B1",
+      "note": "der, Plural: die Bahnsteige — ugs. auch: das Gleis"
+    },
+    {
+      "id": "der-zug-der-nach-dresden-faehrt",
+      "type": "grammar_pattern",
+      "german": "Der Zug, ___ nach Dresden fährt, ist verspätet.",
+      "meaning": "The train that goes to Dresden is delayed.",
+      "audio": "tts",
+      "introducedInScene": "b1e5s2",
+      "tags": [
+        "travel",
+        "grammar"
+      ],
+      "cefrLevel": "B1",
+      "cloze": "der",
+      "speak": "Der Zug, der nach Dresden fährt, ist verspätet.",
+      "note": "Relativsatz: der/die/das — das Wort steht zwei Mal im Satz"
+    },
+    {
+      "id": "die-sehenswuerdigkeit",
+      "type": "word",
+      "german": "die Sehenswürdigkeit",
+      "meaning": "the sight / place of interest",
+      "image": "schloss",
+      "audio": "tts",
+      "introducedInScene": "b1e5s2",
+      "tags": [
+        "travel",
+        "city"
+      ],
+      "cefrLevel": "B1",
+      "note": "die, Plural: die Sehenswürdigkeiten — wörtlich: Wert, der sich zu sehen lohnt"
+    },
+    {
+      "id": "das-schloss",
+      "type": "word",
+      "german": "das Schloss",
+      "meaning": "the palace / castle",
+      "image": "schloss",
+      "audio": "tts",
+      "introducedInScene": "b1e5s2",
+      "tags": [
+        "travel",
+        "city"
+      ],
+      "cefrLevel": "B1",
+      "note": "das, Plural: die Schlösser — nicht verwechseln mit dem Schloss an der Tür!"
+    },
+    {
+      "id": "die-altstadt",
+      "type": "word",
+      "german": "die Altstadt",
+      "meaning": "the old town",
+      "image": "haus",
+      "audio": "tts",
+      "introducedInScene": "b1e5s2",
+      "tags": [
+        "travel",
+        "city"
+      ],
+      "cefrLevel": "B1",
+      "note": "die, Plural: die Altstädte"
+    },
+    {
+      "id": "fuehren",
+      "type": "sentence",
+      "german": "Wo führt diese Straße hin?",
+      "meaning": "Where does this street lead?",
+      "image": "strasse",
+      "audio": "tts",
+      "introducedInScene": "b1e5s3",
+      "tags": [
+        "travel",
+        "directions",
+        "questions"
+      ],
+      "cefrLevel": "B1"
+    },
+    {
+      "id": "sich-lohnen",
+      "type": "chunk",
+      "german": "Das lohnt sich!",
+      "meaning": "It's worth it!",
+      "image": "ziel",
+      "audio": "tts",
+      "introducedInScene": "b1e5s3",
+      "tags": [
+        "travel",
+        "opinion"
+      ],
+      "cefrLevel": "B1",
+      "note": "sich lohnen — reflexiv, sehr häufig"
+    },
+    {
+      "id": "die-aussicht",
+      "type": "word",
+      "german": "die Aussicht",
+      "meaning": "the view / outlook",
+      "image": "sonnenuntergang",
+      "audio": "tts",
+      "introducedInScene": "b1e5s3",
+      "tags": [
+        "travel"
+      ],
+      "cefrLevel": "B1",
+      "note": "die, Plural: die Aussichten — auch übertragen: „gute Aussichten“"
+    },
+    {
+      "id": "der-andenkenladen",
+      "type": "word",
+      "german": "der Andenkenladen",
+      "meaning": "the souvenir shop",
+      "image": "tüte",
+      "audio": "tts",
+      "introducedInScene": "b1e5s3",
+      "tags": [
+        "travel",
+        "shopping"
+      ],
+      "cefrLevel": "B1",
+      "note": "der, Plural: die Andenkenläden"
+    },
+    {
+      "id": "entspannt",
+      "type": "chunk",
+      "german": "Völlig entspannt.",
+      "meaning": "Completely relaxed.",
+      "audio": "tts",
+      "introducedInScene": "b1e5s3",
+      "tags": [
+        "feelings",
+        "smalltalk"
+      ],
+      "cefrLevel": "B1"
+    },
+    {
+      "id": "es-hat-sich-gelohnt",
+      "type": "sentence",
+      "german": "Es hat sich gelohnt!",
+      "meaning": "It was worth it!",
+      "audio": "tts",
+      "introducedInScene": "b1e5s3",
+      "tags": [
+        "travel",
+        "opinion"
+      ],
+      "cefrLevel": "B1",
+      "note": "Perfekt von sich lohnen — der Abschluss eines jeden guten Tages"
+    }
   ],
   "scenes": [
     {
@@ -42,21 +314,81 @@
       "titleEn": "A free Saturday",
       "place": "Café Luise, Dienstrplan",
       "bg": "cafe",
-      "contextTags": ["travel", "friends", "planning"],
-      "requiredItems": ["die-fahrkarte"],
-      "introducedItems": ["der-ausflug", "die-verbindung", "die-verspaetung", "hin-und-zurueck", "wenn-wir-zeit-haetten", "uebermorgen"],
+      "contextTags": [
+        "travel",
+        "friends",
+        "planning"
+      ],
+      "requiredItems": [
+        "die-fahrkarte"
+      ],
+      "introducedItems": [
+        "der-ausflug",
+        "die-verbindung",
+        "die-verspaetung",
+        "hin-und-zurueck",
+        "wenn-wir-zeit-haetten",
+        "uebermorgen"
+      ],
       "beats": [
-        { "type": "line", "speaker": "mei", "text": "Sam, schau: Übermorgen ist Samstag und wir haben ALLE frei. Das passiert zweimal im Jahr. Ausflug!", "translation": "Sam, look: the day after tomorrow is Saturday and we ALL have the day off. That happens twice a year. Day trip!" },
-        { "type": "meet", "itemIds": ["der-ausflug", "uebermorgen", "die-verbindung"] },
-        { "type": "line", "speaker": "tobias", "text": "Dresden! Eine Stunde mit dem Zug, die Altstadt ist eine einzige Sehenswürdigkeit. Und der Zug fährt pünktlich. …Meistens.", "translation": "Dresden! An hour by train, the old town is one big sight. And the train runs on time. …Mostly." },
-        { "type": "meet", "itemIds": ["die-verspaetung", "hin-und-zurueck", "wenn-wir-zeit-haetten"] },
-        { "type": "choice", "prompt": "Mei hat schon die DB-App offen.", "options": [
-          { "label": "Hin und zurück, bitte — äh, ich mein: Ich buche hin und zurück.", "line": "Ich buche gleich hin und zurück für uns drei." },
-          { "label": "Wenn wir mehr Zeit hätten, gingen wir bis in die Sächsische Schweiz!", "line": "Wenn wir mehr Zeit hätten, würden wir bis in die Sächsische Schweiz fahren!" }
-        ] },
-        { "type": "line", "speaker": "mei", "text": "Ehrgeizig! …Ich mag das. Aber erst: Dresden. Der Zug fährt um 8:42. Nicht 8:45. 8:42.", "translation": "Ambitious! …I like it. But first: Dresden. The train leaves at 8:42. Not 8:45. 8:42." },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "check", "count": 2, "mode": "recall" }
+        {
+          "type": "line",
+          "speaker": "mei",
+          "text": "Sam, schau: Übermorgen ist Samstag und wir haben ALLE frei. Das passiert zweimal im Jahr. Ausflug!",
+          "translation": "Sam, look: the day after tomorrow is Saturday and we ALL have the day off. That happens twice a year. Day trip!"
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-ausflug",
+            "uebermorgen",
+            "die-verbindung"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Dresden! Eine Stunde mit dem Zug, die Altstadt ist eine einzige Sehenswürdigkeit. Und der Zug fährt pünktlich. …Meistens.",
+          "translation": "Dresden! An hour by train, the old town is one big sight. And the train runs on time. …Mostly."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-verspaetung",
+            "hin-und-zurueck",
+            "wenn-wir-zeit-haetten"
+          ]
+        },
+        {
+          "type": "choice",
+          "prompt": "Mei hat schon die DB-App offen.",
+          "options": [
+            {
+              "label": "Hin und zurück, bitte — äh, ich mein: Ich buche hin und zurück.",
+              "line": "Ich buche gleich hin und zurück für uns drei."
+            },
+            {
+              "label": "Wenn wir mehr Zeit hätten, gingen wir bis in die Sächsische Schweiz!",
+              "line": "Wenn wir mehr Zeit hätten, würden wir bis in die Sächsische Schweiz fahren!"
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "mei",
+          "text": "Ehrgeizig! …Ich mag das. Aber erst: Dresden. Der Zug fährt um 8:42. Nicht 8:45. 8:42.",
+          "translation": "Ambitious! …I like it. But first: Dresden. The train leaves at 8:42. Not 8:45. 8:42."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        }
       ]
     },
     {
@@ -66,22 +398,97 @@
       "titleEn": "Platform 9, 8:42",
       "place": "Hauptbahnhof, Bahnsteig 9",
       "bg": "bahnhof",
-      "contextTags": ["travel", "transport", "friends"],
-      "requiredItems": ["der-bahnhof", "das-gleis", "die-verspaetung"],
-      "introducedItems": ["der-zug-faehrt-um", "der-bahnsteig", "der-zug-der-nach-dresden-faehrt", "die-sehenswuerdigkeit", "das-schloss", "die-altstadt"],
+      "contextTags": [
+        "travel",
+        "transport",
+        "friends"
+      ],
+      "requiredItems": [
+        "der-bahnhof",
+        "das-gleis",
+        "die-verspaetung"
+      ],
+      "introducedItems": [
+        "der-zug-faehrt-um",
+        "der-bahnsteig",
+        "der-zug-der-nach-dresden-faehrt",
+        "die-sehenswuerdigkeit",
+        "das-schloss",
+        "die-altstadt"
+      ],
       "beats": [
-        { "type": "narration", "text": "Hauptbahnhof, Samstagmorgen. Die Halle ist hell, überall Räder, Rucksäcke und Ausflüglern mit Thermoskannen." },
-        { "type": "meet", "itemIds": ["der-bahnsteig", "der-zug-faehrt-um", "die-altstadt"] },
-        { "type": "line", "speaker": "bahnangestellte", "text": "Achtung auf Gleis 9: Der Zug, der nach Dresden fährt, hat heute zehn Minuten Verspätung. Wir bitten um Geduld.", "translation": "Attention on platform 9: The train going to Dresden is ten minutes delayed today. We ask for your patience." },
-        { "type": "meet", "itemIds": ["der-zug-der-nach-dresden-faehrt", "die-sehenswuerdigkeit", "das-schloss"] },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "choice", "prompt": "Tobias seufzt dramatisch.", "options": [
-          { "label": "Zehn Minuten Verspätung? Das ist doch fast pünktlich.", "line": "Zehn Minuten Verspätung? Das ist doch fast pünktlich — für deutsche Züge." },
-          { "label": "Gut, dass die Aussicht auf Dresden sich lohnt.", "line": "Gut, dass sich der Tag lohnt, sobald wir da sind." }
-        ] },
-        { "type": "line", "speaker": "mei", "text": "Typisch! Der eine Zug der Republik, der pünktlich sein SOLL … Aber wisst ihr was? Heute ist das egal. Wir haben Kaffee, Croissants und Zeit.", "translation": "Typical! The one train in the republic that's SUPPOSED to be on time … But you know what? Doesn't matter today. We have coffee, croissants and time." },
-        { "type": "check", "count": 2, "mode": "listen" },
-        { "type": "check", "count": 2, "mode": "recall" }
+        {
+          "type": "narration",
+          "text": "Hauptbahnhof, Samstagmorgen. Die Halle ist hell, überall Räder, Rucksäcke und Ausflüglern mit Thermoskannen."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-bahnsteig",
+            "der-zug-faehrt-um",
+            "die-altstadt"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "bahnangestellte",
+          "text": "Achtung auf Gleis 9: Der Zug, der nach Dresden fährt, hat heute zehn Minuten Verspätung. Wir bitten um Geduld.",
+          "translation": "Attention on platform 9: The train going to Dresden is ten minutes delayed today. We ask for your patience."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-zug-der-nach-dresden-faehrt",
+            "die-sehenswuerdigkeit",
+            "das-schloss"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Tobias seufzt dramatisch.",
+          "options": [
+            {
+              "label": "Zehn Minuten Verspätung? Das ist doch fast pünktlich.",
+              "line": "Zehn Minuten Verspätung? Das ist doch fast pünktlich — für deutsche Züge."
+            },
+            {
+              "label": "Gut, dass die Aussicht auf Dresden sich lohnt.",
+              "line": "Gut, dass sich der Tag lohnt, sobald wir da sind."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "mei",
+          "text": "Typisch! Der eine Zug der Republik, der pünktlich sein SOLL … Aber wisst ihr was? Heute ist das egal. Wir haben Kaffee, Croissants und Zeit.",
+          "translation": "Typical! The one train in the republic that's SUPPOSED to be on time … But you know what? Doesn't matter today. We have coffee, croissants and time."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "reading",
+          "title": "Anzeigetafel, Bahnsteig 9",
+          "text": "RE 50 Dresden Hbf\nab 8:42 — heute +15 Min. (Bauarbeiten)\n\nDer Zug fährt um — Gleis 9 bleibt, Gleis 7 träumt.\n\n»Reisen mit der Bahn ist eine Übung in Gelassenheit.\n Die Übung beginnt vor dem Ankommen.«\n\nVerspätung ab 20 Minuten: Ausgleich beantragen.\n(Frage am Schalter bringt auch ohne Ausgleich Sympathie.)",
+          "translation": "RE 50 Dresden central station\ndep. 8:42 — today +15 min (construction work)\n\nThe train departs later — platform 9 stays, platform 7 dreams.\n\n'Travelling by train is an exercise in calm.\nThe exercise begins before the arrival.'\n\nDelays over 20 minutes: claim compensation.\n(Asking at the counter earns sympathy even without compensation.)",
+          "itemIds": [
+            "der-bahnsteig",
+            "der-zug-faehrt-um",
+            "der-zug-der-nach-dresden-faehrt"
+          ]
+        }
       ]
     },
     {
@@ -91,23 +498,100 @@
       "titleEn": "Old town in evening light",
       "place": "Dresden, Brühlsche Terrasse",
       "bg": "amt",
-      "contextTags": ["travel", "friends", "opinion"],
-      "requiredItems": ["die-altstadt", "die-sehenswuerdigkeit"],
-      "introducedItems": ["fuehren", "sich-lohnen", "die-aussicht", "der-andenkenladen", "entspannt", "es-hat-sich-gelohnt"],
+      "contextTags": [
+        "travel",
+        "friends",
+        "opinion"
+      ],
+      "requiredItems": [
+        "die-altstadt",
+        "die-sehenswuerdigkeit"
+      ],
+      "introducedItems": [
+        "fuehren",
+        "sich-lohnen",
+        "die-aussicht",
+        "der-andenkenladen",
+        "entspannt",
+        "es-hat-sich-gelohnt"
+      ],
       "beats": [
-        { "type": "narration", "text": "Nachmittag über der Elbe. Die Brühlsche Terrasse, weißer Stein, goldenes Licht. Mei macht elf Fotos pro Minute. Tobias liest laut aus einem Reiseführer von 2004 vor." },
-        { "type": "meet", "itemIds": ["die-aussicht", "sich-lohnen", "entspannt"] },
-        { "type": "line", "speaker": "mei", "text": "Sam, dreh dich um — diese Aussicht! …Okay, letzte Runde: Schloss noch, Andenkenladen noch, dann Zug.", "translation": "Sam, turn around — this view! …Okay, final round: palace still, souvenir shop still, then train." },
-        { "type": "meet", "itemIds": ["fuehren", "der-andenkenladen", "es-hat-sich-gelohnt"] },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "choice", "prompt": "Der Zug fährt in einer Stunde. Was macht ihr?", "options": [
-          { "label": "Wir schauen uns schnell das Schloss an — es lohnt sich!", "line": "Wir schauen uns schnell das Schloss an — das lohnt sich bestimmt!" },
-          { "label": "Kaffee zuerst. Völlig entspannt.", "line": "Kaffee zuerst. Völlig entspannt. Der Zug wartet auf keinen, aber wir auf Kaffee." }
-        ] },
-        { "type": "line", "speaker": "tobias", "text": "Beides! Kaffee mit Blick aufs Schloss. …So sind wir: kulturell ambitioniert und koffeinhaltig.", "translation": "Both! Coffee with a view of the palace. …That's us: culturally ambitious and caffeinated." },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "check", "count": 2, "mode": "recall" },
-        { "type": "narration", "text": "Im Zug zurück, Sonnenuntergang links, Mei schnarcht fast. Dein erstes deutsches Wochenende, das sich anfühlt wie ein Urlaubsfoto. Es hat sich gelohnt." }
+        {
+          "type": "narration",
+          "text": "Nachmittag über der Elbe. Die Brühlsche Terrasse, weißer Stein, goldenes Licht. Mei macht elf Fotos pro Minute. Tobias liest laut aus einem Reiseführer von 2004 vor."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-aussicht",
+            "sich-lohnen",
+            "entspannt"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "mei",
+          "text": "Sam, dreh dich um — diese Aussicht! …Okay, letzte Runde: Schloss noch, Andenkenladen noch, dann Zug.",
+          "translation": "Sam, turn around — this view! …Okay, final round: palace still, souvenir shop still, then train."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "fuehren",
+            "der-andenkenladen",
+            "es-hat-sich-gelohnt"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Der Zug fährt in einer Stunde. Was macht ihr?",
+          "options": [
+            {
+              "label": "Wir schauen uns schnell das Schloss an — es lohnt sich!",
+              "line": "Wir schauen uns schnell das Schloss an — das lohnt sich bestimmt!"
+            },
+            {
+              "label": "Kaffee zuerst. Völlig entspannt.",
+              "line": "Kaffee zuerst. Völlig entspannt. Der Zug wartet auf keinen, aber wir auf Kaffee."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Beides! Kaffee mit Blick aufs Schloss. …So sind wir: kulturell ambitioniert und koffeinhaltig.",
+          "translation": "Both! Coffee with a view of the palace. …That's us: culturally ambitious and caffeinated."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "reading",
+          "title": "Postkarte aus Dresden (an Tobias)",
+          "text": "»Die Aussicht von der Brühlschen Terrasse\nist genau so gut wie alle sagen.\nVielleicht besser. Man sieht die Stadt,\nund sie sieht entspannt zurück.\n\nDer Ausflug hat sich gelohnt —\nauch mit 15 Minuten Verspätung.\nEigentlich: deshalb.\n\nBringst du morgen Kaffee mit? — Sam«",
+          "translation": "'The view from the Brühl Terrace\nis exactly as good as everyone says.\nMaybe better. You see the city,\nand it looks back, relaxed.\n\nThe trip was worth it —\neven with a 15-minute delay.\nActually: because of it.\n\nAre you bringing coffee tomorrow? — Sam'",
+          "itemIds": [
+            "die-aussicht",
+            "es-hat-sich-gelohnt",
+            "entspannt"
+          ]
+        },
+        {
+          "type": "narration",
+          "text": "Im Zug zurück, Sonnenuntergang links, Mei schnarcht fast. Dein erstes deutsches Wochenende, das sich anfühlt wie ein Urlaubsfoto. Es hat sich gelohnt."
+        }
       ]
     }
   ]

@@ -459,6 +459,17 @@
           "mode": "listen"
         },
         {
+          "type": "reading",
+          "title": "SMS-Kette: Luise ↔ Sam",
+          "text": "LU: Wie schlimm? Wahrheit.\nSAM: Schulter. Eine Woche Attest. Wahrheit.\nLU: Wer vertritt deinen Samstag?\nSAM: Mei. Dienstplan ist fertig. Foto folgt.\nLU: Attest photo. NOW. Bürokratie-Liebe.\nSAM: Folgt. Gute Besserung wünsche ich MIR selbst.\nLU: Pause heißt PAUSE. Chef-Anweisung.\nSAM: Sie sind nicht meine Chefin.\nLU: Ich bin deine Kundin. Schlimmer.",
+          "translation": "LU: How bad? Truth.\nSAM: Shoulder. One week's sick note. Truth.\nLU: Who covers your Saturday?\nSAM: Mei. Rota's done. Photo to follow.\nLU: Sickness-certificate photo. NOW. Bureaucratic love.\nSAM: Coming. I wish MYSELF get-well-soon.\nLU: Rest means REST. Boss's orders.\nSAM: You're not my boss.\nLU: I'm your customer. Worse.",
+          "itemIds": [
+            "die-krankschreibung",
+            "vertreten",
+            "der-dienstplan"
+          ]
+        },
+        {
           "type": "narration",
           "text": "Eine Woche Pause. Der Dienstplan läuft ohne dich, die Welt dreht sich weiter — und das ist, stellt sich heraus, der ganze Sinn der Sache."
         }

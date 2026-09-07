@@ -7,32 +7,302 @@
     "titleEn": "The Christmas market",
     "blurb": "Dezember, drei Grad, tausend Lichter: Der Weihnachtsmarkt auf dem Augustusplatz. Punsch, Waffeln, ein Karussell von 1911 — und die Frage des Abends: „Gefällt dir der Markt?“",
     "order": 13,
-    "sceneIds": ["a1e13s1", "a1e13s2", "a1e13s3"]
+    "sceneIds": [
+      "a1e13s1",
+      "a1e13s2",
+      "a1e13s3"
+    ]
   },
   "cast": [
-    { "id": "tobias", "name": "Tobias", "role": "Nachbar, Student" },
-    { "id": "frau-bruegge", "name": "Frau Brügge", "role": "Vermieterin" },
-    { "id": "lina", "name": "Lina", "role": "Tobias' Cousine, 8 Jahre" }
+    {
+      "id": "tobias",
+      "name": "Tobias",
+      "role": "Nachbar, Student"
+    },
+    {
+      "id": "frau-bruegge",
+      "name": "Frau Brügge",
+      "role": "Vermieterin"
+    },
+    {
+      "id": "lina",
+      "name": "Lina",
+      "role": "Tobias' Cousine, 8 Jahre"
+    }
   ],
   "items": [
-    { "id": "der-weihnachtsmarkt", "type": "word", "german": "der Weihnachtsmarkt", "meaning": "the Christmas market", "image": "weihnachtsbaum", "audio": "tts", "introducedInScene": "a1e13s1", "tags": ["celebration", "city", "food"], "cefrLevel": "A1", "note": "der, Plural: die Weihnachtsmärkte — Leipzigs größter: am Augustusplatz" },
-    { "id": "der-weihnachtsbaum", "type": "word", "german": "der Weihnachtsbaum", "meaning": "the Christmas tree", "image": "weihnachtsbaum", "audio": "tts", "introducedInScene": "a1e13s1", "tags": ["celebration", "nature"], "cefrLevel": "A1", "note": "der, Plural: die Weihnachtsbäume — auch: der Christbaum" },
-    { "id": "der-stern", "type": "word", "german": "der Stern", "meaning": "the star", "image": "stern", "audio": "tts", "introducedInScene": "a1e13s1", "tags": ["celebration", "nature"], "cefrLevel": "A1", "note": "der, Plural: die Sterne — oben auf dem Baum" },
-    { "id": "die-lichter", "type": "word", "german": "die Lichter", "meaning": "the lights (plural)", "image": "lampe", "audio": "tts", "introducedInScene": "a1e13s1", "tags": ["celebration"], "cefrLevel": "A1", "note": "Plural: die Lichter — das Licht, die Lichter" },
-    { "id": "das-karussell", "type": "word", "german": "das Karussell", "meaning": "the carousel / merry-go-round", "image": "fest", "audio": "tts", "introducedInScene": "a1e13s1", "tags": ["celebration", "leisure"], "cefrLevel": "A1", "note": "das, Plural: die Karussells — das hier: von 1911!" },
-    { "id": "gefaellt-dir", "type": "grammar_pattern", "german": "___ dir der Markt?", "meaning": "Do you like the market?", "image": "gespräch", "audio": "tts", "introducedInScene": "a1e13s1", "tags": ["grammar", "opinion"], "cefrLevel": "A1", "cloze": "Gefällt", "speak": "Gefällt dir der Markt?", "note": "gefallen + Dativ: „Gefällt dir…?“ — Das Essen gefällt mir" },
-    { "id": "der-punsch", "type": "word", "german": "der Punsch", "meaning": "the (hot) punch", "image": "getränk", "audio": "tts", "introducedInScene": "a1e13s2", "tags": ["food", "celebration"], "cefrLevel": "A1", "note": "der, Plural: die Punsche — Kinderpunsch ohne Alkohol" },
-    { "id": "die-waffel", "type": "word", "german": "die Waffel", "meaning": "the waffle", "image": "kuchen", "audio": "tts", "introducedInScene": "a1e13s2", "tags": ["food", "celebration"], "cefrLevel": "A1", "note": "die, Plural: die Waffeln — mit Puderzucker. Immer." },
-    { "id": "das-holzspielzeug", "type": "word", "german": "das Holzspielzeug", "meaning": "the wooden toys", "image": "geschenk", "audio": "tts", "introducedInScene": "a1e13s2", "tags": ["celebration", "shopping"], "cefrLevel": "A1", "note": "das ( Singular ) — aus dem Erzgebirge, rechts vom Markt" },
-    { "id": "warm", "type": "word", "german": "warm", "meaning": "warm (also: feeling warm)", "image": "wetter", "audio": "tts", "introducedInScene": "a1e13s2", "tags": ["weather", "feelings"], "cefrLevel": "A1", "note": "„Mir ist warm“ — Dativ! Mir, dir, ihm …" },
-    { "id": "der-duft", "type": "word", "german": "der Duft", "meaning": "the scent / fragrance", "image": "tee", "audio": "tts", "introducedInScene": "a1e13s2", "tags": ["nature", "food"], "cefrLevel": "A1", "note": "der, Plural: die Düfte — der Duft von Zimt und Tannen" },
-    { "id": "die-huette", "type": "word", "german": "die Hütte", "meaning": "the hut / cabin (market stall)", "image": "laube", "audio": "tts", "introducedInScene": "a1e13s2", "tags": ["celebration", "city"], "cefrLevel": "A1", "note": "die, Plural: die Hütten — auf dem Markt: viele kleine Hütten" },
-    { "id": "der-adventskalender", "type": "word", "german": "der Adventskalender", "meaning": "the advent calendar", "image": "kalender", "audio": "tts", "introducedInScene": "a1e13s3", "tags": ["celebration", "time"], "cefrLevel": "A1", "note": "der, Plural: die Adventskalender — 24 Türen, 24 Schokoladen" },
-    { "id": "der-schneemann", "type": "word", "german": "der Schneemann", "meaning": "the snowman", "image": "schnee", "audio": "tts", "introducedInScene": "a1e13s3", "tags": ["celebration", "weather"], "cefrLevel": "A1", "note": "der, Plural: die Schneemänner — mit Karottennase" },
-    { "id": "die-wunderkerze", "type": "word", "german": "die Wunderkerze", "meaning": "the sparkler", "image": "feuerwerk", "audio": "tts", "introducedInScene": "a1e13s3", "tags": ["celebration"], "cefrLevel": "A1", "note": "die, Plural: die Wunderkerzen — funkt! (sparkles)" },
-    { "id": "wuenschen", "type": "chunk", "german": "Ich wünsche dir frohe Weihnachten!", "meaning": "I wish you a merry Christmas!", "image": "geschenk", "audio": "tts", "introducedInScene": "a1e13s3", "tags": ["politeness", "celebration"], "cefrLevel": "A1", "speak": "Ich wünsche dir frohe Weihnachten!", "note": "wünschen + Dativ — der Wunsch" },
-    { "id": "die-mandarine", "type": "word", "german": "die Mandarine", "meaning": "the mandarin orange", "image": "apfel", "audio": "tts", "introducedInScene": "a1e13s3", "tags": ["food", "celebration"], "cefrLevel": "A1", "note": "die, Plural: die Mandarinen — der Duft des Dezembers" },
-    { "id": "die-kastanie", "type": "word", "german": "die Kastanie", "meaning": "the chestnut", "image": "kuchen", "audio": "tts", "introducedInScene": "a1e13s3", "tags": ["food", "celebration"], "cefrLevel": "A1", "note": "die, Plural: die Kastanien — heiß geröstet, in der Tüte" }
+    {
+      "id": "der-weihnachtsmarkt",
+      "type": "word",
+      "german": "der Weihnachtsmarkt",
+      "meaning": "the Christmas market",
+      "image": "weihnachtsbaum",
+      "audio": "tts",
+      "introducedInScene": "a1e13s1",
+      "tags": [
+        "celebration",
+        "city",
+        "food"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Weihnachtsmärkte — Leipzigs größter: am Augustusplatz"
+    },
+    {
+      "id": "der-weihnachtsbaum",
+      "type": "word",
+      "german": "der Weihnachtsbaum",
+      "meaning": "the Christmas tree",
+      "image": "weihnachtsbaum",
+      "audio": "tts",
+      "introducedInScene": "a1e13s1",
+      "tags": [
+        "celebration",
+        "nature"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Weihnachtsbäume — auch: der Christbaum"
+    },
+    {
+      "id": "der-stern",
+      "type": "word",
+      "german": "der Stern",
+      "meaning": "the star",
+      "image": "stern",
+      "audio": "tts",
+      "introducedInScene": "a1e13s1",
+      "tags": [
+        "celebration",
+        "nature"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Sterne — oben auf dem Baum"
+    },
+    {
+      "id": "die-lichter",
+      "type": "word",
+      "german": "die Lichter",
+      "meaning": "the lights (plural)",
+      "image": "lampe",
+      "audio": "tts",
+      "introducedInScene": "a1e13s1",
+      "tags": [
+        "celebration"
+      ],
+      "cefrLevel": "A1",
+      "note": "Plural: die Lichter — das Licht, die Lichter"
+    },
+    {
+      "id": "das-karussell",
+      "type": "word",
+      "german": "das Karussell",
+      "meaning": "the carousel / merry-go-round",
+      "image": "fest",
+      "audio": "tts",
+      "introducedInScene": "a1e13s1",
+      "tags": [
+        "celebration",
+        "leisure"
+      ],
+      "cefrLevel": "A1",
+      "note": "das, Plural: die Karussells — das hier: von 1911!"
+    },
+    {
+      "id": "gefaellt-dir",
+      "type": "grammar_pattern",
+      "german": "___ dir der Markt?",
+      "meaning": "Do you like the market?",
+      "image": "gespräch",
+      "audio": "tts",
+      "introducedInScene": "a1e13s1",
+      "tags": [
+        "grammar",
+        "opinion"
+      ],
+      "cefrLevel": "A1",
+      "cloze": "Gefällt",
+      "speak": "Gefällt dir der Markt?",
+      "note": "gefallen + Dativ: „Gefällt dir…?“ — Das Essen gefällt mir"
+    },
+    {
+      "id": "der-punsch",
+      "type": "word",
+      "german": "der Punsch",
+      "meaning": "the (hot) punch",
+      "image": "getränk",
+      "audio": "tts",
+      "introducedInScene": "a1e13s2",
+      "tags": [
+        "food",
+        "celebration"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Punsche — Kinderpunsch ohne Alkohol"
+    },
+    {
+      "id": "die-waffel",
+      "type": "word",
+      "german": "die Waffel",
+      "meaning": "the waffle",
+      "image": "kuchen",
+      "audio": "tts",
+      "introducedInScene": "a1e13s2",
+      "tags": [
+        "food",
+        "celebration"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Waffeln — mit Puderzucker. Immer."
+    },
+    {
+      "id": "das-holzspielzeug",
+      "type": "word",
+      "german": "das Holzspielzeug",
+      "meaning": "the wooden toys",
+      "image": "geschenk",
+      "audio": "tts",
+      "introducedInScene": "a1e13s2",
+      "tags": [
+        "celebration",
+        "shopping"
+      ],
+      "cefrLevel": "A1",
+      "note": "das ( Singular ) — aus dem Erzgebirge, rechts vom Markt"
+    },
+    {
+      "id": "warm",
+      "type": "word",
+      "german": "warm",
+      "meaning": "warm (also: feeling warm)",
+      "image": "wetter",
+      "audio": "tts",
+      "introducedInScene": "a1e13s2",
+      "tags": [
+        "weather",
+        "feelings"
+      ],
+      "cefrLevel": "A1",
+      "note": "„Mir ist warm“ — Dativ! Mir, dir, ihm …"
+    },
+    {
+      "id": "der-duft",
+      "type": "word",
+      "german": "der Duft",
+      "meaning": "the scent / fragrance",
+      "image": "tee",
+      "audio": "tts",
+      "introducedInScene": "a1e13s2",
+      "tags": [
+        "nature",
+        "food"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Düfte — der Duft von Zimt und Tannen"
+    },
+    {
+      "id": "die-huette",
+      "type": "word",
+      "german": "die Hütte",
+      "meaning": "the hut / cabin (market stall)",
+      "image": "laube",
+      "audio": "tts",
+      "introducedInScene": "a1e13s2",
+      "tags": [
+        "celebration",
+        "city"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Hütten — auf dem Markt: viele kleine Hütten"
+    },
+    {
+      "id": "der-adventskalender",
+      "type": "word",
+      "german": "der Adventskalender",
+      "meaning": "the advent calendar",
+      "image": "kalender",
+      "audio": "tts",
+      "introducedInScene": "a1e13s3",
+      "tags": [
+        "celebration",
+        "time"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Adventskalender — 24 Türen, 24 Schokoladen"
+    },
+    {
+      "id": "der-schneemann",
+      "type": "word",
+      "german": "der Schneemann",
+      "meaning": "the snowman",
+      "image": "schnee",
+      "audio": "tts",
+      "introducedInScene": "a1e13s3",
+      "tags": [
+        "celebration",
+        "weather"
+      ],
+      "cefrLevel": "A1",
+      "note": "der, Plural: die Schneemänner — mit Karottennase"
+    },
+    {
+      "id": "die-wunderkerze",
+      "type": "word",
+      "german": "die Wunderkerze",
+      "meaning": "the sparkler",
+      "image": "feuerwerk",
+      "audio": "tts",
+      "introducedInScene": "a1e13s3",
+      "tags": [
+        "celebration"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Wunderkerzen — funkt! (sparkles)"
+    },
+    {
+      "id": "wuenschen",
+      "type": "chunk",
+      "german": "Ich wünsche dir frohe Weihnachten!",
+      "meaning": "I wish you a merry Christmas!",
+      "image": "geschenk",
+      "audio": "tts",
+      "introducedInScene": "a1e13s3",
+      "tags": [
+        "politeness",
+        "celebration"
+      ],
+      "cefrLevel": "A1",
+      "speak": "Ich wünsche dir frohe Weihnachten!",
+      "note": "wünschen + Dativ — der Wunsch"
+    },
+    {
+      "id": "die-mandarine",
+      "type": "word",
+      "german": "die Mandarine",
+      "meaning": "the mandarin orange",
+      "image": "apfel",
+      "audio": "tts",
+      "introducedInScene": "a1e13s3",
+      "tags": [
+        "food",
+        "celebration"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Mandarinen — der Duft des Dezembers"
+    },
+    {
+      "id": "die-kastanie",
+      "type": "word",
+      "german": "die Kastanie",
+      "meaning": "the chestnut",
+      "image": "kuchen",
+      "audio": "tts",
+      "introducedInScene": "a1e13s3",
+      "tags": [
+        "food",
+        "celebration"
+      ],
+      "cefrLevel": "A1",
+      "note": "die, Plural: die Kastanien — heiß geröstet, in der Tüte"
+    }
   ],
   "scenes": [
     {
@@ -42,21 +312,91 @@
       "titleEn": "A thousand lights",
       "place": "Augustusplatz, Weihnachtsmarkt",
       "bg": "fest",
-      "contextTags": ["celebration", "city", "friends"],
-      "requiredItems": ["die-jacke", "der-regenschirm"],
-      "introducedItems": ["der-weihnachtsmarkt", "der-weihnachtsbaum", "der-stern", "die-lichter", "das-karussell", "gefaellt-dir"],
+      "contextTags": [
+        "celebration",
+        "city",
+        "friends"
+      ],
+      "requiredItems": [
+        "die-jacke",
+        "der-regenschirm"
+      ],
+      "introducedItems": [
+        "der-weihnachtsmarkt",
+        "der-weihnachtsbaum",
+        "der-stern",
+        "die-lichter",
+        "das-karussell",
+        "gefaellt-dir"
+      ],
       "beats": [
-        { "type": "narration", "text": "Dezember, drei Grad, und der ganze Platz leuchtet. Der Weihnachtsbaum ist höher als die Straßenbahn, obendrauf: ein Stern so groß wie ein Auto. Lina zieht sofort Richtung Karussell." },
-        { "type": "line", "speaker": "tobias", "text": "Willkommen auf dem Weihnachtsmarkt — Leipzigs schönster Zaubershow mit Eintritt frei. …Der Baum: 23 Meter. Der Stern: LED. Die Tradition: 500 Jahre. Deine Jacke: viel zu dünn. Nehm die hier, meine zweite.", "translation": "Welcome to the Christmas market — Leipzig's most beautiful magic show, free entry. …The tree: 23 metres. The star: LEDs. The tradition: 500 years. Your jacket: way too thin. Take this one, my spare." },
-        { "type": "meet", "itemIds": ["der-weihnachtsmarkt", "der-weihnachtsbaum", "der-stern"] },
-        { "type": "meet", "itemIds": ["die-lichter", "das-karussell", "gefaellt-dir"] },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "choice", "prompt": "Frau Brügge kommt mit einem Einkaufsnetz voller Lichterketten. „Und, junger Mann? Gefällt dir der Markt?“", "options": [
-          { "label": "Gefällt mir? Ich glaube, ich sehe Sterne — und nicht nur den vom Baum.", "line": "Gefällt mir? Ich glaube, ich sehe Sterne — und nicht nur den vom Baum. …Frau Brügge: „Gut geantwortet. So redet man hier.“" },
-          { "label": "Ja! Alles leuchtet. Bei uns gab es so etwas nicht.", "line": "Ja, alles leuchtet! So etwas gab es bei uns nicht. …Frau Brügge: „Dann ist es Zeit. Kalt ist es trotzdem. Komm, Punsch.“" }
-        ] },
-        { "type": "check", "count": 2, "mode": "recall" },
-        { "type": "line", "speaker": "lina", "text": "Das Karussell ist von 1911! Da fuhren noch meine Urgroßeltern! …Und die Lichter: ZWEITAUSEEND. Ich habe sie gezählt. …Nicht alle. Aber die meisten.", "translation": "The carousel is from 1911! My great-grandparents still rode it! …And the lights: TWO THOUSAND. I counted them. …Not all of them. But most of them." }
+        {
+          "type": "narration",
+          "text": "Dezember, drei Grad, und der ganze Platz leuchtet. Der Weihnachtsbaum ist höher als die Straßenbahn, obendrauf: ein Stern so groß wie ein Auto. Lina zieht sofort Richtung Karussell."
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Willkommen auf dem Weihnachtsmarkt — Leipzigs schönster Zaubershow mit Eintritt frei. …Der Baum: 23 Meter. Der Stern: LED. Die Tradition: 500 Jahre. Deine Jacke: viel zu dünn. Nehm die hier, meine zweite.",
+          "translation": "Welcome to the Christmas market — Leipzig's most beautiful magic show, free entry. …The tree: 23 metres. The star: LEDs. The tradition: 500 years. Your jacket: way too thin. Take this one, my spare."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-weihnachtsmarkt",
+            "der-weihnachtsbaum",
+            "der-stern"
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-lichter",
+            "das-karussell",
+            "gefaellt-dir"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Frau Brügge kommt mit einem Einkaufsnetz voller Lichterketten. „Und, junger Mann? Gefällt dir der Markt?“",
+          "options": [
+            {
+              "label": "Gefällt mir? Ich glaube, ich sehe Sterne — und nicht nur den vom Baum.",
+              "line": "Gefällt mir? Ich glaube, ich sehe Sterne — und nicht nur den vom Baum. …Frau Brügge: „Gut geantwortet. So redet man hier.“"
+            },
+            {
+              "label": "Ja! Alles leuchtet. Bei uns gab es so etwas nicht.",
+              "line": "Ja, alles leuchtet! So etwas gab es bei uns nicht. …Frau Brügge: „Dann ist es Zeit. Kalt ist es trotzdem. Komm, Punsch.“"
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "line",
+          "speaker": "lina",
+          "text": "Das Karussell ist von 1911! Da fuhren noch meine Urgroßeltern! …Und die Lichter: ZWEITAUSEEND. Ich habe sie gezählt. …Nicht alle. Aber die meisten.",
+          "translation": "The carousel is from 1911! My great-grandparents still rode it! …And the lights: TWO THOUSAND. I counted them. …Not all of them. But most of them."
+        },
+        {
+          "type": "reading",
+          "title": "Schild am Markteingang",
+          "text": "WEIHNACHTSMARKT LEIPZIG\n25.11. – 23.12.\nMo–Do 11–21 · Fr/Sa 11–22 · So 11–20\n\nDer Baum: 23 m, 1000 Lichter.\nDer Stern: oben. Immer oben.\n\n»500 Jahre Tradition.\n 0 Grad Punsch. 100 % December.«\n\nBitte: Becher-Pfand behalten (3 €).\nDer Becher ist auch eine Erinnerung.",
+          "translation": "CHRISTMAS MARKET LEIPZIG\n25 Nov – 23 Dec\nMon–Thu 11–21 · Fri/Sat 11–22 · Sun 11–20\n\nThe tree: 23 m, 1,000 lights.\nThe star: on top. Always on top.\n\n'500 years of tradition.\n0-degree punch. 100 % December.'\n\nPlease: keep your cup deposit (€3).\nThe cup is also a souvenir.",
+          "itemIds": [
+            "der-weihnachtsmarkt",
+            "der-weihnachtsbaum",
+            "die-lichter"
+          ]
+        }
       ]
     },
     {
@@ -66,21 +406,80 @@
       "titleEn": "Punch and waffles",
       "place": "Zwischen den Hütten",
       "bg": "markt",
-      "contextTags": ["food", "celebration", "friends"],
-      "requiredItems": ["lecker", "der-kuchen"],
-      "introducedItems": ["der-punsch", "die-waffel", "das-holzspielzeug", "warm", "der-duft", "die-huette"],
+      "contextTags": [
+        "food",
+        "celebration",
+        "friends"
+      ],
+      "requiredItems": [
+        "lecker",
+        "der-kuchen"
+      ],
+      "introducedItems": [
+        "der-punsch",
+        "die-waffel",
+        "das-holzspielzeug",
+        "warm",
+        "der-duft",
+        "die-huette"
+      ],
       "beats": [
-        { "type": "narration", "text": "Zwischen den Holzhütten riecht alles nach Zimt, Tannen und gerösteten Mandeln. Tobias stellt die Wissenschaft des Marktes vor: Punsch-Pfand (drei Euro!) und die Waffel-Regel (Puderzucker geht IMMER)." },
-        { "type": "line", "speaker": "tobias", "text": "Kinderpunsch für dich und mich, Glühwein für Frau Brügge. …Und jetzt halt die Hände drum: WARM, oder? Das ist der Trick des Marktes — erst kalte Nase, dann warmer Punsch. Deswegen kommen alle wieder.", "translation": "Kids' punch for you and me, mulled wine for Frau Brügge. …And now cup your hands around it: WARM, right? That's the market's trick — first a cold nose, then hot punch. That's why everyone comes back." },
-        { "type": "meet", "itemIds": ["der-punsch", "warm", "die-huette"] },
-        { "type": "meet", "itemIds": ["die-waffel", "das-holzspielzeug", "der-duft"] },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "choice", "prompt": "Lina entdeckt das Holzspielzeug-Stand: Räuchermännchen mit 40 Varianten.", "options": [
-          { "label": "Für Frau Brügge: der Räucherkerzen-Mann. Sie hat eine Meinung zu allem.", "line": "Für Frau Brügge nehme ich den Räucherkerzen-Mann — sie hat zu allem eine Meinung, jetzt auch zu ihm." },
-          { "label": "Für Lina: das kleinste Karussell mit Karussell. Endlos.", "line": "Für Lina: das kleinste Karussell MIT Karussell drauf. Rekursion, acht Jahre, perfekt." }
-        ] },
-        { "type": "check", "count": 2, "mode": "listen" },
-        { "type": "reading", "title": "Tafel an der Waffelhütte", "text": "WAFFELN — frisch gebacken!\n\nmit Puderzucker        3,50 €\nmit Apfelmus           4,00 €\nmit Kirschen & Sahne   4,50 €\n\nKinderpunsch           2,50 €\n(Pfand auf den Becher: 3,00 €)\n\n»Erst essen, dann frieren.\n Oder umgekehrt. Beides ist traditionell.«", "translation": "WAFFLES — freshly baked!\n\nwith powdered sugar      €3.50\nwith apple sauce         €4.00\nwith cherries & cream    €4.50\n\nKids' punch              €2.50\n(deposit on the cup: €3.00)\n\n'Eat first, freeze after.\n Or the other way round. Both are traditional.'" }
+        {
+          "type": "narration",
+          "text": "Zwischen den Holzhütten riecht alles nach Zimt, Tannen und gerösteten Mandeln. Tobias stellt die Wissenschaft des Marktes vor: Punsch-Pfand (drei Euro!) und die Waffel-Regel (Puderzucker geht IMMER)."
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Kinderpunsch für dich und mich, Glühwein für Frau Brügge. …Und jetzt halt die Hände drum: WARM, oder? Das ist der Trick des Marktes — erst kalte Nase, dann warmer Punsch. Deswegen kommen alle wieder.",
+          "translation": "Kids' punch for you and me, mulled wine for Frau Brügge. …And now cup your hands around it: WARM, right? That's the market's trick — first a cold nose, then hot punch. That's why everyone comes back."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-punsch",
+            "warm",
+            "die-huette"
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-waffel",
+            "das-holzspielzeug",
+            "der-duft"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Lina entdeckt das Holzspielzeug-Stand: Räuchermännchen mit 40 Varianten.",
+          "options": [
+            {
+              "label": "Für Frau Brügge: der Räucherkerzen-Mann. Sie hat eine Meinung zu allem.",
+              "line": "Für Frau Brügge nehme ich den Räucherkerzen-Mann — sie hat zu allem eine Meinung, jetzt auch zu ihm."
+            },
+            {
+              "label": "Für Lina: das kleinste Karussell mit Karussell. Endlos.",
+              "line": "Für Lina: das kleinste Karussell MIT Karussell drauf. Rekursion, acht Jahre, perfekt."
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "reading",
+          "title": "Tafel an der Waffelhütte",
+          "text": "WAFFELN — frisch gebacken!\n\nmit Puderzucker        3,50 €\nmit Apfelmus           4,00 €\nmit Kirschen & Sahne   4,50 €\n\nKinderpunsch           2,50 €\n(Pfand auf den Becher: 3,00 €)\n\n»Erst essen, dann frieren.\n Oder umgekehrt. Beides ist traditionell.«",
+          "translation": "WAFFLES — freshly baked!\n\nwith powdered sugar      €3.50\nwith apple sauce         €4.00\nwith cherries & cream    €4.50\n\nKids' punch              €2.50\n(deposit on the cup: €3.00)\n\n'Eat first, freeze after.\n Or the other way round. Both are traditional.'"
+        }
       ]
     },
     {
@@ -90,21 +489,89 @@
       "titleEn": "Sparklers",
       "place": "Marktausgang, Abend",
       "bg": "fest",
-      "contextTags": ["celebration", "friends", "feelings"],
-      "requiredItems": ["die-laterne", "die-limo"],
-      "introducedItems": ["der-adventskalender", "der-schneemann", "die-wunderkerze", "wuenschen", "die-mandarine", "die-kastanie"],
+      "contextTags": [
+        "celebration",
+        "friends",
+        "feelings"
+      ],
+      "requiredItems": [
+        "die-laterne",
+        "die-limo"
+      ],
+      "introducedItems": [
+        "der-adventskalender",
+        "der-schneemann",
+        "die-wunderkerze",
+        "wuenschen",
+        "die-mandarine",
+        "die-kastanie"
+      ],
       "beats": [
-        { "type": "narration", "text": "Der Marktausgang: Einfach alles, was Dezember heißt — geröstete Kastanien, Mandarinen-Duft, ein Schneemann aus Plüsch (Lina: „falsch, aber süß“), und Tobias zahlt zwei Wunderkerzen, ohne zu fragen." },
-        { "type": "line", "speaker": "tobias", "text": "Hier. Zündeln erlaubt, außerhalb des Marktes. …Und jetzt die offizielle Frage, erste Dezemberausgabe: Was wünschst du dir zum Fest? …Ich fange an: Ich wünsche mir, dass du hier bleibst. So. Lina, du bist.", "translation": "Here. Sparkling allowed, outside the market. …And now the official question, December edition: what do you wish for the holidays? …I'll start: I wish that you stay here. There. Lina, your turn." },
-        { "type": "meet", "itemIds": ["die-wunderkerze", "wuenschen", "der-adventskalender"] },
-        { "type": "meet", "itemIds": ["der-schneemann", "die-mandarine", "die-kastanie"] },
-        { "type": "check", "count": 2, "mode": "mixed" },
-        { "type": "choice", "prompt": "Die Wunderkerze funkt. Alle schauen dich an.", "options": [
-          { "label": "Ich wünsche mir: nächsten Dezember wieder hier. Mit euch.", "line": "Ich wünsche mir: nächsten Dezember wieder hier, mit euch allen. …Frau Brügge: „Notiert. Verbindlich.“" },
-          { "label": "Ich wünsche mir einen Adventskalender für Erwachsene. Mit Wörtern statt Schokolade.", "line": "Ich wünsche mir einen Adventskalender für Erwachsene — mit Wörtern statt Schokolade. …Tobias: „Den gibt es. Der heißt Kursbuch.“" }
-        ] },
-        { "type": "check", "count": 2, "mode": "listen" },
-        { "type": "narration", "text": "Frau Brügge verteilt Mandarinen aus dem Netz wie Geschenke, und du reihst dich ein: „Ich wünsche dir frohe Weihnachten“ — viermal geübt, viermal gesagt, viermal zurückgekriegt. Die Wunderkerze brennt runter, der Markt leuchtet weiter. Erster Dezember in Leipzig: eingetragen." }
+        {
+          "type": "narration",
+          "text": "Der Marktausgang: Einfach alles, was Dezember heißt — geröstete Kastanien, Mandarinen-Duft, ein Schneemann aus Plüsch (Lina: „falsch, aber süß“), und Tobias zahlt zwei Wunderkerzen, ohne zu fragen."
+        },
+        {
+          "type": "line",
+          "speaker": "tobias",
+          "text": "Hier. Zündeln erlaubt, außerhalb des Marktes. …Und jetzt die offizielle Frage, erste Dezemberausgabe: Was wünschst du dir zum Fest? …Ich fange an: Ich wünsche mir, dass du hier bleibst. So. Lina, du bist.",
+          "translation": "Here. Sparkling allowed, outside the market. …And now the official question, December edition: what do you wish for the holidays? …I'll start: I wish that you stay here. There. Lina, your turn."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-wunderkerze",
+            "wuenschen",
+            "der-adventskalender"
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-schneemann",
+            "die-mandarine",
+            "die-kastanie"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Die Wunderkerze funkt. Alle schauen dich an.",
+          "options": [
+            {
+              "label": "Ich wünsche mir: nächsten Dezember wieder hier. Mit euch.",
+              "line": "Ich wünsche mir: nächsten Dezember wieder hier, mit euch allen. …Frau Brügge: „Notiert. Verbindlich.“"
+            },
+            {
+              "label": "Ich wünsche mir einen Adventskalender für Erwachsene. Mit Wörtern statt Schokolade.",
+              "line": "Ich wünsche mir einen Adventskalender für Erwachsene — mit Wörtern statt Schokolade. …Tobias: „Den gibt es. Der heißt Kursbuch.“"
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "reading",
+          "title": "Adventskalender, Türchen 24",
+          "text": "Heute keine Schokolade.\nHeute steht hier ein Satz:\n\n»Der beste Wunsch ist einer,\nder auch andere glücklich macht.«\n\nDahinter: eine Mandarine.\nDahinter dahinter: nichts.\nDas reicht.",
+          "translation": "Today no chocolate.\nToday there's a sentence here:\n\n'The best wish is one\nthat makes other people happy too.'\n\nBehind it: a mandarin.\nBehind that: nothing.\nThat's enough.",
+          "itemIds": [
+            "der-adventskalender",
+            "wuenschen",
+            "die-mandarine"
+          ]
+        },
+        {
+          "type": "narration",
+          "text": "Frau Brügge verteilt Mandarinen aus dem Netz wie Geschenke, und du reihst dich ein: „Ich wünsche dir frohe Weihnachten“ — viermal geübt, viermal gesagt, viermal zurückgekriegt. Die Wunderkerze brennt runter, der Markt leuchtet weiter. Erster Dezember in Leipzig: eingetragen."
+        }
       ]
     }
   ]
