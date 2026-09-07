@@ -1,0 +1,114 @@
+{
+  "episode": {
+    "id": "a1e9",
+    "arcId": "A1",
+    "cefrLevel": "A1",
+    "title": "Der Wochenmarkt",
+    "titleEn": "The weekly market",
+    "blurb": "Samstag, acht Uhr, Marktplatz: Herr Kranich ruft Preise, die Waage wackelt, und du kaufst zum ersten Mal wie ein echter Leipziger ein — ohne Regal, mit Rede.",
+    "order": 9,
+    "sceneIds": ["a1e9s1", "a1e9s2", "a1e9s3"]
+  },
+  "cast": [
+    { "id": "kranich", "name": "Herr Kranich", "role": "Verkäufer am Wochenmarkt" },
+    { "id": "frau-bruegge", "name": "Frau Brügge", "role": "Vermieterin" },
+    { "id": "tobias", "name": "Tobias", "role": "Nachbar, Student" }
+  ],
+  "items": [
+    { "id": "der-markt", "type": "word", "german": "der Markt", "meaning": "the market", "image": "laden", "audio": "tts", "introducedInScene": "a1e9s1", "tags": ["shopping", "city", "food"], "cefrLevel": "A1", "note": "der, Plural: die Märkte — Wochenmarkt = Wochenmarkt" },
+    { "id": "der-verkaeufer", "type": "word", "german": "der Verkäufer", "meaning": "the seller / vendor", "image": "person", "audio": "tts", "introducedInScene": "a1e9s1", "tags": ["people", "shopping"], "cefrLevel": "A1", "note": "der, Plural: die Verkäufer; weiblich: die Verkäuferin" },
+    { "id": "probieren", "type": "chunk", "german": "Darf ich probieren?", "meaning": "May I try a piece?", "image": "kuchen", "audio": "tts", "introducedInScene": "a1e9s1", "tags": ["shopping", "questions"], "cefrLevel": "A1", "speak": "Darf ich probieren?", "note": "probieren — am Markt fast immer: ja!" },
+    { "id": "der-preisschild", "type": "word", "german": "das Preisschild", "meaning": "the price tag / sign", "image": "formular", "audio": "tts", "introducedInScene": "a1e9s1", "tags": ["shopping", "money"], "cefrLevel": "A1", "note": "das, Plural: die Preisschilder — hilft beim Lesen!" },
+    { "id": "ein-bisschen-mehr", "type": "grammar_pattern", "german": "___ mehr, bitte.", "meaning": "A little more, please.", "image": "tüte", "audio": "tts", "introducedInScene": "a1e9s1", "tags": ["grammar", "shopping"], "cefrLevel": "A1", "cloze": "Ein bisschen", "speak": "Ein bisschen mehr, bitte.", "note": "ein bisschen + Komparativ — höflich nachlegen" },
+    { "id": "die-menge", "type": "word", "german": "die Menge", "meaning": "the amount / quantity", "image": "beleg", "audio": "tts", "introducedInScene": "a1e9s1", "tags": ["shopping"], "cefrLevel": "A1", "note": "die, Plural: die Mengen — auch: eine Menge Leute" },
+    { "id": "die-kraeuter", "type": "word", "german": "die Kräuter", "meaning": "the herbs (plural)", "image": "blumen", "audio": "tts", "introducedInScene": "a1e9s2", "tags": ["food", "cooking"], "cefrLevel": "A1", "note": "Plural: die Kräuter — Petersilie, Basilikum, Schnittlauch" },
+    { "id": "der-strauss", "type": "word", "german": "der Strauß", "meaning": "the bouquet (of flowers)", "image": "geschenk", "audio": "tts", "introducedInScene": "a1e9s2", "tags": ["shopping", "gifts"], "cefrLevel": "A1", "note": "der, Plural: die Sträuße — ein Strauß Blumen" },
+    { "id": "die-waage", "type": "word", "german": "die Waage", "meaning": "the scale", "image": "beleg", "audio": "tts", "introducedInScene": "a1e9s2", "tags": ["shopping"], "cefrLevel": "A1", "note": "die, Plural: die Waagen — auf die Waage legen" },
+    { "id": "reif", "type": "word", "german": "reif", "meaning": "ripe", "image": "sonnenuntergang", "audio": "tts", "introducedInScene": "a1e9s2", "tags": ["food"], "cefrLevel": "A1", "note": "Adjektiv — „Der ist schon reif“ = heute essen" },
+    { "id": "der-geruch", "type": "word", "german": "der Geruch", "meaning": "the smell / scent", "image": "tee", "audio": "tts", "introducedInScene": "a1e9s2", "tags": ["nature", "food"], "cefrLevel": "A1", "note": "der, Plural: die Gerüche — der Geruch von Erdbeeren" },
+    { "id": "der-einkauf", "type": "word", "german": "der Einkauf", "meaning": "the shopping / purchase", "image": "tüte", "audio": "tts", "introducedInScene": "a1e9s2", "tags": ["shopping"], "cefrLevel": "A1", "note": "der, Plural: die Einkäufe — den Einkauf erledigen" },
+    { "id": "das-kochbuch", "type": "word", "german": "das Kochbuch", "meaning": "the cookbook", "image": "buch", "audio": "tts", "introducedInScene": "a1e9s3", "tags": ["cooking", "learning"], "cefrLevel": "A1", "note": "das, Plural: die Kochbücher — von Oma geerbt" },
+    { "id": "die-zwiebel", "type": "word", "german": "die Zwiebel", "meaning": "the onion", "image": "gemuese", "audio": "tts", "introducedInScene": "a1e9s3", "tags": ["food", "cooking"], "cefrLevel": "A1", "note": "die, Plural: die Zwiebeln — bring Tränen" },
+    { "id": "der-topf", "type": "word", "german": "der Topf", "meaning": "the pot", "image": "suppe", "audio": "tts", "introducedInScene": "a1e9s3", "tags": ["cooking", "kitchen"], "cefrLevel": "A1", "note": "der, Plural: die Töpfe — einen Topf aufsetzen" },
+    { "id": "schneiden", "type": "word", "german": "schneiden", "meaning": "to cut", "image": "werkzeug", "audio": "tts", "introducedInScene": "a1e9s3", "tags": ["cooking"], "cefrLevel": "A1", "note": "starkes Verb: schneiden — schnitt — geschnitten" },
+    { "id": "die-mahlzeit", "type": "word", "german": "die Mahlzeit", "meaning": "the meal", "image": "tisch", "audio": "tts", "introducedInScene": "a1e9s3", "tags": ["food"], "cefrLevel": "A1", "note": "die, Plural: die Mahlzeiten — auch Gruß um 12 Uhr!" },
+    { "id": "gutbuergerlich", "type": "word", "german": "gutbürgerlich", "meaning": "hearty / traditional home-style", "image": "salat", "audio": "tts", "introducedInScene": "a1e9s3", "tags": ["food", "opinion"], "cefrLevel": "A1", "note": "Adjektiv — gutbürgerliche Küche = richtiges Essen" }
+  ],
+  "scenes": [
+    {
+      "id": "a1e9s1",
+      "episodeId": "a1e9",
+      "title": "Zwischen den Ständen",
+      "titleEn": "Between the stalls",
+      "place": "Marktplatz, Samstag 8:30",
+      "bg": "markt",
+      "contextTags": ["shopping", "food", "city"],
+      "requiredItems": ["das-gemuese", "wie-viel-kostet"],
+      "introducedItems": ["der-markt", "der-verkaeufer", "probieren", "der-preisschild", "ein-bisschen-mehr", "die-menge"],
+      "beats": [
+        { "type": "narration", "text": "Samstag, acht Uhr dreißig. Der Marktplatz riecht nach Erdbeeren und Kaffee. Herr Kranich ruft Preise wie Poesie: „Tomaten! Rote Tomaten! Süßer als Sonntag!“" },
+        { "type": "line", "speaker": "kranich", "text": "Na, jung! Du schaust wie einer, der noch nie auf einem Markt war. …Stimmt's? Kein Problem: Hier regiert nicht das Regal — hier redet man. Zeig auf, frag, probier. Und die Menge? Bestimmst du.", "translation": "Hey, young one! You look like someone who's never been to a market. …Right? No problem: shelves don't rule here — talking does. Point, ask, taste. And the amount? You decide." },
+        { "type": "meet", "itemIds": ["der-markt", "der-verkaeufer", "die-menge"] },
+        { "type": "meet", "itemIds": ["probieren", "der-preisschild", "ein-bisschen-mehr"] },
+        { "type": "check", "count": 2, "mode": "mixed" },
+        { "type": "choice", "prompt": "Herr Kranich hält eine Tomate an dein Ohr. Warum? Unklar.", "options": [
+          { "label": "Darf ich probieren?", "line": "Darf ich probieren? …„Darfst du! Dafür darfst du auch zuhören: Die Tomate sagt nichts. Das ist gut — reif und diskret.“" },
+          { "label": "Wie viel kostet die Tüte?", "line": "Wie viel kostet die Tüte? …„Zwei fünfzig, und weil du fragst statt schiebst: drei Euro die zwei.“" }
+        ] },
+        { "type": "line", "speaker": "kranich", "text": "Und jetzt du: „Ein bisschen mehr, bitte.“ Sag's laut. …Perfekt! So klingt ein Kunde, der wiederkommt.", "translation": "And now you: 'A little more, please.' Say it loud. …Perfect! That's what a customer who comes back sounds like." },
+        { "type": "check", "count": 2, "mode": "recall" },
+        { "type": "reading", "title": "Schild am Stand von Herrn Kranich", "text": "MARKT AM SAMSTAG — Angebote\n\nTomaten (rot, laut)      2,50 €/Pfund\nErdbeeren (heute, reif)  3,00 €/Schale\nKräuter-Töpfe            1,50 €/Topf\nKartoffeln               1,20 €/Pfund\n\n»Wer fragt, kauft gut.\n Wer probiert, kauft besser.\n Wer wiederkommt, kauft am besten.«\n\n— Familie Kranich, seit 1987", "translation": "SATURDAY MARKET — offers\n\nTomatoes (red, loud)     €2.50/pound\nStrawberries (today, ripe) €3.00/basket\nHerb pots                €1.50/pot\nPotatoes                 €1.20/pound\n\n'Who asks, buys well.\n Who tastes, buys better.\n Who comes back, buys best.'\n\n— Kranich family, since 1987" }
+      ]
+    },
+    {
+      "id": "a1e9s2",
+      "episodeId": "a1e9",
+      "title": "Blumen und Kräuter",
+      "titleEn": "Flowers and herbs",
+      "place": "Blumenstand, zwei Reihen weiter",
+      "bg": "markt",
+      "contextTags": ["shopping", "gifts"],
+      "requiredItems": ["das-obst", "die-blumen"],
+      "introducedItems": ["die-kraeuter", "der-strauss", "die-waage", "reif", "der-geruch", "der-einkauf"],
+      "beats": [
+        { "type": "narration", "text": "Zwei Reihen weiter: Blumen, Kräutertöpfe, und eine Waage, die älter aussieht als der Markt. Frau Brügge steht genau da und wartet offensichtlich auf dich." },
+        { "type": "line", "speaker": "frau-bruegge", "text": "Sam! Gut. Du hilfst mir tragen. …Ein Strauß für die Nachbarin — sie hatte Geburtstag, und ich bin spät dran. Nehmt ihr den mit den gelben? …Danke. Und du: nimm Kräuter. Frische Kräuter machen aus Studentenessen richtiges Essen.", "translation": "Sam! Good. You'll help me carry. …A bouquet for the neighbour — it was her birthday and I'm late. Get her the one with the yellow ones? …Thanks. And you: take herbs. Fresh herbs turn student food into real food." },
+        { "type": "meet", "itemIds": ["der-strauss", "die-kraeuter", "der-einkauf"] },
+        { "type": "line", "speaker": "frau-bruegge", "text": "Die Erdbeeren hier — sieh mal, riech mal. Der Geruch! So riecht kein Supermarkt. Und: schon reif. Die isst du heute, nicht nächste Woche. Auf die Waage damit — aber nicht zu viele, wir sind nicht aus Gold.", "translation": "The strawberries here — look, smell. The scent! No supermarket smells like this. And: already ripe. You eat those today, not next week. On the scale with them — but not too many, we're not made of gold." },
+        { "type": "meet", "itemIds": ["die-waage", "reif", "der-geruch"] },
+        { "type": "check", "count": 2, "mode": "mixed" },
+        { "type": "choice", "prompt": "Frau Brügge hält zwei Kräutertöpfe bereit.", "options": [
+          { "label": "Basilikum — für Tomaten. Und Petersilie.", "line": "Basilikum — für die Tomaten. Und Petersilie. …„Gut gewählt. Du kochst also doch mal was Vernünftiges.“" },
+          { "label": "Was empfehlen Sie für jemanden, der Tomatensuppe aus der Tüte isst?", "line": "Was empfehlen Sie für jemanden, der Tomatensuppe aus der Tüte isst? …„Alles. Fang mit allen an.“" }
+        ] },
+        { "type": "line", "speaker": "frau-bruegge", "text": "So. Dein erster richtiger Einkauf auf einem Markt. Merk dir das Gefühl — das ist Deutschland, bevor es Kassenbons gab.", "translation": "There. Your first real shopping trip at a market. Remember the feeling — that's Germany before there were receipts." },
+        { "type": "check", "count": 2, "mode": "listen" }
+      ]
+    },
+    {
+      "id": "a1e9s3",
+      "episodeId": "a1e9",
+      "title": "Erstmals gekocht",
+      "titleEn": "Cooked for the first time",
+      "place": "Wohnung, Küchentisch, 18:00",
+      "bg": "wohnung",
+      "contextTags": ["food", "home", "friends"],
+      "requiredItems": ["die-kartoffel", "die-butter"],
+      "introducedItems": ["das-kochbuch", "die-zwiebel", "der-topf", "schneiden", "die-mahlzeit", "gutbuergerlich"],
+      "beats": [
+        { "type": "narration", "text": "Abends: dein Küchentisch als Marktplatz-Ausläufer. Omas altes Kochbuch liegt offen (Seite 12: Kartoffelsuppe), die Zwiebeln warten schon. Tobias kommt als 'Qualitätskontrolle' vorbei." },
+        { "type": "meet", "itemIds": ["das-kochbuch", "die-zwiebel", "der-topf"] },
+        { "type": "line", "speaker": "tobias", "text": "Kartoffelsuppe! Respekt. …So, erst: Zwiebeln schneiden. Tränen sind normal, das ist kein Drama, das ist Aromaaufwand. Dann in den Topf, mit Butter. …Deine Suppe wird gutbürgerlich — das ist ein Kompliment, merk dir das Wort.", "translation": "Potato soup! Respect. …First: chop the onions. Tears are normal, that's not drama, that's flavour work. Then into the pot, with butter. …Your soup will be proper home-style — that's a compliment, remember that word." },
+        { "type": "meet", "itemIds": ["schneiden", "die-mahlzeit", "gutbuergerlich"] },
+        { "type": "check", "count": 2, "mode": "mixed" },
+        { "type": "choice", "prompt": "Das Kochbuch sagt: „mit Muskatnuss abschmecken.“ Du hast keine Muskatnuss.", "options": [
+          { "label": "Ohne. Das Kochbuch kennt meine Küche nicht.", "line": "Ohne Muskat. Das Kochbuch kennt meine Küche nicht. …Sie ist neu hier. Wie ich." },
+          { "label": "Ich ruf Frau Brügge an. Die hat ALLES.", "line": "Ich ruf Frau Brügge an. Die hat alles — inklusive Meinungen zur richtigen Menge Muskat." }
+        ] },
+        { "type": "line", "speaker": "tobias", "text": "Sieh dir das an: Ein Topf, Marktgemüse, ein Mensch, der vor vier Wochen „Gleis“ nicht aussprechen konnte. …Das ist deine erste richtige Mahlzeit, oder? Dann: Guten Appetit, Mitschneider.", "translation": "Look at that: one pot, market vegetables, a person who four weeks ago couldn't pronounce 'Gleis'. …This is your first proper meal, right? Then: bon appétit, fellow chopper." },
+        { "type": "check", "count": 2, "mode": "listen" },
+        { "type": "narration", "text": "Die Suppe dampft. Sie schmeckt wie der Markt klingt. Du schreibst auf einen Zettel: „Kartoffelsuppe: geschafft.“ — Der Zettel geht an die Pinnwand, gleich neben den ersten. Die Küche riecht nach Zwiebeln und Erfolg." }
+      ]
+    }
+  ]
+}

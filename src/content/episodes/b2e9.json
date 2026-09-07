@@ -1,0 +1,597 @@
+{
+  "episode": {
+    "id": "b2e9",
+    "arcId": "B2",
+    "cefrLevel": "B2",
+    "title": "Die Lesung",
+    "titleEn": "The reading",
+    "blurb": "Die Rundschau lädt ein: „Angekommen“ live. Ein Saal, ein Mikrofon, fünfzehn Minuten — und der Unterschied zwischen dem geschriebenen und dem gesprochenen Wort.",
+    "order": 21,
+    "sceneIds": [
+      "b2e9s1",
+      "b2e9s2",
+      "b2e9s3"
+    ]
+  },
+  "cast": [
+    {
+      "id": "strassburg",
+      "name": "Frau Straßburg",
+      "role": "Redakteurin, Leipziger Rundschau"
+    },
+    {
+      "id": "mei",
+      "name": "Mei",
+      "role": "Freundin, Lektorin wider Willen"
+    },
+    {
+      "id": "deniz",
+      "name": "Deniz",
+      "role": "Nachbar"
+    }
+  ],
+  "items": [
+    {
+      "id": "die-lesung",
+      "type": "word",
+      "german": "die Lesung",
+      "meaning": "the (public) reading",
+      "image": "mic",
+      "audio": "tts",
+      "introducedInScene": "b2e9s1",
+      "tags": [
+        "media",
+        "culture",
+        "events"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Lesungen — aus etwas vortragen"
+    },
+    {
+      "id": "das-publikum",
+      "type": "word",
+      "german": "das Publikum",
+      "meaning": "the audience",
+      "image": "team",
+      "audio": "tts",
+      "introducedInScene": "b2e9s1",
+      "tags": [
+        "media",
+        "people"
+      ],
+      "cefrLevel": "B2",
+      "note": "das, Plural: die Publika — selten im Singular zu sehen"
+    },
+    {
+      "id": "der-saal",
+      "type": "word",
+      "german": "der Saal",
+      "meaning": "the hall",
+      "image": "haus",
+      "audio": "tts",
+      "introducedInScene": "b2e9s1",
+      "tags": [
+        "culture",
+        "city"
+      ],
+      "cefrLevel": "B2",
+      "note": "der, Plural: die Säle — im Saal, nicht: im Saale (veraltet)"
+    },
+    {
+      "id": "die-angst",
+      "type": "word",
+      "german": "die Angst",
+      "meaning": "the fear",
+      "image": "person",
+      "audio": "tts",
+      "introducedInScene": "b2e9s1",
+      "tags": [
+        "feelings"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Ängste — Angst vor + Dativ"
+    },
+    {
+      "id": "die-nervositaet",
+      "type": "word",
+      "german": "die Nervosität",
+      "meaning": "the nervousness",
+      "image": "urehr",
+      "audio": "tts",
+      "introducedInScene": "b2e9s1",
+      "tags": [
+        "feelings"
+      ],
+      "cefrLevel": "B2",
+      "note": "die ( Singular ) — nervös; Nervosität ist Energie ohne Plan"
+    },
+    {
+      "id": "laut-vorlesen",
+      "type": "chunk",
+      "german": "Laut vorlesen!",
+      "meaning": "Read it out loud!",
+      "image": "laut",
+      "audio": "tts",
+      "introducedInScene": "b2e9s1",
+      "tags": [
+        "learning",
+        "media"
+      ],
+      "cefrLevel": "B2",
+      "speak": "Laut vorlesen!",
+      "note": "vorlesen (trennbar) — der beste Test für jeden Text"
+    },
+    {
+      "id": "die-probe",
+      "type": "word",
+      "german": "die Probe",
+      "meaning": "the rehearsal / test",
+      "image": "kalender",
+      "audio": "tts",
+      "introducedInScene": "b2e9s2",
+      "tags": [
+        "culture",
+        "events"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Proben — Generalprobe = dress rehearsal"
+    },
+    {
+      "id": "die-betonung",
+      "type": "word",
+      "german": "die Betonung",
+      "meaning": "the stress / emphasis (in speech)",
+      "image": "laut",
+      "audio": "tts",
+      "introducedInScene": "b2e9s2",
+      "tags": [
+        "language",
+        "media"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Betonungen — betonen; Sprechrhythmus"
+    },
+    {
+      "id": "der-absatz",
+      "type": "word",
+      "german": "der Absatz",
+      "meaning": "the paragraph (also: shoe heel; sales)",
+      "image": "konzept",
+      "audio": "tts",
+      "introducedInScene": "b2e9s2",
+      "tags": [
+        "writing",
+        "media"
+      ],
+      "cefrLevel": "B2",
+      "note": "der, Plural: die Absätze — drei Bedeutungen, ein Wort"
+    },
+    {
+      "id": "atmen",
+      "type": "word",
+      "german": "atmen",
+      "meaning": "to breathe",
+      "image": "ruhe",
+      "audio": "tts",
+      "introducedInScene": "b2e9s2",
+      "tags": [
+        "health",
+        "feelings"
+      ],
+      "cefrLevel": "B2",
+      "note": "atmen — atmete — geatmet; das hörbare h!"
+    },
+    {
+      "id": "tief-durchatmen",
+      "type": "chunk",
+      "german": "Tief durchatmen.",
+      "meaning": "Take a deep breath.",
+      "image": "thermos",
+      "audio": "tts",
+      "introducedInScene": "b2e9s2",
+      "tags": [
+        "feelings",
+        "health"
+      ],
+      "cefrLevel": "B2",
+      "speak": "Tief durchatmen.",
+      "note": "durchatmen — der Satz vor jedem Auftritt"
+    },
+    {
+      "id": "das-gesprochene-wort",
+      "type": "grammar_pattern",
+      "german": "Das ___ Wort bleibt länger im Raum.",
+      "meaning": "The spoken word stays longer in the room.",
+      "image": "gespräch",
+      "audio": "tts",
+      "introducedInScene": "b2e9s2",
+      "tags": [
+        "grammar",
+        "media"
+      ],
+      "cefrLevel": "B2",
+      "cloze": "gesprochene",
+      "speak": "Das gesprochene Wort bleibt länger im Raum.",
+      "note": "Partizip II als Adjektiv: das gesprochene, das geschriebene Wort"
+    },
+    {
+      "id": "der-beifall",
+      "type": "word",
+      "german": "der Beifall",
+      "meaning": "the applause",
+      "image": "fest",
+      "audio": "tts",
+      "introducedInScene": "b2e9s3",
+      "tags": [
+        "culture",
+        "events"
+      ],
+      "cefrLevel": "B2",
+      "note": "der ( Singular ) — Beifall klatschen"
+    },
+    {
+      "id": "die-stimmung",
+      "type": "word",
+      "german": "die Stimmung",
+      "meaning": "the mood / atmosphere",
+      "image": "sonnenuntergang",
+      "audio": "tts",
+      "introducedInScene": "b2e9s3",
+      "tags": [
+        "feelings",
+        "events"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Stimmungen — gute Stimmung ist ansteckend"
+    },
+    {
+      "id": "die-fragerunde",
+      "type": "word",
+      "german": "die Fragerunde",
+      "meaning": "the Q&A session",
+      "image": "gespräch",
+      "audio": "tts",
+      "introducedInScene": "b2e9s3",
+      "tags": [
+        "events",
+        "media"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Fragerunden — der wahre final boss"
+    },
+    {
+      "id": "die-leserin",
+      "type": "word",
+      "german": "die Leserin",
+      "meaning": "the (female) reader",
+      "image": "person",
+      "audio": "tts",
+      "introducedInScene": "b2e9s3",
+      "tags": [
+        "media",
+        "people"
+      ],
+      "cefrLevel": "B2",
+      "note": "die, Plural: die Leserinnen — Leser und Leserinnen"
+    },
+    {
+      "id": "erleichtert",
+      "type": "word",
+      "german": "erleichtert",
+      "meaning": "relieved",
+      "image": "ruhe",
+      "audio": "tts",
+      "introducedInScene": "b2e9s3",
+      "tags": [
+        "feelings"
+      ],
+      "cefrLevel": "B2",
+      "note": "Partizip als Adjektiv — erleichtert aufatmen"
+    },
+    {
+      "id": "der-widerhall",
+      "type": "word",
+      "german": "der Widerhall",
+      "meaning": "the echo / resonance",
+      "image": "laut",
+      "audio": "tts",
+      "introducedInScene": "b2e9s3",
+      "tags": [
+        "media",
+        "feelings"
+      ],
+      "cefrLevel": "B2",
+      "note": "der ( Singular ) — findet Widerhall = bewegt Menschen"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "b2e9s1",
+      "episodeId": "b2e9",
+      "title": "Die Einladung",
+      "titleEn": "The invitation",
+      "place": "Café Kontor, Theke, Telefon klingelt",
+      "bg": "cafe",
+      "contextTags": [
+        "media",
+        "work",
+        "feelings"
+      ],
+      "requiredItems": [
+        "die-kolumne",
+        "die-rubrik"
+      ],
+      "introducedItems": [
+        "die-lesung",
+        "das-publikum",
+        "der-saal",
+        "die-angst",
+        "die-nervositaet",
+        "laut-vorlesen"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Dienstag, elf Uhr. Das Telefon klingelt zwischen zwei Milchschaum-Wolken. Frau Straßburg, die Stimme hinter jeder Einladung mit Konsequenzen: „Herr Jones. Wie wäre es, wenn Ihre Kolumne mal Töne kriegt?“"
+        },
+        {
+          "type": "line",
+          "speaker": "strassburg",
+          "text": "Literaturhaus, nächste Woche Donnerstag. „Angekommen — live“. Vier Autorinnen und Autoren, jeder liest fünfzehn Minuten. …Sie sind die vierte Stimme. Kleiner Saal, siebzig Stühle, großes Publikum — relativ gesehen an Ihrem Lebenswerk gemessen, das bislang aus einer Kolumne besteht.",
+          "translation": "Literaturhaus, next Thursday. 'Angekommen — live'. Four authors, each reading for fifteen minutes. …You're the fourth voice. Small hall, seventy chairs, big audience — relatively speaking, measured against your life's work, which so far consists of one column."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-lesung",
+            "der-saal",
+            "das-publikum"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "strassburg",
+          "text": "Ein Rat, kostenfrei: Lesen Sie LAUT vor. Zu Hause, laut. Der Text ist gut geschrieben — aber das gesprochene Wort ist eine andere Sportart. …Und: Nervosität ist okay. Angst wäre okay. Absagen wäre das Einzige, was nicht okay ist.",
+          "translation": "One tip, free of charge: read out loud. At home, loud. The text is well written — but the spoken word is a different sport. …And: nervousness is okay. Fear would be okay. Cancelling would be the only thing that's not okay."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-angst",
+            "die-nervositaet",
+            "laut-vorlesen"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Mei steht neben dir und hat alles gehört.",
+          "options": [
+            {
+              "label": "Ich mache das. Mei, du bist meine Generalregisseurin.",
+              "line": "Ich mache das. Mei, du bist ab jetzt meine Generalregisseurin. …„Ich verkaufe hier Kaffee. …Aber ja.“"
+            },
+            {
+              "label": "Siebzig Stühle? Können wir dreißig davon entfernen?",
+              "line": "Siebzig Stühle? Können wir dreißig davon entfernen lassen? …„Nein. Aber du kannst nach hinten sprechen.“"
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "line",
+          "speaker": "mei",
+          "text": "Sam. Vor zwei Jahren konntest du „Ersatzkaffeekannendeckel“ nicht aussprechen. Jetzt liest du auf einer Bühne. …Wir üben. Morgen. Meine Wohnung. Bring Tee mit und Ehrlichkeit, beide in großen Mengen.",
+          "translation": "Sam. Two years ago you couldn't pronounce 'Ersatzkaffeekannendeckel'. Now you're reading on a stage. …We're practising. Tomorrow. My flat. Bring tea and honesty, both in large quantities."
+        }
+      ]
+    },
+    {
+      "id": "b2e9s2",
+      "episodeId": "b2e9",
+      "title": "Die Generalprobe",
+      "titleEn": "The dress rehearsal",
+      "place": "Meis Wohnung, Küchenstuhl als Bühne",
+      "bg": "wohnung",
+      "contextTags": [
+        "media",
+        "friends",
+        "learning"
+      ],
+      "requiredItems": [
+        "die-stimme",
+        "langsam"
+      ],
+      "introducedItems": [
+        "die-probe",
+        "die-betonung",
+        "der-absatz",
+        "atmen",
+        "tief-durchatmen",
+        "das-gesprochene-wort"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Küchenstuhl, Publikum: ein Kaktus („er ist weniger verurteilend als Menschen“). Mei sitzt mit Stift und der Härte einer Redakteurin, die ihre Kolumne auch gelesen hat — dreimal."
+        },
+        {
+          "type": "line",
+          "speaker": "mei",
+          "text": "Nochmal. Aber: langsamer. Du liest wie jemand, der die Polizei kommen hört. …Der Text ist ruhig, dein Tempo ist Panik. …Und: Betonung! „Ich kam mit einem Koffer an“ — nicht: „ich KAM mit einem Koffer an.“ Erzähl es, lies es nicht.",
+          "translation": "Again. But: slower. You're reading like someone hearing the police arrive. …The text is calm, your tempo is panic. …And: stress! 'Ich kam mit einem Koffer an' — not: 'ich KAM mit einem Koffer an.' Tell it, don't read it."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-probe",
+            "die-betonung"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "mei",
+          "text": "Der dritte Absatz ist dein bester. Weißt du warum? …Weil du dort aufhörst, Wörter zu lesen, und anfängst, Erinnerungen zu erzählen. …Und da: mach eine Pause. Eine echte. Tief durchatmen. Das Publikum darf warten. Es zahlt ja Eintritt.",
+          "translation": "The third paragraph is your best. Know why? …Because there you stop reading words and start telling memories. …And there: take a pause. A real one. Take a deep breath. The audience may wait. They're paying for tickets after all."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-absatz",
+            "atmen",
+            "tief-durchatmen"
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "das-gesprochene-wort"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Mei: „Letzte Frage: Was machst du, wenn du den Text vergisst?“",
+          "options": [
+            {
+              "label": "Ich erzähle weiter. Der Text ist ja nur der Faden.",
+              "line": "Ich erzähle einfach weiter. Der Text ist nur der Faden — die Geschichte sitzt in mir, nicht auf dem Papier."
+            },
+            {
+              "label": "Ich sage: „Wo war ich?“ — und das ganze Publikum rettet mich.",
+              "line": "Ich sage: 'Wo war ich?' — und das ganze Publikum rettet mich. …Deutsche Variante: „Ich mache eine künstlerische Pause.“"
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "narration",
+          "text": "Um Mitternacht liest du zum letzten Mal — und der Kaktus kriegt die beste Fassung. Der Text bleibt derselbe. Aber die Stimme heute klingt, als hätte sie das alles selbst erlebt. Hat sie."
+        }
+      ]
+    },
+    {
+      "id": "b2e9s3",
+      "episodeId": "b2e9",
+      "title": "Siebzig Stühle",
+      "titleEn": "Seventy chairs",
+      "place": "Literaturhaus, kleiner Saal",
+      "bg": "buehne",
+      "contextTags": [
+        "media",
+        "culture",
+        "feelings"
+      ],
+      "requiredItems": [
+        "die-kolumne",
+        "die-meinung"
+      ],
+      "introducedItems": [
+        "der-beifall",
+        "die-stimmung",
+        "die-fragerunde",
+        "die-leserin",
+        "erleichtert",
+        "der-widerhall"
+      ],
+      "beats": [
+        {
+          "type": "narration"
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-stimmung"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "strassburg",
+          "text": "Siebzig Stühle, siebzig besetzt. …Sam. Ganz ruhig: Du liest nicht für siebzig Menschen. Du liest für den einen, der wie du irgendwann mit einem Koffer ankam. Es gibt immer einen. …Die Bühne ist deine.",
+          "translation": "Seventy chairs, seventy occupied. …Sam. Calmly: you're not reading for seventy people. You're reading for the one who arrived with a suitcase like you did, once. There's always one. …The stage is yours."
+        },
+        {
+          "type": "narration",
+          "text": "Das Mikrofon knackt. „…Ich kam mit einem Koffer an — und ohne Wörter.“ Im Saal wird es still. Nicht unangenehm still: Zuhause-still. Du erzählst die Banane, die Leipzigerin werden wollte. Du erzählst den Mann mit dem Plastiksack. Die dritte Pause ist echt."
+        },
+        {
+          "type": "line",
+          "speaker": "mei",
+          "text": "(hinten, flüstert) …Er macht Pausen wie ein Profi. Siebzig Menschen hören einem Mann zu, der vor drei Jahren „Ersatzkaffeekannendeckel“ nicht sagen konnte. Ich muss kurz. Was. Haben.",
+          "translation": "(back row, whispering) …He's pausing like a pro. Seventy people are listening to a man who three years ago couldn't say 'Ersatzkaffeekannendeckel'. I need a moment. I'm. Fine."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-beifall",
+            "der-widerhall",
+            "erleichtert"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "line",
+          "speaker": "strassburg",
+          "text": "Fragerunde. Erste Frage, eine Leserin, vorne: „Herr Jones, wann hören Sie auf, eine Kolumne zu schreiben — und wann fangen Sie an, ein Buch zu schreiben?“ …(Publikum: zustimmendes Rauschen)",
+          "translation": "Q&A. First question, a reader, front row: 'Mr Jones, when will you stop writing a column — and when will you start writing a book?' …(audience: approving murmur)"
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-fragerunde",
+            "die-leserin"
+          ]
+        },
+        {
+          "type": "choice",
+          "prompt": "Ein Buch. An dieser Frage hängt der ganze Abend.",
+          "options": [
+            {
+              "label": "Ich habe gerade angefangen. Heute Abend. Kapitel eins.",
+              "line": "Ich habe gerade angefangen — heute Abend. Kapitel eins: „Der Mann mit dem Plastiksack.“"
+            },
+            {
+              "label": "Wenn meine Deutschlehrerin — der Scheduler — es zulässt.",
+              "line": "Wenn mein Deutschlehrer — mein Wiederholungskalender — es zulässt. Der ist streng. …(Lachen im Saal)"
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "reading",
+          "title": "Programmheft „Angekommen — live“",
+          "text": "LITERATURHAUS LEIPZIG\nAngekommen — live\nLesungen & Gespräch · Eintritt 8 €\n\n1. Miriam Osei — „Grün nach Rot“\n2. Pawel Nowicki — „Die Wartezeit“\n3. Ruth Berndl — „Endstation Westwerk“\n4. Sam Jones — „Angekommen“ (Kolumne)\n\nIm Anschluss: Fragerunde mit dem Publikum.\n\n»Vier Ankünfte, eine Stadt.\n Vier Sprachen, eine Bühne.«",
+          "translation": "LITERATURE HOUSE LEIPZIG\nArrived — live\nReadings & conversation · tickets €8\n\n1. Miriam Osei — 'Green after red'\n2. Pawel Nowicki — 'The waiting time'\n3. Ruth Berndl — 'Terminus Westwerk'\n4. Sam Jones — 'Arrived' (column)\n\nAfterwards: Q&A with the audience.\n\n'Four arrivals, one city.\n Four languages, one stage.'"
+        },
+        {
+          "type": "narration",
+          "text": "Nach der Lesung: Flur, kalter Sekt, warme Gesichter. Eine Leserin Mitte sechzig schüttelt deine Hand und sagt nur: „1968. Zwei Koffer. Weitermachen.“ Du nickst. Das Wort hängt nach wie ein Widerhall — und du trägst es nach Hause, erleichtert und ein Buch schwerer."
+        }
+      ]
+    }
+  ]
+}

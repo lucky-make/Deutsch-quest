@@ -1,0 +1,114 @@
+{
+  "episode": {
+    "id": "a2e9",
+    "arcId": "A2",
+    "cefrLevel": "A2",
+    "title": "Der Stromwechsel",
+    "titleEn": "Switching power providers",
+    "blurb": "Eine Abschlagsrechnung mit Herzinfarkt-Potenzial. Tobias, ein Vergleichsportal, ein Brief mit Frist — und am Ende: Ökostrom, günstiger als vorher.",
+    "order": 13,
+    "sceneIds": ["a2e9s1", "a2e9s2", "a2e9s3"]
+  },
+  "cast": [
+    { "id": "tobias", "name": "Tobias", "role": "Nachbar, Student" },
+    { "id": "frau-bruegge", "name": "Frau Brügge", "role": "Vermieterin" },
+    { "id": "luise", "name": "Luise", "role": "Café-Besitzerin" }
+  ],
+  "items": [
+    { "id": "der-strom", "type": "word", "german": "der Strom", "meaning": "the electricity (also: current)", "image": "stecker", "audio": "tts", "introducedInScene": "a2e9s1", "tags": ["home", "utilities"], "cefrLevel": "A2", "note": "der ( Singular ) — der Strom fällt aus = blackout" },
+    { "id": "die-abschlagszahlung", "type": "word", "german": "die Abschlagszahlung", "meaning": "the advance payment (instalment)", "image": "geld", "audio": "tts", "introducedInScene": "a2e9s1", "tags": ["money", "utilities"], "cefrLevel": "A2", "note": "die, Plural: die Abschlagszahlungen — monatlich, voraus" },
+    { "id": "der-verbrauch", "type": "word", "german": "der Verbrauch", "meaning": "the consumption", "image": "urehr", "audio": "tts", "introducedInScene": "a2e9s1", "tags": ["utilities", "money"], "cefrLevel": "A2", "note": "der ( Singular ) — Stromverbrauch, Wasserverbrauch" },
+    { "id": "teuer", "type": "word", "german": "teuer", "meaning": "expensive", "image": "kasse", "audio": "tts", "introducedInScene": "a2e9s1", "tags": ["money", "opinion"], "cefrLevel": "A2", "note": "Adjektiv — teuer, teurer, am teuersten" },
+    { "id": "die-jahresabrechnung", "type": "word", "german": "die Jahresabrechnung", "meaning": "the annual statement", "image": "kalender", "audio": "tts", "introducedInScene": "a2e9s1", "tags": ["money", "utilities", "paperwork"], "cefrLevel": "A2", "note": "die, Plural: die Jahresabrechnungen — steht immer ein Betrag drauf, nie ein guter" },
+    { "id": "die-nachzahlung", "type": "word", "german": "die Nachzahlung", "meaning": "the back payment (owed balance)", "image": "brief", "audio": "tts", "introducedInScene": "a2e9s1", "tags": ["money", "utilities"], "cefrLevel": "A2", "note": "die, Plural: die Nachzahlungen — das Gegenteil von Guthaben" },
+    { "id": "der-tarif", "type": "word", "german": "der Tarif", "meaning": "the (price) plan / rate", "image": "konzept", "audio": "tts", "introducedInScene": "a2e9s2", "tags": ["money", "utilities"], "cefrLevel": "A2", "note": "der, Plural: die Tarife — auch beim Handy und bei der Bahn" },
+    { "id": "der-anbieter", "type": "word", "german": "der Anbieter", "meaning": "the provider", "image": "firma", "audio": "tts", "introducedInScene": "a2e9s2", "tags": ["utilities", "money"], "cefrLevel": "A2", "note": "der, Plural: die Anbieter — es gibt zu viele" },
+    { "id": "vergleichen", "type": "word", "german": "vergleichen", "meaning": "to compare", "image": "prüfen", "audio": "tts", "introducedInScene": "a2e9s2", "tags": ["shopping", "money"], "cefrLevel": "A2", "note": "vergleichen — verglich — verglichen; der Vergleich" },
+    { "id": "der-oekostrom", "type": "word", "german": "der Ökostrom", "meaning": "green electricity", "image": "sonnenuntergang", "audio": "tts", "introducedInScene": "a2e9s2", "tags": ["utilities", "environment"], "cefrLevel": "A2", "note": "der ( Singular ) — aus Wind, Sonne, Wasser" },
+    { "id": "guenstiger-als", "type": "grammar_pattern", "german": "Der neue Tarif ist ___ als der alte.", "meaning": "The new plan is cheaper than the old one.", "image": "münzen", "audio": "tts", "introducedInScene": "a2e9s2", "tags": ["grammar", "money"], "cefrLevel": "A2", "cloze": "günstiger", "speak": "Der neue Tarif ist günstiger als der alte.", "note": "Komparativ + als — billiger, schneller, besser …" },
+    { "id": "der-durchschnitt", "type": "word", "german": "der Durchschnitt", "meaning": "the average", "image": "budget", "audio": "tts", "introducedInScene": "a2e9s2", "tags": ["money", "statistics"], "cefrLevel": "A2", "note": "der, Plural: die Durchschnitte — im Durchschnitt = on average" },
+    { "id": "die-kuendigung", "type": "word", "german": "die Kündigung", "meaning": "the cancellation / notice (of contract)", "image": "brief", "audio": "tts", "introducedInScene": "a2e9s3", "tags": ["paperwork", "utilities"], "cefrLevel": "A2", "note": "die, Plural: die Kündigungen — kündigen (Verb)" },
+    { "id": "die-abmeldung", "type": "word", "german": "die Abmeldung", "meaning": "the deregistration", "image": "formular", "audio": "tts", "introducedInScene": "a2e9s3", "tags": ["paperwork", "admin"], "cefrLevel": "A2", "note": "die, Plural: die Abmeldungen — Gegenteil: die Anmeldung" },
+    { "id": "klimafreundlich", "type": "word", "german": "klimafreundlich", "meaning": "climate-friendly", "image": "wetter", "audio": "tts", "introducedInScene": "a2e9s3", "tags": ["environment", "opinion"], "cefrLevel": "A2", "note": "Adjektiv — Klima + freundlich, sagt sich so schön" },
+    { "id": "wechseln", "type": "word", "german": "wechseln", "meaning": "to switch / change", "image": "entscheidung", "audio": "tts", "introducedInScene": "a2e9s3", "tags": ["utilities", "actions"], "cefrLevel": "A2", "note": "wechseln — den Anbieter, die Währung, die Stelle" },
+    { "id": "sparen", "type": "word", "german": "sparen", "meaning": "to save (money)", "image": "geld", "audio": "tts", "introducedInScene": "a2e9s3", "tags": ["money"], "cefrLevel": "A2", "note": "sparen + mit/wegen — Geld sparen = Volkssport" },
+    { "id": "die-einsparung", "type": "word", "german": "die Einsparung", "meaning": "the saving(s)", "image": "budget", "audio": "tts", "introducedInScene": "a2e9s3", "tags": ["money"], "cefrLevel": "A2", "note": "die, Plural: die Einsparungen — das Ergebnis vom Sparen" }
+  ],
+  "scenes": [
+    {
+      "id": "a2e9s1",
+      "episodeId": "a2e9",
+      "title": "Die Abschlagsrechnung",
+      "titleEn": "The instalment notice",
+      "place": "Wohnung, Briefkasten, dann Küchentisch",
+      "bg": "wohnung",
+      "contextTags": ["money", "home", "problem"],
+      "requiredItems": ["ueberweisen", "die-kasse"],
+      "introducedItems": ["der-strom", "die-abschlagszahlung", "der-verbrauch", "teuer", "die-jahresabrechnung", "die-nachzahlung"],
+      "beats": [
+        { "type": "narration", "text": "Ein Umschlag. Stromwerk. Innen: Zahlen. Viele. Die Jahresabrechnung steht vor der Tür — und neben ihr eine Nachzahlung, die aussieht wie ein kleiner Urlaubsantrag." },
+        { "type": "line", "speaker": "tobias", "text": "Willkommen im Club. …Erster Strom, zweite Überraschung. Dein Verbrauch war höher als der Abschlag gedacht hat. Deswegen: Nachzahlung. Willst du sie überweisen oder in Raten? …Beides ist legal, beides tut weh.", "translation": "Welcome to the club. …First electricity bill, second surprise. Your consumption was higher than the advance payment assumed. Hence: back payment. Want to transfer it or pay in instalments? …Both are legal, both hurt." },
+        { "type": "meet", "itemIds": ["der-strom", "der-verbrauch", "die-nachzahlung"] },
+        { "type": "meet", "itemIds": ["die-abschlagszahlung", "die-jahresabrechnung", "teuer"] },
+        { "type": "check", "count": 2, "mode": "mixed" },
+        { "type": "choice", "prompt": "Tobias dreht den Stift in der Hand. „Also?“", "options": [
+          { "label": "Ich überweise alles. Und dann: nie wieder dieser Tarif.", "line": "Ich überweise alles. Und dann: nie wieder dieser Tarif. …„So redet man, bevor man einen Vergleich macht.“" },
+          { "label": "Raten. Mein Konto ist auch nur ein Mensch.", "line": "Raten. Mein Konto ist auch nur ein Mensch und braucht Schonung." }
+        ] },
+        { "type": "line", "speaker": "frau-bruegge", "text": "(kommt zufällig mit einem Koffer vorbei) Strom? SOFORT wechseln. Ich bin seit zwanzig Jahren bei jedem Anbieter gewesen — alle haben ein Gesicht wie dieser Umschlag. …Aber wechselt mit Frist, nicht mit Wut.", "translation": "(happens by with a suitcase) Electricity? Switch IMMEDIATELY. I've been with every provider in twenty years — they all have a face like this envelope. …But switch with a deadline, not with anger." },
+        { "type": "check", "count": 2, "mode": "recall" },
+        { "type": "reading", "title": "Stromwerk — Jahresabrechnung (Auszug)", "text": "Stromwerk GmbH\nJahresabrechnung 01.08.2025–31.07.2026\n\nVerbrauch:        2.486 kWh\nAbschlag:         71,00 €/Monat\nJahresbetrag:     852,00 €\nIst-Kosten:       918,40 €\n\nNachzahlung:      66,40 €\nBitte bis 20.09. überweisen.\n\nWir danken für Ihr Vertrauen.\n(Der Betrag auch.)", "translation": "Stromwerk GmbH\nAnnual statement 1 Aug 2025–31 Jul 2026\n\nConsumption:      2,486 kWh\nInstalment:       €71.00/month\nAnnual amount:    €852.00\nActual costs:     €918.40\n\nBack payment:     €66.40\nPlease transfer by 20 Sep.\n\nThank you for your trust.\n(The amount does too.)" }
+      ]
+    },
+    {
+      "id": "a2e9s2",
+      "episodeId": "a2e9",
+      "title": "Der Vergleich",
+      "titleEn": "The comparison",
+      "place": "Wohnung, Laptop, zwei Tassen Kaffee",
+      "bg": "wohnung",
+      "contextTags": ["money", "home", "friends"],
+      "requiredItems": ["die-versicherung", "die-postleitzahl"],
+      "introducedItems": ["der-tarif", "der-anbieter", "vergleichen", "der-oekostrom", "guenstiger-als", "der-durchschnitt"],
+      "beats": [
+        { "type": "narration", "text": "Ein Vergleichsportal lädt. Tobias übernimmt die Maus, du die Postleitzahl, und zusammen jagt ihr Tarife wie früher Karten in einem Sammelalbum." },
+        { "type": "line", "speaker": "tobias", "text": "Postleitzahl, Verbrauch, fertig. …Da: Elf Anbieter, elf Tarife. …Nur Geduld — wir vergleichen Preis, Laufzeit und, ja, ob der Ökostrom wirklich grün ist oder nur grün trägt.", "translation": "Postcode, consumption, done. …There: eleven providers, eleven plans. …Patience — we're comparing price, term and, yes, whether the green power is actually green or just wearing green." },
+        { "type": "meet", "itemIds": ["der-tarif", "der-anbieter", "vergleichen"] },
+        { "type": "line", "speaker": "tobias", "text": "Schau: Sonnenwerk. Ökostrom, echter. Und der Tarif ist günstiger als dein alter. Nicht der billigste — aber im Durchschnitt zahlen wir bei so was hinten drauf mehr, nicht weniger.", "translation": "Look: Sonnenwerk. Real green power. And the plan is cheaper than your old one. Not the cheapest — but on average you pay more at the back end with those, not less." },
+        { "type": "meet", "itemIds": ["der-oekostrom", "guenstiger-als", "der-durchschnitt"] },
+        { "type": "check", "count": 2, "mode": "mixed" },
+        { "type": "choice", "prompt": "Der Cursor blinkt über „Jetzt wechseln“.", "options": [
+          { "label": "Klick. Und nie wieder Angst vor dem Briefkasten.", "line": "Klick. Und nie wieder Angst vor dem Briefkasten. …„Vor dem Strombriefkasten. Der andere bleibt gefährlich.“" },
+          { "label": "Warte — läuft das ohne die Versicherung? …Nein, falsches Dokument. Klick.", "line": "Warte — läuft das ohne die Versicherung? …Nein, falsches Dokument, das ist ja die Haftpflicht. Klick." }
+        ] },
+        { "type": "line", "speaker": "tobias", "text": "Bestätigung kommt per Mail. Die Kündigung macht der neue Anbieter — das ist der einzige Service in Deutschland, der wirklich etwas kündigt.", "translation": "Confirmation comes by email. The new provider handles the cancellation — that's the only service in Germany that actually cancels something." },
+        { "type": "check", "count": 2, "mode": "listen" }
+      ]
+    },
+    {
+      "id": "a2e9s3",
+      "episodeId": "a2e9",
+      "title": "Kündigen und wechseln",
+      "titleEn": "Cancelling and switching",
+      "place": "Wohnung, Drucker, dann Café Luise",
+      "bg": "wohnung",
+      "contextTags": ["money", "paperwork", "friends"],
+      "requiredItems": ["ueberweisen", "die-anmeldung"],
+      "introducedItems": ["die-kuendigung", "die-abmeldung", "klimafreundlich", "wechseln", "sparen", "die-einsparung"],
+      "beats": [
+        { "type": "narration", "text": "Der Drucker summt: Kündigung beim alten Stromwerk, einmal bitte. Luise liest mit, auf dem Weg vorbei zum Lager, und hat genau eine Meinung. Natürlich." },
+        { "type": "line", "speaker": "luise", "text": "Eine Kündigung mit Absender und Datum? Junge, das ist Poesie. …Ich wechsle seit Jahren nichts mehr — zu viel Papier. Aber du: Junge, das ist Klimafreundlichkeit UND Geldsparen. Beides zusammen. Fast unanständig.", "translation": "A cancellation with sender and date? Kid, that's poetry. …I haven't switched anything in years — too much paperwork. But you: kid, that's climate-friendliness AND saving money. Both together. Almost indecent." },
+        { "type": "meet", "itemIds": ["die-kuendigung", "die-abmeldung", "klimafreundlich"] },
+        { "type": "meet", "itemIds": ["wechseln", "sparen", "die-einsparung"] },
+        { "type": "check", "count": 2, "mode": "mixed" },
+        { "type": "choice", "prompt": "Der Brief liegt fertig vor dir. Letzte Zeile: „Mit freundlichen Grüßen“.", "options": [
+          { "label": "Ich schicke ihn. Und der Strom wechselt bald die Seite.", "line": "Ich schicke ihn. Und der Strom wechselt bald die Seite — von grau auf grün." },
+          { "label": "Erst Nachzahlung überweisen, dann Kündigung. In dieser Reihenfolge.", "line": "Erst Nachzahlung überweisen, dann Kündigung. In dieser Reihenfolge — so verabschiedet man sich ordentlich." }
+        ] },
+        { "type": "line", "speaker": "luise", "text": "Und jetzt erzähl mir nichts: Du bist vor einem Jahr hier angekommen und kündigst jetzt auf Deutsch Energiekonzerne. …Ich hab Eierlikör da. Wir stoßen an. Auf die Einsparung!", "translation": "And don't tell me otherwise: you arrived here a year ago and now you're cancelling energy companies in German. …I have egg liqueur. Let's toast. To the savings!" },
+        { "type": "check", "count": 2, "mode": "listen" },
+        { "type": "narration", "text": "Der Brief geht raus, die Nachzahlung geht raus, und ab nächstem Monat fließt dein Strom aus Wind. Auf der Pinnwand landet ein neuer Zettel: „Strom: gewechselt. Einsparung: 84 €/Jahr.“ Tobias zeichnet daneben eine kleine Sonne." }
+      ]
+    }
+  ]
+}

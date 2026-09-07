@@ -1,0 +1,116 @@
+{
+  "episode": {
+    "id": "b1e9",
+    "arcId": "B1",
+    "cefrLevel": "B1",
+    "title": "Das Tandem",
+    "titleEn": "The tandem (language exchange)",
+    "blurb": "Sprachcafé im Café Luise: eine Frau namens Sara mit Madrid-Akzent und einem Plan — du sprichst Spanisch, sie Deutsch, beide korrigieren. Sowohl als auch.",
+    "order": 17,
+    "sceneIds": ["b1e9s1", "b1e9s2", "b1e9s3"]
+  },
+  "cast": [
+    { "id": "sara", "name": "Sara", "role": "Tandem-Partnerin aus Madrid" },
+    { "id": "mei", "name": "Mei", "role": "Kollegin im Café" },
+    { "id": "luise", "name": "Luise", "role": "Café-Besitzerin" }
+  ],
+  "items": [
+    { "id": "das-sprachcafe", "type": "word", "german": "das Sprachcafé", "meaning": "the language café (meetup)", "image": "kaffee", "audio": "tts", "introducedInScene": "b1e9s1", "tags": ["language", "learning", "friends"], "cefrLevel": "B1", "note": "das, Plural: die Sprachcafés — Tische mit Sprachetiketten" },
+    { "id": "das-tandem", "type": "word", "german": "das Tandem", "meaning": "the tandem (language exchange; also: bicycle for two)", "image": "team", "audio": "tts", "introducedInScene": "b1e9s1", "tags": ["language", "learning"], "cefrLevel": "B1", "note": "das, Plural: die Tandems — zwei Personen, ein Ziel" },
+    { "id": "die-muttersprache", "type": "word", "german": "die Muttersprache", "meaning": "the native language / mother tongue", "image": "heimat", "audio": "tts", "introducedInScene": "b1e9s1", "tags": ["language"], "cefrLevel": "B1", "note": "die, Plural: die Muttersprachen — Sara: Spanisch" },
+    { "id": "der-akzent", "type": "word", "german": "der Akzent", "meaning": "the accent", "image": "mic", "audio": "tts", "introducedInScene": "b1e9s1", "tags": ["language"], "cefrLevel": "B1", "note": "der, Plural: die Akzente — ein Akzent ist eine Biografie" },
+    { "id": "der-fehler", "type": "word", "german": "der Fehler", "meaning": "the mistake", "image": "prüfen", "audio": "tts", "introducedInScene": "b1e9s1", "tags": ["language", "learning"], "cefrLevel": "B1", "note": "der, Plural: die Fehler — Fehler machen = Fortschritt machen" },
+    { "id": "die-neugier", "type": "word", "german": "die Neugier", "meaning": "the curiosity", "image": "idee", "audio": "tts", "introducedInScene": "b1e9s1", "tags": ["feelings", "learning"], "cefrLevel": "B1", "note": "die ( Singular ) — neugierig auf + Akkusativ" },
+    { "id": "korrigieren", "type": "word", "german": "korrigieren", "meaning": "to correct", "image": "prüfen", "audio": "tts", "introducedInScene": "b1e9s2", "tags": ["language", "learning"], "cefrLevel": "B1", "note": "korrigieren — bitte korrigier mich!" },
+    { "id": "die-aussprache", "type": "word", "german": "die Aussprache", "meaning": "the pronunciation", "image": "laut", "audio": "tts", "introducedInScene": "b1e9s2", "tags": ["language"], "cefrLevel": "B1", "note": "die ( Singular ) — Eier, Ehre, Eule: guter Test" },
+    { "id": "uebersetzen", "type": "word", "german": "übersetzen", "meaning": "to translate", "image": "buch", "audio": "tts", "introducedInScene": "b1e9s2", "tags": ["language"], "cefrLevel": "B1", "note": "übersetzen — auch (Schiff!): übersetzen; Kontext entscheidet" },
+    { "id": "das-woerterbuch", "type": "word", "german": "das Wörterbuch", "meaning": "the dictionary", "image": "buch", "audio": "tts", "introducedInScene": "b1e9s2", "tags": ["language", "learning"], "cefrLevel": "B1", "note": "das, Plural: die Wörterbücher — Papier schlägt App beim lernen" },
+    { "id": "der-wortschatz", "type": "word", "german": "der Wortschatz", "meaning": "the vocabulary", "image": "konzept", "audio": "tts", "introducedInScene": "b1e9s2", "tags": ["language", "learning"], "cefrLevel": "B1", "note": "der ( Singular ) — der Wortschatz wächst, wenn man ihn benutzt" },
+    { "id": "sowohl-als-auch", "type": "grammar_pattern", "german": "___ Sara als auch Mei lernen gern mit mir.", "meaning": "Both Sara and Mei like learning with me.", "image": "team", "audio": "tts", "introducedInScene": "b1e9s2", "tags": ["grammar", "learning"], "cefrLevel": "B1", "cloze": "Sowohl", "speak": "Sowohl Sara als auch Mei lernen gern mit mir.", "note": "sowohl … als auch — verbindet zwei Dinge auf B1-Niveau" },
+    { "id": "gegenseitig", "type": "word", "german": "gegenseitig", "meaning": "mutual / each other", "image": "team", "audio": "tts", "introducedInScene": "b1e9s3", "tags": ["language", "friends"], "cefrLevel": "B1", "note": "Adverb — wir helfen uns gegenseitig" },
+    { "id": "die-motivation", "type": "word", "german": "die Motivation", "meaning": "the motivation", "image": "ziel", "audio": "tts", "introducedInScene": "b1e9s3", "tags": ["learning", "feelings"], "cefrLevel": "B1", "note": "die, Plural: die Motivationen — kommt und geht; Systeme bleiben" },
+    { "id": "das-sprachgefuehl", "type": "word", "german": "das Sprachgefühl", "meaning": "the (innate) feel for language", "image": "idee", "audio": "tts", "introducedInScene": "b1e9s3", "tags": ["language"], "cefrLevel": "B1", "note": "das ( Singular ) — kommt mit der Zeit, nicht mit dem Wörterbuch" },
+    { "id": "die-wiederholung", "type": "word", "german": "die Wiederholung", "meaning": "the repetition / review", "image": "kalender", "audio": "tts", "introducedInScene": "b1e9s3", "tags": ["learning"], "cefrLevel": "B1", "note": "die, Plural: die Wiederholungen — der Motor deines Schedulers" },
+    { "id": "mutig", "type": "word", "german": "mutig", "meaning": "brave / courageous", "image": "mic", "audio": "tts", "introducedInScene": "b1e9s3", "tags": ["feelings"], "cefrLevel": "B1", "note": "Adjektiv — mutig sein + beim Sprechen helfen" },
+    { "id": "der-spass", "type": "word", "german": "der Spaß", "meaning": "the fun", "image": "fest", "audio": "tts", "introducedInScene": "b1e9s3", "tags": ["feelings", "learning"], "cefrLevel": "B1", "note": "der ( Singular ) — Spaß machen + Dativ" }
+  ],
+  "scenes": [
+    {
+      "id": "b1e9s1",
+      "episodeId": "b1e9",
+      "title": "Sprachcafé",
+      "titleEn": "Language café",
+      "place": "Café Luise, Donnerstag 19:00",
+      "bg": "cafe",
+      "contextTags": ["language", "friends", "learning"],
+      "requiredItems": ["hast-du-lust", "die-meinung"],
+      "introducedItems": ["das-sprachcafe", "das-tandem", "die-muttersprache", "der-akzent", "der-fehler", "die-neugier"],
+      "beats": [
+        { "type": "narration", "text": "Donnerstagabend, Café Luise: Luise hat die Tische mit Schildchen bestückt — „English“, „Español“, „Deutsch/hier falsch, aber herzlich“. Mei hat drei Kännchen Kaffee und ein Mikrofon-Verbot durchgesetzt." },
+        { "type": "line", "speaker": "luise", "text": "Sprachcafé, erster Versuch. …Regeln: Wer Fehler macht, kriegt Kaffee. Wer keine macht, redet zu wenig. …Und jetzt sei ruhig mutig, ja? Da hinten sitzt übrigens jemand, der Spanisch will und Deutsch hat.", "translation": "Language café, first attempt. …Rules: anyone making mistakes gets coffee. Anyone making none isn't talking enough. …And now be brave, yes? Over there sits someone who wants Spanish and has German." },
+        { "type": "meet", "itemIds": ["das-sprachcafe", "der-fehler", "die-neugier"] },
+        { "type": "line", "speaker": "sara", "text": "Hola. Sara. Aus Madrid, seit April hier. …Ich lerne Deutsch mit einer App, die mich wie ein Kind behandelt. Ich will ein Tandem — du sprichst Spanisch, ich Deutsch, und wir korrigieren uns gegenseitig. Also: gegenseitig brutal ehrlich.", "translation": "Hola. Sara. From Madrid, here since April. …I'm learning German with an app that treats me like a child. I want a tandem — you speak Spanish, I German, and we correct each other. Well: mutually, brutally honest." },
+        { "type": "meet", "itemIds": ["das-tandem", "die-muttersprache", "der-akzent"] },
+        { "type": "check", "count": 2, "mode": "mixed" },
+        { "type": "choice", "prompt": "Sara reicht die Hand. Ihr Akzent bei „Tandem“ ist besser als deiner.", "options": [
+          { "label": "Deal. Aber: Korrigier mich sofort, nicht irgendwann.", "line": "Deal. Aber: Korrigier mich sofort, nicht irgendwann. …Sara: „Deal. Und du mich auch. Sofort ist auch mein Stil.“" },
+          { "label": "Erst ein Kaffee. Dann das Tandem. Dann die Ehrlichkeit.", "line": "Erst ein Kaffee, dann das Tandem, dann die Ehrlichkeit. …In dieser Reihenfolge. Sara nickt: „Sehr deutsch.“" }
+        ] },
+        { "type": "check", "count": 2, "mode": "recall" },
+        { "type": "line", "speaker": "mei", "text": "Ich hab zugehört. …Sam, dein Spanisch hat einen Leipziger Akzent. Das heißt, du hast jetzt EINE Muttersprache, EINE Zweitsprache und EINEN Akzent auf Rädern. Ich hab das Schildchen „Español“ schon eingeframt.", "translation": "I was listening. …Sam, your Spanish has a Leipzig accent. That means you now have ONE native language, ONE second language and ONE accent on wheels. I already framed the 'Español' table sign." }
+      ]
+    },
+    {
+      "id": "b1e9s2",
+      "episodeId": "b1e9",
+      "title": "Halbe Zeit, halbe Sprache",
+      "titleEn": "Half time, half language",
+      "place": "Clara-Zetkin-Park, Samstag 10:00",
+      "bg": "park",
+      "contextTags": ["language", "learning", "friends"],
+      "requiredItems": ["die-geduld", "die-frage"],
+      "introducedItems": ["korrigieren", "die-aussprache", "uebersetzen", "das-woerterbuch", "der-wortschatz", "sowohl-als-auch"],
+      "beats": [
+        { "type": "narration", "text": "Clara-Zetkin-Park, Bank mit Sicht auf Radfahrer und einen Mann mit äußerst optimalem Frisbee-Wurf. Regel des Tandems: 25 Minuten Deutsch, 25 Minuten Spanisch. Ein Wecker als Schiedsrichter." },
+        { "type": "line", "speaker": "sara", "text": "Regel eins: Du korrigierst mich sofort. Regel zwei: Ich korrigiere dich sofort. Regel drei: Wörterbuch erst NACH dem dritten Versuch. …Los: „Ich bin seit zwei Jahren in Leipzig.“?", "translation": "Rule one: you correct me immediately. Rule two: I correct you immediately. Rule three: dictionary only AFTER the third attempt. …Go: 'Ich bin seit zwei Jahren in Leipzig.'?" },
+        { "type": "meet", "itemIds": ["korrigieren", "die-aussprache", "der-wortschatz"] },
+        { "type": "line", "speaker": "sara", "text": "Fast. „Seit zweiJahren“ — mit Fugen-s. Und: „seit zwei Jahren“ ist gut! …Jetzt du: Übersetz mir „la libreta“. Nicht ins Wörterbuch. Ins Deutsche. Aus dem Kopf.", "translation": "Almost. 'seit zweiJahren' — with the joint s. And: 'seit zwei Jahren' is good! …Now you: translate 'la libreta' for me. Not into the dictionary. Into German. From memory." },
+        { "type": "meet", "itemIds": ["uebersetzen", "das-woerterbuch", "sowohl-als-auch"] },
+        { "type": "check", "count": 2, "mode": "mixed" },
+        { "type": "choice", "prompt": "Sara zählt deine Fehler heute auf: sieben. Sie lächelt dabei.", "options": [
+          { "label": "Sieben? Also bin ich schneller geworden.", "line": "Sieben? Also bin ich schneller geworden — letzte Woche wären es zwölf und eine Flucht gewesen." },
+          { "label": "Schreib sie auf. Alle. Ich sammle sie wie Pokale.", "line": "Schreib sie auf, alle. Ich sammle sie wie Pokale. …Sara: „Dann brauchst du ein größeres Regal.“" }
+        ] },
+        { "type": "line", "speaker": "sara", "text": "Weißt du, was ich an Deutsch liebe? Es gibt Wörter wie „Doch“. Ein ganzes Wort für Widerspruch. …Meine Theorie: Sowohl mein Deutsch als auch dein Spanisch werden besser, weil wir beide mutig genug sind, dumm zu klingen.", "translation": "You know what I love about German? There are words like 'Doch'. A whole word for contradiction. …My theory: both my German and your Spanish get better because we're both brave enough to sound stupid." },
+        { "type": "check", "count": 2, "mode": "listen" },
+        { "type": "reading", "title": "Nachricht von Sara (Gruppenchat „Tandem“)", "text": "Sara: Heute gelernt:\n— „doch“ ≠ „pero“ (trotzdem anders!)\n— Sam: der Unterschied zwischen\n  „können“ und „dürfen“ = Fragewort\n— ich: „der Arm“, nicht „das Arm“\n  (Arme haben kein Geschlecht,\n   laut Sam. Falsch, aber logisch.)\n\nNächste Woche: Präteritum-Tag.\nBringe Trauerflor mit. 😂", "translation": "Sara: Today we learned:\n— 'doch' ≠ 'pero' (different anyway!)\n— Sam: the difference between\n  'können' and 'dürfen' = question word\n— me: 'der Arm', not 'das Arm'\n  (arms have no gender,\n   according to Sam. Wrong, but logical.)\n\nNext week: preterite day.\nBring mourning crepe. 😂" }
+      ]
+    },
+    {
+      "id": "b1e9s3",
+      "episodeId": "b1e9",
+      "title": "Fehler sind Freunde",
+      "titleEn": "Mistakes are friends",
+      "place": "Café Luise, ein Monat später",
+      "bg": "cafe",
+      "contextTags": ["language", "friends", "reflection"],
+      "requiredItems": ["die-verstaendigung", "der-erfolg"],
+      "introducedItems": ["gegenseitig", "die-motivation", "das-sprachgefuehl", "die-wiederholung", "mutig", "der-spass"],
+      "beats": [
+        { "type": "narration", "text": "Ein Monat später. Vier Tandem-Termine, ein fehlgeschlagener Spanisch-Filmabend (Untertitel: deutsch, Sprache: spanisch, Verständnis: kreativ), und ein neues Gefühl: Sätze kommen, bevor du sie suchst." },
+        { "type": "line", "speaker": "sara", "text": "Sam. Vor vier Wochen hast du gefragt, ob das Café „zu“ ist. Heute hast du der Kellnerin erklärt, warum du keinen Milchschaum willst, mit Ausnahme und alles. …Das ist nicht nur Wortschatz. Das ist Sprachgefühl, das wächst.", "translation": "Sam. Four weeks ago you asked if the café was 'zu'. Today you explained to the waitress why you don't want milk foam, with a subordinate clause and everything. …That's not just vocabulary. That's a feel for the language that's growing." },
+        { "type": "meet", "itemIds": ["das-sprachgefuehl", "gegenseitig", "der-spass"] },
+        { "type": "line", "speaker": "sara", "text": "Mein Rezept? …Wiederholung. Nicht die fromme Art — die tägliche. Zehn Minuten, jeden Tag, laut. Und: Mut. Ein Fehler pro Satz ist mein Minimum. …Und Spaß. Wenn es keinen Spaß macht, springt die Motivation ab.", "translation": "My recipe? …Repetition. Not the pious kind — the daily kind. Ten minutes, every day, out loud. And: courage. One mistake per sentence is my minimum. …And fun. When it's no fun, motivation jumps off." },
+        { "type": "meet", "itemIds": ["die-wiederholung", "die-motivation", "mutig"] },
+        { "type": "check", "count": 2, "mode": "mixed" },
+        { "type": "choice", "prompt": "Sara: „Was war dein größter Fehler diese Woche?“", "options": [
+          { "label": "Ich habe der Postbotin „Guten Tag“ um 22 Uhr gesagt.", "line": "Ich habe der Postbotin „Guten Tag“ um 22 Uhr gesagt. Sie hat gelacht. Ich auch. Fortschritt." },
+          { "label": "Ich habe „hohl“ statt „hol“ gesagt. Beim Holzkauf.", "line": "Ich habe „hohl“ statt „hol“ gesagt. Beim Holzkauf. …Der Baumarkt-Mann heißt jetzt bei mir: der Höhlen-Holz-Herr." }
+        ] },
+        { "type": "line", "speaker": "luise", "text": "(stellt Kaffee hin, ohne zu fragen) Ihr zwei redet inzwischen wie ein Ehepaar, nur mit Grammatik. …Sam, dein Deutsch klingt neuerdings nach Erfolg. Das ist neu. Das gefällt mir.", "translation": "(brings coffee without being asked) You two talk like a married couple now, just with grammar. …Sam, your German sounds like success these days. That's new. I like it." },
+        { "type": "check", "count": 2, "mode": "recall" },
+        { "type": "narration", "text": "Auf dem Heimweg denkst du an Sara Theorie zurück: mutig genug, dumm zu klingen. Genau das macht der Scheduler jeden Tag mit dir — stellt die richtige Frage, kurz bevor du sie vergisst. Gegenseitig. Wie ein Tandem." }
+      ]
+    }
+  ]
+}

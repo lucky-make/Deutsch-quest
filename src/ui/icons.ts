@@ -398,6 +398,53 @@ export const ICONS: Record<string, string> = {
     <path d="M4 12h9M4 12c0-4 3-7 7-7h5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
     <path d="M13 9l4-4-4-4" fill="none" stroke="${PALETTE.accent}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" transform="translate(2 7)"/>
     <path d="M15 12h5" stroke="${PALETTE.gold}" stroke-width="1.8" stroke-linecap="round"/>`),
+  // ——— erweiterung 2026-09 ———
+  auto: S(`
+    <path d="M4 14l1.6-4.5A2.5 2.5 0 0 1 8 8h8a2.5 2.5 0 0 1 2.4 1.5L20 14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M4 14h16v3.5a1 1 0 0 1-1 1h-1.5v-1.6a1 1 0 0 0-1-1H7.5a1 1 0 0 0-1 1v1.6H5a1 1 0 0 1-1-1z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    <circle cx="7.8" cy="13.2" r="1.1" fill="${PALETTE.gold}"/><circle cx="16.2" cy="13.2" r="1.1" fill="${PALETTE.gold}"/>`),
+  buch: S(`
+    <path d="M12 6.5C10.4 5 8 4.4 4.8 4.6a.9.9 0 0 0-.8.9v11.6c0 .6.5 1 1.1 1 2.8-.1 5 .4 6.9 1.8 1.9-1.4 4.1-1.9 6.9-1.8.6 0 1.1-.4 1.1-1V5.5a.9.9 0 0 0-.8-.9C16 4.4 13.6 5 12 6.5z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    <path d="M12 6.5v13" stroke="${PALETTE.accent}" stroke-width="1.8"/>
+    <path d="M6.5 9h2.5M6.5 11.5h2.5M15 9h2.5M15 11.5h2.5" stroke="${PALETTE.teal}" stroke-width="1.4" stroke-linecap="round"/>`),
+  kerze: S(`
+    <rect x="9" y="9" width="6" height="11" rx="1.2" fill="none" stroke="currentColor" stroke-width="1.8"/>
+    <path d="M12 9V7" stroke="${PALETTE.accent}" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M12 2.6c1.5 1.4 1.9 2.5 1.2 3.4-.6.8-1.8.8-2.4 0-.7-.9-.3-2 1.2-3.4z" fill="${PALETTE.gold}"/>
+    <path d="M6.5 20h11" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>`),
+  ente: S(`
+    <path d="M9 5.5A2.6 2.6 0 0 1 13.6 7c0 1.5-1.1 2-1.1 3.2h4.9c1.5 0 2.4 1 2.1 2.3-.7 3.6-3.6 6-7.3 6-4.4 0-7.7-3.2-7.7-7.4 0-1.9.6-3.6 1.7-4.9" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M6.2 6.2l1.6-1.6M9.4 3.4l.3 2.1" stroke="${PALETTE.teal}" stroke-width="1.4" stroke-linecap="round"/>
+    <circle cx="10.4" cy="6" r=".9" fill="${PALETTE.accent}"/>`),
+  korb: S(`
+    <path d="M4.5 10h15l-1.6 7.2a2 2 0 0 1-2 1.8H8.1a2 2 0 0 1-2-1.8z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    <path d="M8 10l2-5.5M16 10l-2-5.5M12 10v9M8.4 10l.9 9M15.6 10l-.9 9" stroke="${PALETTE.teal}" stroke-width="1.4" stroke-linecap="round"/>
+    <path d="M9.5 14.5c1.7-1 3.3-1 5 0" fill="none" stroke="${PALETTE.accent}" stroke-width="1.6" stroke-linecap="round"/>`),
+  decke: S(`
+    <path d="M5 9h14a1.5 1.5 0 0 1 1.5 1.5v6A1.5 1.5 0 0 1 19 18H5a1.5 1.5 0 0 1-1.5-1.5v-6A1.5 1.5 0 0 1 5 9z" fill="none" stroke="currentColor" stroke-width="1.8"/>
+    <path d="M3.5 12.5h17" stroke="${PALETTE.teal}" stroke-width="1.4"/>
+    <path d="M6 18l-1 2.5M10 18l-1 2.5M14 18l-1 2.5M18 18l-1 2.5" stroke="${PALETTE.accent}" stroke-width="1.6" stroke-linecap="round"/>`),
+  eis: S(`
+    <path d="M8.5 9.5a3.5 3.5 0 0 1 7 0" fill="none" stroke="currentColor" stroke-width="1.8"/>
+    <path d="M8.5 9.5h7l-3.2 10a.8.8 0 0 1-1.5 0z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    <path d="M9.6 13h4.8" stroke="${PALETTE.accent}" stroke-width="1.6"/>
+    <circle cx="10.5" cy="6.8" r="1.3" fill="${PALETTE.gold}"/><circle cx="13.5" cy="6.8" r="1.3" fill="${PALETTE.accent}"/>`),
+  drachen: S(`
+    <path d="M4 14l7-8 8 4-5 9z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    <path d="M11 6l3 13M4 14l15-4" stroke="${PALETTE.teal}" stroke-width="1.3"/>
+    <path d="M14 19c1.5 1.5 3.5 1.5 5 0" fill="none" stroke="${PALETTE.accent}" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="2.5 2"/>`),
+  ampel: S(`
+    <rect x="8.5" y="3" width="7" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/>
+    <circle cx="12" cy="6.8" r="1.4" fill="${PALETTE.accent}"/>
+    <circle cx="12" cy="10.5" r="1.4" fill="${PALETTE.gold}"/>
+    <circle cx="12" cy="14.2" r="1.4" fill="${PALETTE.teal}"/>
+    <path d="M12 17v4M9 21h6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>`),
+  stecker: S(`
+    <path d="M9 3v5M15 3v5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M7 8h10v3.5a5 5 0 0 1-10 0z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    <path d="M12 16.5V19a2.5 2.5 0 0 1-2.5 2.5H8" fill="none" stroke="${PALETTE.accent}" stroke-width="1.8" stroke-linecap="round"/>`),
+
+
 }
 
 // aliases

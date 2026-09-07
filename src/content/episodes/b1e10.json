@@ -1,0 +1,116 @@
+{
+  "episode": {
+    "id": "b1e10",
+    "arcId": "B1",
+    "cefrLevel": "B1",
+    "title": "Siebzig",
+    "titleEn": "Seventy",
+    "blurb": "Frau Brügge wird 70. Eine Überraschungsparty mit Wenn-Sätzen, einer Torte mit 70 Kerzen — und einer Rede, die länger wird als geplant.",
+    "order": 18,
+    "sceneIds": ["b1e10s1", "b1e10s2", "b1e10s3"]
+  },
+  "cast": [
+    { "id": "frau-bruegge", "name": "Frau Brügge", "role": "Vermieterin" },
+    { "id": "tobias", "name": "Tobias", "role": "Nachbar, Student" },
+    { "id": "deniz", "name": "Deniz", "role": "Nachbar" },
+    { "id": "luise", "name": "Luise", "role": "Café-Besitzerin" }
+  ],
+  "items": [
+    { "id": "der-geburtstag", "type": "word", "german": "der Geburtstag", "meaning": "the birthday", "image": "fest", "audio": "tts", "introducedInScene": "b1e10s1", "tags": ["celebration", "time"], "cefrLevel": "B1", "note": "der, Plural: die Geburtstage — in Deutschland: selbst schmeißen" },
+    { "id": "die-ueberraschung", "type": "word", "german": "die Überraschung", "meaning": "the surprise", "image": "geschenk", "audio": "tts", "introducedInScene": "b1e10s1", "tags": ["celebration", "feelings"], "cefrLevel": "B1", "note": "die, Plural: die Überraschungen — Überraschungsparty (f)" },
+    { "id": "der-wunsch", "type": "word", "german": "der Wunsch", "meaning": "the wish", "image": "idee", "audio": "tts", "introducedInScene": "b1e10s1", "tags": ["celebration", "feelings"], "cefrLevel": "B1", "note": "der, Plural: die Wünsche — sich etwas wünschen" },
+    { "id": "die-kerze", "type": "word", "german": "die Kerze", "meaning": "the candle", "image": "kerze", "audio": "tts", "introducedInScene": "b1e10s1", "tags": ["celebration", "home"], "cefrLevel": "B1", "note": "die, Plural: die Kerzen — 70 Stück: Feuerwehr einladen" },
+    { "id": "heimlich", "type": "word", "german": "heimlich", "meaning": "secret(ly)", "image": "schloss", "audio": "tts", "introducedInScene": "b1e10s1", "tags": ["celebration"], "cefrLevel": "B1", "note": "Adjektiv/Adverb — heimlich Planen, öffentlich feiern" },
+    { "id": "wenn-du-zeit-hast", "type": "grammar_pattern", "german": "___ du Zeit hast, komm um vier vorbei.", "meaning": "If you have time, come by at four.", "image": "kalender", "audio": "tts", "introducedInScene": "b1e10s1", "tags": ["grammar", "celebration"], "cefrLevel": "B1", "cloze": "Wenn", "speak": "Wenn du Zeit hast, komm um vier vorbei.", "note": "Wenn-Satz: Bedingung vorne, Verb an Position 2 hinten" },
+    { "id": "backen", "type": "word", "german": "backen", "meaning": "to bake", "image": "kuchen", "audio": "tts", "introducedInScene": "b1e10s2", "tags": ["cooking", "celebration"], "cefrLevel": "B1", "note": "stark: backen — backte/buk — gebacken" },
+    { "id": "die-torte", "type": "word", "german": "die Torte", "meaning": "the (layer) cake", "image": "kuchen", "audio": "tts", "introducedInScene": "b1e10s2", "tags": ["food", "celebration"], "cefrLevel": "B1", "note": "die, Plural: die Torten — mehr Ebenen als Kuchen" },
+    { "id": "der-lieblingskuchen", "type": "word", "german": "der Lieblingskuchen", "meaning": "the favourite cake", "image": "heimat", "audio": "tts", "introducedInScene": "b1e10s2", "tags": ["food", "celebration"], "cefrLevel": "B1", "note": "der, Plural: die Lieblingskuchen — Lieblings- geht mit allem" },
+    { "id": "die-deko", "type": "word", "german": "die Deko", "meaning": "the decorations (colloq.)", "image": "blumen", "audio": "tts", "introducedInScene": "b1e10s2", "tags": ["celebration"], "cefrLevel": "B1", "note": "die ( Singular ) — kurz für Dekoration" },
+    { "id": "aufraeumen", "type": "word", "german": "aufräumen", "meaning": "to tidy up", "image": "stuhl", "audio": "tts", "introducedInScene": "b1e10s2", "tags": ["home", "actions"], "cefrLevel": "B1", "note": "trennbar: ich räume auf — erst aufräumen, dann feiern" },
+    { "id": "die-tischdecke", "type": "word", "german": "die Tischdecke", "meaning": "the tablecloth", "image": "tisch", "audio": "tts", "introducedInScene": "b1e10s2", "tags": ["home", "celebration"], "cefrLevel": "B1", "note": "die, Plural: die Tischdecken — bei Frau Brügge: mit Blümchen" },
+    { "id": "das-alter", "type": "word", "german": "das Alter", "meaning": "the age", "image": "urehr", "audio": "tts", "introducedInScene": "b1e10s3", "tags": ["time", "people"], "cefrLevel": "B1", "note": "das, Plural: die Alter — „In deinem Alter…“" },
+    { "id": "herzlichen-glueckwunsch", "type": "chunk", "german": "Herzlichen Glückwunsch zum Geburtstag!", "meaning": "Happy birthday! (congratulations)", "image": "geschenk", "audio": "tts", "introducedInScene": "b1e10s3", "tags": ["politeness", "celebration"], "cefrLevel": "B1", "speak": "Herzlichen Glückwunsch zum Geburtstag!", "note": "die offizielle Version von „Alles Gute!“" },
+    { "id": "anstossen", "type": "word", "german": "anstoßen", "meaning": "to clink glasses / toast", "image": "getränk", "audio": "tts", "introducedInScene": "b1e10s3", "tags": ["celebration", "politeness"], "cefrLevel": "B1", "note": "trennbar: wir stoßen an — Blickkontakt! Sonst 7 Jahre Pech" },
+    { "id": "geruehrt", "type": "word", "german": "gerührt", "meaning": "moved / touched (emotionally)", "image": "person", "audio": "tts", "introducedInScene": "b1e10s3", "tags": ["feelings"], "cefrLevel": "B1", "note": "Partizip als Adjektiv — gerührt, nicht erschüttert" },
+    { "id": "die-lebensfreude", "type": "word", "german": "die Lebensfreude", "meaning": "the joy of life", "image": "sonnenuntergang", "audio": "tts", "introducedInScene": "b1e10s3", "tags": ["feelings", "celebration"], "cefrLevel": "B1", "note": "die ( Singular ) — Frau Brügge: Vorbild" },
+    { "id": "die-umarmung", "type": "word", "german": "die Umarmung", "meaning": "the hug", "image": "team", "audio": "tts", "introducedInScene": "b1e10s3", "tags": ["feelings", "friends"], "cefrLevel": "B1", "note": "die, Plural: die Umarmungen — umarmen" }
+  ],
+  "scenes": [
+    {
+      "id": "b1e10s1",
+      "episodeId": "b1e10",
+      "title": "Der heimliche Plan",
+      "titleEn": "The secret plan",
+      "place": "Treppenhaus, Flüsterniveau",
+      "bg": "treppenhaus",
+      "contextTags": ["neighbors", "celebration", "friends"],
+      "requiredItems": ["die-einladung", "die-party"],
+      "introducedItems": ["der-geburtstag", "die-ueberraschung", "der-wunsch", "die-kerze", "heimlich", "wenn-du-zeit-hast"],
+      "beats": [
+        { "type": "narration", "text": "Deniz hat einen Zettel im Treppenhaus verteilt: „BRÜGGE 70 — Freitag. Heimlich. Wer verrät, backt allein.“ Tobias liest ihn vor wie ein Staatsgeheimnis." },
+        { "type": "line", "speaker": "deniz", "text": "Also. Frau Brügge wird siebzig. Sie will NICHTS feiern — deswegen feiern wir. Überraschungsparty, vier Uhr, ihr Garten. …Sam: Du backst. Tobias: Du lenkst sie ab. Ich: Deko. Luise bringt Getränke. Fragen?", "translation": "So. Frau Brügge is turning seventy. She wants to celebrate NOTHING — that's why we're celebrating. Surprise party, four o'clock, her garden. …Sam: you bake. Tobias: you distract her. Me: decorations. Luise brings drinks. Questions?" },
+        { "type": "meet", "itemIds": ["der-geburtstag", "die-ueberraschung", "heimlich"] },
+        { "type": "line", "speaker": "tobias", "text": "Ich hab schon eine Ablenkung: „Frau Brügge, mein Wasserhahn tropft.“ …Die kommt, sieht sich an, repariert mindestens drei Sachen, die nicht kaputt sind. Wir haben dann eine Stunde. …Ihr Wunsch? Was wünscht man SIEBZIG?", "translation": "I've got the distraction covered: 'Ms Brügge, my tap is dripping.' …She'll come, look around, and fix at least three things that aren't broken. That gives us an hour. …Her wish? What do you wish someone turning SEVENTY?" },
+        { "type": "meet", "itemIds": ["der-wunsch", "die-kerze", "wenn-du-zeit-hast"] },
+        { "type": "check", "count": 2, "mode": "mixed" },
+        { "type": "choice", "prompt": "Deniz hält den Zettel hoch wie einen Pass.", "options": [
+          { "label": "Wenn ich Zeit habe, backe ich zwei Torten. Sicher ist sicher.", "line": "Wenn ich Zeit habe, backe ich zwei Torten. Sicher ist sicher. …Deniz: „Das ist der Geist von Frau Brügge.“" },
+          { "label": "70 Kerzen. Wer zündelt?", "line": "70 Kerzen. Wer zündelt? …„Feuerzeug hab ich. Feuerlöscher sucht noch jemand.“" }
+        ] },
+        { "type": "check", "count": 2, "mode": "recall" },
+        { "type": "line", "speaker": "deniz", "text": "Und: NICHTS verraten. Frau Brügge sieht ALLES. Die hat mal meinen Geheimniskoffer schon am Postboten-Gesicht erkannt. Wir reden ab jetzt nur noch übers Wetter. …Regen. Ich sage: Regen.", "translation": "And: reveal NOTHING. Frau Brügge sees EVERYTHING. She once spotted my secret from the postman's face alone. From now on we only talk about the weather. …Rain. I say: rain." }
+      ]
+    },
+    {
+      "id": "b1e10s2",
+      "episodeId": "b1e10",
+      "title": "Backen und Dekorieren",
+      "titleEn": "Baking and decorating",
+      "place": "Wohnung & Frau Brügges Garten, Freitag",
+      "bg": "wohnung",
+      "contextTags": ["food", "celebration", "neighbors"],
+      "requiredItems": ["das-grillfest", "feiern"],
+      "introducedItems": ["backen", "die-torte", "der-lieblingskuchen", "die-deko", "aufraeumen", "die-tischdecke"],
+      "beats": [
+        { "type": "narration", "text": "Freitag, 13 Uhr. Deine Küche ist eine Baustelle aus Mehl. Der Plan: Frau Brügges Lieblingskuchen — Mohnkuchen mit Zimt. Das Rezept steht in ihrer Handschrift auf einer Karte von 1994." },
+        { "type": "line", "speaker": "tobias", "text": "Statusbericht: Wasserhahn-Operation läuft, sie ist im Bad und ermittelt. …Ich hab ihr gesagt, der Hahn klinge „wie ein alter Mann im Treppenhaus“. Sie kam SOFORT. Verlass auf deutsche Handwerker-Instinkte.", "translation": "Status report: tap operation is running, she's in the bathroom investigating. …I told her the tap sounds 'like an old man on the stairs'. She came IMMEDIATELY. You can rely on German craftsman instincts." },
+        { "type": "meet", "itemIds": ["backen", "die-torte", "der-lieblingskuchen"] },
+        { "type": "line", "speaker": "deniz", "text": "(aus dem Garten) Deko hängt! Girlanden, Lichter, ein Schild mit „70“ — und die Tischdecke ihrer Mutter, ganz vorsichtig gewaschen. …Sam, die Torte! Der Zimt! MEHR Zimt. Nein. Genau richtig. Perfekt.", "translation": "(from the garden) Decorations are up! Garlands, lights, a sign with '70' — and her mother's tablecloth, very carefully washed. …Sam, the cake! The cinnamon! MORE cinnamon. No. Exactly right. Perfect." },
+        { "type": "meet", "itemIds": ["die-deko", "die-tischdecke", "aufraeumen"] },
+        { "type": "check", "count": 2, "mode": "mixed" },
+        { "type": "choice", "prompt": "Die Torte ist fertig. 70 Kerzen liegen daneben.", "options": [
+          { "label": "Wir stecken 7 + 0. Eine große, eine runde.", "line": "Wir stecken 7 und 0 rein. Eine große, eine runde. …Sicherer für den Garten. Und für die Geschichte." },
+          { "label": "Alle 70. Was kann schon passieren?", "line": "Alle 70. Was kann schon passieren? …„Ein Gartenbrand mit Stil“, sagt Deniz und holt trotzdem den Eimer." }
+        ] },
+        { "type": "check", "count": 2, "mode": "listen" },
+        { "type": "line", "speaker": "tobias", "text": "Sie kommt! Jeder an seine Position! …Und Sam: Wenn du dich morgen fragst, ob das hier dein Leben ist — ja. Du backst heimlich Mohnkuchen für eine Siebzigjährige in Leipzig. Das IST dein Leben. Und es ist gut.", "translation": "She's coming! Everyone to your positions! …And Sam: if you ask yourself tomorrow whether this is your life — yes. You're secretly baking poppy seed cake for a seventy-year-old in Leipzig. That IS your life. And it's good." }
+      ]
+    },
+    {
+      "id": "b1e10s3",
+      "episodeId": "b1e10",
+      "title": "70 Kerzen",
+      "titleEn": "Seventy candles",
+      "place": "Frau Brügges Garten, 16:00",
+      "bg": "fest",
+      "contextTags": ["celebration", "neighbors", "feelings"],
+      "requiredItems": ["feiern", "die-meinung"],
+      "introducedItems": ["das-alter", "herzlichen-glueckwunsch", "anstossen", "geruehrt", "die-lebensfreude", "die-umarmung"],
+      "beats": [
+        { "type": "narration", "text": "Der Garten. Die Girlanden. Alle Nachbarn, still wie eine Verschwörung. Frau Brügge tritt raus — sieht, kehrt UM, kommt wieder, diesmal mit Taschentuch. „Na gut. Na gut. Aber ich koch dann morgen für euch ALLE.“" },
+        { "type": "line", "speaker": "frau-bruegge", "text": "Siebzig. …Meine Mutter sagte immer: Alter ist, was du draus machst. Ich hab draus gemacht: ein Haus, sechs Nachmietergenerationen, ein Garten, in dem jetzt plötzlich alle stehen. …Und MEINEN Mohnkuchen. Wer hat das Rezept?!", "translation": "Seventy. …My mother always said: age is what you make of it. What I've made of it: a house, six generations of tenants, a garden where suddenly everyone's standing. …And MY poppy seed cake. Who has my recipe?!" },
+        { "type": "meet", "itemIds": ["das-alter", "herzlichen-glueckwunsch", "geruehrt"] },
+        { "type": "choice", "prompt": "Alle schauen dich an. Torte. Kerzen. Dein Moment.", "options": [
+          { "label": "Herzlichen Glückwunsch zum Geburtstag, Frau Brügge. Von uns allen.", "line": "Herzlichen Glückwunsch zum Geburtstag, Frau Brügge. Von uns allen — und von der Torte." },
+          { "label": "Siebzig Jahre Lebensfreude. Das feiern wir jetzt nach.", "line": "Siebzig Jahre Lebensfreude. Das feiern wir jetzt nach — mit Zimt, zu viel davon." }
+        ] },
+        { "type": "meet", "itemIds": ["die-lebensfreude", "anstossen", "die-umarmung"] },
+        { "type": "line", "speaker": "deniz", "text": "ANSTOSSEN! Aber Blickkontakt! Sonst sieben Jahre Pech! …(alle stoßen an, keiner riskiert was) …Auf Frau Brügge: auf fünfundsiebzig, auf achtzig, auf stilles Mietverhältnis und laute Feste!", "translation": "TOAST! But eye contact! Otherwise seven years' bad luck! …(everyone toasts, nobody risks anything) …To Frau Brügge: to seventy-five, to eighty, to quiet tenancy and loud parties!" },
+        { "type": "check", "count": 2, "mode": "mixed" },
+        { "type": "check", "count": 2, "mode": "listen" },
+        { "type": "reading", "title": "Frau Brügges Rezeptkarte (1994)", "text": "Mohnkuchen — Omas Art\n\n500 g Mohn · 4 Eier\n200 g Butter (weich!)\nZIMT. Nicht sparen. Nie.\nZitronenschale von 1 Zitrone\n1 Prise Salz (eine Prise,\n keine Handvoll, Deniz)\n\nBacken: 45 Min., 180°, gut kontrollieren.\nWer ihn isst, kommt wieder.\nWer wiederkommt, kriegt die zweite Hälfte.\n\n— E. Brügge, für Sonntage & 70. Geburtstage", "translation": "Poppy seed cake — grandma's way\n\n500 g poppy seeds · 4 eggs\n200 g butter (soft!)\nCINNAMON. Don't skimp. Ever.\nZest of 1 lemon\n1 pinch of salt (a pinch,\n not a handful, Deniz)\n\nBake: 45 min, 180°, inspect well.\nWho eats it, comes back.\nWho comes back, gets the second half.\n\n— E. Brügge, for Sundays & 70th birthdays" },
+        { "type": "narration", "text": "Abendlicht im Garten. Frau Brügge hält deine Schulter, sagt „du bist gut hier angekommen“ und geht dann Kuchen nachlegen. Tobias reicht dir still zwei Stück mit. Du isst sie beide. Es ist dein drittes Jahr, das in diesem Land beginnt — und das erste, das sich nicht mehr neu anfühlt." }
+      ]
+    }
+  ]
+}

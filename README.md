@@ -76,16 +76,18 @@ shares tags, not because the script demands it. Pinned by
 
 ## Content
 
-- **30 episodes** (A1: 7–8, A2: 7–8, B1: 8, B2: 8), **87 scenes**, **512
+- **38 episodes** (A1: 9 · A2: 9 · B1: 10 · B2: 10), **111 scenes**, **656
   KnowledgeItems** (5–7 new per scene), all hand-authored contemporary German
 - **Lektüre beats**: full reading passages with clickable glossary chips,
-  full-passage audio and translations — Amtsbriefe, Leserbriefe, playlists,
-  physio reports, negotiation cheat-sheets (15 in the course)
+  full-passage audio and translations — Amtsbriefe, Leserbriefe, weather reports,
+  theory exams, invoices, playlists, programme booklets (23 in the course)
 - Systematic grammar woven into the story as first-class items: relative
   clauses, Konjunktiv II, passive (Präsens + Präteritum), je…desto, separable
   verbs, **Verben mit Präpositionen**, **Plusquamperfekt**,
   **Konjunktiv I / indirekte Rede**, **Nominalstil**, Präteritum narration,
-  cloze production
+  Modalverben im Präteritum, Komparativ + als, wenn-Sätze, sowohl…als auch,
+  Lass uns…, Partizipien als Adjektive, Konjunktiv II Vergangenheit (34
+  grammar patterns total)
 - Season finale: Sam registers for and **passes the real telc/Goethe-style B2
   exam** — the story's arc literally aims at the level you're aiming at
 - Content lives entirely in JSON under `src/content/episodes/*.json`.
@@ -96,7 +98,7 @@ shares tags, not because the script demands it. Pinned by
 
 ## Visuals
 
-One hand-authored SVG system: 93 flat two-tone line icons (`src/ui/icons.ts`)
+One hand-authored SVG system: 103 flat two-tone line icons (`src/ui/icons.ts`)
 and 14 minimal scene backgrounds (`src/ui/backgrounds.ts`), one fixed palette,
 one stroke weight. No image generator, no external assets.
 
@@ -119,8 +121,8 @@ subdirectory like `username.github.io/deutschpath/` — all paths are relative.
 
 ## Will this alone get you to B2? (honest answer)
 
-No app alone does that. 512 items is a real, coherent course spine — enough for
-solid A2 with active production and the habit loop that matters most —
+No app alone does that. 656 items is a real, coherent course spine — enough for
+solid B1 with active production and the habit loop that matters most —
 but genuine B2 needs roughly **3,500–4,500 word families**, hundreds of
  grammatical patterns, and hundreds of hours of listening/reading/speaking.
 
@@ -132,11 +134,11 @@ What DeutschPath gives you toward that goal:
 - production practice (typing German, cloze, reconstruction) from scene one
 
 What it doesn't give you yet, and what it would honestly take:
-- **volume**: the item pool needs 3–5× more content. Every episode now has a
-  complete 3-scene arc and reading passages exist, but the daily-sentence and
-  native-media layer still lives outside the app. The engine needs zero changes
-  for more content — it's authoring, and the JSON format + validation tests make
-  it safe to add.
+- **volume**: the item pool needs ~5× more content. 38 complete episodes and
+  23 reading passages are a real spine, but genuine B2 wants thousands of
+  sentences of reading volume and native media — those live outside any app.
+  The engine needs zero changes for more content — it's authoring, and the JSON
+  format + validation tests make it safe to add.
 - **your input**: real B2 requires native-rate listening and speaking partners.
   Use the app as the scheduling spine; pair it with podcasts, media and people.
 

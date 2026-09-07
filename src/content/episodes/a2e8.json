@@ -1,0 +1,572 @@
+{
+  "episode": {
+    "id": "a2e8",
+    "arcId": "A2",
+    "cefrLevel": "A2",
+    "title": "Der Führerschein",
+    "titleEn": "The driving licence",
+    "blurb": "Große Stellen brauchen große Fahrten: Sam meldet sich bei der Fahrschule an. Herr Ott, die Theorie, die Vorfahrt — und ein erstes „musste“ im Präteritum.",
+    "order": 12,
+    "sceneIds": [
+      "a2e8s1",
+      "a2e8s2",
+      "a2e8s3"
+    ]
+  },
+  "cast": [
+    {
+      "id": "ott",
+      "name": "Herr Ott",
+      "role": "Fahrlehrer"
+    },
+    {
+      "id": "tobias",
+      "name": "Tobias",
+      "role": "Nachbar, Student"
+    }
+  ],
+  "items": [
+    {
+      "id": "der-fuehrerschein",
+      "type": "word",
+      "german": "der Führerschein",
+      "meaning": "the driving licence",
+      "image": "pass",
+      "audio": "tts",
+      "introducedInScene": "a2e8s1",
+      "tags": [
+        "documents",
+        "car"
+      ],
+      "cefrLevel": "A2",
+      "note": "der, Plural: die Führerscheine — umgangssprachlich: der Lappen"
+    },
+    {
+      "id": "die-fahrschule",
+      "type": "word",
+      "german": "die Fahrschule",
+      "meaning": "the driving school",
+      "image": "auto",
+      "audio": "tts",
+      "introducedInScene": "a2e8s1",
+      "tags": [
+        "car",
+        "learning"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Fahrschulen — in Deutschland fast ein Ritus"
+    },
+    {
+      "id": "der-fahrlehrer",
+      "type": "word",
+      "german": "der Fahrlehrer",
+      "meaning": "the driving instructor",
+      "image": "person",
+      "audio": "tts",
+      "introducedInScene": "a2e8s1",
+      "tags": [
+        "people",
+        "car"
+      ],
+      "cefrLevel": "A2",
+      "note": "der, Plural: die Fahrlehrer; weiblich: die Fahrlehrerin"
+    },
+    {
+      "id": "die-fahrstunde",
+      "type": "word",
+      "german": "die Fahrstunde",
+      "meaning": "the driving lesson",
+      "image": "kalender",
+      "audio": "tts",
+      "introducedInScene": "a2e8s1",
+      "tags": [
+        "car",
+        "time"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Fahrstunden — pro Stück teuer, im Kopf unbezahlbar"
+    },
+    {
+      "id": "die-gebuehr",
+      "type": "word",
+      "german": "die Gebühr",
+      "meaning": "the fee",
+      "image": "münzen",
+      "audio": "tts",
+      "introducedInScene": "a2e8s1",
+      "tags": [
+        "money",
+        "admin"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Gebühren — Ämter lieben Gebühren"
+    },
+    {
+      "id": "der-sehtest",
+      "type": "word",
+      "german": "der Sehtest",
+      "meaning": "the eye test",
+      "image": "prüfen",
+      "audio": "tts",
+      "introducedInScene": "a2e8s1",
+      "tags": [
+        "health",
+        "admin"
+      ],
+      "cefrLevel": "A2",
+      "note": "der, Plural: die Sehtests — Nachweis für die Anmeldung"
+    },
+    {
+      "id": "die-theorie",
+      "type": "word",
+      "german": "die Theorie",
+      "meaning": "the theory",
+      "image": "buch",
+      "audio": "tts",
+      "introducedInScene": "a2e8s2",
+      "tags": [
+        "learning",
+        "car"
+      ],
+      "cefrLevel": "A2",
+      "note": "die ( Singular ) — erst die Theorie, dann die Praxis"
+    },
+    {
+      "id": "die-vorfahrt",
+      "type": "word",
+      "german": "die Vorfahrt",
+      "meaning": "the right of way",
+      "image": "haltestelle",
+      "audio": "tts",
+      "introducedInScene": "a2e8s2",
+      "tags": [
+        "car",
+        "rules"
+      ],
+      "cefrLevel": "A2",
+      "note": "die ( Singular ) — „Vorfahrt gewähren“ = warten"
+    },
+    {
+      "id": "der-rueckspiegel",
+      "type": "word",
+      "german": "der Rückspiegel",
+      "meaning": "the rear-view mirror",
+      "image": "auto",
+      "audio": "tts",
+      "introducedInScene": "a2e8s2",
+      "tags": [
+        "car"
+      ],
+      "cefrLevel": "A2",
+      "note": "der, Plural: die Rückspiegel — Schulterblick!"
+    },
+    {
+      "id": "die-ampel",
+      "type": "word",
+      "german": "die Ampel",
+      "meaning": "the traffic light",
+      "image": "ampel",
+      "audio": "tts",
+      "introducedInScene": "a2e8s2",
+      "tags": [
+        "car",
+        "city"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Ampeln — bei Grün: Gas geben"
+    },
+    {
+      "id": "vorsicht",
+      "type": "word",
+      "german": "vorsicht",
+      "meaning": "careful / watch out",
+      "image": "laut",
+      "audio": "tts",
+      "introducedInScene": "a2e8s2",
+      "tags": [
+        "car",
+        "safety"
+      ],
+      "cefrLevel": "A2",
+      "note": "„Vorsicht!“ — das meistgebrauchte Wort der Fahrschule"
+    },
+    {
+      "id": "ich-musste-konzentrieren",
+      "type": "grammar_pattern",
+      "german": "Ich ___ mich total konzentrieren.",
+      "meaning": "I had to concentrate completely.",
+      "image": "ziel",
+      "audio": "tts",
+      "introducedInScene": "a2e8s2",
+      "tags": [
+        "grammar",
+        "car"
+      ],
+      "cefrLevel": "A2",
+      "cloze": "musste",
+      "speak": "Ich musste mich total konzentrieren.",
+      "note": "Modalverben im Präteritum: musste, konnte, wollte, durfte"
+    },
+    {
+      "id": "das-gaspedal",
+      "type": "word",
+      "german": "das Gaspedal",
+      "meaning": "the accelerator (pedal)",
+      "image": "auto",
+      "audio": "tts",
+      "introducedInScene": "a2e8s3",
+      "tags": [
+        "car"
+      ],
+      "cefrLevel": "A2",
+      "note": "das, Plural: die Gaspedale — sanft antreten"
+    },
+    {
+      "id": "die-bremse",
+      "type": "word",
+      "german": "die Bremse",
+      "meaning": "the brake",
+      "image": "werkzeug",
+      "audio": "tts",
+      "introducedInScene": "a2e8s3",
+      "tags": [
+        "car",
+        "safety"
+      ],
+      "cefrLevel": "A2",
+      "note": "die, Plural: die Bremsen — bremsen (Verb)"
+    },
+    {
+      "id": "der-lappen",
+      "type": "word",
+      "german": "der Lappen",
+      "meaning": "the licence (colloq.); the cloth",
+      "image": "pass",
+      "audio": "tts",
+      "introducedInScene": "a2e8s3",
+      "tags": [
+        "car",
+        "colloquial"
+      ],
+      "cefrLevel": "A2",
+      "note": "der, Plural: die Lappen — „den Lappen machen“ = Führerschein machen"
+    },
+    {
+      "id": "das-fahrgefuehl",
+      "type": "word",
+      "german": "das Fahrgefühl",
+      "meaning": "the feeling of driving",
+      "image": "sonnenuntergang",
+      "audio": "tts",
+      "introducedInScene": "a2e8s3",
+      "tags": [
+        "car",
+        "feelings"
+      ],
+      "cefrLevel": "A2",
+      "note": "das ( Singular ) — Werbung liebt dieses Wort"
+    },
+    {
+      "id": "lenken",
+      "type": "word",
+      "german": "lenken",
+      "meaning": "to steer",
+      "image": "entscheidung",
+      "audio": "tts",
+      "introducedInScene": "a2e8s3",
+      "tags": [
+        "car"
+      ],
+      "cefrLevel": "A2",
+      "note": "lenken — auch: die Aufmerksamkeit lenken"
+    },
+    {
+      "id": "endlich",
+      "type": "word",
+      "german": "endlich",
+      "meaning": "finally / at last",
+      "image": "zukunft",
+      "audio": "tts",
+      "introducedInScene": "a2e8s3",
+      "tags": [
+        "time",
+        "feelings"
+      ],
+      "cefrLevel": "A2",
+      "note": "Adverb — „Endlich!“ = Seufzer + Freude"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "a2e8s1",
+      "episodeId": "a2e8",
+      "title": "Die Anmeldung",
+      "titleEn": "Signing up",
+      "place": "Fahrschule Ott, Lindenauer Straße",
+      "bg": "buero",
+      "contextTags": [
+        "car",
+        "admin",
+        "learning"
+      ],
+      "requiredItems": [
+        "die-anmeldung",
+        "den-ausweis-vorzeigen"
+      ],
+      "introducedItems": [
+        "der-fuehrerschein",
+        "die-fahrschule",
+        "der-fahrlehrer",
+        "die-fahrstunde",
+        "die-gebuehr",
+        "der-sehtest"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Die Café-Lieferungen werden größer, der Einkaufs-Rucksack schwerer — Zeit für den deutschen Weg zu allem: der Führerschein. Fahrschule Ott, Hinterhaus, ein Schreibtisch aus 1987."
+        },
+        {
+          "type": "line",
+          "speaker": "ott",
+          "text": "Herr Ott. Fahrschule. …Du willst den Lappen machen? Gut. Dann erstmal: Ausweis her, Sehtest-Nachweis, Foto — und eine Unterschrift, die du hinterher bereuen wirst, aber erst nach der ersten Fahrstunde.",
+          "translation": "Mr Ott. Driving school. …You want to get your licence? Good. First: ID, eye-test certificate, photo — and a signature you'll regret, but only after the first lesson."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-fuehrerschein",
+            "die-fahrschule",
+            "der-fahrlehrer"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "ott",
+          "text": "Die Gebühren: Grundbeitrag, dann pro Fahrstunde. …Und ja, das ist viel Geld. Deswegen bestehen meine Schüler schneller. Motivation über Preis.",
+          "translation": "The fees: base amount, then per lesson. …And yes, that's a lot of money. That's why my students pass faster. Motivation through pricing."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-fahrstunde",
+            "die-gebuehr",
+            "der-sehtest"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Herr Ott: „Warum jetzt? Du fährst doch schon Rad wie ein Verrückter.“",
+          "options": [
+            {
+              "label": "Größere Lieferungen. Und ich will endlich autonom sein.",
+              "line": "Größere Lieferungen. Und ich will endlich autonom sein — Rad, Bahn, egal wohin."
+            },
+            {
+              "label": "Das Auto im Dresdner Regen sah praktisch aus.",
+              "line": "Ich muss zugeben: Das Auto im Dresdner Regen sah praktisch aus. Nur der Preis sieht rot aus."
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "recall"
+        },
+        {
+          "type": "line",
+          "speaker": "ott",
+          "text": "Erste Theorie: Dienstag, 18 Uhr. Erste Fahrstunde: Donnerstag. …Und jetzt raus hier, ich hab noch einen Schüler, der glaubt, Vorfahrt sei ein Vorschlag.",
+          "translation": "First theory class: Tuesday, 6 pm. First driving lesson: Thursday. …Now out, I've got another student who thinks right of way is a suggestion."
+        }
+      ]
+    },
+    {
+      "id": "a2e8s2",
+      "episodeId": "a2e8",
+      "title": "Die Theorie",
+      "titleEn": "The theory",
+      "place": "Fahrschule, Klassenraum",
+      "bg": "buero",
+      "contextTags": [
+        "car",
+        "learning",
+        "rules"
+      ],
+      "requiredItems": [
+        "das-fahrrad",
+        "die-versicherung"
+      ],
+      "introducedItems": [
+        "die-theorie",
+        "die-vorfahrt",
+        "der-rueckspiegel",
+        "die-ampel",
+        "vorsicht",
+        "ich-musste-konzentrieren"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Dienstagabend: Du, Tobias (aus Solidarität, mit Energydrink), fünf Sechzehnjährige und ein Beamer. An der Tafel: eine Kreuzung, vier Pfeile, null Gnade."
+        },
+        {
+          "type": "line",
+          "speaker": "ott",
+          "text": "Theorie. Frage eins: Wer hat Vorfahrt? …Nicht raten! Rechte Hand? Rechte Straße? …Genau. „Vorfahrt gewähren“ heißt: du wartest. Auch wenn du es eilig hast. BESONDERS wenn du es eilig hast.",
+          "translation": "Theory. Question one: who has right of way? …Don't guess! Right hand? Right street? …Exactly. 'Yield' means: you wait. Even if you're in a hurry. ESPECIALLY if you're in a hurry."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "die-theorie",
+            "die-vorfahrt",
+            "die-ampel"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "ott",
+          "text": "Frage vier: Du fährst Auto, vor dir ein Radfahrer. Was tun? …Richtig: Überholen mit Abstand. Ihr Radfahrer seid hier übrigens gute Kunden — Versicherung fragt auch nach dem. Aber heute sind wir Auto.",
+          "translation": "Question four: you're driving a car, cyclist ahead. What do you do? …Right: overtake with distance. You cyclists are good customers here, by the way — insurance asks about that too. But today we're car people."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "der-rueckspiegel",
+            "vorsicht",
+            "ich-musste-konzentrieren"
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Tobias flüstert: „Und? Kopf voll?“",
+          "options": [
+            {
+              "label": "Ich musste mich total konzentrieren. Aber es logisch!",
+              "line": "Ich musste mich total konzentrieren. Aber es ist logisch! …Nur „Vorfahrt gewähren“ klingt wie eine höfliche Drohung."
+            },
+            {
+              "label": "Einfacher als die Bahn-App. Ernsthaft.",
+              "line": "Einfacher als die Bahn-App. Ernsthaft. Bei der Deutschen Bahn brauchst du Vorfahrt, Glück und einen Plan."
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "reading",
+          "title": "Theorie-Fragebogen (Auszug)",
+          "text": "Fahrschule Ott — Übungsbogen 7\n\nFrage 12: Sie nähern sich dieser Kreuzung.\nWer muss warten?\n  a) Sie   b) derblaue Wagen   c) niemand\nAntwort: b — rechts vor links.\n\nFrage 15: Bei ROT an der Ampel…\n  a) vorsichtig weiterfahren\n  b) anhalten und warten\n  c) hupen\nAntwort: b. Immer b. Ja, auch nachts.\n\nFehlerpunkte merken sich. Leider.",
+          "translation": "Driving school Ott — practice sheet 7\n\nQuestion 12: You approach this intersection.\nWho has to wait?\n  a) you   b) the blue car   c) nobody\nAnswer: b — priority to the right.\n\nQuestion 15: At a RED light…\n  a) drive on carefully\n  b) stop and wait\n  c) honk\nAnswer: b. Always b. Yes, at night too.\n\nPenalty points have memory. Unfortunately."
+        }
+      ]
+    },
+    {
+      "id": "a2e8s3",
+      "episodeId": "a2e8",
+      "title": "Die erste Fahrt",
+      "titleEn": "The first drive",
+      "place": "Lindenau, Hinterhof-Ausfahrt, dann Straße",
+      "bg": "strasse",
+      "contextTags": [
+        "car",
+        "learning",
+        "friends"
+      ],
+      "requiredItems": [
+        "kaputt",
+        "die-fahrt"
+      ],
+      "introducedItems": [
+        "das-gaspedal",
+        "die-bremse",
+        "der-lappen",
+        "das-fahrgefuehl",
+        "lenken",
+        "endlich"
+      ],
+      "beats": [
+        {
+          "type": "narration",
+          "text": "Donnerstag, 17 Uhr. Ein silberner Golf mit doppelter Pedalerie. Herr Ott setzt sich rechts, wie ein Mensch, der das schon tausend Mal getan hat und es trotzdem ernst nimmt."
+        },
+        {
+          "type": "line",
+          "speaker": "ott",
+          "text": "So. Links: Kupplung, rechts: Bremse, ganz rechts: Gaspedal. Dein Job heute: lenken, fahren, atmen. …Und merken: Das Auto macht, was DU willst. Nicht was du fürchtest.",
+          "translation": "OK. Left: clutch, middle: brake, far right: accelerator. Your job today: steer, drive, breathe. …And remember: the car does what YOU want. Not what you fear."
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "das-gaspedal",
+            "die-bremse",
+            "lenken"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "ott",
+          "text": "Sanft. SANFT. …Gut. So. Rückspiegel! Schulterblick! …Vorsicht, Fußgänger! …Und: Kupplung kommen lassen wie ein schüchterner Mensch auf einer Party: langsam, langsam, Kontakt.",
+          "translation": "Gently. GENTLY. …Good. There. Rear mirror! Shoulder check! …Careful, pedestrian! …And: release the clutch like a shy person at a party: slowly, slowly, contact."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "mixed"
+        },
+        {
+          "type": "choice",
+          "prompt": "Die Straße ist frei. Herr Ott nickt.",
+          "options": [
+            {
+              "label": "Gaspedal. Ganz sanft. …Wir fahren!",
+              "line": "Gaspedal, ganz sanft. …WIR FAHREN! Das ist offiziell mein bestes Gaspedal-Erlebnis."
+            },
+            {
+              "label": "Erst Rückspiegel. Dann Schulterblick. DANN Gas.",
+              "line": "Erst Rückspiegel, dann Schulterblick, DANN Gas. …„Na, du lernst. So kriegen wir beide alt.“"
+            }
+          ]
+        },
+        {
+          "type": "meet",
+          "itemIds": [
+            "das-fahrgefuehl",
+            "der-lappen",
+            "endlich"
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "ott",
+          "text": "Das, mein Freund, ist das Fahrgefühl. …In drei Monaten machst du die Prüfung. Danach heißt du: Herr Jones mit Lappen. …Und dann, Achtung, kommt die Ironie: Du suchst einen Parkplatz. Für immer.",
+          "translation": "That, my friend, is the feeling of driving. …In three months you'll take the test. After that you'll be: Mr Jones with a licence. …And then, careful, here comes the irony: you'll look for a parking spot. Forever."
+        },
+        {
+          "type": "check",
+          "count": 2,
+          "mode": "listen"
+        },
+        {
+          "type": "narration",
+          "text": "Der Motor aus. Deine Hände zittern ein bisschen — vor Stolz, nicht vor Angst. Tobias winkt vom Radweg. Du fährst mit dem Auto langsam an ihm vorbei und winkst wie ein König. Endlich."
+        }
+      ]
+    }
+  ]
+}
